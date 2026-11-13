@@ -9,9 +9,10 @@
 //
 // Sources : onglets « Seasons and Events » (NH), « Events » (NL, CF, WW, GC) et « Villagers » des tableurs
 // communautaires. Les dates qui changent chaque année sont calculées ici de ANNEE_DEBUT à ANNEE_FIN.
+const fs = require('fs');
 const path = require('path');
 const { lireClasseurAvecCache } = require('./lib/xlsx');
-const { DOSSIER_SOURCES, slug, majuscule, ecrireJson, creerAttributeurIds } = require('./lib/outils');
+const { DOSSIER_SOURCES, slug, majuscule, ecrireJson, creerAttributeurIds, telecharger } = require('./lib/outils');
 
 const ANNEE_DEBUT = 2024;
 const ANNEE_FIN = 2040;
@@ -308,6 +309,135 @@ function fusionnerDoublons(liste) {
   return res;
 }
 
+// ---------------------------------------------------------------------------
+// animalcrossing-online.com : pages « Événements » de Wild World, Let's Go to the City et du GameCube.
+// Chaque événement y a un nom français et un code de date, par ex. :
+//   "12/31"                    -> 31 décembre
+//   "12/23-26-31"              -> les 23, 26 et 31 décembre
+//   "07/25-26-…-31,08"         -> du 25 juillet à la fin août
+//   "06:3Sun,07:3Sun"          -> 3e dimanche de juin et de juillet (Der = dernier, Tou = tous les)
+//   "10:2Week"                 -> la semaine du 2e lundi d'octobre (du lundi au dimanche)
+//   "02/00,03"                 -> en février ou en mars (date variable : Pâques, lune…)
+// ---------------------------------------------------------------------------
+const PAGES_SITE = { ww: 'wild-world-ds', cf: 'let-s-go-to-the-city-wii', gc: 'animal-crossing-gamecube' };
+const JOURS_SITE = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+
+async function pageEvenements(jeu) {
+  const fichier = path.join(DOSSIER_SOURCES, 'aco', `${jeu}-evenements.html`);
+  if (!fs.existsSync(fichier) || process.argv.includes('--maj')) {
+    for (let essai = 1; essai <= 4; essai++) {
+      try {
+        await telecharger(`https://www.animalcrossing-online.com/${PAGES_SITE[jeu]}/evenements.php`, fichier, 5, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)');
+        break;
+      } catch (e) {
+        console.log(`  page événements ${jeu} : essai ${essai} raté (${e.message})`);
+        await new Promise(r => setTimeout(r, 2000 * essai));
+      }
+    }
+  }
+  return fs.existsSync(fichier) ? fs.readFileSync(fichier, 'utf8') : '';
+}
+
+// Extrait [nom, texte de la période, code] de la rubrique « Tous les événements ».
+function lirePageEvenements(html) {
+  const texte = html.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<br\s*\/?>/g, '\n')
+    .replace(/<\/(p|div|h\d|li|tr|td)>/g, '\n').replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;/g, ' ').replace(/&#039;/g, "'").replace(/&amp;/g, '&').replace(/[ \t]+/g, ' ');
+  const debut = texte.indexOf('Tous les événements');
+  const lignes = texte.slice(debut < 0 ? 0 : debut).split('\n').map(s => s.trim()).filter(Boolean);
+  const res = [];
+  for (let i = 1; i < lignes.length; i++) {
+    const m = /^Période\s*:\s*(.*?)\s+(\S+)$/.exec(lignes[i]);
+    if (m) res.push({ nom: lignes[i - 1], periode: m[1], code: m[2] });
+  }
+  return res;
+}
+
+// Transforme le code du site en règle (même format que lireRegle).
+function regleDuSite(code, nom, periode) {
+  // Dates variables (« février ou mars ») : on les calcule nous-mêmes d'après la nature de l'événement.
+  if (/\/00/.test(code)) {
+    if (/œufs|oeufs|pâques/i.test(nom)) return lireRegle('', 'Bunny Day');
+    if (/carnaval/i.test(nom)) return lireRegle('', 'Festivale');
+    if (/lune/i.test(nom)) return lireRegle('', 'Autumn Moon');
+    const mois = code.split(/[,/]/).filter(x => /^\d{2}$/.test(x) && x !== '00').map(Number);
+    // Une « saison » occupe tout le mois ; sinon, c'est un jour qui change chaque année.
+    if (/saison/i.test(nom)) return { calcul: a => mois.map(m => [iso(a, m, 1), iso(a, m, dernierJour(a, m))]), regle: `tout le mois ${de(mois.map(m => NOMS_MOIS[m - 1]).join(', '))}` };
+    return { mois, regle: periode.charAt(0).toLowerCase() + periode.slice(1) + ' (jour variable)' };
+  }
+  const morceaux = code.split(',');
+  // Jours de la semaine : « 06:3Sun », « 08:TouSat », « 05:DerSun », « 10:2Week »
+  if (morceaux.every(x => /^\d{2}:(\d|Der|Tou)(Sun|Mon|Tue|Wed|Thu|Fri|Sat|Week)$/.test(x))) {
+    const regles = morceaux.map(x => { const r = /^(\d{2}):(\d|Der|Tou)(\w+)$/.exec(x); return { m: Number(r[1]), rang: r[2], jour: r[3] }; });
+    return {
+      calcul: a => regles.flatMap(({ m, rang, jour }) => {
+        if (jour === 'Week') {
+          // La « n-ième semaine » : du n-ième lundi du mois au dimanche suivant.
+          const lundi = nieme(a, m, 1, Number(rang));
+          const [a2, m2, j2] = plusJours(a, m, lundi, 6);
+          return [[iso(a, m, lundi), iso(a2, m2, j2)]];
+        }
+        const js = JOURS_SITE[jour];
+        if (rang === 'Tou') return tousLes(a, m, js).map(j => [iso(a, m, j), iso(a, m, j)]);
+        const j = nieme(a, m, js, rang === 'Der' ? -1 : Number(rang));
+        return [[iso(a, m, j), iso(a, m, j)]];
+      }),
+      regle: periode.charAt(0).toLowerCase() + periode.slice(1),
+    };
+  }
+  // Jours précis : « 12/31 », « 12/23-26-31 », « 04/05-06-07 », « 07/25-26-…-31,08 »
+  const plages = [];
+  for (const x of morceaux) {
+    if (/^\d{2}$/.test(x)) { plages.push({ mois: Number(x), jours: null }); continue; } // mois entier
+    const r = /^(\d{2})\/([\d-]+)$/.exec(x);
+    if (!r) return null;
+    plages.push({ mois: Number(r[1]), jours: r[2].split('-').map(Number) });
+  }
+  const approx = / ou /.test(periode); // « 19, 20 ou 21 mars » : un seul de ces jours selon l'année
+  return {
+    calcul: a => {
+      const jours = [];
+      for (const p of plages) {
+        const liste = p.jours || Array.from({ length: dernierJour(a, p.mois) }, (_, i) => i + 1);
+        for (const j of liste) jours.push(iso(a, p.mois, j));
+      }
+      jours.sort();
+      if (approx) return [[jours[0], jours[jours.length - 1]]];
+      // On regroupe les jours qui se suivent en périodes.
+      const res = [];
+      for (const j of jours) {
+        const der = res[res.length - 1];
+        const [y, m, d] = (der ? der[1] : '0-0-0').split('-').map(Number);
+        const lendemain = der ? iso(...plusJours(y, m, d, 1)) : null;
+        if (der && lendemain === j) der[1] = j; else res.push([j, j]);
+      }
+      return res;
+    },
+    regle: periode.charAt(0).toLowerCase() + periode.slice(1),
+    approx: approx ? 'un seul de ces jours selon l\'année' : false,
+  };
+}
+
+async function evenementsDuSite(jeu, ids) {
+  if (!PAGES_SITE[jeu]) return [];
+  const liste = lirePageEvenements(await pageEvenements(jeu));
+  const res = [];
+  for (const { nom, periode, code } of liste) {
+    if (/^Anniversaire/i.test(nom)) continue; // les anniversaires viennent des tableurs (avec les portraits)
+    if (/\((Japon|Corée du Sud|Amérique du Nord)\)/.test(nom)) continue; // pas dans la version européenne
+    const regle = regleDuSite(code, nom, periode);
+    const e = avecDates({ id: ids(slug(nom), 'x'), nom: { fr: nom, en: nom }, type: 'evenement', source: 'animalcrossing-online.com' }, regle);
+    if (regle && regle.approx === "un seul de ces jours selon l'année") {
+      e.notes = ["Un seul de ces jours, selon l'année."];
+    }
+    if (jeu === 'ww' && /fête du chêne/i.test(nom)) {
+      e.notes = [...(e.notes || []), 'Nookipedia (version américaine) la place une semaine plus tôt.'];
+    }
+    res.push(e);
+  }
+  return res;
+}
+
 // Derniers recours pour les noms d'événements des anciens jeux (toujours marqués « à vérifier »).
 const NOMS_COURANTS = { 'flea market': 'Marché aux puces', "new year's eve": 'Réveillon du nouvel an' };
 
@@ -318,7 +448,10 @@ async function ancienJeu(jeu, fichier, ongletEvenements, { filtre, colonneDate, 
   const nomsNH = new Map((trad['Event Names'] || []).map(x => [String(x.USen).toLowerCase(), x.EUfr]));
   const ids = creerAttributeurIds();
   const res = [];
-  for (const ev of d[ongletEvenements] || []) {
+  // Source préférée : animalcrossing-online.com (noms français officiels de la version européenne).
+  const site = await evenementsDuSite(jeu, ids);
+  if (site.length) res.push(...site);
+  for (const ev of site.length ? [] : d[ongletEvenements] || []) {
     if (!ev.Event || (filtre && !filtre(ev))) continue;
     const en = String(ev.Event).trim();
     if (/^(birthday|raffle|one day sale)$/i.test(en)) continue;
