@@ -39,7 +39,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if gh release view "v${{ steps.version.outputs.version }}" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+          # Déjà publiée (et pas un simple brouillon) ? Alors il n'y a rien à faire.
+          brouillon=$(gh release view "v${{ steps.version.outputs.version }}" --repo "${{ github.repository }}" --json isDraft --jq .isDraft 2>/dev/null || echo "absente")
+          if [ "$brouillon" = "false" ]; then
             echo "La version v${{ steps.version.outputs.version }} est déjà publiée : rien à faire."
             echo "publier=non" >> "$GITHUB_OUTPUT"
           else
@@ -70,7 +72,23 @@ jobs:
       - name: Vérifier les données
         run: npm run verifier
 
-      - name: Compiler et publier
+      # On prépare d'abord la release en brouillon : l'installateur, sa « blockmap » et latest.yml
+      # (indispensable aux mises à jour automatiques) y sont envoyés, puis on la publie d'un coup.
+      - name: Préparer la release (brouillon)
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          V="v${{ needs.verifier.outputs.version }}"
+          gh release view "$V" >/dev/null 2>&1 || gh release create "$V" --draft --target "${{ github.sha }}" --title "Nook Dex ${{ needs.verifier.outputs.version }}" --notes "Nouvelle version de Nook Dex. Télécharge **Nook-Dex-Setup-${{ needs.verifier.outputs.version }}.exe** pour l'installer ; si Nook Dex est déjà installé, la mise à jour se fait toute seule."
+
+      - name: Compiler et envoyer les fichiers
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx electron-builder --win --publish always
+
+      - name: Publier la release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release edit "v${{ needs.verifier.outputs.version }}" --draft=false --latest

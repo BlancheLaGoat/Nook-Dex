@@ -57,7 +57,7 @@
         "provider": "github",
         "owner": "BlancheLaGoat",
         "repo": "Nook-Dex",
-        "releaseType": "release"
+        "releaseType": "draft"
       }
     ]
   }
