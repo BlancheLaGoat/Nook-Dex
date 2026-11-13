@@ -1,0 +1,7531 @@
+[
+ {
+  "id": "anniversaire-chops",
+  "nom": {
+   "fr": "Anniversaire d'Aaron",
+   "en": "Chops's birthday"
+  },
+  "personnage": "Aaron",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/6/6e/Chops_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-erik",
+  "nom": {
+   "fr": "Anniversaire d'Abraham",
+   "en": "Erik's birthday"
+  },
+  "personnage": "Abraham",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/6/6d/Erik_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-june",
+  "nom": {
+   "fr": "Anniversaire d'Agnès",
+   "en": "June's birthday"
+  },
+  "personnage": "Agnès",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/b/b6/June_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-mott",
+  "nom": {
+   "fr": "Anniversaire d'Aimé",
+   "en": "Mott's birthday"
+  },
+  "personnage": "Aimé",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/a/a7/Mott_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-alice",
+  "nom": {
+   "fr": "Anniversaire d'Alice",
+   "en": "Alice's birthday"
+  },
+  "personnage": "Alice",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/7/7e/Alice_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-alli",
+  "nom": {
+   "fr": "Anniversaire d'Allie",
+   "en": "Alli's birthday"
+  },
+  "personnage": "Allie",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/9/97/Alli_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-alfonso",
+  "nom": {
+   "fr": "Anniversaire d'Alphonse",
+   "en": "Alfonso's birthday"
+  },
+  "personnage": "Alphonse",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/a/aa/Alfonso_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-mint",
+  "nom": {
+   "fr": "Anniversaire d'Amande",
+   "en": "Mint's birthday"
+  },
+  "personnage": "Amande",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/a/a9/Mint_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-anabelle",
+  "nom": {
+   "fr": "Anniversaire d'Anabelle",
+   "en": "Anabelle's birthday"
+  },
+  "personnage": "Anabelle",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/f/f4/Anabelle_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-angus",
+  "nom": {
+   "fr": "Anniversaire d'Angus",
+   "en": "Angus's birthday"
+  },
+  "personnage": "Angus",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/2/22/Angus_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cherry",
+  "nom": {
+   "fr": "Anniversaire d'Anna",
+   "en": "Cherry's birthday"
+  },
+  "personnage": "Anna",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/e/ea/Cherry_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-winnie",
+  "nom": {
+   "fr": "Anniversaire d'Anne",
+   "en": "Winnie's birthday"
+  },
+  "personnage": "Anne",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   31
+  ],
+  "image": "https://dodo.ac/np/images/a/a1/Winnie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-anicotti",
+  "nom": {
+   "fr": "Anniversaire d'Annie",
+   "en": "Anicotti's birthday"
+  },
+  "personnage": "Annie",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/6/64/Anicotti_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-antonio",
+  "nom": {
+   "fr": "Anniversaire d'Antonio",
+   "en": "Antonio's birthday"
+  },
+  "personnage": "Antonio",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/3/3c/Antonio_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-apollo",
+  "nom": {
+   "fr": "Anniversaire d'Apollon",
+   "en": "Apollo's birthday"
+  },
+  "personnage": "Apollon",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/5/59/Apollo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-coach",
+  "nom": {
+   "fr": "Anniversaire d'Arnold",
+   "en": "Coach's birthday"
+  },
+  "personnage": "Arnold",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/6/61/Coach_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-amelia",
+  "nom": {
+   "fr": "Anniversaire d'Aurélie",
+   "en": "Amelia's birthday"
+  },
+  "personnage": "Aurélie",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/9/95/Amelia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-aurora",
+  "nom": {
+   "fr": "Anniversaire d'Aurore",
+   "en": "Aurora's birthday"
+  },
+  "personnage": "Aurore",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/d/d6/Aurora_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-butch",
+  "nom": {
+   "fr": "Anniversaire d'Avril",
+   "en": "Butch's birthday"
+  },
+  "personnage": "Avril",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/1/11/Butch_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-axel",
+  "nom": {
+   "fr": "Anniversaire d'Axel",
+   "en": "Axel's birthday"
+  },
+  "personnage": "Axel",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/6/6f/Axel_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-murphy",
+  "nom": {
+   "fr": "Anniversaire d'Eddie",
+   "en": "Murphy's birthday"
+  },
+  "personnage": "Eddie",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/8/80/Murphy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ed",
+  "nom": {
+   "fr": "Anniversaire d'Édouard",
+   "en": "Ed's birthday"
+  },
+  "personnage": "Édouard",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/6/6a/Ed_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-static",
+  "nom": {
+   "fr": "Anniversaire d'Électro",
+   "en": "Static's birthday"
+  },
+  "personnage": "Électro",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/8/8e/Static_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-elise",
+  "nom": {
+   "fr": "Anniversaire d'Élise",
+   "en": "Elise's birthday"
+  },
+  "personnage": "Élise",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/3/35/Elise_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ellie",
+  "nom": {
+   "fr": "Anniversaire d'Ella",
+   "en": "Ellie's birthday"
+  },
+  "personnage": "Ella",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/e/eb/Ellie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-eloise",
+  "nom": {
+   "fr": "Anniversaire d'Éloïse",
+   "en": "Eloise's birthday"
+  },
+  "personnage": "Éloïse",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/2/2d/Eloise_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-elvis",
+  "nom": {
+   "fr": "Anniversaire d'Elvis",
+   "en": "Elvis's birthday"
+  },
+  "personnage": "Elvis",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/1/1a/Elvis_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tex",
+  "nom": {
+   "fr": "Anniversaire d'Émilien",
+   "en": "Tex's birthday"
+  },
+  "personnage": "Émilien",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/2/2c/Tex_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-flurry",
+  "nom": {
+   "fr": "Anniversaire d'Emma",
+   "en": "Flurry's birthday"
+  },
+  "personnage": "Emma",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/d/d4/Flurry_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-keaton",
+  "nom": {
+   "fr": "Anniversaire d'Enzo",
+   "en": "Keaton's birthday"
+  },
+  "personnage": "Enzo",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/5/53/Keaton_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cole",
+  "nom": {
+   "fr": "Anniversaire d'Épicure",
+   "en": "Cole's birthday"
+  },
+  "personnage": "Épicure",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/8/89/Cole_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-epona",
+  "nom": {
+   "fr": "Anniversaire d'Épona",
+   "en": "Epona's birthday"
+  },
+  "personnage": "Épona",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/4/44/Epona_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-apple",
+  "nom": {
+   "fr": "Anniversaire d'Esther",
+   "en": "Apple's birthday"
+  },
+  "personnage": "Esther",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/6/63/Apple_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-boomer",
+  "nom": {
+   "fr": "Anniversaire d'Ethan",
+   "en": "Boomer's birthday"
+  },
+  "personnage": "Ethan",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/2/24/Boomer_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-etoile",
+  "nom": {
+   "fr": "Anniversaire d'Étoile",
+   "en": "Étoile's birthday"
+  },
+  "personnage": "Étoile",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/8/8d/%C3%89toile_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-beardo",
+  "nom": {
+   "fr": "Anniversaire d'Eustache",
+   "en": "Beardo's birthday"
+  },
+  "personnage": "Eustache",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/6/61/Beardo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ava",
+  "nom": {
+   "fr": "Anniversaire d'Eva",
+   "en": "Ava's birthday"
+  },
+  "personnage": "Eva",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/d/d8/Ava_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-poppy",
+  "nom": {
+   "fr": "Anniversaire d'Irène",
+   "en": "Poppy's birthday"
+  },
+  "personnage": "Irène",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/f/f8/Poppy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ike",
+  "nom": {
+   "fr": "Anniversaire d'Isaac",
+   "en": "Ike's birthday"
+  },
+  "personnage": "Isaac",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/2/28/Ike_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-caroline",
+  "nom": {
+   "fr": "Anniversaire d'Isabelle",
+   "en": "Caroline's birthday"
+  },
+  "personnage": "Isabelle",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/c/c5/Caroline_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-marcel",
+  "nom": {
+   "fr": "Anniversaire d'Ismaël",
+   "en": "Marcel's birthday"
+  },
+  "personnage": "Ismaël",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   31
+  ],
+  "image": "https://dodo.ac/np/images/b/b7/Marcel_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-octavian",
+  "nom": {
+   "fr": "Anniversaire d'Octave",
+   "en": "Octavian's birthday"
+  },
+  "personnage": "Octave",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/d/df/Octavian_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gayle",
+  "nom": {
+   "fr": "Anniversaire d'Odile",
+   "en": "Gayle's birthday"
+  },
+  "personnage": "Odile",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/1/11/Gayle_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-olivia",
+  "nom": {
+   "fr": "Anniversaire d'Olivia",
+   "en": "Olivia's birthday"
+  },
+  "personnage": "Olivia",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/8/8c/Olivia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-maddie",
+  "nom": {
+   "fr": "Anniversaire d'Olympe",
+   "en": "Maddie's birthday"
+  },
+  "personnage": "Olympe",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/c/c6/Maddie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-opal",
+  "nom": {
+   "fr": "Anniversaire d'Opaline",
+   "en": "Opal's birthday"
+  },
+  "personnage": "Opaline",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/0/03/Opal_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sandy",
+  "nom": {
+   "fr": "Anniversaire d'Ottie",
+   "en": "Sandy's birthday"
+  },
+  "personnage": "Ottie",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/7/7f/Sandy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ursala",
+  "nom": {
+   "fr": "Anniversaire d'Oursula",
+   "en": "Ursala's birthday"
+  },
+  "personnage": "Oursula",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/b/b5/Ursala_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-iggly",
+  "nom": {
+   "fr": "Anniversaire d'Urbain",
+   "en": "Iggly's birthday"
+  },
+  "personnage": "Urbain",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/a/aa/Iggly_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-annalise",
+  "nom": {
+   "fr": "Anniversaire de Âne-lise",
+   "en": "Annalise's birthday"
+  },
+  "personnage": "Âne-lise",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/8/86/Annalise_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-boone",
+  "nom": {
+   "fr": "Anniversaire de Babouin",
+   "en": "Boone's birthday"
+  },
+  "personnage": "Babouin",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/f/fb/Boone_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-huck",
+  "nom": {
+   "fr": "Anniversaire de Bajoue",
+   "en": "Huck's birthday"
+  },
+  "personnage": "Bajoue",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/d/d8/Huck_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tucker",
+  "nom": {
+   "fr": "Anniversaire de Barry",
+   "en": "Tucker's birthday"
+  },
+  "personnage": "Barry",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/9/99/Tucker_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bea",
+  "nom": {
+   "fr": "Anniversaire de Béa",
+   "en": "Bea's birthday"
+  },
+  "personnage": "Béa",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/0/0a/Bea_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rocco",
+  "nom": {
+   "fr": "Anniversaire de Bebel",
+   "en": "Rocco's birthday"
+  },
+  "personnage": "Bebel",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/c/c5/Rocco_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-weber",
+  "nom": {
+   "fr": "Anniversaire de Bébert",
+   "en": "Weber's birthday"
+  },
+  "personnage": "Bébert",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/b/bb/Weber_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-baabara",
+  "nom": {
+   "fr": "Anniversaire de Bêêtty",
+   "en": "Baabara's birthday"
+  },
+  "personnage": "Bêêtty",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/c/c5/Baabara_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bella",
+  "nom": {
+   "fr": "Anniversaire de Belle",
+   "en": "Bella's birthday"
+  },
+  "personnage": "Belle",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/e/e2/Bella_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tank",
+  "nom": {
+   "fr": "Anniversaire de Ben",
+   "en": "Tank's birthday"
+  },
+  "personnage": "Ben",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/b/b8/Tank_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bangle",
+  "nom": {
+   "fr": "Anniversaire de Bengale",
+   "en": "Bangle's birthday"
+  },
+  "personnage": "Bengale",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/7/7f/Bangle_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-eunice",
+  "nom": {
+   "fr": "Anniversaire de Bérénice",
+   "en": "Eunice's birthday"
+  },
+  "personnage": "Bérénice",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/6/65/Eunice_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-benjamin",
+  "nom": {
+   "fr": "Anniversaire de Bernardo",
+   "en": "Benjamin's birthday"
+  },
+  "personnage": "Bernardo",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/e/e3/Benjamin_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bertha",
+  "nom": {
+   "fr": "Anniversaire de Bertha",
+   "en": "Bertha's birthday"
+  },
+  "personnage": "Bertha",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/7/7f/Bertha_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-stu",
+  "nom": {
+   "fr": "Anniversaire de Beubeu",
+   "en": "Stu's birthday"
+  },
+  "personnage": "Beubeu",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/9/94/Stu_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-fauna",
+  "nom": {
+   "fr": "Anniversaire de Bibi",
+   "en": "Fauna's birthday"
+  },
+  "personnage": "Bibi",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/8/84/Fauna_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-deirdre",
+  "nom": {
+   "fr": "Anniversaire de Bichoune",
+   "en": "Deirdre's birthday"
+  },
+  "personnage": "Bichoune",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/e/e6/Deirdre_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-biff",
+  "nom": {
+   "fr": "Anniversaire de Biff",
+   "en": "Biff's birthday"
+  },
+  "personnage": "Biff",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/c/c5/Biff_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-stella",
+  "nom": {
+   "fr": "Anniversaire de Bigoudi",
+   "en": "Stella's birthday"
+  },
+  "personnage": "Bigoudi",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/2/2e/Stella_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kody",
+  "nom": {
+   "fr": "Anniversaire de Bill",
+   "en": "Kody's birthday"
+  },
+  "personnage": "Bill",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/e/e6/Kody_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chevre",
+  "nom": {
+   "fr": "Anniversaire de Biquette",
+   "en": "Chevre's birthday"
+  },
+  "personnage": "Biquette",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/a/af/Chevre_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-olaf",
+  "nom": {
+   "fr": "Anniversaire de Blair",
+   "en": "Olaf's birthday"
+  },
+  "personnage": "Blair",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/6/63/Olaf_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-whitney",
+  "nom": {
+   "fr": "Anniversaire de Blanche",
+   "en": "Whitney's birthday"
+  },
+  "personnage": "Blanche",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/d/d9/Whitney_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-harry",
+  "nom": {
+   "fr": "Anniversaire de Bob",
+   "en": "Harry's birthday"
+  },
+  "personnage": "Bob",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/f/fd/Harry_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hugh",
+  "nom": {
+   "fr": "Anniversaire de Bonno",
+   "en": "Hugh's birthday"
+  },
+  "personnage": "Bonno",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/e/ef/Hugh_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-boris",
+  "nom": {
+   "fr": "Anniversaire de Boris",
+   "en": "Boris's birthday"
+  },
+  "personnage": "Boris",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/c/cd/Boris_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bruce",
+  "nom": {
+   "fr": "Anniversaire de Boubou",
+   "en": "Bruce's birthday"
+  },
+  "personnage": "Boubou",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/5/5c/Bruce_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-papi",
+  "nom": {
+   "fr": "Anniversaire de Bourrico",
+   "en": "Papi's birthday"
+  },
+  "personnage": "Bourrico",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/7/7e/Papi_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-mac",
+  "nom": {
+   "fr": "Anniversaire de Brutus",
+   "en": "Mac's birthday"
+  },
+  "personnage": "Brutus",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/1/1e/Mac_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-blaire",
+  "nom": {
+   "fr": "Anniversaire de Cachou",
+   "en": "Blaire's birthday"
+  },
+  "personnage": "Cachou",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/0/02/Blaire_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kid-cat",
+  "nom": {
+   "fr": "Anniversaire de Câlin",
+   "en": "Kid Cat's birthday"
+  },
+  "personnage": "Câlin",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/c/c3/Kid_Cat_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-yuka",
+  "nom": {
+   "fr": "Anniversaire de Calypso",
+   "en": "Yuka's birthday"
+  },
+  "personnage": "Calypso",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/3/34/Yuka_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gala",
+  "nom": {
+   "fr": "Anniversaire de Camille",
+   "en": "Gala's birthday"
+  },
+  "personnage": "Camille",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/f/f9/Gala_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-croque",
+  "nom": {
+   "fr": "Anniversaire de Carlos",
+   "en": "Croque's birthday"
+  },
+  "personnage": "Carlos",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/7/74/Croque_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-freckles",
+  "nom": {
+   "fr": "Anniversaire de Caro",
+   "en": "Freckles's birthday"
+  },
+  "personnage": "Caro",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/0/06/Freckles_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cashmere",
+  "nom": {
+   "fr": "Anniversaire de Cashmir",
+   "en": "Cashmere's birthday"
+  },
+  "personnage": "Cashmir",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/6/66/Cashmere_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-punchy",
+  "nom": {
+   "fr": "Anniversaire de Cédric",
+   "en": "Punchy's birthday"
+  },
+  "personnage": "Cédric",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/6/6d/Punchy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cally",
+  "nom": {
+   "fr": "Anniversaire de Célia",
+   "en": "Cally's birthday"
+  },
+  "personnage": "Célia",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/8/8a/Cally_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cesar",
+  "nom": {
+   "fr": "Anniversaire de César",
+   "en": "Cesar's birthday"
+  },
+  "personnage": "César",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/4/4c/Cesar_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chai",
+  "nom": {
+   "fr": "Anniversaire de Chaï",
+   "en": "Chai's birthday"
+  },
+  "personnage": "Chaï",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/2/2a/Chai_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-muffy",
+  "nom": {
+   "fr": "Anniversaire de Charlène",
+   "en": "Muffy's birthday"
+  },
+  "personnage": "Charlène",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/6/6e/Muffy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hamphrey",
+  "nom": {
+   "fr": "Anniversaire de Charles",
+   "en": "Hamphrey's birthday"
+  },
+  "personnage": "Charles",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/e/e6/Hamphrey_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pashmina",
+  "nom": {
+   "fr": "Anniversaire de Chavrina",
+   "en": "Pashmina's birthday"
+  },
+  "personnage": "Chavrina",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/5/5c/Pashmina_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chief",
+  "nom": {
+   "fr": "Anniversaire de Chef",
+   "en": "Chief's birthday"
+  },
+  "personnage": "Chef",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/7/75/Chief_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chelsea",
+  "nom": {
+   "fr": "Anniversaire de Chelsea",
+   "en": "Chelsea's birthday"
+  },
+  "personnage": "Chelsea",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/f/fe/Chelsea_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rodney",
+  "nom": {
+   "fr": "Anniversaire de Chico",
+   "en": "Rodney's birthday"
+  },
+  "personnage": "Chico",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/a/a4/Rodney_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bill",
+  "nom": {
+   "fr": "Anniversaire de Choco",
+   "en": "Bill's birthday"
+  },
+  "personnage": "Choco",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/6/61/Bill_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sly",
+  "nom": {
+   "fr": "Anniversaire de Chuck",
+   "en": "Sly's birthday"
+  },
+  "personnage": "Chuck",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/5/56/Sly_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chow",
+  "nom": {
+   "fr": "Anniversaire de Chulin",
+   "en": "Chow's birthday"
+  },
+  "personnage": "Chulin",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/3/35/Chow_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ohare",
+  "nom": {
+   "fr": "Anniversaire de Civet",
+   "en": "O'Hare's birthday"
+  },
+  "personnage": "Civet",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/c/c3/O%27Hare_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bunnie",
+  "nom": {
+   "fr": "Anniversaire de Clara",
+   "en": "Bunnie's birthday"
+  },
+  "personnage": "Clara",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/3/30/Bunnie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-frita",
+  "nom": {
+   "fr": "Anniversaire de Clarabêl",
+   "en": "Frita's birthday"
+  },
+  "personnage": "Clarabêl",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/0/08/Frita_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-claude",
+  "nom": {
+   "fr": "Anniversaire de Claude",
+   "en": "Claude's birthday"
+  },
+  "personnage": "Claude",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/3/31/Claude_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cleo",
+  "nom": {
+   "fr": "Anniversaire de Cléa",
+   "en": "Cleo's birthday"
+  },
+  "personnage": "Cléa",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/2/2e/Cleo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-coco",
+  "nom": {
+   "fr": "Anniversaire de Coco",
+   "en": "Coco's birthday"
+  },
+  "personnage": "Coco",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/9/99/Coco_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-drake",
+  "nom": {
+   "fr": "Anniversaire de Colvert",
+   "en": "Drake's birthday"
+  },
+  "personnage": "Colvert",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/8/84/Drake_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lucha",
+  "nom": {
+   "fr": "Anniversaire de Condor",
+   "en": "Lucha's birthday"
+  },
+  "personnage": "Condor",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/5/57/Lucha_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cookie",
+  "nom": {
+   "fr": "Anniversaire de Cookie",
+   "en": "Cookie's birthday"
+  },
+  "personnage": "Cookie",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/c/c3/Cookie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hornsby",
+  "nom": {
+   "fr": "Anniversaire de Cornio",
+   "en": "Hornsby's birthday"
+  },
+  "personnage": "Cornio",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/8/8d/Hornsby_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ribbot",
+  "nom": {
+   "fr": "Anniversaire de Crabot",
+   "en": "Ribbot's birthday"
+  },
+  "personnage": "Crabot",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/a/a8/Ribbot_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-wart-jr",
+  "nom": {
+   "fr": "Anniversaire de Crakos",
+   "en": "Wart Jr.'s birthday"
+  },
+  "personnage": "Crakos",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/8/80/Wart_Jr._NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-biskit",
+  "nom": {
+   "fr": "Anniversaire de Crocket",
+   "en": "Biskit's birthday"
+  },
+  "personnage": "Crocket",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/b/be/Biskit_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-boots",
+  "nom": {
+   "fr": "Anniversaire de Croko",
+   "en": "Boots's birthday"
+  },
+  "personnage": "Croko",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/5/52/Boots_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cube",
+  "nom": {
+   "fr": "Anniversaire de Cube",
+   "en": "Cube's birthday"
+  },
+  "personnage": "Cube",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/0/07/Cube_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-curt",
+  "nom": {
+   "fr": "Anniversaire de Curt",
+   "en": "Curt's birthday"
+  },
+  "personnage": "Curt",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/9/95/Curt_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cyrano",
+  "nom": {
+   "fr": "Anniversaire de Cyrano",
+   "en": "Cyrano's birthday"
+  },
+  "personnage": "Cyrano",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/2/2e/Cyrano_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-portia",
+  "nom": {
+   "fr": "Anniversaire de Dalma",
+   "en": "Portia's birthday"
+  },
+  "personnage": "Dalma",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/a/a7/Portia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sally",
+  "nom": {
+   "fr": "Anniversaire de Damia",
+   "en": "Sally's birthday"
+  },
+  "personnage": "Damia",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/f/fc/Sally_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-buck",
+  "nom": {
+   "fr": "Anniversaire de Daniel",
+   "en": "Buck's birthday"
+  },
+  "personnage": "Daniel",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/3/30/Buck_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sparro",
+  "nom": {
+   "fr": "Anniversaire de Darius",
+   "en": "Sparro's birthday"
+  },
+  "personnage": "Darius",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/4/42/Sparro_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gloria",
+  "nom": {
+   "fr": "Anniversaire de Déborah",
+   "en": "Gloria's birthday"
+  },
+  "personnage": "Déborah",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/a/af/Gloria_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-diana",
+  "nom": {
+   "fr": "Anniversaire de Didi",
+   "en": "Diana's birthday"
+  },
+  "personnage": "Didi",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/8/80/Diana_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-benedict",
+  "nom": {
+   "fr": "Anniversaire de Dimitri",
+   "en": "Benedict's birthday"
+  },
+  "personnage": "Dimitri",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/8/86/Benedict_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-doc",
+  "nom": {
+   "fr": "Anniversaire de Doc",
+   "en": "Doc's birthday"
+  },
+  "personnage": "Doc",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/e/e8/Doc_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-leonardo",
+  "nom": {
+   "fr": "Anniversaire de Dolph",
+   "en": "Leonardo's birthday"
+  },
+  "personnage": "Dolph",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/7/74/Leonardo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-dora",
+  "nom": {
+   "fr": "Anniversaire de Dora",
+   "en": "Dora's birthday"
+  },
+  "personnage": "Dora",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/e/e4/Dora_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-clyde",
+  "nom": {
+   "fr": "Anniversaire de Dorian",
+   "en": "Clyde's birthday"
+  },
+  "personnage": "Dorian",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/9/92/Clyde_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-dotty",
+  "nom": {
+   "fr": "Anniversaire de Dorothée",
+   "en": "Dotty's birthday"
+  },
+  "personnage": "Dorothée",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/f/f1/Dotty_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-drago",
+  "nom": {
+   "fr": "Anniversaire de Drago",
+   "en": "Drago's birthday"
+  },
+  "personnage": "Drago",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/7/7a/Drago_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-raddle",
+  "nom": {
+   "fr": "Anniversaire de Fabien",
+   "en": "Raddle's birthday"
+  },
+  "personnage": "Fabien",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/5/50/Raddle_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tia",
+  "nom": {
+   "fr": "Anniversaire de Fanny",
+   "en": "Tia's birthday"
+  },
+  "personnage": "Fanny",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/1/11/Tia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-avery",
+  "nom": {
+   "fr": "Anniversaire de Faust",
+   "en": "Avery's birthday"
+  },
+  "personnage": "Faust",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/a/a5/Avery_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-phoebe",
+  "nom": {
+   "fr": "Anniversaire de Faustine",
+   "en": "Phoebe's birthday"
+  },
+  "personnage": "Faustine",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/7/7d/Phoebe_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-felyne",
+  "nom": {
+   "fr": "Anniversaire de Felyne",
+   "en": "Felyne's birthday"
+  },
+  "personnage": "Felyne",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/a/a7/Felyne_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cousteau",
+  "nom": {
+   "fr": "Anniversaire de Figaro",
+   "en": "Cousteau's birthday"
+  },
+  "personnage": "Figaro",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/a/ab/Cousteau_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-filbert",
+  "nom": {
+   "fr": "Anniversaire de Filibert",
+   "en": "Filbert's birthday"
+  },
+  "personnage": "Filibert",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/7/72/Filbert_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rodeo",
+  "nom": {
+   "fr": "Anniversaire de Flèche",
+   "en": "Rodeo's birthday"
+  },
+  "personnage": "Flèche",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/3/33/Rodeo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-friga",
+  "nom": {
+   "fr": "Anniversaire de Friga",
+   "en": "Friga's birthday"
+  },
+  "personnage": "Friga",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/d/dc/Friga_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cranston",
+  "nom": {
+   "fr": "Anniversaire de Gabin",
+   "en": "Cranston's birthday"
+  },
+  "personnage": "Gabin",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/8/87/Cranston_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gabi",
+  "nom": {
+   "fr": "Anniversaire de Gaby",
+   "en": "Gabi's birthday"
+  },
+  "personnage": "Gaby",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/d/db/Gabi_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-violet",
+  "nom": {
+   "fr": "Anniversaire de Gaëlle",
+   "en": "Violet's birthday"
+  },
+  "personnage": "Gaëlle",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/0/01/Violet_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-jambette",
+  "nom": {
+   "fr": "Anniversaire de Gambette",
+   "en": "Jambette's birthday"
+  },
+  "personnage": "Gambette",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/5/53/Jambette_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ganon",
+  "nom": {
+   "fr": "Anniversaire de Ganon",
+   "en": "Ganon's birthday"
+  },
+  "personnage": "Ganon",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/7/70/Ganon_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-celia",
+  "nom": {
+   "fr": "Anniversaire de Garance",
+   "en": "Celia's birthday"
+  },
+  "personnage": "Garance",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/a/a7/Celia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kyle",
+  "nom": {
+   "fr": "Anniversaire de Gary",
+   "en": "Kyle's birthday"
+  },
+  "personnage": "Gary",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/3/33/Kyle_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gaston",
+  "nom": {
+   "fr": "Anniversaire de Gaston",
+   "en": "Gaston's birthday"
+  },
+  "personnage": "Gaston",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/2/2e/Gaston_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-walker",
+  "nom": {
+   "fr": "Anniversaire de George",
+   "en": "Walker's birthday"
+  },
+  "personnage": "George",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/0/0e/Walker_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-jay",
+  "nom": {
+   "fr": "Anniversaire de Gérard",
+   "en": "Jay's birthday"
+  },
+  "personnage": "Gérard",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/c/c6/Jay_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rocket",
+  "nom": {
+   "fr": "Anniversaire de Gertrude",
+   "en": "Rocket's birthday"
+  },
+  "personnage": "Gertrude",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/8/8c/Rocket_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-jitters",
+  "nom": {
+   "fr": "Anniversaire de Gilbert",
+   "en": "Jitters's birthday"
+  },
+  "personnage": "Gilbert",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/6/69/Jitters_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gladys",
+  "nom": {
+   "fr": "Anniversaire de Gladys",
+   "en": "Gladys's birthday"
+  },
+  "personnage": "Gladys",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/e/ea/Gladys_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gigi",
+  "nom": {
+   "fr": "Anniversaire de Gloria",
+   "en": "Gigi's birthday"
+  },
+  "personnage": "Gloria",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/a/af/Gigi_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-peewee",
+  "nom": {
+   "fr": "Anniversaire de Gogo",
+   "en": "Peewee's birthday"
+  },
+  "personnage": "Gogo",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/2/23/Peewee_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gonzo",
+  "nom": {
+   "fr": "Anniversaire de Gonzo",
+   "en": "Gonzo's birthday"
+  },
+  "personnage": "Gonzo",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/a/ac/Gonzo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-drift",
+  "nom": {
+   "fr": "Anniversaire de Gordon",
+   "en": "Drift's birthday"
+  },
+  "personnage": "Gordon",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/a/a8/Drift_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pudge",
+  "nom": {
+   "fr": "Anniversaire de Gradub",
+   "en": "Pudge's birthday"
+  },
+  "personnage": "Gradub",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/f/f6/Pudge_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-graham",
+  "nom": {
+   "fr": "Anniversaire de Graham",
+   "en": "Graham's birthday"
+  },
+  "personnage": "Graham",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/6/60/Graham_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-frank",
+  "nom": {
+   "fr": "Anniversaire de Greggae",
+   "en": "Frank's birthday"
+  },
+  "personnage": "Greggae",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/e/ea/Frank_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-greta",
+  "nom": {
+   "fr": "Anniversaire de Greta",
+   "en": "Greta's birthday"
+  },
+  "personnage": "Greta",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/8/82/Greta_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hopkins",
+  "nom": {
+   "fr": "Anniversaire de Grignote",
+   "en": "Hopkins's birthday"
+  },
+  "personnage": "Grignote",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/1/10/Hopkins_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-olive",
+  "nom": {
+   "fr": "Anniversaire de Grisa",
+   "en": "Olive's birthday"
+  },
+  "personnage": "Grisa",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/e/e7/Olive_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-mira",
+  "nom": {
+   "fr": "Anniversaire de Grisette",
+   "en": "Mira's birthday"
+  },
+  "personnage": "Grisette",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/1/17/Mira_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-grizzly",
+  "nom": {
+   "fr": "Anniversaire de Grizzly",
+   "en": "Grizzly's birthday"
+  },
+  "personnage": "Grizzly",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   31
+  ],
+  "image": "https://dodo.ac/np/images/f/f5/Grizzly_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gruff",
+  "nom": {
+   "fr": "Anniversaire de Grognon",
+   "en": "Gruff's birthday"
+  },
+  "personnage": "Grognon",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/0/03/Gruff_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-limberg",
+  "nom": {
+   "fr": "Anniversaire de Gruyère",
+   "en": "Limberg's birthday"
+  },
+  "personnage": "Gruyère",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/c/cd/Limberg_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-clay",
+  "nom": {
+   "fr": "Anniversaire de Guido",
+   "en": "Clay's birthday"
+  },
+  "personnage": "Guido",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/6/64/Clay_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-al",
+  "nom": {
+   "fr": "Anniversaire de Gustave",
+   "en": "Al's birthday"
+  },
+  "personnage": "Gustave",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/4/46/Al_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-gwen",
+  "nom": {
+   "fr": "Anniversaire de Gwen",
+   "en": "Gwen's birthday"
+  },
+  "personnage": "Gwen",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/f/fa/Gwen_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-del",
+  "nom": {
+   "fr": "Anniversaire de Hector",
+   "en": "Del's birthday"
+  },
+  "personnage": "Hector",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/e/e7/Del_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-vesta",
+  "nom": {
+   "fr": "Anniversaire de Hélaine",
+   "en": "Vesta's birthday"
+  },
+  "personnage": "Hélaine",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/a/af/Vesta_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-henry",
+  "nom": {
+   "fr": "Anniversaire de Henri",
+   "en": "Henry's birthday"
+  },
+  "personnage": "Henri",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/1/10/Henry_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-egbert",
+  "nom": {
+   "fr": "Anniversaire de Herbert",
+   "en": "Egbert's birthday"
+  },
+  "personnage": "Herbert",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/2/25/Egbert_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rory",
+  "nom": {
+   "fr": "Anniversaire de Hercule",
+   "en": "Rory's birthday"
+  },
+  "personnage": "Hercule",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/5/54/Rory_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-puck",
+  "nom": {
+   "fr": "Anniversaire de Hervé",
+   "en": "Puck's birthday"
+  },
+  "personnage": "Hervé",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/c/c2/Puck_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bubbles",
+  "nom": {
+   "fr": "Anniversaire de Hippy",
+   "en": "Bubbles's birthday"
+  },
+  "personnage": "Hippy",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/7/74/Bubbles_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-jacques",
+  "nom": {
+   "fr": "Anniversaire de Jacky",
+   "en": "Jacques's birthday"
+  },
+  "personnage": "Jacky",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/f/fb/Jacques_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-jacob",
+  "nom": {
+   "fr": "Anniversaire de Jacob",
+   "en": "Jacob's birthday"
+  },
+  "personnage": "Jacob",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/4/49/Jacob_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-eugene",
+  "nom": {
+   "fr": "Anniversaire de Jamy",
+   "en": "Eugene's birthday"
+  },
+  "personnage": "Jamy",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/7/7f/Eugene_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kevin",
+  "nom": {
+   "fr": "Anniversaire de Jean-Bon",
+   "en": "Kevin's birthday"
+  },
+  "personnage": "Jean-Bon",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/0/04/Kevin_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-snake",
+  "nom": {
+   "fr": "Anniversaire de Jeannot",
+   "en": "Snake's birthday"
+  },
+  "personnage": "Jeannot",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/a/aa/Snake_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tybalt",
+  "nom": {
+   "fr": "Anniversaire de Jeff",
+   "en": "Tybalt's birthday"
+  },
+  "personnage": "Jeff",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/d/db/Tybalt_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-jeremiah",
+  "nom": {
+   "fr": "Anniversaire de Jérémie",
+   "en": "Jeremiah's birthday"
+  },
+  "personnage": "Jérémie",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/7/7d/Jeremiah_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-broffina",
+  "nom": {
+   "fr": "Anniversaire de Jo",
+   "en": "Broffina's birthday"
+  },
+  "personnage": "Jo",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/f/f5/Broffina_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-moose",
+  "nom": {
+   "fr": "Anniversaire de Joachim",
+   "en": "Moose's birthday"
+  },
+  "personnage": "Joachim",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/3/35/Moose_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hamlet",
+  "nom": {
+   "fr": "Anniversaire de Jojo",
+   "en": "Hamlet's birthday"
+  },
+  "personnage": "Jojo",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/0/0e/Hamlet_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lopez",
+  "nom": {
+   "fr": "Anniversaire de Jon",
+   "en": "Lopez's birthday"
+  },
+  "personnage": "Jon",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/b/b6/Lopez_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-joey",
+  "nom": {
+   "fr": "Anniversaire de Joseph",
+   "en": "Joey's birthday"
+  },
+  "personnage": "Joseph",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/9/97/Joey_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-julia",
+  "nom": {
+   "fr": "Anniversaire de Julie",
+   "en": "Julia's birthday"
+  },
+  "personnage": "Julie",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   31
+  ],
+  "image": "https://dodo.ac/np/images/4/47/Julia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-spork",
+  "nom": {
+   "fr": "Anniversaire de Justin",
+   "en": "Spork's birthday"
+  },
+  "personnage": "Justin",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/c/c5/Spork_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-flora",
+  "nom": {
+   "fr": "Anniversaire de Justine",
+   "en": "Flora's birthday"
+  },
+  "personnage": "Justine",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/9/98/Flora_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kabuki",
+  "nom": {
+   "fr": "Anniversaire de Kabuki",
+   "en": "Kabuki's birthday"
+  },
+  "personnage": "Kabuki",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/8/86/Kabuki_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cece",
+  "nom": {
+   "fr": "Anniversaire de Kala",
+   "en": "Cece's birthday"
+  },
+  "personnage": "Kala",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/b/bf/Cece_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-genji",
+  "nom": {
+   "fr": "Anniversaire de Kali",
+   "en": "Genji's birthday"
+  },
+  "personnage": "Kali",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/6/61/Genji_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lyman",
+  "nom": {
+   "fr": "Anniversaire de Kalyptus",
+   "en": "Lyman's birthday"
+  },
+  "personnage": "Kalyptus",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/1/1e/Lyman_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-carrie",
+  "nom": {
+   "fr": "Anniversaire de Kanga",
+   "en": "Carrie's birthday"
+  },
+  "personnage": "Kanga",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/1/15/Carrie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-wendy",
+  "nom": {
+   "fr": "Anniversaire de Karen",
+   "en": "Wendy's birthday"
+  },
+  "personnage": "Karen",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/c/c8/Wendy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-katt",
+  "nom": {
+   "fr": "Anniversaire de Kat",
+   "en": "Katt's birthday"
+  },
+  "personnage": "Kat",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/5/50/Katt_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ken",
+  "nom": {
+   "fr": "Anniversaire de Ken",
+   "en": "Ken's birthday"
+  },
+  "personnage": "Ken",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/c/c1/Ken_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ketchup",
+  "nom": {
+   "fr": "Anniversaire de Ketchup",
+   "en": "Ketchup's birthday"
+  },
+  "personnage": "Ketchup",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/5/50/Ketchup_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kiki",
+  "nom": {
+   "fr": "Anniversaire de Kiki",
+   "en": "Kiki's birthday"
+  },
+  "personnage": "Kiki",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/2/24/Kiki_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kitty",
+  "nom": {
+   "fr": "Anniversaire de Kitty",
+   "en": "Kitty's birthday"
+  },
+  "personnage": "Kitty",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/5/51/Kitty_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-klaus",
+  "nom": {
+   "fr": "Anniversaire de Klaus",
+   "en": "Klaus's birthday"
+  },
+  "personnage": "Klaus",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   31
+  ],
+  "image": "https://dodo.ac/np/images/8/83/Klaus_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sydney",
+  "nom": {
+   "fr": "Anniversaire de Koaline",
+   "en": "Sydney's birthday"
+  },
+  "personnage": "Koaline",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/2/26/Sydney_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ozzie",
+  "nom": {
+   "fr": "Anniversaire de Koko",
+   "en": "Ozzie's birthday"
+  },
+  "personnage": "Koko",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/0/0b/Ozzie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-canberra",
+  "nom": {
+   "fr": "Anniversaire de Kolala",
+   "en": "Canberra's birthday"
+  },
+  "personnage": "Kolala",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/7/71/Canberra_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chrissy",
+  "nom": {
+   "fr": "Anniversaire de Kristine",
+   "en": "Chrissy's birthday"
+  },
+  "personnage": "Kristine",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/9/9d/Chrissy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sprocket",
+  "nom": {
+   "fr": "Anniversaire de Laflèche",
+   "en": "Sprocket's birthday"
+  },
+  "personnage": "Laflèche",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/6/67/Sprocket_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sprinkle",
+  "nom": {
+   "fr": "Anniversaire de Laurie",
+   "en": "Sprinkle's birthday"
+  },
+  "personnage": "Laurie",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/3/3c/Sprinkle_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-maple",
+  "nom": {
+   "fr": "Anniversaire de Léa",
+   "en": "Maple's birthday"
+  },
+  "personnage": "Léa",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/f/f7/Maple_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-leopold",
+  "nom": {
+   "fr": "Anniversaire de Leandro",
+   "en": "Leopold's birthday"
+  },
+  "personnage": "Leandro",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/f/f9/Leopold_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rex",
+  "nom": {
+   "fr": "Anniversaire de Léo",
+   "en": "Rex's birthday"
+  },
+  "personnage": "Léo",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/6/69/Rex_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bud",
+  "nom": {
+   "fr": "Anniversaire de Léonard",
+   "en": "Bud's birthday"
+  },
+  "personnage": "Léonard",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/8/8e/Bud_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lionel",
+  "nom": {
+   "fr": "Anniversaire de Léopold",
+   "en": "Lionel's birthday"
+  },
+  "personnage": "Léopold",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/d/d1/Lionel_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-julian",
+  "nom": {
+   "fr": "Anniversaire de Lico",
+   "en": "Julian's birthday"
+  },
+  "personnage": "Lico",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/c/c6/Julian_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tammi",
+  "nom": {
+   "fr": "Anniversaire de Lili",
+   "en": "Tammi's birthday"
+  },
+  "personnage": "Lili",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/7/76/Tammi_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lolly",
+  "nom": {
+   "fr": "Anniversaire de Linette",
+   "en": "Lolly's birthday"
+  },
+  "personnage": "Linette",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/a/aa/Lolly_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-w-link",
+  "nom": {
+   "fr": "Anniversaire de Link l.",
+   "en": "W. Link's birthday"
+  },
+  "personnage": "Link l.",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/e/e4/W._Link_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lobo",
+  "nom": {
+   "fr": "Anniversaire de Lobo",
+   "en": "Lobo's birthday"
+  },
+  "personnage": "Lobo",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/0/0a/Lobo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-nibbles",
+  "nom": {
+   "fr": "Anniversaire de Lola",
+   "en": "Nibbles's birthday"
+  },
+  "personnage": "Lola",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/2/29/Nibbles_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hans",
+  "nom": {
+   "fr": "Anniversaire de Loran",
+   "en": "Hans's birthday"
+  },
+  "personnage": "Loran",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/4/4d/Hans_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-louie",
+  "nom": {
+   "fr": "Anniversaire de Louis",
+   "en": "Louie's birthday"
+  },
+  "personnage": "Louis",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/b/b1/Louie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-dobie",
+  "nom": {
+   "fr": "Anniversaire de Loupiot",
+   "en": "Dobie's birthday"
+  },
+  "personnage": "Loupiot",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/5/54/Dobie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-monty",
+  "nom": {
+   "fr": "Anniversaire de Lourant",
+   "en": "Monty's birthday"
+  },
+  "personnage": "Lourant",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/c/c3/Monty_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lucy",
+  "nom": {
+   "fr": "Anniversaire de Lucie",
+   "en": "Lucy's birthday"
+  },
+  "personnage": "Lucie",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/e/ec/Lucy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-shari",
+  "nom": {
+   "fr": "Anniversaire de Luna",
+   "en": "Shari's birthday"
+  },
+  "personnage": "Luna",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/a/a1/Shari_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-freya",
+  "nom": {
+   "fr": "Anniversaire de Luppa",
+   "en": "Freya's birthday"
+  },
+  "personnage": "Luppa",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/d/d3/Freya_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pancetti",
+  "nom": {
+   "fr": "Anniversaire de Lydie",
+   "en": "Pancetti's birthday"
+  },
+  "personnage": "Lydie",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/1/1c/Pancetti_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sylvia",
+  "nom": {
+   "fr": "Anniversaire de Madsi",
+   "en": "Sylvia's birthday"
+  },
+  "personnage": "Madsi",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/c/c4/Sylvia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-maelle",
+  "nom": {
+   "fr": "Anniversaire de Maëlle",
+   "en": "Maelle's birthday"
+  },
+  "personnage": "Maëlle",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/7/7b/Maelle_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-miranda",
+  "nom": {
+   "fr": "Anniversaire de Maëllis",
+   "en": "Miranda's birthday"
+  },
+  "personnage": "Maëllis",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/5/53/Miranda_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-deli",
+  "nom": {
+   "fr": "Anniversaire de Magogo",
+   "en": "Deli's birthday"
+  },
+  "personnage": "Magogo",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/6/68/Deli_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-margie",
+  "nom": {
+   "fr": "Anniversaire de Maguy",
+   "en": "Margie's birthday"
+  },
+  "personnage": "Maguy",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/5/58/Margie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-willow",
+  "nom": {
+   "fr": "Anniversaire de Maï",
+   "en": "Willow's birthday"
+  },
+  "personnage": "Maï",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/4/44/Willow_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-naomi",
+  "nom": {
+   "fr": "Anniversaire de Maiko",
+   "en": "Naomi's birthday"
+  },
+  "personnage": "Maiko",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/a/ab/Naomi_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-mallary",
+  "nom": {
+   "fr": "Anniversaire de Mallory",
+   "en": "Mallary's birthday"
+  },
+  "personnage": "Mallory",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/1/1c/Mallary_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sterling",
+  "nom": {
+   "fr": "Anniversaire de Manfred",
+   "en": "Sterling's birthday"
+  },
+  "personnage": "Manfred",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/9/9e/Sterling_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-barold",
+  "nom": {
+   "fr": "Anniversaire de Manu",
+   "en": "Barold's birthday"
+  },
+  "personnage": "Manu",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/d/d4/Barold_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-viche",
+  "nom": {
+   "fr": "Anniversaire de Mara",
+   "en": "Viché's birthday"
+  },
+  "personnage": "Mara",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/7/72/Vich%C3%A9_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rod",
+  "nom": {
+   "fr": "Anniversaire de Marcel",
+   "en": "Rod's birthday"
+  },
+  "personnage": "Marcel",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/3/3d/Rod_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-admiral",
+  "nom": {
+   "fr": "Anniversaire de Maréchal",
+   "en": "Admiral's birthday"
+  },
+  "personnage": "Maréchal",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/5/5d/Admiral_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-patty",
+  "nom": {
+   "fr": "Anniversaire de Margaux",
+   "en": "Patty's birthday"
+  },
+  "personnage": "Margaux",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/0/0b/Patty_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-skye",
+  "nom": {
+   "fr": "Anniversaire de Marilou",
+   "en": "Skye's birthday"
+  },
+  "personnage": "Marilou",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/0/0e/Skye_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-marina",
+  "nom": {
+   "fr": "Anniversaire de Marina",
+   "en": "Marina's birthday"
+  },
+  "personnage": "Marina",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/5/57/Marina_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tangy",
+  "nom": {
+   "fr": "Anniversaire de Marine",
+   "en": "Tangy's birthday"
+  },
+  "personnage": "Marine",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/5/51/Tangy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rowan",
+  "nom": {
+   "fr": "Anniversaire de Marito",
+   "en": "Rowan's birthday"
+  },
+  "personnage": "Marito",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/6/68/Rowan_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-maggie",
+  "nom": {
+   "fr": "Anniversaire de Marjorie",
+   "en": "Maggie's birthday"
+  },
+  "personnage": "Marjorie",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/7/7d/Maggie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-elmer",
+  "nom": {
+   "fr": "Anniversaire de Martin",
+   "en": "Elmer's birthday"
+  },
+  "personnage": "Martin",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/0/02/Elmer_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-marty",
+  "nom": {
+   "fr": "Anniversaire de Marty",
+   "en": "Marty's birthday"
+  },
+  "personnage": "Marty",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/d/da/Marty_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-zucker",
+  "nom": {
+   "fr": "Anniversaire de Marvin",
+   "en": "Zucker's birthday"
+  },
+  "personnage": "Marvin",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/0/03/Zucker_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-marshal",
+  "nom": {
+   "fr": "Anniversaire de Mathéo",
+   "en": "Marshal's birthday"
+  },
+  "personnage": "Mathéo",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/7/73/Marshal_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pango",
+  "nom": {
+   "fr": "Anniversaire de Mathilda",
+   "en": "Pango's birthday"
+  },
+  "personnage": "Mathilda",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/2/24/Pango_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-mathilda",
+  "nom": {
+   "fr": "Anniversaire de Mathilde",
+   "en": "Mathilda's birthday"
+  },
+  "personnage": "Mathilde",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/6/68/Mathilda_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-felicity",
+  "nom": {
+   "fr": "Anniversaire de Maud",
+   "en": "Felicity's birthday"
+  },
+  "personnage": "Maud",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/d/df/Felicity_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-medli",
+  "nom": {
+   "fr": "Anniversaire de Médolie",
+   "en": "Medli's birthday"
+  },
+  "personnage": "Médolie",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/a/af/Medli_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-shep",
+  "nom": {
+   "fr": "Anniversaire de Mehdi",
+   "en": "Shep's birthday"
+  },
+  "personnage": "Mehdi",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/3/32/Shep_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-melba",
+  "nom": {
+   "fr": "Anniversaire de Melba",
+   "en": "Melba's birthday"
+  },
+  "personnage": "Melba",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/3/33/Melba_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-midge",
+  "nom": {
+   "fr": "Anniversaire de Michèle",
+   "en": "Midge's birthday"
+  },
+  "personnage": "Michèle",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/6/62/Midge_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-wade",
+  "nom": {
+   "fr": "Anniversaire de Miglou",
+   "en": "Wade's birthday"
+  },
+  "personnage": "Miglou",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/5/59/Wade_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-anchovy",
+  "nom": {
+   "fr": "Anniversaire de Miguel",
+   "en": "Anchovy's birthday"
+  },
+  "personnage": "Miguel",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/8/88/Anchovy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rooney",
+  "nom": {
+   "fr": "Anniversaire de Mike",
+   "en": "Rooney's birthday"
+  },
+  "personnage": "Mike",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/0/0c/Rooney_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-big-top",
+  "nom": {
+   "fr": "Anniversaire de Miles",
+   "en": "Big Top's birthday"
+  },
+  "personnage": "Miles",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/4/44/Big_Top_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-camofrog",
+  "nom": {
+   "fr": "Anniversaire de Milos",
+   "en": "Camofrog's birthday"
+  },
+  "personnage": "Milos",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/4/4a/Camofrog_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-deena",
+  "nom": {
+   "fr": "Anniversaire de Mina",
+   "en": "Deena's birthday"
+  },
+  "personnage": "Mina",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/a/a4/Deena_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-nana",
+  "nom": {
+   "fr": "Anniversaire de Mireille",
+   "en": "Nana's birthday"
+  },
+  "personnage": "Mireille",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/2/2a/Nana_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-stitches",
+  "nom": {
+   "fr": "Anniversaire de Miro",
+   "en": "Stitches's birthday"
+  },
+  "personnage": "Miro",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/d/d7/Stitches_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-goldie",
+  "nom": {
+   "fr": "Anniversaire de Mirza",
+   "en": "Goldie's birthday"
+  },
+  "personnage": "Mirza",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/d/d8/Goldie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-penelope",
+  "nom": {
+   "fr": "Anniversaire de Missy",
+   "en": "Penelope's birthday"
+  },
+  "personnage": "Missy",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/9/9c/Penelope_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-mitzi",
+  "nom": {
+   "fr": "Anniversaire de Mistigri",
+   "en": "Mitzi's birthday"
+  },
+  "personnage": "Mistigri",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/2/2e/Mitzi_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kidd",
+  "nom": {
+   "fr": "Anniversaire de Moktar",
+   "en": "Kidd's birthday"
+  },
+  "personnage": "Moktar",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/1/1b/Kidd_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-molly",
+  "nom": {
+   "fr": "Anniversaire de Molly",
+   "en": "Molly's birthday"
+  },
+  "personnage": "Molly",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/f/fe/Molly_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-moe",
+  "nom": {
+   "fr": "Anniversaire de Momo",
+   "en": "Moe's birthday"
+  },
+  "personnage": "Momo",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/6/63/Moe_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-monique",
+  "nom": {
+   "fr": "Anniversaire de Monique",
+   "en": "Monique's birthday"
+  },
+  "personnage": "Monique",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/c/ce/Monique_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sylvana",
+  "nom": {
+   "fr": "Anniversaire de Mounia",
+   "en": "Sylvana's birthday"
+  },
+  "personnage": "Mounia",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/3/39/Sylvana_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chadder",
+  "nom": {
+   "fr": "Anniversaire de Mozzar",
+   "en": "Chadder's birthday"
+  },
+  "personnage": "Mozzar",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/9/99/Chadder_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bluebear",
+  "nom": {
+   "fr": "Anniversaire de Myrtille",
+   "en": "Bluebear's birthday"
+  },
+  "personnage": "Myrtille",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/c/c9/Bluebear_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bam",
+  "nom": {
+   "fr": "Anniversaire de Nacer",
+   "en": "Bam's birthday"
+  },
+  "personnage": "Nacer",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/d/d0/Bam_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tasha",
+  "nom": {
+   "fr": "Anniversaire de Nadeige",
+   "en": "Tasha's birthday"
+  },
+  "personnage": "Nadeige",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/e/e9/Tasha_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pippy",
+  "nom": {
+   "fr": "Anniversaire de Nadia",
+   "en": "Pippy's birthday"
+  },
+  "personnage": "Nadia",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/8/8e/Pippy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-francine",
+  "nom": {
+   "fr": "Anniversaire de Nadine",
+   "en": "Francine's birthday"
+  },
+  "personnage": "Nadine",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/e/e2/Francine_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-nan",
+  "nom": {
+   "fr": "Anniversaire de Nana",
+   "en": "Nan's birthday"
+  },
+  "personnage": "Nana",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/a/ad/Nan_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-daisy",
+  "nom": {
+   "fr": "Anniversaire de Naomie",
+   "en": "Daisy's birthday"
+  },
+  "personnage": "Naomie",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/5/57/Daisy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pierce",
+  "nom": {
+   "fr": "Anniversaire de Napoléon",
+   "en": "Pierce's birthday"
+  },
+  "personnage": "Napoléon",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/b/b9/Pierce_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-quillson",
+  "nom": {
+   "fr": "Anniversaire de Narcisse",
+   "en": "Quillson's birthday"
+  },
+  "personnage": "Narcisse",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/0/04/Quillson_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-nate",
+  "nom": {
+   "fr": "Anniversaire de Nathan",
+   "en": "Nate's birthday"
+  },
+  "personnage": "Nathan",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/6/61/Nate_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ankha",
+  "nom": {
+   "fr": "Anniversaire de Neferti",
+   "en": "Ankha's birthday"
+  },
+  "personnage": "Neferti",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/d/dc/Ankha_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-piper",
+  "nom": {
+   "fr": "Anniversaire de Neige",
+   "en": "Piper's birthday"
+  },
+  "personnage": "Neige",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/7/7f/Piper_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-agent-s",
+  "nom": {
+   "fr": "Anniversaire de Ninjette",
+   "en": "Agent S's birthday"
+  },
+  "personnage": "Ninjette",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/3/33/Agent_S_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bianca",
+  "nom": {
+   "fr": "Anniversaire de Noémie",
+   "en": "Bianca's birthday"
+  },
+  "personnage": "Noémie",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/6/66/Bianca_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bones",
+  "nom": {
+   "fr": "Anniversaire de Nonos",
+   "en": "Bones's birthday"
+  },
+  "personnage": "Nonos",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/e/e1/Bones_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-flo",
+  "nom": {
+   "fr": "Anniversaire de Nora",
+   "en": "Flo's birthday"
+  },
+  "personnage": "Nora",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/d/d9/Flo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-norma",
+  "nom": {
+   "fr": "Anniversaire de Norma",
+   "en": "Norma's birthday"
+  },
+  "personnage": "Norma",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/8/8e/Norma_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-dizzy",
+  "nom": {
+   "fr": "Anniversaire de Pachy",
+   "en": "Dizzy's birthday"
+  },
+  "personnage": "Pachy",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/2/27/Dizzy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hazel",
+  "nom": {
+   "fr": "Anniversaire de Pamela",
+   "en": "Hazel's birthday"
+  },
+  "personnage": "Pamela",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/d/da/Hazel_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-agnes",
+  "nom": {
+   "fr": "Anniversaire de Pansy",
+   "en": "Agnes's birthday"
+  },
+  "personnage": "Pansy",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/1/14/Agnes_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-paolo",
+  "nom": {
+   "fr": "Anniversaire de Paolo",
+   "en": "Paolo's birthday"
+  },
+  "personnage": "Paolo",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/6/68/Paolo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-merengue",
+  "nom": {
+   "fr": "Anniversaire de Patty",
+   "en": "Merengue's birthday"
+  },
+  "personnage": "Patty",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/8/8d/Merengue_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pekoe",
+  "nom": {
+   "fr": "Anniversaire de Pauline",
+   "en": "Pekoe's birthday"
+  },
+  "personnage": "Pauline",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/0/00/Pekoe_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hippeux",
+  "nom": {
+   "fr": "Anniversaire de Paulito",
+   "en": "Hippeux's birthday"
+  },
+  "personnage": "Paulito",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/4/4c/Hippeux_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-peck",
+  "nom": {
+   "fr": "Anniversaire de Pec",
+   "en": "Peck's birthday"
+  },
+  "personnage": "Pec",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/4/45/Peck_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pecan",
+  "nom": {
+   "fr": "Anniversaire de Pécan",
+   "en": "Pecan's birthday"
+  },
+  "personnage": "Pécan",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/e/e5/Pecan_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-purrl",
+  "nom": {
+   "fr": "Anniversaire de Perle",
+   "en": "Purrl's birthday"
+  },
+  "personnage": "Perle",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/b/b7/Purrl_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-buzz",
+  "nom": {
+   "fr": "Anniversaire de Phébus",
+   "en": "Buzz's birthday"
+  },
+  "personnage": "Phébus",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/9/92/Buzz_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-phil",
+  "nom": {
+   "fr": "Anniversaire de Phil",
+   "en": "Phil's birthday"
+  },
+  "personnage": "Phil",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/a/a5/Phil_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-fang",
+  "nom": {
+   "fr": "Anniversaire de Pierrot",
+   "en": "Fang's birthday"
+  },
+  "personnage": "Pierrot",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   18
+  ],
+  "image": "https://dodo.ac/np/images/c/c7/Fang_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pietro",
+  "nom": {
+   "fr": "Anniversaire de Pietro",
+   "en": "Pietro's birthday"
+  },
+  "personnage": "Pietro",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/9/91/Pietro_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-inkwell",
+  "nom": {
+   "fr": "Anniversaire de Pigmento",
+   "en": "Inkwell's birthday"
+  },
+  "personnage": "Pigmento",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/1/1e/Inkwell_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-chester",
+  "nom": {
+   "fr": "Anniversaire de Placide",
+   "en": "Chester's birthday"
+  },
+  "personnage": "Placide",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/4/44/Chester_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pompom",
+  "nom": {
+   "fr": "Anniversaire de Pompon",
+   "en": "Pompom's birthday"
+  },
+  "personnage": "Pompon",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/f/f6/Pompom_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-kitt",
+  "nom": {
+   "fr": "Anniversaire de Poquette",
+   "en": "Kitt's birthday"
+  },
+  "personnage": "Poquette",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/1/13/Kitt_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cobb",
+  "nom": {
+   "fr": "Anniversaire de Porken",
+   "en": "Cobb's birthday"
+  },
+  "personnage": "Porken",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/2/2d/Cobb_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bitty",
+  "nom": {
+   "fr": "Anniversaire de Potama",
+   "en": "Bitty's birthday"
+  },
+  "personnage": "Potama",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/9/9c/Bitty_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-plucky",
+  "nom": {
+   "fr": "Anniversaire de Poulette",
+   "en": "Plucky's birthday"
+  },
+  "personnage": "Poulette",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/5/5c/Plucky_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-goose",
+  "nom": {
+   "fr": "Anniversaire de Pouli",
+   "en": "Goose's birthday"
+  },
+  "personnage": "Pouli",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/5/52/Goose_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-boyd",
+  "nom": {
+   "fr": "Anniversaire de Primo",
+   "en": "Boyd's birthday"
+  },
+  "personnage": "Primo",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/2/22/Boyd_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-prince",
+  "nom": {
+   "fr": "Anniversaire de Prince",
+   "en": "Prince's birthday"
+  },
+  "personnage": "Prince",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/9/96/Prince_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-derwin",
+  "nom": {
+   "fr": "Anniversaire de Prof",
+   "en": "Derwin's birthday"
+  },
+  "personnage": "Prof",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/7/74/Derwin_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-peaches",
+  "nom": {
+   "fr": "Anniversaire de Prune",
+   "en": "Peaches's birthday"
+  },
+  "personnage": "Prune",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/0/01/Peaches_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bree",
+  "nom": {
+   "fr": "Anniversaire de Quenotte",
+   "en": "Bree's birthday"
+  },
+  "personnage": "Quenotte",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/7/70/Bree_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-peanut",
+  "nom": {
+   "fr": "Anniversaire de Rachida",
+   "en": "Peanut's birthday"
+  },
+  "personnage": "Rachida",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/0/0a/Peanut_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lily",
+  "nom": {
+   "fr": "Anniversaire de Raina",
+   "en": "Lily's birthday"
+  },
+  "personnage": "Raina",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/e/e2/Lily_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rolf",
+  "nom": {
+   "fr": "Anniversaire de Ralf",
+   "en": "Rolf's birthday"
+  },
+  "personnage": "Ralf",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/c/cf/Rolf_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-lucky",
+  "nom": {
+   "fr": "Anniversaire de Ramsès",
+   "en": "Lucky's birthday"
+  },
+  "personnage": "Ramsès",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/5/55/Lucky_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-zell",
+  "nom": {
+   "fr": "Anniversaire de Régis",
+   "en": "Zell's birthday"
+  },
+  "personnage": "Régis",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/9/9f/Zell_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-queenie",
+  "nom": {
+   "fr": "Anniversaire de Reine",
+   "en": "Queenie's birthday"
+  },
+  "personnage": "Reine",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/a/a2/Queenie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-puddles",
+  "nom": {
+   "fr": "Anniversaire de Rénata",
+   "en": "Puddles's birthday"
+  },
+  "personnage": "Rénata",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/e/e1/Puddles_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tad",
+  "nom": {
+   "fr": "Anniversaire de Rénato",
+   "en": "Tad's birthday"
+  },
+  "personnage": "Rénato",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/f/fe/Tad_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rhonda",
+  "nom": {
+   "fr": "Anniversaire de Renée",
+   "en": "Rhonda's birthday"
+  },
+  "personnage": "Renée",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/7/7b/Rhonda_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-roald",
+  "nom": {
+   "fr": "Anniversaire de Reynald",
+   "en": "Roald's birthday"
+  },
+  "personnage": "Reynald",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/2/2c/Roald_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-spike",
+  "nom": {
+   "fr": "Anniversaire de Rhino",
+   "en": "Spike's birthday"
+  },
+  "personnage": "Rhino",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/6/6d/Spike_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-astrid",
+  "nom": {
+   "fr": "Anniversaire de Rhona",
+   "en": "Astrid's birthday"
+  },
+  "personnage": "Rhona",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/5/5b/Astrid_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rilla",
+  "nom": {
+   "fr": "Anniversaire de Rilla",
+   "en": "Rilla's birthday"
+  },
+  "personnage": "Rilla",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/0/0d/Rilla_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-renee",
+  "nom": {
+   "fr": "Anniversaire de Rina",
+   "en": "Renée's birthday"
+  },
+  "personnage": "Rina",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/6/6c/Ren%C3%A9e_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bob",
+  "nom": {
+   "fr": "Anniversaire de Robert",
+   "en": "Bob's birthday"
+  },
+  "personnage": "Robert",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   1
+  ],
+  "image": "https://dodo.ac/np/images/3/3a/Bob_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-annalisa",
+  "nom": {
+   "fr": "Anniversaire de Roberta",
+   "en": "Annalisa's birthday"
+  },
+  "personnage": "Roberta",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/1/18/Annalisa_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-robin",
+  "nom": {
+   "fr": "Anniversaire de Robie",
+   "en": "Robin's birthday"
+  },
+  "personnage": "Robie",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   4
+  ],
+  "image": "https://dodo.ac/np/images/5/5d/Robin_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ricky",
+  "nom": {
+   "fr": "Anniversaire de Rocky",
+   "en": "Ricky's birthday"
+  },
+  "personnage": "Rocky",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/d/dc/Ricky_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-groucho",
+  "nom": {
+   "fr": "Anniversaire de Ronchon",
+   "en": "Groucho's birthday"
+  },
+  "personnage": "Ronchon",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/8/87/Groucho_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-cheri",
+  "nom": {
+   "fr": "Anniversaire de Rosalie",
+   "en": "Cheri's birthday"
+  },
+  "personnage": "Rosalie",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/2/23/Cheri_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-fuchsia",
+  "nom": {
+   "fr": "Anniversaire de Rosanne",
+   "en": "Fuchsia's birthday"
+  },
+  "personnage": "Rosanne",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/4/45/Fuchsia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-roscoe",
+  "nom": {
+   "fr": "Anniversaire de Rosco",
+   "en": "Roscoe's birthday"
+  },
+  "personnage": "Rosco",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   16
+  ],
+  "image": "https://dodo.ac/np/images/4/4a/Roscoe_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-peggy",
+  "nom": {
+   "fr": "Anniversaire de Rose",
+   "en": "Peggy's birthday"
+  },
+  "personnage": "Rose",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/4/4f/Peggy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rosie",
+  "nom": {
+   "fr": "Anniversaire de Rosie",
+   "en": "Rosie's birthday"
+  },
+  "personnage": "Rosie",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   27
+  ],
+  "image": "https://dodo.ac/np/images/c/c9/Rosie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pinky",
+  "nom": {
+   "fr": "Anniversaire de Rosine",
+   "en": "Pinky's birthday"
+  },
+  "personnage": "Rosine",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/1/1d/Pinky_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rudy",
+  "nom": {
+   "fr": "Anniversaire de Rougepif",
+   "en": "Rudy's birthday"
+  },
+  "personnage": "Rougepif",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/1/15/Rudy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-sheldon",
+  "nom": {
+   "fr": "Anniversaire de Roy",
+   "en": "Sheldon's birthday"
+  },
+  "personnage": "Roy",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/9/9a/Sheldon_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-ruby",
+  "nom": {
+   "fr": "Anniversaire de Rubis",
+   "en": "Ruby's birthday"
+  },
+  "personnage": "Rubis",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/2/25/Ruby_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-flip",
+  "nom": {
+   "fr": "Anniversaire de Rudy",
+   "en": "Flip's birthday"
+  },
+  "personnage": "Rudy",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/4/44/Flip_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bettina",
+  "nom": {
+   "fr": "Anniversaire de Sabrina",
+   "en": "Bettina's birthday"
+  },
+  "personnage": "Sabrina",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   12
+  ],
+  "image": "https://dodo.ac/np/images/7/7e/Bettina_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rasher",
+  "nom": {
+   "fr": "Anniversaire de Salami",
+   "en": "Rasher's birthday"
+  },
+  "personnage": "Salami",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   7
+  ],
+  "image": "https://dodo.ac/np/images/a/a3/Rasher_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-samson",
+  "nom": {
+   "fr": "Anniversaire de Samson",
+   "en": "Samson's birthday"
+  },
+  "personnage": "Samson",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/d/de/Samson_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-savannah",
+  "nom": {
+   "fr": "Anniversaire de Savana",
+   "en": "Savannah's birthday"
+  },
+  "personnage": "Savana",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/9/98/Savannah_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-scoot",
+  "nom": {
+   "fr": "Anniversaire de Scooter",
+   "en": "Scoot's birthday"
+  },
+  "personnage": "Scooter",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/f/f2/Scoot_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-billy",
+  "nom": {
+   "fr": "Anniversaire de Seguin",
+   "en": "Billy's birthday"
+  },
+  "personnage": "Seguin",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/7/78/Billy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-timbra",
+  "nom": {
+   "fr": "Anniversaire de Sélène",
+   "en": "Timbra's birthday"
+  },
+  "personnage": "Sélène",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/2/2d/Timbra_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-marcie",
+  "nom": {
+   "fr": "Anniversaire de Selma",
+   "en": "Marcie's birthday"
+  },
+  "personnage": "Selma",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   31
+  ],
+  "image": "https://dodo.ac/np/images/e/e7/Marcie_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-simon",
+  "nom": {
+   "fr": "Anniversaire de Simon",
+   "en": "Simon's birthday"
+  },
+  "personnage": "Simon",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   19
+  ],
+  "image": "https://dodo.ac/np/images/7/77/Simon_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-becky",
+  "nom": {
+   "fr": "Anniversaire de Sonya",
+   "en": "Becky's birthday"
+  },
+  "personnage": "Sonya",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/9/9f/Becky_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-blanche",
+  "nom": {
+   "fr": "Anniversaire de Sophie",
+   "en": "Blanche's birthday"
+  },
+  "personnage": "Sophie",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   21
+  ],
+  "image": "https://dodo.ac/np/images/a/a6/Blanche_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-rizzo",
+  "nom": {
+   "fr": "Anniversaire de Sourizzi",
+   "en": "Rizzo's birthday"
+  },
+  "personnage": "Sourizzi",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/6/66/Rizzo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-t-bone",
+  "nom": {
+   "fr": "Anniversaire de Steakos",
+   "en": "T-Bone's birthday"
+  },
+  "personnage": "Steakos",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   20
+  ],
+  "image": "https://dodo.ac/np/images/2/23/T-Bone_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-beau",
+  "nom": {
+   "fr": "Anniversaire de Stefaon",
+   "en": "Beau's birthday"
+  },
+  "personnage": "Stefaon",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   5
+  ],
+  "image": "https://dodo.ac/np/images/4/4e/Beau_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-soleil",
+  "nom": {
+   "fr": "Anniversaire de Stella",
+   "en": "Soleil's birthday"
+  },
+  "personnage": "Stella",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/7/79/Soleil_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-broccolo",
+  "nom": {
+   "fr": "Anniversaire de Steven",
+   "en": "Broccolo's birthday"
+  },
+  "personnage": "Steven",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   30
+  ],
+  "image": "https://dodo.ac/np/images/b/bb/Broccolo_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-candi",
+  "nom": {
+   "fr": "Anniversaire de Sucrette",
+   "en": "Candi's birthday"
+  },
+  "personnage": "Sucrette",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/a/ad/Candi_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-merry",
+  "nom": {
+   "fr": "Anniversaire de Suzy",
+   "en": "Merry's birthday"
+  },
+  "personnage": "Suzy",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/7/76/Merry_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-bonbon",
+  "nom": {
+   "fr": "Anniversaire de Sylvette",
+   "en": "Bonbon's birthday"
+  },
+  "personnage": "Sylvette",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   3
+  ],
+  "image": "https://dodo.ac/np/images/a/aa/Bonbon_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-snooty",
+  "nom": {
+   "fr": "Anniversaire de Tarina",
+   "en": "Snooty's birthday"
+  },
+  "personnage": "Tarina",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/4/46/Snooty_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-teddy",
+  "nom": {
+   "fr": "Anniversaire de Teddy",
+   "en": "Teddy's birthday"
+  },
+  "personnage": "Teddy",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/8/84/Teddy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-pate",
+  "nom": {
+   "fr": "Anniversaire de Terrine",
+   "en": "Pate's birthday"
+  },
+  "personnage": "Terrine",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/a/a1/Pate_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-poncho",
+  "nom": {
+   "fr": "Anniversaire de Théo",
+   "en": "Poncho's birthday"
+  },
+  "personnage": "Théo",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/2/2e/Poncho_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tabby",
+  "nom": {
+   "fr": "Anniversaire de Tigri",
+   "en": "Tabby's birthday"
+  },
+  "personnage": "Tigri",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/a/a0/Tabby_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tiffany",
+  "nom": {
+   "fr": "Anniversaire de Tiphaine",
+   "en": "Tiffany's birthday"
+  },
+  "personnage": "Tiphaine",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   9
+  ],
+  "image": "https://dodo.ac/np/images/7/73/Tiffany_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-curly",
+  "nom": {
+   "fr": "Anniversaire de Tirbou",
+   "en": "Curly's birthday"
+  },
+  "personnage": "Tirbou",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/e/e4/Curly_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-twiggy",
+  "nom": {
+   "fr": "Anniversaire de Titi",
+   "en": "Twiggy's birthday"
+  },
+  "personnage": "Titi",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   13
+  ],
+  "image": "https://dodo.ac/np/images/b/b9/Twiggy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-toby",
+  "nom": {
+   "fr": "Anniversaire de Toby",
+   "en": "Toby's birthday"
+  },
+  "personnage": "Toby",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/4/4f/Toby_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tom",
+  "nom": {
+   "fr": "Anniversaire de Tom",
+   "en": "Tom's birthday"
+  },
+  "personnage": "Tom",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   10
+  ],
+  "image": "https://dodo.ac/np/images/0/0a/Tom_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-curlos",
+  "nom": {
+   "fr": "Anniversaire de Tonton",
+   "en": "Curlos's birthday"
+  },
+  "personnage": "Tonton",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/f/f3/Curlos_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-colton",
+  "nom": {
+   "fr": "Anniversaire de Tony",
+   "en": "Colton's birthday"
+  },
+  "personnage": "Tony",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/2/29/Colton_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-vic",
+  "nom": {
+   "fr": "Anniversaire de Toto",
+   "en": "Vic's birthday"
+  },
+  "personnage": "Toto",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   29
+  ],
+  "image": "https://dodo.ac/np/images/b/bb/Vic_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-truffles",
+  "nom": {
+   "fr": "Anniversaire de Trufa",
+   "en": "Truffles's birthday"
+  },
+  "personnage": "Trufa",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   28
+  ],
+  "image": "https://dodo.ac/np/images/c/c2/Truffles_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-stinky",
+  "nom": {
+   "fr": "Anniversaire de Tupux",
+   "en": "Stinky's birthday"
+  },
+  "personnage": "Tupux",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/e/ed/Stinky_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tutu",
+  "nom": {
+   "fr": "Anniversaire de Tutu",
+   "en": "Tutu's birthday"
+  },
+  "personnage": "Tutu",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   15
+  ],
+  "image": "https://dodo.ac/np/images/3/38/Tutu_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tipper",
+  "nom": {
+   "fr": "Anniversaire de Valé",
+   "en": "Tipper's birthday"
+  },
+  "personnage": "Valé",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/3/34/Tipper_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-tammy",
+  "nom": {
+   "fr": "Anniversaire de Vanessa",
+   "en": "Tammy's birthday"
+  },
+  "personnage": "Vanessa",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/d/d0/Tammy_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-claudia",
+  "nom": {
+   "fr": "Anniversaire de Vanina",
+   "en": "Claudia's birthday"
+  },
+  "personnage": "Vanina",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/d/d9/Claudia_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-velma",
+  "nom": {
+   "fr": "Anniversaire de Véra",
+   "en": "Velma's birthday"
+  },
+  "personnage": "Véra",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   14
+  ],
+  "image": "https://dodo.ac/np/images/5/5f/Velma_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-frobert",
+  "nom": {
+   "fr": "Anniversaire de Verbert",
+   "en": "Frobert's birthday"
+  },
+  "personnage": "Verbert",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   8
+  ],
+  "image": "https://dodo.ac/np/images/0/09/Frobert_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-hopper",
+  "nom": {
+   "fr": "Anniversaire de Victor",
+   "en": "Hopper's birthday"
+  },
+  "personnage": "Victor",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/7/79/Hopper_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-victoria",
+  "nom": {
+   "fr": "Anniversaire de Victoria",
+   "en": "Victoria's birthday"
+  },
+  "personnage": "Victoria",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   11
+  ],
+  "image": "https://dodo.ac/np/images/0/00/Victoria_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-diva",
+  "nom": {
+   "fr": "Anniversaire de Violette",
+   "en": "Diva's birthday"
+  },
+  "personnage": "Violette",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/0/07/Diva_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-vivian",
+  "nom": {
+   "fr": "Anniversaire de Viviane",
+   "en": "Vivian's birthday"
+  },
+  "personnage": "Viviane",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   26
+  ],
+  "image": "https://dodo.ac/np/images/b/bb/Vivian_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-vladimir",
+  "nom": {
+   "fr": "Anniversaire de Vladimir",
+   "en": "Vladimir's birthday"
+  },
+  "personnage": "Vladimir",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   2
+  ],
+  "image": "https://dodo.ac/np/images/7/7c/Vladimir_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-walt",
+  "nom": {
+   "fr": "Anniversaire de Walt",
+   "en": "Walt's birthday"
+  },
+  "personnage": "Walt",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   24
+  ],
+  "image": "https://dodo.ac/np/images/0/01/Walt_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-paula",
+  "nom": {
+   "fr": "Anniversaire de Wendy",
+   "en": "Paula's birthday"
+  },
+  "personnage": "Wendy",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   22
+  ],
+  "image": "https://dodo.ac/np/images/e/ed/Paula_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-wolfgang",
+  "nom": {
+   "fr": "Anniversaire de Wolfgang",
+   "en": "Wolfgang's birthday"
+  },
+  "personnage": "Wolfgang",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   25
+  ],
+  "image": "https://dodo.ac/np/images/9/99/Wolfgang_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-knox",
+  "nom": {
+   "fr": "Anniversaire de Wolfram",
+   "en": "Knox's birthday"
+  },
+  "personnage": "Wolfram",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   23
+  ],
+  "image": "https://dodo.ac/np/images/0/01/Knox_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-charlise",
+  "nom": {
+   "fr": "Anniversaire de Zabou",
+   "en": "Charlise's birthday"
+  },
+  "personnage": "Zabou",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   17
+  ],
+  "image": "https://dodo.ac/np/images/6/65/Charlise_NL_Villager_Icon.png"
+ },
+ {
+  "id": "anniversaire-carmen",
+  "nom": {
+   "fr": "Anniversaire de Zoé",
+   "en": "Carmen's birthday"
+  },
+  "personnage": "Zoé",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   6
+  ],
+  "image": "https://dodo.ac/np/images/2/24/Carmen_NL_Villager_Icon.png"
+ },
+ {
+  "id": "april-fools-day",
+  "nom": {
+   "fr": "1er avril",
+   "en": "April Fools' Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   4,
+   1
+  ]
+ },
+ {
+  "id": "festivale",
+  "nom": {
+   "fr": "Carnaval",
+   "en": "Festivale"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-02-13",
+      "2024-02-13"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-03-04",
+      "2025-03-04"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-02-17",
+      "2026-02-17"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-02-09",
+      "2027-02-09"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-02-29",
+      "2028-02-29"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-02-13",
+      "2029-02-13"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-03-05",
+      "2030-03-05"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-02-25",
+      "2031-02-25"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-02-10",
+      "2032-02-10"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-03-01",
+      "2033-03-01"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-02-21",
+      "2034-02-21"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-02-06",
+      "2035-02-06"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-02-26",
+      "2036-02-26"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-02-17",
+      "2037-02-17"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-03-09",
+      "2038-03-09"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-02-22",
+      "2039-02-22"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-02-14",
+      "2040-02-14"
+     ]
+    ]
+   }
+  },
+  "regle": "Mardi gras (47 jours avant Pâques)"
+ },
+ {
+  "id": "new-years-eve-countdown",
+  "nom": {
+   "fr": "Compte à rebours du nouvel an",
+   "en": "New Year's Eve countdown"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   31
+  ]
+ },
+ {
+  "id": "bunny-day",
+  "nom": {
+   "fr": "Fête des œufs",
+   "en": "Bunny Day"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-03-31",
+      "2024-03-31"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-04-20",
+      "2025-04-20"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-04-05",
+      "2026-04-05"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-03-28",
+      "2027-03-28"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-04-16",
+      "2028-04-16"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-04-01",
+      "2029-04-01"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-04-21",
+      "2030-04-21"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-04-13",
+      "2031-04-13"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-03-28",
+      "2032-03-28"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-04-17",
+      "2033-04-17"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-04-09",
+      "2034-04-09"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-03-25",
+      "2035-03-25"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-04-13",
+      "2036-04-13"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-04-05",
+      "2037-04-05"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-04-25",
+      "2038-04-25"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-04-10",
+      "2039-04-10"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-04-01",
+      "2040-04-01"
+     ]
+    ]
+   }
+  },
+  "regle": "dimanche de Pâques"
+ },
+ {
+  "id": "harvest-festival",
+  "nom": {
+   "fr": "Fête des récoltes",
+   "en": "Harvest Festival"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-11-28",
+      "2024-11-28"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-11-27",
+      "2025-11-27"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-11-26",
+      "2026-11-26"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-11-25",
+      "2027-11-25"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-11-23",
+      "2028-11-23"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-11-22",
+      "2029-11-22"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-11-28",
+      "2030-11-28"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-11-27",
+      "2031-11-27"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-11-25",
+      "2032-11-25"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-11-24",
+      "2033-11-24"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-11-23",
+      "2034-11-23"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-11-22",
+      "2035-11-22"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-11-27",
+      "2036-11-27"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-11-26",
+      "2037-11-26"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-11-25",
+      "2038-11-25"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-11-24",
+      "2039-11-24"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-11-22",
+      "2040-11-22"
+     ]
+    ]
+   }
+  },
+  "regle": "4e jeudi de novembre"
+ },
+ {
+  "id": "fireworks-show",
+  "nom": {
+   "fr": "Feux d'artifice",
+   "en": "Fireworks Show"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-08-04",
+      "2024-08-04"
+     ],
+     [
+      "2024-08-11",
+      "2024-08-11"
+     ],
+     [
+      "2024-08-18",
+      "2024-08-18"
+     ],
+     [
+      "2024-08-25",
+      "2024-08-25"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-08-03",
+      "2025-08-03"
+     ],
+     [
+      "2025-08-10",
+      "2025-08-10"
+     ],
+     [
+      "2025-08-17",
+      "2025-08-17"
+     ],
+     [
+      "2025-08-24",
+      "2025-08-24"
+     ],
+     [
+      "2025-08-31",
+      "2025-08-31"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-08-02",
+      "2026-08-02"
+     ],
+     [
+      "2026-08-09",
+      "2026-08-09"
+     ],
+     [
+      "2026-08-16",
+      "2026-08-16"
+     ],
+     [
+      "2026-08-23",
+      "2026-08-23"
+     ],
+     [
+      "2026-08-30",
+      "2026-08-30"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-08-01",
+      "2027-08-01"
+     ],
+     [
+      "2027-08-08",
+      "2027-08-08"
+     ],
+     [
+      "2027-08-15",
+      "2027-08-15"
+     ],
+     [
+      "2027-08-22",
+      "2027-08-22"
+     ],
+     [
+      "2027-08-29",
+      "2027-08-29"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-08-06",
+      "2028-08-06"
+     ],
+     [
+      "2028-08-13",
+      "2028-08-13"
+     ],
+     [
+      "2028-08-20",
+      "2028-08-20"
+     ],
+     [
+      "2028-08-27",
+      "2028-08-27"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-08-05",
+      "2029-08-05"
+     ],
+     [
+      "2029-08-12",
+      "2029-08-12"
+     ],
+     [
+      "2029-08-19",
+      "2029-08-19"
+     ],
+     [
+      "2029-08-26",
+      "2029-08-26"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-08-04",
+      "2030-08-04"
+     ],
+     [
+      "2030-08-11",
+      "2030-08-11"
+     ],
+     [
+      "2030-08-18",
+      "2030-08-18"
+     ],
+     [
+      "2030-08-25",
+      "2030-08-25"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-08-03",
+      "2031-08-03"
+     ],
+     [
+      "2031-08-10",
+      "2031-08-10"
+     ],
+     [
+      "2031-08-17",
+      "2031-08-17"
+     ],
+     [
+      "2031-08-24",
+      "2031-08-24"
+     ],
+     [
+      "2031-08-31",
+      "2031-08-31"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-08-01",
+      "2032-08-01"
+     ],
+     [
+      "2032-08-08",
+      "2032-08-08"
+     ],
+     [
+      "2032-08-15",
+      "2032-08-15"
+     ],
+     [
+      "2032-08-22",
+      "2032-08-22"
+     ],
+     [
+      "2032-08-29",
+      "2032-08-29"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-08-07",
+      "2033-08-07"
+     ],
+     [
+      "2033-08-14",
+      "2033-08-14"
+     ],
+     [
+      "2033-08-21",
+      "2033-08-21"
+     ],
+     [
+      "2033-08-28",
+      "2033-08-28"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-08-06",
+      "2034-08-06"
+     ],
+     [
+      "2034-08-13",
+      "2034-08-13"
+     ],
+     [
+      "2034-08-20",
+      "2034-08-20"
+     ],
+     [
+      "2034-08-27",
+      "2034-08-27"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-08-05",
+      "2035-08-05"
+     ],
+     [
+      "2035-08-12",
+      "2035-08-12"
+     ],
+     [
+      "2035-08-19",
+      "2035-08-19"
+     ],
+     [
+      "2035-08-26",
+      "2035-08-26"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-08-03",
+      "2036-08-03"
+     ],
+     [
+      "2036-08-10",
+      "2036-08-10"
+     ],
+     [
+      "2036-08-17",
+      "2036-08-17"
+     ],
+     [
+      "2036-08-24",
+      "2036-08-24"
+     ],
+     [
+      "2036-08-31",
+      "2036-08-31"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-08-02",
+      "2037-08-02"
+     ],
+     [
+      "2037-08-09",
+      "2037-08-09"
+     ],
+     [
+      "2037-08-16",
+      "2037-08-16"
+     ],
+     [
+      "2037-08-23",
+      "2037-08-23"
+     ],
+     [
+      "2037-08-30",
+      "2037-08-30"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-08-01",
+      "2038-08-01"
+     ],
+     [
+      "2038-08-08",
+      "2038-08-08"
+     ],
+     [
+      "2038-08-15",
+      "2038-08-15"
+     ],
+     [
+      "2038-08-22",
+      "2038-08-22"
+     ],
+     [
+      "2038-08-29",
+      "2038-08-29"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-08-07",
+      "2039-08-07"
+     ],
+     [
+      "2039-08-14",
+      "2039-08-14"
+     ],
+     [
+      "2039-08-21",
+      "2039-08-21"
+     ],
+     [
+      "2039-08-28",
+      "2039-08-28"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-08-05",
+      "2040-08-05"
+     ],
+     [
+      "2040-08-12",
+      "2040-08-12"
+     ],
+     [
+      "2040-08-19",
+      "2040-08-19"
+     ],
+     [
+      "2040-08-26",
+      "2040-08-26"
+     ]
+    ]
+   }
+  },
+  "regle": "chaque dimanche d'août"
+ },
+ {
+  "id": "halloween",
+  "nom": {
+   "fr": "Halloween",
+   "en": "Halloween"
+  },
+  "type": "evenement",
+  "fixe": [
+   10,
+   31
+  ]
+ },
+ {
+  "id": "bug-off",
+  "nom": {
+   "fr": "Insectosafari",
+   "en": "Bug-Off"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-06-15",
+      "2024-06-15"
+     ],
+     [
+      "2024-07-20",
+      "2024-07-20"
+     ],
+     [
+      "2024-08-17",
+      "2024-08-17"
+     ],
+     [
+      "2024-09-21",
+      "2024-09-21"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-06-21",
+      "2025-06-21"
+     ],
+     [
+      "2025-07-19",
+      "2025-07-19"
+     ],
+     [
+      "2025-08-16",
+      "2025-08-16"
+     ],
+     [
+      "2025-09-20",
+      "2025-09-20"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-06-20",
+      "2026-06-20"
+     ],
+     [
+      "2026-07-18",
+      "2026-07-18"
+     ],
+     [
+      "2026-08-15",
+      "2026-08-15"
+     ],
+     [
+      "2026-09-19",
+      "2026-09-19"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-06-19",
+      "2027-06-19"
+     ],
+     [
+      "2027-07-17",
+      "2027-07-17"
+     ],
+     [
+      "2027-08-21",
+      "2027-08-21"
+     ],
+     [
+      "2027-09-18",
+      "2027-09-18"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-06-17",
+      "2028-06-17"
+     ],
+     [
+      "2028-07-15",
+      "2028-07-15"
+     ],
+     [
+      "2028-08-19",
+      "2028-08-19"
+     ],
+     [
+      "2028-09-16",
+      "2028-09-16"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-06-16",
+      "2029-06-16"
+     ],
+     [
+      "2029-07-21",
+      "2029-07-21"
+     ],
+     [
+      "2029-08-18",
+      "2029-08-18"
+     ],
+     [
+      "2029-09-15",
+      "2029-09-15"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-06-15",
+      "2030-06-15"
+     ],
+     [
+      "2030-07-20",
+      "2030-07-20"
+     ],
+     [
+      "2030-08-17",
+      "2030-08-17"
+     ],
+     [
+      "2030-09-21",
+      "2030-09-21"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-06-21",
+      "2031-06-21"
+     ],
+     [
+      "2031-07-19",
+      "2031-07-19"
+     ],
+     [
+      "2031-08-16",
+      "2031-08-16"
+     ],
+     [
+      "2031-09-20",
+      "2031-09-20"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-06-19",
+      "2032-06-19"
+     ],
+     [
+      "2032-07-17",
+      "2032-07-17"
+     ],
+     [
+      "2032-08-21",
+      "2032-08-21"
+     ],
+     [
+      "2032-09-18",
+      "2032-09-18"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-06-18",
+      "2033-06-18"
+     ],
+     [
+      "2033-07-16",
+      "2033-07-16"
+     ],
+     [
+      "2033-08-20",
+      "2033-08-20"
+     ],
+     [
+      "2033-09-17",
+      "2033-09-17"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-06-17",
+      "2034-06-17"
+     ],
+     [
+      "2034-07-15",
+      "2034-07-15"
+     ],
+     [
+      "2034-08-19",
+      "2034-08-19"
+     ],
+     [
+      "2034-09-16",
+      "2034-09-16"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-06-16",
+      "2035-06-16"
+     ],
+     [
+      "2035-07-21",
+      "2035-07-21"
+     ],
+     [
+      "2035-08-18",
+      "2035-08-18"
+     ],
+     [
+      "2035-09-15",
+      "2035-09-15"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-06-21",
+      "2036-06-21"
+     ],
+     [
+      "2036-07-19",
+      "2036-07-19"
+     ],
+     [
+      "2036-08-16",
+      "2036-08-16"
+     ],
+     [
+      "2036-09-20",
+      "2036-09-20"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-06-20",
+      "2037-06-20"
+     ],
+     [
+      "2037-07-18",
+      "2037-07-18"
+     ],
+     [
+      "2037-08-15",
+      "2037-08-15"
+     ],
+     [
+      "2037-09-19",
+      "2037-09-19"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-06-19",
+      "2038-06-19"
+     ],
+     [
+      "2038-07-17",
+      "2038-07-17"
+     ],
+     [
+      "2038-08-21",
+      "2038-08-21"
+     ],
+     [
+      "2038-09-18",
+      "2038-09-18"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-06-18",
+      "2039-06-18"
+     ],
+     [
+      "2039-07-16",
+      "2039-07-16"
+     ],
+     [
+      "2039-08-20",
+      "2039-08-20"
+     ],
+     [
+      "2039-09-17",
+      "2039-09-17"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-06-16",
+      "2040-06-16"
+     ],
+     [
+      "2040-07-21",
+      "2040-07-21"
+     ],
+     [
+      "2040-08-18",
+      "2040-08-18"
+     ],
+     [
+      "2040-09-15",
+      "2040-09-15"
+     ]
+    ]
+   }
+  },
+  "regle": "3e samedi de juin ; 3e samedi de juillet ; 3e samedi d'août ; 3e samedi de septembre"
+ },
+ {
+  "id": "leap-day",
+  "nom": {
+   "fr": "Jour bissextil",
+   "en": "Leap Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   2,
+   29
+  ]
+ },
+ {
+  "id": "new-years-day",
+  "nom": {
+   "fr": "Jour de l'an",
+   "en": "New Year's Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   1,
+   1
+  ]
+ },
+ {
+  "id": "toy-day",
+  "nom": {
+   "fr": "Jour des cadeaux",
+   "en": "Toy Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   24
+  ]
+ },
+ {
+  "id": "naughty-or-nice-day",
+  "nom": {
+   "fr": "Jour des enfants sages",
+   "en": "Naughty-or-Nice Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   6
+  ]
+ },
+ {
+  "id": "weeding-day",
+  "nom": {
+   "fr": "Jour du désherbage",
+   "en": "Weeding Day"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-04-27",
+      "2024-04-27"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-04-26",
+      "2025-04-26"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-04-25",
+      "2026-04-25"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-04-24",
+      "2027-04-24"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-04-29",
+      "2028-04-29"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-04-28",
+      "2029-04-28"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-04-27",
+      "2030-04-27"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-04-26",
+      "2031-04-26"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-04-24",
+      "2032-04-24"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-04-30",
+      "2033-04-30"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-04-29",
+      "2034-04-29"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-04-28",
+      "2035-04-28"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-04-26",
+      "2036-04-26"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-04-25",
+      "2037-04-25"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-04-24",
+      "2038-04-24"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-04-30",
+      "2039-04-30"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-04-28",
+      "2040-04-28"
+     ]
+    ]
+   }
+  },
+  "regle": "dernier samedi d'avril"
+ },
+ {
+  "id": "shamrock-day",
+  "nom": {
+   "fr": "Jour du trèfle",
+   "en": "Shamrock Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   3,
+   17
+  ]
+ },
+ {
+  "id": "autumn-moon",
+  "nom": {
+   "fr": "Lune d'automne",
+   "en": "Autumn Moon"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-09-18",
+      "2024-09-18"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-09-07",
+      "2025-09-07"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-09-26",
+      "2026-09-26"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-09-15",
+      "2027-09-15"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-10-03",
+      "2028-10-03"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-09-22",
+      "2029-09-22"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-09-12",
+      "2030-09-12"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-10-01",
+      "2031-10-01"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-09-19",
+      "2032-09-19"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-09-08",
+      "2033-09-08"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-09-27",
+      "2034-09-27"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-09-17",
+      "2035-09-17"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-10-05",
+      "2036-10-05"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-09-24",
+      "2037-09-24"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-09-13",
+      "2038-09-13"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-10-02",
+      "2039-10-02"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-09-21",
+      "2040-09-21"
+     ]
+    ]
+   }
+  },
+  "regle": "nuit de pleine lune proche de l'équinoxe d'automne",
+  "notes": [
+   "Date calculée de façon approchée (à un jour près)."
+  ]
+ },
+ {
+  "id": "valentines-day",
+  "nom": {
+   "fr": "Saint-Valentin",
+   "en": "Valentine's Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   2,
+   14
+  ]
+ },
+ {
+  "id": "summer-solstice",
+  "nom": {
+   "fr": "Solstice d'été",
+   "en": "Summer Solstice"
+  },
+  "type": "evenement",
+  "fixe": [
+   6,
+   21
+  ]
+ },
+ {
+  "id": "winter-solstice",
+  "nom": {
+   "fr": "Solstice d'hiver",
+   "en": "Winter Solstice"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   21
+  ]
+ },
+ {
+  "id": "fishing-tourney",
+  "nom": {
+   "fr": "Tournoi de pêche",
+   "en": "Fishing Tourney"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-01-20",
+      "2024-01-20"
+     ],
+     [
+      "2024-02-10",
+      "2024-02-10"
+     ],
+     [
+      "2024-03-16",
+      "2024-03-16"
+     ],
+     [
+      "2024-04-13",
+      "2024-04-13"
+     ],
+     [
+      "2024-05-18",
+      "2024-05-18"
+     ],
+     [
+      "2024-10-12",
+      "2024-10-12"
+     ],
+     [
+      "2024-11-16",
+      "2024-11-16"
+     ],
+     [
+      "2024-12-14",
+      "2024-12-14"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-01-18",
+      "2025-01-18"
+     ],
+     [
+      "2025-02-08",
+      "2025-02-08"
+     ],
+     [
+      "2025-03-15",
+      "2025-03-15"
+     ],
+     [
+      "2025-04-12",
+      "2025-04-12"
+     ],
+     [
+      "2025-05-17",
+      "2025-05-17"
+     ],
+     [
+      "2025-10-11",
+      "2025-10-11"
+     ],
+     [
+      "2025-11-15",
+      "2025-11-15"
+     ],
+     [
+      "2025-12-13",
+      "2025-12-13"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-01-17",
+      "2026-01-17"
+     ],
+     [
+      "2026-02-14",
+      "2026-02-14"
+     ],
+     [
+      "2026-03-21",
+      "2026-03-21"
+     ],
+     [
+      "2026-04-11",
+      "2026-04-11"
+     ],
+     [
+      "2026-05-16",
+      "2026-05-16"
+     ],
+     [
+      "2026-10-10",
+      "2026-10-10"
+     ],
+     [
+      "2026-11-21",
+      "2026-11-21"
+     ],
+     [
+      "2026-12-12",
+      "2026-12-12"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-01-16",
+      "2027-01-16"
+     ],
+     [
+      "2027-02-13",
+      "2027-02-13"
+     ],
+     [
+      "2027-03-20",
+      "2027-03-20"
+     ],
+     [
+      "2027-04-10",
+      "2027-04-10"
+     ],
+     [
+      "2027-05-15",
+      "2027-05-15"
+     ],
+     [
+      "2027-10-09",
+      "2027-10-09"
+     ],
+     [
+      "2027-11-20",
+      "2027-11-20"
+     ],
+     [
+      "2027-12-11",
+      "2027-12-11"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-01-15",
+      "2028-01-15"
+     ],
+     [
+      "2028-02-12",
+      "2028-02-12"
+     ],
+     [
+      "2028-03-18",
+      "2028-03-18"
+     ],
+     [
+      "2028-04-08",
+      "2028-04-08"
+     ],
+     [
+      "2028-05-20",
+      "2028-05-20"
+     ],
+     [
+      "2028-10-14",
+      "2028-10-14"
+     ],
+     [
+      "2028-11-18",
+      "2028-11-18"
+     ],
+     [
+      "2028-12-09",
+      "2028-12-09"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-01-20",
+      "2029-01-20"
+     ],
+     [
+      "2029-02-10",
+      "2029-02-10"
+     ],
+     [
+      "2029-03-17",
+      "2029-03-17"
+     ],
+     [
+      "2029-04-14",
+      "2029-04-14"
+     ],
+     [
+      "2029-05-19",
+      "2029-05-19"
+     ],
+     [
+      "2029-10-13",
+      "2029-10-13"
+     ],
+     [
+      "2029-11-17",
+      "2029-11-17"
+     ],
+     [
+      "2029-12-08",
+      "2029-12-08"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-01-19",
+      "2030-01-19"
+     ],
+     [
+      "2030-02-09",
+      "2030-02-09"
+     ],
+     [
+      "2030-03-16",
+      "2030-03-16"
+     ],
+     [
+      "2030-04-13",
+      "2030-04-13"
+     ],
+     [
+      "2030-05-18",
+      "2030-05-18"
+     ],
+     [
+      "2030-10-12",
+      "2030-10-12"
+     ],
+     [
+      "2030-11-16",
+      "2030-11-16"
+     ],
+     [
+      "2030-12-14",
+      "2030-12-14"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-01-18",
+      "2031-01-18"
+     ],
+     [
+      "2031-02-08",
+      "2031-02-08"
+     ],
+     [
+      "2031-03-15",
+      "2031-03-15"
+     ],
+     [
+      "2031-04-12",
+      "2031-04-12"
+     ],
+     [
+      "2031-05-17",
+      "2031-05-17"
+     ],
+     [
+      "2031-10-11",
+      "2031-10-11"
+     ],
+     [
+      "2031-11-15",
+      "2031-11-15"
+     ],
+     [
+      "2031-12-13",
+      "2031-12-13"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-01-17",
+      "2032-01-17"
+     ],
+     [
+      "2032-02-14",
+      "2032-02-14"
+     ],
+     [
+      "2032-03-20",
+      "2032-03-20"
+     ],
+     [
+      "2032-04-10",
+      "2032-04-10"
+     ],
+     [
+      "2032-05-15",
+      "2032-05-15"
+     ],
+     [
+      "2032-10-09",
+      "2032-10-09"
+     ],
+     [
+      "2032-11-20",
+      "2032-11-20"
+     ],
+     [
+      "2032-12-11",
+      "2032-12-11"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-01-15",
+      "2033-01-15"
+     ],
+     [
+      "2033-02-12",
+      "2033-02-12"
+     ],
+     [
+      "2033-03-19",
+      "2033-03-19"
+     ],
+     [
+      "2033-04-09",
+      "2033-04-09"
+     ],
+     [
+      "2033-05-21",
+      "2033-05-21"
+     ],
+     [
+      "2033-10-08",
+      "2033-10-08"
+     ],
+     [
+      "2033-11-19",
+      "2033-11-19"
+     ],
+     [
+      "2033-12-10",
+      "2033-12-10"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-01-21",
+      "2034-01-21"
+     ],
+     [
+      "2034-02-11",
+      "2034-02-11"
+     ],
+     [
+      "2034-03-18",
+      "2034-03-18"
+     ],
+     [
+      "2034-04-08",
+      "2034-04-08"
+     ],
+     [
+      "2034-05-20",
+      "2034-05-20"
+     ],
+     [
+      "2034-10-14",
+      "2034-10-14"
+     ],
+     [
+      "2034-11-18",
+      "2034-11-18"
+     ],
+     [
+      "2034-12-09",
+      "2034-12-09"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-01-20",
+      "2035-01-20"
+     ],
+     [
+      "2035-02-10",
+      "2035-02-10"
+     ],
+     [
+      "2035-03-17",
+      "2035-03-17"
+     ],
+     [
+      "2035-04-14",
+      "2035-04-14"
+     ],
+     [
+      "2035-05-19",
+      "2035-05-19"
+     ],
+     [
+      "2035-10-13",
+      "2035-10-13"
+     ],
+     [
+      "2035-11-17",
+      "2035-11-17"
+     ],
+     [
+      "2035-12-08",
+      "2035-12-08"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-01-19",
+      "2036-01-19"
+     ],
+     [
+      "2036-02-09",
+      "2036-02-09"
+     ],
+     [
+      "2036-03-15",
+      "2036-03-15"
+     ],
+     [
+      "2036-04-12",
+      "2036-04-12"
+     ],
+     [
+      "2036-05-17",
+      "2036-05-17"
+     ],
+     [
+      "2036-10-11",
+      "2036-10-11"
+     ],
+     [
+      "2036-11-15",
+      "2036-11-15"
+     ],
+     [
+      "2036-12-13",
+      "2036-12-13"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-01-17",
+      "2037-01-17"
+     ],
+     [
+      "2037-02-14",
+      "2037-02-14"
+     ],
+     [
+      "2037-03-21",
+      "2037-03-21"
+     ],
+     [
+      "2037-04-11",
+      "2037-04-11"
+     ],
+     [
+      "2037-05-16",
+      "2037-05-16"
+     ],
+     [
+      "2037-10-10",
+      "2037-10-10"
+     ],
+     [
+      "2037-11-21",
+      "2037-11-21"
+     ],
+     [
+      "2037-12-12",
+      "2037-12-12"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-01-16",
+      "2038-01-16"
+     ],
+     [
+      "2038-02-13",
+      "2038-02-13"
+     ],
+     [
+      "2038-03-20",
+      "2038-03-20"
+     ],
+     [
+      "2038-04-10",
+      "2038-04-10"
+     ],
+     [
+      "2038-05-15",
+      "2038-05-15"
+     ],
+     [
+      "2038-10-09",
+      "2038-10-09"
+     ],
+     [
+      "2038-11-20",
+      "2038-11-20"
+     ],
+     [
+      "2038-12-11",
+      "2038-12-11"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-01-15",
+      "2039-01-15"
+     ],
+     [
+      "2039-02-12",
+      "2039-02-12"
+     ],
+     [
+      "2039-03-19",
+      "2039-03-19"
+     ],
+     [
+      "2039-04-09",
+      "2039-04-09"
+     ],
+     [
+      "2039-05-21",
+      "2039-05-21"
+     ],
+     [
+      "2039-10-08",
+      "2039-10-08"
+     ],
+     [
+      "2039-11-19",
+      "2039-11-19"
+     ],
+     [
+      "2039-12-10",
+      "2039-12-10"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-01-21",
+      "2040-01-21"
+     ],
+     [
+      "2040-02-11",
+      "2040-02-11"
+     ],
+     [
+      "2040-03-17",
+      "2040-03-17"
+     ],
+     [
+      "2040-04-14",
+      "2040-04-14"
+     ],
+     [
+      "2040-05-19",
+      "2040-05-19"
+     ],
+     [
+      "2040-10-13",
+      "2040-10-13"
+     ],
+     [
+      "2040-11-17",
+      "2040-11-17"
+     ],
+     [
+      "2040-12-08",
+      "2040-12-08"
+     ]
+    ]
+   }
+  },
+  "regle": "3e samedi de janvier ; 2e samedi de février ; 3e samedi de mars ; 2e samedi d'avril ; 3e samedi de mai ; 2e samedi d'octobre ; 3e samedi de novembre ; 2e samedi de décembre"
+ }
+]

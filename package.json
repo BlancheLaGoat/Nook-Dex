@@ -8,7 +8,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "donnees": "node scripts/nh.js && node scripts/nl.js && node scripts/cf.js && node scripts/ww.js && node scripts/gc.js && node scripts/especes.js && node scripts/verifier.js",
+    "donnees": "node scripts/nh.js && node scripts/nl.js && node scripts/cf.js && node scripts/ww.js && node scripts/gc.js && node scripts/evenements.js && node scripts/especes.js && node scripts/verifier.js",
     "donnees:nh": "node scripts/nh.js",
     "donnees:nl": "node scripts/nl.js",
     "donnees:cf": "node scripts/cf.js",
@@ -18,7 +18,8 @@
     "test": "node --test tests/*.test.js",
     "dist": "electron-builder --win",
     "release": "electron-builder --win --publish always",
-    "donnees:especes": "node scripts/especes.js"
+    "donnees:especes": "node scripts/especes.js",
+    "donnees:evenements": "node scripts/evenements.js"
   },
   "dependencies": {
     "electron-updater": "^6.8.9"

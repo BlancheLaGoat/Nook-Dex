@@ -4,9 +4,13 @@ import { etat, donneesChargees, etatDe, maintenant, surChangement } from '../lib
 import { progression, estActif } from '../lib/filtres.js';
 import { estDisponible, partBientot, arriveCeMois, NOMS_MOIS } from '../lib/dispo.js';
 import { ouvrirFiche } from './fiche.js';
+import { prochains, formaterPeriode } from '../lib/evenements.js';
+import { donneesCategorie } from '../lib/etat.js';
 
 export function afficherAccueil(conteneur, jeu, allerVers) {
   let noteJeu = null;
+  let evenements = [];
+  donneesCategorie(jeu.id, 'evenements').then(l => { evenements = l || []; if (conteneur.isConnected) dessiner(); }).catch(() => {});
   const dessiner = () => {
     // On garde la position de défilement quand la page se redessine (après une coche).
     const defilement = conteneur.scrollTop;
@@ -15,6 +19,7 @@ export function afficherAccueil(conteneur, jeu, allerVers) {
     const hemi = etat.profil.hemisphere;
     const date = maintenant();
     const mois = date.getMonth() + 1;
+    const versAujourdhui = `${date.getFullYear()}-${String(mois).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 
     // Progression globale
     let total = 0, obtenus = 0, musee = 0, totalMusee = 0;
@@ -44,6 +49,20 @@ export function afficherAccueil(conteneur, jeu, allerVers) {
     );
 
     if (noteJeu) conteneur.append(h('p', { class: 'note' }, 'ℹ️ ', noteJeu));
+
+    // Prochains événements (14 jours) et anniversaires (aujourd'hui et demain)
+    if (evenements.length) {
+      const fetes = prochains(evenements, date, 14, hemi, e => e.type === 'evenement');
+      const anniv = prochains(evenements, date, 1, hemi, e => e.type === 'anniversaire');
+      ajouterA(conteneur, h('div', { class: 'section' },
+        h('h2', {}, '📆 À venir', h('span', { class: 'compte' }, 'les 14 prochains jours'),
+          h('button', { class: 'bouton petit', style: { marginLeft: 'auto' }, onclick: () => allerVers('evenements') }, 'Voir le calendrier')),
+        fetes.length ? h('div', { class: 'liste-mini' }, fetes.slice(0, 12).map(o => h('span', { class: `puce-element${o.enCours ? ' en-cours' : ''}`, title: o.e.regle || '' },
+          '🎉 ', o.e.nom.fr, h('span', { class: 'aide' }, ` — ${o.enCours && o.debut !== o.fin ? "en cours jusqu'au " + formaterPeriode({ debut: o.fin, fin: o.fin }) : formaterPeriode(o)}`))))
+          : h('p', { class: 'aide' }, 'Aucun événement dans les 14 prochains jours.'),
+        anniv.length ? h('div', { class: 'liste-mini', style: { marginTop: '8px' } }, anniv.map(o => h('span', { class: 'puce-element' },
+          o.e.image ? image(o.e.image, '') : '🎂 ', o.e.nom.fr, h('span', { class: 'aide' }, ` — ${o.debut === versAujourdhui ? "aujourd'hui" : 'demain'}`)))) : null));
+    }
 
     // Créatures du moment
     const creatures = jeu.categories.filter(c => c.type === 'creature');

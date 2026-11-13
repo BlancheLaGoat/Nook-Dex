@@ -364,3 +364,35 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
 .tableau-comparaison tbody th { color: var(--texte-doux); font-weight: 500; white-space: nowrap; }
 
 .filtres.statique { position: static; }
+
+/* Carte : clic = obtenu ; ⓘ = fiche ; ✓ quand obtenu */
+.element { user-select: none; }
+.element .numero { right: 38px; top: 10px; }
+.bouton-info {
+  position: absolute; top: 6px; right: 8px; width: 24px; height: 24px; border-radius: 50%;
+  border: 1px solid var(--bord); background: var(--surface); color: var(--texte-doux);
+  font: italic 700 13px Georgia, 'Times New Roman', serif; cursor: pointer; display: grid; place-items: center; padding: 0;
+}
+.bouton-info:hover { background: var(--bleu-pale); color: var(--texte); border-color: var(--bleu); }
+.element.selectionne .bouton-info { background: var(--jaune); color: #4a3a10; border-color: var(--jaune); }
+.marque-obtenu {
+  position: absolute; top: 6px; left: 8px; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--vert); color: #fff; font-weight: 800; display: grid; place-items: center;
+}
+
+/* ---------- Événements ---------- */
+.navigation-annee { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.navigation-annee strong { font-size: 17px; min-width: 150px; text-align: center; }
+.navigation-annee strong::first-letter, .jour-evenements h3::first-letter { text-transform: uppercase; }
+.jour-evenements { margin-top: 18px; }
+.jour-evenements h3 { font-size: 14px; color: var(--texte-doux); margin-bottom: 6px; display: flex; gap: 8px; align-items: center; }
+.jour-evenements.aujourdhui h3 { color: var(--vert-fonce); }
+.liste-evenements { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 8px; }
+.ligne-evenement { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--bord); border-radius: var(--rayon-petit); padding: 8px 10px; }
+.ligne-evenement.type-evenement { border-left: 4px solid var(--jaune); }
+.ligne-evenement.type-anniversaire { border-left: 4px solid var(--rose); }
+.ligne-evenement.aujourdhui { background: var(--jaune-pale); }
+.ligne-evenement .texte { flex: 1; min-width: 0; }
+.ligne-evenement .nom { font-weight: 600; }
+.icone-evenement { width: 40px; height: 40px; display: grid; place-items: center; font-size: 22px; background: var(--surface-2); border-radius: 50%; flex-shrink: 0; }
+.puce-element.en-cours { border-color: var(--jaune); background: var(--jaune-pale); }

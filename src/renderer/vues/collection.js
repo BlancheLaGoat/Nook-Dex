@@ -102,10 +102,15 @@ export async function afficherCollection(conteneur, jeu, cat) {
   }
 
   function creerCarte(e) {
+    // Un clic sur la carte coche / décoche « obtenu » ; le bouton ⓘ ouvre la fiche.
     const carte = h('div', {
-      class: 'element', tabindex: '0', dataset: { id: e.id },
-      onclick: () => ouvrirFiche(jeu, cat, e),
-      onkeydown: ev => { if (ev.key === 'Enter') ouvrirFiche(jeu, cat, e); },
+      class: 'element', tabindex: '0', dataset: { id: e.id }, role: 'button',
+      title: creature ? 'Cliquer pour cocher « attrapé »' : 'Cliquer pour cocher « obtenu »',
+      onclick: () => basculer(cat.id, e.id, 'obtenu'),
+      onkeydown: ev => {
+        if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); basculer(cat.id, e.id, 'obtenu'); }
+        if (ev.key === 'i') ouvrirFiche(jeu, cat, e);
+      },
     });
     majCarte(carte, e);
     return carte;
@@ -124,15 +129,15 @@ export async function afficherCollection(conteneur, jeu, cat) {
     if (e.ext) badges.push(h('span', { class: 'badge ext' }, e.ext === 'hhp' ? 'HHP' : e.ext === 'wa' ? 'amiibo' : e.ext));
     if (e.v && e.v.startsWith('3.')) badges.push(h('span', { class: 'badge nouveau' }, '3.0'));
     ajouterA(vider(carte), 
+      st.obtenu ? h('span', { class: 'marque-obtenu', title: creature ? 'Attrapé' : 'Obtenu' }, '✓') : null,
       e.n != null ? h('span', { class: 'numero' }, `n° ${e.n}`) : null,
+      h('button', { class: 'bouton-info', title: 'Voir les informations', onclick: ev => { ev.stopPropagation(); ouvrirFiche(jeu, cat, e); } }, 'i'),
       image(e.image, ''),
       h('div', { class: 'nom' }, e.nom.fr),
       e.nom.en.toLowerCase() !== e.nom.fr.toLowerCase() ? h('div', { class: 'nom-en' }, e.nom.en) : null,
       h('div', { class: 'infos' }, infosCarte(e)),
       badges.length ? h('div', { class: 'badges' }, badges) : null,
-      h('div', { class: 'coches' },
-        coche('obtenu', st.obtenu ? '✓ Obtenu' : 'Obtenu', creature ? 'Attrapé' : 'Obtenu'),
-        cat.musee ? coche('musee', st.musee ? '🏛 Musée' : 'Musée', 'Donné au musée') : null),
+      cat.musee ? h('div', { class: 'coches' }, coche('musee', st.musee ? '🏛 Au musée' : '🏛 Musée', 'Donné au musée')) : null,
     );
   }
 

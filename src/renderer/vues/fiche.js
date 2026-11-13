@@ -27,6 +27,10 @@ export function fermerFiche() {
 }
 
 export function ouvrirFiche(jeu, cat, e) {
+  if (courant && courant.cat.id === cat.id && courant.e.id === e.id && courant.jeu.id === jeu.id) {
+    fermerFiche();
+    return;
+  }
   courant = { jeu, cat, e };
   dessiner();
   panneau().classList.add('ouverte');

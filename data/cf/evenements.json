@@ -1,0 +1,4047 @@
+[
+ {
+  "id": "anniversaire-mott",
+  "nom": {
+   "fr": "Anniversaire d'Aimé",
+   "en": "Mott's birthday"
+  },
+  "personnage": "Aimé",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   10
+  ]
+ },
+ {
+  "id": "anniversaire-alice",
+  "nom": {
+   "fr": "Anniversaire d'Alice",
+   "en": "Alice's birthday"
+  },
+  "personnage": "Alice",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   19
+  ]
+ },
+ {
+  "id": "anniversaire-alli",
+  "nom": {
+   "fr": "Anniversaire d'Allie",
+   "en": "Alli's birthday"
+  },
+  "personnage": "Allie",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-alfonso",
+  "nom": {
+   "fr": "Anniversaire d'Alphonse",
+   "en": "Alfonso's birthday"
+  },
+  "personnage": "Alphonse",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-mint",
+  "nom": {
+   "fr": "Anniversaire d'Amande",
+   "en": "Mint's birthday"
+  },
+  "personnage": "Amande",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   2
+  ]
+ },
+ {
+  "id": "anniversaire-anabelle",
+  "nom": {
+   "fr": "Anniversaire d'Anabelle",
+   "en": "Anabelle's birthday"
+  },
+  "personnage": "Anabelle",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-angus",
+  "nom": {
+   "fr": "Anniversaire d'Angus",
+   "en": "Angus's birthday"
+  },
+  "personnage": "Angus",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   30
+  ]
+ },
+ {
+  "id": "anniversaire-winnie",
+  "nom": {
+   "fr": "Anniversaire d'Anne",
+   "en": "Winnie's birthday"
+  },
+  "personnage": "Anne",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   31
+  ]
+ },
+ {
+  "id": "anniversaire-antonio",
+  "nom": {
+   "fr": "Anniversaire d'Antonio",
+   "en": "Antonio's birthday"
+  },
+  "personnage": "Antonio",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   20
+  ]
+ },
+ {
+  "id": "anniversaire-apollo",
+  "nom": {
+   "fr": "Anniversaire d'Apollon",
+   "en": "Apollo's birthday"
+  },
+  "personnage": "Apollon",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-amelia",
+  "nom": {
+   "fr": "Anniversaire d'Aurélie",
+   "en": "Amelia's birthday"
+  },
+  "personnage": "Aurélie",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   19
+  ]
+ },
+ {
+  "id": "anniversaire-aurora",
+  "nom": {
+   "fr": "Anniversaire d'Aurore",
+   "en": "Aurora's birthday"
+  },
+  "personnage": "Aurore",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   27
+  ]
+ },
+ {
+  "id": "anniversaire-butch",
+  "nom": {
+   "fr": "Anniversaire d'Avril",
+   "en": "Butch's birthday"
+  },
+  "personnage": "Avril",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-axel",
+  "nom": {
+   "fr": "Anniversaire d'Axel",
+   "en": "Axel's birthday"
+  },
+  "personnage": "Axel",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-ed",
+  "nom": {
+   "fr": "Anniversaire d'Edouard",
+   "en": "Ed's birthday"
+  },
+  "personnage": "Edouard",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-static",
+  "nom": {
+   "fr": "Anniversaire d'Electro",
+   "en": "Static's birthday"
+  },
+  "personnage": "Electro",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-elise",
+  "nom": {
+   "fr": "Anniversaire d'Elise",
+   "en": "Elise's birthday"
+  },
+  "personnage": "Elise",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   21
+  ]
+ },
+ {
+  "id": "anniversaire-eloise",
+  "nom": {
+   "fr": "Anniversaire d'Eloïse",
+   "en": "Eloise's birthday"
+  },
+  "personnage": "Eloïse",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-elvis",
+  "nom": {
+   "fr": "Anniversaire d'Elvis",
+   "en": "Elvis's birthday"
+  },
+  "personnage": "Elvis",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-boomer",
+  "nom": {
+   "fr": "Anniversaire d'Ethan",
+   "en": "Boomer's birthday"
+  },
+  "personnage": "Ethan",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   7
+  ]
+ },
+ {
+  "id": "anniversaire-poppy",
+  "nom": {
+   "fr": "Anniversaire d'Irène",
+   "en": "Poppy's birthday"
+  },
+  "personnage": "Irène",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   5
+  ]
+ },
+ {
+  "id": "anniversaire-caroline",
+  "nom": {
+   "fr": "Anniversaire d'Isabelle",
+   "en": "Caroline's birthday"
+  },
+  "personnage": "Isabelle",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   15
+  ]
+ },
+ {
+  "id": "anniversaire-marcel",
+  "nom": {
+   "fr": "Anniversaire d'Ismaël",
+   "en": "Marcel's birthday"
+  },
+  "personnage": "Ismaël",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   31
+  ]
+ },
+ {
+  "id": "anniversaire-octavian",
+  "nom": {
+   "fr": "Anniversaire d'Octave",
+   "en": "Octavian's birthday"
+  },
+  "personnage": "Octave",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   20
+  ]
+ },
+ {
+  "id": "anniversaire-olivia",
+  "nom": {
+   "fr": "Anniversaire d'Olivia",
+   "en": "Olivia's birthday"
+  },
+  "personnage": "Olivia",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-opal",
+  "nom": {
+   "fr": "Anniversaire d'Opaline",
+   "en": "Opal's birthday"
+  },
+  "personnage": "Opaline",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   20
+  ]
+ },
+ {
+  "id": "anniversaire-iggly",
+  "nom": {
+   "fr": "Anniversaire d'Urbain",
+   "en": "Iggly's birthday"
+  },
+  "personnage": "Urbain",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   2
+  ]
+ },
+ {
+  "id": "anniversaire-boone",
+  "nom": {
+   "fr": "Anniversaire de Babouin",
+   "en": "Boone's birthday"
+  },
+  "personnage": "Babouin",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   12
+  ]
+ },
+ {
+  "id": "anniversaire-rocco",
+  "nom": {
+   "fr": "Anniversaire de Bebel",
+   "en": "Rocco's birthday"
+  },
+  "personnage": "Bebel",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   18
+  ]
+ },
+ {
+  "id": "anniversaire-baabara",
+  "nom": {
+   "fr": "Anniversaire de Bêêtty",
+   "en": "Baabara's birthday"
+  },
+  "personnage": "Bêêtty",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-bella",
+  "nom": {
+   "fr": "Anniversaire de Belle",
+   "en": "Bella's birthday"
+  },
+  "personnage": "Belle",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-tank",
+  "nom": {
+   "fr": "Anniversaire de Ben",
+   "en": "Tank's birthday"
+  },
+  "personnage": "Ben",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   6
+  ]
+ },
+ {
+  "id": "anniversaire-eunice",
+  "nom": {
+   "fr": "Anniversaire de Bérénice",
+   "en": "Eunice's birthday"
+  },
+  "personnage": "Bérénice",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-kody",
+  "nom": {
+   "fr": "Anniversaire de Bill",
+   "en": "Kody's birthday"
+  },
+  "personnage": "Bill",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-chevre",
+  "nom": {
+   "fr": "Anniversaire de Biquette",
+   "en": "Chevre's birthday"
+  },
+  "personnage": "Biquette",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   6
+  ]
+ },
+ {
+  "id": "anniversaire-whitney",
+  "nom": {
+   "fr": "Anniversaire de Blanche",
+   "en": "Whitney's birthday"
+  },
+  "personnage": "Blanche",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-harry",
+  "nom": {
+   "fr": "Anniversaire de Bob",
+   "en": "Harry's birthday"
+  },
+  "personnage": "Bob",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   7
+  ]
+ },
+ {
+  "id": "anniversaire-hugh",
+  "nom": {
+   "fr": "Anniversaire de Bonno",
+   "en": "Hugh's birthday"
+  },
+  "personnage": "Bonno",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   30
+  ]
+ },
+ {
+  "id": "anniversaire-mac",
+  "nom": {
+   "fr": "Anniversaire de Brutus",
+   "en": "Mac's birthday"
+  },
+  "personnage": "Brutus",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-blaire",
+  "nom": {
+   "fr": "Anniversaire de Cachou",
+   "en": "Blaire's birthday"
+  },
+  "personnage": "Cachou",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-kid-cat",
+  "nom": {
+   "fr": "Anniversaire de Câlin",
+   "en": "Kid Cat's birthday"
+  },
+  "personnage": "Câlin",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-yuka",
+  "nom": {
+   "fr": "Anniversaire de Calypso",
+   "en": "Yuka's birthday"
+  },
+  "personnage": "Calypso",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   20
+  ]
+ },
+ {
+  "id": "anniversaire-gala",
+  "nom": {
+   "fr": "Anniversaire de Camille",
+   "en": "Gala's birthday"
+  },
+  "personnage": "Camille",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   5
+  ]
+ },
+ {
+  "id": "anniversaire-freckles",
+  "nom": {
+   "fr": "Anniversaire de Caro",
+   "en": "Freckles's birthday"
+  },
+  "personnage": "Caro",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   19
+  ]
+ },
+ {
+  "id": "anniversaire-punchy",
+  "nom": {
+   "fr": "Anniversaire de Cédric",
+   "en": "Punchy's birthday"
+  },
+  "personnage": "Cédric",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-astrid",
+  "nom": {
+   "fr": "Anniversaire de Céleste",
+   "en": "Astrid's birthday"
+  },
+  "personnage": "Céleste",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-cesar",
+  "nom": {
+   "fr": "Anniversaire de César",
+   "en": "Cesar's birthday"
+  },
+  "personnage": "César",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   6
+  ]
+ },
+ {
+  "id": "anniversaire-chief",
+  "nom": {
+   "fr": "Anniversaire de Chef",
+   "en": "Chief's birthday"
+  },
+  "personnage": "Chef",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   19
+  ]
+ },
+ {
+  "id": "anniversaire-bill",
+  "nom": {
+   "fr": "Anniversaire de Choco",
+   "en": "Bill's birthday"
+  },
+  "personnage": "Choco",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-chow",
+  "nom": {
+   "fr": "Anniversaire de Chulin",
+   "en": "Chow's birthday"
+  },
+  "personnage": "Chulin",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   22
+  ]
+ },
+ {
+  "id": "anniversaire-bunnie",
+  "nom": {
+   "fr": "Anniversaire de Clara",
+   "en": "Bunnie's birthday"
+  },
+  "personnage": "Clara",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-coco",
+  "nom": {
+   "fr": "Anniversaire de Coco",
+   "en": "Coco's birthday"
+  },
+  "personnage": "Coco",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-drake",
+  "nom": {
+   "fr": "Anniversaire de Colvert",
+   "en": "Drake's birthday"
+  },
+  "personnage": "Colvert",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-cookie",
+  "nom": {
+   "fr": "Anniversaire de Cookie",
+   "en": "Cookie's birthday"
+  },
+  "personnage": "Cookie",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   18
+  ]
+ },
+ {
+  "id": "anniversaire-ribbot",
+  "nom": {
+   "fr": "Anniversaire de Crabot",
+   "en": "Ribbot's birthday"
+  },
+  "personnage": "Crabot",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-wart-jr",
+  "nom": {
+   "fr": "Anniversaire de Crakos",
+   "en": "Wart Jr.'s birthday"
+  },
+  "personnage": "Crakos",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   21
+  ]
+ },
+ {
+  "id": "anniversaire-biskit",
+  "nom": {
+   "fr": "Anniversaire de Crocket",
+   "en": "Biskit's birthday"
+  },
+  "personnage": "Crocket",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-cube",
+  "nom": {
+   "fr": "Anniversaire de Cube",
+   "en": "Cube's birthday"
+  },
+  "personnage": "Cube",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   29
+  ]
+ },
+ {
+  "id": "anniversaire-curt",
+  "nom": {
+   "fr": "Anniversaire de Curt",
+   "en": "Curt's birthday"
+  },
+  "personnage": "Curt",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-cyrano",
+  "nom": {
+   "fr": "Anniversaire de Cyrano",
+   "en": "Cyrano's birthday"
+  },
+  "personnage": "Cyrano",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-portia",
+  "nom": {
+   "fr": "Anniversaire de Dalma",
+   "en": "Portia's birthday"
+  },
+  "personnage": "Dalma",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-sally",
+  "nom": {
+   "fr": "Anniversaire de Damia",
+   "en": "Sally's birthday"
+  },
+  "personnage": "Damia",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   19
+  ]
+ },
+ {
+  "id": "anniversaire-buck",
+  "nom": {
+   "fr": "Anniversaire de Daniel",
+   "en": "Buck's birthday"
+  },
+  "personnage": "Daniel",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-gloria",
+  "nom": {
+   "fr": "Anniversaire de Déborah",
+   "en": "Gloria's birthday"
+  },
+  "personnage": "Déborah",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   12
+  ]
+ },
+ {
+  "id": "anniversaire-benedict",
+  "nom": {
+   "fr": "Anniversaire de Dimitri",
+   "en": "Benedict's birthday"
+  },
+  "personnage": "Dimitri",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   10
+  ]
+ },
+ {
+  "id": "anniversaire-dora",
+  "nom": {
+   "fr": "Anniversaire de Dora",
+   "en": "Dora's birthday"
+  },
+  "personnage": "Dora",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   18
+  ]
+ },
+ {
+  "id": "anniversaire-clyde",
+  "nom": {
+   "fr": "Anniversaire de Dorian",
+   "en": "Clyde's birthday"
+  },
+  "personnage": "Dorian",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-dotty",
+  "nom": {
+   "fr": "Anniversaire de Dorothée",
+   "en": "Dotty's birthday"
+  },
+  "personnage": "Dorothée",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   14
+  ]
+ },
+ {
+  "id": "anniversaire-avery",
+  "nom": {
+   "fr": "Anniversaire de Faust",
+   "en": "Avery's birthday"
+  },
+  "personnage": "Faust",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   22
+  ]
+ },
+ {
+  "id": "anniversaire-cousteau",
+  "nom": {
+   "fr": "Anniversaire de Figaro",
+   "en": "Cousteau's birthday"
+  },
+  "personnage": "Figaro",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-filbert",
+  "nom": {
+   "fr": "Anniversaire de Filibert",
+   "en": "Filbert's birthday"
+  },
+  "personnage": "Filibert",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-rodeo",
+  "nom": {
+   "fr": "Anniversaire de Flèche",
+   "en": "Rodeo's birthday"
+  },
+  "personnage": "Flèche",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   29
+  ]
+ },
+ {
+  "id": "anniversaire-friga",
+  "nom": {
+   "fr": "Anniversaire de Friga",
+   "en": "Friga's birthday"
+  },
+  "personnage": "Friga",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-gabi",
+  "nom": {
+   "fr": "Anniversaire de Gaby",
+   "en": "Gabi's birthday"
+  },
+  "personnage": "Gaby",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-violet",
+  "nom": {
+   "fr": "Anniversaire de Gaëlle",
+   "en": "Violet's birthday"
+  },
+  "personnage": "Gaëlle",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-jambette",
+  "nom": {
+   "fr": "Anniversaire de Gambette",
+   "en": "Jambette's birthday"
+  },
+  "personnage": "Gambette",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   27
+  ]
+ },
+ {
+  "id": "anniversaire-gaston",
+  "nom": {
+   "fr": "Anniversaire de Gaston",
+   "en": "Gaston's birthday"
+  },
+  "personnage": "Gaston",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-walker",
+  "nom": {
+   "fr": "Anniversaire de George",
+   "en": "Walker's birthday"
+  },
+  "personnage": "George",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   10
+  ]
+ },
+ {
+  "id": "anniversaire-jay",
+  "nom": {
+   "fr": "Anniversaire de Gérard",
+   "en": "Jay's birthday"
+  },
+  "personnage": "Gérard",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-jitters",
+  "nom": {
+   "fr": "Anniversaire de Gilbert",
+   "en": "Jitters's birthday"
+  },
+  "personnage": "Gilbert",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   2
+  ]
+ },
+ {
+  "id": "anniversaire-gladys",
+  "nom": {
+   "fr": "Anniversaire de Gladys",
+   "en": "Gladys's birthday"
+  },
+  "personnage": "Gladys",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   15
+  ]
+ },
+ {
+  "id": "anniversaire-gigi",
+  "nom": {
+   "fr": "Anniversaire de Gloria",
+   "en": "Gigi's birthday"
+  },
+  "personnage": "Gloria",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-peewee",
+  "nom": {
+   "fr": "Anniversaire de Gogo",
+   "en": "Peewee's birthday"
+  },
+  "personnage": "Gogo",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-drift",
+  "nom": {
+   "fr": "Anniversaire de Gordon",
+   "en": "Drift's birthday"
+  },
+  "personnage": "Gordon",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-pudge",
+  "nom": {
+   "fr": "Anniversaire de Gradub",
+   "en": "Pudge's birthday"
+  },
+  "personnage": "Gradub",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-grizzly",
+  "nom": {
+   "fr": "Anniversaire de Grizzly",
+   "en": "Grizzly's birthday"
+  },
+  "personnage": "Grizzly",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   31
+  ]
+ },
+ {
+  "id": "anniversaire-limberg",
+  "nom": {
+   "fr": "Anniversaire de Gruyère",
+   "en": "Limberg's birthday"
+  },
+  "personnage": "Gruyère",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-al",
+  "nom": {
+   "fr": "Anniversaire de Gustave",
+   "en": "Al's birthday"
+  },
+  "personnage": "Gustave",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   18
+  ]
+ },
+ {
+  "id": "anniversaire-gwen",
+  "nom": {
+   "fr": "Anniversaire de Gwen",
+   "en": "Gwen's birthday"
+  },
+  "personnage": "Gwen",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-del",
+  "nom": {
+   "fr": "Anniversaire de Hector",
+   "en": "Del's birthday"
+  },
+  "personnage": "Hector",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   27
+  ]
+ },
+ {
+  "id": "anniversaire-vesta",
+  "nom": {
+   "fr": "Anniversaire de Hélaine",
+   "en": "Vesta's birthday"
+  },
+  "personnage": "Hélaine",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-egbert",
+  "nom": {
+   "fr": "Anniversaire de Herbert",
+   "en": "Egbert's birthday"
+  },
+  "personnage": "Herbert",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   14
+  ]
+ },
+ {
+  "id": "anniversaire-puck",
+  "nom": {
+   "fr": "Anniversaire de Hervé",
+   "en": "Puck's birthday"
+  },
+  "personnage": "Hervé",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   21
+  ]
+ },
+ {
+  "id": "anniversaire-snake",
+  "nom": {
+   "fr": "Anniversaire de Jeannot",
+   "en": "Snake's birthday"
+  },
+  "personnage": "Jeannot",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-jeremiah",
+  "nom": {
+   "fr": "Anniversaire de Jérémie",
+   "en": "Jeremiah's birthday"
+  },
+  "personnage": "Jérémie",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-moose",
+  "nom": {
+   "fr": "Anniversaire de Joachim",
+   "en": "Moose's birthday"
+  },
+  "personnage": "Joachim",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-joey",
+  "nom": {
+   "fr": "Anniversaire de Joseph",
+   "en": "Joey's birthday"
+  },
+  "personnage": "Joseph",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-spork",
+  "nom": {
+   "fr": "Anniversaire de Justin",
+   "en": "Spork's birthday"
+  },
+  "personnage": "Justin",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-kabuki",
+  "nom": {
+   "fr": "Anniversaire de Kabuki",
+   "en": "Kabuki's birthday"
+  },
+  "personnage": "Kabuki",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   29
+  ]
+ },
+ {
+  "id": "anniversaire-genji",
+  "nom": {
+   "fr": "Anniversaire de Kali",
+   "en": "Genji's birthday"
+  },
+  "personnage": "Kali",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   21
+  ]
+ },
+ {
+  "id": "anniversaire-wendy",
+  "nom": {
+   "fr": "Anniversaire de Karen",
+   "en": "Wendy's birthday"
+  },
+  "personnage": "Karen",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   15
+  ]
+ },
+ {
+  "id": "anniversaire-kiki",
+  "nom": {
+   "fr": "Anniversaire de Kiki",
+   "en": "Kiki's birthday"
+  },
+  "personnage": "Kiki",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-kitty",
+  "nom": {
+   "fr": "Anniversaire de Kitty",
+   "en": "Kitty's birthday"
+  },
+  "personnage": "Kitty",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   15
+  ]
+ },
+ {
+  "id": "anniversaire-sydney",
+  "nom": {
+   "fr": "Anniversaire de Koaline",
+   "en": "Sydney's birthday"
+  },
+  "personnage": "Koaline",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   21
+  ]
+ },
+ {
+  "id": "anniversaire-chrissy",
+  "nom": {
+   "fr": "Anniversaire de Kristine",
+   "en": "Chrissy's birthday"
+  },
+  "personnage": "Kristine",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-maple",
+  "nom": {
+   "fr": "Anniversaire de Léa",
+   "en": "Maple's birthday"
+  },
+  "personnage": "Léa",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   15
+  ]
+ },
+ {
+  "id": "anniversaire-bud",
+  "nom": {
+   "fr": "Anniversaire de Léonard",
+   "en": "Bud's birthday"
+  },
+  "personnage": "Léonard",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-tammi",
+  "nom": {
+   "fr": "Anniversaire de Lili",
+   "en": "Tammi's birthday"
+  },
+  "personnage": "Lili",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-lolly",
+  "nom": {
+   "fr": "Anniversaire de Linette",
+   "en": "Lolly's birthday"
+  },
+  "personnage": "Linette",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   27
+  ]
+ },
+ {
+  "id": "anniversaire-lobo",
+  "nom": {
+   "fr": "Anniversaire de Lobo",
+   "en": "Lobo's birthday"
+  },
+  "personnage": "Lobo",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   5
+  ]
+ },
+ {
+  "id": "anniversaire-nibbles",
+  "nom": {
+   "fr": "Anniversaire de Lola",
+   "en": "Nibbles's birthday"
+  },
+  "personnage": "Lola",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   19
+  ]
+ },
+ {
+  "id": "anniversaire-monty",
+  "nom": {
+   "fr": "Anniversaire de Lourant",
+   "en": "Monty's birthday"
+  },
+  "personnage": "Lourant",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   7
+  ]
+ },
+ {
+  "id": "anniversaire-lucy",
+  "nom": {
+   "fr": "Anniversaire de Lucie",
+   "en": "Lucy's birthday"
+  },
+  "personnage": "Lucie",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   2
+  ]
+ },
+ {
+  "id": "anniversaire-freya",
+  "nom": {
+   "fr": "Anniversaire de Luppa",
+   "en": "Freya's birthday"
+  },
+  "personnage": "Luppa",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   14
+  ]
+ },
+ {
+  "id": "anniversaire-maelle",
+  "nom": {
+   "fr": "Anniversaire de Maëlle",
+   "en": "Maelle's birthday"
+  },
+  "personnage": "Maëlle",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-miranda",
+  "nom": {
+   "fr": "Anniversaire de Maëllis",
+   "en": "Miranda's birthday"
+  },
+  "personnage": "Maëllis",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-margie",
+  "nom": {
+   "fr": "Anniversaire de Maguy",
+   "en": "Margie's birthday"
+  },
+  "personnage": "Maguy",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-willow",
+  "nom": {
+   "fr": "Anniversaire de Maï",
+   "en": "Willow's birthday"
+  },
+  "personnage": "Maï",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   26
+  ]
+ },
+ {
+  "id": "anniversaire-mallary",
+  "nom": {
+   "fr": "Anniversaire de Mallory",
+   "en": "Mallary's birthday"
+  },
+  "personnage": "Mallory",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-sterling",
+  "nom": {
+   "fr": "Anniversaire de Manfred",
+   "en": "Sterling's birthday"
+  },
+  "personnage": "Manfred",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-rod",
+  "nom": {
+   "fr": "Anniversaire de Marcel",
+   "en": "Rod's birthday"
+  },
+  "personnage": "Marcel",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   14
+  ]
+ },
+ {
+  "id": "anniversaire-patty",
+  "nom": {
+   "fr": "Anniversaire de Margaux",
+   "en": "Patty's birthday"
+  },
+  "personnage": "Margaux",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   10
+  ]
+ },
+ {
+  "id": "anniversaire-marina",
+  "nom": {
+   "fr": "Anniversaire de Marina",
+   "en": "Marina's birthday"
+  },
+  "personnage": "Marina",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   26
+  ]
+ },
+ {
+  "id": "anniversaire-tangy",
+  "nom": {
+   "fr": "Anniversaire de Marine",
+   "en": "Tangy's birthday"
+  },
+  "personnage": "Marine",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-rowan",
+  "nom": {
+   "fr": "Anniversaire de Marito",
+   "en": "Rowan's birthday"
+  },
+  "personnage": "Marito",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   26
+  ]
+ },
+ {
+  "id": "anniversaire-elmer",
+  "nom": {
+   "fr": "Anniversaire de Martin",
+   "en": "Elmer's birthday"
+  },
+  "personnage": "Martin",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   5
+  ]
+ },
+ {
+  "id": "anniversaire-pango",
+  "nom": {
+   "fr": "Anniversaire de Mathilda",
+   "en": "Pango's birthday"
+  },
+  "personnage": "Mathilda",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-mathilda",
+  "nom": {
+   "fr": "Anniversaire de Mathilde",
+   "en": "Mathilda's birthday"
+  },
+  "personnage": "Mathilde",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   12
+  ]
+ },
+ {
+  "id": "anniversaire-felicity",
+  "nom": {
+   "fr": "Anniversaire de Maud",
+   "en": "Felicity's birthday"
+  },
+  "personnage": "Maud",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   30
+  ]
+ },
+ {
+  "id": "anniversaire-melba",
+  "nom": {
+   "fr": "Anniversaire de Melba",
+   "en": "Melba's birthday"
+  },
+  "personnage": "Melba",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   12
+  ]
+ },
+ {
+  "id": "anniversaire-midge",
+  "nom": {
+   "fr": "Anniversaire de Michèle",
+   "en": "Midge's birthday"
+  },
+  "personnage": "Michèle",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   12
+  ]
+ },
+ {
+  "id": "anniversaire-anchovy",
+  "nom": {
+   "fr": "Anniversaire de Miguel",
+   "en": "Anchovy's birthday"
+  },
+  "personnage": "Miguel",
+  "type": "anniversaire",
+  "fixe": [
+   3,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-big-top",
+  "nom": {
+   "fr": "Anniversaire de Miles",
+   "en": "Big Top's birthday"
+  },
+  "personnage": "Miles",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   3
+  ]
+ },
+ {
+  "id": "anniversaire-camofrog",
+  "nom": {
+   "fr": "Anniversaire de Milos",
+   "en": "Camofrog's birthday"
+  },
+  "personnage": "Milos",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   5
+  ]
+ },
+ {
+  "id": "anniversaire-deena",
+  "nom": {
+   "fr": "Anniversaire de Mina",
+   "en": "Deena's birthday"
+  },
+  "personnage": "Mina",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   27
+  ]
+ },
+ {
+  "id": "anniversaire-nana",
+  "nom": {
+   "fr": "Anniversaire de Mireille",
+   "en": "Nana's birthday"
+  },
+  "personnage": "Mireille",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-stitches",
+  "nom": {
+   "fr": "Anniversaire de Miro",
+   "en": "Stitches's birthday"
+  },
+  "personnage": "Miro",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   10
+  ]
+ },
+ {
+  "id": "anniversaire-goldie",
+  "nom": {
+   "fr": "Anniversaire de Mirza",
+   "en": "Goldie's birthday"
+  },
+  "personnage": "Mirza",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   27
+  ]
+ },
+ {
+  "id": "anniversaire-mitzi",
+  "nom": {
+   "fr": "Anniversaire de Mistigri",
+   "en": "Mitzi's birthday"
+  },
+  "personnage": "Mistigri",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-moe",
+  "nom": {
+   "fr": "Anniversaire de Momo",
+   "en": "Moe's birthday"
+  },
+  "personnage": "Momo",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   12
+  ]
+ },
+ {
+  "id": "anniversaire-monique",
+  "nom": {
+   "fr": "Anniversaire de Monique",
+   "en": "Monique's birthday"
+  },
+  "personnage": "Monique",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   30
+  ]
+ },
+ {
+  "id": "anniversaire-bluebear",
+  "nom": {
+   "fr": "Anniversaire de Myrtille",
+   "en": "Bluebear's birthday"
+  },
+  "personnage": "Myrtille",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   24
+  ]
+ },
+ {
+  "id": "anniversaire-pippy",
+  "nom": {
+   "fr": "Anniversaire de Nadia",
+   "en": "Pippy's birthday"
+  },
+  "personnage": "Nadia",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   14
+  ]
+ },
+ {
+  "id": "anniversaire-francine",
+  "nom": {
+   "fr": "Anniversaire de Nadine",
+   "en": "Francine's birthday"
+  },
+  "personnage": "Nadine",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   22
+  ]
+ },
+ {
+  "id": "anniversaire-nan",
+  "nom": {
+   "fr": "Anniversaire de Nana",
+   "en": "Nan's birthday"
+  },
+  "personnage": "Nana",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   24
+  ]
+ },
+ {
+  "id": "anniversaire-daisy",
+  "nom": {
+   "fr": "Anniversaire de Naomie",
+   "en": "Daisy's birthday"
+  },
+  "personnage": "Naomie",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-pierce",
+  "nom": {
+   "fr": "Anniversaire de Napoléon",
+   "en": "Pierce's birthday"
+  },
+  "personnage": "Napoléon",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-nate",
+  "nom": {
+   "fr": "Anniversaire de Nathan",
+   "en": "Nate's birthday"
+  },
+  "personnage": "Nathan",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-ankha",
+  "nom": {
+   "fr": "Anniversaire de Neferti",
+   "en": "Ankha's birthday"
+  },
+  "personnage": "Neferti",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   22
+  ]
+ },
+ {
+  "id": "anniversaire-agent-s",
+  "nom": {
+   "fr": "Anniversaire de Ninjette",
+   "en": "Agent S's birthday"
+  },
+  "personnage": "Ninjette",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   2
+  ]
+ },
+ {
+  "id": "anniversaire-bones",
+  "nom": {
+   "fr": "Anniversaire de Nonos",
+   "en": "Bones's birthday"
+  },
+  "personnage": "Nonos",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-dizzy",
+  "nom": {
+   "fr": "Anniversaire de Pachy",
+   "en": "Dizzy's birthday"
+  },
+  "personnage": "Pachy",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   14
+  ]
+ },
+ {
+  "id": "anniversaire-pekoe",
+  "nom": {
+   "fr": "Anniversaire de Pauline",
+   "en": "Pekoe's birthday"
+  },
+  "personnage": "Pauline",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   18
+  ]
+ },
+ {
+  "id": "anniversaire-pecan",
+  "nom": {
+   "fr": "Anniversaire de Pécan",
+   "en": "Pecan's birthday"
+  },
+  "personnage": "Pécan",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   10
+  ]
+ },
+ {
+  "id": "anniversaire-purrl",
+  "nom": {
+   "fr": "Anniversaire de Perle",
+   "en": "Purrl's birthday"
+  },
+  "personnage": "Perle",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   29
+  ]
+ },
+ {
+  "id": "anniversaire-fang",
+  "nom": {
+   "fr": "Anniversaire de Pierrot",
+   "en": "Fang's birthday"
+  },
+  "personnage": "Pierrot",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   18
+  ]
+ },
+ {
+  "id": "anniversaire-chester",
+  "nom": {
+   "fr": "Anniversaire de Placide",
+   "en": "Chester's birthday"
+  },
+  "personnage": "Placide",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   6
+  ]
+ },
+ {
+  "id": "anniversaire-pompom",
+  "nom": {
+   "fr": "Anniversaire de Pompon",
+   "en": "Pompom's birthday"
+  },
+  "personnage": "Pompon",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-kitt",
+  "nom": {
+   "fr": "Anniversaire de Poquette",
+   "en": "Kitt's birthday"
+  },
+  "personnage": "Poquette",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-goose",
+  "nom": {
+   "fr": "Anniversaire de Pouli",
+   "en": "Goose's birthday"
+  },
+  "personnage": "Pouli",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-prince",
+  "nom": {
+   "fr": "Anniversaire de Prince",
+   "en": "Prince's birthday"
+  },
+  "personnage": "Prince",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   21
+  ]
+ },
+ {
+  "id": "anniversaire-derwin",
+  "nom": {
+   "fr": "Anniversaire de Prof",
+   "en": "Derwin's birthday"
+  },
+  "personnage": "Prof",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-peaches",
+  "nom": {
+   "fr": "Anniversaire de Prune",
+   "en": "Peaches's birthday"
+  },
+  "personnage": "Prune",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-bree",
+  "nom": {
+   "fr": "Anniversaire de Quenotte",
+   "en": "Bree's birthday"
+  },
+  "personnage": "Quenotte",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   7
+  ]
+ },
+ {
+  "id": "anniversaire-peanut",
+  "nom": {
+   "fr": "Anniversaire de Rachida",
+   "en": "Peanut's birthday"
+  },
+  "personnage": "Rachida",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-lily",
+  "nom": {
+   "fr": "Anniversaire de Raina",
+   "en": "Lily's birthday"
+  },
+  "personnage": "Raina",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-rolf",
+  "nom": {
+   "fr": "Anniversaire de Ralf",
+   "en": "Rolf's birthday"
+  },
+  "personnage": "Ralf",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   22
+  ]
+ },
+ {
+  "id": "anniversaire-lucky",
+  "nom": {
+   "fr": "Anniversaire de Ramsès",
+   "en": "Lucky's birthday"
+  },
+  "personnage": "Ramsès",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-queenie",
+  "nom": {
+   "fr": "Anniversaire de Reine",
+   "en": "Queenie's birthday"
+  },
+  "personnage": "Reine",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-puddles",
+  "nom": {
+   "fr": "Anniversaire de Rénata",
+   "en": "Puddles's birthday"
+  },
+  "personnage": "Rénata",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-rhonda",
+  "nom": {
+   "fr": "Anniversaire de Renée",
+   "en": "Rhonda's birthday"
+  },
+  "personnage": "Renée",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   24
+  ]
+ },
+ {
+  "id": "anniversaire-roald",
+  "nom": {
+   "fr": "Anniversaire de Reynald",
+   "en": "Roald's birthday"
+  },
+  "personnage": "Reynald",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   5
+  ]
+ },
+ {
+  "id": "anniversaire-bob",
+  "nom": {
+   "fr": "Anniversaire de Robert",
+   "en": "Bob's birthday"
+  },
+  "personnage": "Robert",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   1
+  ]
+ },
+ {
+  "id": "anniversaire-robin",
+  "nom": {
+   "fr": "Anniversaire de Robie",
+   "en": "Robin's birthday"
+  },
+  "personnage": "Robie",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-groucho",
+  "nom": {
+   "fr": "Anniversaire de Ronchon",
+   "en": "Groucho's birthday"
+  },
+  "personnage": "Ronchon",
+  "type": "anniversaire",
+  "fixe": [
+   10,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-roscoe",
+  "nom": {
+   "fr": "Anniversaire de Rosco",
+   "en": "Roscoe's birthday"
+  },
+  "personnage": "Rosco",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   16
+  ]
+ },
+ {
+  "id": "anniversaire-peggy",
+  "nom": {
+   "fr": "Anniversaire de Rose",
+   "en": "Peggy's birthday"
+  },
+  "personnage": "Rose",
+  "type": "anniversaire",
+  "fixe": [
+   5,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-rosie",
+  "nom": {
+   "fr": "Anniversaire de Rosie",
+   "en": "Rosie's birthday"
+  },
+  "personnage": "Rosie",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   27
+  ]
+ },
+ {
+  "id": "anniversaire-pinky",
+  "nom": {
+   "fr": "Anniversaire de Rosine",
+   "en": "Pinky's birthday"
+  },
+  "personnage": "Rosine",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-ruby",
+  "nom": {
+   "fr": "Anniversaire de Rubis",
+   "en": "Ruby's birthday"
+  },
+  "personnage": "Rubis",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-bettina",
+  "nom": {
+   "fr": "Anniversaire de Sabrina",
+   "en": "Bettina's birthday"
+  },
+  "personnage": "Sabrina",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   12
+  ]
+ },
+ {
+  "id": "anniversaire-rasher",
+  "nom": {
+   "fr": "Anniversaire de Salami",
+   "en": "Rasher's birthday"
+  },
+  "personnage": "Salami",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   7
+  ]
+ },
+ {
+  "id": "anniversaire-samson",
+  "nom": {
+   "fr": "Anniversaire de Samson",
+   "en": "Samson's birthday"
+  },
+  "personnage": "Samson",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   5
+  ]
+ },
+ {
+  "id": "anniversaire-savannah",
+  "nom": {
+   "fr": "Anniversaire de Savana",
+   "en": "Savannah's birthday"
+  },
+  "personnage": "Savana",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-scoot",
+  "nom": {
+   "fr": "Anniversaire de Scooter",
+   "en": "Scoot's birthday"
+  },
+  "personnage": "Scooter",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-simon",
+  "nom": {
+   "fr": "Anniversaire de Simon",
+   "en": "Simon's birthday"
+  },
+  "personnage": "Simon",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   19
+  ]
+ },
+ {
+  "id": "anniversaire-becky",
+  "nom": {
+   "fr": "Anniversaire de Sonya",
+   "en": "Becky's birthday"
+  },
+  "personnage": "Sonya",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-rizzo",
+  "nom": {
+   "fr": "Anniversaire de Sourizzi",
+   "en": "Rizzo's birthday"
+  },
+  "personnage": "Sourizzi",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-broccolo",
+  "nom": {
+   "fr": "Anniversaire de Steven",
+   "en": "Broccolo's birthday"
+  },
+  "personnage": "Steven",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   30
+  ]
+ },
+ {
+  "id": "anniversaire-merry",
+  "nom": {
+   "fr": "Anniversaire de Suzy",
+   "en": "Merry's birthday"
+  },
+  "personnage": "Suzy",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   29
+  ]
+ },
+ {
+  "id": "anniversaire-teddy",
+  "nom": {
+   "fr": "Anniversaire de Teddy",
+   "en": "Teddy's birthday"
+  },
+  "personnage": "Teddy",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   26
+  ]
+ },
+ {
+  "id": "anniversaire-pate",
+  "nom": {
+   "fr": "Anniversaire de Terrine",
+   "en": "Pate's birthday"
+  },
+  "personnage": "Terrine",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-poncho",
+  "nom": {
+   "fr": "Anniversaire de Théo",
+   "en": "Poncho's birthday"
+  },
+  "personnage": "Théo",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   2
+  ]
+ },
+ {
+  "id": "anniversaire-champ",
+  "nom": {
+   "fr": "Anniversaire de Thibaut",
+   "en": "Champ's birthday"
+  },
+  "personnage": "Thibaut",
+  "type": "anniversaire",
+  "fixe": [
+   6,
+   4
+  ]
+ },
+ {
+  "id": "anniversaire-tabby",
+  "nom": {
+   "fr": "Anniversaire de Tigri",
+   "en": "Tabby's birthday"
+  },
+  "personnage": "Tigri",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-tiffany",
+  "nom": {
+   "fr": "Anniversaire de Tiphaine",
+   "en": "Tiffany's birthday"
+  },
+  "personnage": "Tiphaine",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   9
+  ]
+ },
+ {
+  "id": "anniversaire-curly",
+  "nom": {
+   "fr": "Anniversaire de Tirbou",
+   "en": "Curly's birthday"
+  },
+  "personnage": "Tirbou",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   26
+  ]
+ },
+ {
+  "id": "anniversaire-twiggy",
+  "nom": {
+   "fr": "Anniversaire de Titi",
+   "en": "Twiggy's birthday"
+  },
+  "personnage": "Titi",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   13
+  ]
+ },
+ {
+  "id": "anniversaire-tom",
+  "nom": {
+   "fr": "Anniversaire de Tom",
+   "en": "Tom's birthday"
+  },
+  "personnage": "Tom",
+  "type": "anniversaire",
+  "fixe": [
+   12,
+   10
+  ]
+ },
+ {
+  "id": "anniversaire-truffles",
+  "nom": {
+   "fr": "Anniversaire de Trufa",
+   "en": "Truffles's birthday"
+  },
+  "personnage": "Trufa",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   28
+  ]
+ },
+ {
+  "id": "anniversaire-stinky",
+  "nom": {
+   "fr": "Anniversaire de Tupux",
+   "en": "Stinky's birthday"
+  },
+  "personnage": "Tupux",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   17
+  ]
+ },
+ {
+  "id": "anniversaire-tutu",
+  "nom": {
+   "fr": "Anniversaire de Tutu",
+   "en": "Tutu's birthday"
+  },
+  "personnage": "Tutu",
+  "type": "anniversaire",
+  "fixe": [
+   9,
+   15
+  ]
+ },
+ {
+  "id": "anniversaire-tipper",
+  "nom": {
+   "fr": "Anniversaire de Valé",
+   "en": "Tipper's birthday"
+  },
+  "personnage": "Valé",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-frobert",
+  "nom": {
+   "fr": "Anniversaire de Verbert",
+   "en": "Frobert's birthday"
+  },
+  "personnage": "Verbert",
+  "type": "anniversaire",
+  "fixe": [
+   2,
+   8
+  ]
+ },
+ {
+  "id": "anniversaire-hopper",
+  "nom": {
+   "fr": "Anniversaire de Victor",
+   "en": "Hopper's birthday"
+  },
+  "personnage": "Victor",
+  "type": "anniversaire",
+  "fixe": [
+   4,
+   6
+  ]
+ },
+ {
+  "id": "anniversaire-victoria",
+  "nom": {
+   "fr": "Anniversaire de Victoria",
+   "en": "Victoria's birthday"
+  },
+  "personnage": "Victoria",
+  "type": "anniversaire",
+  "fixe": [
+   7,
+   11
+  ]
+ },
+ {
+  "id": "anniversaire-vladimir",
+  "nom": {
+   "fr": "Anniversaire de Vladimir",
+   "en": "Vladimir's birthday"
+  },
+  "personnage": "Vladimir",
+  "type": "anniversaire",
+  "fixe": [
+   8,
+   2
+  ]
+ },
+ {
+  "id": "anniversaire-wolfgang",
+  "nom": {
+   "fr": "Anniversaire de Wolfgang",
+   "en": "Wolfgang's birthday"
+  },
+  "personnage": "Wolfgang",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   25
+  ]
+ },
+ {
+  "id": "anniversaire-knox",
+  "nom": {
+   "fr": "Anniversaire de Wolfram",
+   "en": "Knox's birthday"
+  },
+  "personnage": "Wolfram",
+  "type": "anniversaire",
+  "fixe": [
+   11,
+   23
+  ]
+ },
+ {
+  "id": "anniversaire-carmen",
+  "nom": {
+   "fr": "Anniversaire de Zoé",
+   "en": "Carmen's birthday"
+  },
+  "personnage": "Zoé",
+  "type": "anniversaire",
+  "fixe": [
+   1,
+   6
+  ]
+ },
+ {
+  "id": "april-fools-day",
+  "nom": {
+   "fr": "1er avril",
+   "en": "April Fool's Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   4,
+   1
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "festivale",
+  "nom": {
+   "fr": "Carnaval",
+   "en": "Festivale"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-02-13",
+      "2024-02-13"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-03-04",
+      "2025-03-04"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-02-17",
+      "2026-02-17"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-02-09",
+      "2027-02-09"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-02-29",
+      "2028-02-29"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-02-13",
+      "2029-02-13"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-03-05",
+      "2030-03-05"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-02-25",
+      "2031-02-25"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-02-10",
+      "2032-02-10"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-03-01",
+      "2033-03-01"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-02-21",
+      "2034-02-21"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-02-06",
+      "2035-02-06"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-02-26",
+      "2036-02-26"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-02-17",
+      "2037-02-17"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-03-09",
+      "2038-03-09"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-02-22",
+      "2039-02-22"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-02-14",
+      "2040-02-14"
+     ]
+    ]
+   }
+  },
+  "regle": "Mardi gras (47 jours avant Pâques)",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "mothers-day",
+  "nom": {
+   "fr": "Fête des mères",
+   "en": "Mother's Day"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-05-12",
+      "2024-05-12"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-05-11",
+      "2025-05-11"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-05-10",
+      "2026-05-10"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-05-09",
+      "2027-05-09"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-05-14",
+      "2028-05-14"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-05-13",
+      "2029-05-13"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-05-12",
+      "2030-05-12"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-05-11",
+      "2031-05-11"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-05-09",
+      "2032-05-09"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-05-08",
+      "2033-05-08"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-05-14",
+      "2034-05-14"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-05-13",
+      "2035-05-13"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-05-11",
+      "2036-05-11"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-05-10",
+      "2037-05-10"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-05-09",
+      "2038-05-09"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-05-08",
+      "2039-05-08"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-05-13",
+      "2040-05-13"
+     ]
+    ]
+   }
+  },
+  "regle": "2e dimanche de mai",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "bunny-day",
+  "nom": {
+   "fr": "Fête des œufs",
+   "en": "Bunny Day"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-03-31",
+      "2024-03-31"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-04-20",
+      "2025-04-20"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-04-05",
+      "2026-04-05"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-03-28",
+      "2027-03-28"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-04-16",
+      "2028-04-16"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-04-01",
+      "2029-04-01"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-04-21",
+      "2030-04-21"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-04-13",
+      "2031-04-13"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-03-28",
+      "2032-03-28"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-04-17",
+      "2033-04-17"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-04-09",
+      "2034-04-09"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-03-25",
+      "2035-03-25"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-04-13",
+      "2036-04-13"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-04-05",
+      "2037-04-05"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-04-25",
+      "2038-04-25"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-04-10",
+      "2039-04-10"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-04-01",
+      "2040-04-01"
+     ]
+    ]
+   }
+  },
+  "regle": "dimanche de Pâques",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "fathers-day",
+  "nom": {
+   "fr": "Fête des pères",
+   "en": "Father's Day"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-06-16",
+      "2024-06-16"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-06-15",
+      "2025-06-15"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-06-21",
+      "2026-06-21"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-06-20",
+      "2027-06-20"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-06-18",
+      "2028-06-18"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-06-17",
+      "2029-06-17"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-06-16",
+      "2030-06-16"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-06-15",
+      "2031-06-15"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-06-20",
+      "2032-06-20"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-06-19",
+      "2033-06-19"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-06-18",
+      "2034-06-18"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-06-17",
+      "2035-06-17"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-06-15",
+      "2036-06-15"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-06-21",
+      "2037-06-21"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-06-20",
+      "2038-06-20"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-06-19",
+      "2039-06-19"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-06-17",
+      "2040-06-17"
+     ]
+    ]
+   }
+  },
+  "regle": "3e dimanche de juin",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "harvest-festival",
+  "nom": {
+   "fr": "Fête des récoltes",
+   "en": "Harvest Festival"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-11-28",
+      "2024-11-28"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-11-27",
+      "2025-11-27"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-11-26",
+      "2026-11-26"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-11-25",
+      "2027-11-25"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-11-23",
+      "2028-11-23"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-11-22",
+      "2029-11-22"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-11-28",
+      "2030-11-28"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-11-27",
+      "2031-11-27"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-11-25",
+      "2032-11-25"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-11-24",
+      "2033-11-24"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-11-23",
+      "2034-11-23"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-11-22",
+      "2035-11-22"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-11-27",
+      "2036-11-27"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-11-26",
+      "2037-11-26"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-11-25",
+      "2038-11-25"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-11-24",
+      "2039-11-24"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-11-22",
+      "2040-11-22"
+     ]
+    ]
+   }
+  },
+  "regle": "4e jeudi de novembre",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "fireworks-show",
+  "nom": {
+   "fr": "Feux d'artifice",
+   "en": "Fireworks Show"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-08-04",
+      "2024-08-04"
+     ],
+     [
+      "2024-08-11",
+      "2024-08-11"
+     ],
+     [
+      "2024-08-18",
+      "2024-08-18"
+     ],
+     [
+      "2024-08-25",
+      "2024-08-25"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-08-03",
+      "2025-08-03"
+     ],
+     [
+      "2025-08-10",
+      "2025-08-10"
+     ],
+     [
+      "2025-08-17",
+      "2025-08-17"
+     ],
+     [
+      "2025-08-24",
+      "2025-08-24"
+     ],
+     [
+      "2025-08-31",
+      "2025-08-31"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-08-02",
+      "2026-08-02"
+     ],
+     [
+      "2026-08-09",
+      "2026-08-09"
+     ],
+     [
+      "2026-08-16",
+      "2026-08-16"
+     ],
+     [
+      "2026-08-23",
+      "2026-08-23"
+     ],
+     [
+      "2026-08-30",
+      "2026-08-30"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-08-01",
+      "2027-08-01"
+     ],
+     [
+      "2027-08-08",
+      "2027-08-08"
+     ],
+     [
+      "2027-08-15",
+      "2027-08-15"
+     ],
+     [
+      "2027-08-22",
+      "2027-08-22"
+     ],
+     [
+      "2027-08-29",
+      "2027-08-29"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-08-06",
+      "2028-08-06"
+     ],
+     [
+      "2028-08-13",
+      "2028-08-13"
+     ],
+     [
+      "2028-08-20",
+      "2028-08-20"
+     ],
+     [
+      "2028-08-27",
+      "2028-08-27"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-08-05",
+      "2029-08-05"
+     ],
+     [
+      "2029-08-12",
+      "2029-08-12"
+     ],
+     [
+      "2029-08-19",
+      "2029-08-19"
+     ],
+     [
+      "2029-08-26",
+      "2029-08-26"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-08-04",
+      "2030-08-04"
+     ],
+     [
+      "2030-08-11",
+      "2030-08-11"
+     ],
+     [
+      "2030-08-18",
+      "2030-08-18"
+     ],
+     [
+      "2030-08-25",
+      "2030-08-25"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-08-03",
+      "2031-08-03"
+     ],
+     [
+      "2031-08-10",
+      "2031-08-10"
+     ],
+     [
+      "2031-08-17",
+      "2031-08-17"
+     ],
+     [
+      "2031-08-24",
+      "2031-08-24"
+     ],
+     [
+      "2031-08-31",
+      "2031-08-31"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-08-01",
+      "2032-08-01"
+     ],
+     [
+      "2032-08-08",
+      "2032-08-08"
+     ],
+     [
+      "2032-08-15",
+      "2032-08-15"
+     ],
+     [
+      "2032-08-22",
+      "2032-08-22"
+     ],
+     [
+      "2032-08-29",
+      "2032-08-29"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-08-07",
+      "2033-08-07"
+     ],
+     [
+      "2033-08-14",
+      "2033-08-14"
+     ],
+     [
+      "2033-08-21",
+      "2033-08-21"
+     ],
+     [
+      "2033-08-28",
+      "2033-08-28"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-08-06",
+      "2034-08-06"
+     ],
+     [
+      "2034-08-13",
+      "2034-08-13"
+     ],
+     [
+      "2034-08-20",
+      "2034-08-20"
+     ],
+     [
+      "2034-08-27",
+      "2034-08-27"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-08-05",
+      "2035-08-05"
+     ],
+     [
+      "2035-08-12",
+      "2035-08-12"
+     ],
+     [
+      "2035-08-19",
+      "2035-08-19"
+     ],
+     [
+      "2035-08-26",
+      "2035-08-26"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-08-03",
+      "2036-08-03"
+     ],
+     [
+      "2036-08-10",
+      "2036-08-10"
+     ],
+     [
+      "2036-08-17",
+      "2036-08-17"
+     ],
+     [
+      "2036-08-24",
+      "2036-08-24"
+     ],
+     [
+      "2036-08-31",
+      "2036-08-31"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-08-02",
+      "2037-08-02"
+     ],
+     [
+      "2037-08-09",
+      "2037-08-09"
+     ],
+     [
+      "2037-08-16",
+      "2037-08-16"
+     ],
+     [
+      "2037-08-23",
+      "2037-08-23"
+     ],
+     [
+      "2037-08-30",
+      "2037-08-30"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-08-01",
+      "2038-08-01"
+     ],
+     [
+      "2038-08-08",
+      "2038-08-08"
+     ],
+     [
+      "2038-08-15",
+      "2038-08-15"
+     ],
+     [
+      "2038-08-22",
+      "2038-08-22"
+     ],
+     [
+      "2038-08-29",
+      "2038-08-29"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-08-07",
+      "2039-08-07"
+     ],
+     [
+      "2039-08-14",
+      "2039-08-14"
+     ],
+     [
+      "2039-08-21",
+      "2039-08-21"
+     ],
+     [
+      "2039-08-28",
+      "2039-08-28"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-08-05",
+      "2040-08-05"
+     ],
+     [
+      "2040-08-12",
+      "2040-08-12"
+     ],
+     [
+      "2040-08-19",
+      "2040-08-19"
+     ],
+     [
+      "2040-08-26",
+      "2040-08-26"
+     ]
+    ]
+   }
+  },
+  "regle": "chaque dimanche d'août",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "halloween",
+  "nom": {
+   "fr": "Halloween",
+   "en": "Halloween"
+  },
+  "type": "evenement",
+  "fixe": [
+   10,
+   31
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "bug-off",
+  "nom": {
+   "fr": "Insectosafari",
+   "en": "Bug-Off"
+  },
+  "type": "evenement",
+  "mois": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "regle": "une fois par mois (jour variable)",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "new-years-day",
+  "nom": {
+   "fr": "Jour de l'an",
+   "en": "New Year's Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   1,
+   1
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "toy-day",
+  "nom": {
+   "fr": "Jour des cadeaux",
+   "en": "Toy Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   24
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "naughty-or-nice-day",
+  "nom": {
+   "fr": "Jour des enfants sages",
+   "en": "Naughty-or-Nice Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   5
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "autumn-moon",
+  "nom": {
+   "fr": "Lune d'automne",
+   "en": "Autumn Moon"
+  },
+  "type": "evenement",
+  "dates": {
+   "tous": {
+    "2024": [
+     [
+      "2024-09-18",
+      "2024-09-18"
+     ]
+    ],
+    "2025": [
+     [
+      "2025-09-07",
+      "2025-09-07"
+     ]
+    ],
+    "2026": [
+     [
+      "2026-09-26",
+      "2026-09-26"
+     ]
+    ],
+    "2027": [
+     [
+      "2027-09-15",
+      "2027-09-15"
+     ]
+    ],
+    "2028": [
+     [
+      "2028-10-03",
+      "2028-10-03"
+     ]
+    ],
+    "2029": [
+     [
+      "2029-09-22",
+      "2029-09-22"
+     ]
+    ],
+    "2030": [
+     [
+      "2030-09-12",
+      "2030-09-12"
+     ]
+    ],
+    "2031": [
+     [
+      "2031-10-01",
+      "2031-10-01"
+     ]
+    ],
+    "2032": [
+     [
+      "2032-09-19",
+      "2032-09-19"
+     ]
+    ],
+    "2033": [
+     [
+      "2033-09-08",
+      "2033-09-08"
+     ]
+    ],
+    "2034": [
+     [
+      "2034-09-27",
+      "2034-09-27"
+     ]
+    ],
+    "2035": [
+     [
+      "2035-09-17",
+      "2035-09-17"
+     ]
+    ],
+    "2036": [
+     [
+      "2036-10-05",
+      "2036-10-05"
+     ]
+    ],
+    "2037": [
+     [
+      "2037-09-24",
+      "2037-09-24"
+     ]
+    ],
+    "2038": [
+     [
+      "2038-09-13",
+      "2038-09-13"
+     ]
+    ],
+    "2039": [
+     [
+      "2039-10-02",
+      "2039-10-02"
+     ]
+    ],
+    "2040": [
+     [
+      "2040-09-21",
+      "2040-09-21"
+     ]
+    ]
+   }
+  },
+  "regle": "nuit de pleine lune proche de l'équinoxe d'automne",
+  "notes": [
+   "Date calculée de façon approchée (à un jour près).",
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ]
+ },
+ {
+  "id": "flea-market",
+  "nom": {
+   "fr": "Marché aux puces",
+   "en": "Flea Market"
+  },
+  "type": "evenement",
+  "mois": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "regle": "une fois par mois (jour variable)",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "midsummers-day",
+  "nom": {
+   "fr": "Midsummer's Day",
+   "en": "Midsummer's Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   6,
+   21
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ]
+ },
+ {
+  "id": "midwinters-day",
+  "nom": {
+   "fr": "Midwinter's Day",
+   "en": "Midwinter's Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   21
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ]
+ },
+ {
+  "id": "new-years-eve",
+  "nom": {
+   "fr": "Réveillon du nouvel an",
+   "en": "New Year's Eve"
+  },
+  "type": "evenement",
+  "fixe": [
+   12,
+   31
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "valentines-day",
+  "nom": {
+   "fr": "Saint-Valentin",
+   "en": "Valentine's Day"
+  },
+  "type": "evenement",
+  "fixe": [
+   2,
+   14
+  ],
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ },
+ {
+  "id": "fishing-tourney",
+  "nom": {
+   "fr": "Tournoi de pêche",
+   "en": "Fishing Tourney"
+  },
+  "type": "evenement",
+  "mois": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "regle": "une fois par mois (jour variable)",
+  "a_verifier": [
+   "nom.fr"
+  ],
+  "notes": [
+   "Nom français repris d'un autre jeu (peut être différent dans celui-ci)."
+  ]
+ }
+]

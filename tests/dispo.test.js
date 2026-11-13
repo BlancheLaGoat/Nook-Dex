@@ -98,3 +98,22 @@ test('demi-mois des anciens jeux (août et septembre coupés en deux)', async ()
   assert.equal(estDisponible(papillon, 'nord', new Date(2026, 1, 10, 10)), false);
   assert.equal(partieDuMois(papillon, 'nord', 2), 'du 24 à la fin du mois');
 });
+
+test('événements : dates fixes, calculées, saisons à cheval sur deux années', async () => {
+  const { occurrencesDuMois, aLieuLe, prochains, sansJourCeMois } = await charger('evenements.js');
+  const halloween = { id: 'h', nom: { fr: 'Halloween' }, type: 'evenement', fixe: [10, 31] };
+  const tournoi = { id: 't', nom: { fr: 'Tournoi' }, type: 'evenement', dates: { tous: { 2026: [['2026-01-17', '2026-01-17']] } } };
+  const hiver = { id: 'w', nom: { fr: 'Hiver' }, type: 'saison', dates: { nord: { 2025: [['2025-12-01', '2026-02-28']] }, sud: { 2026: [['2026-06-01', '2026-08-31']] } } };
+  const puces = { id: 'p', nom: { fr: 'Marché' }, type: 'evenement', mois: [1, 2, 3] };
+  const anniv29 = { id: 'a', nom: { fr: 'Anniv' }, type: 'anniversaire', fixe: [2, 29] };
+  assert.deepEqual(occurrencesDuMois(halloween, 2026, 10, 'nord'), [{ debut: '2026-10-31', fin: '2026-10-31' }]);
+  assert.equal(occurrencesDuMois(tournoi, 2026, 1, 'nord').length, 1);
+  assert.equal(occurrencesDuMois(hiver, 2026, 1, 'nord').length, 1);   // commencé en décembre 2025
+  assert.equal(occurrencesDuMois(hiver, 2026, 1, 'sud').length, 0);
+  assert.equal(aLieuLe(hiver, new Date(2026, 1, 10), 'nord'), true);
+  assert.equal(sansJourCeMois(puces, 2), true);
+  assert.equal(sansJourCeMois(puces, 5), false);
+  assert.deepEqual(occurrencesDuMois(anniv29, 2027, 2, 'nord'), [{ debut: '2027-02-28', fin: '2027-02-28' }]);
+  const p = prochains([halloween, tournoi], new Date(2026, 9, 25), 14, 'nord');
+  assert.deepEqual(p.map(o => o.e.id), ['h']);
+});

@@ -10,6 +10,7 @@ import { afficherCollection } from './vues/collection.js';
 import { fermerFiche } from './vues/fiche.js';
 import { afficherCalendrier } from './vues/calendrier.js';
 import { afficherEspeces } from './vues/especes.js';
+import { afficherEvenements } from './vues/evenements.js';
 import { fenetreProfils, fenetreNouveauProfil, fenetreReglages } from './vues/fenetres.js';
 
 const $ = id => document.getElementById(id);
@@ -29,13 +30,15 @@ async function afficherVue(vue) {
   const jeu = jeuActif();
   if (!jeu) return afficherBienvenue();
   if (vue.type === 'accueil') {
-    nettoyerVue = afficherAccueil(contenu, jeu, id => afficherVue({ type: 'categorie', id }));
+    nettoyerVue = afficherAccueil(contenu, jeu, id => afficherVue(id === 'evenements' ? { type: 'evenements' } : { type: 'categorie', id }));
   } else if (vue.type === 'categorie') {
     const cat = jeu.categories.find(c => c.id === vue.id);
     if (!cat) return afficherVue({ type: 'accueil' });
     nettoyerVue = await afficherCollection(contenu, jeu, cat);
   } else if (vue.type === 'calendrier') {
     nettoyerVue = await afficherCalendrier(contenu, jeu);
+  } else if (vue.type === 'evenements') {
+    nettoyerVue = await afficherEvenements(contenu, jeu);
   } else if (vue.type === 'especes') {
     nettoyerVue = await afficherEspeces(contenu);
   }
@@ -80,7 +83,8 @@ function dessinerMenu() {
   }
   menu.append(
     h('div', { class: 'menu-titre' }, 'Outils'),
-    lien(etat.vue.type === 'calendrier', '📅', 'Calendrier', null, () => afficherVue({ type: 'calendrier' })),
+    lien(etat.vue.type === 'calendrier', '📅', 'Calendrier des créatures', null, () => afficherVue({ type: 'calendrier' })),
+    lien(etat.vue.type === 'evenements', '📆', 'Événements et anniversaires', null, () => afficherVue({ type: 'evenements' })),
     lien(etat.vue.type === 'especes', '🔎', 'Par espèce (tous les jeux)', null, () => afficherVue({ type: 'especes' })),
   );
 }
