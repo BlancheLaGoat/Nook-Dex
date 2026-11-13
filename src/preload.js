@@ -4,6 +4,7 @@ const { contextBridge, ipcRenderer } = require('electron');
 
 contextBridge.exposeInMainWorld('nook', {
   jeux: () => ipcRenderer.invoke('donnees:jeux'),
+  especes: () => ipcRenderer.invoke('donnees:especes'),
   categorie: (jeu, categorie) => ipcRenderer.invoke('donnees:categorie', jeu, categorie),
   infosDonnees: jeu => ipcRenderer.invoke('donnees:infos', jeu),
 

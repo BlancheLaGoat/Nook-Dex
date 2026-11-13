@@ -8,6 +8,8 @@ import { progression } from './lib/filtres.js';
 import { afficherAccueil } from './vues/accueil.js';
 import { afficherCollection } from './vues/collection.js';
 import { fermerFiche } from './vues/fiche.js';
+import { afficherCalendrier } from './vues/calendrier.js';
+import { afficherEspeces } from './vues/especes.js';
 import { fenetreProfils, fenetreNouveauProfil, fenetreReglages } from './vues/fenetres.js';
 
 const $ = id => document.getElementById(id);
@@ -32,6 +34,10 @@ async function afficherVue(vue) {
     const cat = jeu.categories.find(c => c.id === vue.id);
     if (!cat) return afficherVue({ type: 'accueil' });
     nettoyerVue = await afficherCollection(contenu, jeu, cat);
+  } else if (vue.type === 'calendrier') {
+    nettoyerVue = await afficherCalendrier(contenu, jeu);
+  } else if (vue.type === 'especes') {
+    nettoyerVue = await afficherEspeces(contenu);
   }
 }
 
@@ -73,9 +79,9 @@ function dessinerMenu() {
         c.musee ? h('div', { class: 'barre musee' }, h('div', { style: { width: pc(p.musee, p.totalMusee) } })) : null]));
   }
   menu.append(
-    h('div', { class: 'menu-titre' }, 'Bientôt'),
-    h('div', { class: 'menu-lien desactive', title: 'Arrive dans une prochaine étape' }, h('div', { class: 'menu-ligne' }, h('span', { class: 'menu-icone' }, '📅'), h('span', { class: 'menu-nom' }, 'Calendrier'))),
-    h('div', { class: 'menu-lien desactive', title: 'Arrive quand les autres jeux seront ajoutés' }, h('div', { class: 'menu-ligne' }, h('span', { class: 'menu-icone' }, '🔎'), h('span', { class: 'menu-nom' }, 'Par espèce (tous les jeux)'))),
+    h('div', { class: 'menu-titre' }, 'Outils'),
+    lien(etat.vue.type === 'calendrier', '📅', 'Calendrier', null, () => afficherVue({ type: 'calendrier' })),
+    lien(etat.vue.type === 'especes', '🔎', 'Par espèce (tous les jeux)', null, () => afficherVue({ type: 'especes' })),
   );
 }
 

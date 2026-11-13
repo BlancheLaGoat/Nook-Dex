@@ -8,6 +8,9 @@ import { ouvrirFiche } from './fiche.js';
 export function afficherAccueil(conteneur, jeu, allerVers) {
   let noteJeu = null;
   const dessiner = () => {
+    // On garde la position de défilement quand la page se redessine (après une coche).
+    const defilement = conteneur.scrollTop;
+    requestAnimationFrame(() => { conteneur.scrollTop = defilement; });
     vider(conteneur);
     const hemi = etat.profil.hemisphere;
     const date = maintenant();

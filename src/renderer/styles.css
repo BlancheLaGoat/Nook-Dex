@@ -327,3 +327,40 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
 ::-webkit-scrollbar { width: 11px; height: 11px; }
 ::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 999px; border: 3px solid var(--fond); }
 ::-webkit-scrollbar-track { background: transparent; }
+
+/* ---------- Calendrier ---------- */
+.onglets-mois { display: grid; grid-template-columns: repeat(12, 1fr); gap: 6px; margin-bottom: 12px; }
+.onglet-mois { border: 1px solid var(--bord); background: var(--surface); border-radius: 999px; padding: 6px 0; cursor: pointer; font-weight: 600; }
+.onglet-mois:hover { background: var(--surface-2); }
+.onglet-mois.courant { border-color: var(--jaune); }
+.onglet-mois.actif { background: var(--vert); border-color: var(--vert); color: #fff; }
+.grille-calendrier { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+.carte-calendrier {
+  display: flex; align-items: center; gap: 10px; text-align: left; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--bord); border-radius: var(--rayon-petit); padding: 8px 10px;
+}
+.carte-calendrier:hover { background: var(--surface-2); }
+.carte-calendrier.obtenu { background: var(--vert-pale); }
+.carte-calendrier.fait { background: var(--bleu-pale); opacity: 0.75; }
+.carte-calendrier .texte { flex: 1; min-width: 0; }
+.carte-calendrier .nom { font-weight: 600; }
+.carte-calendrier .etat { font-size: 16px; }
+.vignette.petite { width: 40px; height: 40px; flex-shrink: 0; }
+
+/* ---------- Par espèce ---------- */
+.liste-especes { display: grid; gap: 6px; }
+.ligne-espece { background: var(--surface); border: 1px solid var(--bord); border-radius: var(--rayon-petit); }
+.ligne-espece.ouverte { border-color: var(--vert); box-shadow: var(--ombre); }
+.entete-espece { display: flex; align-items: center; gap: 10px; width: 100%; padding: 8px 12px; border: none; background: transparent; cursor: pointer; text-align: left; }
+.entete-espece .texte { flex: 1; }
+.entete-espece .nom { font-weight: 600; }
+.pastilles { display: flex; gap: 4px; }
+.pastille-jeu.absent { background: var(--surface-2); color: var(--texte-doux); opacity: 0.45; }
+.pastille-jeu.pris { background: var(--vert); color: #fff; }
+.comparaison-especes { overflow-x: auto; padding: 0 12px 12px; }
+.tableau-comparaison { border-collapse: collapse; width: 100%; }
+.tableau-comparaison th, .tableau-comparaison td { padding: 6px 10px; border-bottom: 1px dashed var(--bord); vertical-align: top; text-align: left; }
+.tableau-comparaison thead th { color: var(--vert-fonce); }
+.tableau-comparaison tbody th { color: var(--texte-doux); font-weight: 500; white-space: nowrap; }
+
+.filtres.statique { position: static; }

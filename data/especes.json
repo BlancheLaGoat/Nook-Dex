@@ -1,0 +1,5307 @@
+[
+ {
+  "id": "honeybee",
+  "nom": {
+   "fr": "Abeille naine",
+   "en": "Honeybee"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins11.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "honeybee"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "honeybee"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "honeybee"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "honeybee"
+   }
+  }
+ },
+ {
+  "id": "longlocust",
+  "nom": {
+   "fr": "Acrida cinerea",
+   "en": "Long locust"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins13.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "long-locust"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "long-locust"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "long-locust"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "long-locust"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "long-locust"
+   }
+  }
+ },
+ {
+  "id": "agrias",
+  "nom": {
+   "fr": "Agrias",
+   "en": "Agrias butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins6.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "agrias-butterfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "agrias-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "agrias-butterfly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "agrias-butterfly"
+   }
+  }
+ },
+ {
+  "id": "seagrapes",
+  "nom": {
+   "fr": "Algue raisin de mer",
+   "en": "Sea grapes"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Umibudou.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-grapes"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "sea-grapes"
+   }
+  }
+ },
+ {
+  "id": "darnerdragonfly",
+  "nom": {
+   "fr": "Anax napolitain",
+   "en": "Darner dragonfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins23.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "darner-dragonfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "darner-dragonfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "darner-dragonfly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "darner-dragonfly"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "darner-dragonfly"
+   }
+  }
+ },
+ {
+  "id": "anchovy",
+  "nom": {
+   "fr": "Anchois",
+   "en": "Anchovy"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish81.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "anchovy"
+   }
+  }
+ },
+ {
+  "id": "seaanemone",
+  "nom": {
+   "fr": "Anémone de mer",
+   "en": "Sea anemone"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Isogintyaku.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-anemone"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "sea-anemone"
+   }
+  }
+ },
+ {
+  "id": "eel",
+  "nom": {
+   "fr": "Anguille",
+   "en": "Eel"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/thumb/9/93/Eel_NL_Model.png/128px-Eel_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "poissons",
+    "id": "eel"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "eel"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "eel"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "eel"
+   }
+  }
+ },
+ {
+  "id": "spottedgardeneel",
+  "nom": {
+   "fr": "Anguille de jardin",
+   "en": "Spotted garden eel"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Chinanago.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "spotted-garden-eel"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "spotted-garden-eel"
+   }
+  }
+ },
+ {
+  "id": "spider",
+  "nom": {
+   "fr": "Araignée",
+   "en": "Spider"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins61.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "spider"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "spider"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "spider"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "spider"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "spider"
+   }
+  }
+ },
+ {
+  "id": "arapaima",
+  "nom": {
+   "fr": "Arapaïma",
+   "en": "Arapaima"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish36.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "arapaima"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "arapaima"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "arapaima"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "arapaima"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "arapaima"
+   }
+  }
+ },
+ {
+  "id": "arowana",
+  "nom": {
+   "fr": "Arowana",
+   "en": "Arowana"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish33.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "arowana"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "arowana"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "arowana"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "arowana"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "arowana"
+   }
+  }
+ },
+ {
+  "id": "atlasmoth",
+  "nom": {
+   "fr": "Attacus Atlas",
+   "en": "Atlas moth"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins10.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "atlas-moth"
+   }
+  }
+ },
+ {
+  "id": "sweetfish",
+  "nom": {
+   "fr": "Ayu",
+   "en": "Sweetfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish22.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "sweetfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "sweetfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "sweetfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "sweetfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "sweetfish"
+   }
+  }
+ },
+ {
+  "id": "acornbarnacle",
+  "nom": {
+   "fr": "Balane",
+   "en": "Acorn barnacle"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fujitsubo.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "acorn-barnacle"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "acorn-barnacle"
+   }
+  }
+ },
+ {
+  "id": "blackbass",
+  "nom": {
+   "fr": "Bar",
+   "en": "Black bass"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish19.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "black-bass"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "black-bass"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "black-bass"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "black-bass"
+   }
+  }
+ },
+ {
+  "id": "bass",
+  "nom": {
+   "fr": "Bar",
+   "en": "Bass"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/3/30/Bass_PG_Inv_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "poissons",
+    "id": "bass"
+   }
+  }
+ },
+ {
+  "id": "seabass",
+  "nom": {
+   "fr": "Bar commun",
+   "en": "Sea bass"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish48.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "sea-bass"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "sea-bass"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "sea-bass"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "sea-bass"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "sea-bass"
+   }
+  }
+ },
+ {
+  "id": "barbelsteed",
+  "nom": {
+   "fr": "Barbeau",
+   "en": "Barbel steed"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/thumb/2/20/Barbel_Steed_NL_Model.png/128px-Barbel_Steed_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "poissons",
+    "id": "barbel-steed"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "barbel-steed"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "barbel-steed"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "barbel-steed"
+   }
+  }
+ },
+ {
+  "id": "giantisopod",
+  "nom": {
+   "fr": "Bathynome géant",
+   "en": "Giant isopod"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Daiougusokumushi.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "giant-isopod"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "giant-isopod"
+   }
+  }
+ },
+ {
+  "id": "gigasgiantclam",
+  "nom": {
+   "fr": "Bénitier colossal",
+   "en": "Gigas giant clam"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Shakogai.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "gigas-giant-clam"
+   }
+  }
+ },
+ {
+  "id": "hermitcrab",
+  "nom": {
+   "fr": "Bernard-l'ermite",
+   "en": "Hermit crab"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins66.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "hermit-crab"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "hermit-crab"
+   }
+  }
+ },
+ {
+  "id": "spottedladybug",
+  "nom": {
+   "fr": "Bête à bon Dieu",
+   "en": "Spotted ladybug"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/8/82/Spotted_Ladybug_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "insectes",
+    "id": "spotted-ladybug"
+   }
+  }
+ },
+ {
+  "id": "saddledbichir",
+  "nom": {
+   "fr": "Bichir",
+   "en": "Saddled bichir"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish68.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "saddled-bichir"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "saddled-bichir"
+   }
+  }
+ },
+ {
+  "id": "dung",
+  "nom": {
+   "fr": "Bousier",
+   "en": "Dung beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins40.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "dung-beetle"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "dung-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "dung-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "dung-beetle"
+   }
+  }
+ },
+ {
+  "id": "bitterling",
+  "nom": {
+   "fr": "Bouvière",
+   "en": "Bitterling"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish0.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "bitterling"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "bitterling"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "bitterling"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "bitterling"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "bitterling"
+   }
+  }
+ },
+ {
+  "id": "pike",
+  "nom": {
+   "fr": "Brochet",
+   "en": "Pike"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish20.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "pike"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "pike"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "pike"
+   }
+  }
+ },
+ {
+  "id": "whelk",
+  "nom": {
+   "fr": "Bulot",
+   "en": "Whelk"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Baigai.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "whelk"
+   }
+  }
+ },
+ {
+  "id": "jewel",
+  "nom": {
+   "fr": "Bupreste",
+   "en": "Jewel beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins44.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "jewel-beetle"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "jewel-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "jewel-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "jewel-beetle"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "jewel-beetle"
+   }
+  }
+ },
+ {
+  "id": "cockroach",
+  "nom": {
+   "fr": "Cafard",
+   "en": "Cockroach"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/1/11/Cockroach_WW_Sprite.png",
+  "jeux": {
+   "ww": {
+    "categorie": "insectes",
+    "id": "cockroach"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "cockroach"
+   }
+  }
+ },
+ {
+  "id": "squid",
+  "nom": {
+   "fr": "Calmar",
+   "en": "Squid"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish52.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "squid"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "squid"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "squid"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "squid"
+   }
+  }
+ },
+ {
+  "id": "fireflysquid",
+  "nom": {
+   "fr": "Calmar luciole",
+   "en": "Firefly squid"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Hotaruika.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "firefly-squid"
+   }
+  }
+ },
+ {
+  "id": "citruslonghorned",
+  "nom": {
+   "fr": "Capricorne des agrumes",
+   "en": "Citrus long-horned beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins39.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "citrus-long-horned-beetle"
+   }
+  }
+ },
+ {
+  "id": "gianttrevally",
+  "nom": {
+   "fr": "Carangue grosse tête",
+   "en": "Giant trevally"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish70.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "giant-trevally"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "giant-trevally"
+   }
+  }
+ },
+ {
+  "id": "cruciancarp",
+  "nom": {
+   "fr": "Carassin",
+   "en": "Crucian carp"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish2.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "crucian-carp"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "crucian-carp"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "crucian-carp"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "crucian-carp"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "crucian-carp"
+   }
+  }
+ },
+ {
+  "id": "oliveflounder",
+  "nom": {
+   "fr": "Cardeau",
+   "en": "Olive flounder"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish51.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "olive-flounder"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "olive-flounder"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "olive-flounder"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "olive-flounder"
+   }
+  }
+ },
+ {
+  "id": "carp",
+  "nom": {
+   "fr": "Carpe",
+   "en": "Carp"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish5.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "carp"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "carp"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "carp"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "carp"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "carp"
+   }
+  }
+ },
+ {
+  "id": "koi",
+  "nom": {
+   "fr": "Carpe koï",
+   "en": "Koi"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish6.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "koi"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "koi"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "koi"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "koi"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "koi"
+   }
+  }
+ },
+ {
+  "id": "manfacedstinkbug",
+  "nom": {
+   "fr": "Catacanthus",
+   "en": "Man-faced stink bug"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins78.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "man-faced-stink-bug"
+   }
+  }
+ },
+ {
+  "id": "giant",
+  "nom": {
+   "fr": "Cerf-volant",
+   "en": "Giant beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cerf-volant.png",
+  "jeux": {
+   "cf": {
+    "categorie": "insectes",
+    "id": "giant-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "giant-beetle"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "giant-beetle"
+   }
+  }
+ },
+ {
+  "id": "blueweevil",
+  "nom": {
+   "fr": "Charançon bleu",
+   "en": "Blue weevil beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins80.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "blue-weevil-beetle"
+   }
+  }
+ },
+ {
+  "id": "palechub",
+  "nom": {
+   "fr": "Chevaine",
+   "en": "Pale chub"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish1.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "pale-chub"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "pale-chub"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "pale-chub"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "pale-chub"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "pale-chub"
+   }
+  }
+ },
+ {
+  "id": "horsemackerel",
+  "nom": {
+   "fr": "Chinchard",
+   "en": "Horse mackerel"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish46.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "horse-mackerel"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "horse-mackerel"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "horse-mackerel"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "horse-mackerel"
+   }
+  }
+ },
+ {
+  "id": "madagascansunsetmoth",
+  "nom": {
+   "fr": "Chrysiridia rhipheus",
+   "en": "Madagascan sunset moth"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins79.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "madagascan-sunset-moth"
+   }
+  }
+ },
+ {
+  "id": "tiger",
+  "nom": {
+   "fr": "Cicindèle",
+   "en": "Tiger beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins70.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "tiger-beetle"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "tiger-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "tiger-butterfly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "tiger-butterfly"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "tiger-butterfly"
+   }
+  }
+ },
+ {
+  "id": "browncicada",
+  "nom": {
+   "fr": "Cigale cercope",
+   "en": "Brown cicada"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins17.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "brown-cicada"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "brown-cicada"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "brown-cicada"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "brown-cicada"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "brown-cicada"
+   }
+  }
+ },
+ {
+  "id": "walkercicada",
+  "nom": {
+   "fr": "Cigale cicadelle",
+   "en": "Walker cicada"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins19.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "walker-cicada"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "walker-cicada"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "walker-cicada"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "walker-cicada"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "walker-cicada"
+   }
+  }
+ },
+ {
+  "id": "giantcicada",
+  "nom": {
+   "fr": "Cigale géante",
+   "en": "Giant cicada"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins65.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "giant-cicada"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "giant-cicada"
+   }
+  }
+ },
+ {
+  "id": "eveningcicada",
+  "nom": {
+   "fr": "Cigale higurashi",
+   "en": "Evening cicada"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins20.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "evening-cicada"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "evening-cicada"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "evening-cicada"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "evening-cicada"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "evening-cicada"
+   }
+  }
+ },
+ {
+  "id": "robustcicada",
+  "nom": {
+   "fr": "Cigale hyalessa",
+   "en": "Robust cicada"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins18.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "robust-cicada"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "robust-cicada"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "robust-cicada"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "robust-cicada"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "robust-cicada"
+   }
+  }
+ },
+ {
+  "id": "yellow",
+  "nom": {
+   "fr": "Citrin",
+   "en": "Yellow butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins1.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "yellow-butterfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "yellow-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "yellow-butterfly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "yellow-butterfly"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "yellow-butterfly"
+   }
+  }
+ },
+ {
+  "id": "sea",
+  "nom": {
+   "fr": "Clione",
+   "en": "Sea butterfly"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish37.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "sea-butterfly"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "sea-butterfly"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "sea-butterfly"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "sea-butterfly"
+   }
+  }
+ },
+ {
+  "id": "pillbug",
+  "nom": {
+   "fr": "Cloporte",
+   "en": "Pill bug"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins57.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "pill-bug"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "pill-bug"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "pill-bug"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "pill-bug"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "pill-bug"
+   }
+  }
+ },
+ {
+  "id": "ladybug",
+  "nom": {
+   "fr": "Coccinelle",
+   "en": "Ladybug"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins37.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "ladybug"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "ladybug"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "ladybug"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "ladybug"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "ladybug"
+   }
+  }
+ },
+ {
+  "id": "seapig",
+  "nom": {
+   "fr": "Cochon de mer",
+   "en": "Sea pig"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Senjunamako.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-pig"
+   }
+  }
+ },
+ {
+  "id": "coelacanth",
+  "nom": {
+   "fr": "Cœlacanthe",
+   "en": "Coelacanth"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish63.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "coelacanth"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "coelacanth"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "coelacanth"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "coelacanth"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "coelacanth"
+   }
+  }
+ },
+ {
+  "id": "betta",
+  "nom": {
+   "fr": "Combattant",
+   "en": "Betta"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish77.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "betta"
+   }
+  }
+ },
+ {
+  "id": "seacucumber",
+  "nom": {
+   "fr": "Concombre de mer",
+   "en": "Sea cucumber"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Namako.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-cucumber"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "sea-cucumber"
+   }
+  }
+ },
+ {
+  "id": "stag",
+  "nom": {
+   "fr": "Copris",
+   "en": "Stag beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/1/1b/Stag_Beetle_WW_Sprite.png",
+  "jeux": {
+   "ww": {
+    "categorie": "insectes",
+    "id": "stag-beetle"
+   }
+  }
+ },
+ {
+  "id": "flatstag",
+  "nom": {
+   "fr": "Copris",
+   "en": "Flat stag beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/3/38/Flat_Stag_Beetle_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "insectes",
+    "id": "flat-stag-beetle"
+   }
+  }
+ },
+ {
+  "id": "venusflowerbasket",
+  "nom": {
+   "fr": "Corbeille de Vénus",
+   "en": "Venus' flower basket"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Kairoudouketsu.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "venus-flower-basket"
+   }
+  }
+ },
+ {
+  "id": "bandeddragonfly",
+  "nom": {
+   "fr": "Cordulégastre",
+   "en": "Banded dragonfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins24.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "banded-dragonfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "banded-dragonfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "banded-dragonfly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "banded-dragonfly"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "banded-dragonfly"
+   }
+  }
+ },
+ {
+  "id": "mahimahi",
+  "nom": {
+   "fr": "Coryphène",
+   "en": "Mahi-mahi"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish82.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "mahi-mahi"
+   }
+  }
+ },
+ {
+  "id": "oaksilkmoth",
+  "nom": {
+   "fr": "Coscinocera hercules",
+   "en": "Oak silk moth"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/thumb/a/aa/Oak_Silk_Moth_NL_Model.png/128px-Oak_Silk_Moth_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "insectes",
+    "id": "oak-silk-moth"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "oak-silk-moth"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "oak-silk-moth"
+   }
+  }
+ },
+ {
+  "id": "mittencrab",
+  "nom": {
+   "fr": "Crabe chinois",
+   "en": "Mitten crab"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish66.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "mitten-crab"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "mitten-crab"
+   }
+  }
+ },
+ {
+  "id": "dungenesscrab",
+  "nom": {
+   "fr": "Crabe de Dungeness",
+   "en": "Dungeness crab"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/DungenessCrab.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "dungeness-crab"
+   }
+  }
+ },
+ {
+  "id": "snowcrab",
+  "nom": {
+   "fr": "Crabe des neiges",
+   "en": "Snow crab"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Zuwaigani.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "snow-crab"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "snow-crab"
+   }
+  }
+ },
+ {
+  "id": "gazamicrab",
+  "nom": {
+   "fr": "Crabe gazami",
+   "en": "Gazami crab"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Gazami.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "gazami-crab"
+   }
+  }
+ },
+ {
+  "id": "redkingcrab",
+  "nom": {
+   "fr": "Crabe royal",
+   "en": "Red king crab"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Tarabagani.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "red-king-crab"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "red-king-crab"
+   }
+  }
+ },
+ {
+  "id": "horsehaircrab",
+  "nom": {
+   "fr": "Crabe velu",
+   "en": "Horsehair crab"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://dodo.ac/np/images/thumb/4/4d/Horsehair_Crab_NL_Model.png/128px-Horsehair_Crab_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "horsehair-crab"
+   }
+  }
+ },
+ {
+  "id": "spidercrab",
+  "nom": {
+   "fr": "Crabe-araignée géant",
+   "en": "Spider crab"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Takaashigani.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "spider-crab"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "spider-crab"
+   }
+  }
+ },
+ {
+  "id": "bluegill",
+  "nom": {
+   "fr": "Crapet",
+   "en": "Bluegill"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish17.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "bluegill"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "bluegill"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "bluegill"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "bluegill"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "bluegill"
+   }
+  }
+ },
+ {
+  "id": "sweetshrimp",
+  "nom": {
+   "fr": "Crevette nordique",
+   "en": "Sweet shrimp"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Amaebi.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sweet-shrimp"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "sweet-shrimp"
+   }
+  }
+ },
+ {
+  "id": "tigerprawn",
+  "nom": {
+   "fr": "Crevette tigrée",
+   "en": "Tiger prawn"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Kurumaebi.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "tiger-prawn"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "tiger-prawn"
+   }
+  }
+ },
+ {
+  "id": "mantisshrimp",
+  "nom": {
+   "fr": "Crevette-mante",
+   "en": "Mantis shrimp"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Shako.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "mantis-shrimp"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "mantis-shrimp"
+   }
+  }
+ },
+ {
+  "id": "ricegrasshopper",
+  "nom": {
+   "fr": "Criquet",
+   "en": "Rice grasshopper"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins67.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "rice-grasshopper"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "rice-grasshopper"
+   }
+  }
+ },
+ {
+  "id": "migratorylocust",
+  "nom": {
+   "fr": "Criquet pèlerin",
+   "en": "Migratory locust"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins14.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "migratory-locust"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "migratory-locust"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "migratory-locust"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "migratory-locust"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "migratory-locust"
+   }
+  }
+ },
+ {
+  "id": "popeyedgoldfish",
+  "nom": {
+   "fr": "Cyprin doré",
+   "en": "Pop-eyed goldfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish8.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "pop-eyed-goldfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "pop-eyed-goldfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "popeyed-goldfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "popeyed-goldfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "popeyed-goldfish"
+   }
+  }
+ },
+ {
+  "id": "stringfish",
+  "nom": {
+   "fr": "Dai yu",
+   "en": "Stringfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish26.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "stringfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "stringfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "stringfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "stringfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "stringfish"
+   }
+  }
+ },
+ {
+  "id": "damselfly",
+  "nom": {
+   "fr": "Demoiselle",
+   "en": "Damselfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins81.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "damselfly"
+   }
+  }
+ },
+ {
+  "id": "dorado",
+  "nom": {
+   "fr": "Dorado",
+   "en": "Dorado"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish34.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "dorado"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "dorado"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "dorado"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "dorado"
+   }
+  }
+ },
+ {
+  "id": "diving",
+  "nom": {
+   "fr": "Dytique",
+   "en": "Diving beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins28.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "diving-beetle"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "diving-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "diving-beetle"
+   }
+  }
+ },
+ {
+  "id": "crawfish",
+  "nom": {
+   "fr": "Écrevisse",
+   "en": "Crawfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish10.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "crawfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "crawfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "crawfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "crawfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "crawfish"
+   }
+  }
+ },
+ {
+  "id": "pondsmelt",
+  "nom": {
+   "fr": "Éperlan",
+   "en": "Pond smelt"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish21.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "pond-smelt"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "pond-smelt"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "pond-smelt"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "pond-smelt"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "pond-smelt"
+   }
+  }
+ },
+ {
+  "id": "snail",
+  "nom": {
+   "fr": "Escargot",
+   "en": "Snail"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins29.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "snail"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "snail"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "snail"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "snail"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "snail"
+   }
+  }
+ },
+ {
+  "id": "sturgeon",
+  "nom": {
+   "fr": "Esturgeon",
+   "en": "Sturgeon"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish75.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "sturgeon"
+   }
+  }
+ },
+ {
+  "id": "seastar",
+  "nom": {
+   "fr": "Étoile de mer",
+   "en": "Sea star"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Hitode.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-star"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "sea-star"
+   }
+  }
+ },
+ {
+  "id": "killifish",
+  "nom": {
+   "fr": "Fondule barré",
+   "en": "Killifish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish9.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "killifish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "killifish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "killifish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "killifish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "killifish"
+   }
+  }
+ },
+ {
+  "id": "ant",
+  "nom": {
+   "fr": "Fourmi",
+   "en": "Ant"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins26.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "ant"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "ant"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "ant"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "ant"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "ant"
+   }
+  }
+ },
+ {
+  "id": "gar",
+  "nom": {
+   "fr": "Gar",
+   "en": "Gar"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish35.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "gar"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "gar"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "gar"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "gar"
+   }
+  }
+ },
+ {
+  "id": "earthboringdung",
+  "nom": {
+   "fr": "Geotrupidae",
+   "en": "Earth-boring dung beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins42.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "earth-boring-dung-beetle"
+   }
+  }
+ },
+ {
+  "id": "freshwatergoby",
+  "nom": {
+   "fr": "Gobie d'eau douce",
+   "en": "Freshwater goby"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish12.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "freshwater-goby"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "freshwater-goby"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "freshwater-goby"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "freshwater-goby"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "freshwater-goby"
+   }
+  }
+ },
+ {
+  "id": "largebass",
+  "nom": {
+   "fr": "Grand bar",
+   "en": "Large bass"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/0/0f/Large_Bass_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "poissons",
+    "id": "large-bass"
+   }
+  }
+ },
+ {
+  "id": "paperkite",
+  "nom": {
+   "fr": "Grand planeur",
+   "en": "Paper kite butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins73.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "paper-kite-butterfly"
+   }
+  }
+ },
+ {
+  "id": "greatwhiteshark",
+  "nom": {
+   "fr": "Grand requin blanc",
+   "en": "Great white shark"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish62.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "great-white-shark"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "shark"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "shark"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "shark"
+   }
+  }
+ },
+ {
+  "id": "commonbluebottle",
+  "nom": {
+   "fr": "Graphium sarpedon",
+   "en": "Common bluebottle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins72.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "common-bluebottle"
+   }
+  }
+ },
+ {
+  "id": "frog",
+  "nom": {
+   "fr": "Grenouille",
+   "en": "Frog"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish11.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "frog"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "frog"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "frog"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "frog"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "frog"
+   }
+  }
+ },
+ {
+  "id": "pinecricket",
+  "nom": {
+   "fr": "Grillon",
+   "en": "Pine cricket"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/4/43/Pine_Cricket_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "insectes",
+    "id": "pine-cricket"
+   }
+  }
+ },
+ {
+  "id": "cricket",
+  "nom": {
+   "fr": "Grillon des prés",
+   "en": "Cricket"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins30.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "cricket"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "cricket"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "cricket"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "cricket"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "cricket"
+   }
+  }
+ },
+ {
+  "id": "bellcricket",
+  "nom": {
+   "fr": "Grillon du Midi",
+   "en": "Bell cricket"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins31.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "bell-cricket"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "bell-cricket"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "bell-cricket"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "bell-cricket"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "bell-cricket"
+   }
+  }
+ },
+ {
+  "id": "wasp",
+  "nom": {
+   "fr": "Guêpe",
+   "en": "Wasp"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins12.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "wasp"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "bee"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "bee"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "bee"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "bee"
+   }
+  }
+ },
+ {
+  "id": "guppy",
+  "nom": {
+   "fr": "Guppy",
+   "en": "Guppy"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish29.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "guppy"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "guppy"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "guppy"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "guppy"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "guppy"
+   }
+  }
+ },
+ {
+  "id": "seapineapple",
+  "nom": {
+   "fr": "Halocynthia roretzi",
+   "en": "Sea pineapple"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Hoya.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-pineapple"
+   }
+  }
+ },
+ {
+  "id": "dynastid",
+  "nom": {
+   "fr": "Hanneton",
+   "en": "Dynastid beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Hanneton.png",
+  "jeux": {
+   "cf": {
+    "categorie": "insectes",
+    "id": "dynastid-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "dynastid-beetle"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "dynastid-beetle"
+   }
+  }
+ },
+ {
+  "id": "seahorse",
+  "nom": {
+   "fr": "Hippocampe",
+   "en": "Sea horse"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish39.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "sea-horse"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "sea-horse"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "sea-horse"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "seahorse"
+   }
+  }
+ },
+ {
+  "id": "lobster",
+  "nom": {
+   "fr": "Homard",
+   "en": "Lobster"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish54.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "lobster"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "lobster"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "lobster"
+   }
+  }
+ },
+ {
+  "id": "oyster",
+  "nom": {
+   "fr": "Huître",
+   "en": "Oyster"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Kaki.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "oyster"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "oyster"
+   }
+  }
+ },
+ {
+  "id": "pearloyster",
+  "nom": {
+   "fr": "Huître perlière",
+   "en": "Pearl oyster"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Akoyagai.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "pearl-oyster"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "pearl-oyster"
+   }
+  }
+ },
+ {
+  "id": "barredknifejaw",
+  "nom": {
+   "fr": "Ishidai",
+   "en": "Barred knifejaw"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish47.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "barred-knifejaw"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "barred-knifejaw"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "barred-knifejaw"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "barred-knifejaw"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "barred-knifejaw"
+   }
+  }
+ },
+ {
+  "id": "spinylobster",
+  "nom": {
+   "fr": "Langouste",
+   "en": "Spiny lobster"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Iseebi.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "spiny-lobster"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "spiny-lobster"
+   }
+  }
+ },
+ {
+  "id": "lanternfly",
+  "nom": {
+   "fr": "Laternaria",
+   "en": "Lantern fly"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/thumb/2/2a/Lantern_Fly_NL_Model.png/128px-Lantern_Fly_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "insectes",
+    "id": "lantern-fly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "lantern-fly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "lantern-fly"
+   }
+  }
+ },
+ {
+  "id": "petaltail",
+  "nom": {
+   "fr": "Libellule géante",
+   "en": "Petaltail dragonfly"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/thumb/2/2a/Petaltail_Dragonfly_NL_Model.png/128px-Petaltail_Dragonfly_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "insectes",
+    "id": "petaltail-dragonfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "giant-petaltail"
+   }
+  }
+ },
+ {
+  "id": "wharfroach",
+  "nom": {
+   "fr": "Ligie",
+   "en": "Wharf roach"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins71.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "wharf-roach"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "wharf-roach"
+   }
+  }
+ },
+ {
+  "id": "seaslug",
+  "nom": {
+   "fr": "Limace de mer",
+   "en": "Sea slug"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Umiushi.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-slug"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "sea-slug"
+   }
+  }
+ },
+ {
+  "id": "dab",
+  "nom": {
+   "fr": "Limande",
+   "en": "Dab"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish50.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "dab"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "dab"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "dab"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "dab"
+   }
+  }
+ },
+ {
+  "id": "horseshoecrab",
+  "nom": {
+   "fr": "Limule",
+   "en": "Horseshoe crab"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Kabutogani.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "horseshoe-crab"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "horseshoe-crab"
+   }
+  }
+ },
+ {
+  "id": "loach",
+  "nom": {
+   "fr": "Loche d'étang",
+   "en": "Loach"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish13.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "loach"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "loach"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "loach"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "loach"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "loach"
+   }
+  }
+ },
+ {
+  "id": "longhorn",
+  "nom": {
+   "fr": "Longicorne",
+   "en": "Longhorn beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/thumb/c/c8/Longhorn_Beetle_NL_Model.png/128px-Longhorn_Beetle_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "insectes",
+    "id": "longhorn-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "longhorn-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "longhorn-beetle"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "longhorn-beetle"
+   }
+  }
+ },
+ {
+  "id": "giantstag",
+  "nom": {
+   "fr": "Lucane cerf-volant",
+   "en": "Giant stag"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins47.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "giant-stag"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "giant-stag"
+   }
+  }
+ },
+ {
+  "id": "rainbowstag",
+  "nom": {
+   "fr": "Lucane copris irisé",
+   "en": "Rainbow stag"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins48.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "rainbow-stag"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "rainbow-stag"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "rainbow-stag"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "rainbow-stag"
+   }
+  }
+ },
+ {
+  "id": "cyclommatusstag",
+  "nom": {
+   "fr": "Lucane cyclommatus",
+   "en": "Cyclommatus stag"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins49.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "cyclommatus-stag"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "cyclommatus-stag"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "cyclommatus"
+   }
+  }
+ },
+ {
+  "id": "giraffestag",
+  "nom": {
+   "fr": "Lucane girafe",
+   "en": "Giraffe stag"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins77.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "giraffe-stag"
+   }
+  }
+ },
+ {
+  "id": "sawstag",
+  "nom": {
+   "fr": "Lucane inclinatus",
+   "en": "Saw stag"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins46.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "saw-stag"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "saw-stag"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "saw-stag-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "saw-stag-beetle"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "saw-stag-beetle"
+   }
+  }
+ },
+ {
+  "id": "goldenstag",
+  "nom": {
+   "fr": "Lucane lamprima",
+   "en": "Golden stag"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins50.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "golden-stag"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "golden-stag"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "golden-stag"
+   }
+  }
+ },
+ {
+  "id": "miyamastag",
+  "nom": {
+   "fr": "Lucane miyama",
+   "en": "Miyama stag"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins45.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "miyama-stag"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "miyama-stag"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "miyama-stag-beetle"
+   }
+  }
+ },
+ {
+  "id": "firefly",
+  "nom": {
+   "fr": "Luciole",
+   "en": "Firefly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins41.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "firefly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "firefly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "firefly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "firefly"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "firefly"
+   }
+  }
+ },
+ {
+  "id": "oceansunfish",
+  "nom": {
+   "fr": "Lune de mer",
+   "en": "Ocean sunfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish60.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "ocean-sunfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "ocean-sunfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "ocean-sunfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "ocean-sunfish"
+   }
+  }
+ },
+ {
+  "id": "barreleye",
+  "nom": {
+   "fr": "Macropinna",
+   "en": "Barreleye"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish84.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "barreleye"
+   }
+  }
+ },
+ {
+  "id": "orchidmantis",
+  "nom": {
+   "fr": "Mante orchidée",
+   "en": "Orchid mantis"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins16.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "orchid-mantis"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "orchid-mantis"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "orchid-mantis"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "orchid-mantis"
+   }
+  }
+ },
+ {
+  "id": "mantis",
+  "nom": {
+   "fr": "Mante religieuse",
+   "en": "Mantis"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins15.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "mantis"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "mantis"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "mantis"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "mantis"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "mantis"
+   }
+  }
+ },
+ {
+  "id": "bluemarlin",
+  "nom": {
+   "fr": "Marlin bleu",
+   "en": "Blue marlin"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish58.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "blue-marlin"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "blue-marlin"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "blue-marlin"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "blue-marlin"
+   }
+  }
+ },
+ {
+  "id": "jellyfish",
+  "nom": {
+   "fr": "Méduse",
+   "en": "Jellyfish"
+  },
+  "categorie": "poissons",
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/M%C3%A9duse.png",
+  "jeux": {
+   "cf": {
+    "categorie": "poissons",
+    "id": "jellyfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "jellyfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "jellyfish"
+   }
+  }
+ },
+ {
+  "id": "moonjellyfish",
+  "nom": {
+   "fr": "Méduse lune",
+   "en": "Moon jellyfish"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Mizukurage.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "moon-jellyfish"
+   }
+  }
+ },
+ {
+  "id": "centipede",
+  "nom": {
+   "fr": "Mille-pattes",
+   "en": "Centipede"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins60.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "centipede"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "centipede"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "centipede"
+   }
+  }
+ },
+ {
+  "id": "monarch",
+  "nom": {
+   "fr": "Monarque",
+   "en": "Monarch butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins4.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "monarch-butterfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "monarch-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "monarch"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "monarch"
+   }
+  }
+ },
+ {
+  "id": "violin",
+  "nom": {
+   "fr": "Mormolyce",
+   "en": "Violin beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins38.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "violin-beetle"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "violin-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "violin-beetle"
+   }
+  }
+ },
+ {
+  "id": "emperor",
+  "nom": {
+   "fr": "Morpho bleu",
+   "en": "Emperor butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins5.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "emperor-butterfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "emperor-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "emperor"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "emperor"
+   }
+  }
+ },
+ {
+  "id": "fly",
+  "nom": {
+   "fr": "Mouche",
+   "en": "Fly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins59.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "fly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "fly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "fly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "fly"
+   }
+  }
+ },
+ {
+  "id": "mussel",
+  "nom": {
+   "fr": "Moule",
+   "en": "Mussel"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Muhrugai.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "mussel"
+   }
+  }
+ },
+ {
+  "id": "mosquito",
+  "nom": {
+   "fr": "Moustique",
+   "en": "Mosquito"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins58.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "mosquito"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "mosquito"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "mosquito"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "mosquito"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "mosquito"
+   }
+  }
+ },
+ {
+  "id": "cicadashell",
+  "nom": {
+   "fr": "Mue de cigale",
+   "en": "Cicada shell"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins69.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "cicada-shell"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "cicada-shell"
+   }
+  }
+ },
+ {
+  "id": "morayeel",
+  "nom": {
+   "fr": "Murène",
+   "en": "Moray eel"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish55.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "moray-eel"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "moray-eel"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "moray-eel"
+   }
+  }
+ },
+ {
+  "id": "ribboneel",
+  "nom": {
+   "fr": "Murène ruban bleue",
+   "en": "Ribbon eel"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish71.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "ribbon-eel"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "ribbon-eel"
+   }
+  }
+ },
+ {
+  "id": "napoleonfish",
+  "nom": {
+   "fr": "Napoléon",
+   "en": "Napoleonfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish43.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "napoleonfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "napoleonfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "napoleonfish"
+   }
+  }
+ },
+ {
+  "id": "chamberednautilus",
+  "nom": {
+   "fr": "Nautile",
+   "en": "Chambered nautilus"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Oumugai.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "chambered-nautilus"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "chambered-nautilus"
+   }
+  }
+ },
+ {
+  "id": "neontetra",
+  "nom": {
+   "fr": "Néon bleu",
+   "en": "Neon tetra"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish31.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "neon-tetra"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "neon-tetra"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "neon-tetra"
+   }
+  }
+ },
+ {
+  "id": "fruit",
+  "nom": {
+   "fr": "Nitidule",
+   "en": "Fruit beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/thumb/3/34/Fruit_Beetle_NL_Model.png/128px-Fruit_Beetle_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "insectes",
+    "id": "fruit-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "fruit-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "fruit-beetle"
+   }
+  }
+ },
+ {
+  "id": "char",
+  "nom": {
+   "fr": "Omble",
+   "en": "Char"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish24.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "char"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "char"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "char"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "char"
+   }
+  }
+ },
+ {
+  "id": "largechar",
+  "nom": {
+   "fr": "Omble",
+   "en": "Large char"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/9/91/Large_Char_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "poissons",
+    "id": "large-char"
+   }
+  }
+ },
+ {
+  "id": "abalone",
+  "nom": {
+   "fr": "Ormeau",
+   "en": "Abalone"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Awabi.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "abalone"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "abalone"
+   }
+  }
+ },
+ {
+  "id": "birdwing",
+  "nom": {
+   "fr": "Ornithoptère",
+   "en": "Birdwing butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/thumb/d/d2/Birdwing_Butterfly_NL_Model.png/128px-Birdwing_Butterfly_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "insectes",
+    "id": "birdwing-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "birdwing"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "birdwing"
+   }
+  }
+ },
+ {
+  "id": "commondragonfly",
+  "nom": {
+   "fr": "Orthetrum",
+   "en": "Common dragonfly"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/b/b4/Common_Dragonfly_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "insectes",
+    "id": "common-dragonfly"
+   }
+  }
+ },
+ {
+  "id": "seaurchin",
+  "nom": {
+   "fr": "Oursin",
+   "en": "Sea urchin"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Uni.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "sea-urchin"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "sea-urchin"
+   }
+  }
+ },
+ {
+  "id": "slatepencilurchin",
+  "nom": {
+   "fr": "Oursin crayon",
+   "en": "Slate pencil urchin"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Paipuuni.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "slate-pencil-urchin"
+   }
+  }
+ },
+ {
+  "id": "clam",
+  "nom": {
+   "fr": "Palourde",
+   "en": "Clam"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://dodo.ac/np/images/thumb/e/e9/Clam_NL_Model.png/128px-Clam_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "clam"
+   }
+  }
+ },
+ {
+  "id": "peacock",
+  "nom": {
+   "fr": "Papilio bianor",
+   "en": "Peacock butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins3.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "peacock-butterfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "peacock-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "peacock"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "peacock"
+   }
+  }
+ },
+ {
+  "id": "moth",
+  "nom": {
+   "fr": "Papillon de nuit",
+   "en": "Moth"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins9.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "moth"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "moth"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "moth"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "moth"
+   }
+  }
+ },
+ {
+  "id": "pondskater",
+  "nom": {
+   "fr": "Patineur",
+   "en": "Pondskater"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins27.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "pondskater"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "pondskater"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "pondskater"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "pondskater"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "pond-skater"
+   }
+  }
+ },
+ {
+  "id": "yellowperch",
+  "nom": {
+   "fr": "Perche jaune",
+   "en": "Yellow perch"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish18.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "yellow-perch"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "yellow-perch"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "yellow-perch"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "yellow-perch"
+   }
+  }
+ },
+ {
+  "id": "smallbass",
+  "nom": {
+   "fr": "Petit bar",
+   "en": "Small bass"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/6/65/Small_Bass_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "poissons",
+    "id": "small-bass"
+   }
+  }
+ },
+ {
+  "id": "scallop",
+  "nom": {
+   "fr": "Pétoncle",
+   "en": "Scallop"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Hotate.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "scallop"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "scallop"
+   }
+  }
+ },
+ {
+  "id": "walkingstick",
+  "nom": {
+   "fr": "Phasme",
+   "en": "Walking stick"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins35.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "walking-stick"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "walking-stick"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "walkingstick"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "walkingstick"
+   }
+  }
+ },
+ {
+  "id": "walkingleaf",
+  "nom": {
+   "fr": "Phyllie",
+   "en": "Walking leaf"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins34.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "walking-leaf"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "walking-leaf"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "walking-leaf"
+   }
+  }
+ },
+ {
+  "id": "common",
+  "nom": {
+   "fr": "Piéride de la rave",
+   "en": "Common butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins0.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "common-butterfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "common-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "common-butterfly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "common-butterfly"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "common-butterfly"
+   }
+  }
+ },
+ {
+  "id": "umbrellaoctopus",
+  "nom": {
+   "fr": "Pieuvre parapluie",
+   "en": "Umbrella octopus"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Mendako.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "umbrella-octopus"
+   }
+  }
+ },
+ {
+  "id": "piranha",
+  "nom": {
+   "fr": "Piranha",
+   "en": "Piranha"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish32.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "piranha"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "piranha"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "piranha"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "piranha"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "piranha"
+   }
+  }
+ },
+ {
+  "id": "rainbowfish",
+  "nom": {
+   "fr": "Poisson arc-en-ciel",
+   "en": "Rainbowfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish80.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "rainbowfish"
+   }
+  }
+ },
+ {
+  "id": "surgeonfish",
+  "nom": {
+   "fr": "Poisson chirurgien",
+   "en": "Surgeonfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish41.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "surgeonfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "surgeonfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "surgeonfish"
+   }
+  }
+ },
+ {
+  "id": "nibblefish",
+  "nom": {
+   "fr": "Poisson docteur",
+   "en": "Nibble fish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish67.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "nibble-fish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "nibble-fish"
+   }
+  }
+ },
+ {
+  "id": "footballfish",
+  "nom": {
+   "fr": "Poisson lanterne",
+   "en": "Football fish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish56.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "football-fish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "football-fish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "football-fish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "football-fish"
+   }
+  }
+ },
+ {
+  "id": "goldfish",
+  "nom": {
+   "fr": "Poisson rouge",
+   "en": "Goldfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish7.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "goldfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "goldfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "goldfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "goldfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "goldfish"
+   }
+  }
+ },
+ {
+  "id": "angelfish",
+  "nom": {
+   "fr": "Poisson-ange",
+   "en": "Angelfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish30.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "angelfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "angelfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "angelfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "angelfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "angelfish"
+   }
+  }
+ },
+ {
+  "id": "blowfish",
+  "nom": {
+   "fr": "Poisson-ballon",
+   "en": "Blowfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish73.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "blowfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "blowfish"
+   }
+  }
+ },
+ {
+  "id": "clownfish",
+  "nom": {
+   "fr": "Poisson-clown",
+   "en": "Clown fish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish40.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "clown-fish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "clown-fish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "clownfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "clownfish"
+   }
+  }
+ },
+ {
+  "id": "butterflyfish",
+  "nom": {
+   "fr": "Poisson-papillon",
+   "en": "Butterfly fish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish42.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "butterfly-fish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "butterfly-fish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "butterflyfish"
+   }
+  }
+ },
+ {
+  "id": "pufferfish",
+  "nom": {
+   "fr": "Poisson-porc-épic",
+   "en": "Puffer fish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish45.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "puffer-fish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "puffer-fish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "puffer-fish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "puffer-fish"
+   }
+  }
+ },
+ {
+  "id": "oarfish",
+  "nom": {
+   "fr": "Poisson-ruban",
+   "en": "Oarfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish69.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "oarfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "oarfish"
+   }
+  }
+ },
+ {
+  "id": "zebraturkeyfish",
+  "nom": {
+   "fr": "Poisson-scorpion",
+   "en": "Zebra turkeyfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish44.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "zebra-turkeyfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "zebra-turkeyfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "zebra-turkeyfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "zebra-turkeyfish"
+   }
+  }
+ },
+ {
+  "id": "octopus",
+  "nom": {
+   "fr": "Poulpe",
+   "en": "Octopus"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Tako.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "octopus"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "octopus"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "octopus"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "octopus"
+   }
+  }
+ },
+ {
+  "id": "drone",
+  "nom": {
+   "fr": "Pseudotorynorrhina",
+   "en": "Drone beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins75.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "drone-beetle"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "drone-beetle"
+   }
+  }
+ },
+ {
+  "id": "bagworm",
+  "nom": {
+   "fr": "Psyché",
+   "en": "Bagworm"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins36.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "bagworm"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "bagworm"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "bagworm"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "bagworm"
+   }
+  }
+ },
+ {
+  "id": "flea",
+  "nom": {
+   "fr": "Puce",
+   "en": "Flea"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins56.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "flea"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "flea"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "flea"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "flea"
+   }
+  }
+ },
+ {
+  "id": "stinkbug",
+  "nom": {
+   "fr": "Punaise",
+   "en": "Stinkbug"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins64.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "stinkbug"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "stinkbug"
+   }
+  }
+ },
+ {
+  "id": "giantwaterbug",
+  "nom": {
+   "fr": "Punaise d'eau géante",
+   "en": "Giant water bug"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins76.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "giant-water-bug"
+   }
+  }
+ },
+ {
+  "id": "purple",
+  "nom": {
+   "fr": "Pyrale sanguine",
+   "en": "Purple butterfly"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/8/82/Purple_Butterfly_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "insectes",
+    "id": "purple-butterfly"
+   }
+  }
+ },
+ {
+  "id": "ray",
+  "nom": {
+   "fr": "Raie",
+   "en": "Ray"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish59.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "ray"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "ray"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "ray"
+   }
+  }
+ },
+ {
+  "id": "ranchugoldfish",
+  "nom": {
+   "fr": "Ranchu",
+   "en": "Ranchu goldfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish85.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "ranchu-goldfish"
+   }
+  }
+ },
+ {
+  "id": "suckerfish",
+  "nom": {
+   "fr": "Rémora rayé",
+   "en": "Suckerfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish83.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "suckerfish"
+   }
+  }
+ },
+ {
+  "id": "hammerheadshark",
+  "nom": {
+   "fr": "Requin marteau",
+   "en": "Hammerhead shark"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish61.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "hammerhead-shark"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "hammerhead-shark"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "hammerhead-shark"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "hammerhead-shark"
+   }
+  }
+ },
+ {
+  "id": "sawshark",
+  "nom": {
+   "fr": "Requin scie",
+   "en": "Saw shark"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish74.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "saw-shark"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "saw-shark"
+   }
+  }
+ },
+ {
+  "id": "whaleshark",
+  "nom": {
+   "fr": "Requin-baleine",
+   "en": "Whale shark"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish72.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "whale-shark"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "whale-shark"
+   }
+  }
+ },
+ {
+  "id": "rosaliabatesi",
+  "nom": {
+   "fr": "Rosalia batesi",
+   "en": "Rosalia batesi beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins82.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "rosalia-batesi-beetle"
+   }
+  }
+ },
+ {
+  "id": "greatpurpleemperor",
+  "nom": {
+   "fr": "Sasakia charonda",
+   "en": "Great purple emperor"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins74.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "great-purple-emperor"
+   }
+  }
+ },
+ {
+  "id": "salmon",
+  "nom": {
+   "fr": "Saumon",
+   "en": "Salmon"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish27.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "salmon"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "salmon"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "salmon"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "salmon"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "salmon"
+   }
+  }
+ },
+ {
+  "id": "cherrysalmon",
+  "nom": {
+   "fr": "Saumon masou",
+   "en": "Cherry salmon"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish23.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "cherry-salmon"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "cherry-salmon"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "cherry-salmon"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "cherry-salmon"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "cherry-salmon"
+   }
+  }
+ },
+ {
+  "id": "kingsalmon",
+  "nom": {
+   "fr": "Saumon roi",
+   "en": "King salmon"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish28.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "king-salmon"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "king-salmon"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "king-salmon"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "king-salmon"
+   }
+  }
+ },
+ {
+  "id": "grasshopper",
+  "nom": {
+   "fr": "Sauterelle",
+   "en": "Grasshopper"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins32.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "grasshopper"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "grasshopper"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "grasshopper"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "grasshopper"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "grasshopper"
+   }
+  }
+ },
+ {
+  "id": "elephant",
+  "nom": {
+   "fr": "Scarab. éléphant",
+   "en": "Elephant beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e%20El%C3%A9phant.png",
+  "jeux": {
+   "cf": {
+    "categorie": "insectes",
+    "id": "elephant-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "elephant-beetle"
+   }
+  }
+ },
+ {
+  "id": "scarab",
+  "nom": {
+   "fr": "Scarabée",
+   "en": "Scarab beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins43.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "scarab-beetle"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "scarab-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "scarab-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "scarab-beetle"
+   }
+  }
+ },
+ {
+  "id": "mountain",
+  "nom": {
+   "fr": "Scarabée",
+   "en": "Mountain beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/4/46/Mountain_Beetle_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "insectes",
+    "id": "mountain-beetle"
+   }
+  }
+ },
+ {
+  "id": "hornedatlas",
+  "nom": {
+   "fr": "Scarabée Atlas",
+   "en": "Horned atlas"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins52.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "horned-atlas"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "horned-atlas"
+   }
+  }
+ },
+ {
+  "id": "atlas",
+  "nom": {
+   "fr": "Scarabée Atlas",
+   "en": "Atlas beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e%20Atlas.png",
+  "jeux": {
+   "cf": {
+    "categorie": "insectes",
+    "id": "atlas-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "atlas-beetle"
+   }
+  }
+ },
+ {
+  "id": "hornedelephant",
+  "nom": {
+   "fr": "Scarabée éléphant",
+   "en": "Horned elephant"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins53.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "horned-elephant"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "horned-elephant"
+   }
+  }
+ },
+ {
+  "id": "goliath",
+  "nom": {
+   "fr": "Scarabée Goliath",
+   "en": "Goliath beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins55.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "goliath-beetle"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "goliath-beetle"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "goliath-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "goliath-beetle"
+   }
+  }
+ },
+ {
+  "id": "hornedhercules",
+  "nom": {
+   "fr": "Scarabée Hercule",
+   "en": "Horned hercules"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins54.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "horned-hercules"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "horned-hercules"
+   }
+  }
+ },
+ {
+  "id": "hercules",
+  "nom": {
+   "fr": "Scarabée Hercule",
+   "en": "Hercules beetle"
+  },
+  "categorie": "insectes",
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e%20Hercule.png",
+  "jeux": {
+   "cf": {
+    "categorie": "insectes",
+    "id": "hercules-beetle"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "hercules-beetle"
+   }
+  }
+ },
+ {
+  "id": "horneddynastid",
+  "nom": {
+   "fr": "Scarabée kabuto",
+   "en": "Horned dynastid"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins51.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "horned-dynastid"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "horned-dynastid"
+   }
+  }
+ },
+ {
+  "id": "scorpion",
+  "nom": {
+   "fr": "Scorpion",
+   "en": "Scorpion"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins63.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "scorpion"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "scorpion"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "scorpion"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "scorpion"
+   }
+  }
+ },
+ {
+  "id": "housecentipede",
+  "nom": {
+   "fr": "Scutigère",
+   "en": "House centipede"
+  },
+  "categorie": "insectes",
+  "image": "https://dodo.ac/np/images/thumb/3/3f/House_Centipede_NL_Model.png/128px-House_Centipede_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "insectes",
+    "id": "house-centipede"
+   }
+  }
+ },
+ {
+  "id": "catfish",
+  "nom": {
+   "fr": "Silure",
+   "en": "Catfish"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish14.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "catfish"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "catfish"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "catfish"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "catfish"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "catfish"
+   }
+  }
+ },
+ {
+  "id": "giantcatfish",
+  "nom": {
+   "fr": "Silure géant",
+   "en": "Giant catfish"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/7/78/Giant_Catfish_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "poissons",
+    "id": "giant-catfish"
+   }
+  }
+ },
+ {
+  "id": "reddragonfly",
+  "nom": {
+   "fr": "Sympetrum",
+   "en": "Red dragonfly"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins22.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "red-dragonfly"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "red-dragonfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "red-dragonfly"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "red-dragonfly"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "red-dragonfly"
+   }
+  }
+ },
+ {
+  "id": "tarantula",
+  "nom": {
+   "fr": "Tarentule",
+   "en": "Tarantula"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins62.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "tarantula"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "tarantula"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "tarantula"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "tarantula"
+   }
+  }
+ },
+ {
+  "id": "molecricket",
+  "nom": {
+   "fr": "Taupe-grillon",
+   "en": "Mole cricket"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins33.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "mole-cricket"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "mole-cricket"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "mole-cricket"
+   },
+   "ww": {
+    "categorie": "insectes",
+    "id": "mole-cricket"
+   },
+   "gc": {
+    "categorie": "insectes",
+    "id": "mole-cricket"
+   }
+  }
+ },
+ {
+  "id": "tadpole",
+  "nom": {
+   "fr": "Têtard",
+   "en": "Tadpole"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish64.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "tadpole"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "tadpole"
+   }
+  }
+ },
+ {
+  "id": "giantsnakehead",
+  "nom": {
+   "fr": "Tête-de-serpent",
+   "en": "Giant snakehead"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish16.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "giant-snakehead"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "giant-snakehead"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "giant-snakehead"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "giant-snakehead"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "giant-snakehead"
+   }
+  }
+ },
+ {
+  "id": "tuna",
+  "nom": {
+   "fr": "Thon",
+   "en": "Tuna"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish57.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "tuna"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "tuna"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "tuna"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "tuna"
+   }
+  }
+ },
+ {
+  "id": "tilapia",
+  "nom": {
+   "fr": "Tilapia",
+   "en": "Tilapia"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish76.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "tilapia"
+   }
+  }
+ },
+ {
+  "id": "snappingturtle",
+  "nom": {
+   "fr": "Tortue serpentine",
+   "en": "Snapping turtle"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish78.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "snapping-turtle"
+   }
+  }
+ },
+ {
+  "id": "softshelledturtle",
+  "nom": {
+   "fr": "Tortue trionyx",
+   "en": "Soft-shelled turtle"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish65.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "soft-shelled-turtle"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "soft-shelled-turtle"
+   }
+  }
+ },
+ {
+  "id": "queenalexandrasbirdwing",
+  "nom": {
+   "fr": "Troides alexandrae",
+   "en": "Queen Alexandra's birdwing"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins8.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "queen-alexandras-birdwing"
+   }
+  }
+ },
+ {
+  "id": "rajahbrookesbirdwing",
+  "nom": {
+   "fr": "Troides brookiana",
+   "en": "Rajah Brooke's birdwing"
+  },
+  "categorie": "insectes",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins7.png",
+  "jeux": {
+   "nh": {
+    "categorie": "insectes",
+    "id": "rajah-brookes-birdwing"
+   },
+   "nl": {
+    "categorie": "insectes",
+    "id": "raja-b-butterfly"
+   },
+   "cf": {
+    "categorie": "insectes",
+    "id": "raja-brooke"
+   }
+  }
+ },
+ {
+  "id": "rainbowtrout",
+  "nom": {
+   "fr": "Truite",
+   "en": "Rainbow trout"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/thumb/2/2a/Rainbow_Trout_NL_Model.png/128px-Rainbow_Trout_NL_Model.png",
+  "jeux": {
+   "nl": {
+    "categorie": "poissons",
+    "id": "rainbow-trout"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "rainbow-trout"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "rainbow-trout"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "rainbow-trout"
+   }
+  }
+ },
+ {
+  "id": "brooktrout",
+  "nom": {
+   "fr": "Truite de lac",
+   "en": "Brook trout"
+  },
+  "categorie": "poissons",
+  "image": "https://dodo.ac/np/images/0/0b/Brook_Trout_PG_Icon.png",
+  "jeux": {
+   "gc": {
+    "categorie": "poissons",
+    "id": "brook-trout"
+   }
+  }
+ },
+ {
+  "id": "goldentrout",
+  "nom": {
+   "fr": "Truite dorée",
+   "en": "Golden trout"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish79.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "golden-trout"
+   }
+  }
+ },
+ {
+  "id": "turbanshell",
+  "nom": {
+   "fr": "Turbo",
+   "en": "Turban shell"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Sazae.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "turban-shell"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "turban-shell"
+   }
+  }
+ },
+ {
+  "id": "vampiresquid",
+  "nom": {
+   "fr": "Vampire des abysses",
+   "en": "Vampire squid"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Koumoridako.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "vampire-squid"
+   }
+  }
+ },
+ {
+  "id": "dace",
+  "nom": {
+   "fr": "Vandoise",
+   "en": "Dace"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish3.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "dace"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "dace"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "dace"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "dace"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "dace"
+   }
+  }
+ },
+ {
+  "id": "flatworm",
+  "nom": {
+   "fr": "Ver plat",
+   "en": "Flatworm"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Hiramushi.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "flatworm"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "flatworm"
+   }
+  }
+ },
+ {
+  "id": "redsnapper",
+  "nom": {
+   "fr": "Vivaneau",
+   "en": "Red snapper"
+  },
+  "categorie": "poissons",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish49.png",
+  "jeux": {
+   "nh": {
+    "categorie": "poissons",
+    "id": "red-snapper"
+   },
+   "nl": {
+    "categorie": "poissons",
+    "id": "red-snapper"
+   },
+   "cf": {
+    "categorie": "poissons",
+    "id": "red-snapper"
+   },
+   "ww": {
+    "categorie": "poissons",
+    "id": "red-snapper"
+   },
+   "gc": {
+    "categorie": "poissons",
+    "id": "red-snapper"
+   }
+  }
+ },
+ {
+  "id": "seaweed",
+  "nom": {
+   "fr": "Wakame",
+   "en": "Seaweed"
+  },
+  "categorie": "creatures-marines",
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Wakame.png",
+  "jeux": {
+   "nh": {
+    "categorie": "creatures-marines",
+    "id": "seaweed"
+   },
+   "nl": {
+    "categorie": "creatures-marines",
+    "id": "seaweed"
+   }
+  }
+ }
+]

@@ -144,6 +144,7 @@ async function servirImage(requete) {
 // ---------------------------------------------------------------------------
 function brancherIpc() {
   ipcMain.handle('donnees:jeux', () => lireJson(path.join(DOSSIER_DATA, 'jeux.json'), []));
+  ipcMain.handle('donnees:especes', () => lireJson(path.join(DOSSIER_DATA, 'especes.json'), []));
 
   ipcMain.handle('donnees:categorie', (_e, jeu, categorie) => {
     if (!ID_VALIDE.test(jeu) || !ID_VALIDE.test(categorie)) throw new Error('Nom de catégorie invalide');
