@@ -1,7 +1,7 @@
 {
   "name": "nook-dex",
   "productName": "Nook Dex",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Nook Dex : suivi de collection pour les jeux Animal Crossing",
   "author": "BlancheLaGoat",
   "license": "MIT",
@@ -42,7 +42,8 @@
       "package.json"
     ],
     "win": {
-      "target": "nsis"
+      "target": "nsis",
+      "icon": "build/icon.png"
     },
     "nsis": {
       "oneClick": false,

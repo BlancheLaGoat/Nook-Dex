@@ -1,0 +1,76 @@
+# Publie Nook Dex pour Windows dans les Releases GitHub.
+#
+# Se lance tout seul à chaque push sur main :
+#  - il lit la version dans package.json (ex. 0.2.0) ;
+#  - si la release v0.2.0 existe déjà, il ne fait rien ;
+#  - sinon, il compile l'installateur et publie la release (le tag v0.2.0 est créé automatiquement).
+# Pour publier une nouvelle version : changer "version" dans package.json, puis commit + push. C'est tout.
+# Se lance aussi à la main : onglet Actions → « Publier une version » → Run workflow.
+name: Publier une version
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      publier: ${{ steps.existe.outputs.publier }}
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Lire la version
+        id: version
+        run: echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+
+      - name: Cette version est-elle déjà publiée ?
+        id: existe
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view "v${{ steps.version.outputs.version }}" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "La version v${{ steps.version.outputs.version }} est déjà publiée : rien à faire."
+            echo "publier=non" >> "$GITHUB_OUTPUT"
+          else
+            echo "Nouvelle version v${{ steps.version.outputs.version }} : on publie."
+            echo "publier=oui" >> "$GITHUB_OUTPUT"
+          fi
+
+  publier-windows:
+    needs: verifier
+    if: needs.verifier.outputs.publier == 'oui'
+    runs-on: windows-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Tests automatiques
+        run: npm test
+
+      - name: Vérifier les données
+        run: npm run verifier
+
+      - name: Compiler et publier
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx electron-builder --win --publish always

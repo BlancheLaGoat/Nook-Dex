@@ -285,6 +285,7 @@ function creerFenetre() {
     title: 'Nook Dex',
     backgroundColor: nativeTheme.shouldUseDarkColors ? '#22262b' : '#fbf8ef',
     autoHideMenuBar: true,
+    icon: path.join(__dirname, 'assets', 'icon.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,

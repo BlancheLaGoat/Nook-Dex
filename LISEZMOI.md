@@ -91,3 +91,15 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
 - New Horizons : [Data Spreadsheet for Animal Crossing New Horizons](https://tinyurl.com/acnh-sheet)
   et [ACNH String Translations](https://docs.google.com/spreadsheets/d/1MMbsvDfu59OY9YBEAfHhFJ6O8vRTllNFgMrX7RBZuyI)
   (communauté ACNH Spreadsheet), [Nookipedia](https://nookipedia.com).
+
+## Publier une nouvelle version
+
+1. Changer `"version"` dans `package.json` (par ex. `1.0.0` → `1.1.0`).
+2. Faire un commit et un push sur `main` (par ex. avec GitHub Desktop).
+
+C'est tout : GitHub Actions (onglet **Actions** du dépôt) compile l'installateur et publie la release `v1.1.0`
+avec son tag. Si la version n'a pas changé, le push ne publie rien.
+Les personnes qui ont Nook Dex installé reçoivent la mise à jour automatiquement (téléchargée en arrière-plan,
+installée à la fermeture de l'appli). Leur progression n'est jamais touchée.
+
+Pour tester l'installateur sans publier : `npm run dist` (il est créé dans `dist/`).
