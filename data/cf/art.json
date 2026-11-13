@@ -1,0 +1,462 @@
+[
+ {
+  "id": "amazing-painting",
+  "nom": {
+   "fr": "Toile incroyable",
+   "en": "Amazing painting"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Amazing_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "basic-painting",
+  "nom": {
+   "fr": "Toile classique",
+   "en": "Basic painting"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Basic_Painting_CF_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Chez Rounard, cette œuvre est toujours un faux. La vraie s'obtient ailleurs (Boutique Nook, habitants…)."
+  ],
+  "musee": true
+ },
+ {
+  "id": "calm-painting",
+  "nom": {
+   "fr": "Toile apaisante",
+   "en": "Calm painting"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Calm_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "common-painting",
+  "nom": {
+   "fr": "Toile commune",
+   "en": "Common painting"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Common_Painting_CF_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Chez Rounard, cette œuvre est toujours un faux. La vraie s'obtient ailleurs (Boutique Nook, habitants…)."
+  ],
+  "musee": true
+ },
+ {
+  "id": "dynamic-painting",
+  "nom": {
+   "fr": "Toile déferlante",
+   "en": "Dynamic painting"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Dynamic_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "famous-painting",
+  "nom": {
+   "fr": "Toile célèbre",
+   "en": "Famous painting"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Famous_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "fine-painting",
+  "nom": {
+   "fr": "Toile réussie",
+   "en": "Fine Painting"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Fine_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "flowery-painting",
+  "nom": {
+   "fr": "Toile florale",
+   "en": "Flowery painting"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Flowery_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "jolly-painting",
+  "nom": {
+   "fr": "Toile potagère",
+   "en": "Jolly painting"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Jolly_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "moody-painting",
+  "nom": {
+   "fr": "Toile puissante",
+   "en": "Moody painting"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Moody_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "moving-painting",
+  "nom": {
+   "fr": "Toile émouvante",
+   "en": "Moving painting"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Moving_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "nice-painting",
+  "nom": {
+   "fr": "Toile magnifique",
+   "en": "Nice painting"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Nice_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "perfect-painting",
+  "nom": {
+   "fr": "Toile parfaite",
+   "en": "Perfect painting"
+  },
+  "image": "https://dodo.ac/np/images/e/e5/Perfect_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "proper-painting",
+  "nom": {
+   "fr": "Toile austère",
+   "en": "Proper painting"
+  },
+  "image": "https://dodo.ac/np/images/4/49/Proper_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "quaint-painting",
+  "nom": {
+   "fr": "Toile charmante",
+   "en": "Quaint painting"
+  },
+  "image": "https://dodo.ac/np/images/6/66/Quaint_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "scary-painting",
+  "nom": {
+   "fr": "Toile effrayante",
+   "en": "Scary painting"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Scary_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "scenic-painting",
+  "nom": {
+   "fr": "Toile hivernale",
+   "en": "Scenic painting"
+  },
+  "image": "https://dodo.ac/np/images/c/c0/Scenic_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "serene-painting",
+  "nom": {
+   "fr": "Toile royale",
+   "en": "Serene painting"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Serene_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "solemn-painting",
+  "nom": {
+   "fr": "Toile solennelle",
+   "en": "Solemn painting"
+  },
+  "image": "https://dodo.ac/np/images/1/11/Solemn_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "strange-painting",
+  "nom": {
+   "fr": "Toile étrange",
+   "en": "Strange painting"
+  },
+  "image": "https://dodo.ac/np/images/c/c0/Strange_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "warm-painting",
+  "nom": {
+   "fr": "Toile radieuse",
+   "en": "Warm painting"
+  },
+  "image": "https://dodo.ac/np/images/1/1d/Warm_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "wistful-painting",
+  "nom": {
+   "fr": "Toile nacrée",
+   "en": "Wistful painting"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Wistful_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ },
+ {
+  "id": "worthy-painting",
+  "nom": {
+   "fr": "Toile précieuse",
+   "en": "Worthy painting"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Worthy_Painting_CF_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null
+  },
+  "notes": [
+   "Rounard peut vendre un faux de cette œuvre."
+  ],
+  "musee": true
+ }
+]

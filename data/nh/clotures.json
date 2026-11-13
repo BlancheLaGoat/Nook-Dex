@@ -1,0 +1,528 @@
+[
+ {
+  "id": "bamboo-lattice-fence",
+  "nom": {
+   "fr": "Clôture bambou à treillis",
+   "en": "Bamboo lattice fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceBamboo.png",
+  "prix": {
+   "achat": null,
+   "vente": 96
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "bamboo-slats-fence",
+  "nom": {
+   "fr": "Clôture lattes bambou",
+   "en": "Bamboo-slats fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceSandProtection.png",
+  "prix": {
+   "achat": null,
+   "vente": 48
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "barbed-wire-fence",
+  "nom": {
+   "fr": "Clôture de barbelés",
+   "en": "Barbed-wire fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceBarbedWire.png",
+  "prix": {
+   "achat": null,
+   "vente": 198
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "block-fence",
+  "nom": {
+   "fr": "Muret blocs de béton",
+   "en": "Block fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceConcreteBlock.png",
+  "prix": {
+   "achat": null,
+   "vente": 270
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "brick-fence",
+  "nom": {
+   "fr": "Muret en briques",
+   "en": "Brick fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceWallRenga.png",
+  "prix": {
+   "achat": null,
+   "vente": 120
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "bunny-day-fence",
+  "nom": {
+   "fr": "Clôture fête des œufs",
+   "en": "Bunny Day fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceEgg.png",
+  "prix": {
+   "achat": null,
+   "vente": 240
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Bunny Day (days before); Bunny Day",
+  "v": "1.1.0"
+ },
+ {
+  "id": "corral-fence",
+  "nom": {
+   "fr": "Clôture de ferme",
+   "en": "Corral fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceHorizontalWood.png",
+  "prix": {
+   "achat": null,
+   "vente": 72
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "corrugated-iron-fence",
+  "nom": {
+   "fr": "Clôture tôle ondulée",
+   "en": "Corrugated iron fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceCorrugatedIron_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 261
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "country-fence",
+  "nom": {
+   "fr": "Clôture de rondins",
+   "en": "Country fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceLog.png",
+  "prix": {
+   "achat": null,
+   "vente": 72
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "frozen-fence",
+  "nom": {
+   "fr": "Clôture arctique",
+   "en": "Frozen fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceIce_Remake_0_0.png",
+  "variantes": 7,
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "2.0.0"
+ },
+ {
+  "id": "green-bamboo-fence",
+  "nom": {
+   "fr": "Clôture bambou vert",
+   "en": "Green bamboo fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceCrossedBamboo.png",
+  "prix": {
+   "achat": null,
+   "vente": 96
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "hedge",
+  "nom": {
+   "fr": "Clôture végétale",
+   "en": "Hedge"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceIkegaki.png",
+  "prix": {
+   "achat": null,
+   "vente": 55
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.2.0"
+ },
+ {
+  "id": "imperial-fence",
+  "nom": {
+   "fr": "Clôture dynastie orientale",
+   "en": "Imperial fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceChinese.png",
+  "prix": {
+   "achat": null,
+   "vente": 120
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "iron-fence",
+  "nom": {
+   "fr": "Clôture en fer",
+   "en": "Iron fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceSteel_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "iron-and-stone-fence",
+  "nom": {
+   "fr": "Clôture manoir",
+   "en": "Iron-and-stone fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceIronAndStone.png",
+  "prix": {
+   "achat": null,
+   "vente": 315
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "large-lattice-fence",
+  "nom": {
+   "fr": "Clôture treillis haute",
+   "en": "Large lattice fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceLatticeBig_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 120
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "lattice-fence",
+  "nom": {
+   "fr": "Clôture en treillis standard",
+   "en": "Lattice fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceLatiiceNatural_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 96
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "log-fence",
+  "nom": {
+   "fr": "Clôture tronc",
+   "en": "Log fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceHorizontalLog.png",
+  "prix": {
+   "achat": null,
+   "vente": 72
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "log-wall-fence",
+  "nom": {
+   "fr": "Clôture rondins",
+   "en": "Log-wall fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceLogWall.png",
+  "prix": {
+   "achat": null,
+   "vente": 120
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "mermaid-fence",
+  "nom": {
+   "fr": "Clôture sirène",
+   "en": "Mermaid fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceMermaid.png",
+  "prix": {
+   "achat": null,
+   "vente": 1310
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.7.0"
+ },
+ {
+  "id": "park-fence",
+  "nom": {
+   "fr": "Clôture aire de jeu",
+   "en": "Park fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFencePark_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 375
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "rope-fence",
+  "nom": {
+   "fr": "Clôture de corde",
+   "en": "Rope fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFencePegRope.png",
+  "prix": {
+   "achat": null,
+   "vente": 300
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-wooden-fence",
+  "nom": {
+   "fr": "Clôture en bois standard",
+   "en": "Simple wooden fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceNatural_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 72
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Tom Nook"
+  ],
+  "notes_source": "50 fences are given by Tom Nook after completing the three house plots during the main storyline",
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "spiky-fence",
+  "nom": {
+   "fr": "Clôture épieux",
+   "en": "Spiky fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceSharply.png",
+  "prix": {
+   "achat": null,
+   "vente": 96
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "spooky-fence",
+  "nom": {
+   "fr": "Clôture Halloween",
+   "en": "Spooky fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceHalloween.png",
+  "prix": {
+   "achat": null,
+   "vente": 585
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Halloween (days before); Halloween",
+  "v": "1.5.0"
+ },
+ {
+  "id": "stone-fence",
+  "nom": {
+   "fr": "Muret en pierre sèche",
+   "en": "Stone fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceStone.png",
+  "prix": {
+   "achat": null,
+   "vente": 60
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "straw-fence",
+  "nom": {
+   "fr": "Clôture de paille",
+   "en": "Straw fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceDriedStraw.png",
+  "prix": {
+   "achat": null,
+   "vente": 56
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "vertical-board-fence",
+  "nom": {
+   "fr": "Clôture lattes verticales",
+   "en": "Vertical-board fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceVerticalWood_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 96
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "wedding-fence",
+  "nom": {
+   "fr": "Clôture de mariage",
+   "en": "Wedding fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceJuneBride_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 411
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "zen-fence",
+  "nom": {
+   "fr": "Muret zen",
+   "en": "Zen fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ItemFenceJapanese_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 330
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ }
+]

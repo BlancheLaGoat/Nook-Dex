@@ -1,0 +1,2319 @@
+[
+ {
+  "id": "crucian-carp",
+  "nom": {
+   "fr": "Carassin",
+   "en": "Crucian carp"
+  },
+  "n": 1,
+  "image": "https://dodo.ac/np/images/0/07/Crucian_Carp_PG_Icon.png",
+  "espece": "crucian-carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "brook-trout",
+  "nom": {
+   "fr": "Truite de lac",
+   "en": "Brook trout"
+  },
+  "n": 2,
+  "image": "https://dodo.ac/np/images/0/0b/Brook_Trout_PG_Icon.png",
+  "espece": "brook-trout",
+  "lieu": "lac",
+  "lieu_texte": "Lac",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 150
+  },
+  "musee": true,
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "carp",
+  "nom": {
+   "fr": "Carpe",
+   "en": "Carp"
+  },
+  "n": 3,
+  "image": "https://dodo.ac/np/images/d/d4/Carp_PG_Icon.png",
+  "espece": "carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "koi",
+  "nom": {
+   "fr": "Carpe koï",
+   "en": "Koi"
+  },
+  "n": 4,
+  "image": "https://dodo.ac/np/images/9/96/Koi_PG_Icon.png",
+  "espece": "koi",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "barbel-steed",
+  "nom": {
+   "fr": "Barbeau",
+   "en": "Barbel steed"
+  },
+  "n": 5,
+  "image": "https://dodo.ac/np/images/f/f6/Barbel_Steed_PG_Icon.png",
+  "espece": "barbel-steed",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dace",
+  "nom": {
+   "fr": "Vandoise",
+   "en": "Dace"
+  },
+  "n": 6,
+  "image": "https://dodo.ac/np/images/c/cc/Dace_PG_Icon.png",
+  "espece": "dace",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "catfish",
+  "nom": {
+   "fr": "Silure",
+   "en": "Catfish"
+  },
+  "n": 7,
+  "image": "https://dodo.ac/np/images/7/75/Catfish_PG_Icon.png",
+  "espece": "catfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      4
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "giant-catfish",
+  "nom": {
+   "fr": "Silure géant",
+   "en": "Giant catfish"
+  },
+  "n": 8,
+  "image": "https://dodo.ac/np/images/7/78/Giant_Catfish_PG_Icon.png",
+  "espece": "giant-catfish",
+  "lieu": "lac",
+  "lieu_texte": "Lac",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pale-chub",
+  "nom": {
+   "fr": "Chevaine",
+   "en": "Pale chub"
+  },
+  "n": 9,
+  "image": "https://dodo.ac/np/images/6/6a/Pale_Chub_PG_Icon.png",
+  "espece": "pale-chub",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bitterling",
+  "nom": {
+   "fr": "Bouvière",
+   "en": "Bitterling"
+  },
+  "n": 10,
+  "image": "https://dodo.ac/np/images/b/b9/Bitterling_PG_Icon.png",
+  "espece": "bitterling",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "loach",
+  "nom": {
+   "fr": "Loche d'étang",
+   "en": "Loach"
+  },
+  "n": 11,
+  "image": "https://dodo.ac/np/images/1/1f/Loach_PG_Icon.png",
+  "espece": "loach",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bluegill",
+  "nom": {
+   "fr": "Crapet",
+   "en": "Bluegill"
+  },
+  "n": 12,
+  "image": "https://dodo.ac/np/images/1/10/Bluegill_PG_Icon.png",
+  "espece": "bluegill",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "small-bass",
+  "nom": {
+   "fr": "Petit bar",
+   "en": "Small bass"
+  },
+  "n": 13,
+  "image": "https://dodo.ac/np/images/6/65/Small_Bass_PG_Icon.png",
+  "espece": "small-bass",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bass",
+  "nom": {
+   "fr": "Bar",
+   "en": "Bass"
+  },
+  "n": 14,
+  "image": "https://dodo.ac/np/images/3/30/Bass_PG_Inv_Icon.png",
+  "espece": "bass",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "large-bass",
+  "nom": {
+   "fr": "Grand bar",
+   "en": "Large bass"
+  },
+  "n": 15,
+  "image": "https://dodo.ac/np/images/0/0f/Large_Bass_PG_Icon.png",
+  "espece": "large-bass",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "giant-snakehead",
+  "nom": {
+   "fr": "Gobie géant",
+   "en": "Giant snakehead"
+  },
+  "n": 16,
+  "image": "https://dodo.ac/np/images/a/a9/Giant_Snakehead_PG_Icon.png",
+  "espece": "giant-snakehead",
+  "lieu": "lac",
+  "lieu_texte": "Lac",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6500
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "eel",
+  "nom": {
+   "fr": "Anguille",
+   "en": "Eel"
+  },
+  "n": 17,
+  "image": "https://dodo.ac/np/images/7/77/Eel_PG_Icon.png",
+  "espece": "eel",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "freshwater-goby",
+  "nom": {
+   "fr": "Gobie",
+   "en": "Freshwater goby"
+  },
+  "n": 18,
+  "image": "https://dodo.ac/np/images/0/0a/Freshwater_Goby_PG_Icon.png",
+  "espece": "freshwater-goby",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pond-smelt",
+  "nom": {
+   "fr": "Éperlan",
+   "en": "Pond smelt"
+  },
+  "n": 19,
+  "image": "https://dodo.ac/np/images/c/c5/Pond_Smelt_PG_Icon.png",
+  "espece": "pond-smelt",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "sweetfish",
+  "nom": {
+   "fr": "Ayu",
+   "en": "Sweetfish"
+  },
+  "n": 20,
+  "image": "https://dodo.ac/np/images/4/4b/Sweetfish_PG_Icon.png",
+  "espece": "sweetfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cherry-salmon",
+  "nom": {
+   "fr": "Saumon rose",
+   "en": "Cherry salmon"
+  },
+  "n": 21,
+  "image": "https://dodo.ac/np/images/d/da/Cherry_Salmon_PG_Icon.png",
+  "espece": "cherry-salmon",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rainbow-trout",
+  "nom": {
+   "fr": "Truite",
+   "en": "Rainbow trout"
+  },
+  "n": 22,
+  "image": "https://dodo.ac/np/images/8/80/Rainbow_Trout_PG_Icon.png",
+  "espece": "rainbow-trout",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "large-char",
+  "nom": {
+   "fr": "Omble",
+   "en": "Large char"
+  },
+  "n": 23,
+  "image": "https://dodo.ac/np/images/9/91/Large_Char_PG_Icon.png",
+  "espece": "large-char",
+  "lieu": "cascade",
+  "lieu_texte": "Cascade",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "stringfish",
+  "nom": {
+   "fr": "Dai yu",
+   "en": "Stringfish"
+  },
+  "n": 24,
+  "image": "https://dodo.ac/np/images/4/46/Stringfish_PG_Icon.png",
+  "espece": "stringfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      11
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "salmon",
+  "nom": {
+   "fr": "Saumon",
+   "en": "Salmon"
+  },
+  "n": 25,
+  "image": "https://dodo.ac/np/images/0/0f/Salmon_PG_Icon.png",
+  "espece": "salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "goldfish",
+  "nom": {
+   "fr": "Poisson rouge",
+   "en": "Goldfish"
+  },
+  "n": 26,
+  "image": "https://dodo.ac/np/images/c/c8/Goldfish_PG_Icon.png",
+  "espece": "goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "popeyed-goldfish",
+  "nom": {
+   "fr": "Cyprin doré",
+   "en": "Popeyed goldfish"
+  },
+  "n": 27,
+  "image": "https://dodo.ac/np/images/d/d0/Popeyed_Goldfish_PG_Icon.png",
+  "espece": "popeyed-goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "guppy",
+  "nom": {
+   "fr": "Guppy",
+   "en": "Guppy"
+  },
+  "n": 28,
+  "image": "https://dodo.ac/np/images/d/d3/Guppy_PG_Icon.png",
+  "espece": "guppy",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "angelfish",
+  "nom": {
+   "fr": "Poisson ange",
+   "en": "Angelfish"
+  },
+  "n": 29,
+  "image": "https://dodo.ac/np/images/6/64/Angelfish_PG_Icon.png",
+  "espece": "angelfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      4
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "piranha",
+  "nom": {
+   "fr": "Piranha",
+   "en": "Piranha"
+  },
+  "n": 30,
+  "image": "https://dodo.ac/np/images/d/df/Piranha_PG_Icon.png",
+  "espece": "piranha",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ],
+      [
+       9,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ],
+      [
+       9,
+       16
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ],
+      [
+       9,
+       16
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6500
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "arowana",
+  "nom": {
+   "fr": "Arowana",
+   "en": "Arowana"
+  },
+  "n": 31,
+  "image": "https://dodo.ac/np/images/6/64/Arowana_PG_Icon.png",
+  "espece": "arowana",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "coelacanth",
+  "nom": {
+   "fr": "Cælacanthe",
+   "en": "Coelacanth"
+  },
+  "n": 32,
+  "image": "https://dodo.ac/np/images/f/ff/Coelacanth_PG_Icon.png",
+  "espece": "coelacanth",
+  "lieu": "mer-quand-il-pleut",
+  "lieu_texte": "Mer (quand il pleut)",
+  "ombre": "5",
+  "conditions": [
+   "pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "crawfish",
+  "nom": {
+   "fr": "Écrevisse",
+   "en": "Crawfish"
+  },
+  "n": 33,
+  "image": "https://dodo.ac/np/images/6/63/Crawfish_PG_Icon.png",
+  "espece": "crawfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    },
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "frog",
+  "nom": {
+   "fr": "Grenouille",
+   "en": "Frog"
+  },
+  "n": 34,
+  "image": "https://dodo.ac/np/images/c/cc/Frog_PG_Icon.png",
+  "espece": "frog",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      4
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "killifish",
+  "nom": {
+   "fr": "Fondule barré",
+   "en": "Killifish"
+  },
+  "n": 35,
+  "image": "https://dodo.ac/np/images/c/c0/Killifish_PG_Icon.png",
+  "espece": "killifish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière ou Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "jellyfish",
+  "nom": {
+   "fr": "Méduse",
+   "en": "Jellyfish"
+  },
+  "n": 36,
+  "image": "https://dodo.ac/np/images/5/59/Jellyfish_PG_Icon.png",
+  "espece": "jellyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      16,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "sea-bass",
+  "nom": {
+   "fr": "Bar commun",
+   "en": "Sea bass"
+  },
+  "n": 37,
+  "image": "https://dodo.ac/np/images/f/f8/Sea_Bass_PG_Icon.png",
+  "espece": "sea-bass",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      16,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-snapper",
+  "nom": {
+   "fr": "Vivaneau",
+   "en": "Red snapper"
+  },
+  "n": 38,
+  "image": "https://dodo.ac/np/images/1/12/Red_Snapper_PG_Icon.png",
+  "espece": "red-snapper",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "barred-knifejaw",
+  "nom": {
+   "fr": "Scarus",
+   "en": "Barred knifejaw"
+  },
+  "n": 39,
+  "image": "https://dodo.ac/np/images/c/cf/Barred_Knifejaw_PG_Icon.png",
+  "espece": "barred-knifejaw",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "arapaima",
+  "nom": {
+   "fr": "Arapaïma",
+   "en": "Arapaima"
+  },
+  "n": 40,
+  "image": "https://dodo.ac/np/images/f/fd/Arapaima_PG_Icon.png",
+  "espece": "arapaima",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ }
+]

@@ -1,0 +1,427 @@
+[
+ {
+  "id": "tricera-skull",
+  "nom": {
+   "fr": "Crâne de tricéra",
+   "en": "Tricera skull"
+  },
+  "image": "https://dodo.ac/np/images/3/3a/Tricera_Skull_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 5500
+  },
+  "groupe": {
+   "id": "triceratops",
+   "fr": "Tricéra",
+   "en": "Triceratops"
+  },
+  "musee": true
+ },
+ {
+  "id": "tricera-torso",
+  "nom": {
+   "fr": "Corps de tricéra",
+   "en": "Tricera torso"
+  },
+  "image": "https://dodo.ac/np/images/8/8c/Tricera_Torso_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 5000
+  },
+  "groupe": {
+   "id": "triceratops",
+   "fr": "Tricéra",
+   "en": "Triceratops"
+  },
+  "musee": true
+ },
+ {
+  "id": "tricera-tail",
+  "nom": {
+   "fr": "Queue de tricéra",
+   "en": "Tricera tail"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Tricera_Tail_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4500
+  },
+  "groupe": {
+   "id": "triceratops",
+   "fr": "Tricéra",
+   "en": "Triceratops"
+  },
+  "musee": true
+ },
+ {
+  "id": "t-rex-skull",
+  "nom": {
+   "fr": "Crâne de T-rex",
+   "en": "T-rex skull"
+  },
+  "image": "https://dodo.ac/np/images/2/29/T-Rex_Skull_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 6000
+  },
+  "groupe": {
+   "id": "tyrannosaurus",
+   "fr": "T-rex",
+   "en": "Tyrannosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "t-rex-torso",
+  "nom": {
+   "fr": "Corps de T-rex",
+   "en": "T-rex torso"
+  },
+  "image": "https://dodo.ac/np/images/7/70/T-Rex_Torso_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 5500
+  },
+  "groupe": {
+   "id": "tyrannosaurus",
+   "fr": "T-rex",
+   "en": "Tyrannosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "t-rex-tail",
+  "nom": {
+   "fr": "Queue de T-rex",
+   "en": "T-rex tail"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/T-Rex_Tail_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 5000
+  },
+  "groupe": {
+   "id": "tyrannosaurus",
+   "fr": "T-rex",
+   "en": "Tyrannosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "apato-skull",
+  "nom": {
+   "fr": "Crâne d'apato",
+   "en": "Apato skull"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Apato_Skull_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 5000
+  },
+  "groupe": {
+   "id": "apatosaurus",
+   "fr": "Apato",
+   "en": "Apatosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "apato-torso",
+  "nom": {
+   "fr": "Corps d'apato",
+   "en": "Apato torso"
+  },
+  "image": "https://dodo.ac/np/images/d/de/Apato_Torso_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4500
+  },
+  "groupe": {
+   "id": "apatosaurus",
+   "fr": "Apato",
+   "en": "Apatosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "apato-tail",
+  "nom": {
+   "fr": "Queue d'apato",
+   "en": "Apato tail"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Apato_Tail_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "groupe": {
+   "id": "apatosaurus",
+   "fr": "Apato",
+   "en": "Apatosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "stego-skull",
+  "nom": {
+   "fr": "Crâne de stégo",
+   "en": "Stego skull"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Stego_Skull_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 5000
+  },
+  "groupe": {
+   "id": "stegosaurus",
+   "fr": "Stégo",
+   "en": "Stegosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "stego-torso",
+  "nom": {
+   "fr": "Corps de stégo",
+   "en": "Stego torso"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Stego_Torso_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4500
+  },
+  "groupe": {
+   "id": "stegosaurus",
+   "fr": "Stégo",
+   "en": "Stegosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "stego-tail",
+  "nom": {
+   "fr": "Queue de stégo",
+   "en": "Stego tail"
+  },
+  "image": "https://dodo.ac/np/images/1/1f/Stego_Tail_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "groupe": {
+   "id": "stegosaurus",
+   "fr": "Stégo",
+   "en": "Stegosaurus"
+  },
+  "musee": true
+ },
+ {
+  "id": "ptera-skull",
+  "nom": {
+   "fr": "Crâne de ptéro",
+   "en": "Ptera skull"
+  },
+  "image": "https://dodo.ac/np/images/7/7d/Ptera_Skull_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "groupe": {
+   "id": "pteranodon",
+   "fr": "Ptéro",
+   "en": "Pteranodon"
+  },
+  "musee": true
+ },
+ {
+  "id": "ptera-right-wing",
+  "nom": {
+   "fr": "Aile D de ptéro",
+   "en": "Ptera right wing"
+  },
+  "image": "https://dodo.ac/np/images/6/68/Ptera_Right_Wing_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4500
+  },
+  "groupe": {
+   "id": "pteranodon",
+   "fr": "Ptéro",
+   "en": "Pteranodon"
+  },
+  "musee": true
+ },
+ {
+  "id": "ptera-left-wing",
+  "nom": {
+   "fr": "Aile G de ptéro",
+   "en": "Ptera left wing"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Ptera_Left_Wing_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4500
+  },
+  "groupe": {
+   "id": "pteranodon",
+   "fr": "Ptéro",
+   "en": "Pteranodon"
+  },
+  "musee": true
+ },
+ {
+  "id": "plesio-skull",
+  "nom": {
+   "fr": "Crâne de plésio",
+   "en": "Plesio skull"
+  },
+  "image": "https://dodo.ac/np/images/c/cf/Plesio_Skull_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "groupe": {
+   "id": "plesiosaur",
+   "fr": "Plésio",
+   "en": "Plesiosaur"
+  },
+  "musee": true
+ },
+ {
+  "id": "plesio-neck",
+  "nom": {
+   "fr": "Cou de plésio",
+   "en": "Plesio neck"
+  },
+  "image": "https://dodo.ac/np/images/d/d7/Plesio_Neck_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4500
+  },
+  "groupe": {
+   "id": "plesiosaur",
+   "fr": "Plésio",
+   "en": "Plesiosaur"
+  },
+  "musee": true
+ },
+ {
+  "id": "plesio-torso",
+  "nom": {
+   "fr": "Corps de plésio",
+   "en": "Plesio torso"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Plesio_Torso_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 4500
+  },
+  "groupe": {
+   "id": "plesiosaur",
+   "fr": "Plésio",
+   "en": "Plesiosaur"
+  },
+  "musee": true
+ },
+ {
+  "id": "mammoth-skull",
+  "nom": {
+   "fr": "Crâne mammouth",
+   "en": "Mammoth skull"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Mammoth_Skull_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000
+  },
+  "groupe": {
+   "id": "mammoth",
+   "fr": "Mammouth",
+   "en": "Mammoth"
+  },
+  "musee": true
+ },
+ {
+  "id": "mammoth-torso",
+  "nom": {
+   "fr": "Corps mammouth",
+   "en": "Mammoth torso"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Mammoth_Torso_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2500
+  },
+  "groupe": {
+   "id": "mammoth",
+   "fr": "Mammouth",
+   "en": "Mammoth"
+  },
+  "musee": true
+ },
+ {
+  "id": "amber",
+  "nom": {
+   "fr": "Ambre",
+   "en": "Amber"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Amber_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "musee": true
+ },
+ {
+  "id": "dinosaur-track",
+  "nom": {
+   "fr": "Empreinte dino",
+   "en": "Dinosaur track"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Dinosaur_Track_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1000
+  },
+  "musee": true
+ },
+ {
+  "id": "ammonite",
+  "nom": {
+   "fr": "Ammonite",
+   "en": "Ammonite"
+  },
+  "image": "https://dodo.ac/np/images/9/96/Ammonite_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1100
+  },
+  "musee": true
+ },
+ {
+  "id": "dinosaur-egg",
+  "nom": {
+   "fr": "Æuf dinosaure",
+   "en": "Dinosaur egg"
+  },
+  "image": "https://dodo.ac/np/images/f/f9/Dinosaur_Egg_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1400
+  },
+  "musee": true
+ },
+ {
+  "id": "trilobite",
+  "nom": {
+   "fr": "Trilobite",
+   "en": "Trilobite"
+  },
+  "image": "https://dodo.ac/np/images/f/fe/Trilobite_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1300
+  },
+  "musee": true
+ }
+]

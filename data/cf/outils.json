@@ -1,0 +1,708 @@
+[
+ {
+  "id": "axe",
+  "nom": {
+   "fr": "Hache",
+   "en": "Axe"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/Axe_CF_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "blue-balloon",
+  "nom": {
+   "fr": "Ballon bleu",
+   "en": "Blue balloon"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Blue_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "blue-pinwheel",
+  "nom": {
+   "fr": "Moulin bleu",
+   "en": "Blue pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/6/67/Blue_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bubble-wand",
+  "nom": {
+   "fr": "Lance-bulles",
+   "en": "Bubble wand"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Bubble_Wand_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-b-balloon",
+  "nom": {
+   "fr": "Ballon lapin B",
+   "en": "Bunny B. balloon"
+  },
+  "image": "https://dodo.ac/np/images/4/40/Bunny_B._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-c-balloon",
+  "nom": {
+   "fr": "Ballon lapin T",
+   "en": "Bunny C. balloon"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Bunny_C._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-g-balloon",
+  "nom": {
+   "fr": "Ballon lapin V",
+   "en": "Bunny G. balloon"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Bunny_G._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-i-balloon",
+  "nom": {
+   "fr": "Ballon lapin M",
+   "en": "Bunny I. balloon"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Bunny_I._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-o-balloon",
+  "nom": {
+   "fr": "Ballon lapin O",
+   "en": "Bunny O. balloon"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Bunny_O._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-p-balloon",
+  "nom": {
+   "fr": "Ballon lapin R",
+   "en": "Bunny P. balloon"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Bunny_P._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-r-balloon",
+  "nom": {
+   "fr": "Ballon lapin R",
+   "en": "Bunny R. balloon"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Bunny_R._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "bunny-y-balloon",
+  "nom": {
+   "fr": "Ballon lapin J",
+   "en": "Bunny Y. balloon"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Bunny_Y._Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "cyan-balloon",
+  "nom": {
+   "fr": "Ballon bleu-ciel",
+   "en": "Cyan balloon"
+  },
+  "image": "https://dodo.ac/np/images/9/98/Cyan_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "cyan-pinwheel",
+  "nom": {
+   "fr": "Moulin bleu-ciel",
+   "en": "Cyan pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/5/53/Cyan_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche",
+   "en": "Fishing rod"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Fishing_Rod_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "golden-axe",
+  "nom": {
+   "fr": "Hache dorée",
+   "en": "Golden axe"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Golden_Axe_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Serena"
+  ]
+ },
+ {
+  "id": "golden-net",
+  "nom": {
+   "fr": "Filet doré",
+   "en": "Golden net"
+  },
+  "image": "https://dodo.ac/np/images/7/75/Golden_Net_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "golden-rod",
+  "nom": {
+   "fr": "Canne dorée",
+   "en": "Golden rod"
+  },
+  "image": "https://dodo.ac/np/images/a/a7/Golden_Rod_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "golden-shovel",
+  "nom": {
+   "fr": "Pelle dorée",
+   "en": "Golden shovel"
+  },
+  "image": "https://dodo.ac/np/images/9/95/Golden_Shovel_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "golden-slingshot",
+  "nom": {
+   "fr": "Lance-p. doré",
+   "en": "Golden slingshot"
+  },
+  "image": "https://dodo.ac/np/images/0/04/Golden_Slingshot_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "balloon"
+  ]
+ },
+ {
+  "id": "golden-can",
+  "nom": {
+   "fr": "Arrosoir doré",
+   "en": "Golden can"
+  },
+  "image": "https://dodo.ac/np/images/5/54/Golden_Can_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Pelly",
+   "Phyllis"
+  ]
+ },
+ {
+  "id": "green-balloon",
+  "nom": {
+   "fr": "Ballon vert",
+   "en": "Green balloon"
+  },
+  "image": "https://dodo.ac/np/images/b/bb/Green_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "green-pinwheel",
+  "nom": {
+   "fr": "Moulin vert",
+   "en": "Green pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/e/e5/Green_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "indigo-balloon",
+  "nom": {
+   "fr": "Ballon violet",
+   "en": "Indigo balloon"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Indigo_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "indigo-pinwheel",
+  "nom": {
+   "fr": "Moulin mauve",
+   "en": "Indigo pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Indigo_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "net",
+  "nom": {
+   "fr": "Filet",
+   "en": "Net"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Net_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "orange-balloon",
+  "nom": {
+   "fr": "Ballon orange",
+   "en": "Orange balloon"
+  },
+  "image": "https://dodo.ac/np/images/f/fd/Orange_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "orange-pinwheel",
+  "nom": {
+   "fr": "Moulin orange",
+   "en": "Orange pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Orange_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "party-popper",
+  "nom": {
+   "fr": "Pétard",
+   "en": "Party popper"
+  },
+  "image": "https://dodo.ac/np/images/d/d7/Party_Popper_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 30
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "pink-balloon",
+  "nom": {
+   "fr": "Ballon rose",
+   "en": "Pink balloon"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Pink_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "pink-pinwheel",
+  "nom": {
+   "fr": "Moulin rose",
+   "en": "Pink pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Pink_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "red-balloon",
+  "nom": {
+   "fr": "Ballon rouge",
+   "en": "Red balloon"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Red_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "red-pinwheel",
+  "nom": {
+   "fr": "Moulin rouge",
+   "en": "Red pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/d/dc/Red_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "roman-candle",
+  "nom": {
+   "fr": "Bougie",
+   "en": "Roman candle"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Roman_Candle_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 30
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "shovel",
+  "nom": {
+   "fr": "Pelle",
+   "en": "Shovel"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Shovel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "silver-axe",
+  "nom": {
+   "fr": "Hache d'argent",
+   "en": "Silver axe"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Silver_Axe_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 100
+  },
+  "sources": [
+   "Serena"
+  ]
+ },
+ {
+  "id": "silver-can",
+  "nom": {
+   "fr": "Arrosoir argent",
+   "en": "Silver can"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Silver_Can_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Posy Farm"
+  ]
+ },
+ {
+  "id": "silver-net",
+  "nom": {
+   "fr": "Filet d'argent",
+   "en": "Silver net"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Silver_Net_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "silver-rod",
+  "nom": {
+   "fr": "Canne d'argent",
+   "en": "Silver rod"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/Silver_Rod_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "silver-shovel",
+  "nom": {
+   "fr": "Pelle d'argent",
+   "en": "Silver shovel"
+  },
+  "image": "https://dodo.ac/np/images/6/69/Silver_Shovel_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Mr. Resetti"
+  ]
+ },
+ {
+  "id": "silver-slingshot",
+  "nom": {
+   "fr": "Lance-p. argent",
+   "en": "Silver slingshot"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Silver_Slingshot_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "slingshot",
+  "nom": {
+   "fr": "Lance-pierre",
+   "en": "Slingshot"
+  },
+  "image": "https://dodo.ac/np/images/9/94/Slingshot_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "sparkler",
+  "nom": {
+   "fr": "Cierge",
+   "en": "Sparkler"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Roman_Candle_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 30
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "timer",
+  "nom": {
+   "fr": "Chrono",
+   "en": "Timer"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Timer_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "watering-can",
+  "nom": {
+   "fr": "Arrosoir",
+   "en": "Watering can"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Watering_Can_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "yellow-balloon",
+  "nom": {
+   "fr": "Ballon jaune",
+   "en": "Yellow balloon"
+  },
+  "image": "https://dodo.ac/np/images/0/0f/Yellow_Balloon_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ },
+ {
+  "id": "yellow-pinwheel",
+  "nom": {
+   "fr": "Moulin jaune",
+   "en": "Yellow pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Yellow_Pinwheel_CF_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Phineas"
+  ]
+ }
+]

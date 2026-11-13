@@ -1,0 +1,5650 @@
+[
+ {
+  "id": "a-shirt",
+  "nom": {
+   "fr": "T-shirt A",
+   "en": "A shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/A_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "airy-shirt",
+  "nom": {
+   "fr": "T-shirt aéré",
+   "en": "Airy shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Airy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ancient-knit",
+  "nom": {
+   "fr": "Tricot antique",
+   "en": "Ancient knit"
+  },
+  "image": "https://dodo.ac/np/images/0/0a/Ancient_Knit_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "tiger-print",
+  "nom": {
+   "fr": "Imprimé tigre",
+   "en": "Tiger print"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Tiger_Print_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "zebra-print",
+  "nom": {
+   "fr": "Imprimé zèbre",
+   "en": "Zebra print"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Zebra_Print_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "anjus-shirt",
+  "nom": {
+   "fr": "T-shirt d'Anju",
+   "en": "Anju's shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b4/Anju's_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 460,
+   "vente": 115
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "argyle-knit",
+  "nom": {
+   "fr": "Tricot écossais",
+   "en": "Argyle knit"
+  },
+  "image": "https://dodo.ac/np/images/9/9b/Argyle_Knit_PG_Model.png",
+  "prix": {
+   "achat": 460,
+   "vente": 115
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bad-plaid-shirt",
+  "nom": {
+   "fr": "T-shirt plaid",
+   "en": "Bad plaid shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Bad_Plaid_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "barber-shirt",
+  "nom": {
+   "fr": "T-shirt barbier",
+   "en": "Barber shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5a/Barber_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bb-shirt",
+  "nom": {
+   "fr": "T-shirt BB",
+   "en": "BB shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/60/BB_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bear-shirt",
+  "nom": {
+   "fr": "T-shirt ours",
+   "en": "Bear shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/c6/Bear_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "big-star-shirt",
+  "nom": {
+   "fr": "T-shirt étoile",
+   "en": "Big star shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Big_Star_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blossom-shirt",
+  "nom": {
+   "fr": "T-shirt fleuri",
+   "en": "Blossom shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/1c/Blossom_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "floral-knit",
+  "nom": {
+   "fr": "Tricot floral",
+   "en": "Floral knit"
+  },
+  "image": "https://dodo.ac/np/images/e/e4/Floral_Knit_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blossoming-shirt",
+  "nom": {
+   "fr": "T-shirt bourgeon",
+   "en": "Blossoming shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/c0/Blossoming_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-aloha-shirt",
+  "nom": {
+   "fr": "T-shirt Hawaï B",
+   "en": "Blue aloha shirt"
+  },
+  "image": "https://dodo.ac/np/images/7/76/Blue_Aloha_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Animal Island hut"
+  ],
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-check-print",
+  "nom": {
+   "fr": "Imprimé bleu",
+   "en": "Blue check print"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Blue_Check_Print_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-scale-shirt",
+  "nom": {
+   "fr": "T-shirt iso B",
+   "en": "Blue scale shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/17/Blue_Scale_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-tartan",
+  "nom": {
+   "fr": "Tartan bleu",
+   "en": "Blue tartan"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Blue_Tartan_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-tie-dye",
+  "nom": {
+   "fr": "Tie'n dye bleu",
+   "en": "Blue tie-dye"
+  },
+  "image": "https://dodo.ac/np/images/3/3f/Blue_Tie-Dye_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-pinstripe",
+  "nom": {
+   "fr": "Mille-raies bleu",
+   "en": "Blue pinstripe"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Blue_Pinstripe_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-check-shirt",
+  "nom": {
+   "fr": "T-shirt carreaux",
+   "en": "Blue check shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Blue_Check_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-grid-shirt",
+  "nom": {
+   "fr": "T-shirt grille B",
+   "en": "Blue grid shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Blue_Grid_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blue-stripe-knit",
+  "nom": {
+   "fr": "T-shirt marin",
+   "en": "Blue stripe knit"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Blue_Stripe_Knit_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "tropical-shirt",
+  "nom": {
+   "fr": "T-shirt tropique",
+   "en": "Tropical shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Tropical_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bold-check-shirt",
+  "nom": {
+   "fr": "T-shirt pavé",
+   "en": "Bold check shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Bold_Check_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "botanical-shirt",
+  "nom": {
+   "fr": "T-shirt botanik",
+   "en": "Botanical shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Botanical_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "oft-seen-print",
+  "nom": {
+   "fr": "Imprimé classik",
+   "en": "Oft-seen print"
+  },
+  "image": "https://dodo.ac/np/images/4/40/Oft-Seen_Print_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "orange-pinstripe",
+  "nom": {
+   "fr": "Mille-raies O",
+   "en": "Orange pinstripe"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Orange_Pinstripe_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1250
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bubble-shirt",
+  "nom": {
+   "fr": "T-shirt bulles",
+   "en": "Bubble shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/28/Bubble_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 410,
+   "vente": 102
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "butterfly-shirt",
+  "nom": {
+   "fr": "T-shirt papillon",
+   "en": "Butterfly shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Butterfly_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cafe-shirt",
+  "nom": {
+   "fr": "T-shirt café",
+   "en": "Café shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Caf%C3%A9_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "arctic-camo",
+  "nom": {
+   "fr": "Motif arctique",
+   "en": "Arctic camo"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Arctic_Camo_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "desert-camo",
+  "nom": {
+   "fr": "Motif désert",
+   "en": "Desert camo"
+  },
+  "image": "https://dodo.ac/np/images/f/f7/Desert_Camo_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "jungle-camo",
+  "nom": {
+   "fr": "Motif jungle",
+   "en": "Jungle camo"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Jungle_Camo_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "berry-gingham",
+  "nom": {
+   "fr": "Vichy rouge",
+   "en": "Berry gingham"
+  },
+  "image": "https://dodo.ac/np/images/b/b2/Berry_Gingham_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "caterpillar-tee",
+  "nom": {
+   "fr": "T-shirt bombyx",
+   "en": "Caterpillar tee"
+  },
+  "image": "https://dodo.ac/np/images/7/73/Caterpillar_Tee_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1700
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "caveman-tunic",
+  "nom": {
+   "fr": "Tunique préhist",
+   "en": "Caveman tunic"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Caveman_Tunic_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "chain-gang-shirt",
+  "nom": {
+   "fr": "T-shirt bagnard",
+   "en": "Chain-gang shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Chain-Gang_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 260,
+   "vente": 65
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "checkerboard-tee",
+  "nom": {
+   "fr": "T-shirt R&N",
+   "en": "Checkerboard tee"
+  },
+  "image": "https://dodo.ac/np/images/f/fc/Checkerboard_Tee_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "checkered-shirt",
+  "nom": {
+   "fr": "T-shirt damier",
+   "en": "Checkered shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Checkered_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cherry-shirt",
+  "nom": {
+   "fr": "T-shirt cerise",
+   "en": "Cherry shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/d6/Cherry_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "chevron-shirt",
+  "nom": {
+   "fr": "T-shirt chevrons",
+   "en": "Chevron shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Chevron_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "chichi-print",
+  "nom": {
+   "fr": "Imprimé fractal",
+   "en": "Chichi print"
+  },
+  "image": "https://dodo.ac/np/images/d/de/Chichi_Print_PG_Model.png",
+  "prix": {
+   "achat": 180,
+   "vente": 45
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "shirt-circuit",
+  "nom": {
+   "fr": "T-shirt circuit",
+   "en": "Shirt circuit"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Shirt_Circuit_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1280
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "citrus-gingham",
+  "nom": {
+   "fr": "Vichy citron",
+   "en": "Citrus gingham"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Citrus_Gingham_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "citrus-shirt",
+  "nom": {
+   "fr": "T-shirt agrume",
+   "en": "Citrus shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/97/Citrus_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "classic-top",
+  "nom": {
+   "fr": "Haut classique",
+   "en": "Classic top"
+  },
+  "image": "https://dodo.ac/np/images/a/a7/Classic_Top_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cloudy-shirt",
+  "nom": {
+   "fr": "T-shirt nuages",
+   "en": "Cloudy shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Cloudy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "club-shirt",
+  "nom": {
+   "fr": "T-shirt trèfle",
+   "en": "Club shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Club_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "comfy-sweater",
+  "nom": {
+   "fr": "Pull confortable",
+   "en": "Comfy sweater"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Comfy_Sweater_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "concierge-shirt",
+  "nom": {
+   "fr": "T-shirt hotel",
+   "en": "Concierge shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Concierge_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cool-shirt",
+  "nom": {
+   "fr": "T-shirt sympa",
+   "en": "Cool shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Cool_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "coral-shirt",
+  "nom": {
+   "fr": "T-shirt corail",
+   "en": "Coral shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Coral_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1550
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cow-print",
+  "nom": {
+   "fr": "Imprimé vache",
+   "en": "Cow print"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Cow_Print_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cozy-sweater",
+  "nom": {
+   "fr": "Pull douillet",
+   "en": "Cozy sweater"
+  },
+  "image": "https://dodo.ac/np/images/0/05/Cozy_Sweater_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "crewel-shirt",
+  "nom": {
+   "fr": "T-shirt canevas",
+   "en": "Crewel shirt"
+  },
+  "image": "https://dodo.ac/np/images/7/75/Crewel_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "crossing-shirt",
+  "nom": {
+   "fr": "T-shirt croisé",
+   "en": "Crossing shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Crossing_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1550
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "danger-shirt",
+  "nom": {
+   "fr": "T-shirt danger",
+   "en": "Danger shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Danger_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dapper-shirt",
+  "nom": {
+   "fr": "T-shirt pimpant",
+   "en": "Dapper shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/09/Dapper_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dawn-shirt",
+  "nom": {
+   "fr": "T-shirt aurore",
+   "en": "Dawn shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/40/Dawn_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dazed-shirt",
+  "nom": {
+   "fr": "T-shirt losange",
+   "en": "Dazed shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Dazed_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "deep-blue-tee",
+  "nom": {
+   "fr": "T-shirt abysse",
+   "en": "Deep blue tee"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Deep_Blue_Tee_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "deer-shirt",
+  "nom": {
+   "fr": "T-shirt daim",
+   "en": "Deer shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Deer_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "denim-shirt",
+  "nom": {
+   "fr": "T-shirt jean",
+   "en": "Denim shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/09/Denim_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "desert-shirt",
+  "nom": {
+   "fr": "T-shirt péruvien",
+   "en": "Desert shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Desert_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "diamond-shirt",
+  "nom": {
+   "fr": "T-shirt carreau",
+   "en": "Diamond shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/3c/Diamond_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dice-shirt",
+  "nom": {
+   "fr": "T-shirt dés",
+   "en": "Dice shirt"
+  },
+  "image": "https://dodo.ac/np/images/8/83/Dice_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "houndstooth-knit",
+  "nom": {
+   "fr": "T-shirt pied coq",
+   "en": "Houndstooth knit"
+  },
+  "image": "https://dodo.ac/np/images/3/36/Houndstooth_Knit_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dragon-suit",
+  "nom": {
+   "fr": "Tenue dragon",
+   "en": "Dragon suit"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Dragon_Suit_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dreamy-shirt",
+  "nom": {
+   "fr": "T-shirt de rêve",
+   "en": "Dreamy shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/ce/Dreamy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "earthy-knit",
+  "nom": {
+   "fr": "T-shirt ocre",
+   "en": "Earthy knit"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/Earthy_Knit_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "eight-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱8",
+   "en": "Eight-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/1b/Eight-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "exotic-shirt",
+  "nom": {
+   "fr": "T-shirt exotique",
+   "en": "Exotic shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Exotic_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fall-plaid-shirt",
+  "nom": {
+   "fr": "T-shirt automne",
+   "en": "Fall plaid shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Fall_Plaid_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "far-out-shirt",
+  "nom": {
+   "fr": "T-shirt décalé",
+   "en": "Far-out shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/0e/Far-Out_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fetching-outfit",
+  "nom": {
+   "fr": "Tenue charmante",
+   "en": "Fetching outfit"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Fetching_Outfit_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fiendish-shirt",
+  "nom": {
+   "fr": "T-shirt diabolik",
+   "en": "Fiendish shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Fiendish_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1700
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fish-knit",
+  "nom": {
+   "fr": "Tricot poissons",
+   "en": "Fish knit"
+  },
+  "image": "https://dodo.ac/np/images/a/a2/Fish_Knit_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fish-bone-shirt",
+  "nom": {
+   "fr": "T-shirt poisson",
+   "en": "Fish bone shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Fish_Bone_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "five-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱5",
+   "en": "Five-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/7/7b/Five-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "flame-shirt",
+  "nom": {
+   "fr": "T-shirt flamme",
+   "en": "Flame shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Flame_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "polar-fleece",
+  "nom": {
+   "fr": "Laine polaire",
+   "en": "Polar fleece"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Polar_Fleece_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "flicker-shirt",
+  "nom": {
+   "fr": "T-shirt carrelé",
+   "en": "Flicker shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Flicker_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "spring-shirt",
+  "nom": {
+   "fr": "T-shirt pastel",
+   "en": "Spring shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Spring_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "daisy-shirt",
+  "nom": {
+   "fr": "T-shirt fleur",
+   "en": "Daisy shirt"
+  },
+  "image": "https://dodo.ac/np/images/8/84/Daisy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "folk-shirt",
+  "nom": {
+   "fr": "T-shirt folklo",
+   "en": "Folk shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Folk_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "four-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱4",
+   "en": "Four-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Four-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fresh-shirt",
+  "nom": {
+   "fr": "T-shirt nouveau",
+   "en": "Fresh shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Fresh_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "frog-shirt",
+  "nom": {
+   "fr": "T-shirt rainette",
+   "en": "Frog shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e2/Frog_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "funky-dot-shirt",
+  "nom": {
+   "fr": "T-shirt points",
+   "en": "Funky dot shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Funky_Dot_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 430,
+   "vente": 107
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "future-shirt",
+  "nom": {
+   "fr": "T-shirt futur",
+   "en": "Future shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/Future_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "g-logo-shirt",
+  "nom": {
+   "fr": "T-shirt logo G",
+   "en": "G logo shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/1f/G_Logo_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 128,
+   "vente": 32
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "gaudy-sweater",
+  "nom": {
+   "fr": "T-shirt voyant",
+   "en": "Gaudy sweater"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Gaudy_Sweater_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "gelato-shirt",
+  "nom": {
+   "fr": "T-shirt Rome",
+   "en": "Gelato shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Gelato_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "giraffe-print",
+  "nom": {
+   "fr": "Imprimé girafe",
+   "en": "Giraffe print"
+  },
+  "image": "https://dodo.ac/np/images/c/ca/Giraffe_Print_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1550
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "go-go-shirt",
+  "nom": {
+   "fr": "T-shirt go-go",
+   "en": "Go-go shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/63/Go-Go_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "yellow-pinstripe",
+  "nom": {
+   "fr": "Mille-raies J",
+   "en": "Yellow pinstripe"
+  },
+  "image": "https://dodo.ac/np/images/9/95/Yellow_Pinstripe_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fortune-shirt",
+  "nom": {
+   "fr": "T-shirt chance",
+   "en": "Fortune shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/3a/Fortune_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 480,
+   "vente": 120
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "gracies-top",
+  "nom": {
+   "fr": "Haut de Gracie",
+   "en": "Gracie's top"
+  },
+  "image": "https://dodo.ac/np/images/f/f8/Gracie's_Top_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1550
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "grape-shirt",
+  "nom": {
+   "fr": "T-shirt raisin",
+   "en": "Grape shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Grape_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "grass-shirt",
+  "nom": {
+   "fr": "T-shirt herbe",
+   "en": "Grass shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Grass_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1450
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "gray-tartan",
+  "nom": {
+   "fr": "Tartan gris",
+   "en": "Gray tartan"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Gray_Tartan_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "green-ring-shirt",
+  "nom": {
+   "fr": "T-shirt ronds V",
+   "en": "Green ring shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Green_Ring_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 180,
+   "vente": 45
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "green-tie-dye",
+  "nom": {
+   "fr": "Tie'n dye vert",
+   "en": "Green tie-dye"
+  },
+  "image": "https://dodo.ac/np/images/f/fc/Green_Tie-Dye_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "green-bar-shirt",
+  "nom": {
+   "fr": "T-shirt raies V",
+   "en": "Green bar shirt"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Green_Bar_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "groovy-shirt",
+  "nom": {
+   "fr": "T-shirt funky",
+   "en": "Groovy shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Groovy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mod-top",
+  "nom": {
+   "fr": "Haut mode",
+   "en": "Mod top"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Mod_Top_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "gumdrop-shirt",
+  "nom": {
+   "fr": "T-shirt bonbons",
+   "en": "Gumdrop shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Gumdrop_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "heart-shirt",
+  "nom": {
+   "fr": "T-shirt cæur",
+   "en": "Heart shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Heart_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "hippie-shirt",
+  "nom": {
+   "fr": "T-shirt hippie",
+   "en": "Hippie shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Hippie_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "icy-shirt",
+  "nom": {
+   "fr": "T-shirt givré",
+   "en": "Icy shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Icy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "jagged-shirt",
+  "nom": {
+   "fr": "T-shirt dentelé",
+   "en": "Jagged shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Jagged_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "jester-shirt",
+  "nom": {
+   "fr": "T-shirt bouffon",
+   "en": "Jester shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/dd/Jester_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "kaffes-shirt",
+  "nom": {
+   "fr": "T-shirt de Kaffe",
+   "en": "Kaffe's shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Kaffe's_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 460,
+   "vente": 115
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "kiddie-shirt",
+  "nom": {
+   "fr": "T-shirt enfant",
+   "en": "Kiddie shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/c6/Kiddie_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "kiwi-shirt",
+  "nom": {
+   "fr": "T-shirt kiwi",
+   "en": "Kiwi shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Kiwi_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ladybug-shirt",
+  "nom": {
+   "fr": "T-shirt coxinel",
+   "en": "Ladybug shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/0f/Ladybug_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1350
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lavender-robe",
+  "nom": {
+   "fr": "Robe lavande",
+   "en": "Lavender robe"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Lavender_Robe_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1450
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lemon-gingham",
+  "nom": {
+   "fr": "Vichy jaune",
+   "en": "Lemon gingham"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Lemon_Gingham_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "leopard-print",
+  "nom": {
+   "fr": "Imprimé léopard",
+   "en": "Leopard print"
+  },
+  "image": "https://dodo.ac/np/images/2/22/Leopard_Print_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "light-line-shirt",
+  "nom": {
+   "fr": "T-shirt finesse",
+   "en": "Light line shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Light_Line_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "yellow-bolero",
+  "nom": {
+   "fr": "Boléro vert",
+   "en": "Yellow bolero"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Yellow_Bolero_PG_Model.png",
+  "prix": {
+   "achat": 430,
+   "vente": 107
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lime-line-shirt",
+  "nom": {
+   "fr": "T-shirt citron V",
+   "en": "Lime line shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Lime_Line_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "jade-check-print",
+  "nom": {
+   "fr": "Imprimé jade",
+   "en": "Jade check print"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/Jade_Check_Print_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "loud-bloom-shirt",
+  "nom": {
+   "fr": "T-shirt flashy",
+   "en": "Loud bloom shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Loud_Bloom_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "loud-line-shirt",
+  "nom": {
+   "fr": "T-shirt rayures",
+   "en": "Loud line shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Loud_Line_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lovely-shirt",
+  "nom": {
+   "fr": "T-shirt cæur",
+   "en": "Lovely shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Lovely_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lil-bros-shirt",
+  "nom": {
+   "fr": "T-shirt Luigi",
+   "en": "Li'l bro's shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Li'l_Bro's_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dark-polka-shirt",
+  "nom": {
+   "fr": "T-shirt N à pois",
+   "en": "Dark polka shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/6b/Dark_Polka_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lite-polka-shirt",
+  "nom": {
+   "fr": "T-shirt B à pois",
+   "en": "Lite polka shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Lite_Polka_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "big-bros-shirt",
+  "nom": {
+   "fr": "T-shirt Mario",
+   "en": "Big bro's shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Big_Bro's_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "melon-gingham",
+  "nom": {
+   "fr": "Vichy vert",
+   "en": "Melon gingham"
+  },
+  "image": "https://dodo.ac/np/images/e/e5/Melon_Gingham_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "melon-shirt",
+  "nom": {
+   "fr": "T-shirt melon",
+   "en": "Melon shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Melon_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mint-gingham",
+  "nom": {
+   "fr": "Vichy menthe",
+   "en": "Mint gingham"
+  },
+  "image": "https://dodo.ac/np/images/2/2d/Mint_Gingham_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "misty-shirt",
+  "nom": {
+   "fr": "T-shirt brume",
+   "en": "Misty shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/22/Misty_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "moldy-shirt",
+  "nom": {
+   "fr": "T-shirt élimé",
+   "en": "Moldy shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Moldy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 50,
+   "vente": 12
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "monkey-shirt",
+  "nom": {
+   "fr": "T-shirt singe",
+   "en": "Monkey shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/d6/Monkey_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "moody-blue-shirt",
+  "nom": {
+   "fr": "T-shirt méandres",
+   "en": "Moody blue shirt"
+  },
+  "image": "https://dodo.ac/np/images/f/f5/Moody_Blue_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 123,
+   "vente": 30
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mosaic-shirt",
+  "nom": {
+   "fr": "T-shirt mosaïque",
+   "en": "Mosaic shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/36/Mosaic_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mvp-shirt",
+  "nom": {
+   "fr": "T-shirt MVP",
+   "en": "MVP shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/55/MVP_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "natty-shirt",
+  "nom": {
+   "fr": "T-shirt filet",
+   "en": "Natty shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/2e/Natty_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "nebula-shirt",
+  "nom": {
+   "fr": "T-shirt galaxie",
+   "en": "Nebula shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/3c/Nebula_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "nine-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱9",
+   "en": "Nine-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Nine-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "no1-shirt",
+  "nom": {
+   "fr": "T-shirt 1",
+   "en": "No.1 shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/0a/No.1_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 250,
+   "vente": 62
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "no2-shirt",
+  "nom": {
+   "fr": "T-shirt 2",
+   "en": "No.2 shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/91/No.2_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 250,
+   "vente": 62
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "no23-shirt",
+  "nom": {
+   "fr": "T-shirt 23",
+   "en": "No.23 shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/No.23_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 250,
+   "vente": 62
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "no3-shirt",
+  "nom": {
+   "fr": "T-shirt 3",
+   "en": "No.3 shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/16/No.3_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 250,
+   "vente": 62
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "no4-shirt",
+  "nom": {
+   "fr": "T-shirt 4",
+   "en": "No.4 shirt"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/No.4_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 250,
+   "vente": 62
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "no5-shirt",
+  "nom": {
+   "fr": "T-shirt 5",
+   "en": "No.5 shirt"
+  },
+  "image": "https://dodo.ac/np/images/8/83/No.5_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 250,
+   "vente": 62
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "no67-shirt",
+  "nom": {
+   "fr": "T-shirt 67",
+   "en": "No.67 shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/94/No.67_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 250,
+   "vente": 62
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "noble-shirt",
+  "nom": {
+   "fr": "T-shirt noble",
+   "en": "Noble shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/cf/Noble_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "noodle-shirt",
+  "nom": {
+   "fr": "T-shirt Asie",
+   "en": "Noodle shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e5/Noodle_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "one-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱1",
+   "en": "One-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/6a/One-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "optical-shirt",
+  "nom": {
+   "fr": "T-shirt optique",
+   "en": "Optical shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Optical_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 430,
+   "vente": 107
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "circus-shirt",
+  "nom": {
+   "fr": "T-shirt cirque",
+   "en": "Circus shirt"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Circus_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "orange-tie-dye",
+  "nom": {
+   "fr": "Tie'n dye orange",
+   "en": "Orange tie-dye"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Orange_Tie-Dye_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "painters-smock",
+  "nom": {
+   "fr": "Blouse peintre",
+   "en": "Painter's smock"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Painter's_Smock_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "diner-uniform",
+  "nom": {
+   "fr": "Blouse cuisine",
+   "en": "Diner uniform"
+  },
+  "image": "https://dodo.ac/np/images/5/5b/Diner_Uniform_PG_Model.png",
+  "prix": {
+   "achat": 290,
+   "vente": 72
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "patched-shirt",
+  "nom": {
+   "fr": "T-shirt rapiécé",
+   "en": "Patched shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/c5/Patched_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "any villager"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "patchwork-top",
+  "nom": {
+   "fr": "Haut patchwork",
+   "en": "Patchwork top"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Patchwork_Top_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "paw-shirt",
+  "nom": {
+   "fr": "T-shirt pattes",
+   "en": "Paw shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Paw_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "peachy-shirt",
+  "nom": {
+   "fr": "T-shirt pêche",
+   "en": "Peachy shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/17/Peachy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "sherbet-gingham",
+  "nom": {
+   "fr": "Vichy sorbet",
+   "en": "Sherbet gingham"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Sherbet_Gingham_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pink-tartan",
+  "nom": {
+   "fr": "Tartan rose",
+   "en": "Pink tartan"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Pink_Tartan_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "leather-jerkin",
+  "nom": {
+   "fr": "Blouson cuir",
+   "en": "Leather jerkin"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Leather_Jerkin_PG_Model.png",
+  "prix": {
+   "achat": 390,
+   "vente": 97
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pop-bloom-shirt",
+  "nom": {
+   "fr": "T-shirt pop",
+   "en": "Pop bloom shirt"
+  },
+  "image": "https://dodo.ac/np/images/8/84/Pop_Bloom_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "prism-shirt",
+  "nom": {
+   "fr": "T-shirt prisme",
+   "en": "Prism shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Prism_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pulse-shirt",
+  "nom": {
+   "fr": "T-shirt ECG",
+   "en": "Pulse shirt"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Pulse_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "purple-tie-dye",
+  "nom": {
+   "fr": "Tie'n dye mauve",
+   "en": "Purple tie-dye"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Purple_Tie-Dye_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "puzzling-shirt",
+  "nom": {
+   "fr": "T-shirt arlequin",
+   "en": "Puzzling shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/20/Puzzling_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "racer-6-shirt",
+  "nom": {
+   "fr": "T-shirt course 6",
+   "en": "Racer 6 shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Racer_6_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "aurora-knit",
+  "nom": {
+   "fr": "Tricot aurore",
+   "en": "Aurora knit"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Aurora_Knit_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rainbow-shirt",
+  "nom": {
+   "fr": "T-shirt irisé",
+   "en": "Rainbow shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Rainbow_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 777,
+   "vente": 194
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rally-shirt",
+  "nom": {
+   "fr": "T-shirt rallye",
+   "en": "Rally shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/96/Rally_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-aloha-shirt",
+  "nom": {
+   "fr": "T-shirt Hawaï R",
+   "en": "Red aloha shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/54/Red_Aloha_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Animal Island hut"
+  ],
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-scale-shirt",
+  "nom": {
+   "fr": "T-shirt iso R",
+   "en": "Red scale shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/0e/Red_Scale_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-tie-dye",
+  "nom": {
+   "fr": "Tie'n dye rouge",
+   "en": "Red tie-dye"
+  },
+  "image": "https://dodo.ac/np/images/6/6e/Red_Tie-Dye_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-bar-shirt",
+  "nom": {
+   "fr": "T-shirt barre",
+   "en": "Red bar shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e6/Red_Bar_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-check-shirt",
+  "nom": {
+   "fr": "T-shirt carrés R",
+   "en": "Red check shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Red_Check_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-grid-shirt",
+  "nom": {
+   "fr": "T-shirt grille R",
+   "en": "Red grid shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Red_Grid_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ribbon-shirt",
+  "nom": {
+   "fr": "T-shirt ruban",
+   "en": "Ribbon shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Ribbon_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rickrack-shirt",
+  "nom": {
+   "fr": "T-shirt rickrack",
+   "en": "Rickrack shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Rickrack_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rose-shirt",
+  "nom": {
+   "fr": "T-shirt rose",
+   "en": "Rose shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Rose_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 480,
+   "vente": 120
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "laced-shirt",
+  "nom": {
+   "fr": "T-shirt à lacets",
+   "en": "Laced shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Laced_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rugby-shirt",
+  "nom": {
+   "fr": "T-shirt rugby",
+   "en": "Rugby shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Rugby_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "jingle-shirt",
+  "nom": {
+   "fr": "T-shirt festif",
+   "en": "Jingle shirt"
+  },
+  "image": "https://dodo.ac/np/images/f/fd/Jingle_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Jingle"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "trendy-top",
+  "nom": {
+   "fr": "Haut tendance",
+   "en": "Trendy top"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Trendy_Top_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "seven-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱7",
+   "en": "Seven-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Seven-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "sharp-outfit",
+  "nom": {
+   "fr": "Tenue dièse",
+   "en": "Sharp outfit"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Sharp_Outfit_PG_Model.png",
+  "prix": {
+   "achat": 290,
+   "vente": 72
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "shortcake-shirt",
+  "nom": {
+   "fr": "T-shirt gâteau",
+   "en": "Shortcake shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/c7/Shortcake_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 330,
+   "vente": 82
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "silk-bloom-shirt",
+  "nom": {
+   "fr": "T-shirt soie",
+   "en": "Silk bloom shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Silk_Bloom_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 480,
+   "vente": 120
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "hot-spring-shirt",
+  "nom": {
+   "fr": "T-shirt iris M",
+   "en": "Hot spring shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/20/Hot_Spring_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 520,
+   "vente": 130
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "new-spring-shirt",
+  "nom": {
+   "fr": "T-shirt iris B",
+   "en": "New spring shirt"
+  },
+  "image": "https://dodo.ac/np/images/1/17/New_Spring_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 520,
+   "vente": 130
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "neo-classic-knit",
+  "nom": {
+   "fr": "Tricot dentelle",
+   "en": "Neo-classic knit"
+  },
+  "image": "https://dodo.ac/np/images/5/53/Neo-Classic_Knit_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "big-dot-shirt",
+  "nom": {
+   "fr": "T-shirt point",
+   "en": "Big dot shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/63/Big_Dot_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "toad-print",
+  "nom": {
+   "fr": "Imprimé Toad",
+   "en": "Toad print"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Toad_Print_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "six-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱6",
+   "en": "Six-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Six-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ski-sweater",
+  "nom": {
+   "fr": "Pull ski",
+   "en": "Ski sweater"
+  },
+  "image": "https://dodo.ac/np/images/5/5c/Ski_Sweater_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "skull-shirt",
+  "nom": {
+   "fr": "T-shirt crâne",
+   "en": "Skull shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Skull_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "snappy-print",
+  "nom": {
+   "fr": "Imprimé punch",
+   "en": "Snappy print"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Snappy_Print_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "snowcone-shirt",
+  "nom": {
+   "fr": "T-shirt neige",
+   "en": "Snowcone shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Snowcone_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "snow-shirt",
+  "nom": {
+   "fr": "T-shirt neige",
+   "en": "Snow shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Snow_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1700
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "spade-shirt",
+  "nom": {
+   "fr": "T-shirt pique",
+   "en": "Spade shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Spade_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "speedway-shirt",
+  "nom": {
+   "fr": "T-shirt basque",
+   "en": "Speedway shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/9c/Speedway_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 290,
+   "vente": 72
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "spiderweb-shirt",
+  "nom": {
+   "fr": "T-shirt arachno",
+   "en": "Spiderweb shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/96/Spiderweb_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "splendid-shirt",
+  "nom": {
+   "fr": "T-shirt splendid",
+   "en": "Splendid shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/9a/Splendid_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1550
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "spunky-knit",
+  "nom": {
+   "fr": "Tricot prairie",
+   "en": "Spunky knit"
+  },
+  "image": "https://dodo.ac/np/images/2/22/Spunky_Knit_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "star-shirt",
+  "nom": {
+   "fr": "T-shirt étoiles",
+   "en": "Star shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Star_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "static-shirt",
+  "nom": {
+   "fr": "T-shirt statique",
+   "en": "Static shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/3c/Static_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "stormy-shirt",
+  "nom": {
+   "fr": "T-shirt orage",
+   "en": "Stormy shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/20/Stormy_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "straw-shirt",
+  "nom": {
+   "fr": "T-shirt paille",
+   "en": "Straw shirt"
+  },
+  "image": "https://dodo.ac/np/images/6/6a/Straw_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "strawberry-shirt",
+  "nom": {
+   "fr": "T-shirt fraise",
+   "en": "Strawberry shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/c0/Strawberry_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "striking-outfit",
+  "nom": {
+   "fr": "T-shirt frappant",
+   "en": "Striking outfit"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/Striking_Outfit_PG_Model.png",
+  "prix": {
+   "achat": 460,
+   "vente": 115
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "beatnik-shirt",
+  "nom": {
+   "fr": "T-shirt beatnik",
+   "en": "Beatnik shirt"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Beatnik_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "subdued-print",
+  "nom": {
+   "fr": "Imprimé atténué",
+   "en": "Subdued print"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/Subdued_Print_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ugly-shirt",
+  "nom": {
+   "fr": "T-shirt moche",
+   "en": "Ugly shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Ugly_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "sunset-top",
+  "nom": {
+   "fr": "Haut couchant",
+   "en": "Sunset top"
+  },
+  "image": "https://dodo.ac/np/images/8/8a/Sunset_Top_PG_Model.png",
+  "prix": {
+   "achat": 290,
+   "vente": 72
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "swell-shirt",
+  "nom": {
+   "fr": "T-shirt chouette",
+   "en": "Swell shirt"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Swell_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "houndstooth-tee",
+  "nom": {
+   "fr": "T-shirt W",
+   "en": "Houndstooth tee"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Houndstooth_Tee_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "three-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱3",
+   "en": "Three-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/00/Three-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "thunder-shirt",
+  "nom": {
+   "fr": "T-shirt éclairs",
+   "en": "Thunder shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/49/Thunder_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "tiki-shirt",
+  "nom": {
+   "fr": "T-shirt tiki",
+   "en": "Tiki shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Tiki_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "tin-shirt",
+  "nom": {
+   "fr": "T-shirt métal",
+   "en": "Tin shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Tin_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "turnip-top",
+  "nom": {
+   "fr": "Haut navet",
+   "en": "Turnip top"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Turnip_Top_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "twinkle-shirt",
+  "nom": {
+   "fr": "T-shirt brillant",
+   "en": "Twinkle shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Twinkle_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 480,
+   "vente": 120
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "two-ball-shirt",
+  "nom": {
+   "fr": "T-shirt no̱2",
+   "en": "Two-ball shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Two-Ball_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 340,
+   "vente": 85
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "u-r-here-shirt",
+  "nom": {
+   "fr": "T-shirt flèche",
+   "en": "U R here shirt"
+  },
+  "image": "https://dodo.ac/np/images/9/92/U_R_Here_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "uncommon-shirt",
+  "nom": {
+   "fr": "T-shirt original",
+   "en": "Uncommon shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Uncommon_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "racer-shirt",
+  "nom": {
+   "fr": "T-shirt course",
+   "en": "Racer shirt"
+  },
+  "image": "https://dodo.ac/np/images/4/49/Racer_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "vertigo-shirt",
+  "nom": {
+   "fr": "T-shirt Bavière",
+   "en": "Vertigo shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Vertigo_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 370,
+   "vente": 92
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "vogue-top",
+  "nom": {
+   "fr": "Haut vogue",
+   "en": "Vogue top"
+  },
+  "image": "https://dodo.ac/np/images/1/16/Vogue_Top_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "waffle-shirt",
+  "nom": {
+   "fr": "T-shirt gaufre",
+   "en": "Waffle shirt"
+  },
+  "image": "https://dodo.ac/np/images/5/54/Waffle_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 430,
+   "vente": 107
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "watermelon-shirt",
+  "nom": {
+   "fr": "T-shirt pastèque",
+   "en": "Watermelon shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Watermelon_Shirt_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Gracie",
+   "Wisp"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "wave-print",
+  "nom": {
+   "fr": "Imprimé vague",
+   "en": "Wave print"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Wave_Print_PG_Model.png",
+  "prix": {
+   "achat": 380,
+   "vente": 95
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "wavy-pink-shirt",
+  "nom": {
+   "fr": "T-shirt lilas",
+   "en": "Wavy pink shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Wavy_Pink_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "wavy-tan-shirt",
+  "nom": {
+   "fr": "T-shirt ondes",
+   "en": "Wavy tan shirt"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Wavy_Tan_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 360,
+   "vente": 90
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "whirly-shirt",
+  "nom": {
+   "fr": "T-shirt tornade",
+   "en": "Whirly shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/e4/Whirly_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "white-ring-shirt",
+  "nom": {
+   "fr": "T-shirt ronds B",
+   "en": "White ring shirt"
+  },
+  "image": "https://dodo.ac/np/images/0/0a/White_Ring_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 180,
+   "vente": 45
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "windsock-shirt",
+  "nom": {
+   "fr": "T-shirt flots",
+   "en": "Windsock shirt"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Windsock_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "winter-sweater",
+  "nom": {
+   "fr": "Pull hiver",
+   "en": "Winter sweater"
+  },
+  "image": "https://dodo.ac/np/images/c/ca/Winter_Sweater_PG_Model.png",
+  "prix": {
+   "achat": 290,
+   "vente": 72
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "work-uniform",
+  "nom": {
+   "fr": "Tablier",
+   "en": "Work uniform"
+  },
+  "image": "https://dodo.ac/np/images/f/fd/Work_Uniform_PG_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Tom Nook"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "flowery-shirt",
+  "nom": {
+   "fr": "T-shirt fleurs",
+   "en": "Flowery shirt"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Flowery_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "yellow-tartan",
+  "nom": {
+   "fr": "Tartan jaune",
+   "en": "Yellow tartan"
+  },
+  "image": "https://dodo.ac/np/images/3/3b/Yellow_Tartan_PG_Model.png",
+  "prix": {
+   "achat": 430,
+   "vente": 107
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "dump, Booker (Common), Birthday, Mom, Wisp (Any Season), Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "yellow-bar-shirt",
+  "nom": {
+   "fr": "T-shirt raies j",
+   "en": "Yellow bar shirt"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Yellow_Bar_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "yodel-shirt",
+  "nom": {
+   "fr": "T-shirt Tyrol",
+   "en": "Yodel shirt"
+  },
+  "image": "https://dodo.ac/np/images/d/de/Yodel_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 350,
+   "vente": 87
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "zipper-shirt",
+  "nom": {
+   "fr": "T-shirt zip",
+   "en": "Zipper shirt"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Zipper_Shirt_PG_Model.png",
+  "prix": {
+   "achat": 320,
+   "vente": 80
+  },
+  "sources": [
+   "Tom Nook's store",
+   "dump, Booker (Common), Birthday, Mom, Wisp, Sale Day, Gracie (fail",
+   "common)"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ }
+]

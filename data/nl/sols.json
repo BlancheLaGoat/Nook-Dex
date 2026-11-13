@@ -1,0 +1,2327 @@
+[
+ {
+  "id": "alpine-rug",
+  "nom": {
+   "fr": "Tapis nordique",
+   "en": "Alpine rug"
+  },
+  "image": "https://dodo.ac/np/images/f/fa/Alpine_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "ancient-tile",
+  "nom": {
+   "fr": "Sol hiéroglyphe",
+   "en": "Ancient tile"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Ancient_Tile_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 2400
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "arched-brick-floor",
+  "nom": {
+   "fr": "Sol arches briques",
+   "en": "Arched brick floor"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Arched_Brick_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "parquet-floor",
+  "nom": {
+   "fr": "Parquet ouvragé",
+   "en": "Parquet floor"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Parquet_Floor_NL_Model_1.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "astro-floor",
+  "nom": {
+   "fr": "Sol astro",
+   "en": "Astro floor"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Astro_Floor_NL_Model.png",
+  "prix": {
+   "achat": 2120,
+   "vente": 530
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "backyard-lawn",
+  "nom": {
+   "fr": "Gazon patio",
+   "en": "Backyard lawn"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Backyard_Lawn_NL_Model.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "balloon-floor",
+  "nom": {
+   "fr": "Sol ballons",
+   "en": "Balloon floor"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Balloon_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "balloons"
+  ]
+ },
+ {
+  "id": "bamboo-flooring",
+  "nom": {
+   "fr": "Sol en bambou",
+   "en": "Bamboo flooring"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Bamboo_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "basement-floor",
+  "nom": {
+   "fr": "Sol de cave",
+   "en": "Basement floor"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/Basement_Floor_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 2125
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "bath-tile",
+  "nom": {
+   "fr": "Carrelage bain",
+   "en": "Bath tile"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Bath_Tile_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1700
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "birch-flooring",
+  "nom": {
+   "fr": "Parquet bouleau",
+   "en": "Birch flooring"
+  },
+  "image": "https://dodo.ac/np/images/c/c7/Birch_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "block-floor",
+  "nom": {
+   "fr": "Revêtement blocs",
+   "en": "Block floor"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Block_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "sources": [
+   "fortune #2"
+  ]
+ },
+ {
+  "id": "blue-flooring",
+  "nom": {
+   "fr": "Moquette bleue",
+   "en": "Blue flooring"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Blue_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1580,
+   "vente": 395
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "boxing-ring-mat",
+  "nom": {
+   "fr": "Tapis de ring",
+   "en": "Boxing-ring mat"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Boxing-Ring_Mat_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 2500
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "cowhide-rug",
+  "nom": {
+   "fr": "Peau de vache",
+   "en": "Cowhide rug"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Cowhide_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "red-tile",
+  "nom": {
+   "fr": "Carrelage rouge",
+   "en": "Red tile"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Red_Tile_NL_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "cabana-flooring",
+  "nom": {
+   "fr": "Sol rotin",
+   "en": "Cabana flooring"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Cabana_Flooring_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 500
+  },
+  "sources": [
+   "Souvenir Shop"
+  ]
+ },
+ {
+  "id": "card-carpet",
+  "nom": {
+   "fr": "Tapis cartes",
+   "en": "Card carpet"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Card_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "ceramic-tile",
+  "nom": {
+   "fr": "Sol céramique",
+   "en": "Ceramic tile"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Ceramic_Tile_NL_Model.png",
+  "prix": {
+   "achat": 1390,
+   "vente": 347
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "charcoal-tile",
+  "nom": {
+   "fr": "Lino gris",
+   "en": "Charcoal tile"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Charcoal_Tile_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "checkered-tile",
+  "nom": {
+   "fr": "Carrelage pavés",
+   "en": "Checkered tile"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Checkered_Tile_NL_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "cheese-floor",
+  "nom": {
+   "fr": "Sol fromage",
+   "en": "Cheese floor"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Cheese_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "chessboard-rug",
+  "nom": {
+   "fr": "Tapis échiquier",
+   "en": "Chessboard rug"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Chessboard_Rug_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 2075
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "cinnamoroll-floor",
+  "nom": {
+   "fr": "Sol Cinnamoroll",
+   "en": "Cinnamoroll floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f4/Cinnamoroll_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "classic-carpet",
+  "nom": {
+   "fr": "Tapis rustique",
+   "en": "Classic carpet"
+  },
+  "image": "https://dodo.ac/np/images/7/71/Classic_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "cloud-flooring",
+  "nom": {
+   "fr": "Sol nuages",
+   "en": "Cloud flooring"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Cloud_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "autumn-floor",
+  "nom": {
+   "fr": "Sol automne",
+   "en": "Autumn floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f7/Autumn_Floor_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1700
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "kiddie-carpet",
+  "nom": {
+   "fr": "Tapis d'enfant",
+   "en": "Kiddie carpet"
+  },
+  "image": "https://dodo.ac/np/images/f/fd/Kiddie_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1630,
+   "vente": 407
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "common-floor",
+  "nom": {
+   "fr": "Sol ordinaire",
+   "en": "Common floor"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Common_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "concrete-floor",
+  "nom": {
+   "fr": "Sol en béton",
+   "en": "Concrete floor"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Concrete_Floor_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "closed-road",
+  "nom": {
+   "fr": "Sol route barrée",
+   "en": "Closed road"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Closed_Road_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1625
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "convenient-floor",
+  "nom": {
+   "fr": "Sol supérette",
+   "en": "Convenient floor"
+  },
+  "image": "https://dodo.ac/np/images/3/34/Convenient_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  }
+ },
+ {
+  "id": "creepy-floor",
+  "nom": {
+   "fr": "Tapis lugubre",
+   "en": "Creepy floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f5/Creepy_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 500
+  },
+  "sources": [
+   "Jack"
+  ]
+ },
+ {
+  "id": "daisy-meadow",
+  "nom": {
+   "fr": "Sol pâquerettes",
+   "en": "Daisy meadow"
+  },
+  "image": "https://dodo.ac/np/images/d/d7/Daisy_Meadow_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "herringbone-floor",
+  "nom": {
+   "fr": "Sol chevrons",
+   "en": "Herringbone floor"
+  },
+  "image": "https://dodo.ac/np/images/1/1b/Herringbone_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "block-flooring",
+  "nom": {
+   "fr": "Revêtement blocs",
+   "en": "Block flooring"
+  },
+  "image": "https://dodo.ac/np/images/6/6a/Block_Flooring_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "dig-site-floor",
+  "nom": {
+   "fr": "Sol fossiles",
+   "en": "Dig-site floor"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Dig-Site_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "diner-tile",
+  "nom": {
+   "fr": "Carrelage damier",
+   "en": "Diner tile"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Diner_Tile_NL_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "dirt-floor",
+  "nom": {
+   "fr": "Sol terre",
+   "en": "Dirt floor"
+  },
+  "image": "https://dodo.ac/np/images/7/7b/Dirt_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "dotted-rug",
+  "nom": {
+   "fr": "Tapis à pois",
+   "en": "Dotted rug"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Dotted_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "egg-floor",
+  "nom": {
+   "fr": "Sol œuf",
+   "en": "Egg floor"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Egg_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Zipper"
+  ]
+ },
+ {
+  "id": "exhibit-room-floor",
+  "nom": {
+   "fr": "Sol salle d'expo",
+   "en": "Exhibit-room floor"
+  },
+  "image": "https://dodo.ac/np/images/a/ab/Exhibit-Room_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 100
+  },
+  "sources": [
+   "Museum"
+  ]
+ },
+ {
+  "id": "exotic-rug",
+  "nom": {
+   "fr": "Tapis teck",
+   "en": "Exotic rug"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Exotic_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1820,
+   "vente": 455
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "exquisite-rug",
+  "nom": {
+   "fr": "Tapis magnifique",
+   "en": "Exquisite rug"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Exquisite_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "fancy-carpet",
+  "nom": {
+   "fr": "Tapis fantaisie",
+   "en": "Fancy carpet"
+  },
+  "image": "https://dodo.ac/np/images/4/49/Fancy_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 2980,
+   "vente": 745
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "fancy-tile-floor",
+  "nom": {
+   "fr": "Sol carreaux luxe",
+   "en": "Fancy tile floor"
+  },
+  "image": "https://dodo.ac/np/images/0/00/Fancy_Tile_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "jingle-carpet",
+  "nom": {
+   "fr": "Tapis festif",
+   "en": "Jingle carpet"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Jingle_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 4896,
+   "vente": 1224
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "field-floor",
+  "nom": {
+   "fr": "Sol champ",
+   "en": "Field floor"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Field_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "flagstone-floor",
+  "nom": {
+   "fr": "Sol pierre naturelle",
+   "en": "Flagstone floor"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Flagstone_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "flower-pop-carpet",
+  "nom": {
+   "fr": "Tapis fleur pop",
+   "en": "Flower pop carpet"
+  },
+  "image": "https://dodo.ac/np/images/0/04/Flower_Pop_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "forest-floor",
+  "nom": {
+   "fr": "Sol forêt",
+   "en": "Forest floor"
+  },
+  "image": "https://dodo.ac/np/images/f/ff/Forest_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 420
+  },
+  "sources": [
+   "mushroom"
+  ]
+ },
+ {
+  "id": "fruit-panel-floor",
+  "nom": {
+   "fr": "Sol Puzzle League",
+   "en": "Fruit-panel floor"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Fruit-Panel_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Distribution Nintendo"
+  ],
+  "ext": "wa"
+ },
+ {
+  "id": "fueki-floor",
+  "nom": {
+   "fr": "Sol Fueki",
+   "en": "Fueki floor"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Fueki_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "galaxy-floor",
+  "nom": {
+   "fr": "Sol galaxie",
+   "en": "Galaxy floor"
+  },
+  "image": "https://dodo.ac/np/images/2/29/Galaxy_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "gallery-floor",
+  "nom": {
+   "fr": "Carrelage musée",
+   "en": "Gallery floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f7/Gallery_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "golden-carpet",
+  "nom": {
+   "fr": "Tapis d'or",
+   "en": "Golden carpet"
+  },
+  "image": "https://dodo.ac/np/images/f/f9/Golden_Carpet_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 15000
+  },
+  "sources": [
+   "Cyrus"
+  ]
+ },
+ {
+  "id": "gorgeous-floor",
+  "nom": {
+   "fr": "Parquet somptueux",
+   "en": "Gorgeous floor"
+  },
+  "image": "https://dodo.ac/np/images/b/bb/Gorgeous_Floor_NL_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "gracie-carpet",
+  "nom": {
+   "fr": "Tapis Carla",
+   "en": "Gracie carpet"
+  },
+  "image": "https://dodo.ac/np/images/b/b1/Gracie_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "school-hall-floor",
+  "nom": {
+   "fr": "Sol couloir d'école",
+   "en": "School-hall floor"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/School-Hall_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "green-rug",
+  "nom": {
+   "fr": "Carpette verte",
+   "en": "Green rug"
+  },
+  "image": "https://dodo.ac/np/images/8/86/Green_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "harvest-rug",
+  "nom": {
+   "fr": "Tapis dindon",
+   "en": "Harvest rug"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Harvest_Rug_NL_Model.png",
+  "prix": {
+   "achat": 3332,
+   "vente": 833
+  },
+  "sources": [
+   "Timmy and Tommy's store",
+   "Franklin"
+  ]
+ },
+ {
+  "id": "hello-kitty-floor",
+  "nom": {
+   "fr": "Sol Hello Kitty",
+   "en": "Hello Kitty floor"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Hello_Kitty_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "hopscotch-floor",
+  "nom": {
+   "fr": "Sol marelle",
+   "en": "Hopscotch floor"
+  },
+  "image": "https://dodo.ac/np/images/3/36/Hopscotch_Floor_NL_Model.png",
+  "prix": {
+   "achat": 960,
+   "vente": 240
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "ice-floor",
+  "nom": {
+   "fr": "Sol glace",
+   "en": "Ice floor"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Ice_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowmam"
+  ]
+ },
+ {
+  "id": "illusion-floor",
+  "nom": {
+   "fr": "Sol illusion",
+   "en": "Illusion floor"
+  },
+  "image": "https://dodo.ac/np/images/d/dd/Illusion_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "imperial-tile",
+  "nom": {
+   "fr": "Sol shogun",
+   "en": "Imperial tile"
+  },
+  "image": "https://dodo.ac/np/images/7/73/Imperial_Tile_NL_Model.png",
+  "prix": {
+   "achat": 2980,
+   "vente": 745
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "ink-splattered-floor",
+  "nom": {
+   "fr": "Sol encré",
+   "en": "Ink-splattered floor"
+  },
+  "image": "https://dodo.ac/np/images/c/cf/Ink-Splattered_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "inkopolis-floor",
+  "nom": {
+   "fr": "Sol TV-Chromapolis",
+   "en": "Inkopolis floor"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Inkopolis_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "jungle-floor",
+  "nom": {
+   "fr": "Sol jungle",
+   "en": "Jungle floor"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Jungle_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "gray-patterned-floor",
+  "nom": {
+   "fr": "Sol Kerokerokeroppi",
+   "en": "Gray patterned floor"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Gray_Patterned_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "kiki-and-lala-floor",
+  "nom": {
+   "fr": "Sol Kiki & Lala",
+   "en": "Kiki and Lala floor"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Kiki_and_Lala_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "kitchen-flooring",
+  "nom": {
+   "fr": "Sol de cuisine",
+   "en": "Kitchen flooring"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Kitchen_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1230,
+   "vente": 307
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "kitchen-tile",
+  "nom": {
+   "fr": "Lino cuisine",
+   "en": "Kitchen tile"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Kitchen_Tile_NL_Model.png",
+  "prix": {
+   "achat": 1890,
+   "vente": 472
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "kitschy-tile",
+  "nom": {
+   "fr": "Carrelage kitsch",
+   "en": "Kitschy tile"
+  },
+  "image": "https://dodo.ac/np/images/6/6a/Kitschy_Tile_NL_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "ladybug-carpet",
+  "nom": {
+   "fr": "Tapis coccinelle",
+   "en": "Ladybug carpet"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Ladybug_Carpet_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 410
+  },
+  "sources": [
+   "Nat"
+  ]
+ },
+ {
+  "id": "lava-floor",
+  "nom": {
+   "fr": "Sol lave",
+   "en": "Lava floor"
+  },
+  "image": "https://dodo.ac/np/images/9/94/Lava_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "lobby-floor",
+  "nom": {
+   "fr": "Sol vestibule",
+   "en": "Lobby floor"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Lobby_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "lovely-carpet",
+  "nom": {
+   "fr": "Tapis cœur",
+   "en": "Lovely carpet"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Lovely_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "lunar-surface",
+  "nom": {
+   "fr": "Sol lunaire",
+   "en": "Lunar surface"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Lunar_Surface_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 2000
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "marine-pop-floor",
+  "nom": {
+   "fr": "Sol marin pop",
+   "en": "Marine pop floor"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Marine_Pop_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 410
+  },
+  "sources": [
+   "Chip"
+  ]
+ },
+ {
+  "id": "maze-floor",
+  "nom": {
+   "fr": "Sol labyrinthe",
+   "en": "Maze floor"
+  },
+  "image": "https://dodo.ac/np/images/6/67/Maze_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "mermaid-carpet",
+  "nom": {
+   "fr": "Tapis sirène",
+   "en": "Mermaid carpet"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Mermaid_Carpet_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 500
+  },
+  "sources": [
+   "Souvenir Shop"
+  ]
+ },
+ {
+  "id": "modern-tile",
+  "nom": {
+   "fr": "Sol moderne",
+   "en": "Modern tile"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Modern_Tile_NL_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "modern-wood-flooring",
+  "nom": {
+   "fr": "Sol bois moderne",
+   "en": "Modern wood flooring"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Modern_Wood_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "panel-carpet-floor",
+  "nom": {
+   "fr": "Moquette dalles",
+   "en": "Panel carpet floor"
+  },
+  "image": "https://dodo.ac/np/images/2/22/Panel_Carpet_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "monochrome-floor",
+  "nom": {
+   "fr": "Sol bois mixte",
+   "en": "Monochrome floor"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Monochrome_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "mosaic-tile",
+  "nom": {
+   "fr": "Sol mosaïque",
+   "en": "Mosaic tile"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Mosaic_Tile_NL_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "mossy-carpet",
+  "nom": {
+   "fr": "Tapis moussu",
+   "en": "Mossy carpet"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Mossy_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 2000
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "museum-floor",
+  "nom": {
+   "fr": "Sol musée",
+   "en": "Museum floor"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Museum_Floor_NL_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "music-room-floor",
+  "nom": {
+   "fr": "Sol studio",
+   "en": "Music-room floor"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Music-Room_Floor_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "my-melody-floor",
+  "nom": {
+   "fr": "Sol My Melody",
+   "en": "My Melody floor"
+  },
+  "image": "https://dodo.ac/np/images/f/ff/My_Melody_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "natural-wood-floor",
+  "nom": {
+   "fr": "Sol bois naturel",
+   "en": "Natural wood floor"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Natural_Wood_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "classroom-floor",
+  "nom": {
+   "fr": "Marqueterie",
+   "en": "Classroom floor"
+  },
+  "image": "https://dodo.ac/np/images/6/6e/Classroom_Floor_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1500
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "notebook-floor",
+  "nom": {
+   "fr": "Sol agenda",
+   "en": "Notebook floor"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/Notebook_Floor_NL_Model.png",
+  "prix": {
+   "achat": 23760,
+   "vente": 5940
+  },
+  "sources": [
+   "SpotPass"
+  ]
+ },
+ {
+  "id": "observatory-floor",
+  "nom": {
+   "fr": "Sol observatoire",
+   "en": "Observatory floor"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Observatory_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "office-flooring",
+  "nom": {
+   "fr": "Revêtement pro",
+   "en": "Office flooring"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Office_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1700
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "oil-stained-floor",
+  "nom": {
+   "fr": "Sol taches d'huile",
+   "en": "Oil-stained floor"
+  },
+  "image": "https://dodo.ac/np/images/3/3f/Oil-Stained_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "old-board-floor",
+  "nom": {
+   "fr": "Sol vermoulu",
+   "en": "Old board floor"
+  },
+  "image": "https://dodo.ac/np/images/7/76/Old_Board_Floor_NL_Model.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "plank-flooring",
+  "nom": {
+   "fr": "Parquet abîmé",
+   "en": "Plank flooring"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Plank_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "old-flooring",
+  "nom": {
+   "fr": "Sol miteux",
+   "en": "Old flooring"
+  },
+  "image": "https://dodo.ac/np/images/e/e4/Old_Flooring_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "any villager",
+   "Jack"
+  ]
+ },
+ {
+  "id": "lab-floor",
+  "nom": {
+   "fr": "Sol labo",
+   "en": "Lab floor"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Lab_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "opulent-rug",
+  "nom": {
+   "fr": "Carpette manoir",
+   "en": "Opulent rug"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Opulent_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1230,
+   "vente": 307
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "citrus-carpet",
+  "nom": {
+   "fr": "Tapis agrume",
+   "en": "Citrus carpet"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Citrus_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1330,
+   "vente": 332
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "ornate-rug",
+  "nom": {
+   "fr": "Carpette décorée",
+   "en": "Ornate rug"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Ornate_Rug_NL_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "paintball-floor",
+  "nom": {
+   "fr": "Sol paintball",
+   "en": "Paintball floor"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Paintball_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "palace-tile",
+  "nom": {
+   "fr": "Dallage palais",
+   "en": "Palace tile"
+  },
+  "image": "https://dodo.ac/np/images/6/63/Palace_Tile_NL_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "pastel-dot-rug",
+  "nom": {
+   "fr": "Carpette pastel",
+   "en": "Pastel-dot rug"
+  },
+  "image": "https://dodo.ac/np/images/0/00/Pastel-Dot_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "pave-floor",
+  "nom": {
+   "fr": "Sol carnaval",
+   "en": "Pavé floor"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Pav%C3%A9_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Pavé"
+  ]
+ },
+ {
+  "id": "pavement-floor",
+  "nom": {
+   "fr": "Sol ruelle",
+   "en": "Pavement floor"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Pavement_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "neutral-floor",
+  "nom": {
+   "fr": "Sol neutre",
+   "en": "Neutral floor"
+  },
+  "image": "https://dodo.ac/np/images/a/ac/Neutral_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "pink-wood-floor",
+  "nom": {
+   "fr": "Sol bois rose",
+   "en": "Pink wood floor"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Pink_Wood_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "playroom-rug",
+  "nom": {
+   "fr": "Tapis de jeu",
+   "en": "Playroom rug"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Playroom_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "plaza-tile",
+  "nom": {
+   "fr": "Carrelage plaza",
+   "en": "Plaza tile"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Plaza_Tile_NL_Model.png",
+  "prix": {
+   "achat": 2180,
+   "vente": 545
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "plush-carpet",
+  "nom": {
+   "fr": "Tapis fastueux",
+   "en": "Plush carpet"
+  },
+  "image": "https://dodo.ac/np/images/4/47/Plush_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 2160,
+   "vente": 540
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "pompompurin-floor",
+  "nom": {
+   "fr": "Sol Pompompurin",
+   "en": "Pompompurin floor"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Pompompurin_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "princess-carpet",
+  "nom": {
+   "fr": "Tapis princesse",
+   "en": "Princess carpet"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Princess_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "ramshackle-floor",
+  "nom": {
+   "fr": "Sol délabré",
+   "en": "Ramshackle floor"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Ramshackle_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "ranch-flooring",
+  "nom": {
+   "fr": "Parquet ranch",
+   "en": "Ranch flooring"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Ranch_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "cabin-rug",
+  "nom": {
+   "fr": "Carpette chalet",
+   "en": "Cabin rug"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Cabin_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "regal-carpet",
+  "nom": {
+   "fr": "Tapis royal",
+   "en": "Regal carpet"
+  },
+  "image": "https://dodo.ac/np/images/0/05/Regal_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 2850,
+   "vente": 712
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "robo-floor",
+  "nom": {
+   "fr": "Sol robot",
+   "en": "Robo-floor"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Robo-Floor_NL_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "rococo-floor",
+  "nom": {
+   "fr": "Sol rococo",
+   "en": "Rococo floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f4/Rococo_Floor_NL_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "round-carpet",
+  "nom": {
+   "fr": "Tapis rond",
+   "en": "Round carpet"
+  },
+  "image": "https://dodo.ac/np/images/9/9d/Round_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1080,
+   "vente": 270
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "planked-tatami",
+  "nom": {
+   "fr": "Tatami",
+   "en": "Planked tatami"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Planked_Tatami_NL_Model.png",
+  "prix": {
+   "achat": 1340,
+   "vente": 335
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "saharahs-desert",
+  "nom": {
+   "fr": "Sol désert",
+   "en": "Saharah's desert"
+  },
+  "image": "https://dodo.ac/np/images/9/96/Saharah%27s_Desert_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "sand-garden",
+  "nom": {
+   "fr": "Jardin zen",
+   "en": "Sand garden"
+  },
+  "image": "https://dodo.ac/np/images/7/73/Sand_Garden_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1750
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "sandlot",
+  "nom": {
+   "fr": "Sol sable",
+   "en": "Sandlot"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Sandlot_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1700
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "sandy-beach-floor",
+  "nom": {
+   "fr": "Sol plage de sable",
+   "en": "Sandy-beach floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Sandy-Beach_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "sci-fi-floor",
+  "nom": {
+   "fr": "Sol science-fiction",
+   "en": "Sci-fi floor"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Sci-Fi_Floor_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1500
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "shanty-mat",
+  "nom": {
+   "fr": "Tapis de paille",
+   "en": "Shanty mat"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Shanty_Mat_NL_Model.png",
+  "prix": {
+   "achat": 720,
+   "vente": 180
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "ship-deck",
+  "nom": {
+   "fr": "Sol pont de navire",
+   "en": "Ship deck"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Ship_Deck_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1000
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "sidewalk",
+  "nom": {
+   "fr": "Sol trottoir",
+   "en": "Sidewalk"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Sidewalk_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1950
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "ski-slope-floor",
+  "nom": {
+   "fr": "Sol piste de ski",
+   "en": "Ski-slope floor"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Ski-Slope_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 390
+  },
+  "sources": [
+   "Snowman (New Leaf)"
+  ]
+ },
+ {
+  "id": "slate-flooring",
+  "nom": {
+   "fr": "Sol ardoises",
+   "en": "Slate flooring"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Slate_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1380,
+   "vente": 345
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "sleek-carpet",
+  "nom": {
+   "fr": "Tapis design",
+   "en": "Sleek carpet"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Sleek_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "sloppy-carpet",
+  "nom": {
+   "fr": "Tapis négligé",
+   "en": "Sloppy carpet"
+  },
+  "image": "https://dodo.ac/np/images/6/69/Sloppy_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150
+  },
+  "sources": [
+   "Re-Tail"
+  ]
+ },
+ {
+  "id": "snowman-carpet",
+  "nom": {
+   "fr": "Tapis Yétiti",
+   "en": "Snowman carpet"
+  },
+  "image": "https://dodo.ac/np/images/8/80/Snowman_Carpet_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowboy"
+  ]
+ },
+ {
+  "id": "spooky-carpet",
+  "nom": {
+   "fr": "Tapis Halloween",
+   "en": "Spooky carpet"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Spooky_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 4124,
+   "vente": 1031
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "sporty-floor",
+  "nom": {
+   "fr": "Sol sport",
+   "en": "Sporty floor"
+  },
+  "image": "https://dodo.ac/np/images/e/e8/Sporty_Floor_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1600
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "steel-flooring",
+  "nom": {
+   "fr": "Sol en acier",
+   "en": "Steel flooring"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/Steel_Flooring_NL_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "stone-tile",
+  "nom": {
+   "fr": "Sol pavé",
+   "en": "Stone tile"
+  },
+  "image": "https://dodo.ac/np/images/b/b4/Stone_Tile_NL_Model.png",
+  "prix": {
+   "achat": 2750,
+   "vente": 687
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "stone-tile-floor",
+  "nom": {
+   "fr": "Sol dalles pierre",
+   "en": "Stone-tile floor"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Stone-Tile_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "stripe-carpet",
+  "nom": {
+   "fr": "Tapis rayures",
+   "en": "Stripe carpet"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/Stripe_Carpet_NL_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "sweets-floor",
+  "nom": {
+   "fr": "Sol bonbons",
+   "en": "Sweets floor"
+  },
+  "image": "https://dodo.ac/np/images/d/d7/Sweets_Floor_NL_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "tartan-rug",
+  "nom": {
+   "fr": "Tapis en tartan",
+   "en": "Tartan rug"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Tartan_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1820,
+   "vente": 455
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "tatami",
+  "nom": {
+   "fr": "Sol tatamis",
+   "en": "Tatami"
+  },
+  "image": "https://dodo.ac/np/images/7/72/Tatami_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 2125
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "tatami-floor",
+  "nom": {
+   "fr": "Sol tatamis carrés",
+   "en": "Tatami floor"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Tatami_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "tent-rug",
+  "nom": {
+   "fr": "Carpette perse",
+   "en": "Tent rug"
+  },
+  "image": "https://dodo.ac/np/images/9/99/Tent_Rug_NL_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "terra-cotta-floor",
+  "nom": {
+   "fr": "Sol terre cuite",
+   "en": "Terra-cotta floor"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Terra-Cotta_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "terrace-rug",
+  "nom": {
+   "fr": "Sol terrasse",
+   "en": "Terrace rug"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Terrace_Rug_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "tropical-floor",
+  "nom": {
+   "fr": "Sol tropical",
+   "en": "Tropical floor"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Tropical_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1250
+  },
+  "sources": [
+   "Souvenir Shop"
+  ]
+ },
+ {
+  "id": "underwater-floor",
+  "nom": {
+   "fr": "Sol fonds marins",
+   "en": "Underwater floor"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Underwater_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "water-floor",
+  "nom": {
+   "fr": "Sol eau",
+   "en": "Water floor"
+  },
+  "image": "https://dodo.ac/np/images/1/1c/Water_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "sources": [
+   "Distribution Nintendo"
+  ],
+  "ext": "wa"
+ },
+ {
+  "id": "western-desert",
+  "nom": {
+   "fr": "Sol Far West",
+   "en": "Western desert"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Western_Desert_NL_Model.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 1700
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "white-tile-floor",
+  "nom": {
+   "fr": "Sol carreaux blancs",
+   "en": "White tile floor"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/White_Tile_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "white-wood-floor",
+  "nom": {
+   "fr": "Sol bois blanc",
+   "en": "White wood floor"
+  },
+  "image": "https://dodo.ac/np/images/9/97/White_Wood_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "wildflower-floor",
+  "nom": {
+   "fr": "Sol fleuri",
+   "en": "Wildflower floor"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Wildflower_Floor_NL_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "wooden-deck-floor",
+  "nom": {
+   "fr": "Sol planches",
+   "en": "Wooden-deck floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f4/Wooden-Deck_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "yellow-flooring",
+  "nom": {
+   "fr": "Sol jaune",
+   "en": "Yellow flooring"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Yellow_Flooring_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 210
+  },
+  "ext": "wa"
+ },
+ {
+  "id": "zelda-floor",
+  "nom": {
+   "fr": "Sol Zelda",
+   "en": "Zelda floor"
+  },
+  "image": "https://dodo.ac/np/images/c/c7/Zelda_Floor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "ext": "wa"
+ }
+]

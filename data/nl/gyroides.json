@@ -1,0 +1,1971 @@
+[
+ {
+  "id": "bowtoid",
+  "nom": {
+   "fr": "Jazzoïde",
+   "en": "Bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Bowtoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "brewstoid",
+  "nom": {
+   "fr": "Robustoïde",
+   "en": "Brewstoid"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Brewstoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Brewster"
+  ]
+ },
+ {
+  "id": "buzzoid",
+  "nom": {
+   "fr": "Bourdoïde",
+   "en": "Buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Buzzoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot",
+   "Club LOL"
+  ]
+ },
+ {
+  "id": "clankoid",
+  "nom": {
+   "fr": "Glingoïde",
+   "en": "Clankoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Clankoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "croakoid",
+  "nom": {
+   "fr": "Coassoïde",
+   "en": "Croakoid"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Croakoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "dekkoid",
+  "nom": {
+   "fr": "Pointoïde",
+   "en": "Dekkoid"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Dekkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "dingloid",
+  "nom": {
+   "fr": "Dingloïde",
+   "en": "Dingloid"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Dingloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "drilloid",
+  "nom": {
+   "fr": "Perçoïde",
+   "en": "Drilloid"
+  },
+  "image": "https://dodo.ac/np/images/e/e2/Drilloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "gargloid",
+  "nom": {
+   "fr": "Glouglouïde",
+   "en": "Gargloid"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Gargloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "gongoid",
+  "nom": {
+   "fr": "Gongoïde",
+   "en": "Gongoid"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Gongoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "harmonoid",
+  "nom": {
+   "fr": "Harmonoïde",
+   "en": "Harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b2/Harmonoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "howloid",
+  "nom": {
+   "fr": "Hurloïde",
+   "en": "Howloid"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Howloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "lamentoid",
+  "nom": {
+   "fr": "Lamentoïde",
+   "en": "Lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/Lamentoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "lullaboid",
+  "nom": {
+   "fr": "Berçoïde",
+   "en": "Lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Lullaboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-alloid",
+  "nom": {
+   "fr": "Méga-alloïde",
+   "en": "Mega alloid"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/Mega_Alloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-bovoid",
+  "nom": {
+   "fr": "Méga-bovoïde",
+   "en": "Mega bovoid"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Mega_Bovoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-bowtoid",
+  "nom": {
+   "fr": "Méga-jazzoïde",
+   "en": "Mega bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Mega_Bowtoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-brewstoid",
+  "nom": {
+   "fr": "Méga-robustoïde",
+   "en": "Mega brewstoid"
+  },
+  "image": "https://dodo.ac/np/images/6/69/Mega_Brewstoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Brewster"
+  ]
+ },
+ {
+  "id": "mega-buzzoid",
+  "nom": {
+   "fr": "Méga-bourdoïde",
+   "en": "Mega buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Mega_Buzzoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-clankoid",
+  "nom": {
+   "fr": "Méga-glingoïde",
+   "en": "Mega clankoid"
+  },
+  "image": "https://dodo.ac/np/images/0/0f/Mega_Clankoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-croakoid",
+  "nom": {
+   "fr": "Méga-coassoïde",
+   "en": "Mega croakoid"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Mega_Croakoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-dekkoid",
+  "nom": {
+   "fr": "Méga-pointoïde",
+   "en": "Mega dekkoid"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/Mega_Dekkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-dingloid",
+  "nom": {
+   "fr": "Méga-dingloïde",
+   "en": "Mega dingloid"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Mega_Dingloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-dinkoid",
+  "nom": {
+   "fr": "Méga-roboïde",
+   "en": "Mega dinkoid"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Mega_Dinkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-drilloid",
+  "nom": {
+   "fr": "Méga-perçoïde",
+   "en": "Mega drilloid"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Mega_Drilloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-echoid",
+  "nom": {
+   "fr": "Méga-échoïde",
+   "en": "Mega echoid"
+  },
+  "image": "https://dodo.ac/np/images/5/5a/Mega_Echoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-fizzoid",
+  "nom": {
+   "fr": "Méga-pétilloïde",
+   "en": "Mega fizzoid"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Mega_Fizzoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-freakoid",
+  "nom": {
+   "fr": "Méga-monstroïde",
+   "en": "Mega freakoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Mega_Freakoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-gongoid",
+  "nom": {
+   "fr": "Méga-gongoïde",
+   "en": "Mega gongoid"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/Mega_Gongoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-harmonoid",
+  "nom": {
+   "fr": "Méga-harmonoïde",
+   "en": "Mega harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Mega_Harmonoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-howloid",
+  "nom": {
+   "fr": "Méga-hurloïde",
+   "en": "Mega howloid"
+  },
+  "image": "https://dodo.ac/np/images/2/24/Mega_Howloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-lamentoid",
+  "nom": {
+   "fr": "Méga-lamentoïde",
+   "en": "Mega lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/9/9d/Mega_Lamentoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-lullaboid",
+  "nom": {
+   "fr": "Méga-berçoïde",
+   "en": "Mega lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/5/5a/Mega_Lullaboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-nebuloid",
+  "nom": {
+   "fr": "Méga-nébuloïde",
+   "en": "Mega nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Mega_Nebuloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-oboid",
+  "nom": {
+   "fr": "Méga-oboïde",
+   "en": "Mega oboid"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Mega_Oboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-oombloid",
+  "nom": {
+   "fr": "Méga-tamboïde",
+   "en": "Mega oombloid"
+  },
+  "image": "https://dodo.ac/np/images/3/3f/Mega_Oombloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-percoloid",
+  "nom": {
+   "fr": "Méga-percoloïde",
+   "en": "Mega percoloid"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Mega_Percoloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-plinkoid",
+  "nom": {
+   "fr": "Méga-plonkoïde",
+   "en": "Mega plinkoid"
+  },
+  "image": "https://dodo.ac/np/images/5/58/Mega_Plinkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot",
+   "Club LOL"
+  ]
+ },
+ {
+  "id": "mega-poltergoid",
+  "nom": {
+   "fr": "Méga-spectroïde",
+   "en": "Mega poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/9/9c/Mega_Poltergoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-puffoid",
+  "nom": {
+   "fr": "Méga-fumoïde",
+   "en": "Mega puffoid"
+  },
+  "image": "https://dodo.ac/np/images/7/71/Mega_Puffoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-quazoid",
+  "nom": {
+   "fr": "Méga-rayoïde",
+   "en": "Mega quazoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Mega_Quazoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-rustoid",
+  "nom": {
+   "fr": "Méga-rouilloïde",
+   "en": "Mega rustoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b1/Mega_Rustoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-sproid",
+  "nom": {
+   "fr": "Méga-jamoïde",
+   "en": "Mega sproid"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Mega_Sproid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-sputnoid",
+  "nom": {
+   "fr": "Méga-postilloïde",
+   "en": "Mega sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Mega_Sputnoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-squelchoid",
+  "nom": {
+   "fr": "Méga-ploufoïde",
+   "en": "Mega squelchoid"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Mega_Squelchoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-strumboid",
+  "nom": {
+   "fr": "Méga-guitaroïde",
+   "en": "Mega strumboid"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Mega_Strumboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-timpanoid",
+  "nom": {
+   "fr": "Méga-timbaloïde",
+   "en": "Mega timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Mega_Timpanoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mega-tootoid",
+  "nom": {
+   "fr": "Méga-tuutoïde",
+   "en": "Mega tootoid"
+  },
+  "image": "https://dodo.ac/np/images/4/4a/Mega_Tootoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "metatoid",
+  "nom": {
+   "fr": "Métatoïde",
+   "en": "Metatoid"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Metatoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-alloid",
+  "nom": {
+   "fr": "Mini-alloïde",
+   "en": "Mini alloid"
+  },
+  "image": "https://dodo.ac/np/images/c/c0/Mini_Alloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-bowtoid",
+  "nom": {
+   "fr": "Mini-jazzoïde",
+   "en": "Mini bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Mini_Bowtoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-brewstoid",
+  "nom": {
+   "fr": "Mini-robustoïde",
+   "en": "Mini brewstoid"
+  },
+  "image": "https://dodo.ac/np/images/8/88/Mini_Brewstoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Brewster"
+  ]
+ },
+ {
+  "id": "mini-buzzoid",
+  "nom": {
+   "fr": "Mini-bourdoïde",
+   "en": "Mini buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/f/fe/Mini_Buzzoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-clankoid",
+  "nom": {
+   "fr": "Mini-glingoïde",
+   "en": "Mini clankoid"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Mini_Clankoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-croakoid",
+  "nom": {
+   "fr": "Mini-coassoïde",
+   "en": "Mini croakoid"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Mini_Croakoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-dekkoid",
+  "nom": {
+   "fr": "Mini-pointoïde",
+   "en": "Mini dekkoid"
+  },
+  "image": "https://dodo.ac/np/images/5/56/Mini_Dekkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot",
+   "Club LOL"
+  ]
+ },
+ {
+  "id": "mini-dingloid",
+  "nom": {
+   "fr": "Mini-dingloïde",
+   "en": "Mini dingloid"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Mini_Dingloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-dinkoid",
+  "nom": {
+   "fr": "Mini-roboïde",
+   "en": "Mini dinkoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Mini_Dinkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-drilloid",
+  "nom": {
+   "fr": "Mini-perçoïde",
+   "en": "Mini drilloid"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Mini_Drilloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-echoid",
+  "nom": {
+   "fr": "Mini-échoïde",
+   "en": "Mini echoid"
+  },
+  "image": "https://dodo.ac/np/images/0/0e/Mini_Echoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-fizzoid",
+  "nom": {
+   "fr": "Mini-pétilloïde",
+   "en": "Mini fizzoid"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Mini_Fizzoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-freakoid",
+  "nom": {
+   "fr": "Mini-monstroïde",
+   "en": "Mini freakoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Mini_Freakoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-gargloid",
+  "nom": {
+   "fr": "Mini-glouglouïde",
+   "en": "Mini gargloid"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Mini_Gargloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-gongoid",
+  "nom": {
+   "fr": "Mini-gongoïde",
+   "en": "Mini gongoid"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Mini_Gongoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-harmonoid",
+  "nom": {
+   "fr": "Mini-harmonoïde",
+   "en": "Mini harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Mini_Harmonoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-howloid",
+  "nom": {
+   "fr": "Mini-hurloïde",
+   "en": "Mini howloid"
+  },
+  "image": "https://dodo.ac/np/images/3/3c/Mini_Howloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-lamentoid",
+  "nom": {
+   "fr": "Mini-lamentoïde",
+   "en": "Mini lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Mini_Lamentoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-lullaboid",
+  "nom": {
+   "fr": "Mini-berçoïde",
+   "en": "Mini lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Mini_Lullaboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-metatoid",
+  "nom": {
+   "fr": "Mini-métatoïde",
+   "en": "Mini metatoid"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Mini_Metatoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-nebuloid",
+  "nom": {
+   "fr": "Mini-nébuloïde",
+   "en": "Mini nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/7/7d/Mini_Nebuloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-oombloid",
+  "nom": {
+   "fr": "Mini-tamboïde",
+   "en": "Mini oombloid"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Mini_Oombloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-plinkoid",
+  "nom": {
+   "fr": "Mini-plonkoïde",
+   "en": "Mini plinkoid"
+  },
+  "image": "https://dodo.ac/np/images/5/58/Mini_Plinkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-poltergoid",
+  "nom": {
+   "fr": "Mini-spectroïde",
+   "en": "Mini poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Mini_Poltergoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-puffoid",
+  "nom": {
+   "fr": "Mini-fumoïde",
+   "en": "Mini puffoid"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Mini_Puffoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-quazoid",
+  "nom": {
+   "fr": "Mini-rayoïde",
+   "en": "Mini quazoid"
+  },
+  "image": "https://dodo.ac/np/images/4/47/Mini_Quazoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-rhythmoid",
+  "nom": {
+   "fr": "Mini-rythmoïde",
+   "en": "Mini rhythmoid"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Mini_Rhythmoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-rustoid",
+  "nom": {
+   "fr": "Mini-rouilloïde",
+   "en": "Mini rustoid"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Mini_Rustoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-sproid",
+  "nom": {
+   "fr": "Mini-jamoïde",
+   "en": "Mini sproid"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Mini_Sproid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-sputnoid",
+  "nom": {
+   "fr": "Mini-postilloïde",
+   "en": "Mini sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/5/51/Mini_Sputnoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-squelchoid",
+  "nom": {
+   "fr": "Mini-ploufoïde",
+   "en": "Mini squelchoid"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Mini_Squelchoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-strumboid",
+  "nom": {
+   "fr": "Mini-guitaroïde",
+   "en": "Mini strumboid"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Mini_Strumboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-timpanoid",
+  "nom": {
+   "fr": "Mini-timbaloïde",
+   "en": "Mini timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Mini_Timpanoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-tootoid",
+  "nom": {
+   "fr": "Mini-tuutoïde",
+   "en": "Mini tootoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Mini_Tootoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "mini-warbloid",
+  "nom": {
+   "fr": "Mini-guerroïde",
+   "en": "Mini warbloid"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Mini_Warbloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "nebuloid",
+  "nom": {
+   "fr": "Nébuloïde",
+   "en": "Nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/9/99/Nebuloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "oboid",
+  "nom": {
+   "fr": "Oboïde",
+   "en": "Oboid"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Oboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "oombloid",
+  "nom": {
+   "fr": "Tamboïde",
+   "en": "Oombloid"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Oombloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "plinkoid",
+  "nom": {
+   "fr": "Plonkoïde",
+   "en": "Plinkoid"
+  },
+  "image": "https://dodo.ac/np/images/2/28/Plinkoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "poltergoid",
+  "nom": {
+   "fr": "Spectroïde",
+   "en": "Poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Poltergoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "quazoid",
+  "nom": {
+   "fr": "Rayoïde",
+   "en": "Quazoid"
+  },
+  "image": "https://dodo.ac/np/images/7/7d/Quazoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "rhythmoid",
+  "nom": {
+   "fr": "Rythmoïde",
+   "en": "Rhythmoid"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Rhythmoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "rustoid",
+  "nom": {
+   "fr": "Rouilloïde",
+   "en": "Rustoid"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Rustoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "slim-nebuloid",
+  "nom": {
+   "fr": "Nebuloïde menu",
+   "en": "Slim nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Slim_Nebuloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "slim-quazoid",
+  "nom": {
+   "fr": "Rayoïde menu",
+   "en": "Slim quazoid"
+  },
+  "image": "https://dodo.ac/np/images/6/6b/Slim_Quazoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "sproid",
+  "nom": {
+   "fr": "Jamoïde",
+   "en": "Sproid"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Sproid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "sputnoid",
+  "nom": {
+   "fr": "Postilloïde",
+   "en": "Sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Sputnoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "squat-dingloid",
+  "nom": {
+   "fr": "Dingloïde trapu",
+   "en": "Squat dingloid"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Squat_Dingloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "squat-nebuloid",
+  "nom": {
+   "fr": "Nébuloïde trapu",
+   "en": "Squat nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/4/47/Squat_Nebuloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "squelchoid",
+  "nom": {
+   "fr": "Ploufoïde",
+   "en": "Squelchoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Squelchoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "strumboid",
+  "nom": {
+   "fr": "Guitaroïde",
+   "en": "Strumboid"
+  },
+  "image": "https://dodo.ac/np/images/5/5b/Strumboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-alloid",
+  "nom": {
+   "fr": "Super-alloïde",
+   "en": "Tall alloid"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Tall_Alloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-bovoid",
+  "nom": {
+   "fr": "Super-bovoïde",
+   "en": "Tall bovoid"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Tall_Bovoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-bowtoid",
+  "nom": {
+   "fr": "Super-jazzoïde",
+   "en": "Tall bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Tall_Bowtoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-brewstoid",
+  "nom": {
+   "fr": "Super-robustoïde",
+   "en": "Tall brewstoid"
+  },
+  "image": "https://dodo.ac/np/images/6/68/Tall_Brewstoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Brewster"
+  ]
+ },
+ {
+  "id": "tall-buzzoid",
+  "nom": {
+   "fr": "Super-bourdoïde",
+   "en": "Tall buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/d/dd/Tall_Buzzoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-clankoid",
+  "nom": {
+   "fr": "Super-glingoïde",
+   "en": "Tall clankoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b1/Tall_Clankoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-croakoid",
+  "nom": {
+   "fr": "Super-coassoïde",
+   "en": "Tall croakoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Tall_Croakoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-dingloid",
+  "nom": {
+   "fr": "Super-dingloïde",
+   "en": "Tall dingloid"
+  },
+  "image": "https://dodo.ac/np/images/7/75/Tall_Dingloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-droploid",
+  "nom": {
+   "fr": "Super-pourproïde",
+   "en": "Tall droploid"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Tall_Droploid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-echoid",
+  "nom": {
+   "fr": "Super-échoïde",
+   "en": "Tall echoid"
+  },
+  "image": "https://dodo.ac/np/images/f/f8/Tall_Echoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-gargloid",
+  "nom": {
+   "fr": "Super-glouglouïde",
+   "en": "Tall gargloid"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Tall_Gargloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-gongoid",
+  "nom": {
+   "fr": "Super-gongoïde",
+   "en": "Tall gongoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c6/Tall_Gongoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-harmonoid",
+  "nom": {
+   "fr": "Super-harmonoïde",
+   "en": "Tall harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Tall_Harmonoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-lamentoid",
+  "nom": {
+   "fr": "Super-lamentoïde",
+   "en": "Tall lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Tall_Lamentoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-lullaboid",
+  "nom": {
+   "fr": "Super-berçoïde",
+   "en": "Tall lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Tall_Lullaboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-nebuloid",
+  "nom": {
+   "fr": "Super-nébuloïde",
+   "en": "Tall nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/8/80/Tall_Nebuloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-oboid",
+  "nom": {
+   "fr": "Super-oboïde",
+   "en": "Tall oboid"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Tall_Oboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-oombloid",
+  "nom": {
+   "fr": "Super-tamboïde",
+   "en": "Tall oombloid"
+  },
+  "image": "https://dodo.ac/np/images/3/3d/Tall_Oombloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-percoloid",
+  "nom": {
+   "fr": "Super-percoloïde",
+   "en": "Tall percoloid"
+  },
+  "image": "https://dodo.ac/np/images/8/8b/Tall_Percoloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-poltergoid",
+  "nom": {
+   "fr": "Super-spectroïde",
+   "en": "Tall poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Tall_Poltergoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-puffoid",
+  "nom": {
+   "fr": "Super-fumoïde",
+   "en": "Tall puffoid"
+  },
+  "image": "https://dodo.ac/np/images/8/8a/Tall_Puffoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-quazoid",
+  "nom": {
+   "fr": "Super-rayoïde",
+   "en": "Tall quazoid"
+  },
+  "image": "https://dodo.ac/np/images/d/d7/Tall_Quazoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-sproid",
+  "nom": {
+   "fr": "Super-jamoïde",
+   "en": "Tall sproid"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Tall_Sproid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-sputnoid",
+  "nom": {
+   "fr": "Super-postilloïde",
+   "en": "Tall sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Tall_Sputnoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-strumboid",
+  "nom": {
+   "fr": "Super-guitaroïde",
+   "en": "Tall strumboid"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Tall_Strumboid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot",
+   "Club LOL"
+  ]
+ },
+ {
+  "id": "tall-timpanoid",
+  "nom": {
+   "fr": "Super-timbaloïde",
+   "en": "Tall timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Tall_Timpanoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tall-warbloid",
+  "nom": {
+   "fr": "Super-guerroïde",
+   "en": "Tall warbloid"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Tall_Warbloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "timpanoid",
+  "nom": {
+   "fr": "Timbaloïde",
+   "en": "Timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Timpanoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "tootoid",
+  "nom": {
+   "fr": "Tuutoïde",
+   "en": "Tootoid"
+  },
+  "image": "https://dodo.ac/np/images/0/05/Tootoid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "warbloid",
+  "nom": {
+   "fr": "Guerroïde",
+   "en": "Warbloid"
+  },
+  "image": "https://dodo.ac/np/images/f/f4/Warbloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ },
+ {
+  "id": "wee-dingloid",
+  "nom": {
+   "fr": "Dingloïde minus",
+   "en": "Wee dingloid"
+  },
+  "image": "https://dodo.ac/np/images/9/9d/Wee_Dingloid_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "dig spot"
+  ]
+ }
+]

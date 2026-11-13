@@ -1,0 +1,1924 @@
+[
+ {
+  "id": "agent-kk",
+  "nom": {
+   "fr": "Agent Kéké",
+   "en": "Agent K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Keiji.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "aloha-kk",
+  "nom": {
+   "fr": "Ukulélé Kéké",
+   "en": "Aloha K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Aloha.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "animal-city",
+  "nom": {
+   "fr": "À nous la belle ville",
+   "en": "Animal City"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_DoubutuNoMachi.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K."
+  ],
+  "notes_source": "Hidden song - only by request",
+  "v": "1.0.0"
+ },
+ {
+  "id": "bubblegum-kk",
+  "nom": {
+   "fr": "Bubblegum Kéké",
+   "en": "Bubblegum K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Idol.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "cafe-kk",
+  "nom": {
+   "fr": "Kéké café",
+   "en": "Café K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Paris.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "chillwave",
+  "nom": {
+   "fr": "Chillwave Kéké",
+   "en": "Chillwave"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Chillwave.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "comrade-kk",
+  "nom": {
+   "fr": "Tovaritch Kéké",
+   "en": "Comrade K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_ShowaKayo.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "dj-kk",
+  "nom": {
+   "fr": "DJ Kéké",
+   "en": "DJ K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_EuroBeat.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "drivin",
+  "nom": {
+   "fr": "Sur la route",
+   "en": "Drivin'"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Drive.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K."
+  ],
+  "notes_source": "Hidden song - only by request",
+  "v": "1.0.0"
+ },
+ {
+  "id": "farewell",
+  "nom": {
+   "fr": "Adieux",
+   "en": "Farewell"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Sayonara.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K."
+  ],
+  "notes_source": "Hidden song - only by request",
+  "v": "1.0.0"
+ },
+ {
+  "id": "forest-life",
+  "nom": {
+   "fr": "Vie de forêt",
+   "en": "Forest Life"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_MoriNoSeikatsu.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "go-kk-rider",
+  "nom": {
+   "fr": "Kéké route 66",
+   "en": "Go K.K. Rider"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_KekeRider.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "hypno-kk",
+  "nom": {
+   "fr": "Psykéké",
+   "en": "Hypno K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_UtataneNoYume.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "i-love-you",
+  "nom": {
+   "fr": "Je vous aime",
+   "en": "I Love You"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Daisuki.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "imperial-kk",
+  "nom": {
+   "fr": "Kéké l'Empereur",
+   "en": "Imperial K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_China.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-adventure",
+  "nom": {
+   "fr": "Kéké star",
+   "en": "K.K. Adventure"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Hollywood.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-aria",
+  "nom": {
+   "fr": "Aria de Kéké",
+   "en": "K.K. Aria"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Maria.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-ballad",
+  "nom": {
+   "fr": "Ballade de Kéké",
+   "en": "K.K. Ballad"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Ballad.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-bashment",
+  "nom": {
+   "fr": "Dancehall Kéké",
+   "en": "K.K. Bashment"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Bashment.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-bazaar",
+  "nom": {
+   "fr": "Kéké bohême",
+   "en": "K.K. Bazaar"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Roma.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-birthday",
+  "nom": {
+   "fr": "Anniversaire Kéké",
+   "en": "K.K. Birthday"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_BirthdaySong.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K."
+  ],
+  "notes_source": "Received on your first time seeing K.K. perform during your birthday",
+  "evenement": "Birthday",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-blues",
+  "nom": {
+   "fr": "Kéké blues",
+   "en": "K.K. Blues"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Blues.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-bossa",
+  "nom": {
+   "fr": "Bossa de Kéké",
+   "en": "K.K. Bossa"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Bossa.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-break",
+  "nom": {
+   "fr": "Break Kéké",
+   "en": "K.K. Break"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Break.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-calypso",
+  "nom": {
+   "fr": "Calypso de Kéké",
+   "en": "K.K. Calypso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Caripso.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-casbah",
+  "nom": {
+   "fr": "Cheb Kéké",
+   "en": "K.K. Casbah"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Turkey.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-chorale",
+  "nom": {
+   "fr": "Chorale de Kéké",
+   "en": "K.K. Chorale"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Sanbika.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-chorinho",
+  "nom": {
+   "fr": "Chorinho Kéké",
+   "en": "K.K. Chorinho"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Choro.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-condor",
+  "nom": {
+   "fr": "El Condor Kéké",
+   "en": "K.K. Condor"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Peru.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-country",
+  "nom": {
+   "fr": "Country Kéké",
+   "en": "K.K. Country"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Country.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-cruisin",
+  "nom": {
+   "fr": "Kéké R&B",
+   "en": "K.K. Cruisin'"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Urban.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-d-and-b",
+  "nom": {
+   "fr": "Drum & bass Kéké",
+   "en": "K.K. D&B"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Drumnbass.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-dirge",
+  "nom": {
+   "fr": "Requiem de Kéké",
+   "en": "K.K. Dirge"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_KowaiUta.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-disco",
+  "nom": {
+   "fr": "Disco Kéké",
+   "en": "K.K. Disco"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Disco.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-dixie",
+  "nom": {
+   "fr": "Kéké Dixie",
+   "en": "K.K. Dixie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Dixie.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-dub",
+  "nom": {
+   "fr": "Dub Kéké",
+   "en": "K.K. Dub"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Dub.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-etude",
+  "nom": {
+   "fr": "Étude de Kéké",
+   "en": "K.K. Étude"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Etude.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-faire",
+  "nom": {
+   "fr": "Virelai Kéké",
+   "en": "K.K. Faire"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Haisai.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-flamenco",
+  "nom": {
+   "fr": "Flamenco Kéké",
+   "en": "K.K. Flamenco"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Flamenco.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-folk",
+  "nom": {
+   "fr": "Folk Kéké",
+   "en": "K.K. Folk"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Minyo.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-fugue",
+  "nom": {
+   "fr": "Fugue de Kéké",
+   "en": "K.K. Fugue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Fugue.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-fusion",
+  "nom": {
+   "fr": "Fusion Kéké",
+   "en": "K.K. Fusion"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Fusion.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-groove",
+  "nom": {
+   "fr": "Groove Kéké",
+   "en": "K.K. Groove"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Raregroove.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-gumbo",
+  "nom": {
+   "fr": "Gumbo Kéké",
+   "en": "K.K. Gumbo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_NewOrleans.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-hop",
+  "nom": {
+   "fr": "Rap de Kéké",
+   "en": "K.K. Hop"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Hiphop.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-house",
+  "nom": {
+   "fr": "Kéké House",
+   "en": "K.K. House"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_House.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-island",
+  "nom": {
+   "fr": "Kéké des îles",
+   "en": "K.K. Island"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_DoubutsuNoShima.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-jazz",
+  "nom": {
+   "fr": "Jazz de Kéké",
+   "en": "K.K. Jazz"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Jazz.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-jongara",
+  "nom": {
+   "fr": "Shamisen Kéké",
+   "en": "K.K. Jongara"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Jongara.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-khoomei",
+  "nom": {
+   "fr": "Khöömii Kéké",
+   "en": "K.K. Khoomei"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Khoomii.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-lament",
+  "nom": {
+   "fr": "Complainte Kéké",
+   "en": "K.K. Lament"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Enka.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-love-song",
+  "nom": {
+   "fr": "Romance Kéké",
+   "en": "K.K. Love Song"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_LoveSong.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-lovers",
+  "nom": {
+   "fr": "Romantique Kéké",
+   "en": "K.K. Lovers"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Lovers.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-lullaby",
+  "nom": {
+   "fr": "Berceuse de Kéké",
+   "en": "K.K. Lullaby"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Lullaby.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-mambo",
+  "nom": {
+   "fr": "Mambo de Kéké",
+   "en": "K.K. Mambo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Mambo.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-marathon",
+  "nom": {
+   "fr": "Kéké marathon",
+   "en": "K.K. Marathon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Gamelan.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-march",
+  "nom": {
+   "fr": "Marche de Kéké",
+   "en": "K.K. March"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_March.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-mariachi",
+  "nom": {
+   "fr": "Mariachi Kéké",
+   "en": "K.K. Mariachi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Senor.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-metal",
+  "nom": {
+   "fr": "Kéké metal",
+   "en": "K.K. Metal"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Metal.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-milonga",
+  "nom": {
+   "fr": "Milonga Kéké",
+   "en": "K.K. Milonga"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Milonga.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-moody",
+  "nom": {
+   "fr": "Slow Kéké",
+   "en": "K.K. Moody"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Bolero.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-oasis",
+  "nom": {
+   "fr": "Maharadjah Kéké",
+   "en": "K.K. Oasis"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Maharaja.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-parade",
+  "nom": {
+   "fr": "Kéké académie",
+   "en": "K.K. Parade"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Parade.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-polka",
+  "nom": {
+   "fr": "Polka de Kéké",
+   "en": "K.K. Polka"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Polka.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-ragtime",
+  "nom": {
+   "fr": "Ragtime Kéké",
+   "en": "K.K. Ragtime"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_RagTime.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-rally",
+  "nom": {
+   "fr": "Parade Kéké",
+   "en": "K.K. Rally"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Ondo.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-reggae",
+  "nom": {
+   "fr": "Reggae de Kéké",
+   "en": "K.K. Reggae"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Reggae.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-robot-synth",
+  "nom": {
+   "fr": "Cyber-Kéké",
+   "en": "K.K. Robot Synth"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Android.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-rock",
+  "nom": {
+   "fr": "Rock Kéké",
+   "en": "K.K. Rock"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Rock.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-rockabilly",
+  "nom": {
+   "fr": "Rockabilly Kéké",
+   "en": "K.K. Rockabilly"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_KekeBilly.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-safari",
+  "nom": {
+   "fr": "Ali Farka Kéké",
+   "en": "K.K. Safari"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Afro.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-salsa",
+  "nom": {
+   "fr": "Salsa de Kéké",
+   "en": "K.K. Salsa"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Salsa.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-samba",
+  "nom": {
+   "fr": "Samba de Kéké",
+   "en": "K.K. Samba"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Samba.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-ska",
+  "nom": {
+   "fr": "Ska Kéké",
+   "en": "K.K. Ska"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Ska.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-slack-key",
+  "nom": {
+   "fr": "Ki ho'alu Kéké",
+   "en": "K.K. Slack-Key"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Slackkey.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kk-sonata",
+  "nom": {
+   "fr": "Sonate Kéké",
+   "en": "K.K. Sonata"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Sonata.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-song",
+  "nom": {
+   "fr": "Rengaine de Kéké",
+   "en": "K.K. Song"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_KekeSong.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-soul",
+  "nom": {
+   "fr": "Soul de Kéké",
+   "en": "K.K. Soul"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Soul.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-steppe",
+  "nom": {
+   "fr": "Kéké balalaïka",
+   "en": "K.K. Steppe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Cossack.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-stroll",
+  "nom": {
+   "fr": "Flânerie Kéké",
+   "en": "K.K. Stroll"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Osanpo.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-swing",
+  "nom": {
+   "fr": "Swing de Kéké",
+   "en": "K.K. Swing"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Swing.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-synth",
+  "nom": {
+   "fr": "Synthé Kéké",
+   "en": "K.K. Synth"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Electronica.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-tango",
+  "nom": {
+   "fr": "Tango de Kéké",
+   "en": "K.K. Tango"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Tango.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-technopop",
+  "nom": {
+   "fr": "Technopop Kéké",
+   "en": "K.K. Technopop"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_TechnoBeat.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-waltz",
+  "nom": {
+   "fr": "Valse de Kéké",
+   "en": "K.K. Waltz"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Waltz.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "kk-western",
+  "nom": {
+   "fr": "Far West Kéké",
+   "en": "K.K. Western"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Western.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "king-kk",
+  "nom": {
+   "fr": "Kéké King",
+   "en": "King K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Daimyo.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "lucky-kk",
+  "nom": {
+   "fr": "Kéké le verni",
+   "en": "Lucky K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Irish.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "marine-song-2001",
+  "nom": {
+   "fr": "Chant marin",
+   "en": "Marine Song 2001"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_HunaUta2001.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "mountain-song",
+  "nom": {
+   "fr": "Chant montagnard",
+   "en": "Mountain Song"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Alpine.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "mr-kk",
+  "nom": {
+   "fr": "M. Kéké",
+   "en": "Mr. K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Sensei.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "my-place",
+  "nom": {
+   "fr": "Chez moi",
+   "en": "My Place"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_BokuNoBasho.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "neapolitan",
+  "nom": {
+   "fr": "Napolitaine",
+   "en": "Neapolitan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Napolitan.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "only-me",
+  "nom": {
+   "fr": "Moi et juste moi",
+   "en": "Only Me"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_OnlyMe.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "pondering",
+  "nom": {
+   "fr": "Réfléchir",
+   "en": "Pondering"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_KangaeChu.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "rockin-kk",
+  "nom": {
+   "fr": "Bouge avec Kéké",
+   "en": "Rockin' K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_RocknRoll.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "soulful-kk",
+  "nom": {
+   "fr": "Kéké soul",
+   "en": "Soulful K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Gospel.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "space-kk",
+  "nom": {
+   "fr": "Space Kéké",
+   "en": "Space K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Minimal.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "spring-blossoms",
+  "nom": {
+   "fr": "Floraison",
+   "en": "Spring Blossoms"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_HaruNoKomorebi.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"I feel good!\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "stale-cupcakes",
+  "nom": {
+   "fr": "Vieux biscuits",
+   "en": "Stale Cupcakes"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_BlueOnigiri.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "steep-hill",
+  "nom": {
+   "fr": "La pente",
+   "en": "Steep Hill"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_NiDanZaka.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "surfin-kk",
+  "nom": {
+   "fr": "Kéké à la plage",
+   "en": "Surfin' K.K."
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Eleki.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little grumpy...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "the-k-funk",
+  "nom": {
+   "fr": "Le Kéké Funk",
+   "en": "The K. Funk"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Funk.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "to-the-edge",
+  "nom": {
+   "fr": "Limite",
+   "en": "To the Edge"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_NamiNami.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"It's hard to say.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "two-days-ago",
+  "nom": {
+   "fr": "2 jours plus tôt",
+   "en": "Two Days Ago"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Ototoi.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"A little blue...\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "wandering",
+  "nom": {
+   "fr": "Errance",
+   "en": "Wandering"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_Horo.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K.",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Possible song K.K. will play when choosing \"Laid-back.\" as your mood",
+  "v": "1.0.0"
+ },
+ {
+  "id": "welcome-horizons",
+  "nom": {
+   "fr": "Horizons nouveaux",
+   "en": "Welcome Horizons"
+  },
+  "image": "https://nh-cdn.catalogue.ac/Audio/mjk_MainTheme.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Concert de K.K."
+  ],
+  "notes_source": "Received on your first time seeing K.K. perform",
+  "v": "1.0.0"
+ }
+]

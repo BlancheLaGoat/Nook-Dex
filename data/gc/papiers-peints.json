@@ -1,0 +1,1007 @@
+[
+ {
+  "id": "chic-wall",
+  "nom": {
+   "fr": "Mur chic",
+   "en": "Chic wall"
+  },
+  "image": "https://dodo.ac/np/images/6/69/Chic_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 490
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "classic-wall",
+  "nom": {
+   "fr": "Mur rustique",
+   "en": "Classic wall"
+  },
+  "image": "https://dodo.ac/np/images/d/dc/Classic_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 525
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "parlor-wall",
+  "nom": {
+   "fr": "Mur petit salon",
+   "en": "Parlor wall"
+  },
+  "image": "https://dodo.ac/np/images/f/f5/Parlor_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 280
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "stone-wall",
+  "nom": {
+   "fr": "Mur de pierre",
+   "en": "Stone wall"
+  },
+  "image": "https://dodo.ac/np/images/6/67/Stone_wall_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "blue-trim-wall",
+  "nom": {
+   "fr": "Mur frise bleue",
+   "en": "Blue-trim wall"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Blue-trim_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 355
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "plaster-wall",
+  "nom": {
+   "fr": "Mur en plâtre",
+   "en": "Plaster wall"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Plaster_wall_PG_Texture.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "classroom-wall",
+  "nom": {
+   "fr": "Mur bicolore",
+   "en": "Classroom wall"
+  },
+  "image": "https://dodo.ac/np/images/4/4a/Classroom_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "lovely-wall",
+  "nom": {
+   "fr": "Mur cæur",
+   "en": "Lovely wall"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Lovely_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 470
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "exotic-wall",
+  "nom": {
+   "fr": "Mur teck",
+   "en": "Exotic wall"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Exotic_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 355
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "mortar-wall",
+  "nom": {
+   "fr": "Mur mortier",
+   "en": "Mortar wall"
+  },
+  "image": "https://dodo.ac/np/images/b/b4/Mortar_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "gold-screen-wall",
+  "nom": {
+   "fr": "Mur paravent",
+   "en": "Gold screen wall"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Gold_screen_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 545
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "tea-room-wall",
+  "nom": {
+   "fr": "Mur salon de thé",
+   "en": "Tea room wall"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Tea_room_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 438
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "citrus-wall",
+  "nom": {
+   "fr": "Mur agrume",
+   "en": "Citrus wall"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Citrus_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 280
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "cabin-wall",
+  "nom": {
+   "fr": "Mur chalet",
+   "en": "Cabin wall"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Cabin_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 300
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "blue-tarp",
+  "nom": {
+   "fr": "Bâche bleue",
+   "en": "Blue tarp"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Blue_tarp_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "lunar-horizon",
+  "nom": {
+   "fr": "Décor lunaire",
+   "en": "Lunar horizon"
+  },
+  "image": "https://dodo.ac/np/images/d/d1/Lunar_horizon_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "garden-wall",
+  "nom": {
+   "fr": "Clôture bambous",
+   "en": "Garden wall"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Garden_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 400
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "spooky-wall",
+  "nom": {
+   "fr": "Mur halloween",
+   "en": "Spooky wall"
+  },
+  "image": "https://dodo.ac/np/images/2/2e/Spooky_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Halloween (Jack)"
+  ]
+ },
+ {
+  "id": "western-vista",
+  "nom": {
+   "fr": "Vue far west",
+   "en": "Western vista"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Western_vista_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "green-wall",
+  "nom": {
+   "fr": "Mur vert",
+   "en": "Green wall"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Green_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 263
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "blue-wall",
+  "nom": {
+   "fr": "Mur bleu",
+   "en": "Blue wall"
+  },
+  "image": "https://dodo.ac/np/images/4/4a/Blue_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 315
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "regal-wall",
+  "nom": {
+   "fr": "Mur royal",
+   "en": "Regal wall"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Regal_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 560
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "ranch-wall",
+  "nom": {
+   "fr": "Mur ranch",
+   "en": "Ranch wall"
+  },
+  "image": "https://dodo.ac/np/images/5/5b/Ranch_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 363
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "modern-wall",
+  "nom": {
+   "fr": "Mur moderne",
+   "en": "Modern wall"
+  },
+  "image": "https://dodo.ac/np/images/6/6a/Modern_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 363
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "cabana-wall",
+  "nom": {
+   "fr": "Mur rotin",
+   "en": "Cabana wall"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Cabana_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 370
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "snowman-wall",
+  "nom": {
+   "fr": "Mur Yétiti",
+   "en": "Snowman wall"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Snowman_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "backyard-fence",
+  "nom": {
+   "fr": "Clôture patio",
+   "en": "Backyard fence"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Backyard_fence_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "music-room-wall",
+  "nom": {
+   "fr": "Mur studio",
+   "en": "Music room wall"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Music_room_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "plaza-wall",
+  "nom": {
+   "fr": "Mur plaza",
+   "en": "Plaza wall"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Plaza_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 490
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "lattice-wall",
+  "nom": {
+   "fr": "Mur tonnelle",
+   "en": "Lattice wall"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Lattice_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 445
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "ornate-wall",
+  "nom": {
+   "fr": "Mur ornementé",
+   "en": "Ornate wall"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Ornate_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 395
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "modern-screen",
+  "nom": {
+   "fr": "Mur papier riz",
+   "en": "Modern screen"
+  },
+  "image": "https://dodo.ac/np/images/2/2e/Modern_screen_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 288
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "bamboo-wall",
+  "nom": {
+   "fr": "Mur en bambou",
+   "en": "Bamboo wall"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Bamboo_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 288
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "kitchen-wall",
+  "nom": {
+   "fr": "Rideau de perles",
+   "en": "Kitchen wall"
+  },
+  "image": "https://dodo.ac/np/images/6/6c/Kitchen_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 280
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "old-brick-wall",
+  "nom": {
+   "fr": "Mur de briques",
+   "en": "Old brick wall"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Old_brick_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 300
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "stately-wall",
+  "nom": {
+   "fr": "Mur ouvragé",
+   "en": "Stately wall"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Stately_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 613
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "imperial-wall",
+  "nom": {
+   "fr": "Mur Shogun",
+   "en": "Imperial wall"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Imperial_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 665
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "manor-wall",
+  "nom": {
+   "fr": "Mur de manoir",
+   "en": "Manor wall"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Manor_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 263
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "ivy-wall",
+  "nom": {
+   "fr": "Mur de lierre",
+   "en": "Ivy wall"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Ivy_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 313
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "mod-wall",
+  "nom": {
+   "fr": "Mur psyché",
+   "en": "Mod wall"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Mod_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 300
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "rose-wall",
+  "nom": {
+   "fr": "Mur de roses",
+   "en": "Rose wall"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Rose_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 560
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "wood-paneling",
+  "nom": {
+   "fr": "Mur en lambris",
+   "en": "Wood paneling"
+  },
+  "image": "https://dodo.ac/np/images/b/bf/Wood_paneling_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 330
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "concrete-wall",
+  "nom": {
+   "fr": "Mur en béton",
+   "en": "Concrete wall"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Concrete_wall_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "office-wall",
+  "nom": {
+   "fr": "Mur pro",
+   "en": "Office wall"
+  },
+  "image": "https://dodo.ac/np/images/3/38/Office_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "ancient-wall",
+  "nom": {
+   "fr": "Mur ancien",
+   "en": "Ancient wall"
+  },
+  "image": "https://dodo.ac/np/images/6/66/Ancient_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "exquisite-wall",
+  "nom": {
+   "fr": "Mur magnifique",
+   "en": "Exquisite wall"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Exquisite_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 368
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "sandlot-wall",
+  "nom": {
+   "fr": "Mur bac à sable",
+   "en": "Sandlot wall"
+  },
+  "image": "https://dodo.ac/np/images/0/0e/Sandlot_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "jingle-wall",
+  "nom": {
+   "fr": "Mur festif",
+   "en": "Jingle wall"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Jingle_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Jingle"
+  ]
+ },
+ {
+  "id": "meadow-vista",
+  "nom": {
+   "fr": "Vue prairie",
+   "en": "Meadow vista"
+  },
+  "image": "https://dodo.ac/np/images/2/20/Meadow_vista_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "tree-lined-wall",
+  "nom": {
+   "fr": "Rangée d'arbres",
+   "en": "Tree-lined wall"
+  },
+  "image": "https://dodo.ac/np/images/3/34/Tree-lined_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "mosaic-wall",
+  "nom": {
+   "fr": "Mur mosaïque",
+   "en": "Mosaic wall"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Mosaic_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 525
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "arched-window",
+  "nom": {
+   "fr": "Fenêtre cintrée",
+   "en": "Arched window"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Arched_window_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 538
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "basement-wall",
+  "nom": {
+   "fr": "Mur de cave",
+   "en": "Basement wall"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Basement_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "backgammon-wall",
+  "nom": {
+   "fr": "Mur backgammon",
+   "en": "Backgammon wall"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Backgammon_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "kiddie-wall",
+  "nom": {
+   "fr": "Mur crèche",
+   "en": "Kiddie wall"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Kiddie_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 375
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "shanty-wall",
+  "nom": {
+   "fr": "Mur baraquement",
+   "en": "Shanty wall"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Shanty_wall_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "industrial-wall",
+  "nom": {
+   "fr": "Mur d'usine",
+   "en": "Industrial wall"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Industrial_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "desert-vista",
+  "nom": {
+   "fr": "Vue désert",
+   "en": "Desert vista"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Desert_vista_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "library-wall",
+  "nom": {
+   "fr": "Bibliothèque",
+   "en": "Library wall"
+  },
+  "image": "https://dodo.ac/np/images/9/99/Library_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 420
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "floral-wall",
+  "nom": {
+   "fr": "Mur de fleurs",
+   "en": "Floral wall"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Floral_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 563
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "tropical-vista",
+  "nom": {
+   "fr": "Vue tropiques",
+   "en": "Tropical vista"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Tropical_vista_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "playroom-wall",
+  "nom": {
+   "fr": "Mur salle de jeu",
+   "en": "Playroom wall"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Playroom_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 330
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "kitschy-wall",
+  "nom": {
+   "fr": "Mur kitsch",
+   "en": "Kitschy wall"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Kitschy_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 310
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "groovy-wall",
+  "nom": {
+   "fr": "Mur groovy",
+   "en": "Groovy wall"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Groovy_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 320
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "mushroom-mural",
+  "nom": {
+   "fr": "Mur champignon",
+   "en": "Mushroom mural"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Mushroom_mural_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "Secret Code"
+  ]
+ },
+ {
+  "id": "ringside-seating",
+  "nom": {
+   "fr": "Gymnase",
+   "en": "Ringside seating"
+  },
+  "image": "https://dodo.ac/np/images/5/51/Ringside_seating_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Wendell / Wisp"
+  ]
+ },
+ {
+  "id": "harvest-wall",
+  "nom": {
+   "fr": "Mur vigne",
+   "en": "Harvest wall"
+  },
+  "image": "https://dodo.ac/np/images/5/58/Harvest_wall_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Harvest Festival"
+  ]
+ }
+]

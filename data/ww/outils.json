@@ -1,0 +1,243 @@
+[
+ {
+  "id": "axe",
+  "nom": {
+   "fr": "Hache",
+   "en": "Axe"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Axe_WW_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche",
+   "en": "Fishing rod"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Fishing_Rod_WW_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "golden-axe",
+  "nom": {
+   "fr": "Hache dorée",
+   "en": "Golden axe"
+  },
+  "image": "https://dodo.ac/np/images/7/72/Golden_Axe_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "golden-net",
+  "nom": {
+   "fr": "Filet doré",
+   "en": "Golden net"
+  },
+  "image": "https://dodo.ac/np/images/4/4b/Golden_Net_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "golden-rod",
+  "nom": {
+   "fr": "Canne dorée",
+   "en": "Golden rod"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Golden_Rod_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "golden-shovel",
+  "nom": {
+   "fr": "Pelle dorée",
+   "en": "Golden shovel"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Golden_Shovel_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "golden-slingshot",
+  "nom": {
+   "fr": "Lance-pierre or",
+   "en": "Golden slingshot"
+  },
+  "image": "https://dodo.ac/np/images/3/3a/Golden_Slingshot_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "balloon"
+  ]
+ },
+ {
+  "id": "golden-can",
+  "nom": {
+   "fr": "Arrosoir or",
+   "en": "Golden can"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Golden_Can_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Pelly",
+   "Phyllis"
+  ]
+ },
+ {
+  "id": "net",
+  "nom": {
+   "fr": "Filet",
+   "en": "Net"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Net_WW_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "party-popper",
+  "nom": {
+   "fr": "Chapeau festif",
+   "en": "Party popper"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Party_Popper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 30
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "roman-candle",
+  "nom": {
+   "fr": "Bougie",
+   "en": "Roman candle"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/Roman_Candle_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 30
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "shovel",
+  "nom": {
+   "fr": "Pelle",
+   "en": "Shovel"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Shovel_WW_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "slingshot",
+  "nom": {
+   "fr": "Lance-pierre",
+   "en": "Slingshot"
+  },
+  "image": "https://dodo.ac/np/images/b/bb/Slingshot_WW_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "sparkler",
+  "nom": {
+   "fr": "Cierge",
+   "en": "Sparkler"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/Roman_Candle_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 30
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "timer",
+  "nom": {
+   "fr": "Chrono",
+   "en": "Timer"
+  },
+  "image": "https://dodo.ac/np/images/e/e2/Timer_WW_Sprite.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "watering-can",
+  "nom": {
+   "fr": "Arrosoir",
+   "en": "Watering can"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Watering_Can_WW_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ }
+]

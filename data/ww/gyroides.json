@@ -1,0 +1,1907 @@
+[
+ {
+  "id": "bowtoid",
+  "nom": {
+   "fr": "Jazzoïde",
+   "en": "Bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Bowtoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "buzzoid",
+  "nom": {
+   "fr": "Bourdoïde",
+   "en": "Buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/2/29/Buzzoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "clankoid",
+  "nom": {
+   "fr": "Glingoïde",
+   "en": "Clankoid"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Clankoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "croakoid",
+  "nom": {
+   "fr": "Coassoïde",
+   "en": "Croakoid"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Croakoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "dekkoid",
+  "nom": {
+   "fr": "Pointoïde",
+   "en": "Dekkoid"
+  },
+  "image": "https://dodo.ac/np/images/5/56/Dekkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "dingloid",
+  "nom": {
+   "fr": "Dingloïde",
+   "en": "Dingloid"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Dingloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "drilloid",
+  "nom": {
+   "fr": "Perçoïde",
+   "en": "Drilloid"
+  },
+  "image": "https://dodo.ac/np/images/5/5b/Drilloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "gargloid",
+  "nom": {
+   "fr": "Glouglouïde",
+   "en": "Gargloid"
+  },
+  "image": "https://dodo.ac/np/images/8/8c/Gargloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "gongoid",
+  "nom": {
+   "fr": "Gongoïde",
+   "en": "Gongoid"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Gongoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "harmonoid",
+  "nom": {
+   "fr": "Harmonoïde",
+   "en": "Harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/e/e8/Harmonoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "howloid",
+  "nom": {
+   "fr": "Hurloïde",
+   "en": "Howloid"
+  },
+  "image": "https://dodo.ac/np/images/6/6b/Howloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "lamentoid",
+  "nom": {
+   "fr": "Lamentoïde",
+   "en": "Lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/b/bf/Lamentoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "lullaboid",
+  "nom": {
+   "fr": "Berçoïde",
+   "en": "Lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/9/98/Lullaboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-alloid",
+  "nom": {
+   "fr": "Méga-alloïde",
+   "en": "Mega alloid"
+  },
+  "image": "https://dodo.ac/np/images/1/1c/Mega_Alloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-bovoid",
+  "nom": {
+   "fr": "Méga-bovoïde",
+   "en": "Mega bovoid"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/Mega_Bovoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-bowtoid",
+  "nom": {
+   "fr": "Méga-jazzoïde",
+   "en": "Mega bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Mega_Bowtoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-buzzoid",
+  "nom": {
+   "fr": "Méga-bourdoïde",
+   "en": "Mega buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Mega_Buzzoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-clankoid",
+  "nom": {
+   "fr": "Méga-glingoïde",
+   "en": "Mega clankoid"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Mega_Clankoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-croakoid",
+  "nom": {
+   "fr": "Méga-coassoïde",
+   "en": "Mega croakoid"
+  },
+  "image": "https://dodo.ac/np/images/5/5c/Mega_Croakoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-dekkoid",
+  "nom": {
+   "fr": "Méga-pointoïde",
+   "en": "Mega dekkoid"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Mega_Dekkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-dingloid",
+  "nom": {
+   "fr": "Méga-dingloïde",
+   "en": "Mega dingloid"
+  },
+  "image": "https://dodo.ac/np/images/5/5c/Mega_Dingloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-dinkoid",
+  "nom": {
+   "fr": "Méga-roboïde",
+   "en": "Mega dinkoid"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Mega_Dinkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-drilloid",
+  "nom": {
+   "fr": "Méga-perçoïde",
+   "en": "Mega drilloid"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/Mega_Drilloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-echoid",
+  "nom": {
+   "fr": "Méga-échoïde",
+   "en": "Mega echoid"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Mega_Echoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-fizzoid",
+  "nom": {
+   "fr": "Méga-pétilloïde",
+   "en": "Mega fizzoid"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Mega_Fizzoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-freakoid",
+  "nom": {
+   "fr": "Méga-monstroïde",
+   "en": "Mega freakoid"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Mega_Freakoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-gongoid",
+  "nom": {
+   "fr": "Méga-gongoïde",
+   "en": "Mega gongoid"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Mega_Gongoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-harmonoid",
+  "nom": {
+   "fr": "Méga-harmonoïde",
+   "en": "Mega harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/Mega_Harmonoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-howloid",
+  "nom": {
+   "fr": "Méga-hurloïde",
+   "en": "Mega howloid"
+  },
+  "image": "https://dodo.ac/np/images/5/53/Mega_Howloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-lamentoid",
+  "nom": {
+   "fr": "Méga-lamentoïde",
+   "en": "Mega lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/a/ab/Mega_Lamentoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-lullaboid",
+  "nom": {
+   "fr": "Méga-berçoïde",
+   "en": "Mega lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Mega_Lullaboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-nebuloid",
+  "nom": {
+   "fr": "Méga-nébuloïde",
+   "en": "Mega nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Mega_Nebuloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-oboid",
+  "nom": {
+   "fr": "Méga-oboïde",
+   "en": "Mega oboid"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Mega_Oboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-oombloid",
+  "nom": {
+   "fr": "Méga-tamoïde",
+   "en": "Mega oombloid"
+  },
+  "image": "https://dodo.ac/np/images/5/5a/Mega_Oombloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-percoloid",
+  "nom": {
+   "fr": "Méga-percoloïde",
+   "en": "Mega percoloid"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Mega_Percoloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-plinkoid",
+  "nom": {
+   "fr": "Méga-plonkoïde",
+   "en": "Mega plinkoid"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Mega_Plinkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-poltergoid",
+  "nom": {
+   "fr": "Méga-spectroïde",
+   "en": "Mega poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Mega_Poltergoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-puffoid",
+  "nom": {
+   "fr": "Méga-fumoïde",
+   "en": "Mega puffoid"
+  },
+  "image": "https://dodo.ac/np/images/d/d7/Mega_Puffoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-quazoid",
+  "nom": {
+   "fr": "Méga-rayoïde",
+   "en": "Mega quazoid"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Mega_Quazoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-rustoid",
+  "nom": {
+   "fr": "Méga-rouilloïde",
+   "en": "Mega rustoid"
+  },
+  "image": "https://dodo.ac/np/images/5/5a/Mega_Rustoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-sproid",
+  "nom": {
+   "fr": "Méga-jamoïde",
+   "en": "Mega sproid"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Mega_Sproid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-sputnoid",
+  "nom": {
+   "fr": "Méga-postilloïde",
+   "en": "Mega sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Mega_Sputnoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-squelchoid",
+  "nom": {
+   "fr": "Méga-ploufoïde",
+   "en": "Mega squelchoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Mega_Squelchoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-strumboid",
+  "nom": {
+   "fr": "Méga-guitaroïde",
+   "en": "Mega strumboid"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Mega_Strumboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-timpanoid",
+  "nom": {
+   "fr": "Méga-timbaloïde",
+   "en": "Mega timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Mega_Timpanoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mega-tootoid",
+  "nom": {
+   "fr": "Méga-tuutoïde",
+   "en": "Mega tootoid"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Mega_Tootoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "metatoid",
+  "nom": {
+   "fr": "Métatoïde",
+   "en": "Metatoid"
+  },
+  "image": "https://dodo.ac/np/images/0/0f/Metatoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-alloid",
+  "nom": {
+   "fr": "Mini-alloïde",
+   "en": "Mini alloid"
+  },
+  "image": "https://dodo.ac/np/images/c/c5/Mini_Alloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-bowtoid",
+  "nom": {
+   "fr": "Mini-jazzoïde",
+   "en": "Mini bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Mini_Bowtoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-buzzoid",
+  "nom": {
+   "fr": "Mini-bourdoïde",
+   "en": "Mini buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Mini_Buzzoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-clankoid",
+  "nom": {
+   "fr": "Mini-glingoïde",
+   "en": "Mini clankoid"
+  },
+  "image": "https://dodo.ac/np/images/4/4a/Mini_Clankoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-croakoid",
+  "nom": {
+   "fr": "Mini-coassoïde",
+   "en": "Mini croakoid"
+  },
+  "image": "https://dodo.ac/np/images/f/f9/Mini_Croakoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-dekkoid",
+  "nom": {
+   "fr": "Mini-pointoïde",
+   "en": "Mini dekkoid"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Mini_Dekkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-dingloid",
+  "nom": {
+   "fr": "Mini-dingloïde",
+   "en": "Mini dingloid"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Mini_Dingloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-dinkoid",
+  "nom": {
+   "fr": "Mini-roboïde",
+   "en": "Mini dinkoid"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Mini_Dinkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-drilloid",
+  "nom": {
+   "fr": "Mini-perçoïde",
+   "en": "Mini drilloid"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Mini_Drilloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-echoid",
+  "nom": {
+   "fr": "Mini-échoïde",
+   "en": "Mini echoid"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/Mini_Echoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-fizzoid",
+  "nom": {
+   "fr": "Mini-pétilloïde",
+   "en": "Mini fizzoid"
+  },
+  "image": "https://dodo.ac/np/images/8/86/Mini_Fizzoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-freakoid",
+  "nom": {
+   "fr": "Mini-monstroïde",
+   "en": "Mini freakoid"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Mini_Freakoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-gargloid",
+  "nom": {
+   "fr": "Mini-glouglouïde",
+   "en": "Mini gargloid"
+  },
+  "image": "https://dodo.ac/np/images/f/f4/Mini_Gargloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-gongoid",
+  "nom": {
+   "fr": "Mini-gongoïde",
+   "en": "Mini gongoid"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Mini_Gongoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-harmonoid",
+  "nom": {
+   "fr": "Mini-harmonoïde",
+   "en": "Mini harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/8/80/Mini_Harmonoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-howloid",
+  "nom": {
+   "fr": "Mini-hurloïde",
+   "en": "Mini howloid"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Mini_Howloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-lamentoid",
+  "nom": {
+   "fr": "Mini-lamentoïde",
+   "en": "Mini lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Mini_Lamentoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-lullaboid",
+  "nom": {
+   "fr": "Mini-berçoïde",
+   "en": "Mini lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Mini_Lullaboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-metatoid",
+  "nom": {
+   "fr": "Mini-métatoïde",
+   "en": "Mini metatoid"
+  },
+  "image": "https://dodo.ac/np/images/3/34/Mini_Metatoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-nebuloid",
+  "nom": {
+   "fr": "Mini-nébuloïde",
+   "en": "Mini nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/f/fe/Mini_Nebuloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-oombloid",
+  "nom": {
+   "fr": "Mini-tamoïde",
+   "en": "Mini oombloid"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Mini_Oombloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-plinkoid",
+  "nom": {
+   "fr": "Mini-plonkoïde",
+   "en": "Mini plinkoid"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Mini_Plinkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-poltergoid",
+  "nom": {
+   "fr": "Mini-spectroïde",
+   "en": "Mini poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Mini_Poltergoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-puffoid",
+  "nom": {
+   "fr": "Mini-fumoïde",
+   "en": "Mini puffoid"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Mini_Puffoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-quazoid",
+  "nom": {
+   "fr": "Mini-rayoïde",
+   "en": "Mini quazoid"
+  },
+  "image": "https://dodo.ac/np/images/f/fa/Mini_Quazoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-rhythmoid",
+  "nom": {
+   "fr": "Mini-rythmoïde",
+   "en": "Mini rhythmoid"
+  },
+  "image": "https://dodo.ac/np/images/f/f2/Mini_Rhythmoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-rustoid",
+  "nom": {
+   "fr": "Mini-rouilloïde",
+   "en": "Mini rustoid"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Mini_Rustoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-sproid",
+  "nom": {
+   "fr": "Mini-jamoïde",
+   "en": "Mini sproid"
+  },
+  "image": "https://dodo.ac/np/images/f/f2/Mini_Sproid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-sputnoid",
+  "nom": {
+   "fr": "Mini-postilloïde",
+   "en": "Mini sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c0/Mini_Sputnoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-squelchoid",
+  "nom": {
+   "fr": "Mini-ploufoïde",
+   "en": "Mini squelchoid"
+  },
+  "image": "https://dodo.ac/np/images/f/ff/Mini_Squelchoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-strumboid",
+  "nom": {
+   "fr": "Mini-guitaroïde",
+   "en": "Mini strumboid"
+  },
+  "image": "https://dodo.ac/np/images/1/17/Mini_Strumboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-timpanoid",
+  "nom": {
+   "fr": "Mini-timbaloïde",
+   "en": "Mini timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/8/8a/Mini_Timpanoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-tootoid",
+  "nom": {
+   "fr": "Mini-tuutoïde",
+   "en": "Mini tootoid"
+  },
+  "image": "https://dodo.ac/np/images/f/fe/Mini_Tootoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "mini-warbloid",
+  "nom": {
+   "fr": "Mini-guerroïde",
+   "en": "Mini warbloid"
+  },
+  "image": "https://dodo.ac/np/images/9/9a/Mini_Warbloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "nebuloid",
+  "nom": {
+   "fr": "Nébuloïde",
+   "en": "Nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Nebuloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "oboid",
+  "nom": {
+   "fr": "Oboïde",
+   "en": "Oboid"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Oboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "oombloid",
+  "nom": {
+   "fr": "Tamboïde",
+   "en": "Oombloid"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/Oombloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "plinkoid",
+  "nom": {
+   "fr": "Plonkoïde",
+   "en": "Plinkoid"
+  },
+  "image": "https://dodo.ac/np/images/1/15/Plinkoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "poltergoid",
+  "nom": {
+   "fr": "Spectroïde",
+   "en": "Poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/2/2d/Poltergoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "quazoid",
+  "nom": {
+   "fr": "Rayoïde",
+   "en": "Quazoid"
+  },
+  "image": "https://dodo.ac/np/images/3/3d/Quazoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "rhythmoid",
+  "nom": {
+   "fr": "Rythmoïde",
+   "en": "Rhythmoid"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Rhythmoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "rustoid",
+  "nom": {
+   "fr": "Rouilloïde",
+   "en": "Rustoid"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Rustoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "slim-nebuloid",
+  "nom": {
+   "fr": "Nebuloïde menu",
+   "en": "Slim nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Slim_Nebuloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "slim-quazoid",
+  "nom": {
+   "fr": "Rayoïde menu",
+   "en": "Slim quazoid"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Slim_Quazoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "sproid",
+  "nom": {
+   "fr": "Jamoïde",
+   "en": "Sproid"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Sproid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "sputnoid",
+  "nom": {
+   "fr": "Postilloïde",
+   "en": "Sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Sputnoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "squat-dingloid",
+  "nom": {
+   "fr": "Dingloïde trapu",
+   "en": "Squat dingloid"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Squat_Dingloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "squat-nebuloid",
+  "nom": {
+   "fr": "Nébuloïde trapu",
+   "en": "Squat nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/b/b2/Squat_Nebuloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "squelchoid",
+  "nom": {
+   "fr": "Ploufoïde",
+   "en": "Squelchoid"
+  },
+  "image": "https://dodo.ac/np/images/5/53/Squelchoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "strumboid",
+  "nom": {
+   "fr": "Guitaroïde",
+   "en": "Strumboid"
+  },
+  "image": "https://dodo.ac/np/images/9/97/Strumboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-alloid",
+  "nom": {
+   "fr": "Super-alloïde",
+   "en": "Tall alloid"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/Tall_Alloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-bovoid",
+  "nom": {
+   "fr": "Super-bovoïde",
+   "en": "Tall bovoid"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Tall_Bovoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-bowtoid",
+  "nom": {
+   "fr": "Super-jazzoïde",
+   "en": "Tall bowtoid"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Tall_Bowtoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-buzzoid",
+  "nom": {
+   "fr": "Super-bourdoïde",
+   "en": "Tall buzzoid"
+  },
+  "image": "https://dodo.ac/np/images/6/6c/Tall_Buzzoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-clankoid",
+  "nom": {
+   "fr": "Super-glingoïde",
+   "en": "Tall clankoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Tall_Clankoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-croakoid",
+  "nom": {
+   "fr": "Super-coassoïde",
+   "en": "Tall croakoid"
+  },
+  "image": "https://dodo.ac/np/images/7/7e/Tall_Croakoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-dingloid",
+  "nom": {
+   "fr": "Super-dingloïde",
+   "en": "Tall dingloid"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Tall_Dingloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-droploid",
+  "nom": {
+   "fr": "Super-pourproïde",
+   "en": "Tall droploid"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Tall_Droploid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-echoid",
+  "nom": {
+   "fr": "Super-échoïde",
+   "en": "Tall echoid"
+  },
+  "image": "https://dodo.ac/np/images/1/16/Tall_Echoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-gargloid",
+  "nom": {
+   "fr": "Superglouglouïde",
+   "en": "Tall gargloid"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Tall_Gargloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-gongoid",
+  "nom": {
+   "fr": "Super-gongoïde",
+   "en": "Tall gongoid"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Tall_Gongoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-harmonoid",
+  "nom": {
+   "fr": "Super-harmonoïde",
+   "en": "Tall harmonoid"
+  },
+  "image": "https://dodo.ac/np/images/9/95/Tall_Harmonoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-lamentoid",
+  "nom": {
+   "fr": "Super-lamentoïde",
+   "en": "Tall lamentoid"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Tall_Lamentoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-lullaboid",
+  "nom": {
+   "fr": "Super-berçoïde",
+   "en": "Tall lullaboid"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Tall_Lullaboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-nebuloid",
+  "nom": {
+   "fr": "Super-nébuloïde",
+   "en": "Tall nebuloid"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Tall_Nebuloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-oboid",
+  "nom": {
+   "fr": "Super-oboïde",
+   "en": "Tall oboid"
+  },
+  "image": "https://dodo.ac/np/images/6/6a/Tall_Oboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-oombloid",
+  "nom": {
+   "fr": "Super-tamoïde",
+   "en": "Tall oombloid"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Tall_Oombloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-percoloid",
+  "nom": {
+   "fr": "Super-percoloïde",
+   "en": "Tall percoloid"
+  },
+  "image": "https://dodo.ac/np/images/3/3a/Tall_Percoloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-poltergoid",
+  "nom": {
+   "fr": "Super-spectroïde",
+   "en": "Tall poltergoid"
+  },
+  "image": "https://dodo.ac/np/images/d/d4/Tall_Poltergoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-puffoid",
+  "nom": {
+   "fr": "Super-fumoïde",
+   "en": "Tall puffoid"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Tall_Puffoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-quazoid",
+  "nom": {
+   "fr": "Super-rayoïde",
+   "en": "Tall quazoid"
+  },
+  "image": "https://dodo.ac/np/images/d/d1/Tall_Quazoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-sproid",
+  "nom": {
+   "fr": "Super-jamoïde",
+   "en": "Tall sproid"
+  },
+  "image": "https://dodo.ac/np/images/b/b4/Tall_Sproid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-sputnoid",
+  "nom": {
+   "fr": "Superpostilloïde",
+   "en": "Tall sputnoid"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Tall_Sputnoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-strumboid",
+  "nom": {
+   "fr": "Super-guitaroïde",
+   "en": "Tall strumboid"
+  },
+  "image": "https://dodo.ac/np/images/d/d5/Tall_Strumboid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-timpanoid",
+  "nom": {
+   "fr": "Super-timbaloïde",
+   "en": "Tall timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Tall_Timpanoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tall-warbloid",
+  "nom": {
+   "fr": "Super-guerroïde",
+   "en": "Tall warbloid"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Tall_Warbloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "timpanoid",
+  "nom": {
+   "fr": "Timbaloïde",
+   "en": "Timpanoid"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Timpanoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "tootoid",
+  "nom": {
+   "fr": "Tuutoïde",
+   "en": "Tootoid"
+  },
+  "image": "https://dodo.ac/np/images/c/c5/Tootoid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "warbloid",
+  "nom": {
+   "fr": "Guerroïde",
+   "en": "Warbloid"
+  },
+  "image": "https://dodo.ac/np/images/d/d6/Warbloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ },
+ {
+  "id": "wee-dingloid",
+  "nom": {
+   "fr": "Dingloïde minus",
+   "en": "Wee dingloid"
+  },
+  "image": "https://dodo.ac/np/images/d/d4/Wee_Dingloid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 828
+  },
+  "sources": [
+   "Trou à creuser"
+  ]
+ }
+]

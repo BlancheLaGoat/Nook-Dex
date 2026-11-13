@@ -1,0 +1,2641 @@
+[
+ {
+  "id": "common-butterfly",
+  "nom": {
+   "fr": "Papillon commun",
+   "en": "Common butterfly"
+  },
+  "n": 1,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Papillon%20commun.png",
+  "espece": "common-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 90
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "yellow-butterfly",
+  "nom": {
+   "fr": "Brocatelle d'or",
+   "en": "Yellow butterfly"
+  },
+  "n": 2,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Papillon%20jaune.png",
+  "espece": "yellow-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 90
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "tiger-butterfly",
+  "nom": {
+   "fr": "Machaon",
+   "en": "Tiger butterfly"
+  },
+  "n": 3,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Machaon.png",
+  "espece": "tiger-butterfly",
+  "lieu": "vole-pres-des-fleurs-rouges-et-roses",
+  "lieu_texte": "Vole près des fleurs rouges et roses",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "peacock",
+  "nom": {
+   "fr": "Papillon paon",
+   "en": "Peacock"
+  },
+  "n": 4,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Papillon%20paon.png",
+  "espece": "peacock",
+  "lieu": "vole-pres-des-fleurs-bleues-violettes-et-noires",
+  "lieu_texte": "Vole près des fleurs bleues, violettes et noires",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 220
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "monarch",
+  "nom": {
+   "fr": "Monarque",
+   "en": "Monarch"
+  },
+  "n": 5,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Monarque.png",
+  "espece": "monarch",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 140
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "emperor",
+  "nom": {
+   "fr": "Empereur",
+   "en": "Emperor"
+  },
+  "n": 6,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Empereur.png",
+  "espece": "emperor",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "agrias-butterfly",
+  "nom": {
+   "fr": "Agrias",
+   "en": "Agrias butterfly"
+  },
+  "n": 7,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Agrias.png",
+  "espece": "agrias-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "raja-brooke",
+  "nom": {
+   "fr": "Brookiana",
+   "en": "Raja Brooke"
+  },
+  "n": 8,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Brookiana.png",
+  "espece": "raja-brooke",
+  "lieu": "pres-de-leau-douce",
+  "lieu_texte": "Près de l'eau douce",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "birdwing",
+  "nom": {
+   "fr": "Ornithoptère",
+   "en": "Birdwing"
+  },
+  "n": 9,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Ornithopt%C3%A8re.png",
+  "espece": "birdwing",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "moth",
+  "nom": {
+   "fr": "Cécropia",
+   "en": "Moth"
+  },
+  "n": 10,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/C%C3%A9cropia.png",
+  "espece": "moth",
+  "lieu": "vole-pres-des-lumieres",
+  "lieu_texte": "Vole près des lumières",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 60
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "oak-silk-moth",
+  "nom": {
+   "fr": "Saturnide",
+   "en": "Oak silk moth"
+  },
+  "n": 11,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Saturnide.png",
+  "espece": "oak-silk-moth",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "honeybee",
+  "nom": {
+   "fr": "Abeille naine",
+   "en": "Honeybee"
+  },
+  "n": 12,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Abeille%20naine.png",
+  "espece": "honeybee",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "bee",
+  "nom": {
+   "fr": "Abeille",
+   "en": "Bee"
+  },
+  "n": 13,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Abeille.png",
+  "espece": "bee",
+  "lieu": "en-secouant-les-arbres",
+  "lieu_texte": "En secouant les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true
+ },
+ {
+  "id": "long-locust",
+  "nom": {
+   "fr": "Criquet",
+   "en": "Long locust"
+  },
+  "n": 14,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Criquet.png",
+  "espece": "long-locust",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "migratory-locust",
+  "nom": {
+   "fr": "Criquet pèlerin",
+   "en": "Migratory locust"
+  },
+  "n": 15,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Criquet%20p%C3%A8lerin.png",
+  "espece": "migratory-locust",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "mantis",
+  "nom": {
+   "fr": "Mante religieuse",
+   "en": "Mantis"
+  },
+  "n": 16,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Mante%20religieuse.png",
+  "espece": "mantis",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "orchid-mantis",
+  "nom": {
+   "fr": "Mante orchidée",
+   "en": "Orchid mantis"
+  },
+  "n": 17,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Mante%20orchid%C3%A9e.png",
+  "espece": "orchid-mantis",
+  "lieu": "sur-les-fleurs-blanches",
+  "lieu_texte": "Sur les fleurs blanches",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2400
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "brown-cicada",
+  "nom": {
+   "fr": "Cercope",
+   "en": "Brown cicada"
+  },
+  "n": 18,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cercope.png",
+  "espece": "brown-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "robust-cicada",
+  "nom": {
+   "fr": "Cigale",
+   "en": "Robust cicada"
+  },
+  "n": 19,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cigale.png",
+  "espece": "robust-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "walker-cicada",
+  "nom": {
+   "fr": "Cicadelle",
+   "en": "Walker cicada"
+  },
+  "n": 20,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cicadelle.png",
+  "espece": "walker-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "evening-cicada",
+  "nom": {
+   "fr": "Criquet du soir",
+   "en": "Evening cicada"
+  },
+  "n": 21,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Criquet%20du%20soir.png",
+  "espece": "evening-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       16,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 550
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "lantern-fly",
+  "nom": {
+   "fr": "Lanternaria",
+   "en": "Lantern fly"
+  },
+  "n": 22,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Lanternaria.png",
+  "espece": "lantern-fly",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       19
+      ],
+      [
+       23,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "red-dragonfly",
+  "nom": {
+   "fr": "Demoiselle",
+   "en": "Red dragonfly"
+  },
+  "n": 23,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Demoiselle.png",
+  "espece": "red-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "darner-dragonfly",
+  "nom": {
+   "fr": "Caloptéryx",
+   "en": "Darner dragonfly"
+  },
+  "n": 24,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Calopt%C3%A9ryx.png",
+  "espece": "darner-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "banded-dragonfly",
+  "nom": {
+   "fr": "Cordulégastre",
+   "en": "Banded dragonfly"
+  },
+  "n": 25,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cordul%C3%A9gastre.png",
+  "espece": "banded-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "giant-petaltail",
+  "nom": {
+   "fr": "Libellule géante",
+   "en": "Giant Petaltail"
+  },
+  "n": 26,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Libellule%20g%C3%A9ante.png",
+  "espece": "giant-petaltail",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       17,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "ant",
+  "nom": {
+   "fr": "Fourmi",
+   "en": "Ant"
+  },
+  "n": 27,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Fourmi.png",
+  "espece": "ant",
+  "lieu": "sur-les-navets-pourris-ou-les-bonbons",
+  "lieu_texte": "Sur les navets pourris ou les bonbons",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true
+ },
+ {
+  "id": "pondskater",
+  "nom": {
+   "fr": "Patineur",
+   "en": "Pondskater"
+  },
+  "n": 28,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Patineur.png",
+  "espece": "pondskater",
+  "lieu": "sur-les-rivieres-et-les-etangs",
+  "lieu_texte": "Sur les rivières et les étangs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "diving-beetle",
+  "nom": {
+   "fr": "Dytique",
+   "en": "Diving beetle"
+  },
+  "n": 29,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Dytique.png",
+  "espece": "diving-beetle",
+  "lieu": "sur-les-rivieres-et-les-etangs",
+  "lieu_texte": "Sur les rivières et les étangs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "snail",
+  "nom": {
+   "fr": "Escargot",
+   "en": "Snail"
+  },
+  "n": 30,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Escargot.png",
+  "espece": "snail",
+  "lieu": "sur-les-fleurs-quand-il-pleut",
+  "lieu_texte": "Sur les fleurs (quand il pleut)",
+  "conditions": [
+   "pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "cricket",
+  "nom": {
+   "fr": "Grillon des prés",
+   "en": "Cricket"
+  },
+  "n": 31,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Grillon%20des%20pr%C3%A9s.png",
+  "espece": "cricket",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "bell-cricket",
+  "nom": {
+   "fr": "Grillon du Midi",
+   "en": "Bell cricket"
+  },
+  "n": 32,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Grillon%20du%20midi.png",
+  "espece": "bell-cricket",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "grasshopper",
+  "nom": {
+   "fr": "Sauterelle",
+   "en": "Grasshopper"
+  },
+  "n": 33,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Sauterelle.png",
+  "espece": "grasshopper",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       16,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "mole-cricket",
+  "nom": {
+   "fr": "Taupe-grillon",
+   "en": "Mole cricket"
+  },
+  "n": 34,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Taupe-grillon.png",
+  "espece": "mole-cricket",
+  "lieu": "sous-terre",
+  "lieu_texte": "Sous terre",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 280
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "walking-leaf",
+  "nom": {
+   "fr": "Phyllie",
+   "en": "Walking leaf"
+  },
+  "n": 35,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Phyllie.png",
+  "espece": "walking-leaf",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "walkingstick",
+  "nom": {
+   "fr": "Phasme",
+   "en": "Walkingstick"
+  },
+  "n": 36,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Phasme.png",
+  "espece": "walkingstick",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       17,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "bagworm",
+  "nom": {
+   "fr": "Psyché",
+   "en": "Bagworm"
+  },
+  "n": 37,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Psych%C3%A9.png",
+  "espece": "bagworm",
+  "lieu": "en-secouant-les-arbres-feuillus-et-cedres",
+  "lieu_texte": "En secouant les arbres (feuillus et cèdres)",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      10
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "ladybug",
+  "nom": {
+   "fr": "Coccinelle",
+   "en": "Ladybug"
+  },
+  "n": 38,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Coccinelle.png",
+  "espece": "ladybug",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "violin-beetle",
+  "nom": {
+   "fr": "Mormolyce",
+   "en": "Violin beetle"
+  },
+  "n": 39,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Mormolyce.png",
+  "espece": "violin-beetle",
+  "lieu": "sur-les-souches",
+  "lieu_texte": "Sur les souches",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 260
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "longhorn-beetle",
+  "nom": {
+   "fr": "Longicorne",
+   "en": "Longhorn beetle"
+  },
+  "n": 40,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Longicorne.png",
+  "espece": "longhorn-beetle",
+  "lieu": "sur-les-souches",
+  "lieu_texte": "Sur les souches",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 260
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "dung-beetle",
+  "nom": {
+   "fr": "Bousier",
+   "en": "Dung beetle"
+  },
+  "n": 41,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Bousier.png",
+  "espece": "dung-beetle",
+  "lieu": "en-poussant-les-boules-de-neige",
+  "lieu_texte": "En poussant les boules de neige",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "firefly",
+  "nom": {
+   "fr": "Luciole",
+   "en": "Firefly"
+  },
+  "n": 42,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Luciole.png",
+  "espece": "firefly",
+  "lieu": "vole-pres-de-leau-douce",
+  "lieu_texte": "Vole près de l'eau douce",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "fruit-beetle",
+  "nom": {
+   "fr": "Nitidule",
+   "en": "Fruit beetle"
+  },
+  "n": 43,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Nitidule.png",
+  "espece": "fruit-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "scarab-beetle",
+  "nom": {
+   "fr": "Scarabée",
+   "en": "Scarab beetle"
+  },
+  "n": 44,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e.png",
+  "espece": "scarab-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "jewel-beetle",
+  "nom": {
+   "fr": "Bupreste",
+   "en": "Jewel beetle"
+  },
+  "n": 45,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Bupreste.png",
+  "espece": "jewel-beetle",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2400
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "miyama-stag-beetle",
+  "nom": {
+   "fr": "Cervus",
+   "en": "Miyama Stag Beetle"
+  },
+  "n": 46,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cervus.png",
+  "espece": "miyama-stag-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true
+ },
+ {
+  "id": "saw-stag-beetle",
+  "nom": {
+   "fr": "Lucane",
+   "en": "Saw Stag Beetle"
+  },
+  "n": 47,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Lucane.png",
+  "espece": "saw-stag-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "giant-beetle",
+  "nom": {
+   "fr": "Cerf-volant",
+   "en": "Giant beetle"
+  },
+  "n": 48,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cerf-volant.png",
+  "espece": "giant-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "rainbow-stag",
+  "nom": {
+   "fr": "Copris irisé",
+   "en": "Rainbow stag"
+  },
+  "n": 49,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Copris%20iris%C3%A9.png",
+  "espece": "rainbow-stag",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "cyclommatus",
+  "nom": {
+   "fr": "Cyclommatus",
+   "en": "Cyclommatus"
+  },
+  "n": 50,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cyclommatus.png",
+  "espece": "cyclommatus",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "golden-stag",
+  "nom": {
+   "fr": "Lamprima aurata",
+   "en": "Golden stag"
+  },
+  "n": 51,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Lamprima%20Aurata.png",
+  "espece": "golden-stag",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "atlas-beetle",
+  "nom": {
+   "fr": "Scarabée Atlas",
+   "en": "Atlas beetle"
+  },
+  "n": 52,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e%20Atlas.png",
+  "espece": "atlas-beetle",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "dynastid-beetle",
+  "nom": {
+   "fr": "Hanneton",
+   "en": "Dynastid beetle"
+  },
+  "n": 52,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Hanneton.png",
+  "espece": "dynastid-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1350
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "elephant-beetle",
+  "nom": {
+   "fr": "Scarab. éléphant",
+   "en": "Elephant beetle"
+  },
+  "n": 54,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e%20El%C3%A9phant.png",
+  "espece": "elephant-beetle",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "hercules-beetle",
+  "nom": {
+   "fr": "Scarabée Hercule",
+   "en": "Hercules beetle"
+  },
+  "n": 55,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e%20Hercule.png",
+  "espece": "hercules-beetle",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "goliath-beetle",
+  "nom": {
+   "fr": "Scarabée Goliath",
+   "en": "Goliath beetle"
+  },
+  "n": 56,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scarab%C3%A9e%20Goliath.png",
+  "espece": "goliath-beetle",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "flea",
+  "nom": {
+   "fr": "Puce",
+   "en": "Flea"
+  },
+  "n": 57,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Puce.png",
+  "espece": "flea",
+  "lieu": "sur-les-habitants",
+  "lieu_texte": "Sur les habitants",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 70
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "pill-bug",
+  "nom": {
+   "fr": "Cloporte",
+   "en": "Pill bug"
+  },
+  "n": 58,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Cloporte.png",
+  "espece": "pill-bug",
+  "lieu": "en-frappant-les-rochers",
+  "lieu_texte": "En frappant les rochers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "mosquito",
+  "nom": {
+   "fr": "Moustique",
+   "en": "Mosquito"
+  },
+  "n": 59,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Moustique.png",
+  "espece": "mosquito",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       17,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "fly",
+  "nom": {
+   "fr": "Mouche",
+   "en": "Fly"
+  },
+  "n": 60,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Mouche.png",
+  "espece": "fly",
+  "lieu": "vole-pres-des-rafflesias-des-dechets-ou-des-navets-pourris",
+  "lieu_texte": "Vole près des rafflésias, des déchets ou des navets pourris",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 60
+  },
+  "musee": true
+ },
+ {
+  "id": "centipede",
+  "nom": {
+   "fr": "Mille-pattes",
+   "en": "Centipede"
+  },
+  "n": 61,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Mille-pattes.png",
+  "espece": "centipede",
+  "lieu": "en-frappant-les-rochers",
+  "lieu_texte": "En frappant les rochers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       23
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "spider",
+  "nom": {
+   "fr": "Araignée",
+   "en": "Spider"
+  },
+  "n": 62,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Araign%C3%A9e.png",
+  "espece": "spider",
+  "lieu": "en-secouant-les-arbres",
+  "lieu_texte": "En secouant les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    },
+    {
+     "mois": [
+      10
+     ],
+     "heures": [
+      [
+       23,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "tarantula",
+  "nom": {
+   "fr": "Tarentule",
+   "en": "Tarantula"
+  },
+  "n": 63,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Tarentule.png",
+  "espece": "tarantula",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "scorpion",
+  "nom": {
+   "fr": "Scorpion",
+   "en": "Scorpion"
+  },
+  "n": 64,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/insectes/Scorpion.png",
+  "espece": "scorpion",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ }
+]

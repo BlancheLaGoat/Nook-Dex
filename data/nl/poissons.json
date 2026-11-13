@@ -1,0 +1,2922 @@
+[
+ {
+  "id": "bitterling",
+  "nom": {
+   "fr": "Bouvière",
+   "en": "Bitterling"
+  },
+  "n": 1,
+  "image": "https://dodo.ac/np/images/thumb/d/dd/Bitterling_NL_Model.png/128px-Bitterling_NL_Model.png",
+  "espece": "bitterling",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 900
+  },
+  "musee": true
+ },
+ {
+  "id": "pale-chub",
+  "nom": {
+   "fr": "Chevaine",
+   "en": "Pale chub"
+  },
+  "n": 2,
+  "image": "https://dodo.ac/np/images/thumb/d/de/Pale_Chub_NL_Model.png/128px-Pale_Chub_NL_Model.png",
+  "espece": "pale-chub",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "crucian-carp",
+  "nom": {
+   "fr": "Carassin",
+   "en": "Crucian carp"
+  },
+  "n": 3,
+  "image": "https://dodo.ac/np/images/thumb/1/13/Crucian_Carp_NL_Model.png/128px-Crucian_Carp_NL_Model.png",
+  "espece": "crucian-carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true
+ },
+ {
+  "id": "dace",
+  "nom": {
+   "fr": "Vandoise",
+   "en": "Dace"
+  },
+  "n": 4,
+  "image": "https://dodo.ac/np/images/thumb/e/ea/Dace_NL_Model.png/128px-Dace_NL_Model.png",
+  "espece": "dace",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "barbel-steed",
+  "nom": {
+   "fr": "Barbeau",
+   "en": "Barbel steed"
+  },
+  "n": 5,
+  "image": "https://dodo.ac/np/images/thumb/2/20/Barbel_Steed_NL_Model.png/128px-Barbel_Steed_NL_Model.png",
+  "espece": "barbel-steed",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "carp",
+  "nom": {
+   "fr": "Carpe",
+   "en": "Carp"
+  },
+  "n": 6,
+  "image": "https://dodo.ac/np/images/thumb/a/a0/Carp_NL_Model.png/128px-Carp_NL_Model.png",
+  "espece": "carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "koi",
+  "nom": {
+   "fr": "Carpe koï",
+   "en": "Koi"
+  },
+  "n": 7,
+  "image": "https://dodo.ac/np/images/thumb/f/f1/Koi_NL_Model.png/128px-Koi_NL_Model.png",
+  "espece": "koi",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000
+  },
+  "musee": true
+ },
+ {
+  "id": "goldfish",
+  "nom": {
+   "fr": "Poisson rouge",
+   "en": "Goldfish"
+  },
+  "n": 8,
+  "image": "https://dodo.ac/np/images/thumb/d/de/Goldfish_NL_Model.png/128px-Goldfish_NL_Model.png",
+  "espece": "goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true
+ },
+ {
+  "id": "pop-eyed-goldfish",
+  "nom": {
+   "fr": "Cyprin doré",
+   "en": "Pop-eyed goldfish"
+  },
+  "n": 9,
+  "image": "https://dodo.ac/np/images/thumb/3/3c/Pop-Eyed_Goldfish_NL_Model.png/128px-Pop-Eyed_Goldfish_NL_Model.png",
+  "espece": "pop-eyed-goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true
+ },
+ {
+  "id": "killifish",
+  "nom": {
+   "fr": "Fondule barré",
+   "en": "Killifish"
+  },
+  "n": 10,
+  "image": "https://dodo.ac/np/images/thumb/7/7a/Killifish_NL_Model.png/128px-Killifish_NL_Model.png",
+  "espece": "killifish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "crawfish",
+  "nom": {
+   "fr": "Écrevisse",
+   "en": "Crawfish"
+  },
+  "n": 11,
+  "image": "https://dodo.ac/np/images/thumb/c/c6/Crawfish_NL_Model.png/128px-Crawfish_NL_Model.png",
+  "espece": "crawfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "soft-shelled-turtle",
+  "nom": {
+   "fr": "Tortue trionyx",
+   "en": "Soft-shelled turtle"
+  },
+  "n": 12,
+  "image": "https://dodo.ac/np/images/thumb/7/73/Soft-Shelled_Turtle_NL_Model.png/128px-Soft-Shelled_Turtle_NL_Model.png",
+  "espece": "soft-shelled-turtle",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3750
+  },
+  "musee": true
+ },
+ {
+  "id": "tadpole",
+  "nom": {
+   "fr": "Têtard",
+   "en": "Tadpole"
+  },
+  "n": 13,
+  "image": "https://dodo.ac/np/images/thumb/9/9b/Tadpole_NL_Model.png/128px-Tadpole_NL_Model.png",
+  "espece": "tadpole",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true
+ },
+ {
+  "id": "frog",
+  "nom": {
+   "fr": "Grenouille",
+   "en": "Frog"
+  },
+  "n": 14,
+  "image": "https://dodo.ac/np/images/thumb/9/92/Frog_NL_Model.png/128px-Frog_NL_Model.png",
+  "espece": "frog",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true
+ },
+ {
+  "id": "freshwater-goby",
+  "nom": {
+   "fr": "Gobie d'eau douce",
+   "en": "Freshwater goby"
+  },
+  "n": 15,
+  "image": "https://dodo.ac/np/images/thumb/f/f1/Freshwater_Goby_NL_Model.png/128px-Freshwater_Goby_NL_Model.png",
+  "espece": "freshwater-goby",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "loach",
+  "nom": {
+   "fr": "Loche d'étang",
+   "en": "Loach"
+  },
+  "n": 16,
+  "image": "https://dodo.ac/np/images/thumb/8/87/Loach_NL_Model.png/128px-Loach_NL_Model.png",
+  "espece": "loach",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "catfish",
+  "nom": {
+   "fr": "Silure",
+   "en": "Catfish"
+  },
+  "n": 17,
+  "image": "https://dodo.ac/np/images/thumb/a/a3/Catfish_NL_Model.png/128px-Catfish_NL_Model.png",
+  "espece": "catfish",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true
+ },
+ {
+  "id": "eel",
+  "nom": {
+   "fr": "Anguille",
+   "en": "Eel"
+  },
+  "n": 18,
+  "image": "https://dodo.ac/np/images/thumb/9/93/Eel_NL_Model.png/128px-Eel_NL_Model.png",
+  "espece": "eel",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "longue",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true
+ },
+ {
+  "id": "giant-snakehead",
+  "nom": {
+   "fr": "Tête-de-serpent",
+   "en": "Giant snakehead"
+  },
+  "n": 19,
+  "image": "https://dodo.ac/np/images/thumb/a/a7/Giant_Snakehead_NL_Model.png/128px-Giant_Snakehead_NL_Model.png",
+  "espece": "giant-snakehead",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5500
+  },
+  "musee": true
+ },
+ {
+  "id": "bluegill",
+  "nom": {
+   "fr": "Crapet",
+   "en": "Bluegill"
+  },
+  "n": 20,
+  "image": "https://dodo.ac/np/images/thumb/1/15/Bluegill_NL_Model.png/128px-Bluegill_NL_Model.png",
+  "espece": "bluegill",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true
+ },
+ {
+  "id": "yellow-perch",
+  "nom": {
+   "fr": "Perche jaune",
+   "en": "Yellow perch"
+  },
+  "n": 21,
+  "image": "https://dodo.ac/np/images/thumb/d/d2/Yellow_Perch_NL_Model.png/128px-Yellow_Perch_NL_Model.png",
+  "espece": "yellow-perch",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 240
+  },
+  "musee": true
+ },
+ {
+  "id": "black-bass",
+  "nom": {
+   "fr": "Bar",
+   "en": "Black bass"
+  },
+  "n": 22,
+  "image": "https://dodo.ac/np/images/thumb/6/69/Black_Bass_NL_Model.png/128px-Black_Bass_NL_Model.png",
+  "espece": "black-bass",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "pike",
+  "nom": {
+   "fr": "Brochet",
+   "en": "Pike"
+  },
+  "n": 23,
+  "image": "https://dodo.ac/np/images/thumb/5/5d/Pike_NL_Model.png/128px-Pike_NL_Model.png",
+  "espece": "pike",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800
+  },
+  "musee": true
+ },
+ {
+  "id": "pond-smelt",
+  "nom": {
+   "fr": "Éperlan",
+   "en": "Pond smelt"
+  },
+  "n": 24,
+  "image": "https://dodo.ac/np/images/thumb/3/35/Pond_Smelt_NL_Model.png/128px-Pond_Smelt_NL_Model.png",
+  "espece": "pond-smelt",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "sweetfish",
+  "nom": {
+   "fr": "Ayu",
+   "en": "Sweetfish"
+  },
+  "n": 25,
+  "image": "https://dodo.ac/np/images/thumb/1/1f/Sweetfish_NL_Model.png/128px-Sweetfish_NL_Model.png",
+  "espece": "sweetfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 900
+  },
+  "musee": true
+ },
+ {
+  "id": "cherry-salmon",
+  "nom": {
+   "fr": "Saumon rose",
+   "en": "Cherry salmon"
+  },
+  "n": 26,
+  "image": "https://dodo.ac/np/images/thumb/1/15/Cherry_Salmon_NL_Model.png/128px-Cherry_Salmon_NL_Model.png",
+  "espece": "cherry-salmon",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true
+ },
+ {
+  "id": "char",
+  "nom": {
+   "fr": "Omble",
+   "en": "Char"
+  },
+  "n": 27,
+  "image": "https://dodo.ac/np/images/thumb/3/35/Char_NL_Model.png/128px-Char_NL_Model.png",
+  "espece": "char",
+  "lieu": "cascade",
+  "lieu_texte": "Cascade",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3800
+  },
+  "musee": true
+ },
+ {
+  "id": "rainbow-trout",
+  "nom": {
+   "fr": "Truite",
+   "en": "Rainbow trout"
+  },
+  "n": 28,
+  "image": "https://dodo.ac/np/images/thumb/2/2a/Rainbow_Trout_NL_Model.png/128px-Rainbow_Trout_NL_Model.png",
+  "espece": "rainbow-trout",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true
+ },
+ {
+  "id": "stringfish",
+  "nom": {
+   "fr": "Dai yu",
+   "en": "Stringfish"
+  },
+  "n": 29,
+  "image": "https://dodo.ac/np/images/thumb/8/82/Stringfish_NL_Model.png/128px-Stringfish_NL_Model.png",
+  "espece": "stringfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true
+ },
+ {
+  "id": "salmon",
+  "nom": {
+   "fr": "Saumon",
+   "en": "Salmon"
+  },
+  "n": 30,
+  "image": "https://dodo.ac/np/images/thumb/1/1d/Salmon_NL_Model.png/128px-Salmon_NL_Model.png",
+  "espece": "salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 700
+  },
+  "musee": true
+ },
+ {
+  "id": "king-salmon",
+  "nom": {
+   "fr": "Saumon roi",
+   "en": "King salmon"
+  },
+  "n": 31,
+  "image": "https://dodo.ac/np/images/thumb/a/a9/King_Salmon_NL_Model.png/128px-King_Salmon_NL_Model.png",
+  "espece": "king-salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800
+  },
+  "musee": true
+ },
+ {
+  "id": "mitten-crab",
+  "nom": {
+   "fr": "Crabe chinois",
+   "en": "Mitten crab"
+  },
+  "n": 32,
+  "image": "https://dodo.ac/np/images/0/01/Mitten_Crab_NL_Model.png",
+  "espece": "mitten-crab",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      16,
+      31
+     ]
+    },
+    {
+     "mois": [
+      10,
+      11
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true
+ },
+ {
+  "id": "guppy",
+  "nom": {
+   "fr": "Guppy",
+   "en": "Guppy"
+  },
+  "n": 33,
+  "image": "https://dodo.ac/np/images/thumb/f/fd/Guppy_NL_Model.png/128px-Guppy_NL_Model.png",
+  "espece": "guppy",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true
+ },
+ {
+  "id": "nibble-fish",
+  "nom": {
+   "fr": "Poisson docteur",
+   "en": "Nibble fish"
+  },
+  "n": 34,
+  "image": "https://dodo.ac/np/images/thumb/3/30/Nibble_Fish_NL_Model.png/128px-Nibble_Fish_NL_Model.png",
+  "espece": "nibble-fish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1500
+  },
+  "musee": true
+ },
+ {
+  "id": "angelfish",
+  "nom": {
+   "fr": "Poisson-ange",
+   "en": "Angelfish"
+  },
+  "n": 35,
+  "image": "https://dodo.ac/np/images/thumb/5/5a/Angelfish_NL_Model.png/128px-Angelfish_NL_Model.png",
+  "espece": "angelfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true
+ },
+ {
+  "id": "neon-tetra",
+  "nom": {
+   "fr": "Néon bleu",
+   "en": "Neon tetra"
+  },
+  "n": 36,
+  "image": "https://dodo.ac/np/images/thumb/e/e0/Neon_Tetra_NL_Model.png/128px-Neon_Tetra_NL_Model.png",
+  "espece": "neon-tetra",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500
+  },
+  "musee": true
+ },
+ {
+  "id": "piranha",
+  "nom": {
+   "fr": "Piranha",
+   "en": "Piranha"
+  },
+  "n": 37,
+  "image": "https://dodo.ac/np/images/thumb/b/b7/Piranha_NL_Model.png/128px-Piranha_NL_Model.png",
+  "espece": "piranha",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ],
+      [
+       21,
+       4
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ],
+      [
+       21,
+       4
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true
+ },
+ {
+  "id": "arowana",
+  "nom": {
+   "fr": "Arowana",
+   "en": "Arowana"
+  },
+  "n": 38,
+  "image": "https://dodo.ac/np/images/thumb/5/5d/Arowana_NL_Model.png/128px-Arowana_NL_Model.png",
+  "espece": "arowana",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true
+ },
+ {
+  "id": "dorado",
+  "nom": {
+   "fr": "Dorade",
+   "en": "Dorado"
+  },
+  "n": 39,
+  "image": "https://dodo.ac/np/images/thumb/e/e2/Dorado_NL_Model.png/128px-Dorado_NL_Model.png",
+  "espece": "dorado",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true
+ },
+ {
+  "id": "gar",
+  "nom": {
+   "fr": "Gar",
+   "en": "Gar"
+  },
+  "n": 40,
+  "image": "https://dodo.ac/np/images/thumb/c/cd/Gar_NL_Model.png/128px-Gar_NL_Model.png",
+  "espece": "gar",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000
+  },
+  "musee": true
+ },
+ {
+  "id": "arapaima",
+  "nom": {
+   "fr": "Arapaïma",
+   "en": "Arapaima"
+  },
+  "n": 41,
+  "image": "https://dodo.ac/np/images/thumb/3/3d/Arapaima_NL_Model.png/128px-Arapaima_NL_Model.png",
+  "espece": "arapaima",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true
+ },
+ {
+  "id": "saddled-bichir",
+  "nom": {
+   "fr": "Bichir",
+   "en": "Saddled bichir"
+  },
+  "n": 42,
+  "image": "https://dodo.ac/np/images/thumb/a/ac/Saddled_Bichir_NL_Model.png/128px-Saddled_Bichir_NL_Model.png",
+  "espece": "saddled-bichir",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000
+  },
+  "musee": true
+ },
+ {
+  "id": "sea-butterfly",
+  "nom": {
+   "fr": "Clione",
+   "en": "Sea butterfly"
+  },
+  "n": 43,
+  "image": "https://dodo.ac/np/images/a/ab/Sea_Butterfly_NL_Model.png",
+  "espece": "sea-butterfly",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true
+ },
+ {
+  "id": "sea-horse",
+  "nom": {
+   "fr": "Hippocampe",
+   "en": "Sea horse"
+  },
+  "n": 44,
+  "image": "https://dodo.ac/np/images/thumb/e/e5/Sea_Horse_NL_Model.png/128px-Sea_Horse_NL_Model.png",
+  "espece": "sea-horse",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1100
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "clown-fish",
+  "nom": {
+   "fr": "Poisson-clown",
+   "en": "Clown fish"
+  },
+  "n": 45,
+  "image": "https://dodo.ac/np/images/thumb/c/c5/Clown_Fish_NL_Model.png/128px-Clown_Fish_NL_Model.png",
+  "espece": "clown-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "surgeonfish",
+  "nom": {
+   "fr": "Poisson chirurgien",
+   "en": "Surgeonfish"
+  },
+  "n": 46,
+  "image": "https://dodo.ac/np/images/thumb/f/f0/Surgeonfish_NL_Model.png/128px-Surgeonfish_NL_Model.png",
+  "espece": "surgeonfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "butterfly-fish",
+  "nom": {
+   "fr": "Poisson-papillon",
+   "en": "Butterfly fish"
+  },
+  "n": 47,
+  "image": "https://dodo.ac/np/images/thumb/9/90/Butterfly_Fish_NL_Model.png/128px-Butterfly_Fish_NL_Model.png",
+  "espece": "butterfly-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "napoleonfish",
+  "nom": {
+   "fr": "Napoléon",
+   "en": "Napoleonfish"
+  },
+  "n": 48,
+  "image": "https://dodo.ac/np/images/thumb/4/4e/Napoleonfish_NL_Model.png/128px-Napoleonfish_NL_Model.png",
+  "espece": "napoleonfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "zebra-turkeyfish",
+  "nom": {
+   "fr": "Poisson-scorpion",
+   "en": "Zebra turkeyfish"
+  },
+  "n": 49,
+  "image": "https://dodo.ac/np/images/thumb/3/3e/Zebra_Turkeyfish_NL_Model.png/128px-Zebra_Turkeyfish_NL_Model.png",
+  "espece": "zebra-turkeyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "blowfish",
+  "nom": {
+   "fr": "Poisson-ballon",
+   "en": "Blowfish"
+  },
+  "n": 50,
+  "image": "https://dodo.ac/np/images/thumb/9/9b/Blowfish_NL_Model.png/128px-Blowfish_NL_Model.png",
+  "espece": "blowfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000
+  },
+  "musee": true
+ },
+ {
+  "id": "puffer-fish",
+  "nom": {
+   "fr": "Poisson-porc-épic",
+   "en": "Puffer fish"
+  },
+  "n": 51,
+  "image": "https://dodo.ac/np/images/thumb/3/31/Puffer_Fish_NL_Model.png/128px-Puffer_Fish_NL_Model.png",
+  "espece": "puffer-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 240
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "horse-mackerel",
+  "nom": {
+   "fr": "Chinchard",
+   "en": "Horse mackerel"
+  },
+  "n": 52,
+  "image": "https://dodo.ac/np/images/thumb/d/dc/Horse_Mackerel_NL_Model.png/128px-Horse_Mackerel_NL_Model.png",
+  "espece": "horse-mackerel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 150
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "barred-knifejaw",
+  "nom": {
+   "fr": "Scarus",
+   "en": "Barred knifejaw"
+  },
+  "n": 53,
+  "image": "https://dodo.ac/np/images/thumb/1/14/Barred_Knifejaw_NL_Model.png/128px-Barred_Knifejaw_NL_Model.png",
+  "espece": "barred-knifejaw",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "sea-bass",
+  "nom": {
+   "fr": "Bar commun",
+   "en": "Sea bass"
+  },
+  "n": 54,
+  "image": "https://dodo.ac/np/images/thumb/7/73/Sea_Bass_NL_Model.png/128px-Sea_Bass_NL_Model.png",
+  "espece": "sea-bass",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "red-snapper",
+  "nom": {
+   "fr": "Vivaneau",
+   "en": "Red snapper"
+  },
+  "n": 55,
+  "image": "https://dodo.ac/np/images/thumb/e/e9/Red_Snapper_NL_Model.png/128px-Red_Snapper_NL_Model.png",
+  "espece": "red-snapper",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "dab",
+  "nom": {
+   "fr": "Limande",
+   "en": "Dab"
+  },
+  "n": 56,
+  "image": "https://dodo.ac/np/images/thumb/3/3c/Dab_NL_Model.png/128px-Dab_NL_Model.png",
+  "espece": "dab",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "olive-flounder",
+  "nom": {
+   "fr": "Cardeau",
+   "en": "Olive flounder"
+  },
+  "n": 57,
+  "image": "https://dodo.ac/np/images/thumb/3/3d/Olive_Flounder_NL_Model.png/128px-Olive_Flounder_NL_Model.png",
+  "espece": "olive-flounder",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "squid",
+  "nom": {
+   "fr": "Calmar",
+   "en": "Squid"
+  },
+  "n": 58,
+  "image": "https://dodo.ac/np/images/thumb/0/04/Squid_NL_Model.png/128px-Squid_NL_Model.png",
+  "espece": "squid",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "moray-eel",
+  "nom": {
+   "fr": "Murène",
+   "en": "Moray eel"
+  },
+  "n": 59,
+  "image": "https://dodo.ac/np/images/thumb/3/31/Moray_Eel_NL_Model.png/128px-Moray_Eel_NL_Model.png",
+  "espece": "moray-eel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "ribbon-eel",
+  "nom": {
+   "fr": "Murène ruban bleue",
+   "en": "Ribbon eel"
+  },
+  "n": 60,
+  "image": "https://dodo.ac/np/images/thumb/b/bb/Ribbon_Eel_NL_Model.png/128px-Ribbon_Eel_NL_Model.png",
+  "espece": "ribbon-eel",
+  "lieu": "ile-de-tortimer",
+  "lieu_texte": "Île de Tortimer",
+  "ombre": "longue",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600
+  },
+  "musee": true,
+  "conditions": [
+   "seulement-ile"
+  ]
+ },
+ {
+  "id": "football-fish",
+  "nom": {
+   "fr": "Poisson lanterne",
+   "en": "Football fish"
+  },
+  "n": 61,
+  "image": "https://dodo.ac/np/images/thumb/f/f9/Football_Fish_NL_Model.png/128px-Football_Fish_NL_Model.png",
+  "espece": "football-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true
+ },
+ {
+  "id": "tuna",
+  "nom": {
+   "fr": "Thon",
+   "en": "Tuna"
+  },
+  "n": 62,
+  "image": "https://dodo.ac/np/images/thumb/e/ea/Tuna_NL_Model.png/128px-Tuna_NL_Model.png",
+  "espece": "tuna",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 7000
+  },
+  "musee": true
+ },
+ {
+  "id": "blue-marlin",
+  "nom": {
+   "fr": "Marlin bleu",
+   "en": "Blue marlin"
+  },
+  "n": 63,
+  "image": "https://dodo.ac/np/images/thumb/1/1f/Blue_Marlin_NL_Model.png/128px-Blue_Marlin_NL_Model.png",
+  "espece": "blue-marlin",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "giant-trevally",
+  "nom": {
+   "fr": "Carangue grosse tête",
+   "en": "Giant trevally"
+  },
+  "n": 64,
+  "image": "https://dodo.ac/np/images/thumb/e/e6/Giant_Trevally_NL_Model.png/128px-Giant_Trevally_NL_Model.png",
+  "espece": "giant-trevally",
+  "lieu": "ile-de-tortimer",
+  "lieu_texte": "Île de Tortimer",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4500
+  },
+  "musee": true,
+  "conditions": [
+   "seulement-ile"
+  ]
+ },
+ {
+  "id": "ray",
+  "nom": {
+   "fr": "Raie",
+   "en": "Ray"
+  },
+  "n": 65,
+  "image": "https://dodo.ac/np/images/thumb/7/79/Ray_NL_Model.png/128px-Ray_NL_Model.png",
+  "espece": "ray",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "ocean-sunfish",
+  "nom": {
+   "fr": "Lune de mer",
+   "en": "Ocean sunfish"
+  },
+  "n": 66,
+  "image": "https://dodo.ac/np/images/thumb/c/c5/Ocean_Sunfish_NL_Model.png/128px-Ocean_Sunfish_NL_Model.png",
+  "espece": "ocean-sunfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "hammerhead-shark",
+  "nom": {
+   "fr": "Requin marteau",
+   "en": "Hammerhead shark"
+  },
+  "n": 67,
+  "image": "https://dodo.ac/np/images/thumb/c/ca/Hammerhead_Shark_NL_Model.png/128px-Hammerhead_Shark_NL_Model.png",
+  "espece": "hammerhead-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "shark",
+  "nom": {
+   "fr": "Requin",
+   "en": "Shark"
+  },
+  "n": 68,
+  "image": "https://dodo.ac/np/images/thumb/e/e4/Shark_NL_Model.png/128px-Shark_NL_Model.png",
+  "espece": "shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "saw-shark",
+  "nom": {
+   "fr": "Requin scie",
+   "en": "Saw shark"
+  },
+  "n": 69,
+  "image": "https://dodo.ac/np/images/thumb/b/be/Saw_Shark_NL_Model.png/128px-Saw_Shark_NL_Model.png",
+  "espece": "saw-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "whale-shark",
+  "nom": {
+   "fr": "Requin-baleine",
+   "en": "Whale shark"
+  },
+  "n": 70,
+  "image": "https://dodo.ac/np/images/thumb/d/d0/Whale_Shark_NL_Model.png/128px-Whale_Shark_NL_Model.png",
+  "espece": "whale-shark",
+  "lieu": "ile-de-tortimer",
+  "lieu_texte": "Île de Tortimer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 13000
+  },
+  "musee": true,
+  "conditions": [
+   "seulement-ile"
+  ]
+ },
+ {
+  "id": "oarfish",
+  "nom": {
+   "fr": "Poisson-ruban",
+   "en": "Oarfish"
+  },
+  "n": 71,
+  "image": "https://dodo.ac/np/images/thumb/7/7c/Oarfish_NL_Model.png/128px-Oarfish_NL_Model.png",
+  "espece": "oarfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 9000
+  },
+  "musee": true
+ },
+ {
+  "id": "coelacanth",
+  "nom": {
+   "fr": "Cœlacanthe",
+   "en": "Coelacanth"
+  },
+  "n": 72,
+  "image": "https://dodo.ac/np/images/thumb/b/b5/Coelacanth_NL_Model.png/128px-Coelacanth_NL_Model.png",
+  "espece": "coelacanth",
+  "lieu": "mer-quand-il-pleut-ou-neige",
+  "lieu_texte": "Mer (quand il pleut ou neige)",
+  "ombre": "6",
+  "conditions": [
+   "pluie-neige"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true
+ }
+]

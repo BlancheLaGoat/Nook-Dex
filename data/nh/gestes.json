@@ -1,0 +1,1161 @@
+[
+ {
+  "id": "greetings",
+  "nom": {
+   "fr": "Salut",
+   "en": "Greetings"
+  },
+  "n": 1,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Greeting.png",
+  "sources": [
+   "Habitants"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "agreement",
+  "nom": {
+   "fr": "Acquiescement",
+   "en": "Agreement"
+  },
+  "n": 2,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Nodding.png",
+  "sources": [
+   "Cranky villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "disagreement",
+  "nom": {
+   "fr": "Désaccord",
+   "en": "Disagreement"
+  },
+  "n": 3,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Negative.png",
+  "sources": [
+   "Big Sister villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pleased",
+  "nom": {
+   "fr": "Enthousiasme",
+   "en": "Pleased"
+  },
+  "n": 4,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Hello.png",
+  "sources": [
+   "Normal villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "happiness",
+  "nom": {
+   "fr": "Sourire",
+   "en": "Happiness"
+  },
+  "n": 5,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Smiling.png",
+  "sources": [
+   "Peppy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "joy",
+  "nom": {
+   "fr": "Joie",
+   "en": "Joy"
+  },
+  "n": 6,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/HappyFlower.png",
+  "sources": [
+   "Habitants"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "glee",
+  "nom": {
+   "fr": "Euphorie",
+   "en": "Glee"
+  },
+  "n": 7,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/HappyDance.png",
+  "sources": [
+   "Normal villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "laughter",
+  "nom": {
+   "fr": "Rire",
+   "en": "Laughter"
+  },
+  "n": 8,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Laughing.png",
+  "sources": [
+   "Big Sister villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "love",
+  "nom": {
+   "fr": "Amour",
+   "en": "Love"
+  },
+  "n": 9,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Love.png",
+  "sources": [
+   "Snooty villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "confident",
+  "nom": {
+   "fr": "Confiance en soi",
+   "en": "Confident"
+  },
+  "n": 10,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Assent.png",
+  "sources": [
+   "Big Sister villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "showmanship",
+  "nom": {
+   "fr": "Esbroufe",
+   "en": "Showmanship"
+  },
+  "n": 11,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Shaki.png",
+  "sources": [
+   "Smug villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "flourish",
+  "nom": {
+   "fr": "Pirouette",
+   "en": "Flourish"
+  },
+  "n": 12,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Dance.png",
+  "sources": [
+   "Jock villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "pride",
+  "nom": {
+   "fr": "Fierté",
+   "en": "Pride"
+  },
+  "n": 13,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/SmugFace.png",
+  "sources": [
+   "Lazy villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "encouraging",
+  "nom": {
+   "fr": "Encouragement",
+   "en": "Encouraging"
+  },
+  "n": 14,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Cheering.png",
+  "sources": [
+   "Jock villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "delight",
+  "nom": {
+   "fr": "Applaudissements",
+   "en": "Delight"
+  },
+  "n": 15,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Clapping.png",
+  "sources": [
+   "Habitants"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "apologetic",
+  "nom": {
+   "fr": "Excuse",
+   "en": "Apologetic"
+  },
+  "n": 16,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Apologize.png",
+  "sources": [
+   "Big Sister villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bewilderment",
+  "nom": {
+   "fr": "Perplexité",
+   "en": "Bewilderment"
+  },
+  "n": 17,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Pardon.png",
+  "sources": [
+   "Cranky villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "curiosity",
+  "nom": {
+   "fr": "Curiosité",
+   "en": "Curiosity"
+  },
+  "n": 18,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/QuestionMark.png",
+  "sources": [
+   "Peppy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "surprise",
+  "nom": {
+   "fr": "Étonnement",
+   "en": "Surprise"
+  },
+  "n": 19,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Aha.png",
+  "sources": [
+   "Habitants"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "amazed",
+  "nom": {
+   "fr": "Stupéfaction",
+   "en": "Amazed"
+  },
+  "n": 20,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Shocked.png",
+  "sources": [
+   "Snooty villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "inspiration",
+  "nom": {
+   "fr": "Trouvaille",
+   "en": "Inspiration"
+  },
+  "n": 21,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/IdeaBulb.png",
+  "sources": [
+   "Cranky villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "shocked",
+  "nom": {
+   "fr": "Surprise",
+   "en": "Shocked"
+  },
+  "n": 22,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Surprised.png",
+  "sources": [
+   "Jock villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mistaken",
+  "nom": {
+   "fr": "Gaffe",
+   "en": "Mistaken"
+  },
+  "n": 23,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Oops.png",
+  "sources": [
+   "Lazy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bashfulness",
+  "nom": {
+   "fr": "Embarras",
+   "en": "Bashfulness"
+  },
+  "n": 24,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Blushing.png",
+  "sources": [
+   "Lazy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "shyness",
+  "nom": {
+   "fr": "Timidité",
+   "en": "Shyness"
+  },
+  "n": 25,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Hesitate.png",
+  "sources": [
+   "Lazy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sheepishness",
+  "nom": {
+   "fr": "Dérision",
+   "en": "Sheepishness"
+  },
+  "n": 26,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/WrySmile.png",
+  "sources": [
+   "Cranky villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "smirking",
+  "nom": {
+   "fr": "Rire suffisant",
+   "en": "Smirking"
+  },
+  "n": 27,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Grin.png",
+  "sources": [
+   "Smug villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mischief",
+  "nom": {
+   "fr": "Malice",
+   "en": "Mischief"
+  },
+  "n": 28,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Scheming.png",
+  "sources": [
+   "Peppy villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "resignation",
+  "nom": {
+   "fr": "Dépit",
+   "en": "Resignation"
+  },
+  "n": 29,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/OhGeez.png",
+  "sources": [
+   "Smug villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "daydreaming",
+  "nom": {
+   "fr": "Rêverie",
+   "en": "Daydreaming"
+  },
+  "n": 30,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AbsentMindedness.png",
+  "sources": [
+   "Normal villagers"
+  ],
+  "notes_source": "Requires a high level of friendship",
+  "v": "1.0.0"
+ },
+ {
+  "id": "thought",
+  "nom": {
+   "fr": "Réflexion",
+   "en": "Thought"
+  },
+  "n": 31,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Thinking.png",
+  "sources": [
+   "Snooty villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sleepy",
+  "nom": {
+   "fr": "Sommeil",
+   "en": "Sleepy"
+  },
+  "n": 32,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Sleepy.png",
+  "sources": [
+   "Peppy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dozing",
+  "nom": {
+   "fr": "Somnolence",
+   "en": "Dozing"
+  },
+  "n": 33,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Sleep.png",
+  "sources": [
+   "Smug villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "worry",
+  "nom": {
+   "fr": "Tracas",
+   "en": "Worry"
+  },
+  "n": 34,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Worried.png",
+  "sources": [
+   "Cranky villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sighing",
+  "nom": {
+   "fr": "Soupir",
+   "en": "Sighing"
+  },
+  "n": 35,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Sighing.png",
+  "sources": [
+   "Snooty villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sadness",
+  "nom": {
+   "fr": "Déprime",
+   "en": "Sadness"
+  },
+  "n": 36,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/SadSpiral.png",
+  "sources": [
+   "Normal villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "heartbreak",
+  "nom": {
+   "fr": "Cœur brisé",
+   "en": "Heartbreak"
+  },
+  "n": 37,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/BrokenHeart.png",
+  "sources": [
+   "Smug villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sorrow",
+  "nom": {
+   "fr": "Pleurs",
+   "en": "Sorrow"
+  },
+  "n": 38,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Crying.png",
+  "sources": [
+   "Lazy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "intense",
+  "nom": {
+   "fr": "Regard intense",
+   "en": "Intense"
+  },
+  "n": 39,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Silent.png",
+  "sources": [
+   "Snooty villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "aggravation",
+  "nom": {
+   "fr": "Fureur",
+   "en": "Aggravation"
+  },
+  "n": 40,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Outraged.png",
+  "sources": [
+   "Peppy villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cold-chill",
+  "nom": {
+   "fr": "Vent glacial",
+   "en": "Cold Chill"
+  },
+  "n": 41,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/ColdChill.png",
+  "sources": [
+   "Big Sister villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "distress",
+  "nom": {
+   "fr": "Détresse",
+   "en": "Distress"
+  },
+  "n": 42,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Frantic.png",
+  "sources": [
+   "Jock villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "fearful",
+  "nom": {
+   "fr": "Frisson",
+   "en": "Fearful"
+  },
+  "n": 43,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Shaking.png",
+  "sources": [
+   "Normal villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sneezing",
+  "nom": {
+   "fr": "Éternuement",
+   "en": "Sneezing"
+  },
+  "n": 44,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/Sneezing.png",
+  "sources": [
+   "Jock villagers"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "haunt",
+  "nom": {
+   "fr": "Envoûtement",
+   "en": "Haunt"
+  },
+  "n": 45,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddScaring.png",
+  "sources": [
+   "Jacqu'O"
+  ],
+  "v": "1.5.0"
+ },
+ {
+  "id": "scare",
+  "nom": {
+   "fr": "Épouvante",
+   "en": "Scare"
+  },
+  "n": 46,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddPrank.png",
+  "sources": [
+   "Habitants"
+  ],
+  "v": "1.5.0"
+ },
+ {
+  "id": "sit-down",
+  "nom": {
+   "fr": "S'asseoir",
+   "en": "Sit Down"
+  },
+  "n": 47,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddSitDown.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "wave-goodbye",
+  "nom": {
+   "fr": "Bye bye",
+   "en": "Wave Goodbye"
+  },
+  "n": 48,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddWaveHands.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "take-a-picture",
+  "nom": {
+   "fr": "Photo",
+   "en": "Take a Picture"
+  },
+  "n": 49,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddTakePictures.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "sniff-sniff",
+  "nom": {
+   "fr": "Snif snif",
+   "en": "Sniff Sniff"
+  },
+  "n": 50,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddSmell.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "work-out",
+  "nom": {
+   "fr": "Gymnastique",
+   "en": "Work Out"
+  },
+  "n": 51,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddGymnastics.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "yoga",
+  "nom": {
+   "fr": "Yoga",
+   "en": "Yoga"
+  },
+  "n": 52,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddYoga.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "here-you-go",
+  "nom": {
+   "fr": "Et voilà !",
+   "en": "Here You Go"
+  },
+  "n": 53,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddHereYouGo.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "excited",
+  "nom": {
+   "fr": "Enthousiasme",
+   "en": "Excited"
+  },
+  "n": 54,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddExcited.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "ta-da",
+  "nom": {
+   "fr": "Ta-daaa !",
+   "en": "Ta-da"
+  },
+  "n": 55,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddPraise.png",
+  "sources": [
+   "Hip Reaction Collection"
+  ],
+  "v": "1.6.0"
+ },
+ {
+  "id": "confetti",
+  "nom": {
+   "fr": "Confettis",
+   "en": "Confetti"
+  },
+  "n": 56,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddConfetti.png",
+  "sources": [
+   "Viva Festivale Reaction Set"
+  ],
+  "v": "1.7.0"
+ },
+ {
+  "id": "viva",
+  "nom": {
+   "fr": "Viva !",
+   "en": "Viva"
+  },
+  "n": 57,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddViva.png",
+  "sources": [
+   "Viva Festivale Reaction Set"
+  ],
+  "v": "1.7.0"
+ },
+ {
+  "id": "lets-go",
+  "nom": {
+   "fr": "Avec moi !",
+   "en": "Let's Go"
+  },
+  "n": 58,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddEntice.png",
+  "sources": [
+   "Viva Festivale Reaction Set"
+  ],
+  "v": "1.7.0"
+ },
+ {
+  "id": "feelin-it",
+  "nom": {
+   "fr": "Samba",
+   "en": "Feelin' It"
+  },
+  "n": 59,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddDance.png",
+  "sources": [
+   "Viva Festivale Reaction Set"
+  ],
+  "v": "1.7.0"
+ },
+ {
+  "id": "posture-warm-up",
+  "nom": {
+   "fr": "Échauffement",
+   "en": "Posture Warm-Up"
+  },
+  "n": 60,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRadioGymnastics01.png",
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Received after doing your 50th group stretch",
+  "v": "2.0.0"
+ },
+ {
+  "id": "arm-circles",
+  "nom": {
+   "fr": "Cercles avec les bras",
+   "en": "Arm Circles"
+  },
+  "n": 61,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRadioGymnastics02.png",
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Received after doing your 50th group stretch",
+  "v": "2.0.0"
+ },
+ {
+  "id": "side-bends",
+  "nom": {
+   "fr": "Souplesse latérale",
+   "en": "Side Bends"
+  },
+  "n": 62,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRadioGymnastics03.png",
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Received after doing your 50th group stretch",
+  "v": "2.0.0"
+ },
+ {
+  "id": "body-twists",
+  "nom": {
+   "fr": "Souplesse du tronc",
+   "en": "Body Twists"
+  },
+  "n": 63,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRadioGymnastics04.png",
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Received after doing your 50th group stretch",
+  "v": "2.0.0"
+ },
+ {
+  "id": "wide-arm-stretch",
+  "nom": {
+   "fr": "Expansion du thorax",
+   "en": "Wide Arm Stretch"
+  },
+  "n": 64,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRadioGymnastics05.png",
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Received after doing your 50th group stretch",
+  "v": "2.0.0"
+ },
+ {
+  "id": "upper-body-circles",
+  "nom": {
+   "fr": "Rotation du tronc",
+   "en": "Upper-Body Circles"
+  },
+  "n": 65,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRadioGymnastics06.png",
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Received after doing your 50th group stretch",
+  "v": "2.0.0"
+ },
+ {
+  "id": "jump",
+  "nom": {
+   "fr": "Sauts sur place",
+   "en": "Jump"
+  },
+  "n": 66,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRadioGymnastics07.png",
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Received after doing your 50th group stretch",
+  "v": "2.0.0"
+ },
+ {
+  "id": "double-wave",
+  "nom": {
+   "fr": "Au revoir à deux mains",
+   "en": "Double Wave"
+  },
+  "n": 67,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddGreetingBothHands.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "stretch",
+  "nom": {
+   "fr": "Étirement",
+   "en": "Stretch"
+  },
+  "n": 68,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddStretch.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "jammin",
+  "nom": {
+   "fr": "En rythme",
+   "en": "Jammin'"
+  },
+  "n": 69,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRhythm.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "listening-ears",
+  "nom": {
+   "fr": "Oreilles attentives",
+   "en": "Listening Ears"
+  },
+  "n": 70,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddListen.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "say-cheese",
+  "nom": {
+   "fr": "Ouistiti !",
+   "en": "Say Cheese"
+  },
+  "n": 71,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/RequestWillingness.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "behold",
+  "nom": {
+   "fr": "Admirez !",
+   "en": "Behold"
+  },
+  "n": 72,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddRequestLook.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "eager",
+  "nom": {
+   "fr": "Motivation",
+   "en": "Eager"
+  },
+  "n": 73,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/RequestOkay.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "flex",
+  "nom": {
+   "fr": "Biscotos",
+   "en": "Flex"
+  },
+  "n": 74,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddMusclePose.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "work-it",
+  "nom": {
+   "fr": "Poses tendance",
+   "en": "Work It"
+  },
+  "n": 75,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddPoseCool.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "act-natural",
+  "nom": {
+   "fr": "Poses naturelles",
+   "en": "Act Natural"
+  },
+  "n": 76,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddPoseNaturel.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "hula",
+  "nom": {
+   "fr": "Hula",
+   "en": "Hula"
+  },
+  "n": 77,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddHula.png",
+  "sources": [
+   "New Reactions Notebook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "grooving-hop",
+  "nom": {
+   "fr": "Poing en l'air",
+   "en": "Grooving Hop"
+  },
+  "n": 78,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesUpper.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "groove-right",
+  "nom": {
+   "fr": "Groove à droite",
+   "en": "Groove Right"
+  },
+  "n": 79,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesRight.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "groove-left",
+  "nom": {
+   "fr": "Groove à gauche",
+   "en": "Groove Left"
+  },
+  "n": 80,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesLeft.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "soak-it-in",
+  "nom": {
+   "fr": "Bras en l'air",
+   "en": "Soak It In"
+  },
+  "n": 81,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesLower.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "side-to-side",
+  "nom": {
+   "fr": "Pas de côté",
+   "en": "Side-to-Side"
+  },
+  "n": 82,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesPosing05.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "island-stomp",
+  "nom": {
+   "fr": "Marche sur place",
+   "en": "Island Stomp"
+  },
+  "n": 83,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesPosing04.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "airplane",
+  "nom": {
+   "fr": "Avion",
+   "en": "Airplane"
+  },
+  "n": 84,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesPosing01.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "twisty-dance",
+  "nom": {
+   "fr": "Twist",
+   "en": "Twisty Dance"
+  },
+  "n": 85,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesPosing02.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "shimmy",
+  "nom": {
+   "fr": "Gauche-droite",
+   "en": "Shimmy"
+  },
+  "n": 86,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesPosing00.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "turnip-patch",
+  "nom": {
+   "fr": "Rameur",
+   "en": "Turnip Patch"
+  },
+  "n": 87,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesPosing06.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "arm-swing-dance",
+  "nom": {
+   "fr": "Battements de bras",
+   "en": "Arm-Swing Dance"
+  },
+  "n": 88,
+  "image": "https://nh-cdn.catalogue.ac/ManpuIcon/AddKKFesPosing03.png",
+  "sources": [
+   "DJ KK concert"
+  ],
+  "v": "2.0.0"
+ }
+]

@@ -1,0 +1,3576 @@
+[
+ {
+  "id": "acorn-rug",
+  "nom": {
+   "fr": "Tapis gland",
+   "en": "Acorn rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherAcornM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "acorns and pine cones",
+  "v": "2.0.0"
+ },
+ {
+  "id": "aluminum-rug",
+  "nom": {
+   "fr": "Tapis aluminium",
+   "en": "Aluminum rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectAluminumM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "apple-rug",
+  "nom": {
+   "fr": "Tapis pomme",
+   "en": "Apple rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherAppleM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "bell-bag-rug",
+  "nom": {
+   "fr": "Tapis sac de clochettes",
+   "en": "Bell-bag rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherBellM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 6000,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Nintendo",
+   "Échange de Miles Nook"
+  ],
+  "notes_source": "Mailed to players after the 1.2.0 update in a letter from Bank of Nook",
+  "v": "1.2.0"
+ },
+ {
+  "id": "black-blocks-rug",
+  "nom": {
+   "fr": "Tapis à carreaux noir",
+   "en": "Black blocks rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareBlockM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-wooden-deck-rug",
+  "nom": {
+   "fr": "Tapis parquet noir",
+   "en": "Black wooden-deck rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDeckM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-design-kitchen-mat",
+  "nom": {
+   "fr": "Tapis cuisine à motifs noir",
+   "en": "Black-design kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectNativeKitchenS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-argyle-rug",
+  "nom": {
+   "fr": "Tapis argyle bleu",
+   "en": "Blue argyle rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectArgyleL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-blocks-rug",
+  "nom": {
+   "fr": "Tapis à carreaux bleu",
+   "en": "Blue blocks rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareBlockM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-dotted-rug",
+  "nom": {
+   "fr": "Tapis à pois bleu",
+   "en": "Blue dotted rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDotL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-exercise-mat",
+  "nom": {
+   "fr": "Tapis de sol bleu",
+   "en": "Blue exercise mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMatM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "blue-hawaiian-quilt-rug",
+  "nom": {
+   "fr": "Tapis hawaïen bleu",
+   "en": "Blue Hawaiian quilt rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareHawaiianL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "blue-kilim-style-carpet",
+  "nom": {
+   "fr": "Tapis kilim bleu",
+   "en": "Blue kilim-style carpet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareKirimL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-kitchen-mat",
+  "nom": {
+   "fr": "Tapis de cuisine bleu",
+   "en": "Blue kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectKitchenS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-medium-round-mat",
+  "nom": {
+   "fr": "Tapis rond bleu M",
+   "en": "Blue medium round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-message-mat",
+  "nom": {
+   "fr": "Paillasson à message bleu",
+   "en": "Blue message mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMessageS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-persian-rug",
+  "nom": {
+   "fr": "Tapis persan bleu",
+   "en": "Blue Persian rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquarePersianL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-shaggy-rug",
+  "nom": {
+   "fr": "Tapis à poil long bleu",
+   "en": "Blue shaggy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareShaggyL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-small-round-mat",
+  "nom": {
+   "fr": "Tapis rond bleu S",
+   "en": "Blue small round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-stripes-rug",
+  "nom": {
+   "fr": "Tapis à rayures bleues",
+   "en": "Blue stripes rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBorderL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-vinyl-sheet",
+  "nom": {
+   "fr": "Tapis vinyle bleu",
+   "en": "Blue vinyl sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectVinylM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-wavy-rug",
+  "nom": {
+   "fr": "Tapis vagues bleu",
+   "en": "Blue wavy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectWaveL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-wedding-rug",
+  "nom": {
+   "fr": "Tapis mariage bleu",
+   "en": "Blue wedding rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectJuneBrideM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 375,
+   "echange": {
+    "prix": 4,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "blue-design-kitchen-mat",
+  "nom": {
+   "fr": "Tapis cuisine à motifs bleu",
+   "en": "Blue-design kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectNativeKitchenS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bone-entrance-mat",
+  "nom": {
+   "fr": "Paillasson os",
+   "en": "Bone entrance mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherBoneS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "botanical-rug",
+  "nom": {
+   "fr": "Tapis botanique",
+   "en": "Botanical rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBotanicalL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-argyle-rug",
+  "nom": {
+   "fr": "Tapis argyle brun",
+   "en": "Brown argyle rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectArgyleL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-cow-print-rug",
+  "nom": {
+   "fr": "Tapis vache marron",
+   "en": "Brown cow-print rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherAnimalM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "brown-kitchen-mat",
+  "nom": {
+   "fr": "Tapis de cuisine marron",
+   "en": "Brown kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectKitchenS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-shaggy-rug",
+  "nom": {
+   "fr": "Tapis à poil long brun",
+   "en": "Brown shaggy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareShaggyL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-wooden-deck-rug",
+  "nom": {
+   "fr": "Tapis parquet marron",
+   "en": "Brown wooden-deck rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDeckM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bunny-day-rug",
+  "nom": {
+   "fr": "Tapis fête des œufs",
+   "en": "Bunny Day rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherEasterM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Bunny Day (days before); Bunny Day",
+  "v": "1.1.0"
+ },
+ {
+  "id": "cherry-rug",
+  "nom": {
+   "fr": "Tapis cerises",
+   "en": "Cherry rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherCherryM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "cherry-blossom-rug",
+  "nom": {
+   "fr": "Tapis fleur de cerisier",
+   "en": "Cherry-blossom rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherSakuraM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "cherry-blossom petals",
+  "v": "2.0.0"
+ },
+ {
+  "id": "cinnamoroll-rug",
+  "nom": {
+   "fr": "Tapis Cinnamoroll",
+   "en": "Cinnamoroll rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherCinnamonM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "coconut-mat",
+  "nom": {
+   "fr": "Tapis en fibre de coco",
+   "en": "Coconut mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectCoconutmatS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "colorful-vinyl-sheet",
+  "nom": {
+   "fr": "Tapis vinyle coloré",
+   "en": "Colorful vinyl sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectVinylM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cookie-rug",
+  "nom": {
+   "fr": "Tapis biscuit",
+   "en": "Cookie rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundBiscuitM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "dark-bamboo-bath-mat",
+  "nom": {
+   "fr": "Tapis de bain bambou foncé",
+   "en": "Dark bamboo bath mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBambooS01.png",
+  "prix": {
+   "achat": null,
+   "vente": 480
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "dark-bamboo-rug",
+  "nom": {
+   "fr": "Tapis bambou sombre",
+   "en": "Dark bamboo rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBambooM01.png",
+  "prix": {
+   "achat": null,
+   "vente": 960
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-square-tile",
+  "nom": {
+   "fr": "Carpette tuile foncée",
+   "en": "Dark square tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareWoodS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "dark-stones-rug",
+  "nom": {
+   "fr": "Carpette pierre foncée",
+   "en": "Dark stones rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareStoneS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "dark-wood-flooring-sheet",
+  "nom": {
+   "fr": "Carpette lino bois foncé",
+   "en": "Dark-wood flooring sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDisplayStandS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "dark-wood-flooring-tile",
+  "nom": {
+   "fr": "Carré lino bois foncé",
+   "en": "Dark-wood flooring tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareDisplayStandS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "earth-rug",
+  "nom": {
+   "fr": "Tapis Terre",
+   "en": "Earth rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundEarthM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "elegant-beige-rug",
+  "nom": {
+   "fr": "Tapis élégant beige",
+   "en": "Elegant beige rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareElegantL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "elegant-black-rug",
+  "nom": {
+   "fr": "Tapis élégant noir",
+   "en": "Elegant black rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareElegantL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "elegant-blue-rug",
+  "nom": {
+   "fr": "Tapis élégant bleu",
+   "en": "Elegant blue rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareElegantL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "elegant-brown-rug",
+  "nom": {
+   "fr": "Tapis élégant marron",
+   "en": "Elegant brown rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareElegantL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "festive-rug",
+  "nom": {
+   "fr": "Tapis de fêtes",
+   "en": "Festive rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareChristmasL00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "ornaments",
+  "v": "1.6.0"
+ },
+ {
+  "id": "fish-rug",
+  "nom": {
+   "fr": "Tapis poisson",
+   "en": "Fish rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherFishM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 375
+  },
+  "sources": [
+   "Pollux"
+  ],
+  "evenement": "Fishing Tourney (Spring); Fishing Tourney (Summer); Fishing Tourney (Fall); Fishing Tourney (Winter)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "fluffy-rug",
+  "nom": {
+   "fr": "Tapis nimbus",
+   "en": "Fluffy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherCloudM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "football-rug",
+  "nom": {
+   "fr": "Tapis football américain",
+   "en": "Football rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherFootballM00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Big Game Celebration",
+  "v": "1.7.0"
+ },
+ {
+  "id": "fossil-rug",
+  "nom": {
+   "fr": "Tapis fossile",
+   "en": "Fossil rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherFossilM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "frozen-floor-tiles",
+  "nom": {
+   "fr": "Carpette arctique tuiles",
+   "en": "Frozen floor tiles"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareIceS00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "2.0.0"
+ },
+ {
+  "id": "glowing-moss-rug",
+  "nom": {
+   "fr": "Tapis carré schistostega",
+   "en": "Glowing-moss rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectGlowMossM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 300
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "gray-brick-rug",
+  "nom": {
+   "fr": "Carpette brique grise",
+   "en": "Gray brick rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareBrickS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "gray-floor-tiles",
+  "nom": {
+   "fr": "Carpette dalles grises",
+   "en": "Gray floor tiles"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareTileS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "green-bamboo-mat",
+  "nom": {
+   "fr": "Tapis bambou vert",
+   "en": "Green bamboo mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBambooBathmatS00.png",
+  "prix": {
+   "achat": null,
+   "vente": 480
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "green-checked-rug",
+  "nom": {
+   "fr": "Tapis tartan vert",
+   "en": "Green checked rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareCheckQuiltL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-exercise-mat",
+  "nom": {
+   "fr": "Tapis de sol vert",
+   "en": "Green exercise mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMatM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "green-exquisite-rug",
+  "nom": {
+   "fr": "Tapis Chine vert",
+   "en": "Green exquisite rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectChinamatS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "green-hawaiian-quilt-rug",
+  "nom": {
+   "fr": "Tapis hawaïen vert",
+   "en": "Green Hawaiian quilt rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareHawaiianL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "green-kilim-style-carpet",
+  "nom": {
+   "fr": "Tapis kilim vert",
+   "en": "Green kilim-style carpet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareKirimL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-kitchen-mat",
+  "nom": {
+   "fr": "Tapis de cuisine vert",
+   "en": "Green kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectKitchenS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-shaggy-rug",
+  "nom": {
+   "fr": "Tapis à poil long vert",
+   "en": "Green shaggy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareShaggyL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-stripes-rug",
+  "nom": {
+   "fr": "Tapis à rayures vertes",
+   "en": "Green stripes rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBorderL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hello-kitty-rug",
+  "nom": {
+   "fr": "Tapis Hello Kitty",
+   "en": "Hello Kitty rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherKittyM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "imperial-rug",
+  "nom": {
+   "fr": "Tapis impérial",
+   "en": "Imperial rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareChinaL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "iron-entrance-mat",
+  "nom": {
+   "fr": "Paillasson en fer forgé",
+   "en": "Iron entrance mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectIronmatS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ivory-medium-round-mat",
+  "nom": {
+   "fr": "Tapis rond ivoire M",
+   "en": "Ivory medium round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ivory-simple-bath-mat",
+  "nom": {
+   "fr": "Tapis de bain simple ivoire",
+   "en": "Ivory simple bath mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBathmatS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ivory-small-round-mat",
+  "nom": {
+   "fr": "Tapis rond ivoire S",
+   "en": "Ivory small round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kerokerokeroppi-rug",
+  "nom": {
+   "fr": "Tapis Kerokerokeroppi",
+   "en": "Kerokerokeroppi rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundKeroppiM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "kiki-and-lala-rug",
+  "nom": {
+   "fr": "Tapis Kiki & Lala",
+   "en": "Kiki & Lala rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherKikilalaM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "lacy-rug",
+  "nom": {
+   "fr": "Tapis dentelle",
+   "en": "Lacy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundLaceM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ladybug-rug",
+  "nom": {
+   "fr": "Tapis coccinelle",
+   "en": "Ladybug rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundLadybirdM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 375
+  },
+  "sources": [
+   "Djason"
+  ],
+  "evenement": "Bug-Off (1); Bug-Off (2); Bug-Off (3); Bug-Off (4)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "lakitus-cloud-rug",
+  "nom": {
+   "fr": "Tapis nuage de Lakitu",
+   "en": "Lakitu's Cloud rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMarioBM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Not available before March 1st 2021",
+  "v": "1.8.0"
+ },
+ {
+  "id": "large-paradise-planning-rug",
+  "nom": {
+   "fr": "Tapis Les Villas de Lou L",
+   "en": "Large Paradise Planning rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquarePatternL00.png",
+  "prix": {
+   "achat": null,
+   "vente": 500,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Mantin"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "lego-space-logo-rug",
+  "nom": {
+   "fr": "Tapis logo espace LEGO®",
+   "en": "LEGO® space logo rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherLEGOM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "light-bamboo-bath-mat",
+  "nom": {
+   "fr": "Tapis de bain bambou clair",
+   "en": "Light bamboo bath mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBambooS00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "young spring bamboo",
+  "v": "2.0.0"
+ },
+ {
+  "id": "light-bamboo-rug",
+  "nom": {
+   "fr": "Tapis bambou clair",
+   "en": "Light bamboo rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBambooM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "young spring bamboo",
+  "v": "1.0.0"
+ },
+ {
+  "id": "light-square-tile",
+  "nom": {
+   "fr": "Carpette tuile claire",
+   "en": "Light square tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareWoodS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "light-stones-rug",
+  "nom": {
+   "fr": "Carpette pierre claire",
+   "en": "Light stones rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareStoneS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "light-brown-cow-print-rug",
+  "nom": {
+   "fr": "Tapis vache brun clair",
+   "en": "Light-brown cow-print rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherAnimalM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "light-wood-flooring-sheet",
+  "nom": {
+   "fr": "Carpette lino bois clair",
+   "en": "Light-wood flooring sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDisplayStandS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "light-wood-flooring-tile",
+  "nom": {
+   "fr": "Carré lino bois clair",
+   "en": "Light-wood flooring tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareDisplayStandS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "magic-circle-rug",
+  "nom": {
+   "fr": "Tapis ésotérique",
+   "en": "Magic-circle rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundMagicM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "maple-leaf-rug",
+  "nom": {
+   "fr": "Tapis feuille d'érable",
+   "en": "Maple-leaf rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMapleM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "maple leaves",
+  "v": "2.0.0"
+ },
+ {
+  "id": "mermaid-rug",
+  "nom": {
+   "fr": "Tapis sirène",
+   "en": "Mermaid rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMermaidM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 10360
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.3.0"
+ },
+ {
+  "id": "modern-wavy-rug",
+  "nom": {
+   "fr": "Tapis vagues moderne",
+   "en": "Modern wavy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectWaveL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "moms-cool-kitchen-mat",
+  "nom": {
+   "fr": "Tap. cuisine de maman bleu",
+   "en": "Mom's cool kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMomS00.png",
+  "prix": {
+   "achat": null,
+   "vente": 88
+  },
+  "sources": [
+   "Maman"
+  ],
+  "notes_source": "Received in November in the Northern Hemisphere and received in May in the Southern Hemisphere",
+  "v": "1.0.0"
+ },
+ {
+  "id": "moms-lively-kitchen-mat",
+  "nom": {
+   "fr": "T. cuisine de maman jaune",
+   "en": "Mom's lively kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMomS02.png",
+  "prix": {
+   "achat": null,
+   "vente": 88
+  },
+  "sources": [
+   "Maman"
+  ],
+  "notes_source": "Received in November in the Northern Hemisphere and received in May in the Southern Hemisphere",
+  "v": "1.0.0"
+ },
+ {
+  "id": "moms-playful-kitchen-mat",
+  "nom": {
+   "fr": "Tap. cuisine de maman rose",
+   "en": "Mom's playful kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMomS01.png",
+  "prix": {
+   "achat": null,
+   "vente": 88
+  },
+  "sources": [
+   "Maman"
+  ],
+  "notes_source": "Received in November in the Northern Hemisphere and received in May in the Southern Hemisphere",
+  "v": "1.0.0"
+ },
+ {
+  "id": "moms-reliable-kitchen-mat",
+  "nom": {
+   "fr": "T. cuisine de maman mauve",
+   "en": "Mom's reliable kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMomS03.png",
+  "prix": {
+   "achat": null,
+   "vente": 88
+  },
+  "sources": [
+   "Maman"
+  ],
+  "notes_source": "Received in November in the Northern Hemisphere and received in May in the Southern Hemisphere",
+  "v": "1.0.0"
+ },
+ {
+  "id": "monochromatic-dotted-rug",
+  "nom": {
+   "fr": "Tapis à pois monochrome",
+   "en": "Monochromatic dotted rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDotL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "monochromatic-wavy-rug",
+  "nom": {
+   "fr": "Tapis vagues monochrome",
+   "en": "Monochromatic wavy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectWaveL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "moon-rug",
+  "nom": {
+   "fr": "Tapis lune",
+   "en": "Moon rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundMoonM00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Moon-Viewing Day",
+  "v": "1.4.0"
+ },
+ {
+  "id": "mush-rug",
+  "nom": {
+   "fr": "Tapis champignons",
+   "en": "Mush rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMushM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "my-melody-rug",
+  "nom": {
+   "fr": "Tapis My Melody",
+   "en": "My Melody rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMymelodyM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "natural-wooden-deck-rug",
+  "nom": {
+   "fr": "Tapis parquet naturel",
+   "en": "Natural wooden-deck rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDeckM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "natural-wood-flooring-sheet",
+  "nom": {
+   "fr": "Carpette lino bois naturel",
+   "en": "Natural-wood flooring sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDisplayStandS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "natural-wood-flooring-tile",
+  "nom": {
+   "fr": "Carré lino bois naturel",
+   "en": "Natural-wood flooring tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareDisplayStandS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "natural-wood-square-tile",
+  "nom": {
+   "fr": "Carpette tuile bois naturel",
+   "en": "Natural-wood square tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareWoodS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "nook-inc-botanical-rug",
+  "nom": {
+   "fr": "Tapis botanique Nook Inc.",
+   "en": "Nook Inc. botanical rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherTanukiM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 5000,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Échange de Miles Nook"
+  ],
+  "v": "1.1.0"
+ },
+ {
+  "id": "nook-inc-rug",
+  "nom": {
+   "fr": "Tapis Nook Inc.",
+   "en": "Nook Inc. rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherLeafM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 5000,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Échange de Miles Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "nook-inc-silk-rug",
+  "nom": {
+   "fr": "Tapis en soie Nook Inc.",
+   "en": "Nook Inc. silk rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectTanukiL00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000,
+   "echange": {
+    "prix": 600,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Échange de Miles Nook"
+  ],
+  "notes_source": "Requires a Nintendo Switch Online membership",
+  "v": "1.1.0"
+ },
+ {
+  "id": "orange-rug",
+  "nom": {
+   "fr": "Tapis orange",
+   "en": "Orange rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherOrangeM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "oval-entrance-mat",
+  "nom": {
+   "fr": "Paillasson ovale",
+   "en": "Oval entrance mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherCountryS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "peach-checked-rug",
+  "nom": {
+   "fr": "Tapis tartan rose",
+   "en": "Peach checked rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareCheckQuiltL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "peach-rug",
+  "nom": {
+   "fr": "Tapis pêche",
+   "en": "Peach rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherPeachM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "peach-stripes-rug",
+  "nom": {
+   "fr": "Tapis à rayures roses",
+   "en": "Peach stripes rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBorderL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pear-rug",
+  "nom": {
+   "fr": "Tapis poire",
+   "en": "Pear rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherPearM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-hawaiian-quilt-rug",
+  "nom": {
+   "fr": "Tapis hawaïen rose",
+   "en": "Pink Hawaiian quilt rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareHawaiianL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "pink-heart-rug",
+  "nom": {
+   "fr": "Tapis amour rose",
+   "en": "Pink heart rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherHeartM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-rose-rug",
+  "nom": {
+   "fr": "Tapis rose rose",
+   "en": "Pink rose rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherRoseM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pirate-rug",
+  "nom": {
+   "fr": "Tapis pirate",
+   "en": "Pirate rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectPiratesM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 375
+  },
+  "sources": [
+   "Gullivarrr"
+  ],
+  "v": "1.3.0"
+ },
+ {
+  "id": "pompompurin-rug",
+  "nom": {
+   "fr": "Tapis Pompompurin",
+   "en": "Pompompurin rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherPurinM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "purple-heart-rug",
+  "nom": {
+   "fr": "Tapis amour mauve",
+   "en": "Purple heart rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherHeartM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-persian-rug",
+  "nom": {
+   "fr": "Tapis persan mauve",
+   "en": "Purple Persian rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquarePersianL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-shaggy-rug",
+  "nom": {
+   "fr": "Tapis à poil long violet",
+   "en": "Purple shaggy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareShaggyL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "record-rug",
+  "nom": {
+   "fr": "Tapis disque",
+   "en": "Record rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundRecordM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "red-argyle-rug",
+  "nom": {
+   "fr": "Tapis argyle rouge",
+   "en": "Red argyle rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectArgyleL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-blocks-rug",
+  "nom": {
+   "fr": "Tapis à carreaux rouge",
+   "en": "Red blocks rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareBlockM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-brick-rug",
+  "nom": {
+   "fr": "Carpette brique rouge",
+   "en": "Red brick rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareBrickS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "red-carpet",
+  "nom": {
+   "fr": "Tapis rouge",
+   "en": "Red carpet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectElegantM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-dotted-rug",
+  "nom": {
+   "fr": "Tapis à pois rouge",
+   "en": "Red dotted rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDotL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-exercise-mat",
+  "nom": {
+   "fr": "Tapis de sol rouge",
+   "en": "Red exercise mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMatM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "red-exquisite-rug",
+  "nom": {
+   "fr": "Tapis Chine rouge",
+   "en": "Red exquisite rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectChinamatS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "red-kilim-style-carpet",
+  "nom": {
+   "fr": "Tapis kilim rouge",
+   "en": "Red kilim-style carpet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareKirimL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-medium-round-mat",
+  "nom": {
+   "fr": "Tapis rond rouge M",
+   "en": "Red medium round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-message-mat",
+  "nom": {
+   "fr": "Paillasson à message rouge",
+   "en": "Red message mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMessageS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-persian-rug",
+  "nom": {
+   "fr": "Tapis persan rouge",
+   "en": "Red Persian rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquarePersianL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-rose-rug",
+  "nom": {
+   "fr": "Tapis rose rouge",
+   "en": "Red rose rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherRoseM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-small-round-mat",
+  "nom": {
+   "fr": "Tapis rond rouge S",
+   "en": "Red small round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-vinyl-sheet",
+  "nom": {
+   "fr": "Tapis vinyle rouge",
+   "en": "Red vinyl sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectVinylM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-watermelon-rug",
+  "nom": {
+   "fr": "Tapis pastèque rouge",
+   "en": "Red watermelon rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherWatermelonM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "red-wavy-rug",
+  "nom": {
+   "fr": "Tapis vagues rouge",
+   "en": "Red wavy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectWaveL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-wedding-rug",
+  "nom": {
+   "fr": "Tapis mariage rouge",
+   "en": "Red wedding rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectJuneBrideM02.png",
+  "prix": {
+   "achat": null,
+   "vente": 375,
+   "echange": {
+    "prix": 4,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "red-and-blue-checked-rug",
+  "nom": {
+   "fr": "Tapis tartan rouge et bleu",
+   "en": "Red-and-blue checked rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareCheckQuiltL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-design-kitchen-mat",
+  "nom": {
+   "fr": "Tapis cuisine à motifs rouge",
+   "en": "Red-design kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectNativeKitchenS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "retro-dotted-rug",
+  "nom": {
+   "fr": "Tapis à pois rétro",
+   "en": "Retro dotted rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDotL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rough-rug",
+  "nom": {
+   "fr": "Paillasson",
+   "en": "Rough rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDoormatS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "round-glowing-moss-rug",
+  "nom": {
+   "fr": "Tapis rond schistostega",
+   "en": "Round glowing-moss rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundGlowMossS00.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "round-vine-rug",
+  "nom": {
+   "fr": "Tapis rond vigne",
+   "en": "Round vine rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundVineS00.png",
+  "prix": {
+   "achat": null,
+   "vente": 400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "rubber-mud-mat",
+  "nom": {
+   "fr": "Paillasson en caoutchouc",
+   "en": "Rubber mud mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectRubberScraperS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "shamrock-rug",
+  "nom": {
+   "fr": "Tapis trèfle",
+   "en": "Shamrock rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherShamrockM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Shamrock Day",
+  "v": "1.8.0"
+ },
+ {
+  "id": "shanty-mat",
+  "nom": {
+   "fr": "Tapis de paille",
+   "en": "Shanty mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareOldStrawL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "shell-rug",
+  "nom": {
+   "fr": "Tapis coquillage",
+   "en": "Shell rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherShellM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 5400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-entrance-mat",
+  "nom": {
+   "fr": "Paillasson simple",
+   "en": "Simple entrance mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectEntranceS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "simple-green-bath-mat",
+  "nom": {
+   "fr": "Tapis de bain simple vert",
+   "en": "Simple green bath mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBathmatS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-medium-avocado-mat",
+  "nom": {
+   "fr": "Tapis simple vert kaki M",
+   "en": "Simple medium avocado mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-medium-black-mat",
+  "nom": {
+   "fr": "Tapis simple noir M",
+   "en": "Simple medium black mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM07.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-medium-blue-mat",
+  "nom": {
+   "fr": "Tapis simple bleu M",
+   "en": "Simple medium blue mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-medium-brown-mat",
+  "nom": {
+   "fr": "Tapis simple brun M",
+   "en": "Simple medium brown mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-medium-orange-mat",
+  "nom": {
+   "fr": "Tapis simple orange M",
+   "en": "Simple medium orange mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM05.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-medium-purple-mat",
+  "nom": {
+   "fr": "Tapis simple mauve M",
+   "en": "Simple medium purple mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM06.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-medium-red-mat",
+  "nom": {
+   "fr": "Tapis simple rouge M",
+   "en": "Simple medium red mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM04.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-navy-bath-mat",
+  "nom": {
+   "fr": "Tapis de bain simple marine",
+   "en": "Simple navy bath mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBathmatS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-pink-bath-mat",
+  "nom": {
+   "fr": "Tapis de bain simple rose",
+   "en": "Simple pink bath mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBathmatS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-small-avocado-mat",
+  "nom": {
+   "fr": "Tapis simple vert kaki S",
+   "en": "Simple small avocado mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-small-black-mat",
+  "nom": {
+   "fr": "Tapis simple noir S",
+   "en": "Simple small black mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS07.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-small-blue-mat",
+  "nom": {
+   "fr": "Tapis simple bleu S",
+   "en": "Simple small blue mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-small-brown-mat",
+  "nom": {
+   "fr": "Tapis simple brun S",
+   "en": "Simple small brown mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-small-orange-mat",
+  "nom": {
+   "fr": "Tapis simple orange S",
+   "en": "Simple small orange mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS05.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-small-purple-mat",
+  "nom": {
+   "fr": "Tapis simple mauve S",
+   "en": "Simple small purple mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS06.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-small-red-mat",
+  "nom": {
+   "fr": "Tapis simple rouge S",
+   "en": "Simple small red mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS04.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "skull-rug",
+  "nom": {
+   "fr": "Tapis crâne",
+   "en": "Skull rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherSkullM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "sloppy-rug",
+  "nom": {
+   "fr": "Carpette négligée",
+   "en": "Sloppy rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherSloppyL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "small-paradise-planning-mat",
+  "nom": {
+   "fr": "Tapis Les Villas de Lou S",
+   "en": "Small Paradise Planning mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectPatternS00.png",
+  "prix": {
+   "achat": null,
+   "vente": 250,
+   "echange": {
+    "prix": 900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Mantin"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "snowflake-rug",
+  "nom": {
+   "fr": "Tapis flocon",
+   "en": "Snowflake rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSnowM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "spooky-rug",
+  "nom": {
+   "fr": "Tapis Halloween",
+   "en": "Spooky rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareHalloweenL00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2000
+  },
+  "sources": [
+   "Habitants"
+  ],
+  "notes_source": "Trade candy or a lollipop with a villager",
+  "evenement": "Halloween",
+  "v": "1.5.0"
+ },
+ {
+  "id": "stage-rug",
+  "nom": {
+   "fr": "Tapis piste de cirque",
+   "en": "Stage rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundStageM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "starry-skies-rug",
+  "nom": {
+   "fr": "Tapis constellation",
+   "en": "Starry-skies rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundZodiacM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 5500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "summer-shell-rug",
+  "nom": {
+   "fr": "Tapis coquillage estival",
+   "en": "Summer-shell rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherShellSnailM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "summer shells",
+  "v": "1.6.0"
+ },
+ {
+  "id": "sunflower-rug",
+  "nom": {
+   "fr": "Tapis tournesol",
+   "en": "Sunflower rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherSunflowerM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Summer Solstice",
+  "v": "1.6.0"
+ },
+ {
+  "id": "tatami-mat",
+  "nom": {
+   "fr": "Tatami",
+   "en": "Tatami mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectTatamiM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tree-stump-rug",
+  "nom": {
+   "fr": "Tapis souche",
+   "en": "Tree-stump rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherStumpM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 720
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "tropical-rug",
+  "nom": {
+   "fr": "Tapis tropical",
+   "en": "Tropical rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundIslandM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "turkey-day-rug",
+  "nom": {
+   "fr": "Tapis fête du partage",
+   "en": "Turkey Day rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareHarvestL00.png",
+  "prix": {
+   "achat": null,
+   "vente": 500
+  },
+  "sources": [
+   "Dindou"
+  ],
+  "notes_source": "Reward for giving Franklin the requested ingredients",
+  "evenement": "Turkey Day",
+  "v": "1.6.0"
+ },
+ {
+  "id": "turquoise-heart-rug",
+  "nom": {
+   "fr": "Tapis amour turquoise",
+   "en": "Turquoise heart rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherHeartM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-exercise-mat",
+  "nom": {
+   "fr": "Tapis de sol blanc",
+   "en": "White exercise mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectMatM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "white-heart-rug",
+  "nom": {
+   "fr": "Tapis amour blanc",
+   "en": "White heart rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherHeartM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-message-mat",
+  "nom": {
+   "fr": "Paillasson à message blanc",
+   "en": "White message mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMessageS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-rose-rug",
+  "nom": {
+   "fr": "Tapis rose blanche",
+   "en": "White rose rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherRoseM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-simple-medium-mat",
+  "nom": {
+   "fr": "Tapis simple ivoire M",
+   "en": "White simple medium mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-simple-small-mat",
+  "nom": {
+   "fr": "Tapis simple ivoire S",
+   "en": "White simple small mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareSimpleS00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-square-tile",
+  "nom": {
+   "fr": "Carpette tuile blanche",
+   "en": "White square tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareWoodS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "white-wedding-rug",
+  "nom": {
+   "fr": "Tapis mariage blanc",
+   "en": "White wedding rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectJuneBrideM03.png",
+  "prix": {
+   "achat": null,
+   "vente": 375,
+   "echange": {
+    "prix": 4,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "white-wooden-deck-rug",
+  "nom": {
+   "fr": "Tapis parquet blanc",
+   "en": "White wooden-deck rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDeckM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-wood-flooring-sheet",
+  "nom": {
+   "fr": "Carpette lino bois blanc",
+   "en": "White-wood flooring sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectDisplayStandS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "white-wood-flooring-tile",
+  "nom": {
+   "fr": "Carré lino bois blanc",
+   "en": "White-wood flooring tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareDisplayStandS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "yellow-argyle-rug",
+  "nom": {
+   "fr": "Tapis argyle jaune",
+   "en": "Yellow argyle rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectArgyleL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-bamboo-mat",
+  "nom": {
+   "fr": "Tapis bambou jaune",
+   "en": "Yellow bamboo mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBambooBathmatS01.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "young spring bamboo",
+  "v": "2.0.0"
+ },
+ {
+  "id": "yellow-blocks-rug",
+  "nom": {
+   "fr": "Tapis à carreaux jaune",
+   "en": "Yellow blocks rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareBlockM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-checked-rug",
+  "nom": {
+   "fr": "Tapis tartan jaune",
+   "en": "Yellow checked rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareCheckQuiltL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-hawaiian-quilt-rug",
+  "nom": {
+   "fr": "Tapis hawaïen jaune",
+   "en": "Yellow Hawaiian quilt rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareHawaiianL01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "yellow-kilim-style-carpet",
+  "nom": {
+   "fr": "Tapis kilim jaune",
+   "en": "Yellow kilim-style carpet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquareKirimL03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-kitchen-mat",
+  "nom": {
+   "fr": "Tapis de cuisine jaune",
+   "en": "Yellow kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectKitchenS01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-medium-round-mat",
+  "nom": {
+   "fr": "Tapis rond jaune M",
+   "en": "Yellow medium round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-message-mat",
+  "nom": {
+   "fr": "Paillasson à message jaune",
+   "en": "Yellow message mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMessageS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-persian-rug",
+  "nom": {
+   "fr": "Tapis persan jaune",
+   "en": "Yellow Persian rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugSquarePersianL02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-rose-rug",
+  "nom": {
+   "fr": "Tapis rose jaune",
+   "en": "Yellow rose rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherRoseM02.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-small-round-mat",
+  "nom": {
+   "fr": "Tapis rond jaune S",
+   "en": "Yellow small round mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRoundSimpleS03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-star-rug",
+  "nom": {
+   "fr": "Tapis étoile jaune",
+   "en": "Yellow star rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherStarM00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "yellow-stripes-rug",
+  "nom": {
+   "fr": "Tapis à rayures jaunes",
+   "en": "Yellow stripes rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectBorderL00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-vinyl-sheet",
+  "nom": {
+   "fr": "Tapis vinyle jaune",
+   "en": "Yellow vinyl sheet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectVinylM03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-watermelon-rug",
+  "nom": {
+   "fr": "Tapis pastèque jaune",
+   "en": "Yellow watermelon rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherWatermelonM01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "yellow-design-kitchen-mat",
+  "nom": {
+   "fr": "Tapis cuisine à motifs jaune",
+   "en": "Yellow-design kitchen mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugRectNativeKitchenS02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yoshis-egg-rug",
+  "nom": {
+   "fr": "Tapis œuf de Yoshi",
+   "en": "Yoshi's Egg rug"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RugOtherMarioAM00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Not available before March 1st 2021",
+  "v": "1.8.0"
+ }
+]

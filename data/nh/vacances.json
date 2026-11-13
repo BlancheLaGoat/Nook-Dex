@@ -1,0 +1,6943 @@
+[
+ {
+  "id": "ace",
+  "nom": {
+   "fr": "Boumboum",
+   "en": "Ace"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd09.png",
+  "demande": "The Fishin' Hole",
+  "bulle": "I want a place where I can fish to my heart's content.",
+  "chanson": "To the Edge",
+  "meubles": [
+   "cooler box",
+   "outdoor folding chair",
+   "yacht"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "admiral",
+  "nom": {
+   "fr": "Maréchal",
+   "en": "Admiral"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd06.png",
+  "demande": "Cool Country Cabin",
+  "bulle": "I want a cool cabin where I can relax on hot days!",
+  "chanson": "K.K. Rally",
+  "meubles": [
+   "retro fan",
+   "water pump",
+   "bamboo noodle slide"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "agent-s",
+  "nom": {
+   "fr": "Ninjette",
+   "en": "Agent S"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ05.png",
+  "demande": "Training Grounds for a Hero",
+  "bulle": "Heroes train! It's what they do, even on vacation!",
+  "chanson": "Go K.K. Rider",
+  "meubles": [
+   "speed bag",
+   "shower booth",
+   "barbell"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "agnes",
+  "nom": {
+   "fr": "Pansy",
+   "en": "Agnes"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig17.png",
+  "demande": "The Artsiest Art Museum",
+  "bulle": "I want a place that's like a museum with artsy furniture!",
+  "chanson": "K.K. Fugue",
+  "meubles": [
+   "poster stand",
+   "elaborate display case",
+   "decorative pillar"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "al",
+  "nom": {
+   "fr": "Gustave",
+   "en": "Al"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor08.png",
+  "demande": "Gymnastics School for Kids",
+  "bulle": "My dream is to someday teach gymnastics to kids.",
+  "chanson": "K.K. Étude",
+  "meubles": [
+   "school locker",
+   "ball catcher",
+   "pull-up-bar stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "alfonso",
+  "nom": {
+   "fr": "Alphonse",
+   "en": "Alfonso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd00.png",
+  "demande": "Castle Sky Cake",
+  "bulle": "I want to float high in the sky, surrounded by cake...",
+  "chanson": "K.K. Slack-Key",
+  "meubles": [
+   "dessert case",
+   "Yule log",
+   "crescent-moon chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "alice",
+  "nom": {
+   "fr": "Alice",
+   "en": "Alice"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal01.png",
+  "demande": "An Antique Cottage",
+  "bulle": "I want a taste of the refined lifestyle...with antique goods.",
+  "chanson": "K.K. Aria",
+  "meubles": [
+   "serving cart",
+   "simple sofa",
+   "fancy tea set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "alli",
+  "nom": {
+   "fr": "Allie",
+   "en": "Alli"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd01.png",
+  "demande": "My Mushroom Forest",
+  "bulle": "I want to relax in a forest surrounded by mushrooms.",
+  "chanson": "K.K. Milonga",
+  "meubles": [
+   "mush low stool",
+   "mush table",
+   "log garden lounge"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "amelia",
+  "nom": {
+   "fr": "Aurélie",
+   "en": "Amelia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr01.png",
+  "demande": "Beloved Hanging Gardens",
+  "bulle": "I want a place where my greenery can get lots of light.",
+  "chanson": "K.K. Condor",
+  "meubles": [
+   "plant partition",
+   "schefflera",
+   "flower bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "anabelle",
+  "nom": {
+   "fr": "Anabelle",
+   "en": "Anabelle"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant03.png",
+  "demande": "Anabelle's Gathering Garden",
+  "bulle": "I'd love a garden where all my friends can gather...",
+  "chanson": "K.K. Calypso",
+  "meubles": [
+   "elegant sofa",
+   "park clock"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "anchovy",
+  "nom": {
+   "fr": "Miguel",
+   "en": "Anchovy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd02.png",
+  "demande": "A Place Where They Sell Hats",
+  "bulle": "If I had tons of hats, would it feel like a hat shop?",
+  "chanson": "K.K. Country",
+  "meubles": [
+   "tabletop POP display",
+   "counter table",
+   "desk mirror"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "angus",
+  "nom": {
+   "fr": "Angus",
+   "en": "Angus"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bul00.png",
+  "demande": "A Lighthouse Lifestyle",
+  "bulle": "I think a vacation home with a lighthouse would be fun...",
+  "chanson": "K.K. Island",
+  "meubles": [
+   "fish container",
+   "lighthouse",
+   "wave breaker"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "anicotti",
+  "nom": {
+   "fr": "Annie",
+   "en": "Anicotti"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus10.png",
+  "demande": "Pizza-Party HQ",
+  "bulle": "I want to have outdoor pizza parties with my friends!",
+  "chanson": "K.K. Blues",
+  "meubles": [
+   "stonework kitchen",
+   "pizza margherita",
+   "brick oven"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ankha",
+  "nom": {
+   "fr": "Neferti",
+   "en": "Ankha"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat19.png",
+  "demande": "Ancient Oasis",
+  "bulle": "I enjoy the elegance of the ancient world.",
+  "chanson": "K.K. Bazaar",
+  "meubles": [
+   "golden dung beetle",
+   "elegant mirror"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "annalisa",
+  "nom": {
+   "fr": "Roberta",
+   "en": "Annalisa"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant08.png",
+  "demande": "Secret Supper Club",
+  "bulle": "I'd love an exclusive and secret supper club...",
+  "chanson": "King K.K.",
+  "meubles": [
+   "screen",
+   "Japanese-style meal",
+   "super-premium nigirizushi"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "annalise",
+  "nom": {
+   "fr": "Âne-lise",
+   "en": "Annalise"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs09.png",
+  "demande": "A Home with a Terrace",
+  "bulle": "Terraces are wonderful. I simply must have one.",
+  "chanson": "K.K. Love Song",
+  "meubles": [
+   "natural garden table",
+   "natural garden chair",
+   "evergreen ash"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "antonio",
+  "nom": {
+   "fr": "Antonio",
+   "en": "Antonio"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant01.png",
+  "demande": "A Simple Stronghold",
+  "bulle": "Is it too much to ask for a simple stronghold?",
+  "chanson": "Space K.K.",
+  "meubles": [
+   "simple table",
+   "simple chair",
+   "simple bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "apollo",
+  "nom": {
+   "fr": "Apollon",
+   "en": "Apollo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr00.png",
+  "demande": "A Home in the Rough",
+  "bulle": "I like to go off the beaten path, to spots no one's seen.",
+  "chanson": "K.K. Condor",
+  "meubles": [
+   "ruined decorated pillar",
+   "ruined broken pillar"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "apple",
+  "nom": {
+   "fr": "Esther",
+   "en": "Apple"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham01.png",
+  "demande": "My Own Apple Orchard",
+  "bulle": "Wouldn't a home filled with yummy apples be totes cool?",
+  "chanson": "DJ K.K.",
+  "meubles": [
+   "juicy-apple TV",
+   "apple chair",
+   "fruit basket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "astrid",
+  "nom": {
+   "fr": "Rhona",
+   "en": "Astrid"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr05.png",
+  "demande": "Jam Space for the Band",
+  "bulle": "I want all my friends to come over for band practice!",
+  "chanson": "Rockin' K.K.",
+  "meubles": [
+   "drum set",
+   "rock guitar",
+   "silver mic"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "audie",
+  "nom": {
+   "fr": "Monica",
+   "en": "Audie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol12.png",
+  "demande": "DJ Party Zone",
+  "bulle": "I want a place where I can always be the DJ!",
+  "chanson": "K.K. Robot Synth",
+  "meubles": [
+   "DJ's turntable",
+   "record box",
+   "floor monitor"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "aurora",
+  "nom": {
+   "fr": "Aurore",
+   "en": "Aurora"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn00.png",
+  "demande": "A Florist's Flower Shop",
+  "bulle": "I love flower shops and all their pretty flowers...",
+  "chanson": "Mountain Song",
+  "meubles": [
+   "flower display case",
+   "flower stand",
+   "garden wagon"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ava",
+  "nom": {
+   "fr": "Eva",
+   "en": "Ava"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn05.png",
+  "demande": "My Gastronomy Garden",
+  "bulle": "I'd like a vacation home for offering cooking lessons.",
+  "chanson": "K.K. Bossa",
+  "meubles": [
+   "kitchen island",
+   "microwave",
+   "bread"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "avery",
+  "nom": {
+   "fr": "Faust",
+   "en": "Avery"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr05.png",
+  "demande": "Rocky Refuge",
+  "bulle": "Being near lots of rocks might be nice. They're real quiet.",
+  "chanson": "K.K. Marathon",
+  "meubles": [
+   "tall garden rock",
+   "garden rock",
+   "stone arch"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "axel",
+  "nom": {
+   "fr": "Axel",
+   "en": "Axel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp06.png",
+  "demande": "My Muscular Sweets Store",
+  "bulle": "All I can think about is making really awesome sweets!",
+  "chanson": "K.K. Birthday",
+  "meubles": [
+   "analog kitchen scale",
+   "mixed-fruits pie",
+   "cooking tools"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "azalea",
+  "nom": {
+   "fr": "Azalée",
+   "en": "Azalea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rhn05.png",
+  "demande": "House of Green Furniture",
+  "bulle": "I think green furniture is what I need to feel refreshed.",
+  "chanson": "K.K. Groove",
+  "meubles": [
+   "pear wardrobe",
+   "iron garden table",
+   "iron garden chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "baabara",
+  "nom": {
+   "fr": "Bêêtty",
+   "en": "Baabara"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp01.png",
+  "demande": "Home for a Ballet Dancer",
+  "bulle": "I'd like to dance gracefully in a home built like a stage.",
+  "chanson": "K.K. Aria",
+  "meubles": [
+   "studio spotlight",
+   "stage lights"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bam",
+  "nom": {
+   "fr": "Nacer",
+   "en": "Bam"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der01.png",
+  "demande": "My Cooking Life",
+  "bulle": "I want a place I can cook anything. Particularly rice!",
+  "chanson": "K.K. Faire",
+  "meubles": [
+   "bathroom sink",
+   "rice cooker"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bangle",
+  "nom": {
+   "fr": "Bengale",
+   "en": "Bangle"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/tig03.png",
+  "demande": "Animal-Stuff Abode",
+  "bulle": "A shop all full of animal stuff would be the best!",
+  "chanson": "DJ K.K.",
+  "meubles": [
+   "leopard tee",
+   "touchscreen cash register"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "barold",
+  "nom": {
+   "fr": "Manu",
+   "en": "Barold"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr16.png",
+  "demande": "A Hot-Pot Potluck Place",
+  "bulle": "I want a place with lots of pots for a hot-pot potluck!",
+  "chanson": "K.K. Dirge",
+  "meubles": [
+   "stewpot",
+   "kotatsu"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bea",
+  "nom": {
+   "fr": "Béa",
+   "en": "Bea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog10.png",
+  "demande": "My Own Garden Plot",
+  "bulle": "I want a place to raise and care for my plants...",
+  "chanson": "I Love You",
+  "meubles": [
+   "flower display case",
+   "potted starter plants",
+   "flower bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "beardo",
+  "nom": {
+   "fr": "Eustache",
+   "en": "Beardo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea13.png",
+  "demande": "A Proper English Garden",
+  "bulle": "I want to enjoy a proper cup of tea in an English garden...",
+  "chanson": "Soulful K.K.",
+  "meubles": [
+   "fancy tea set",
+   "iron garden bench",
+   "flower bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "beau",
+  "nom": {
+   "fr": "Stefaon",
+   "en": "Beau"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der07.png",
+  "demande": "My Own Personal Picnic Park",
+  "bulle": "I wanna picnic inside and outside. Picnic everywhere!",
+  "chanson": "K.K. Polka",
+  "meubles": [
+   "picnic basket",
+   "pull-apart bread",
+   "basket bag"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "becky",
+  "nom": {
+   "fr": "Sonya",
+   "en": "Becky"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn09.png",
+  "demande": "A Place for Choir Practice",
+  "bulle": "I want a place to practice with the choir group I'm forming.",
+  "chanson": "Soulful K.K.",
+  "meubles": [
+   "music stand",
+   "grand piano",
+   "piano bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bella",
+  "nom": {
+   "fr": "Belle",
+   "en": "Bella"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus02.png",
+  "demande": "My Voice-Training Studio",
+  "bulle": "It's real important for me to keep up my voice training.",
+  "chanson": "K.K. Metal",
+  "meubles": [
+   "silver mic",
+   "humidifier",
+   "high-end stereo"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "benedict",
+  "nom": {
+   "fr": "Dimitri",
+   "en": "Benedict"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn01.png",
+  "demande": "A Space Station All to Myself",
+  "bulle": "I wanna go on space walks in my own personal outer space.",
+  "chanson": "My Place",
+  "meubles": [
+   "satellite",
+   "space shuttle",
+   "moon"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "benjamin",
+  "nom": {
+   "fr": "Bernardo",
+   "en": "Benjamin"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog16.png",
+  "demande": "A Restful, Rural Retreat",
+  "bulle": "I want a rural escape that's as sleepy as I am...",
+  "chanson": "K.K. Island",
+  "meubles": [
+   "retro TV",
+   "wheat field",
+   "handcart"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bertha",
+  "nom": {
+   "fr": "Bertha",
+   "en": "Bertha"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hip03.png",
+  "demande": "Bungalow of Cozy Baskets",
+  "bulle": "I want a place filled with all sorts of warm, cozy baskets.",
+  "chanson": "Wandering",
+  "meubles": [
+   "picnic basket",
+   "rattan towel basket",
+   "fruit basket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bettina",
+  "nom": {
+   "fr": "Sabrina",
+   "en": "Bettina"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus15.png",
+  "demande": "A Peerless Patisserie",
+  "bulle": "I want to make cakes as good as the best cake bakeries do.",
+  "chanson": "Café K.K.",
+  "meubles": [
+   "dessert case",
+   "afternoon-tea set",
+   "dessert carrier"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bianca",
+  "nom": {
+   "fr": "Noémie",
+   "en": "Bianca"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/tig06.png",
+  "demande": "My Winter Wonderland",
+  "bulle": "I grew up around snow, so I want a snowy vacation home!",
+  "chanson": "K.K. Steppe",
+  "meubles": [
+   "ski rack",
+   "three-tiered snowperson",
+   "frozen sculpture"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "biff",
+  "nom": {
+   "fr": "Biff",
+   "en": "Biff"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hip04.png",
+  "demande": "Alien Cyborg Lab",
+  "bulle": "I want a UFO to come build me a bigger, buffer bod.",
+  "chanson": "K.K. Adventure",
+  "meubles": [
+   "science pod",
+   "amazing machine",
+   "flying saucer"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "big-top",
+  "nom": {
+   "fr": "Miles",
+   "en": "Big Top"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp02.png",
+  "demande": "A Hero's Buffet",
+  "bulle": "I want a place where I can make enough food for a hero.",
+  "chanson": "K.K. Blues",
+  "meubles": [
+   "double-door refrigerator",
+   "soup kettle",
+   "rice cooker"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bill",
+  "nom": {
+   "fr": "Choco",
+   "en": "Bill"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk00.png",
+  "demande": "My Old Summertime Shelter",
+  "bulle": "I want every day to feel like I'm on a summer vacation!",
+  "chanson": "K.K. Rally",
+  "meubles": [
+   "melon soda",
+   "shaved-ice maker",
+   "beach ball"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "billy",
+  "nom": {
+   "fr": "Seguin",
+   "en": "Billy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa02.png",
+  "demande": "A Place for Pottery",
+  "bulle": "I want a place to make pottery around the clock!",
+  "chanson": "Animal City",
+  "meubles": [
+   "brick oven",
+   "modeling clay",
+   "classic pitcher"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "biskit",
+  "nom": {
+   "fr": "Crocket",
+   "en": "Biskit"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog03.png",
+  "demande": "A Personal Park to Picnic In",
+  "bulle": "It'd be fun to have a picnic in my very own park.",
+  "chanson": "K.K. Hop",
+  "meubles": [
+   "garden faucet",
+   "outdoor folding chair",
+   "picnic basket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bitty",
+  "nom": {
+   "fr": "Potama",
+   "en": "Bitty"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hip05.png",
+  "demande": "My Fashion-Mag Office",
+  "bulle": "I want somewhere to create a high-class fashion magazine.",
+  "chanson": "K.K. Moody",
+  "meubles": [
+   "magazine",
+   "SLR camera"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "blaire",
+  "nom": {
+   "fr": "Cachou",
+   "en": "Blaire"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ01.png",
+  "demande": "A Home with Fruit Flavor",
+  "bulle": "Lemme stay at a place that's full of juicy, fresh fruit.",
+  "chanson": "K.K. Dub",
+  "meubles": [
+   "clothes closet",
+   "cardboard box"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "blanche",
+  "nom": {
+   "fr": "Sophie",
+   "en": "Blanche"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost08.png",
+  "demande": "A House That Looms Large",
+  "bulle": "I'd like to be able to make fabulous cloth using a loom.",
+  "chanson": "Spring Blossoms",
+  "meubles": [
+   "loom",
+   "elaborate kimono stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bluebear",
+  "nom": {
+   "fr": "Myrtille",
+   "en": "Bluebear"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr00.png",
+  "demande": "A Sweet Candy Workshop",
+  "bulle": "I need a place where I can prepare sweets and treats!",
+  "chanson": "K.K. Étude",
+  "meubles": [
+   "stand mixer",
+   "ranch kitchen",
+   "cooking tools"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bob",
+  "nom": {
+   "fr": "Robert",
+   "en": "Bob"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat00.png",
+  "demande": "A Blooming Indoor Garden",
+  "bulle": "I want a garden that's, like, IN my house. With flowers.",
+  "chanson": "Hypno K.K.",
+  "meubles": [
+   "red tulips",
+   "yellow tulips",
+   "white tulips"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bonbon",
+  "nom": {
+   "fr": "Sylvette",
+   "en": "Bonbon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt17.png",
+  "demande": "Best House on the Block",
+  "bulle": "I only want the very best house in the entire area!",
+  "chanson": "K.K. Reggae",
+  "meubles": [
+   "giant vine",
+   "inflatable plaza toy",
+   "glowing-moss statue"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bones",
+  "nom": {
+   "fr": "Nonos",
+   "en": "Bones"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog04.png",
+  "demande": "A Pup's Playpen",
+  "bulle": "I want a place to play just like when I was a little pup.",
+  "chanson": "I Love You",
+  "meubles": [
+   "mini circuit",
+   "tricycle",
+   "playground gym"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "boomer",
+  "nom": {
+   "fr": "Ethan",
+   "en": "Boomer"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn10.png",
+  "demande": "Classic Coffee Café",
+  "bulle": "I want to sip coffee and admire retro appliances.",
+  "chanson": "K.K. Chorale",
+  "meubles": [
+   "old sewing machine",
+   "street organ",
+   "mug"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "boone",
+  "nom": {
+   "fr": "Babouin",
+   "en": "Boone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor02.png",
+  "demande": "Dusty Desert Dwelling",
+  "bulle": "I want to be reminded of the desert where I grew up...",
+  "chanson": "K.K. Casbah",
+  "meubles": [
+   "cactus",
+   "covered wagon",
+   "brick well"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "boots",
+  "nom": {
+   "fr": "Croko",
+   "en": "Boots"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd02.png",
+  "demande": "A Peaceful Working Farm",
+  "bulle": "I want a place to do my farm work in peace...",
+  "chanson": "Marine Song 2001",
+  "meubles": [
+   "handcart",
+   "chainsaw",
+   "tractor"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "boris",
+  "nom": {
+   "fr": "Boris",
+   "en": "Boris"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig09.png",
+  "demande": "A Music Producer's Home",
+  "bulle": "I want my own home studio to kick-start my music career!",
+  "chanson": "K.K. Technopop",
+  "meubles": [
+   "sampler",
+   "PA speaker",
+   "silver mic"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "boyd",
+  "nom": {
+   "fr": "Primo",
+   "en": "Boyd"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor05.png",
+  "demande": "Heavy-Duty Safety Zone",
+  "bulle": "I want to work with totally heavy equipment! Safely...",
+  "chanson": "K.K. Condor",
+  "meubles": [
+   "excavator",
+   "bulldozer",
+   "steamroller"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bree",
+  "nom": {
+   "fr": "Quenotte",
+   "en": "Bree"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus03.png",
+  "demande": "Toy Box from My Dreams",
+  "bulle": "I once dreamt of a home filled with toys...",
+  "chanson": "Welcome Horizons",
+  "meubles": [
+   "toy box",
+   "dress-up doll",
+   "dinosaur toy"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "broccolo",
+  "nom": {
+   "fr": "Steven",
+   "en": "Broccolo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus12.png",
+  "demande": "A Wheat-Harvest Home",
+  "bulle": "What's better than bread? The wheat it came from!",
+  "chanson": "K.K. Fusion",
+  "meubles": [
+   "wheat field",
+   "brick oven",
+   "scarecrow"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "broffina",
+  "nom": {
+   "fr": "Jo",
+   "en": "Broffina"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn12.png",
+  "demande": "Anticipation Station",
+  "bulle": "Let me stay in that moment of waiting for someone to arrive.",
+  "chanson": "Steep Hill",
+  "meubles": [
+   "public bench",
+   "steel trash can"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bruce",
+  "nom": {
+   "fr": "Boubou",
+   "en": "Bruce"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der03.png",
+  "demande": "My Board-Game Palace",
+  "bulle": "I want a place to play board games with my pals.",
+  "chanson": "Rockin' K.K.",
+  "meubles": [
+   "board game",
+   "cool dining table",
+   "instant noodles"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bubbles",
+  "nom": {
+   "fr": "Hippy",
+   "en": "Bubbles"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hip02.png",
+  "demande": "My Seaside Photo Studio",
+  "bulle": "It'd be so fun to model for a seaside photo shoot!",
+  "chanson": "K.K. Calypso",
+  "meubles": [
+   "bistro table",
+   "poolside bed",
+   "wave breaker"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "buck",
+  "nom": {
+   "fr": "Daniel",
+   "en": "Buck"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs00.png",
+  "demande": "Locker-Room Lodge",
+  "bulle": "You can't beat a postworkout shower in the locker room.",
+  "chanson": "K.K. Ragtime",
+  "meubles": [
+   "shower booth",
+   "upright locker",
+   "outdoor bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bud",
+  "nom": {
+   "fr": "Léonard",
+   "en": "Bud"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/lon00.png",
+  "demande": "Seaside Sports Arena",
+  "bulle": "I wanna play beach sports whenever I want!",
+  "chanson": "K.K. Reggae",
+  "meubles": [
+   "scoreboard",
+   "volleyball net",
+   "lifeguard chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "bunnie",
+  "nom": {
+   "fr": "Clara",
+   "en": "Bunnie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt00.png",
+  "demande": "A Colorful Sewing Sanctuary",
+  "bulle": "I want a sewing room for all the cute fabric I've collected!",
+  "chanson": "K.K. Stroll",
+  "meubles": [
+   "sturdy sewing box",
+   "sewing project",
+   "sewing machine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "butch",
+  "nom": {
+   "fr": "Avril",
+   "en": "Butch"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog01.png",
+  "demande": "A Dog Run for a Running Dog",
+  "bulle": "I need a place where I can run around unleashed!",
+  "chanson": "K.K. Chorinho",
+  "meubles": [
+   "garden table",
+   "garden chair",
+   "wild log bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "buzz",
+  "nom": {
+   "fr": "Phébus",
+   "en": "Buzz"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr03.png",
+  "demande": "A Traditional Tea Shop",
+  "bulle": "I want an old-fashioned place where I can enjoy tea.",
+  "chanson": "King K.K.",
+  "meubles": [
+   "yunomi teacup",
+   "paper lantern",
+   "zen low table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cally",
+  "nom": {
+   "fr": "Célia",
+   "en": "Cally"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ11.png",
+  "demande": "A Home for Hanging Laundry",
+  "bulle": "I need plenty of space inside and out for hanging laundry.",
+  "chanson": "K.K. Calypso",
+  "meubles": [
+   "deluxe washer",
+   "drying rack",
+   "clothesline pole"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "camofrog",
+  "nom": {
+   "fr": "Milos",
+   "en": "Camofrog"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg03.png",
+  "demande": "A Natural Getaway",
+  "bulle": "I want a vacation home where I can be one with nature.",
+  "chanson": "Forest Life",
+  "meubles": [
+   "sleeping bag",
+   "campfire",
+   "wild log bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "canberra",
+  "nom": {
+   "fr": "Kolala",
+   "en": "Canberra"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal08.png",
+  "demande": "International Eatery",
+  "bulle": "I want to serve food from around the world...",
+  "chanson": "K.K. Bazaar",
+  "meubles": [
+   "chafing dish",
+   "nigirizushi",
+   "fried rice"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "candi",
+  "nom": {
+   "fr": "Sucrette",
+   "en": "Candi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus08.png",
+  "demande": "My Crafty Cabin",
+  "bulle": "I want time to just slip away while I relax with handicrafts!",
+  "chanson": "K.K. Sonata",
+  "meubles": [
+   "sewing project",
+   "sturdy sewing box",
+   "ironing set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "carmen",
+  "nom": {
+   "fr": "Zoé",
+   "en": "Carmen"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt16.png",
+  "demande": "Château d'Chocolate",
+  "bulle": "I want a place to enjoy chocolate while on vacation.",
+  "chanson": "K.K. Reggae",
+  "meubles": [
+   "birthday cake",
+   "dessert case",
+   "cacao tree"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "caroline",
+  "nom": {
+   "fr": "Isabelle",
+   "en": "Caroline"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ06.png",
+  "demande": "Dreamy Country-Ranch Home",
+  "bulle": "I think I'd have a lovely time in a ranch-style home.",
+  "chanson": "Wandering",
+  "meubles": [
+   "ranch bed",
+   "ranch chair",
+   "antique wardrobe"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "carrie",
+  "nom": {
+   "fr": "Kanga",
+   "en": "Carrie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr02.png",
+  "demande": "Green Space for My Child",
+  "bulle": "I want to play with my child in a yard filled with green.",
+  "chanson": "K.K. Lullaby",
+  "meubles": [
+   "stroller",
+   "baby bed",
+   "flower bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cashmere",
+  "nom": {
+   "fr": "Cashmir",
+   "en": "Cashmere"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp04.png",
+  "demande": "My Private Beach",
+  "bulle": "It'd be awesome to hang out on my own private beach.",
+  "chanson": "K.K. Mambo",
+  "meubles": [
+   "beach chairs with parasol",
+   "beach ball",
+   "sand castle"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "celia",
+  "nom": {
+   "fr": "Garance",
+   "en": "Celia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr09.png",
+  "demande": "A Refined Reading Residence",
+  "bulle": "I want an elegant room for reading...elegantly.",
+  "chanson": "K.K. Waltz",
+  "meubles": [
+   "elegant bed",
+   "wooden bookshelf",
+   "elegant sofa"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cephalobot",
+  "nom": {
+   "fr": "Octoborg",
+   "en": "Cephalobot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ocp04.png",
+  "demande": "My Other Home",
+  "bulle": "I wanna relax in a place that reminds me of back home.",
+  "chanson": "Surfin' K.K.",
+  "meubles": [
+   "unknown machine",
+   "gear tower",
+   "meter and pipes"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cesar",
+  "nom": {
+   "fr": "César",
+   "en": "Cesar"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor00.png",
+  "demande": "A Half-Built House",
+  "bulle": "I want a place that's not quite finished yet...",
+  "chanson": "K.K. Ska",
+  "meubles": [
+   "cone",
+   "safety barrier",
+   "cement mixer"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chabwick",
+  "nom": {
+   "fr": "Zinzin",
+   "en": "Chabwick"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn07.png",
+  "demande": "Chabwick's Smokehouse",
+  "bulle": "I want a place where I can smoke and BBQ my food...",
+  "chanson": "Chillwave",
+  "meubles": [
+   "smoker",
+   "firewood"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chadder",
+  "nom": {
+   "fr": "Mozzar",
+   "en": "Chadder"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus18.png",
+  "demande": "A Cheese-Maker's Château",
+  "bulle": "Why buy cheese when you can make it yourself?",
+  "chanson": "K.K. Dixie",
+  "meubles": [
+   "table with cloth",
+   "milk can",
+   "stewpot"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chai",
+  "nom": {
+   "fr": "Chaï",
+   "en": "Chai"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp11.png",
+  "demande": "A Cute Space for Fluffy Stuff",
+  "bulle": "I want to be surrounded by cute, fluffy things!",
+  "chanson": "Café K.K.",
+  "meubles": [
+   "Cinnamoroll sofa",
+   "Cinnamoroll parasol"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "charlise",
+  "nom": {
+   "fr": "Zabou",
+   "en": "Charlise"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea12.png",
+  "demande": "The Greenest of Gardens",
+  "bulle": "I love to, like, hang out while surrounded by greenery...",
+  "chanson": "Lucky K.K.",
+  "meubles": [
+   "wooden simple bed",
+   "wooden chest",
+   "plant partition"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chelsea",
+  "nom": {
+   "fr": "Chelsea",
+   "en": "Chelsea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der10.png",
+  "demande": "My Own Fairy-Tale Forest",
+  "bulle": "I want a wonderful stay in a cute, fairy-tale forest.",
+  "chanson": "K.K. Ragtime",
+  "meubles": [
+   "frosted cookies",
+   "swinging bench",
+   "mush parasol"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cheri",
+  "nom": {
+   "fr": "Rosalie",
+   "en": "Cheri"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr10.png",
+  "demande": "A Fruity-Smoothie Fort",
+  "bulle": "I want a fun home perfect for making great fruit smoothies!",
+  "chanson": "K.K. Salsa",
+  "meubles": [
+   "fruit basket",
+   "milk can",
+   "mixer"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cherry",
+  "nom": {
+   "fr": "Anna",
+   "en": "Cherry"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog17.png",
+  "demande": "A Runway for a Fashion Show",
+  "bulle": "I want a place to host my own fashion shows!",
+  "chanson": "K.K. House",
+  "meubles": [
+   "changing room",
+   "powder-room booth",
+   "hanger rack"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chester",
+  "nom": {
+   "fr": "Placide",
+   "en": "Chester"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr15.png",
+  "demande": "My Dream Bamboo Garden",
+  "bulle": "I want to be surrounded by bamboo. It makes me sleepy!",
+  "chanson": "Imperial K.K.",
+  "meubles": [
+   "bamboo bench",
+   "bamboo partition"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chevre",
+  "nom": {
+   "fr": "Biquette",
+   "en": "Chevre"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa00.png",
+  "demande": "World's Safest Vault",
+  "bulle": "I vow to protect the assets I've received from everyone!",
+  "chanson": "Pondering",
+  "meubles": [
+   "jail bars",
+   "pile of cash",
+   "safe"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chief",
+  "nom": {
+   "fr": "Chef",
+   "en": "Chief"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol00.png",
+  "demande": "Garage Space for My Pals",
+  "bulle": "I want a garage space for enjoying hobbies with friends.",
+  "chanson": "The K. Funk",
+  "meubles": [
+   "tool shelf",
+   "paint cans",
+   "tool cart"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chops",
+  "nom": {
+   "fr": "Aaron",
+   "en": "Chops"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig14.png",
+  "demande": "The Winner's Circle",
+  "bulle": "I want to stay in a place designed for winners.",
+  "chanson": "K.K. Swing",
+  "meubles": [
+   "pile of cash",
+   "rocking chair",
+   "claw-foot tub"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chow",
+  "nom": {
+   "fr": "Chulin",
+   "en": "Chow"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea03.png",
+  "demande": "A Humble Life",
+  "bulle": "I ain't asking for much—just a humble place to rest my head.",
+  "chanson": "K.K. Khoomei",
+  "meubles": [
+   "futon",
+   "floor seat"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "chrissy",
+  "nom": {
+   "fr": "Kristine",
+   "en": "Chrissy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt13.png",
+  "demande": "Star-Model Showcase",
+  "bulle": "My dream is to walk a runway in clothes made just for me!",
+  "chanson": "Drivin'",
+  "meubles": [
+   "stage lights",
+   "flower stand",
+   "Francine's photo"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "claude",
+  "nom": {
+   "fr": "Claude",
+   "en": "Claude"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt11.png",
+  "demande": "Home Game Hideaway",
+  "bulle": "Every day would be so much fun if I had a home arcade!",
+  "chanson": "K.K. Disco",
+  "meubles": [
+   "arcade fighting game",
+   "arcade seat",
+   "crane game"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "claudia",
+  "nom": {
+   "fr": "Vanina",
+   "en": "Claudia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/tig05.png",
+  "demande": "Vintage Jazz Café",
+  "bulle": "I think the best part about going to a café is the music.",
+  "chanson": "K.K. Jazz",
+  "meubles": [
+   "phonograph",
+   "coffee grinder",
+   "standing electric sign"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "clay",
+  "nom": {
+   "fr": "Guido",
+   "en": "Clay"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham05.png",
+  "demande": "Clay's House of Chills",
+  "bulle": "I want air conditioning, and scary stuff is \\\"chilling,\\\" so...",
+  "chanson": "K.K. Dirge",
+  "meubles": [
+   "simple well",
+   "decayed tree",
+   "creepy skeleton"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cleo",
+  "nom": {
+   "fr": "Cléa",
+   "en": "Cleo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs07.png",
+  "demande": "A Home Bathed in Elegance",
+  "bulle": "I want the most luxurious, relaxing bathroom ever built.",
+  "chanson": "Soulful K.K.",
+  "meubles": [
+   "claw-foot tub",
+   "Casablanca lilies",
+   "rattan towel basket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "clyde",
+  "nom": {
+   "fr": "Dorian",
+   "en": "Clyde"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs10.png",
+  "demande": "Wood-Burning Bungalow",
+  "bulle": "Warming up by a wood- burning stove is calming...",
+  "chanson": "Farewell",
+  "meubles": [
+   "rocking chair",
+   "wood-burning stove",
+   "magazine rack"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "coach",
+  "nom": {
+   "fr": "Arnold",
+   "en": "Coach"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bul07.png",
+  "demande": "Track-Meet Training Grounds",
+  "bulle": "You know what'd be fun? Rolling a giant ball around!",
+  "chanson": "Comrade K.K.",
+  "meubles": [
+   "exercise ball",
+   "scoreboard",
+   "cone"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cobb",
+  "nom": {
+   "fr": "Porken",
+   "en": "Cobb"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig08.png",
+  "demande": "Secret Research Lab",
+  "bulle": "I need a new lab to conduct my secret research...",
+  "chanson": "Pondering",
+  "meubles": [
+   "lab-experiments set",
+   "oil lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "coco",
+  "nom": {
+   "fr": "Coco",
+   "en": "Coco"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt02.png",
+  "demande": "Coco-Style Retro Living",
+  "bulle": "I think old-time living would suit me well.",
+  "chanson": "Wandering",
+  "meubles": [
+   "unglazed dish set",
+   "pot"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cole",
+  "nom": {
+   "fr": "Épicure",
+   "en": "Cole"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt18.png",
+  "demande": "My Island Resort",
+  "bulle": "I want my home and yard to have island resort vibes.",
+  "chanson": "Aloha K.K.",
+  "meubles": [
+   "rattan armchair",
+   "coconut milk",
+   "beach chairs with parasol"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "colton",
+  "nom": {
+   "fr": "Tony",
+   "en": "Colton"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs11.png",
+  "demande": "House of Tea and Sweets",
+  "bulle": "I want a place to host VIP tea parties with sweets.",
+  "chanson": "Café K.K.",
+  "meubles": [
+   "afternoon-tea set",
+   "tea set",
+   "bistro table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cookie",
+  "nom": {
+   "fr": "Cookie",
+   "en": "Cookie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog08.png",
+  "demande": "The Ultimate Pop-Star Café",
+  "bulle": "I want a place to serve lunch AND do an a capella concert.",
+  "chanson": "Bubblegum K.K.",
+  "meubles": [
+   "karaoke system",
+   "mic stand",
+   "omurice"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cousteau",
+  "nom": {
+   "fr": "Figaro",
+   "en": "Cousteau"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg10.png",
+  "demande": "Family-Style Restaurant",
+  "bulle": "I'm proud of the Chinese food I make, and I want to share it!",
+  "chanson": "Imperial K.K.",
+  "meubles": [
+   "imperial dining table",
+   "imperial dining chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cranston",
+  "nom": {
+   "fr": "Gabin",
+   "en": "Cranston"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost06.png",
+  "demande": "A Nice Rice Paradise",
+  "bulle": "I'm drooling thinking about a home filled with rice dishes.",
+  "chanson": "Welcome Horizons",
+  "meubles": [
+   "tea table",
+   "curry with rice",
+   "bamboo lunch box"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "croque",
+  "nom": {
+   "fr": "Carlos",
+   "en": "Croque"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg17.png",
+  "demande": "Popular Ramen Restaurant",
+  "bulle": "I wanna make the kind of ramen folks stand in line for.",
+  "chanson": "K.K. Lament",
+  "meubles": [
+   "hearty ramen",
+   "stewpot",
+   "vertical banner"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cube",
+  "nom": {
+   "fr": "Cube",
+   "en": "Cube"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn02.png",
+  "demande": "Eco-friendly Factory",
+  "bulle": "An eco-friendly factory... That sounds kinda cool.",
+  "chanson": "K.K. Bashment",
+  "meubles": [
+   "conveyor belt",
+   "tank",
+   "wind turbine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "curlos",
+  "nom": {
+   "fr": "Tonton",
+   "en": "Curlos"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp08.png",
+  "demande": "House of Eternal Toy Day",
+  "bulle": "I want to stay where it's like it's always Toy Day!",
+  "chanson": "K.K. Sonata",
+  "meubles": [
+   "big festive tree",
+   "holiday candle",
+   "illuminated tree"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "curly",
+  "nom": {
+   "fr": "Tirbou",
+   "en": "Curly"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig00.png",
+  "demande": "Game-Development Studio",
+  "bulle": "I want to develop a video game and get rich quick!",
+  "chanson": "K.K. Technopop",
+  "meubles": [
+   "desktop computer",
+   "Nintendo Switch",
+   "office desk"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "curt",
+  "nom": {
+   "fr": "Curt",
+   "en": "Curt"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea02.png",
+  "demande": "A Painter's Retreat",
+  "bulle": "I just wanna get away from it all and paint.",
+  "chanson": "K.K. Blues",
+  "meubles": [
+   "painting set",
+   "iron garden table",
+   "iron garden chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cyd",
+  "nom": {
+   "fr": "Punk",
+   "en": "Cyd"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp12.png",
+  "demande": "My Streaming HQ",
+  "bulle": "I gotta show everyone how good I am at playin' games!",
+  "chanson": "K.K. Robot Synth",
+  "meubles": [
+   "gaming desk",
+   "gaming chair",
+   "desktop mic"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "cyrano",
+  "nom": {
+   "fr": "Cyrano",
+   "en": "Cyrano"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant00.png",
+  "demande": "Construction Job Site",
+  "bulle": "I want my place to feel like a construction job site!",
+  "chanson": "Agent K.K.",
+  "meubles": [
+   "stacked bags",
+   "unfolded reference sheet",
+   "excavator"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "daisy",
+  "nom": {
+   "fr": "Naomie",
+   "en": "Daisy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog07.png",
+  "demande": "Santa's Favorite House",
+  "bulle": "It'd be great to have a place that Santa wants to visit!",
+  "chanson": "Stale Cupcakes",
+  "meubles": [
+   "big festive tree",
+   "holiday candle",
+   "illuminated present"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "deena",
+  "nom": {
+   "fr": "Mina",
+   "en": "Deena"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk04.png",
+  "demande": "The Old School Gym",
+  "bulle": "I want a place that brings me back to my old school gym...",
+  "chanson": "Only Me",
+  "meubles": [
+   "ball catcher",
+   "upright locker",
+   "scoreboard"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "deirdre",
+  "nom": {
+   "fr": "Bichoune",
+   "en": "Deirdre"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der04.png",
+  "demande": "A Little Slice of Fall",
+  "bulle": "I wish I could be somewhere where it's fall all the time...",
+  "chanson": "K.K. Bossa",
+  "meubles": [
+   "leaf campfire",
+   "mush table",
+   "tree's bounty lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "del",
+  "nom": {
+   "fr": "Hector",
+   "en": "Del"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd04.png",
+  "demande": "A Cabin for My Sea Voyage",
+  "bulle": "I wanna feel like I'm on a grand sea voyage all the time.",
+  "chanson": "K.K. Dixie",
+  "meubles": [
+   "life ring",
+   "palm-tree lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "deli",
+  "nom": {
+   "fr": "Magogo",
+   "en": "Deli"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk08.png",
+  "demande": "Curry Kitchen",
+  "bulle": "Ya know... I haven't had a good curry in a while.",
+  "chanson": "K.K. Oasis",
+  "meubles": [
+   "soup kettle",
+   "Moroccan tray table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "derwin",
+  "nom": {
+   "fr": "Prof",
+   "en": "Derwin"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk08.png",
+  "demande": "My Smart Study Space",
+  "bulle": "I'm dreaming of a place where I'd actually WANT to study.",
+  "chanson": "To the Edge",
+  "meubles": [
+   "bathroom stall",
+   "book stands",
+   "tension-pole rack"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "diana",
+  "nom": {
+   "fr": "Didi",
+   "en": "Diana"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der08.png",
+  "demande": "A Place to Meditate",
+  "bulle": "I desire a space where I can focus inward and meditate...",
+  "chanson": "K.K. Synth",
+  "meubles": [
+   "aroma pot",
+   "fortune-telling set",
+   "elegant lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "diva",
+  "nom": {
+   "fr": "Violette",
+   "en": "Diva"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg18.png",
+  "demande": "Island Power Spot",
+  "bulle": "My place should be a power spot filled with mystic power!",
+  "chanson": "K.K. Milonga",
+  "meubles": [
+   "torii",
+   "asteroid",
+   "glowing-moss pond"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "dizzy",
+  "nom": {
+   "fr": "Pachy",
+   "en": "Dizzy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp01.png",
+  "demande": "A Fun Yard for Playing",
+  "bulle": "I want places to play inside my home and out in my yard.",
+  "chanson": "My Place",
+  "meubles": [
+   "train set",
+   "playground gym",
+   "sand castle"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "dobie",
+  "nom": {
+   "fr": "Loupiot",
+   "en": "Dobie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol04.png",
+  "demande": "The Author's Retreat",
+  "bulle": "Maybe a trip to a hot spring will clear my writer's block!",
+  "chanson": "Marine Song 2001",
+  "meubles": [
+   "shoji divider",
+   "cypress bathtub",
+   "essay set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "doc",
+  "nom": {
+   "fr": "Doc",
+   "en": "Doc"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt10.png",
+  "demande": "A Children's Library",
+  "bulle": "I want to display and share my favorite picture books!",
+  "chanson": "To the Edge",
+  "meubles": [
+   "wooden bookshelf",
+   "pop-up book",
+   "baby chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "dom",
+  "nom": {
+   "fr": "Bouloche",
+   "en": "Dom"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp15.png",
+  "demande": "House of Gizmos",
+  "bulle": "I want a place packed full of electronic gizmos.",
+  "chanson": "Farewell",
+  "meubles": [
+   "crew member's seat",
+   "golden gear tower",
+   "outdoor generator"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "dora",
+  "nom": {
+   "fr": "Dora",
+   "en": "Dora"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus00.png",
+  "demande": "A Serious Home Garden",
+  "bulle": "I want to be self-sufficient with my own home garden.",
+  "chanson": "K.K. Salsa",
+  "meubles": [
+   "glowing-moss-jar shelves",
+   "brick well",
+   "handcart"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "dotty",
+  "nom": {
+   "fr": "Dorothée",
+   "en": "Dotty"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt01.png",
+  "demande": "A Fair Floral Greenhouse",
+  "bulle": "I want to relax with blooming flowers and a sea of green...",
+  "chanson": "K.K. Lovers",
+  "meubles": [
+   "greenhouse box",
+   "bunny garden decoration",
+   "round topiary"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "drago",
+  "nom": {
+   "fr": "Drago",
+   "en": "Drago"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd08.png",
+  "demande": "My Lucky Lodgings",
+  "bulle": "If my place is fulla lucky stuff, then nothing bad can happen!",
+  "chanson": "Two Days Ago",
+  "meubles": [
+   "lucky gold cat",
+   "torii"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "drake",
+  "nom": {
+   "fr": "Colvert",
+   "en": "Drake"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk09.png",
+  "demande": "Home of the Bread Refill",
+  "bulle": "I want a place where they just keep bringing me bread.",
+  "chanson": "Neapolitan",
+  "meubles": [
+   "bread",
+   "serving cart",
+   "table with cloth"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "drift",
+  "nom": {
+   "fr": "Gordon",
+   "en": "Drift"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg04.png",
+  "demande": "A Vacation Home with a Well",
+  "bulle": "Washing away sweat with cold well water sounds refreshing!",
+  "chanson": "K.K. Bashment",
+  "meubles": [
+   "sauna heater",
+   "brick well",
+   "wooden bucket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ed",
+  "nom": {
+   "fr": "Édouard",
+   "en": "Ed"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs06.png",
+  "demande": "Dinner-Party Central",
+  "bulle": "I want a place to host my friends for dinner parties.",
+  "chanson": "K.K. Cruisin'",
+  "meubles": [
+   "kitchen island",
+   "table setting",
+   "table with cloth"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "egbert",
+  "nom": {
+   "fr": "Herbert",
+   "en": "Egbert"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn02.png",
+  "demande": "A Niche Full of Numbers",
+  "bulle": "Aren't the shapes of numbers cool? A huh huh huh...",
+  "chanson": "K.K. Ballad",
+  "meubles": [
+   "colorful wheel"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "elise",
+  "nom": {
+   "fr": "Élise",
+   "en": "Elise"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk05.png",
+  "demande": "Spectacle Collector's Home",
+  "bulle": "I collect stylish glasses, and I wish to show them off.",
+  "chanson": "K.K. Chorale",
+  "meubles": [
+   "elaborate display case",
+   "oval glasses"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ellie",
+  "nom": {
+   "fr": "Ella",
+   "en": "Ellie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp07.png",
+  "demande": "A Sweet Space",
+  "bulle": "I just want to be surrounded by sweets! Ahh...",
+  "chanson": "K.K. Soul",
+  "meubles": [
+   "candy machine",
+   "soft-serve lamp",
+   "cotton-candy stall"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "elmer",
+  "nom": {
+   "fr": "Martin",
+   "en": "Elmer"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs03.png",
+  "demande": "A Bustling Sock Store",
+  "bulle": "I want to display my favorite socks like they do in stores.",
+  "chanson": "K.K. Mambo",
+  "meubles": [
+   "no-show socks",
+   "merchandise table",
+   "checkout counter"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "eloise",
+  "nom": {
+   "fr": "Éloïse",
+   "en": "Eloise"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp03.png",
+  "demande": "My Relaxing Reading Room",
+  "bulle": "I want a nice, quiet place where I can read in peace.",
+  "chanson": "K.K. Lullaby",
+  "meubles": [
+   "wooden bookshelf",
+   "stack of books",
+   "rocking chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "elvis",
+  "nom": {
+   "fr": "Elvis",
+   "en": "Elvis"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/lon01.png",
+  "demande": "Castle for a King",
+  "bulle": "I just want to establish my own kingdom...",
+  "chanson": "K.K. Fugue",
+  "meubles": [
+   "throne",
+   "castle gate",
+   "castle tower"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "erik",
+  "nom": {
+   "fr": "Abraham",
+   "en": "Erik"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der09.png",
+  "demande": "A Hut in the Mountains",
+  "bulle": "I see myself in a hut on a big mountain with fresh air...",
+  "chanson": "Mountain Song",
+  "meubles": [
+   "fireplace",
+   "log extra-long sofa",
+   "firewood"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "etoile",
+  "nom": {
+   "fr": "Étoile",
+   "en": "Étoile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp14.png",
+  "demande": "Home for Handicrafts",
+  "bulle": "I want a home exclusively for working on handicrafts.",
+  "chanson": "Two Days Ago",
+  "meubles": [
+   "sewing machine",
+   "cute DIY table",
+   "sturdy sewing box"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "eugene",
+  "nom": {
+   "fr": "Jamy",
+   "en": "Eugene"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal10.png",
+  "demande": "A Place to Tell My Story",
+  "bulle": "I want a relaxing space where I can talk about myself. A lot.",
+  "chanson": "K.K. Rock",
+  "meubles": [
+   "TV camera",
+   "studio spotlight",
+   "cool low table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "eunice",
+  "nom": {
+   "fr": "Bérénice",
+   "en": "Eunice"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp02.png",
+  "demande": "Cozy Winter Cabin",
+  "bulle": "I want a home that's toasty warm even in the winter.",
+  "chanson": "Space K.K.",
+  "meubles": [
+   "wood-burning stove",
+   "stewpot",
+   "sewing project"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "faith",
+  "nom": {
+   "fr": "Kolette",
+   "en": "Faith"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal07.png",
+  "demande": "Marching-Band HQ",
+  "bulle": "I could play so many songs if I had a bunch of instruments!",
+  "chanson": "K.K. Parade",
+  "meubles": [
+   "trumpet",
+   "clarinet",
+   "snare drum"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "fang",
+  "nom": {
+   "fr": "Pierrot",
+   "en": "Fang"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol06.png",
+  "demande": "Chic Chair Chalet",
+  "bulle": "I'm sure I ain't the only one that loves a good chair shop!",
+  "chanson": "K.K. Chorinho",
+  "meubles": [
+   "antique chair",
+   "peacock chair",
+   "touchscreen cash register"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "fauna",
+  "nom": {
+   "fr": "Bibi",
+   "en": "Fauna"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der00.png",
+  "demande": "My Piano Hangout",
+  "bulle": "I want to entertain friends with my piano stylings.",
+  "chanson": "Forest Life",
+  "meubles": [
+   "grand piano",
+   "velvet stool",
+   "flower stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "felicity",
+  "nom": {
+   "fr": "Maud",
+   "en": "Felicity"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat17.png",
+  "demande": "Felicity's Talk Show",
+  "bulle": "I want a place that's like the set of a talk show...",
+  "chanson": "K.K. Fugue",
+  "meubles": [
+   "podium",
+   "lecture-hall bench",
+   "flower stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "filbert",
+  "nom": {
+   "fr": "Filibert",
+   "en": "Filbert"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ02.png",
+  "demande": "Driver's Ed. Study Lounge",
+  "bulle": "I could get more practice if I lived with cool vehicle stuff.",
+  "chanson": "K.K. Stroll",
+  "meubles": [
+   "space shuttle",
+   "vehicle cabin seat",
+   "minicar"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "flip",
+  "nom": {
+   "fr": "Rudy",
+   "en": "Flip"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk06.png",
+  "demande": "A Relaxing Spa",
+  "bulle": "I want a place where folks can relax in a spa.",
+  "chanson": "Marine Song 2001",
+  "meubles": [
+   "square bathtub",
+   "bath bucket",
+   "bath stool"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "flo",
+  "nom": {
+   "fr": "Nora",
+   "en": "Flo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn13.png",
+  "demande": "A Guitarist's Home",
+  "bulle": "I need a place that's rockin' for a guitarist like me.",
+  "chanson": "K.K. Rock",
+  "meubles": [
+   "rock guitar",
+   "floor monitor",
+   "amp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "flora",
+  "nom": {
+   "fr": "Justine",
+   "en": "Flora"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost09.png",
+  "demande": "A Fortress As Flush as Flora",
+  "bulle": "If it's in my home, then it better be pink! Oh yeah!",
+  "chanson": "Only Me",
+  "meubles": [
+   "Mrs. Flamingo",
+   "Mr. Flamingo",
+   "inflatable sofa"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "flurry",
+  "nom": {
+   "fr": "Emma",
+   "en": "Flurry"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham06.png",
+  "demande": "Flurry's House of Flurries",
+  "bulle": "I want a place filled with furniture white as snow...",
+  "chanson": "I Love You",
+  "meubles": [
+   "snow globe",
+   "cushion",
+   "three-tiered snowperson"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "francine",
+  "nom": {
+   "fr": "Nadine",
+   "en": "Francine"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt12.png",
+  "demande": "Home for a Classy Designer",
+  "bulle": "I want a classy place to design outfits for my friend.",
+  "chanson": "K.K. Love Song",
+  "meubles": [
+   "hanging clothing rack",
+   "sewing machine",
+   "Chrissy's photo"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "frank",
+  "nom": {
+   "fr": "Greggae",
+   "en": "Frank"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr06.png",
+  "demande": "My High-Up Home",
+  "bulle": "There's nothing better than being up in the tall heights.",
+  "chanson": "The K. Funk",
+  "meubles": [
+   "climbing wall",
+   "pull-up-bar stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "freckles",
+  "nom": {
+   "fr": "Caro",
+   "en": "Freckles"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk07.png",
+  "demande": "An Underwater Utopia",
+  "bulle": "It'd be so cool to feel like I'm under the sea like a little fish!",
+  "chanson": "K.K. Dub",
+  "meubles": [
+   "shell bed",
+   "shell speaker",
+   "Pisces lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "frett",
+  "nom": {
+   "fr": "Foufou",
+   "en": "Frett"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog11.png",
+  "demande": "A Sports Fan's Dugout",
+  "bulle": "I want a place to watch sports without any distractions.",
+  "chanson": "K.K. Rockabilly",
+  "meubles": [
+   "ball",
+   "LCD TV (50 in.)"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "freya",
+  "nom": {
+   "fr": "Luppa",
+   "en": "Freya"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol05.png",
+  "demande": "A Pro Chef's Kitchen",
+  "bulle": "I want to make authentic food in a pro-level kitchen.",
+  "chanson": "Animal City",
+  "meubles": [
+   "kitchen stove",
+   "kitchen counter",
+   "cooking tools"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "friga",
+  "nom": {
+   "fr": "Friga",
+   "en": "Friga"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn04.png",
+  "demande": "A Movie-Projection Palace",
+  "bulle": "A giant projection screen for movies would be amazing...",
+  "chanson": "K.K. Soul",
+  "meubles": [
+   "projection screen",
+   "popcorn snack set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "frita",
+  "nom": {
+   "fr": "Clarabêl",
+   "en": "Frita"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp11.png",
+  "demande": "My Fast-Food Restaurant",
+  "bulle": "I'd like somewhere I can get fast food with my buds.",
+  "chanson": "K.K. Mariachi",
+  "meubles": [
+   "busing station",
+   "diced-salad sandwich set",
+   "standing shop sign"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "frobert",
+  "nom": {
+   "fr": "Verbert",
+   "en": "Frobert"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg02.png",
+  "demande": "A Backflip Bungalow",
+  "bulle": "I wanna watch things flip and rotate to work on MY flips!",
+  "chanson": "Pondering",
+  "meubles": [
+   "colorful wheel",
+   "plaza merry-go-round"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "fuchsia",
+  "nom": {
+   "fr": "Rosanne",
+   "en": "Fuchsia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der06.png",
+  "demande": "My Manor of Mischief",
+  "bulle": "I want a place that reminds me of when I was a rebel.",
+  "chanson": "K.K. Rockabilly",
+  "meubles": [
+   "jukebox",
+   "billiard table",
+   "folding floor lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gabi",
+  "nom": {
+   "fr": "Gaby",
+   "en": "Gabi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt05.png",
+  "demande": "A Place with a Piano",
+  "bulle": "I want a place where I can work on my piano playing.",
+  "chanson": "K.K. Étude",
+  "meubles": [
+   "upright piano",
+   "metronome",
+   "antique mini table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gala",
+  "nom": {
+   "fr": "Camille",
+   "en": "Gala"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig13.png",
+  "demande": "A Bank for Everyone",
+  "bulle": "I feel like it'd be fun to stay in a bank and protect its assets.",
+  "chanson": "K.K. Fusion",
+  "meubles": [
+   "reception counter",
+   "ABD"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gaston",
+  "nom": {
+   "fr": "Gaston",
+   "en": "Gaston"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt04.png",
+  "demande": "The Local Doctor's Office",
+  "bulle": "I wanna feel like I'm the doc everyone goes to see.",
+  "chanson": "K.K. Aria",
+  "meubles": [
+   "office chair",
+   "microscope",
+   "exam table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gayle",
+  "nom": {
+   "fr": "Odile",
+   "en": "Gayle"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd07.png",
+  "demande": "My Home on the Prairie",
+  "bulle": "I want a place where I can feel the prairie winds...",
+  "chanson": "K.K. Lovers",
+  "meubles": [
+   "Nordic chair",
+   "green-leaf pile",
+   "pergola"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "genji",
+  "nom": {
+   "fr": "Kali",
+   "en": "Genji"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt08.png",
+  "demande": "A Place to Play Go",
+  "bulle": "I just wanna spend all day playing on a go board...",
+  "chanson": "King K.K.",
+  "meubles": [
+   "floor seat",
+   "go board"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gigi",
+  "nom": {
+   "fr": "Gloria",
+   "en": "Gigi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg16.png",
+  "demande": "An Actress's Greenroom",
+  "bulle": "I could be stage ready at any time with my own greenroom.",
+  "chanson": "K.K. Flamenco",
+  "meubles": [
+   "changing room",
+   "powder-room booth",
+   "Casablanca lilies"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gladys",
+  "nom": {
+   "fr": "Gladys",
+   "en": "Gladys"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost01.png",
+  "demande": "Refined Japanese Garden",
+  "bulle": "I could stare out at a peaceful Japanese garden all day...",
+  "chanson": "King K.K.",
+  "meubles": [
+   "paper lantern",
+   "deer scare",
+   "tall lantern"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gloria",
+  "nom": {
+   "fr": "Déborah",
+   "en": "Gloria"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk15.png",
+  "demande": "A Stylish but Functional Spot",
+  "bulle": "I want the furniture to be stylish and functional.",
+  "chanson": "K.K. Synth",
+  "meubles": [
+   "Nordic table",
+   "Nordic chair",
+   "Nordic shelves"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "goldie",
+  "nom": {
+   "fr": "Mirza",
+   "en": "Goldie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog00.png",
+  "demande": "A Real Chef's Château",
+  "bulle": "I could cook up a storm in a fancy kitchen on my days off.",
+  "chanson": "K.K. Birthday",
+  "meubles": [
+   "ranch kitchen",
+   "ranch cupboard",
+   "mixer"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gonzo",
+  "nom": {
+   "fr": "Gonzo",
+   "en": "Gonzo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal04.png",
+  "demande": "Campground for Glamping",
+  "bulle": "I want to camp all fancy-like. They call it glamping!",
+  "chanson": "K.K. Chorinho",
+  "meubles": [
+   "log sofa",
+   "log dining table",
+   "outdoor kitchen"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "goose",
+  "nom": {
+   "fr": "Pouli",
+   "en": "Goose"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn00.png",
+  "demande": "My Wake-Up Waypoint",
+  "bulle": "I need a place where I can work out when I wake up!",
+  "chanson": "Mountain Song",
+  "meubles": [
+   "old-fashioned alarm clock",
+   "digital alarm clock"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "graham",
+  "nom": {
+   "fr": "Graham",
+   "en": "Graham"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham02.png",
+  "demande": "Office for a Venture Capitalist",
+  "bulle": "I need a place where I can focus on my career.",
+  "chanson": "K.K. Break",
+  "meubles": [
+   "modern office chair",
+   "office desk",
+   "server"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "greta",
+  "nom": {
+   "fr": "Greta",
+   "en": "Greta"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus16.png",
+  "demande": "An Inn with a Hot Spring",
+  "bulle": "I just want the basics. An inn complete with a hot spring.",
+  "chanson": "K.K. Song",
+  "meubles": [
+   "paper lantern",
+   "outdoor bath",
+   "bamboo bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "grizzly",
+  "nom": {
+   "fr": "Grizzly",
+   "en": "Grizzly"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea09.png",
+  "demande": "A Magnificent Mansion",
+  "bulle": "Gimme a fancy place filled with stuff rich folks like!",
+  "chanson": "K.K. Casbah",
+  "meubles": [
+   "throne",
+   "gold bars",
+   "luxury car"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "groucho",
+  "nom": {
+   "fr": "Ronchon",
+   "en": "Groucho"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea06.png",
+  "demande": "A Real Farmer's Farm",
+  "bulle": "I wanna relax on a farm that's designed for real farmers!",
+  "chanson": "K.K. Metal",
+  "meubles": [
+   "stacked bags",
+   "tractor",
+   "wheat field"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gruff",
+  "nom": {
+   "fr": "Grognon",
+   "en": "Gruff"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa04.png",
+  "demande": "House of Horrors",
+  "bulle": "I want a place to film scary movies that are really scary!",
+  "chanson": "K.K. Dirge",
+  "meubles": [
+   "video camera",
+   "creepy skeleton",
+   "western-style stone"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "gwen",
+  "nom": {
+   "fr": "Gwen",
+   "en": "Gwen"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn05.png",
+  "demande": "A Trendy Spa",
+  "bulle": "I've always wanted to open the hottest salon around...",
+  "chanson": "Stale Cupcakes",
+  "meubles": [
+   "simple bed",
+   "curtain partition",
+   "powder-room booth"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hamlet",
+  "nom": {
+   "fr": "Jojo",
+   "en": "Hamlet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham00.png",
+  "demande": "My Own Soccer Field",
+  "bulle": "I want to spend every day focused on soccer!",
+  "chanson": "K.K. March",
+  "meubles": [
+   "stadium light",
+   "ball"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hamphrey",
+  "nom": {
+   "fr": "Charles",
+   "en": "Hamphrey"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham07.png",
+  "demande": "A Smoky Room",
+  "bulle": "I'd like to relax in a place with a rich, smoky aroma. Mmm!",
+  "chanson": "Spring Blossoms",
+  "meubles": [
+   "smoker",
+   "fire pit"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hans",
+  "nom": {
+   "fr": "Loran",
+   "en": "Hans"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor10.png",
+  "demande": "My Personal Ski Slope",
+  "bulle": "It'd be great to have a whole ski slope all to myself.",
+  "chanson": "K.K. House",
+  "meubles": [
+   "round space heater",
+   "sleigh",
+   "ski rack"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "harry",
+  "nom": {
+   "fr": "Bob",
+   "en": "Harry"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hip08.png",
+  "demande": "My Messy Manor",
+  "bulle": "Gimme a place where I can be as messy as I wanna be!",
+  "chanson": "K.K. Lament",
+  "meubles": [
+   "sloppy sofa",
+   "sloppy sink"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hazel",
+  "nom": {
+   "fr": "Pamela",
+   "en": "Hazel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ18.png",
+  "demande": "Comic Artist's Workplace",
+  "bulle": "I want the perfect place to work on drawing cartoons...",
+  "chanson": "K.K. Disco",
+  "meubles": [
+   "cartoonist's set",
+   "scattered papers",
+   "wooden waste bin"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "henry",
+  "nom": {
+   "fr": "Henri",
+   "en": "Henry"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg19.png",
+  "demande": "A Voyage of Self-Discovery",
+  "bulle": "I want to find myself. But also have nice scenery...",
+  "chanson": "K.K. Moody",
+  "meubles": [
+   "throwback container",
+   "mountain bike",
+   "yacht"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hippeux",
+  "nom": {
+   "fr": "Paulito",
+   "en": "Hippeux"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hip09.png",
+  "demande": "Legendary Art Studio",
+  "bulle": "I must have an art studio worthy of my masterpieces.",
+  "chanson": "K.K. Milonga",
+  "meubles": [
+   "modeling clay",
+   "painting set",
+   "iron worktable"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hopkins",
+  "nom": {
+   "fr": "Grignote",
+   "en": "Hopkins"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt14.png",
+  "demande": "Bouncy Balloon Bungalow",
+  "bulle": "I want a place where I can be with all of my balloons.",
+  "chanson": "K.K. Robot Synth",
+  "meubles": [
+   "plaza balloon wagon",
+   "blue balloon",
+   "yellow balloon"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hopper",
+  "nom": {
+   "fr": "Victor",
+   "en": "Hopper"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn03.png",
+  "demande": "A Lifeguard's Lodgings",
+  "bulle": "Swimming safety is important, so I'd like to be a lifeguard.",
+  "chanson": "Go K.K. Rider",
+  "meubles": [
+   "rescue mannequin",
+   "first-aid kit"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hornsby",
+  "nom": {
+   "fr": "Cornio",
+   "en": "Hornsby"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rhn04.png",
+  "demande": "Gateway to the Sky",
+  "bulle": "I want to feel like I could take off into the sky at any time...",
+  "chanson": "Animal City",
+  "meubles": [
+   "vehicle cabin seat",
+   "serving cart"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "huck",
+  "nom": {
+   "fr": "Bajoue",
+   "en": "Huck"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg11.png",
+  "demande": "Huck's Adventure Camp",
+  "bulle": "I want a place that's exciting and weird for adventures!",
+  "chanson": "K.K. Bazaar",
+  "meubles": [
+   "elegant sofa",
+   "western-style stone",
+   "cave"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "hugh",
+  "nom": {
+   "fr": "Bonno",
+   "en": "Hugh"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig03.png",
+  "demande": "A Place to Sleep and Eat",
+  "bulle": "I just want a place to eat lots, then nap on a futon.",
+  "chanson": "To the Edge",
+  "meubles": [
+   "futon",
+   "instant noodles",
+   "simple table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "iggly",
+  "nom": {
+   "fr": "Urbain",
+   "en": "Iggly"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn11.png",
+  "demande": "Elite Cooling Station",
+  "bulle": "I need a place to ice down after super-hot workouts.",
+  "chanson": "K.K. Synth",
+  "meubles": [
+   "fan",
+   "frozen-treat set",
+   "barbell"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ike",
+  "nom": {
+   "fr": "Isaac",
+   "en": "Ike"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea11.png",
+  "demande": "Retro Ice-Cream Shop",
+  "bulle": "I want an ice-cream shop that reminds me of bein' a kid.",
+  "chanson": "K.K. Folk",
+  "meubles": [
+   "wood-plank table",
+   "shaved-ice maker",
+   "retro ice-cream case"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ione",
+  "nom": {
+   "fr": "Terra",
+   "en": "Ione"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ21.png",
+  "demande": "A Diva's Dwelling",
+  "bulle": "I want an upscale place where I can pretend I'm a diva.",
+  "chanson": "Hypno K.K.",
+  "meubles": [
+   "Virgo harp",
+   "elegant bed",
+   "valiant statue"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "jacob",
+  "nom": {
+   "fr": "Jacob",
+   "en": "Jacob"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd11.png",
+  "demande": "Inventor's Workshop",
+  "bulle": "I need a place where I can invent stuff!",
+  "chanson": "K.K. Polka",
+  "meubles": [
+   "ironwood DIY workbench",
+   "tool shelf",
+   "unfolded reference sheet"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "jacques",
+  "nom": {
+   "fr": "Jacky",
+   "en": "Jacques"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd16.png",
+  "demande": "The Most Exclusive Club",
+  "bulle": "I want an exclusive club that only plays my playlists.",
+  "chanson": "K.K. Disco",
+  "meubles": [
+   "DJ's turntable",
+   "laptop",
+   "sampler"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "jambette",
+  "nom": {
+   "fr": "Gambette",
+   "en": "Jambette"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg13.png",
+  "demande": "My Beauty-School Dream",
+  "bulle": "I want to offer makeup classes to everyone!",
+  "chanson": "K.K. Étude",
+  "meubles": [
+   "desk mirror",
+   "makeup pouch",
+   "whiteboard"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "jay",
+  "nom": {
+   "fr": "Gérard",
+   "en": "Jay"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd00.png",
+  "demande": "A Street for Sports",
+  "bulle": "I'm dreaming of a private street for street sports!",
+  "chanson": "K.K. Hop",
+  "meubles": [
+   "skateboard",
+   "basketball hoop",
+   "fence"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "jeremiah",
+  "nom": {
+   "fr": "Jérémie",
+   "en": "Jeremiah"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg07.png",
+  "demande": "House of Nap",
+  "bulle": "It'd be nice if I had a place to nap whenever I feel tired.",
+  "chanson": "Hypno K.K.",
+  "meubles": [
+   "wooden table",
+   "double sofa",
+   "refrigerator"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "jitters",
+  "nom": {
+   "fr": "Gilbert",
+   "en": "Jitters"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd04.png",
+  "demande": "A Futsal Fortress",
+  "bulle": "I need a place to train and dominate in futsal!",
+  "chanson": "K.K. Samba",
+  "meubles": [
+   "foosball table",
+   "lawn mower",
+   "ball"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "joey",
+  "nom": {
+   "fr": "Joseph",
+   "en": "Joey"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk01.png",
+  "demande": "A Café That's Also a Spa",
+  "bulle": "Ever had an iced latte while taking a bath? It's the best!",
+  "chanson": "Steep Hill",
+  "meubles": [
+   "rattan armchair",
+   "rattan end table",
+   "iced caffè latte"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "judy",
+  "nom": {
+   "fr": "Laura",
+   "en": "Judy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr19.png",
+  "demande": "Judy's Recital Hall",
+  "bulle": "I want a place where my singing voice can echo!",
+  "chanson": "Only Me",
+  "meubles": [
+   "mic stand",
+   "flower stand",
+   "PA speaker"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "julia",
+  "nom": {
+   "fr": "Julie",
+   "en": "Julia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost05.png",
+  "demande": "A Place to Enjoy My Guitar",
+  "bulle": "I just want somewhere to hum and strum on my guitar.",
+  "chanson": "Only Me",
+  "meubles": [
+   "acoustic guitar",
+   "music stand",
+   "wooden stool"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "julian",
+  "nom": {
+   "fr": "Lico",
+   "en": "Julian"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs13.png",
+  "demande": "Cloud-Nine Chalet",
+  "bulle": "I want a home that feels like it's floating in the sky...",
+  "chanson": "K.K. Dub",
+  "meubles": [
+   "grand piano",
+   "nova light",
+   "crescent-moon chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "june",
+  "nom": {
+   "fr": "Agnès",
+   "en": "June"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr13.png",
+  "demande": "My Very Own Pharmacy",
+  "bulle": "I want a place where I can focus on others' health!",
+  "chanson": "Drivin'",
+  "meubles": [
+   "medicine chest",
+   "reception counter"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kabuki",
+  "nom": {
+   "fr": "Kabuki",
+   "en": "Kabuki"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat09.png",
+  "demande": "An Authentic Art Museum",
+  "bulle": "I want a place like a museum, filled with authentic art.",
+  "chanson": "K.K. Folk",
+  "meubles": [
+   "paper tiger",
+   "samurai suit"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "katt",
+  "nom": {
+   "fr": "Kat",
+   "en": "Katt"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat21.png",
+  "demande": "A Rockin' Amphitheater",
+  "bulle": "I want my own rockin' amphitheater for music!",
+  "chanson": "K.K. Rock",
+  "meubles": [
+   "silver mic",
+   "electric bass",
+   "stage lights"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "keaton",
+  "nom": {
+   "fr": "Enzo",
+   "en": "Keaton"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr08.png",
+  "demande": "My Beachside Café",
+  "bulle": "How fabulous would breakfast be if it were by the sea?",
+  "chanson": "K.K. Island",
+  "meubles": [
+   "beach chairs with parasol",
+   "garden chair",
+   "garden table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ken",
+  "nom": {
+   "fr": "Ken",
+   "en": "Ken"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn13.png",
+  "demande": "A Dojo for Ninjas and Samurai",
+  "bulle": "I want a home that shows off how cool samurai are!",
+  "chanson": "K.K. Khoomei",
+  "meubles": [
+   "samurai suit",
+   "bow",
+   "sword"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ketchup",
+  "nom": {
+   "fr": "Ketchup",
+   "en": "Ketchup"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk13.png",
+  "demande": "Tomato Paradise",
+  "bulle": "Dishes made with tomatoes I grew would be SO amazing!",
+  "chanson": "Bubblegum K.K.",
+  "meubles": [
+   "gas range",
+   "salad-stuffed tomato",
+   "pile of cardboard boxes"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kevin",
+  "nom": {
+   "fr": "Jean-Bon",
+   "en": "Kevin"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig15.png",
+  "demande": "Planet Peace Force HQ",
+  "bulle": "I want a place where I can visualize piloting a spaceship!",
+  "chanson": "K.K. D&B",
+  "meubles": [
+   "strategic meeting table",
+   "spaceship control panel",
+   "crew member's seat"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kid-cat",
+  "nom": {
+   "fr": "Câlin",
+   "en": "Kid Cat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat10.png",
+  "demande": "A Hero's Secret Base",
+  "bulle": "I'm a hero, so I need a secret base, right?",
+  "chanson": "Go K.K. Rider",
+  "meubles": [
+   "server",
+   "throwback rocket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kidd",
+  "nom": {
+   "fr": "Moktar",
+   "en": "Kidd"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa07.png",
+  "demande": "Pro Photo Studio",
+  "bulle": "I'll need the ultimate studio to capture perfect photos.",
+  "chanson": "Chillwave",
+  "meubles": [
+   "studio spotlight",
+   "SLR camera"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kiki",
+  "nom": {
+   "fr": "Kiki",
+   "en": "Kiki"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat04.png",
+  "demande": "My Seafood Snack Bar",
+  "bulle": "I've always wanted to be the chef at a seafood restaurant.",
+  "chanson": "K.K. Tango",
+  "meubles": [
+   "counter chair",
+   "counter table",
+   "carp on a cutting board"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kitt",
+  "nom": {
+   "fr": "Poquette",
+   "en": "Kitt"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr00.png",
+  "demande": "A Home Full of Appliances",
+  "bulle": "I want all the conveniences. Fill my place with appliances!",
+  "chanson": "Forest Life",
+  "meubles": [
+   "deluxe washer",
+   "vacuum cleaner"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kitty",
+  "nom": {
+   "fr": "Kitty",
+   "en": "Kitty"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat14.png",
+  "demande": "An Open-Air Café",
+  "bulle": "I want to relax in an elegant, outdoor café...but indoors!",
+  "chanson": "Café K.K.",
+  "meubles": [
+   "bistro table",
+   "espresso maker",
+   "menu chalkboard"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "klaus",
+  "nom": {
+   "fr": "Klaus",
+   "en": "Klaus"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea14.png",
+  "demande": "A Life in Antiquity",
+  "bulle": "Sometimes I want to go back to an ancient, classical era...",
+  "chanson": "K.K. Casbah",
+  "meubles": [
+   "Aquarius urn",
+   "ruined arch"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "knox",
+  "nom": {
+   "fr": "Wolfram",
+   "en": "Knox"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn11.png",
+  "demande": "Castle of the Noble Knight",
+  "bulle": "I vow to be an upstanding knight no matter where I am.",
+  "chanson": "K.K. Adventure",
+  "meubles": [
+   "plate armor",
+   "double-edged sword"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kody",
+  "nom": {
+   "fr": "Bill",
+   "en": "Kody"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr04.png",
+  "demande": "A Blue Bodybuilding Base",
+  "bulle": "I want a place to train, and I prefer blue gym equipment!",
+  "chanson": "DJ K.K.",
+  "meubles": [
+   "punching bag",
+   "exercise ball",
+   "basketball hoop"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "kyle",
+  "nom": {
+   "fr": "Gary",
+   "en": "Kyle"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol10.png",
+  "demande": "A Home with Cool Lighting",
+  "bulle": "I want a place to show off my exquisite lighting collection.",
+  "chanson": "Chillwave",
+  "meubles": [
+   "rocket lamp",
+   "jukebox",
+   "whirlpool bath"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "leonardo",
+  "nom": {
+   "fr": "Dolph",
+   "en": "Leonardo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/tig04.png",
+  "demande": "Sports Star's Field House",
+  "bulle": "I want a place for a field-day superstar like me!",
+  "chanson": "K.K. Chorinho",
+  "meubles": [
+   "volleyball net",
+   "scoreboard",
+   "PA speaker"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "leopold",
+  "nom": {
+   "fr": "Leandro",
+   "en": "Leopold"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/lon04.png",
+  "demande": "Camper's Paradise",
+  "bulle": "I want to be in a place where I can set up camp for a bit...",
+  "chanson": "Mr. K.K.",
+  "meubles": [
+   "fire pit",
+   "wild log bench",
+   "campfire cookware"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lily",
+  "nom": {
+   "fr": "Raina",
+   "en": "Lily"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg00.png",
+  "demande": "A Calm Clearing in Nature",
+  "bulle": "I want a place good for soul, filled with nature's bounty!",
+  "chanson": "Stale Cupcakes",
+  "meubles": [
+   "humidifier",
+   "glowing-moss stool",
+   "schefflera"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "limberg",
+  "nom": {
+   "fr": "Gruyère",
+   "en": "Limberg"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus01.png",
+  "demande": "A Self-Sufficient Homestead",
+  "bulle": "I think I should make all of the food I want to eat.",
+  "chanson": "K.K. Reggae",
+  "meubles": [
+   "clay furnace",
+   "pot",
+   "tractor"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lionel",
+  "nom": {
+   "fr": "Léopold",
+   "en": "Lionel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/lon08.png",
+  "demande": "Restroom Refuge",
+  "bulle": "You can never have too many toilets when company's over.",
+  "chanson": "Soulful K.K.",
+  "meubles": [
+   "standing toilet",
+   "plain sink",
+   "tankless toilet"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lobo",
+  "nom": {
+   "fr": "Lobo",
+   "en": "Lobo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol01.png",
+  "demande": "A Retro Residence",
+  "bulle": "I could see surrounding myself with cool retro stuff.",
+  "chanson": "Comrade K.K.",
+  "meubles": [
+   "retro massage chair",
+   "retro fan",
+   "retro TV"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lolly",
+  "nom": {
+   "fr": "Linette",
+   "en": "Lolly"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat18.png",
+  "demande": "An Emcee's Training Grounds",
+  "bulle": "I'd like a place to practice my public speaking.",
+  "chanson": "Pondering",
+  "meubles": [
+   "whiteboard",
+   "lecture-hall desk",
+   "laptop"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lopez",
+  "nom": {
+   "fr": "Jon",
+   "en": "Lopez"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der05.png",
+  "demande": "My Piece of the Big City",
+  "bulle": "It's gotta have that big-city- apartment feel for me...",
+  "chanson": "K.K. Jazz",
+  "meubles": [
+   "cool low table",
+   "hi-fi stereo"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "louie",
+  "nom": {
+   "fr": "Louis",
+   "en": "Louie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor04.png",
+  "demande": "An Actual Jungle Gym",
+  "bulle": "I want to work out in nature, like in an actual jungle!",
+  "chanson": "K.K. Safari",
+  "meubles": [
+   "kettlebell",
+   "barrel",
+   "wooden box"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lucha",
+  "nom": {
+   "fr": "Condor",
+   "en": "Lucha"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd15.png",
+  "demande": "A Real Wrestling Ring",
+  "bulle": "I want a wrestling ring so I can host dramatic matches!",
+  "chanson": "Go K.K. Rider",
+  "meubles": [
+   "judge's bell",
+   "folding chair",
+   "neutral corner"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lucky",
+  "nom": {
+   "fr": "Ramsès",
+   "en": "Lucky"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog02.png",
+  "demande": "The Cradle of Civilization",
+  "bulle": "I want to sleep in crumbling old ruins that time forgot!",
+  "chanson": "K.K. Khoomei",
+  "meubles": [
+   "golden casket",
+   "King Tut mask",
+   "ruined arch"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lucy",
+  "nom": {
+   "fr": "Lucie",
+   "en": "Lucy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig04.png",
+  "demande": "Doll Manor",
+  "bulle": "I want to be surrounded by dolls! I love them so much!",
+  "chanson": "K.K. Waltz",
+  "meubles": [
+   "dolly",
+   "dollhouse"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "lyman",
+  "nom": {
+   "fr": "Kalyptus",
+   "en": "Lyman"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal09.png",
+  "demande": "A Variety of Veggies",
+  "bulle": "The best way to bulk up these muscles? Lots of veggies!",
+  "chanson": "K.K. March",
+  "meubles": [
+   "salad bar",
+   "veggie sandwich",
+   "pickled veggies"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "mac",
+  "nom": {
+   "fr": "Brutus",
+   "en": "Mac"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog14.png",
+  "demande": "Camp Mac",
+  "bulle": "I want to feel like I'm camping at my own place!",
+  "chanson": "Surfin' K.K.",
+  "meubles": [
+   "sleeping bag",
+   "campfire cookware",
+   "outdoor folding chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "maddie",
+  "nom": {
+   "fr": "Olympe",
+   "en": "Maddie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog09.png",
+  "demande": "Stylish Streamer Estate",
+  "bulle": "I want my own studio to stream my awesomeness!",
+  "chanson": "Bubblegum K.K.",
+  "meubles": [
+   "video camera",
+   "studio spotlight",
+   "Nordic sofa"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "maelle",
+  "nom": {
+   "fr": "Maëlle",
+   "en": "Maelle"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk03.png",
+  "demande": "A Boutique for My Top Brands",
+  "bulle": "I'd adore a boutique to show off my taste in luxury brands.",
+  "chanson": "K.K. Disco",
+  "meubles": [
+   "hanging clothing rack",
+   "full-length mirror",
+   "glass showcase"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "maggie",
+  "nom": {
+   "fr": "Marjorie",
+   "en": "Maggie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig10.png",
+  "demande": "Garden of Regeneration",
+  "bulle": "I want to grow a lovely garden to create a restorative space.",
+  "chanson": "K.K. Waltz",
+  "meubles": [
+   "garden chair",
+   "garden table",
+   "flower bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "mallary",
+  "nom": {
+   "fr": "Mallory",
+   "en": "Mallary"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk06.png",
+  "demande": "Relaxing Hot-Spring Resort",
+  "bulle": "I want a luxury home with its own hot spring. Nothing less.",
+  "chanson": "Steep Hill",
+  "meubles": [
+   "cypress bathtub",
+   "rattan towel basket",
+   "deer scare"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "maple",
+  "nom": {
+   "fr": "Léa",
+   "en": "Maple"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr01.png",
+  "demande": "A Bountiful Bear Bungalow",
+  "bulle": "I think a home with lots of plush bears would be so fun.",
+  "chanson": "Neapolitan",
+  "meubles": [
+   "Papa bear",
+   "Mama bear",
+   "ranch wardrobe"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "marcel",
+  "nom": {
+   "fr": "Ismaël",
+   "en": "Marcel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog15.png",
+  "demande": "Luxury Bathroom with a View",
+  "bulle": "I want a bathroom with a view of a pretty yard.",
+  "chanson": "K.K. Jongara",
+  "meubles": [
+   "squat toilet",
+   "shoji divider",
+   "garden rock"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "marcie",
+  "nom": {
+   "fr": "Selma",
+   "en": "Marcie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr10.png",
+  "demande": "A Homey Daycare Dwelling",
+  "bulle": "I bet my neighbors would appreciate a daycare nearby...",
+  "chanson": "I Love You",
+  "meubles": [
+   "dollhouse",
+   "high chair",
+   "baby bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "margie",
+  "nom": {
+   "fr": "Maguy",
+   "en": "Margie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp04.png",
+  "demande": "A Very Fancy Boutique",
+  "bulle": "A shop with tons of fancy clothes would be so dreamy.",
+  "chanson": "Bubblegum K.K.",
+  "meubles": [
+   "full-length mirror",
+   "dress mannequin",
+   "midsized clothing rack"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "marina",
+  "nom": {
+   "fr": "Marina",
+   "en": "Marina"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ocp01.png",
+  "demande": "Marina's Underwater Palace",
+  "bulle": "There's something wonderful about being beneath the sea.",
+  "chanson": "Space K.K.",
+  "meubles": [
+   "shell table",
+   "shell stool",
+   "Aquarius urn"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "marlo",
+  "nom": {
+   "fr": "Marlou",
+   "en": "Marlo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham09.png",
+  "demande": "A Movie-Star Mansion",
+  "bulle": "I wanna pretend I'm one of those big, fancy movie stars.",
+  "chanson": "K.K. Love Song",
+  "meubles": [
+   "den chair",
+   "den desk",
+   "rotary phone"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "marshal",
+  "nom": {
+   "fr": "Mathéo",
+   "en": "Marshal"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ17.png",
+  "demande": "Retro Café Cabin",
+  "bulle": "Can anything beat a good cup at the café? The answer is no.",
+  "chanson": "K.K. Swing",
+  "meubles": [
+   "coffee cup",
+   "coffee grinder",
+   "standing electric sign"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "marty",
+  "nom": {
+   "fr": "Marty",
+   "en": "Marty"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr18.png",
+  "demande": "Come-and-Go Calorie Castle",
+  "bulle": "I want a place to eat and then immediately start sweating.",
+  "chanson": "K.K. Polka",
+  "meubles": [
+   "Pompompurin pudding",
+   "yoga mat",
+   "milk can"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "mathilda",
+  "nom": {
+   "fr": "Mathilde",
+   "en": "Mathilda"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr01.png",
+  "demande": "An Eco-friendly Environment",
+  "bulle": "I want my family to stay in harmony with nature.",
+  "chanson": "K.K. Safari",
+  "meubles": [
+   "hammock",
+   "fan palm",
+   "Casablanca lilies"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "megan",
+  "nom": {
+   "fr": "Candy",
+   "en": "Megan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea15.png",
+  "demande": "A Place for Dreamy Thrills",
+  "bulle": "I'd be thrilled with a dreamy style full of pastel colors!",
+  "chanson": "K.K. Disco",
+  "meubles": [
+   "dreamy shelves",
+   "cute floor lamp",
+   "cute sofa"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "melba",
+  "nom": {
+   "fr": "Melba",
+   "en": "Melba"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal02.png",
+  "demande": "Fairy-Tale World",
+  "bulle": "I want my home to feel like it's in a fairy tale.",
+  "chanson": "K.K. Birthday",
+  "meubles": [
+   "mush low stool",
+   "mush table",
+   "plaza arch"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "merengue",
+  "nom": {
+   "fr": "Patty",
+   "en": "Merengue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rhn07.png",
+  "demande": "Dessert R & D Dept.",
+  "bulle": "I want a place to invent delicious everyday desserts!",
+  "chanson": "Animal City",
+  "meubles": [
+   "store shelf",
+   "mixed-fruits tart",
+   "cooking tools"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "merry",
+  "nom": {
+   "fr": "Suzy",
+   "en": "Merry"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat16.png",
+  "demande": "A Spot to Model Myself",
+  "bulle": "I want my own studio where I model for an artist!",
+  "chanson": "Chillwave",
+  "meubles": [
+   "moving painting",
+   "box-shaped seat",
+   "painting set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "midge",
+  "nom": {
+   "fr": "Michèle",
+   "en": "Midge"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd08.png",
+  "demande": "Midge's Beauty Barn",
+  "bulle": "I want a home like a salon so I can share the beauty!",
+  "chanson": "K.K. House",
+  "meubles": [
+   "elegant console table",
+   "makeup pouch",
+   "fancy bathroom vanity"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "mint",
+  "nom": {
+   "fr": "Amande",
+   "en": "Mint"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ09.png",
+  "demande": "The Ice-Cream Shoppe",
+  "bulle": "To me, joy is the colorful ice cream you see at a shoppe.",
+  "chanson": "K.K. Bossa",
+  "meubles": [
+   "ice-cream display",
+   "soft-serve lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "mira",
+  "nom": {
+   "fr": "Grisette",
+   "en": "Mira"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt19.png",
+  "demande": "My Cutting-Edge Keep",
+  "bulle": "I want a futuristic place. But not, like, TOO futuristic.",
+  "chanson": "K.K. Robot Synth",
+  "meubles": [
+   "strategic meeting table",
+   "cold sleep pod",
+   "crew member's seat"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "miranda",
+  "nom": {
+   "fr": "Maëllis",
+   "en": "Miranda"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk12.png",
+  "demande": "An Elite Cross-Training Gym",
+  "bulle": "I must have a well-equipped gym for a variety of workouts.",
+  "chanson": "DJ K.K.",
+  "meubles": [
+   "Ring-Con",
+   "LCD TV (50 in.)",
+   "climbing wall"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "mitzi",
+  "nom": {
+   "fr": "Mistigri",
+   "en": "Mitzi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat01.png",
+  "demande": "Mitzi's Mountaintop Eatery",
+  "bulle": "A mountaintop restaurant with Japanese food...yum!",
+  "chanson": "Spring Blossoms",
+  "meubles": [
+   "senmaizuke barrel",
+   "azumaya gazebo",
+   "zen bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "moe",
+  "nom": {
+   "fr": "Momo",
+   "en": "Moe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat08.png",
+  "demande": "A Magician's Mystery Manor",
+  "bulle": "I want a place to work on my mysterious magic act!",
+  "chanson": "K.K. Bazaar",
+  "meubles": [
+   "stage lights",
+   "cards",
+   "magic kit"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "molly",
+  "nom": {
+   "fr": "Molly",
+   "en": "Molly"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk16.png",
+  "demande": "A Tiny Publishing House",
+  "bulle": "I've always wanted to run my own publishing house...",
+  "chanson": "K.K. Soul",
+  "meubles": [
+   "stacked magazines",
+   "tall file cabinet",
+   "office desk"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "monique",
+  "nom": {
+   "fr": "Monique",
+   "en": "Monique"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat11.png",
+  "demande": "An Elegant Euro Pied-à-Terre",
+  "bulle": "It simply must be full of European elegance.",
+  "chanson": "Lucky K.K.",
+  "meubles": [
+   "elegant dresser",
+   "elegant bed",
+   "elegant lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "monty",
+  "nom": {
+   "fr": "Lourant",
+   "en": "Monty"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk04.png",
+  "demande": "Mystery-Solver Club",
+  "bulle": "I want a place where I can investigate cool mysteries!",
+  "chanson": "Farewell",
+  "meubles": [
+   "den chair",
+   "document stack",
+   "den desk"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "moose",
+  "nom": {
+   "fr": "Joachim",
+   "en": "Moose"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus14.png",
+  "demande": "Home with a Hoop",
+  "bulle": "I want a place with a b-ball hoop so I can always play!",
+  "chanson": "K.K. Gumbo",
+  "meubles": [
+   "bottled beverage",
+   "basketball hoop",
+   "ball"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "mott",
+  "nom": {
+   "fr": "Aimé",
+   "en": "Mott"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/lon06.png",
+  "demande": "A Physicist's Home",
+  "bulle": "I want to research the physics of muscle building.",
+  "chanson": "Pondering",
+  "meubles": [
+   "tool shelf",
+   "Newton's cradle",
+   "chalkboard"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "muffy",
+  "nom": {
+   "fr": "Charlène",
+   "en": "Muffy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp12.png",
+  "demande": "Renaissance Manor",
+  "bulle": "I'd like to spend my time in a gorgeous, old manor.",
+  "chanson": "K.K. Fugue",
+  "meubles": [
+   "antique clock",
+   "antique mini table",
+   "street lamp with banners"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "murphy",
+  "nom": {
+   "fr": "Eddie",
+   "en": "Murphy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr07.png",
+  "demande": "Small-Town Factory",
+  "bulle": "It'd be kinda cool to run a little factory in a small town.",
+  "chanson": "K.K. Steppe",
+  "meubles": [
+   "amazing machine",
+   "inspection equipment",
+   "solar panel"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "nan",
+  "nom": {
+   "fr": "Nana",
+   "en": "Nan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa01.png",
+  "demande": "A Luxury Hotel",
+  "bulle": "I want that relaxing, refined hotel-style feeling for myself.",
+  "chanson": "K.K. Synth",
+  "meubles": [
+   "elegant bed",
+   "antique console table",
+   "floor lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "nana",
+  "nom": {
+   "fr": "Mireille",
+   "en": "Nana"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk01.png",
+  "demande": "A Park for the Peckish",
+  "bulle": "I want a relaxing park where I can eat lunch...",
+  "chanson": "K.K. Stroll",
+  "meubles": [
+   "picnic basket",
+   "bread",
+   "plastic bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "naomi",
+  "nom": {
+   "fr": "Maiko",
+   "en": "Naomi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cow07.png",
+  "demande": "The Art Café",
+  "bulle": "I would adore my own sad café, filled with sad art...",
+  "chanson": "K.K. Aria",
+  "meubles": [
+   "artsy chair",
+   "elaborate display case",
+   "artsy table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "nate",
+  "nom": {
+   "fr": "Nathan",
+   "en": "Nate"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea05.png",
+  "demande": "House of Cardboard",
+  "bulle": "I could see a really cool fort filled with cardboard stuff!",
+  "chanson": "K.K. Rock",
+  "meubles": [
+   "cardboard box",
+   "cardboard sofa",
+   "cardboard table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "nibbles",
+  "nom": {
+   "fr": "Lola",
+   "en": "Nibbles"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ04.png",
+  "demande": "Nibbles's Study Space",
+  "bulle": "Could a room ever motivate me to study? I don't know.",
+  "chanson": "Mr. K.K.",
+  "meubles": [
+   "study desk",
+   "study chair",
+   "globe"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "norma",
+  "nom": {
+   "fr": "Norma",
+   "en": "Norma"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cow06.png",
+  "demande": "A Place Packed with Plants",
+  "bulle": "It'd be dreamy to read quietly in a room filled with plants...",
+  "chanson": "K.K. Stroll",
+  "meubles": [
+   "titan arum",
+   "tiny library",
+   "flower bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ohare",
+  "nom": {
+   "fr": "Civet",
+   "en": "O'Hare"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt15.png",
+  "demande": "Tropical Paradise",
+  "bulle": "An indoor tropical island would be pretty awesome.",
+  "chanson": "K.K. Island",
+  "meubles": [
+   "beach chairs with parasol",
+   "beach chair",
+   "palm-tree lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "octavian",
+  "nom": {
+   "fr": "Octave",
+   "en": "Octavian"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ocp00.png",
+  "demande": "A Window to the Sea",
+  "bulle": "I wanna relax by the sea and drink in that nostalgia...",
+  "chanson": "Surfin' K.K.",
+  "meubles": [
+   "inflatable bird ring",
+   "beach towel",
+   "hammock"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "olaf",
+  "nom": {
+   "fr": "Blair",
+   "en": "Olaf"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant09.png",
+  "demande": "A Stellar Estate",
+  "bulle": "I'd like to sleep under a top- tier view of the night sky.",
+  "chanson": "K.K. Jazz",
+  "meubles": [
+   "whirlpool bath",
+   "antique bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "olive",
+  "nom": {
+   "fr": "Grisa",
+   "en": "Olive"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr09.png",
+  "demande": "My Everyday Ice-Cream Parlor",
+  "bulle": "I want a place where I can make ice cream for everyone!",
+  "chanson": "K.K. Birthday",
+  "meubles": [
+   "vanilla cone",
+   "ice-cream display",
+   "bistro table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "olivia",
+  "nom": {
+   "fr": "Olivia",
+   "en": "Olivia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat03.png",
+  "demande": "Portal to the Land of Nod",
+  "bulle": "I want a bedroom where I can fall into the deepest sleep...",
+  "chanson": "K.K. Lullaby",
+  "meubles": [
+   "antique bed",
+   "floor lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "opal",
+  "nom": {
+   "fr": "Opaline",
+   "en": "Opal"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp00.png",
+  "demande": "Garden of Serenity",
+  "bulle": "I want to stay at a serene resort with a fragrant aroma.",
+  "chanson": "K.K. Marathon",
+  "meubles": [
+   "rattan armchair",
+   "incense burner",
+   "gazebo"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ozzie",
+  "nom": {
+   "fr": "Koko",
+   "en": "Ozzie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal05.png",
+  "demande": "Health Examination Station",
+  "bulle": "I just think I'd feel safe and cozy in a school's infirmary.",
+  "chanson": "K.K. Dixie",
+  "meubles": [
+   "stadiometer",
+   "hospital bed",
+   "medicine chest"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pancetti",
+  "nom": {
+   "fr": "Lydie",
+   "en": "Pancetti"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig16.png",
+  "demande": "A Place for the Best Rest",
+  "bulle": "I want to sleep surrounded by the sweet scent of nature.",
+  "chanson": "Hypno K.K.",
+  "meubles": [
+   "elegant bed",
+   "aroma pot",
+   "humidifier"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pango",
+  "nom": {
+   "fr": "Mathilda",
+   "en": "Pango"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant02.png",
+  "demande": "Ultimate Beauty Salon",
+  "bulle": "I want to relax in a hot tub at the ultimate beauty salon!",
+  "chanson": "K.K. Oasis",
+  "meubles": [
+   "whirlpool bath",
+   "nail-art set",
+   "fan palm"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "paolo",
+  "nom": {
+   "fr": "Paolo",
+   "en": "Paolo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp05.png",
+  "demande": "Paolo's Prep Kitchen",
+  "bulle": "I want a pro-level kitchen so I can really chef it up!",
+  "chanson": "Two Days Ago",
+  "meubles": [
+   "kitchen island",
+   "shopping bag",
+   "cooking tools"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "papi",
+  "nom": {
+   "fr": "Bourrico",
+   "en": "Papi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs12.png",
+  "demande": "Shrine to Wooden Furniture",
+  "bulle": "I want a wooden home with lots of wooden furniture.",
+  "chanson": "K.K. Slack-Key",
+  "meubles": [
+   "rocking chair",
+   "serving cart",
+   "wooden table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pashmina",
+  "nom": {
+   "fr": "Chavrina",
+   "en": "Pashmina"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa08.png",
+  "demande": "Flower-Art Atelier",
+  "bulle": "I want to share the beauty of flowers through my flower art.",
+  "chanson": "K.K. Lovers",
+  "meubles": [
+   "project table",
+   "flower display case",
+   "sewing project"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pate",
+  "nom": {
+   "fr": "Terrine",
+   "en": "Pate"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk02.png",
+  "demande": "A Wired Café",
+  "bulle": "I want a place that feels like an old-school internet café!",
+  "chanson": "K.K. Bashment",
+  "meubles": [
+   "desktop computer",
+   "den chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "patty",
+  "nom": {
+   "fr": "Margaux",
+   "en": "Patty"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cow00.png",
+  "demande": "A Grilling Paradise",
+  "bulle": "I want to grill and chill every single day!",
+  "chanson": "K.K. Polka",
+  "meubles": [
+   "cutting board",
+   "garden table",
+   "barbecue"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "paula",
+  "nom": {
+   "fr": "Wendy",
+   "en": "Paula"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea10.png",
+  "demande": "All-Night Karaoke Club",
+  "bulle": "I wanna do karaoke all night with my friends!",
+  "chanson": "Drivin'",
+  "meubles": [
+   "karaoke system",
+   "mic stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "peaches",
+  "nom": {
+   "fr": "Prune",
+   "en": "Peaches"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs08.png",
+  "demande": "A Shrine to Roundness",
+  "bulle": "I want a place with a gentle vibe and plenty of roundness.",
+  "chanson": "Space K.K.",
+  "meubles": [
+   "Moroccan tray table",
+   "Moroccan footrest"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "peanut",
+  "nom": {
+   "fr": "Rachida",
+   "en": "Peanut"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ00.png",
+  "demande": "Peanut's Americana Museum",
+  "bulle": "Gimme a fun life with stuff that reminds me of America!",
+  "chanson": "K.K. Gumbo",
+  "meubles": [
+   "diner neon sign",
+   "jukebox",
+   "cherry pie"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pecan",
+  "nom": {
+   "fr": "Pécan",
+   "en": "Pecan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ03.png",
+  "demande": "A Chic and Relaxing Home",
+  "bulle": "I want to relax with chic, high-quality furniture.",
+  "chanson": "K.K. Swing",
+  "meubles": [
+   "vintage sofa",
+   "vintage dresser",
+   "schefflera"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "peck",
+  "nom": {
+   "fr": "Pec",
+   "en": "Peck"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd17.png",
+  "demande": "Home Field for a Sportsman",
+  "bulle": "To me, vacation means being surrounded by the sporty life.",
+  "chanson": "The K. Funk",
+  "meubles": [
+   "surfboard",
+   "golf bag",
+   "sporty shades"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "peewee",
+  "nom": {
+   "fr": "Gogo",
+   "en": "Peewee"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor01.png",
+  "demande": "Elite Sports Gym",
+  "bulle": "I want to work out in a gym that caters to elite athletes!",
+  "chanson": "K.K. D&B",
+  "meubles": [
+   "weight bench",
+   "exercise bike"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "peggy",
+  "nom": {
+   "fr": "Rose",
+   "en": "Peggy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig11.png",
+  "demande": "Supermarket Full of Samples",
+  "bulle": "Being a food reporter in a supermarket sounds SO fun!",
+  "chanson": "K.K. Ragtime",
+  "meubles": [
+   "store shelf",
+   "podium",
+   "TV camera"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pekoe",
+  "nom": {
+   "fr": "Pauline",
+   "en": "Pekoe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr14.png",
+  "demande": "My Own Zen Resort",
+  "bulle": "I want a relaxing vacation home with Asian resort vibes.",
+  "chanson": "Imperial K.K.",
+  "meubles": [
+   "imperial low table",
+   "traditional tea set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "penelope",
+  "nom": {
+   "fr": "Missy",
+   "en": "Penelope"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus17.png",
+  "demande": "My Ever-After Home",
+  "bulle": "I want to relax in my own happily ever after...",
+  "chanson": "K.K. Ballad",
+  "meubles": [
+   "ranch cupboard",
+   "brick well",
+   "gazebo"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "petri",
+  "nom": {
+   "fr": "Shimi",
+   "en": "Petri"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus19.png",
+  "demande": "Teatime Terrace",
+  "bulle": "Sometimes I just need a nice, relaxing teatime...",
+  "chanson": "Neapolitan",
+  "meubles": [
+   "tea set",
+   "rattan armchair",
+   "rattan low table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "phil",
+  "nom": {
+   "fr": "Phil",
+   "en": "Phil"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost07.png",
+  "demande": "The Sight of Myself in Space",
+  "bulle": "I want a place that feels like I'm floating in outer space.",
+  "chanson": "K.K. Condor",
+  "meubles": [
+   "nova light",
+   "asteroid",
+   "lunar lander"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "phoebe",
+  "nom": {
+   "fr": "Faustine",
+   "en": "Phoebe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost10.png",
+  "demande": "A Place to Fan the Flames",
+  "bulle": "My home should match my burning drive! I'm heating up!",
+  "chanson": "K.K. Metal",
+  "meubles": [
+   "stage flame machine",
+   "bonfire",
+   "campfire"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pierce",
+  "nom": {
+   "fr": "Napoléon",
+   "en": "Pierce"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr02.png",
+  "demande": "His Majesty's Royal Gym",
+  "bulle": "I wanna feel the burn but while I'm somewhere fancy!",
+  "chanson": "K.K. Cruisin'",
+  "meubles": [
+   "weight bench",
+   "golden bathtub"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pietro",
+  "nom": {
+   "fr": "Pietro",
+   "en": "Pietro"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp13.png",
+  "demande": "Pietro's World of Dreams",
+  "bulle": "I want to share my world of dreams with everyone.",
+  "chanson": "K.K. Mariachi",
+  "meubles": [
+   "plaza balloon wagon",
+   "plaza ferris wheel",
+   "plaza game stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pinky",
+  "nom": {
+   "fr": "Rosine",
+   "en": "Pinky"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea01.png",
+  "demande": "A Feng Shui Field",
+  "bulle": "I want good luck, so give me a flat inspired by feng shui!",
+  "chanson": "Imperial K.K.",
+  "meubles": [
+   "imperial low table",
+   "monstera",
+   "incense burner"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "piper",
+  "nom": {
+   "fr": "Neige",
+   "en": "Piper"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd05.png",
+  "demande": "A Soothing Spa Site",
+  "bulle": "I want to relax in a spa where I can hear waves crashing...",
+  "chanson": "K.K. Mambo",
+  "meubles": [
+   "shell partition",
+   "rattan low table",
+   "coconut milk"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pippy",
+  "nom": {
+   "fr": "Nadia",
+   "en": "Pippy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt06.png",
+  "demande": "A Very Convenient Store",
+  "bulle": "Convenience stores—I love 'em! They're so convenient!",
+  "chanson": "K.K. Salsa",
+  "meubles": [
+   "touchscreen cash register",
+   "store shelf",
+   "deep fryer"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "plucky",
+  "nom": {
+   "fr": "Poulette",
+   "en": "Plucky"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/chn10.png",
+  "demande": "A Home for the Hula Life",
+  "bulle": "If I could always have that hula rhythm in my life...",
+  "chanson": "Aloha K.K.",
+  "meubles": [
+   "ukulele",
+   "portable record player",
+   "hammock"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pompom",
+  "nom": {
+   "fr": "Pompon",
+   "en": "Pompom"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk05.png",
+  "demande": "A Fabulous Yard",
+  "bulle": "It'd be trés fab to have a yard with a pool for splashing!",
+  "chanson": "K.K. Samba",
+  "meubles": [
+   "shower booth",
+   "garden faucet",
+   "plastic pool"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "poncho",
+  "nom": {
+   "fr": "Théo",
+   "en": "Poncho"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr02.png",
+  "demande": "A Prairie Western Home",
+  "bulle": "I want a cool home straight out of a western movie!",
+  "chanson": "K.K. Western",
+  "meubles": [
+   "covered wagon",
+   "retro gas pump",
+   "cactus"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "poppy",
+  "nom": {
+   "fr": "Irène",
+   "en": "Poppy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ15.png",
+  "demande": "Pet Plushie Palace",
+  "bulle": "I'd like to spend more time with my pets and plushies...",
+  "chanson": "Welcome Horizons",
+  "meubles": [
+   "birdcage",
+   "hamster cage",
+   "puppy plushie"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "portia",
+  "nom": {
+   "fr": "Dalma",
+   "en": "Portia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog05.png",
+  "demande": "A Venue for Timeless Music",
+  "bulle": "I require a space in which I can enjoy classical music.",
+  "chanson": "K.K. Swing",
+  "meubles": [
+   "phonograph",
+   "upright piano",
+   "antique chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "prince",
+  "nom": {
+   "fr": "Prince",
+   "en": "Prince"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg12.png",
+  "demande": "The Robot Arena",
+  "bulle": "Know what's cool? Robots that fight monsters! Yay!",
+  "chanson": "K.K. Adventure",
+  "meubles": [
+   "robot hero",
+   "monster statue"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "puck",
+  "nom": {
+   "fr": "Hervé",
+   "en": "Puck"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn06.png",
+  "demande": "House of Sports and Sweets",
+  "bulle": "I want a place to enjoy sports and eat ice cream.",
+  "chanson": "K.K. Metal",
+  "meubles": [
+   "ice-cream display",
+   "basketball hoop",
+   "ball"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "puddles",
+  "nom": {
+   "fr": "Rénata",
+   "en": "Puddles"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg06.png",
+  "demande": "A Lovely Getaway",
+  "bulle": "I want my vacation home to be full of cute, lovely stuff!",
+  "chanson": "K.K. House",
+  "meubles": [
+   "Nordic table",
+   "street piano",
+   "Nordic sofa"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "pudge",
+  "nom": {
+   "fr": "Gradub",
+   "en": "Pudge"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr03.png",
+  "demande": "My Pretentious Palace",
+  "bulle": "I wanna hang out in a fancy place surrounded by riches!",
+  "chanson": "K.K. Tango",
+  "meubles": [
+   "pile of cash",
+   "lucky gold cat",
+   "safe"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "punchy",
+  "nom": {
+   "fr": "Cédric",
+   "en": "Punchy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat06.png",
+  "demande": "A Vacation-Home Treat",
+  "bulle": "I want a place so comfy that I know I'm treating myself.",
+  "chanson": "Aloha K.K.",
+  "meubles": [
+   "cat tower",
+   "cat grass",
+   "pile of cardboard boxes"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "purrl",
+  "nom": {
+   "fr": "Perle",
+   "en": "Purrl"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat07.png",
+  "demande": "A Kotatsu Citadel",
+  "bulle": "My ideal day? Me, cozy under my kotatsu, eating oranges.",
+  "chanson": "K.K. Song",
+  "meubles": [
+   "kotatsu",
+   "zen cushion"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "queenie",
+  "nom": {
+   "fr": "Reine",
+   "en": "Queenie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost00.png",
+  "demande": "Contrast Courtyard",
+  "bulle": "I've always loved how black contrasts against white.",
+  "chanson": "K.K. Tango",
+  "meubles": [
+   "Mama panda",
+   "cool sofa",
+   "office cabinet"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "quillson",
+  "nom": {
+   "fr": "Narcisse",
+   "en": "Quillson"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk17.png",
+  "demande": "My Own Recording Studio",
+  "bulle": "I want to drop an album, so I need somewhere to record it.",
+  "chanson": "K.K. D&B",
+  "meubles": [
+   "mic stand",
+   "amp",
+   "electric guitar"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "quinn",
+  "nom": {
+   "fr": "Astair",
+   "en": "Quinn"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr10.png",
+  "demande": "A Place to Express Myself",
+  "bulle": "I want a place to express beauty in all its forms.",
+  "chanson": "K.K. Groove",
+  "meubles": [
+   "SLR camera",
+   "studio spotlight",
+   "acid-washed jacket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "raddle",
+  "nom": {
+   "fr": "Fabien",
+   "en": "Raddle"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg15.png",
+  "demande": "Mad Scientist's Lair",
+  "bulle": "I could pretend to be a wacky scientist doing experiments.",
+  "chanson": "K.K. Milonga",
+  "meubles": [
+   "lab chair",
+   "lab-experiments set",
+   "amazing machine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rasher",
+  "nom": {
+   "fr": "Salami",
+   "en": "Rasher"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig02.png",
+  "demande": "Not-Too-Serious Secret Base",
+  "bulle": "I want a secret base for me and my pals to horse around.",
+  "chanson": "K.K. Ska",
+  "meubles": [
+   "upright locker",
+   "pile of cash",
+   "aluminum briefcase"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "raymond",
+  "nom": {
+   "fr": "Raymond",
+   "en": "Raymond"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat23.png",
+  "demande": "A Home Tailored for Me",
+  "bulle": "If my home could feel like a tailor shop, that would rule.",
+  "chanson": "K.K. Break",
+  "meubles": [
+   "covered counter",
+   "antique console table",
+   "old sewing machine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "renee",
+  "nom": {
+   "fr": "Rina",
+   "en": "Renée"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rhn08.png",
+  "demande": "Total Blank Slate",
+  "bulle": "I miss the time I spent hanging out in empty lots...",
+  "chanson": "Agent K.K.",
+  "meubles": [
+   "utility pole",
+   "cruiser bike",
+   "fence"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "reneigh",
+  "nom": {
+   "fr": "Jennifer",
+   "en": "Reneigh"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs16.png",
+  "demande": "Fancy-Party House",
+  "bulle": "I want a place to gather my friends for fancy parties!",
+  "chanson": "K.K. Bashment",
+  "meubles": [
+   "large covered round table",
+   "chafing dish",
+   "luxury car"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rex",
+  "nom": {
+   "fr": "Léo",
+   "en": "Rex"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/lon02.png",
+  "demande": "A Place to Climb Mountains",
+  "bulle": "I wanna climb mountains and take in the pretty scenery.",
+  "chanson": "Mountain Song",
+  "meubles": [
+   "dormant volcano",
+   "camp stove",
+   "sleeping bag"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rhonda",
+  "nom": {
+   "fr": "Renée",
+   "en": "Rhonda"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rhn01.png",
+  "demande": "A Home for Pleasant Dreams",
+  "bulle": "I want a relaxing home so all my dreams are pleasant ones.",
+  "chanson": "K.K. Lullaby",
+  "meubles": [
+   "aroma pot",
+   "humidifier",
+   "Luna's bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ribbot",
+  "nom": {
+   "fr": "Crabot",
+   "en": "Ribbot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg01.png",
+  "demande": "A Gym Full of Handles",
+  "bulle": "I want all kinds of handles I can turn. It's great exercise!",
+  "chanson": "K.K. Groove",
+  "meubles": [
+   "capsule-toy machine",
+   "candy machine",
+   "minicar"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ricky",
+  "nom": {
+   "fr": "Rocky",
+   "en": "Ricky"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ10.png",
+  "demande": "The Halls of Medicine",
+  "bulle": "I want a place where I can learn about being a doctor!",
+  "chanson": "K.K. Blues",
+  "meubles": [
+   "exam table",
+   "skeleton",
+   "whiteboard"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rilla",
+  "nom": {
+   "fr": "Rilla",
+   "en": "Rilla"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor11.png",
+  "demande": "A Chart-Topping Chalet",
+  "bulle": "I wanna relax in a cute spot while I make a hit record.",
+  "chanson": "K.K. Parade",
+  "meubles": [
+   "juicy-apple TV",
+   "apple chair",
+   "Hello Kitty bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rio",
+  "nom": {
+   "fr": "Estrella",
+   "en": "Rio"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost04.png",
+  "demande": "Workout Workshop",
+  "bulle": "Fitness every day! Anytime! That's what I want!",
+  "chanson": "K.K. Samba",
+  "meubles": [
+   "treadmill",
+   "exercise bike",
+   "yoga mat"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rizzo",
+  "nom": {
+   "fr": "Sourizzi",
+   "en": "Rizzo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus09.png",
+  "demande": "A Secret Hideaway",
+  "bulle": "I want a secret hideaway that no one else can find.",
+  "chanson": "K.K. Lament",
+  "meubles": [
+   "futon",
+   "kettle",
+   "nearly busted radio"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "roald",
+  "nom": {
+   "fr": "Reynald",
+   "en": "Roald"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn01.png",
+  "demande": "A Wannabe's Racetrack",
+  "bulle": "I want a place that makes me feel like I'm a racer.",
+  "chanson": "K.K. Country",
+  "meubles": [
+   "throwback race-car bed",
+   "public bench",
+   "tire stack"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "robin",
+  "nom": {
+   "fr": "Robie",
+   "en": "Robin"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd01.png",
+  "demande": "A Classical Estate",
+  "bulle": "I want to relax while gazing at beautiful, classical things.",
+  "chanson": "K.K. Sonata",
+  "meubles": [
+   "antique console table",
+   "antique chair",
+   "phonograph"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rocco",
+  "nom": {
+   "fr": "Bebel",
+   "en": "Rocco"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hip00.png",
+  "demande": "Rocco's Danger Zone",
+  "bulle": "I wanna feel like I'm right on the cusp of danger.",
+  "chanson": "Surfin' K.K.",
+  "meubles": [
+   "cone",
+   "safety barrier"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rocket",
+  "nom": {
+   "fr": "Gertrude",
+   "en": "Rocket"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor09.png",
+  "demande": "A Respite for Heroes",
+  "bulle": "Heroes need a place to rest! Everyone needs a break.",
+  "chanson": "K.K. Lullaby",
+  "meubles": [
+   "retro massage chair",
+   "hammock",
+   "LCD TV (20 in.)"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rod",
+  "nom": {
+   "fr": "Marcel",
+   "en": "Rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus05.png",
+  "demande": "A Pirate's Secret Hideaway",
+  "bulle": "Pirates are so cool! I want my own pirate hideaway!",
+  "chanson": "K.K. Calypso",
+  "meubles": [
+   "barrel",
+   "candle",
+   "antique map"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rodeo",
+  "nom": {
+   "fr": "Flèche",
+   "en": "Rodeo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bul01.png",
+  "demande": "My Wizardly Watchtower",
+  "bulle": "I like magic. Can I learn lots of magic at my place?",
+  "chanson": "Lucky K.K.",
+  "meubles": [
+   "suspicious cauldron",
+   "glowing-moss jar"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rodney",
+  "nom": {
+   "fr": "Chico",
+   "en": "Rodney"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham03.png",
+  "demande": "Movie-Magic Studio",
+  "bulle": "I want to make movies... Can my place be like a studio?",
+  "chanson": "K.K. Adventure",
+  "meubles": [
+   "TV camera",
+   "director's chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rolf",
+  "nom": {
+   "fr": "Ralf",
+   "en": "Rolf"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/tig00.png",
+  "demande": "An Alfresco Apartment",
+  "bulle": "I wanna spend as much time outside as possible.",
+  "chanson": "Wandering",
+  "meubles": [
+   "campfire",
+   "sleeping bag",
+   "campfire cookware"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rooney",
+  "nom": {
+   "fr": "Mike",
+   "en": "Rooney"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr09.png",
+  "demande": "Boxing Gym",
+  "bulle": "Even if I'm on vacation, I want a boxing gym to get in reps.",
+  "chanson": "K.K. Western",
+  "meubles": [
+   "punching bag",
+   "speed bag",
+   "judge's bell"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rory",
+  "nom": {
+   "fr": "Hercule",
+   "en": "Rory"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/lon07.png",
+  "demande": "A Tropical Ocean Paradise",
+  "bulle": "I grew up near the ocean, so I wanna feel like I'm there!",
+  "chanson": "K.K. Faire",
+  "meubles": [
+   "beach chair",
+   "bistro table",
+   "surfboard"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "roscoe",
+  "nom": {
+   "fr": "Rosco",
+   "en": "Roscoe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs04.png",
+  "demande": "Monotone Home",
+  "bulle": "I wanna keep it simple. Make it all either black or white.",
+  "chanson": "K.K. Rock",
+  "meubles": [
+   "cool low table",
+   "cool sofa"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rosie",
+  "nom": {
+   "fr": "Rosie",
+   "en": "Rosie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat02.png",
+  "demande": "My Very Own Talent Agency",
+  "bulle": "I need a studio suitable for a true pop star.",
+  "chanson": "Bubblegum K.K.",
+  "meubles": [
+   "whiteboard",
+   "cardboard box",
+   "flower stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "roswell",
+  "nom": {
+   "fr": "Roswell",
+   "en": "Roswell"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd05.png",
+  "demande": "My Mystery Workshop",
+  "bulle": "I want a place to study the mysterious stuff I find.",
+  "chanson": "K.K. Khoomei",
+  "meubles": [
+   "forbidden altar",
+   "ancient statue",
+   "glowing-moss pond"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rowan",
+  "nom": {
+   "fr": "Marito",
+   "en": "Rowan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/tig01.png",
+  "demande": "Golden Shop",
+  "bulle": "I want to run a shop filled with shiny golden things!",
+  "chanson": "K.K. Oasis",
+  "meubles": [
+   "lucky gold cat",
+   "antique cash register"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ruby",
+  "nom": {
+   "fr": "Rubis",
+   "en": "Ruby"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt09.png",
+  "demande": "A Place to Admire the Moon",
+  "bulle": "I want to admire the beautiful night sky and moon...",
+  "chanson": "Space K.K.",
+  "meubles": [
+   "telescope",
+   "moon",
+   "lunar rover"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "rudy",
+  "nom": {
+   "fr": "Rougepif",
+   "en": "Rudy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat20.png",
+  "demande": "Indoor Ball Sports Arena",
+  "bulle": "I want a place where I can be the best at ball sports!",
+  "chanson": "K.K. D&B",
+  "meubles": [
+   "ball",
+   "tennis table",
+   "foosball table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sally",
+  "nom": {
+   "fr": "Damia",
+   "en": "Sally"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ07.png",
+  "demande": "A Napping Field",
+  "bulle": "I want to feel the breath of spring as I nap in a field...",
+  "chanson": "Stale Cupcakes",
+  "meubles": [
+   "pansy table",
+   "rose bed",
+   "cherry-blossom-petal pile"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "samson",
+  "nom": {
+   "fr": "Samson",
+   "en": "Samson"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mus04.png",
+  "demande": "A Treasure-Packed Gym",
+  "bulle": "I bet lifting hidden treasure would be a great workout!",
+  "chanson": "K.K. Casbah",
+  "meubles": [
+   "double-edged sword",
+   "Libra scale",
+   "decayed tree"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sandy",
+  "nom": {
+   "fr": "Ottie",
+   "en": "Sandy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost02.png",
+  "demande": "An Oasis for Runners",
+  "bulle": "I want to give runners a place to rest their wings.",
+  "chanson": "Wandering",
+  "meubles": [
+   "water cooler",
+   "shower booth",
+   "plush massage chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sasha",
+  "nom": {
+   "fr": "Alix",
+   "en": "Sasha"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt21.png",
+  "demande": "Moon-Shot Manor",
+  "bulle": "I want a place that reminds me of the moon.",
+  "chanson": "K.K. Robot Synth",
+  "meubles": [
+   "moon",
+   "asteroid"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "savannah",
+  "nom": {
+   "fr": "Savana",
+   "en": "Savannah"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs02.png",
+  "demande": "My Desert Oasis",
+  "bulle": "I just want it to remind me of the arid place I grew up...",
+  "chanson": "K.K. Safari",
+  "meubles": [
+   "mini-cactus set",
+   "baobab",
+   "cactus"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "scoot",
+  "nom": {
+   "fr": "Scooter",
+   "en": "Scoot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk10.png",
+  "demande": "A School with a Pool",
+  "bulle": "I want a classroom with a pool so I can swim and study!",
+  "chanson": "Mr. K.K.",
+  "meubles": [
+   "school chair",
+   "school desk",
+   "pool"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "shari",
+  "nom": {
+   "fr": "Luna",
+   "en": "Shari"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk07.png",
+  "demande": "House of Perennials",
+  "bulle": "I want a place to show off always-blooming flowers.",
+  "chanson": "Steep Hill",
+  "meubles": [
+   "lily record player",
+   "mum cushion",
+   "rose bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sheldon",
+  "nom": {
+   "fr": "Roy",
+   "en": "Sheldon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ16.png",
+  "demande": "Traffic-Safety Hub",
+  "bulle": "I want a place where I can teach everyone traffic safety.",
+  "chanson": "Drivin'",
+  "meubles": [
+   "minicar",
+   "crosswalk signal",
+   "small mannequin"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "shep",
+  "nom": {
+   "fr": "Mehdi",
+   "en": "Shep"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog18.png",
+  "demande": "Sounds of the Street",
+  "bulle": "I want a place that's got lots and lots of street noise!",
+  "chanson": "K.K. Cruisin'",
+  "meubles": [
+   "street piano",
+   "acoustic guitar",
+   "drink machine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sherb",
+  "nom": {
+   "fr": "Capri",
+   "en": "Sherb"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa09.png",
+  "demande": "My Fantasy Theme Park",
+  "bulle": "I think the world needs more fairy-tale theme parks.",
+  "chanson": "My Place",
+  "meubles": [
+   "cotton-candy stall",
+   "plaza bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "shino",
+  "nom": {
+   "fr": "Shino",
+   "en": "Shino"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der11.png",
+  "demande": "A Stage to Jam for Japan",
+  "bulle": "I wanna rock out in front of a Japanese-style backdrop!",
+  "chanson": "K.K. Folk",
+  "meubles": [
+   "silver mic",
+   "bamboo speaker",
+   "zen bench"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "simon",
+  "nom": {
+   "fr": "Simon",
+   "en": "Simon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk02.png",
+  "demande": "Cool Car Lot",
+  "bulle": "I want to line all my cool cars up and show them off.",
+  "chanson": "K.K. Moody",
+  "meubles": [
+   "minicar",
+   "luxury car"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "skye",
+  "nom": {
+   "fr": "Marilou",
+   "en": "Skye"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol09.png",
+  "demande": "Painting School",
+  "bulle": "I'd love a place to host painting classes for families.",
+  "chanson": "K.K. Chorale",
+  "meubles": [
+   "perfect painting",
+   "painting set",
+   "wooden stool"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sly",
+  "nom": {
+   "fr": "Chuck",
+   "en": "Sly"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/crd06.png",
+  "demande": "My Hide-and-Seek Jungle",
+  "bulle": "I want to play hide-and-seek in a jungle-themed home!",
+  "chanson": "My Place",
+  "meubles": [
+   "vine bench",
+   "giant vine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "snake",
+  "nom": {
+   "fr": "Jeannot",
+   "en": "Snake"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt03.png",
+  "demande": "The Ultimate Chef Dojo",
+  "bulle": "I need a place to train if I ever wanna be a hot-shot chef!",
+  "chanson": "K.K. Jongara",
+  "meubles": [
+   "super-premium nigirizushi",
+   "counter table",
+   "standing electric sign"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "snooty",
+  "nom": {
+   "fr": "Tarina",
+   "en": "Snooty"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant06.png",
+  "demande": "Snooty's Indoor Swim Club",
+  "bulle": "I'd simply adore having my own swim club...",
+  "chanson": "Aloha K.K.",
+  "meubles": [
+   "pool",
+   "fan palm"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "soleil",
+  "nom": {
+   "fr": "Stella",
+   "en": "Soleil"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ham04.png",
+  "demande": "A Relaxing Summer Home",
+  "bulle": "I could use a summer home to properly relax in.",
+  "chanson": "K.K. Slack-Key",
+  "meubles": [
+   "hammock",
+   "birdbath"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sparro",
+  "nom": {
+   "fr": "Darius",
+   "en": "Sparro"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd18.png",
+  "demande": "A Gamer's Bunker",
+  "bulle": "I want my own arcade so I can go hard in video games!",
+  "chanson": "K.K. Song",
+  "meubles": [
+   "crane game",
+   "arcade fighting game",
+   "capsule-toy machine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "spike",
+  "nom": {
+   "fr": "Rhino",
+   "en": "Spike"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rhn02.png",
+  "demande": "Heart of the City",
+  "bulle": "I want a slice of that stylish, big-city life.",
+  "chanson": "K.K. Steppe",
+  "meubles": [
+   "shower booth",
+   "cool sofa",
+   "skateboard"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "spork",
+  "nom": {
+   "fr": "Justin",
+   "en": "Spork"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig05.png",
+  "demande": "Wee Library in the Fall Woods",
+  "bulle": "Reading a good book in an autumn forest sounds great!",
+  "chanson": "Forest Life",
+  "meubles": [
+   "wooden-block bookshelf",
+   "mush low stool",
+   "mush table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sprinkle",
+  "nom": {
+   "fr": "Laurie",
+   "en": "Sprinkle"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn14.png",
+  "demande": "Castle of Cold",
+  "bulle": "I'll melt if I'm not surrounded by snow and ice.",
+  "chanson": "K.K. Sonata",
+  "meubles": [
+   "frozen sculpture",
+   "frozen tree",
+   "frozen-drink machine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sprocket",
+  "nom": {
+   "fr": "Laflèche",
+   "en": "Sprocket"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ost03.png",
+  "demande": "The Robo Depot",
+  "bulle": "A factory that makes robots or mechs would be awesome!",
+  "chanson": "Rockin' K.K.",
+  "meubles": [
+   "robot arm",
+   "conveyor belt",
+   "tin robot"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "static",
+  "nom": {
+   "fr": "Électro",
+   "en": "Static"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ08.png",
+  "demande": "A Thrill-Seeker's Hideaway",
+  "bulle": "I want to experience thrills at home, like an adventurer.",
+  "chanson": "K.K. Mariachi",
+  "meubles": [
+   "mining car",
+   "gear apparatus",
+   "windmill"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "stella",
+  "nom": {
+   "fr": "Bigoudi",
+   "en": "Stella"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp03.png",
+  "demande": "My Pink Palace",
+  "bulle": "I love the color pink... I want it all around me!",
+  "chanson": "K.K. Waltz",
+  "meubles": [
+   "peacock chair",
+   "lily record player",
+   "flower bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sterling",
+  "nom": {
+   "fr": "Manfred",
+   "en": "Sterling"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pbr07.png",
+  "demande": "Sci-fi Sterling's Station",
+  "bulle": "I want my vacation home to have a sci-fi theme!",
+  "chanson": "K.K. Technopop",
+  "meubles": [
+   "spaceship control panel",
+   "crew member's seat",
+   "astronaut suit"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "stinky",
+  "nom": {
+   "fr": "Tupux",
+   "en": "Stinky"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat13.png",
+  "demande": "A Padded Ring for Romping",
+  "bulle": "I want an indoor wrestling ring so I can play rough!",
+  "chanson": "Agent K.K.",
+  "meubles": [
+   "red corner",
+   "blue corner",
+   "neutral corner"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "stitches",
+  "nom": {
+   "fr": "Miro",
+   "en": "Stitches"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr05.png",
+  "demande": "A Toy Box Full of Colors",
+  "bulle": "I want a colorful vacation home that's like a toy box!",
+  "chanson": "I Love You",
+  "meubles": [
+   "diner sofa",
+   "wooden-block table",
+   "toy box"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "stu",
+  "nom": {
+   "fr": "Beubeu",
+   "en": "Stu"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bul03.png",
+  "demande": "A Home with Woodsy Smells",
+  "bulle": "I just want my nose to be hugged by the smell of trees.",
+  "chanson": "K.K. Western",
+  "meubles": [
+   "log decorative shelves",
+   "firewood",
+   "owl clock"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sydney",
+  "nom": {
+   "fr": "Koaline",
+   "en": "Sydney"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal03.png",
+  "demande": "A Working-Vacation Home",
+  "bulle": "I've never worked in an office. I wonder what it's like.",
+  "chanson": "K.K. Fusion",
+  "meubles": [
+   "document stack",
+   "wooden waste bin",
+   "plant partition"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sylvana",
+  "nom": {
+   "fr": "Mounia",
+   "en": "Sylvana"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ14.png",
+  "demande": "Home of the Salad Life",
+  "bulle": "Oh, I'd love a home for cooking with fresh veggies.",
+  "chanson": "K.K. Hop",
+  "meubles": [
+   "ranch kitchen",
+   "cutting board",
+   "cooking tools"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "sylvia",
+  "nom": {
+   "fr": "Madsi",
+   "en": "Sylvia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr06.png",
+  "demande": "A Family-Friendly Pool",
+  "bulle": "If only my child and I could enjoy plenty of pool time...",
+  "chanson": "K.K. Ska",
+  "meubles": [
+   "high chair",
+   "plastic pool",
+   "garden faucet"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "t-bone",
+  "nom": {
+   "fr": "Steakos",
+   "en": "T-Bone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bul05.png",
+  "demande": "A Place That Stirs the Soul",
+  "bulle": "I want a home that'll set my soul on fire.",
+  "chanson": "K.K. Flamenco",
+  "meubles": [
+   "wood-burning stove",
+   "firewood",
+   "kettle bathtub"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tabby",
+  "nom": {
+   "fr": "Tigri",
+   "en": "Tabby"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat12.png",
+  "demande": "A Scary Old Hospital",
+  "bulle": "I want to contrast my cute vibe with a scary old hospital!",
+  "chanson": "K.K. Dirge",
+  "meubles": [
+   "skeleton",
+   "operating-room cart",
+   "hospital bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tad",
+  "nom": {
+   "fr": "Rénato",
+   "en": "Tad"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg09.png",
+  "demande": "Dreams of Strength Training",
+  "bulle": "I want to be able to do strength training whenever!",
+  "chanson": "K.K. March",
+  "meubles": [
+   "climbing wall",
+   "full-length mirror",
+   "electric kick scooter"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tammi",
+  "nom": {
+   "fr": "Lili",
+   "en": "Tammi"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk03.png",
+  "demande": "House of Free Refills",
+  "bulle": "I want a place where I'll never run out of my favorite drink.",
+  "chanson": "K.K. Break",
+  "meubles": [
+   "water cooler",
+   "espresso maker"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tammy",
+  "nom": {
+   "fr": "Vanessa",
+   "en": "Tammy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr17.png",
+  "demande": "My Piece of Pasta Paradise",
+  "bulle": "I wanna make my own pasta. That way, I'll never run out!",
+  "chanson": "Neapolitan",
+  "meubles": [
+   "spaghetti napolitan",
+   "cooking tools",
+   "kitchen stove"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tangy",
+  "nom": {
+   "fr": "Marine",
+   "en": "Tangy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat05.png",
+  "demande": "A Vivid Vivarium",
+  "bulle": "I want a place that's totes FILLED with vivid colors!",
+  "chanson": "K.K. Polka",
+  "meubles": [
+   "diner chair",
+   "rocket lamp",
+   "throwback race-car bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tank",
+  "nom": {
+   "fr": "Ben",
+   "en": "Tank"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rhn00.png",
+  "demande": "Tabletop-Game Grounds",
+  "bulle": "I want to invite friends to my place to play tabletop games!",
+  "chanson": "K.K. Groove",
+  "meubles": [
+   "bingo wheel",
+   "die",
+   "board game"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tasha",
+  "nom": {
+   "fr": "Nadeige",
+   "en": "Tasha"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/squ13.png",
+  "demande": "An Orange Space",
+  "bulle": "My home should have plenty of orange, just like my eyes.",
+  "chanson": "Drivin'",
+  "meubles": [
+   "cool sofa",
+   "orange end table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "teddy",
+  "nom": {
+   "fr": "Teddy",
+   "en": "Teddy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea00.png",
+  "demande": "Always on the Move",
+  "bulle": "Seeing a place packed up to move is kind of exciting!",
+  "chanson": "K.K. March",
+  "meubles": [
+   "cardboard box",
+   "pile of cardboard boxes",
+   "truck"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tex",
+  "nom": {
+   "fr": "Émilien",
+   "en": "Tex"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn12.png",
+  "demande": "Practice Studio for the Band",
+  "bulle": "I need a studio-style vacation home for band practice.",
+  "chanson": "K.K. Ballad",
+  "meubles": [
+   "effects rack",
+   "amp",
+   "mic stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tia",
+  "nom": {
+   "fr": "Fanny",
+   "en": "Tia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp10.png",
+  "demande": "A Perfect Tea-Party Palace",
+  "bulle": "I want to invite everyone over for a tea party.",
+  "chanson": "K.K. Fugue",
+  "meubles": [
+   "afternoon-tea set",
+   "fancy tea set",
+   "lily record player"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tiansheng",
+  "nom": {
+   "fr": "Tiansheng",
+   "en": "Tiansheng"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/mnk09.png",
+  "demande": "Peach Paradise",
+  "bulle": "I want my own utopia where I can eat peaches all the time!",
+  "chanson": "Imperial K.K.",
+  "meubles": [
+   "imperial partition",
+   "imperial chest",
+   "azumaya gazebo"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tiffany",
+  "nom": {
+   "fr": "Tiphaine",
+   "en": "Tiffany"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt07.png",
+  "demande": "Celeb Hideaway",
+  "bulle": "I want the stylish and elusive celebrity lifestyle...",
+  "chanson": "K.K. Moody",
+  "meubles": [
+   "whirlpool bath",
+   "elegant sofa",
+   "Capricorn ornament"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "timbra",
+  "nom": {
+   "fr": "Sélène",
+   "en": "Timbra"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp10.png",
+  "demande": "Star-Filled Sanctuary",
+  "bulle": "I want a place filled with stars so I can make lots of wishes...",
+  "chanson": "K.K. Soul",
+  "meubles": [
+   "nova light",
+   "telescope",
+   "crescent-moon chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tipper",
+  "nom": {
+   "fr": "Valé",
+   "en": "Tipper"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cow01.png",
+  "demande": "Tipper's Ranch",
+  "bulle": "I would enjoy a wide-open space. Perhaps my own ranch.",
+  "chanson": "K.K. Safari",
+  "meubles": [
+   "milk can",
+   "lawn mower",
+   "storefront"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "toby",
+  "nom": {
+   "fr": "Toby",
+   "en": "Toby"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/rbt20.png",
+  "demande": "A Peaceful Patio",
+  "bulle": "I just wanna sit in a hallway and gaze at my yard.",
+  "chanson": "King K.K.",
+  "meubles": [
+   "Kerokerokeroppi hallway",
+   "Kerokerokeroppi lantern"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tom",
+  "nom": {
+   "fr": "Tom",
+   "en": "Tom"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cat15.png",
+  "demande": "A Primal Boxing Ring",
+  "bulle": "I wanna be able to go totally wild in the boxing ring.",
+  "chanson": "K.K. Gumbo",
+  "meubles": [
+   "punching bag",
+   "speed bag"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "truffles",
+  "nom": {
+   "fr": "Trufa",
+   "en": "Truffles"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pig01.png",
+  "demande": "Quiz-Show Soundstage",
+  "bulle": "I wanna practice my trivia skills in a quiz show!",
+  "chanson": "K.K. Bashment",
+  "meubles": [
+   "game-show stand",
+   "colorful wheel",
+   "TV camera"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tucker",
+  "nom": {
+   "fr": "Barry",
+   "en": "Tucker"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/elp09.png",
+  "demande": "Armchair Archaeology Dig",
+  "bulle": "I need a home with the right vibe for studying archaeology.",
+  "chanson": "K.K. Oasis",
+  "meubles": [
+   "forbidden altar",
+   "ancient statue",
+   "stone arch"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tutu",
+  "nom": {
+   "fr": "Tutu",
+   "en": "Tutu"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea07.png",
+  "demande": "A Place to Literally Chill",
+  "bulle": "I love shaved ice, so I need someplace SUPER chill...",
+  "chanson": "K.K. Faire",
+  "meubles": [
+   "shaved-ice maker",
+   "windflower fan"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "twiggy",
+  "nom": {
+   "fr": "Titi",
+   "en": "Twiggy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/brd03.png",
+  "demande": "A Lively Party Space",
+  "bulle": "I want a vacation home where I can party with everyone!",
+  "chanson": "K.K. Parade",
+  "meubles": [
+   "box sofa",
+   "box corner sofa",
+   "karaoke system"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "tybalt",
+  "nom": {
+   "fr": "Jeff",
+   "en": "Tybalt"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/tig02.png",
+  "demande": "A Slugger's Dugout",
+  "bulle": "I want a place to enshrine a sweet bat collection!",
+  "chanson": "K.K. Parade",
+  "meubles": [
+   "baseball set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "ursala",
+  "nom": {
+   "fr": "Oursula",
+   "en": "Ursala"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bea08.png",
+  "demande": "A Flowery Bowery",
+  "bulle": "I just want to arrange flowers and share my love of them.",
+  "chanson": "K.K. Flamenco",
+  "meubles": [
+   "flower display case",
+   "flower stand",
+   "Casablanca lilies"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "velma",
+  "nom": {
+   "fr": "Véra",
+   "en": "Velma"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/goa06.png",
+  "demande": "Velma's Schoolhouse",
+  "bulle": "Having my own schoolhouse is a lifelong dream!",
+  "chanson": "Mr. K.K.",
+  "meubles": [
+   "lecture-hall desk",
+   "homework set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "vesta",
+  "nom": {
+   "fr": "Hélaine",
+   "en": "Vesta"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp00.png",
+  "demande": "Home with a Fireplace",
+  "bulle": "I want to create a warm family space with its own fireplace.",
+  "chanson": "Two Days Ago",
+  "meubles": [
+   "fireplace",
+   "rocking chair",
+   "old sewing machine"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "vic",
+  "nom": {
+   "fr": "Toto",
+   "en": "Vic"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/bul08.png",
+  "demande": "An Adventurer's Home Base",
+  "bulle": "I need a home base for my various adventures!",
+  "chanson": "Lucky K.K.",
+  "meubles": [
+   "double-edged sword",
+   "barrel",
+   "cave"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "victoria",
+  "nom": {
+   "fr": "Victoria",
+   "en": "Victoria"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs01.png",
+  "demande": "A Cute Cottage in Yellow",
+  "bulle": "I want a cute place filled with cute yellow things!",
+  "chanson": "K.K. Love Song",
+  "meubles": [
+   "dreamy bed",
+   "cute floor lamp",
+   "tulip surprise box"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "violet",
+  "nom": {
+   "fr": "Gaëlle",
+   "en": "Violet"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/gor07.png",
+  "demande": "Cozy Eatery",
+  "bulle": "I want my place to be like a friendly neighborhood eatery.",
+  "chanson": "Comrade K.K.",
+  "meubles": [
+   "refrigerator",
+   "open-frame kitchen",
+   "modern cash register"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "vivian",
+  "nom": {
+   "fr": "Viviane",
+   "en": "Vivian"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol08.png",
+  "demande": "A Gym to Dance It Out",
+  "bulle": "I need a place to work out to the rhythm of music.",
+  "chanson": "K.K. Rockabilly",
+  "meubles": [
+   "exercise bike",
+   "high-end stereo",
+   "rattan towel basket"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "vladimir",
+  "nom": {
+   "fr": "Vladimir",
+   "en": "Vladimir"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/cbr06.png",
+  "demande": "An Underground Lair",
+  "bulle": "Don't wanna be found. Need an underground lair.",
+  "chanson": "K.K. Marathon",
+  "meubles": [
+   "mining car",
+   "lantern",
+   "metal pot"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "wade",
+  "nom": {
+   "fr": "Miglou",
+   "en": "Wade"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/pgn09.png",
+  "demande": "House of Ticking Clocks",
+  "bulle": "I can't sleep without the ticktock sound of a clock...",
+  "chanson": "K.K. Ballad",
+  "meubles": [
+   "antique clock",
+   "wooden double bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "walker",
+  "nom": {
+   "fr": "George",
+   "en": "Walker"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/dog06.png",
+  "demande": "A Place to Show Off My Bike",
+  "bulle": "I want a place that shows off how cool bikes are!",
+  "chanson": "K.K. Country",
+  "meubles": [
+   "mountain bike"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "walt",
+  "nom": {
+   "fr": "Walt",
+   "en": "Walt"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kgr08.png",
+  "demande": "The Set of Historical Drama",
+  "bulle": "I wanna sip tea where they film those period dramas.",
+  "chanson": "K.K. Rally",
+  "meubles": [
+   "screen",
+   "tea table",
+   "sword"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "wart-jr",
+  "nom": {
+   "fr": "Crakos",
+   "en": "Wart Jr."
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/flg05.png",
+  "demande": "House of Bonsai",
+  "bulle": "I want a messy but beautiful place filled with bonsai.",
+  "chanson": "K.K. Jongara",
+  "meubles": [
+   "pine bonsai tree",
+   "imperial low table",
+   "bonsai shelf"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "weber",
+  "nom": {
+   "fr": "Bébert",
+   "en": "Weber"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/duk11.png",
+  "demande": "A Pro Musician's Pad",
+  "bulle": "I want a place to play my instruments like a pro.",
+  "chanson": "K.K. Jazz",
+  "meubles": [
+   "alto saxophone",
+   "upright piano",
+   "poster stand"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "wendy",
+  "nom": {
+   "fr": "Karen",
+   "en": "Wendy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp09.png",
+  "demande": "Warm Winter Den",
+  "bulle": "I wanna get my pals around the kotatsu for a party!",
+  "chanson": "K.K. Folk",
+  "meubles": [
+   "kotatsu",
+   "Japanese dresser",
+   "moss ball"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "whitney",
+  "nom": {
+   "fr": "Blanche",
+   "en": "Whitney"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol03.png",
+  "demande": "The Makeup Salon",
+  "bulle": "Well, what I'd love is to make everyone pretty with makeup.",
+  "chanson": "K.K. Lovers",
+  "meubles": [
+   "makeup pouch",
+   "nail-art set"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "willow",
+  "nom": {
+   "fr": "Maï",
+   "en": "Willow"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/shp07.png",
+  "demande": "Home for a Coffee Lover",
+  "bulle": "I want a home that's nice and calm as I relax with my coffee.",
+  "chanson": "Chillwave",
+  "meubles": [
+   "espresso maker",
+   "coffee cup",
+   "antique mini table"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "winnie",
+  "nom": {
+   "fr": "Anne",
+   "en": "Winnie"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/hrs05.png",
+  "demande": "A Stable of Stars",
+  "bulle": "I want to build a stable that raises super-fast horses!",
+  "chanson": "K.K. Country",
+  "meubles": [
+   "springy ride-on",
+   "wooden bucket",
+   "covered wagon"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "wolfgang",
+  "nom": {
+   "fr": "Wolfgang",
+   "en": "Wolfgang"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/wol02.png",
+  "demande": "Rock-and-Roll Arena",
+  "bulle": "I want an awesome space that screams rock and roll!",
+  "chanson": "Rockin' K.K.",
+  "meubles": [
+   "rock guitar",
+   "amp",
+   "stage lights"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "yuka",
+  "nom": {
+   "fr": "Calypso",
+   "en": "Yuka"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/kal00.png",
+  "demande": "My Forested Jungle",
+  "bulle": "I want to relax deep in a forested jungle...",
+  "chanson": "K.K. Dub",
+  "meubles": [
+   "fan palm",
+   "titan arum",
+   "peacock chair"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "zell",
+  "nom": {
+   "fr": "Régis",
+   "en": "Zell"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/der02.png",
+  "demande": "My Perfect Hotel",
+  "bulle": "I want to feel like I'm staying at a hotel, like, all the time.",
+  "chanson": "K.K. Cruisin'",
+  "meubles": [
+   "Taurus bathtub",
+   "elegant bed"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "zoe",
+  "nom": {
+   "fr": "Cléo",
+   "en": "Zoe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ant05.png",
+  "demande": "My Cute and Tropical Corner",
+  "bulle": "A cute, tropical chalet would be so me, wouldn't it?",
+  "chanson": "K.K. Slack-Key",
+  "meubles": [
+   "dreamy shelves",
+   "inflatable bird ring",
+   "palm-tree lamp"
+  ],
+  "ext": "hhp"
+ },
+ {
+  "id": "zucker",
+  "nom": {
+   "fr": "Marvin",
+   "en": "Zucker"
+  },
+  "image": "https://nh-cdn.catalogue.ac/NpcIcon/ocp02.png",
+  "demande": "Festival Grounds",
+  "bulle": "I want my own festival where I can hang out with my pals.",
+  "chanson": "Spring Blossoms",
+  "meubles": [
+   "cotton-candy stall",
+   "shaved-ice maker",
+   "pinball machine"
+  ],
+  "ext": "hhp"
+ }
+]

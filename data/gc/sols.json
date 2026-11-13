@@ -1,0 +1,1007 @@
+[
+ {
+  "id": "plush-carpet",
+  "nom": {
+   "fr": "Tapis somptueux",
+   "en": "Plush carpet"
+  },
+  "image": "https://dodo.ac/np/images/d/d1/Plush_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 540
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "classic-carpet",
+  "nom": {
+   "fr": "Tapis rustique",
+   "en": "Classic carpet"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Classic_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 575
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "checkered-tile",
+  "nom": {
+   "fr": "Carrelage damier",
+   "en": "Checkered tile"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Checkered_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 420
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "old-flooring",
+  "nom": {
+   "fr": "Parquet abîmé",
+   "en": "Old flooring"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Old_flooring_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "red-tile",
+  "nom": {
+   "fr": "Carrelage rouge",
+   "en": "Red tile"
+  },
+  "image": "https://dodo.ac/np/images/b/b1/Red_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 420
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "birch-flooring",
+  "nom": {
+   "fr": "Parquet bouleau",
+   "en": "Birch flooring"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Birch_flooring_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "classroom-floor",
+  "nom": {
+   "fr": "Marqueterie",
+   "en": "Classroom floor"
+  },
+  "image": "https://dodo.ac/np/images/f/f2/Classroom_floor_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "lovely-carpet",
+  "nom": {
+   "fr": "Tapis cæur",
+   "en": "Lovely carpet"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Lovely_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 495
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "exotic-rug",
+  "nom": {
+   "fr": "Tapis teck",
+   "en": "Exotic rug"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Exotic_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 455
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "mossy-carpet",
+  "nom": {
+   "fr": "Tapis moussu",
+   "en": "Mossy carpet"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Mossy_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "18-mat-tatami",
+  "nom": {
+   "fr": "Tatami 18 pièces",
+   "en": "18 mat tatami"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/18_mat_tatami_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 288
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "8-mat-tatami",
+  "nom": {
+   "fr": "Tatami 8 pièces",
+   "en": "8 mat tatami"
+  },
+  "image": "https://dodo.ac/np/images/7/79/8_mat_tatami_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "citrus-carpet",
+  "nom": {
+   "fr": "Tapis agrume",
+   "en": "Citrus carpet"
+  },
+  "image": "https://dodo.ac/np/images/1/15/Citrus_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 333
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "cabin-rug",
+  "nom": {
+   "fr": "Carpette chalet",
+   "en": "Cabin rug"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Cabin_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 385
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "closed-road",
+  "nom": {
+   "fr": "Route barrée",
+   "en": "Closed road"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Closed_road_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "lunar-surface",
+  "nom": {
+   "fr": "Sol lunaire",
+   "en": "Lunar surface"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Lunar_surface_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "sand-garden",
+  "nom": {
+   "fr": "Jardin zen",
+   "en": "Sand garden"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Sand_garden_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "spooky-carpet",
+  "nom": {
+   "fr": "Tapis halloween",
+   "en": "Spooky carpet"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Spooky_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Halloween (Jack)"
+  ]
+ },
+ {
+  "id": "western-desert",
+  "nom": {
+   "fr": "Désert far west",
+   "en": "Western desert"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Western_desert_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "green-rug",
+  "nom": {
+   "fr": "Carpette verte",
+   "en": "Green rug"
+  },
+  "image": "https://dodo.ac/np/images/a/ac/Green_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 385
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "blue-flooring",
+  "nom": {
+   "fr": "Moquette bleue",
+   "en": "Blue flooring"
+  },
+  "image": "https://dodo.ac/np/images/4/49/Blue_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 395
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "regal-carpet",
+  "nom": {
+   "fr": "Tapis majestueux",
+   "en": "Regal carpet"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Regal_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 713
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "ranch-flooring",
+  "nom": {
+   "fr": "Parquet ranch",
+   "en": "Ranch flooring"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Ranch_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 438
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "modern-tile",
+  "nom": {
+   "fr": "Sol moderne",
+   "en": "Modern tile"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/Modern_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 385
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "cabana-flooring",
+  "nom": {
+   "fr": "Sol rotin",
+   "en": "Cabana flooring"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Cabana_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 420
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "snowman-carpet",
+  "nom": {
+   "fr": "Tapis Yétiti",
+   "en": "Snowman carpet"
+  },
+  "image": "https://dodo.ac/np/images/5/51/Snowman_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "backyard-lawn",
+  "nom": {
+   "fr": "Gazon patio",
+   "en": "Backyard lawn"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Backyard_lawn_PG_Texture.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "music-room-floor",
+  "nom": {
+   "fr": "Sol studio",
+   "en": "Music room floor"
+  },
+  "image": "https://dodo.ac/np/images/3/34/Music_room_floor_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "plaza-tile",
+  "nom": {
+   "fr": "Carrelage plaza",
+   "en": "Plaza tile"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Plaza_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 545
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "kitchen-tile",
+  "nom": {
+   "fr": "Lino cuisine",
+   "en": "Kitchen tile"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Kitchen_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 473
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "ornate-rug",
+  "nom": {
+   "fr": "Carpette décorée",
+   "en": "Ornate rug"
+  },
+  "image": "https://dodo.ac/np/images/7/7e/Ornate_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 525
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "tatami-floor",
+  "nom": {
+   "fr": "Tatami",
+   "en": "Tatami floor"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Tatami_floor_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 335
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "bamboo-flooring",
+  "nom": {
+   "fr": "Sol en bambou",
+   "en": "Bamboo flooring"
+  },
+  "image": "https://dodo.ac/np/images/f/f8/Bamboo_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 340
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "kitchen-flooring",
+  "nom": {
+   "fr": "Sol de cuisine",
+   "en": "Kitchen flooring"
+  },
+  "image": "https://dodo.ac/np/images/9/97/Kitchen_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 308
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "charcoal-tile",
+  "nom": {
+   "fr": "Lino gris",
+   "en": "Charcoal tile"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Charcoal_tile_PG_Texture.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "stone-tile",
+  "nom": {
+   "fr": "Sol pavé",
+   "en": "Stone tile"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Stone_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 688
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "imperial-tile",
+  "nom": {
+   "fr": "Sol chinois",
+   "en": "Imperial tile"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Imperial_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 745
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "opulent-rug",
+  "nom": {
+   "fr": "Carpette manoir",
+   "en": "Opulent rug"
+  },
+  "image": "https://dodo.ac/np/images/3/3b/Opulent_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 308
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "slate-flooring",
+  "nom": {
+   "fr": "Sol ardoises",
+   "en": "Slate flooring"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Slate_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 345
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "ceramic-tile",
+  "nom": {
+   "fr": "Céramique",
+   "en": "Ceramic tile"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Ceramic_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 348
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "fancy-carpet",
+  "nom": {
+   "fr": "Tapis rigolo",
+   "en": "Fancy carpet"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Fancy_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 745
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "cowhide-rug",
+  "nom": {
+   "fr": "Peau de vache",
+   "en": "Cowhide rug"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Cowhide_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 385
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "steel-flooring",
+  "nom": {
+   "fr": "Sol en acier",
+   "en": "Steel flooring"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Steel_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 370
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Starting Item / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "office-flooring",
+  "nom": {
+   "fr": "Revêtement pro",
+   "en": "Office flooring"
+  },
+  "image": "https://dodo.ac/np/images/7/79/Office_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "ancient-tile",
+  "nom": {
+   "fr": "Carrelage ancien",
+   "en": "Ancient tile"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Ancient_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "exquisite-rug",
+  "nom": {
+   "fr": "Tapis magnifique",
+   "en": "Exquisite rug"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Exquisite_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 490
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "sandlot",
+  "nom": {
+   "fr": "Sable",
+   "en": "Sandlot"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Sandlot_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "jingle-carpet",
+  "nom": {
+   "fr": "Tapis festif",
+   "en": "Jingle carpet"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Jingle_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Jingle"
+  ]
+ },
+ {
+  "id": "daisy-meadow",
+  "nom": {
+   "fr": "Sol pâquerettes",
+   "en": "Daisy meadow"
+  },
+  "image": "https://dodo.ac/np/images/7/71/Daisy_meadow_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "sidewalk",
+  "nom": {
+   "fr": "Trottoir",
+   "en": "Sidewalk"
+  },
+  "image": "https://dodo.ac/np/images/e/e6/Sidewalk_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "mosaic-tile",
+  "nom": {
+   "fr": "Mosaïque",
+   "en": "Mosaic tile"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/Mosaic_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 575
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "parquet-floor",
+  "nom": {
+   "fr": "Parquet ouvragé",
+   "en": "Parquet floor"
+  },
+  "image": "https://dodo.ac/np/images/0/0d/Parquet_floor_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 588
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "basement-floor",
+  "nom": {
+   "fr": "Sol de cave",
+   "en": "Basement floor"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Basement_floor_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "chessboard-rug",
+  "nom": {
+   "fr": "Tapis échiquier",
+   "en": "Chessboard rug"
+  },
+  "image": "https://dodo.ac/np/images/5/58/Chessboard_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "kiddie-carpet",
+  "nom": {
+   "fr": "Tapis d'enfant",
+   "en": "Kiddie carpet"
+  },
+  "image": "https://dodo.ac/np/images/6/6b/Kiddie_carpet_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 408
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "shanty-mat",
+  "nom": {
+   "fr": "Tapis de paille",
+   "en": "Shanty mat"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/Shanty_mat_PG_Texture.png",
+  "prix": {
+   "achat": 720,
+   "vente": 180
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "concrete-floor",
+  "nom": {
+   "fr": "Sol en ciment",
+   "en": "Concrete floor"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Concrete_floor_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "saharahs-desert",
+  "nom": {
+   "fr": "Désert",
+   "en": "Saharah's desert"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Saharah's_desert_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "tartan-rug",
+  "nom": {
+   "fr": "Tapis en tartan",
+   "en": "Tartan rug"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Tartan_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 455
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "palace-tile",
+  "nom": {
+   "fr": "Dallage palais",
+   "en": "Palace tile"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Palace_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "tropical-floor",
+  "nom": {
+   "fr": "Sol tropical",
+   "en": "Tropical floor"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Tropical_floor_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "playroom-rug",
+  "nom": {
+   "fr": "Tapis de jeu",
+   "en": "Playroom rug"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Playroom_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 340
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "kitschy-tile",
+  "nom": {
+   "fr": "Carrelage kitsch",
+   "en": "Kitschy tile"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Kitschy_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 320
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "diner-tile",
+  "nom": {
+   "fr": "Carrelage damier",
+   "en": "Diner tile"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Diner_tile_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 325
+  },
+  "sources": [
+   "Nook / Booker (Common) / Campers / Wisp / One Day Sale / Sale Day / Animal Island (GBA)"
+  ]
+ },
+ {
+  "id": "block-flooring",
+  "nom": {
+   "fr": "Revêtement blocs",
+   "en": "Block flooring"
+  },
+  "image": "https://dodo.ac/np/images/f/f8/Block_flooring_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "Secret Code"
+  ]
+ },
+ {
+  "id": "boxing-ring-mat",
+  "nom": {
+   "fr": "Tapis de ring",
+   "en": "Boxing ring mat"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Boxing_ring_mat_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Saharah / Wisp"
+  ]
+ },
+ {
+  "id": "harvest-rug",
+  "nom": {
+   "fr": "Carpette vigne",
+   "en": "Harvest rug"
+  },
+  "image": "https://dodo.ac/np/images/2/20/Harvest_rug_PG_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Harvest Festival"
+  ]
+ }
+]

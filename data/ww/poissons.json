@@ -1,0 +1,2391 @@
+[
+ {
+  "id": "bitterling",
+  "nom": {
+   "fr": "Bouvière",
+   "en": "Bitterling"
+  },
+  "n": 1,
+  "image": "https://dodo.ac/np/images/9/98/Bitterling_CF_Model.png",
+  "espece": "bitterling",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 700,
+   "vente_na": 900
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "pale-chub",
+  "nom": {
+   "fr": "Chevaine",
+   "en": "Pale chub"
+  },
+  "n": 2,
+  "image": "https://dodo.ac/np/images/5/53/Pale_Chub_CF_Model.png",
+  "espece": "pale-chub",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "vente_na": 200
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "crucian-carp",
+  "nom": {
+   "fr": "Carassin",
+   "en": "Crucian carp"
+  },
+  "n": 3,
+  "image": "https://dodo.ac/np/images/4/40/Crucian_Carp_CF_Model.png",
+  "espece": "crucian-carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120,
+   "vente_na": 120
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "dace",
+  "nom": {
+   "fr": "Vandoise",
+   "en": "Dace"
+  },
+  "n": 4,
+  "image": "https://dodo.ac/np/images/8/86/Dace_CF_Model.png",
+  "espece": "dace",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "vente_na": 200
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "barbel-steed",
+  "nom": {
+   "fr": "Barbeau",
+   "en": "Barbel steed"
+  },
+  "n": 5,
+  "image": "https://dodo.ac/np/images/8/83/Barbel_Steed_CF_Model.png",
+  "espece": "barbel-steed",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "vente_na": 200
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "carp",
+  "nom": {
+   "fr": "Carpe",
+   "en": "Carp"
+  },
+  "n": 6,
+  "image": "https://dodo.ac/np/images/2/22/Carp_CF_Model.png",
+  "espece": "carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "vente_na": 300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "koi",
+  "nom": {
+   "fr": "Carpe koï",
+   "en": "Koi"
+  },
+  "n": 7,
+  "image": "https://dodo.ac/np/images/f/ff/Koi_CF_Model.png",
+  "espece": "koi",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000,
+   "vente_na": 2000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "goldfish",
+  "nom": {
+   "fr": "Poisson rouge",
+   "en": "Goldfish"
+  },
+  "n": 8,
+  "image": "https://dodo.ac/np/images/e/e8/Goldfish_CF_Model.png",
+  "espece": "goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300,
+   "vente_na": 1300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "popeyed-goldfish",
+  "nom": {
+   "fr": "Cyprin doré",
+   "en": "Popeyed goldfish"
+  },
+  "n": 9,
+  "image": "https://dodo.ac/np/images/3/3f/Popeyed_Goldfish_CF_Model.png",
+  "espece": "popeyed-goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300,
+   "vente_na": 1300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "killifish",
+  "nom": {
+   "fr": "Fondule barré",
+   "en": "Killifish"
+  },
+  "n": 10,
+  "image": "https://dodo.ac/np/images/3/37/Killifish_CF_Model.png",
+  "espece": "killifish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "vente_na": 300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "crawfish",
+  "nom": {
+   "fr": "Écrevisse",
+   "en": "Crawfish"
+  },
+  "n": 11,
+  "image": "https://dodo.ac/np/images/9/92/Crawfish_CF_Model.png",
+  "espece": "crawfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250,
+   "vente_na": 200
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "frog",
+  "nom": {
+   "fr": "Grenouille",
+   "en": "Frog"
+  },
+  "n": 12,
+  "image": "https://dodo.ac/np/images/9/90/Frog_CF_Model.png",
+  "espece": "frog",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250,
+   "vente_na": 120
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "freshwater-goby",
+  "nom": {
+   "fr": "Gobie",
+   "en": "Freshwater goby"
+  },
+  "n": 13,
+  "image": "https://dodo.ac/np/images/4/49/Freshwater_Goby_CF_Model.png",
+  "espece": "freshwater-goby",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "vente_na": 300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "loach",
+  "nom": {
+   "fr": "Loche d'étang",
+   "en": "Loach"
+  },
+  "n": 14,
+  "image": "https://dodo.ac/np/images/9/91/Loach_CF_Model.png",
+  "espece": "loach",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "vente_na": 300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "catfish",
+  "nom": {
+   "fr": "Silure",
+   "en": "Catfish"
+  },
+  "n": 15,
+  "image": "https://dodo.ac/np/images/7/70/Catfish_CF_Model.png",
+  "espece": "catfish",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "vente_na": 800
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "eel",
+  "nom": {
+   "fr": "Anguille",
+   "en": "Eel"
+  },
+  "n": 16,
+  "image": "https://dodo.ac/np/images/c/c3/Eel_CF_Model.png",
+  "espece": "eel",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "longue",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000,
+   "vente_na": 2000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "giant-snakehead",
+  "nom": {
+   "fr": "Gobie géant",
+   "en": "Giant snakehead"
+  },
+  "n": 17,
+  "image": "https://dodo.ac/np/images/2/28/Giant_Snakehead_CF_Model.png",
+  "espece": "giant-snakehead",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5500,
+   "vente_na": 5500
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "bluegill",
+  "nom": {
+   "fr": "Crapet",
+   "en": "Bluegill"
+  },
+  "n": 18,
+  "image": "https://dodo.ac/np/images/2/25/Bluegill_CF_Model.png",
+  "espece": "bluegill",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120,
+   "vente_na": 120
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "yellow-perch",
+  "nom": {
+   "fr": "Perche jaune",
+   "en": "Yellow perch"
+  },
+  "n": 19,
+  "image": "https://dodo.ac/np/images/4/47/Yellow_Perch_CF_Model.png",
+  "espece": "yellow-perch",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 240,
+   "vente_na": 240
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "black-bass",
+  "nom": {
+   "fr": "Bar",
+   "en": "Black bass"
+  },
+  "n": 20,
+  "image": "https://dodo.ac/np/images/7/7c/Black_Bass_CF_Model.png",
+  "espece": "black-bass",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "vente_na": 300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "pond-smelt",
+  "nom": {
+   "fr": "Éperlan",
+   "en": "Pond smelt"
+  },
+  "n": 21,
+  "image": "https://dodo.ac/np/images/6/62/Pond_Smelt_CF_Model.png",
+  "espece": "pond-smelt",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "vente_na": 300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "sweetfish",
+  "nom": {
+   "fr": "Ayu",
+   "en": "Sweetfish"
+  },
+  "n": 22,
+  "image": "https://dodo.ac/np/images/0/0a/Sweetfish_CF_Model.png",
+  "espece": "sweetfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      15
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 900,
+   "vente_na": 900
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "cherry-salmon",
+  "nom": {
+   "fr": "Saumon rose",
+   "en": "Cherry salmon"
+  },
+  "n": 23,
+  "image": "https://dodo.ac/np/images/c/cd/Cherry_Salmon_CF_Model.png",
+  "espece": "cherry-salmon",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300,
+   "vente_na": 1000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "char",
+  "nom": {
+   "fr": "Omble",
+   "en": "Char"
+  },
+  "n": 24,
+  "image": "https://dodo.ac/np/images/7/71/Char_CF_Model.png",
+  "espece": "char",
+  "lieu": "cascade",
+  "lieu_texte": "Cascade",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3800,
+   "vente_na": 3800
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "rainbow-trout",
+  "nom": {
+   "fr": "Truite",
+   "en": "Rainbow trout"
+  },
+  "n": 25,
+  "image": "https://dodo.ac/np/images/9/93/Rainbow_Trout_CF_Model.png",
+  "espece": "rainbow-trout",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650,
+   "vente_na": 800
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "stringfish",
+  "nom": {
+   "fr": "Dai yu",
+   "en": "Stringfish"
+  },
+  "n": 26,
+  "image": "https://dodo.ac/np/images/2/2f/Stringfish_CF_Model.png",
+  "espece": "stringfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "vente_na": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "salmon",
+  "nom": {
+   "fr": "Saumon",
+   "en": "Salmon"
+  },
+  "n": 27,
+  "image": "https://dodo.ac/np/images/7/77/Salmon_CF_Model.png",
+  "espece": "salmon",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650,
+   "vente_na": 700
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "king-salmon",
+  "nom": {
+   "fr": "Saumon roi",
+   "en": "King salmon"
+  },
+  "n": 28,
+  "image": "https://dodo.ac/np/images/e/e6/King_Salmon_CF_Model.png",
+  "espece": "king-salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800,
+   "vente_na": 1800
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "guppy",
+  "nom": {
+   "fr": "Guppy",
+   "en": "Guppy"
+  },
+  "n": 29,
+  "image": "https://dodo.ac/np/images/f/f1/Guppy_CF_Model.png",
+  "espece": "guppy",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300,
+   "vente_na": 1300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "angelfish",
+  "nom": {
+   "fr": "Poisson ange",
+   "en": "Angelfish"
+  },
+  "n": 30,
+  "image": "https://dodo.ac/np/images/3/31/Angelfish_CF_Model.png",
+  "espece": "angelfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "vente_na": 3000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "piranha",
+  "nom": {
+   "fr": "Piranha",
+   "en": "Piranha"
+  },
+  "n": 31,
+  "image": "https://dodo.ac/np/images/0/02/Piranha_CF_Model.png",
+  "espece": "piranha",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ],
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3200,
+   "vente_na": 2500
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "arowana",
+  "nom": {
+   "fr": "Arowana",
+   "en": "Arowana"
+  },
+  "n": 32,
+  "image": "https://dodo.ac/np/images/e/e2/Arowana_CF_Model.png",
+  "espece": "arowana",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "vente_na": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "dorado",
+  "nom": {
+   "fr": "Dorade",
+   "en": "Dorado"
+  },
+  "n": 33,
+  "image": "https://dodo.ac/np/images/d/d7/Dorado_CF_Model.png",
+  "espece": "dorado",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "vente_na": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "gar",
+  "nom": {
+   "fr": "Gar",
+   "en": "Gar"
+  },
+  "n": 34,
+  "image": "https://dodo.ac/np/images/2/26/Gar_CF_Model.png",
+  "espece": "gar",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000,
+   "vente_na": 6000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "arapaima",
+  "nom": {
+   "fr": "Arapaïma",
+   "en": "Arapaima"
+  },
+  "n": 35,
+  "image": "https://dodo.ac/np/images/e/eb/Arapaima_CF_Model.png",
+  "espece": "arapaima",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "vente_na": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "sea-butterfly",
+  "nom": {
+   "fr": "Clione",
+   "en": "Sea butterfly"
+  },
+  "n": 36,
+  "image": "https://dodo.ac/np/images/d/d2/Sea_Butterfly_CF_Model.png",
+  "espece": "sea-butterfly",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "vente_na": 1000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "jellyfish",
+  "nom": {
+   "fr": "Méduse",
+   "en": "Jellyfish"
+  },
+  "n": 37,
+  "image": "https://dodo.ac/np/images/c/cc/Jellyfish_CF_Model.png",
+  "espece": "jellyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      16,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100,
+   "vente_na": 100
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "seahorse",
+  "nom": {
+   "fr": "Hippocampe",
+   "en": "Seahorse"
+  },
+  "n": 38,
+  "image": "https://dodo.ac/np/images/c/c4/Seahorse_WW_Sprite.png",
+  "espece": "seahorse",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1500,
+   "vente_na": 1100
+  },
+  "musee": true
+ },
+ {
+  "id": "clownfish",
+  "nom": {
+   "fr": "Poisson clown",
+   "en": "Clownfish"
+  },
+  "n": 39,
+  "image": "https://dodo.ac/np/images/6/60/Clownfish_CF_Model.png",
+  "espece": "clownfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650,
+   "vente_na": 650
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "zebra-turkeyfish",
+  "nom": {
+   "fr": "Poisson scorpion",
+   "en": "Zebra turkeyfish"
+  },
+  "n": 40,
+  "image": "https://dodo.ac/np/images/3/3a/Zebra_Turkeyfish_CF_Model.png",
+  "espece": "zebra-turkeyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "vente_na": 400
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "puffer-fish",
+  "nom": {
+   "fr": "Poisson-lune",
+   "en": "Puffer fish"
+  },
+  "n": 41,
+  "image": "https://dodo.ac/np/images/d/d3/Puffer_Fish_CF_Model.png",
+  "espece": "puffer-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "vente_na": 240
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "horse-mackerel",
+  "nom": {
+   "fr": "Chinchard",
+   "en": "Horse mackerel"
+  },
+  "n": 42,
+  "image": "https://dodo.ac/np/images/a/a9/Horse_Mackerel_CF_Model.png",
+  "espece": "horse-mackerel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120,
+   "vente_na": 150
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "barred-knifejaw",
+  "nom": {
+   "fr": "Scarus",
+   "en": "Barred knifejaw"
+  },
+  "n": 43,
+  "image": "https://dodo.ac/np/images/b/bf/Barred_Knifejaw_CF_Model.png",
+  "espece": "barred-knifejaw",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000,
+   "vente_na": 5000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "sea-bass",
+  "nom": {
+   "fr": "Bar commun",
+   "en": "Sea bass"
+  },
+  "n": 44,
+  "image": "https://dodo.ac/np/images/4/4a/Sea_Bass_CF_Model.png",
+  "espece": "sea-bass",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 140,
+   "vente_na": 160
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "red-snapper",
+  "nom": {
+   "fr": "Vivaneau",
+   "en": "Red snapper"
+  },
+  "n": 45,
+  "image": "https://dodo.ac/np/images/8/84/Red_Snapper_CF_Model.png",
+  "espece": "red-snapper",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "vente_na": 3000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "dab",
+  "nom": {
+   "fr": "Limande",
+   "en": "Dab"
+  },
+  "n": 46,
+  "image": "https://dodo.ac/np/images/c/c8/Dab_CF_Model.png",
+  "espece": "dab",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "vente_na": 300
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "olive-flounder",
+  "nom": {
+   "fr": "Cardeau",
+   "en": "Olive flounder"
+  },
+  "n": 47,
+  "image": "https://dodo.ac/np/images/0/00/Olive_Flounder_CF_Model.png",
+  "espece": "olive-flounder",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "vente_na": 800
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "squid",
+  "nom": {
+   "fr": "Calmar",
+   "en": "Squid"
+  },
+  "n": 48,
+  "image": "https://dodo.ac/np/images/b/b4/Squid_CF_Model.png",
+  "espece": "squid",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "vente_na": 400
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "octopus",
+  "nom": {
+   "fr": "Poulpe",
+   "en": "Octopus"
+  },
+  "n": 49,
+  "image": "https://dodo.ac/np/images/4/4e/Octopus_CF_Model.png",
+  "espece": "octopus",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 450,
+   "vente_na": 500
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "football-fish",
+  "nom": {
+   "fr": "Poisson lanterne",
+   "en": "Football fish"
+  },
+  "n": 50,
+  "image": "https://dodo.ac/np/images/5/5c/Football_Fish_CF_Model.png",
+  "espece": "football-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3500,
+   "vente_na": 2500
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "tuna",
+  "nom": {
+   "fr": "Thon",
+   "en": "Tuna"
+  },
+  "n": 51,
+  "image": "https://dodo.ac/np/images/d/df/Tuna_CF_Model.png",
+  "espece": "tuna",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 7000,
+   "vente_na": 7000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "blue-marlin",
+  "nom": {
+   "fr": "Marlin bleu",
+   "en": "Blue marlin"
+  },
+  "n": 52,
+  "image": "https://dodo.ac/np/images/a/a3/Blue_Marlin_CF_Model.png",
+  "espece": "blue-marlin",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "vente_na": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "ocean-sunfish",
+  "nom": {
+   "fr": "Lune de mer",
+   "en": "Ocean sunfish"
+  },
+  "n": 53,
+  "image": "https://dodo.ac/np/images/7/73/Ocean_Sunfish_CF_Model.png",
+  "espece": "ocean-sunfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000,
+   "vente_na": 4000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "hammerhead-shark",
+  "nom": {
+   "fr": "Requin marteau",
+   "en": "Hammerhead shark"
+  },
+  "n": 54,
+  "image": "https://dodo.ac/np/images/f/f7/Hammerhead_Shark_CF_Model.png",
+  "espece": "hammerhead-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000,
+   "vente_na": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "shark",
+  "nom": {
+   "fr": "Requin",
+   "en": "Shark"
+  },
+  "n": 55,
+  "image": "https://dodo.ac/np/images/f/f9/Shark_CF_Model.png",
+  "espece": "shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "vente_na": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ },
+ {
+  "id": "coelacanth",
+  "nom": {
+   "fr": "Cœlacanthe",
+   "en": "Coelacanth"
+  },
+  "n": 56,
+  "image": "https://dodo.ac/np/images/d/de/Coelacanth_CF_Model.png",
+  "espece": "coelacanth",
+  "lieu": "mer-quand-il-pleut-ou-neige",
+  "lieu_texte": "Mer (quand il pleut ou neige)",
+  "ombre": "5",
+  "conditions": [
+   "pluie-neige"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "vente_na": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Image : modèle 3D de Let's Go to the City (Wild World n'a que de petites icônes)."
+  ]
+ }
+]

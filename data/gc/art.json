@@ -1,0 +1,399 @@
+[
+ {
+  "id": "basic-painting",
+  "nom": {
+   "fr": "Monet",
+   "en": "Basic painting"
+  },
+  "image": "https://dodo.ac/np/images/9/98/Basic_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "amazing-painting",
+  "nom": {
+   "fr": "Seurat",
+   "en": "Amazing painting"
+  },
+  "image": "https://dodo.ac/np/images/d/d5/Amazing_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "classic-painting",
+  "nom": {
+   "fr": "Manet",
+   "en": "Classic painting"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Classic_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "common-painting",
+  "nom": {
+   "fr": "Millet",
+   "en": "Common painting"
+  },
+  "image": "https://dodo.ac/np/images/a/a2/Common_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "dainty-painting",
+  "nom": {
+   "fr": "Degas",
+   "en": "Dainty painting"
+  },
+  "image": "https://dodo.ac/np/images/1/1d/Dainty_Painting_PG_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "famous-painting",
+  "nom": {
+   "fr": "De Vinci",
+   "en": "Famous painting"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Famous_Painting_PG_Model.png",
+  "prix": {
+   "achat": 3920,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "fine-painting",
+  "nom": {
+   "fr": "Gauguin",
+   "en": "Fine painting"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Fine_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "flowery-painting",
+  "nom": {
+   "fr": "Van Gogh",
+   "en": "Flowery painting"
+  },
+  "image": "https://dodo.ac/np/images/3/3d/Flowery_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "moving-painting",
+  "nom": {
+   "fr": "Boticelli",
+   "en": "Moving painting"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Moving_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "perfect-painting",
+  "nom": {
+   "fr": "Cézanne",
+   "en": "Perfect painting"
+  },
+  "image": "https://dodo.ac/np/images/a/a9/Perfect_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "quaint-painting",
+  "nom": {
+   "fr": "Vermeer",
+   "en": "Quaint painting"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Quaint_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "rare-painting",
+  "nom": {
+   "fr": "Klimt",
+   "en": "Rare painting"
+  },
+  "image": "https://dodo.ac/np/images/1/17/Rare_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "scary-painting",
+  "nom": {
+   "fr": "Renoir",
+   "en": "Scary painting"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Scary_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "strange-painting",
+  "nom": {
+   "fr": "Toulouse-Lautrec",
+   "en": "Strange painting"
+  },
+  "image": "https://dodo.ac/np/images/7/7e/Strange_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ },
+ {
+  "id": "worthy-painting",
+  "nom": {
+   "fr": "Delacroix",
+   "en": "Worthy painting"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Worthy_Painting_PG_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": null,
+   "indiscernable": true
+  },
+  "notes": [
+   "Dans ce jeu, Rounard vend des œuvres qui peuvent être vraies ou fausses au hasard, et rien ne permet de les distinguer à l'œil : on ne le découvre qu'en la proposant au musée."
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ],
+  "musee": true
+ }
+]

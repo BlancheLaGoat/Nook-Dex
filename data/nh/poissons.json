@@ -1,0 +1,4982 @@
+[
+ {
+  "id": "anchovy",
+  "nom": {
+   "fr": "Anchois",
+   "en": "Anchovy"
+  },
+  "n": 56,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish81.png",
+  "espece": "anchovy",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "angelfish",
+  "nom": {
+   "fr": "Poisson-ange",
+   "en": "Angelfish"
+  },
+  "n": 36,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish30.png",
+  "espece": "angelfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "arapaima",
+  "nom": {
+   "fr": "Arapaïma",
+   "en": "Arapaima"
+  },
+  "n": 44,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish36.png",
+  "espece": "arapaima",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "special": {
+    "prix": 15000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "arowana",
+  "nom": {
+   "fr": "Arowana",
+   "en": "Arowana"
+  },
+  "n": 41,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish33.png",
+  "espece": "arowana",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "special": {
+    "prix": 15000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "barred-knifejaw",
+  "nom": {
+   "fr": "Ishidai",
+   "en": "Barred knifejaw"
+  },
+  "n": 58,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish47.png",
+  "espece": "barred-knifejaw",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000,
+   "special": {
+    "prix": 7500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "barreleye",
+  "nom": {
+   "fr": "Macropinna",
+   "en": "Barreleye"
+  },
+  "n": 79,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish84.png",
+  "espece": "barreleye",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "special": {
+    "prix": 22500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "betta",
+  "nom": {
+   "fr": "Combattant",
+   "en": "Betta"
+  },
+  "n": 37,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish77.png",
+  "espece": "betta",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500,
+   "special": {
+    "prix": 3750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "bitterling",
+  "nom": {
+   "fr": "Bouvière",
+   "en": "Bitterling"
+  },
+  "n": 1,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish0.png",
+  "espece": "bitterling",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 900,
+   "special": {
+    "prix": 1350,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "black-bass",
+  "nom": {
+   "fr": "Bar",
+   "en": "Black bass"
+  },
+  "n": 22,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish19.png",
+  "espece": "black-bass",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "special": {
+    "prix": 600,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "blowfish",
+  "nom": {
+   "fr": "Poisson-ballon",
+   "en": "Blowfish"
+  },
+  "n": 54,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish73.png",
+  "espece": "blowfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000,
+   "special": {
+    "prix": 7500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "blue-marlin",
+  "nom": {
+   "fr": "Marlin bleu",
+   "en": "Blue marlin"
+  },
+  "n": 67,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish58.png",
+  "espece": "blue-marlin",
+  "lieu": "ponton",
+  "lieu_texte": "Ponton",
+  "ombre": "6",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "special": {
+    "prix": 15000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "bluegill",
+  "nom": {
+   "fr": "Crapet",
+   "en": "Bluegill"
+  },
+  "n": 20,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish17.png",
+  "espece": "bluegill",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 180,
+   "special": {
+    "prix": 270,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "butterfly-fish",
+  "nom": {
+   "fr": "Poisson-papillon",
+   "en": "Butterfly fish"
+  },
+  "n": 51,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish42.png",
+  "espece": "butterfly-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "carp",
+  "nom": {
+   "fr": "Carpe",
+   "en": "Carp"
+  },
+  "n": 5,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish5.png",
+  "espece": "carp",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "4",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "catfish",
+  "nom": {
+   "fr": "Silure",
+   "en": "Catfish"
+  },
+  "n": 18,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish14.png",
+  "espece": "catfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "4",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "special": {
+    "prix": 1200,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "char",
+  "nom": {
+   "fr": "Omble",
+   "en": "Char"
+  },
+  "n": 28,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish24.png",
+  "espece": "char",
+  "lieu": "riviere-falaise",
+  "lieu_texte": "Rivière (en hauteur)",
+  "ombre": "3",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3800,
+   "special": {
+    "prix": 5700,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "cherry-salmon",
+  "nom": {
+   "fr": "Saumon masou",
+   "en": "Cherry salmon"
+  },
+  "n": 27,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish23.png",
+  "espece": "cherry-salmon",
+  "lieu": "riviere-falaise",
+  "lieu_texte": "Rivière (en hauteur)",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "clown-fish",
+  "nom": {
+   "fr": "Poisson-clown",
+   "en": "Clown fish"
+  },
+  "n": 49,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish40.png",
+  "espece": "clown-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650,
+   "special": {
+    "prix": 975,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "coelacanth",
+  "nom": {
+   "fr": "Cœlacanthe",
+   "en": "Coelacanth"
+  },
+  "n": 80,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish63.png",
+  "espece": "coelacanth",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "conditions": [
+   "pluie-neige",
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "special": {
+    "prix": 22500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "crawfish",
+  "nom": {
+   "fr": "Écrevisse",
+   "en": "Crawfish"
+  },
+  "n": 11,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish10.png",
+  "espece": "crawfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "crucian-carp",
+  "nom": {
+   "fr": "Carassin",
+   "en": "Crucian carp"
+  },
+  "n": 3,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish2.png",
+  "espece": "crucian-carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160,
+   "special": {
+    "prix": 240,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "dab",
+  "nom": {
+   "fr": "Limande",
+   "en": "Dab"
+  },
+  "n": 61,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish50.png",
+  "espece": "dab",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "dace",
+  "nom": {
+   "fr": "Vandoise",
+   "en": "Dace"
+  },
+  "n": 4,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish3.png",
+  "espece": "dace",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 240,
+   "special": {
+    "prix": 360,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "dorado",
+  "nom": {
+   "fr": "Dorado",
+   "en": "Dorado"
+  },
+  "n": 42,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish34.png",
+  "espece": "dorado",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "5",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "special": {
+    "prix": 22500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "football-fish",
+  "nom": {
+   "fr": "Poisson lanterne",
+   "en": "Football fish"
+  },
+  "n": 77,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish56.png",
+  "espece": "football-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500,
+   "special": {
+    "prix": 3750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "freshwater-goby",
+  "nom": {
+   "fr": "Gobie d'eau douce",
+   "en": "Freshwater goby"
+  },
+  "n": 16,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish12.png",
+  "espece": "freshwater-goby",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "special": {
+    "prix": 600,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "frog",
+  "nom": {
+   "fr": "Grenouille",
+   "en": "Frog"
+  },
+  "n": 15,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish11.png",
+  "espece": "frog",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120,
+   "special": {
+    "prix": 180,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "gar",
+  "nom": {
+   "fr": "Gar",
+   "en": "Gar"
+  },
+  "n": 43,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish35.png",
+  "espece": "gar",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "5",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000,
+   "special": {
+    "prix": 9000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "giant-snakehead",
+  "nom": {
+   "fr": "Tête-de-serpent",
+   "en": "Giant snakehead"
+  },
+  "n": 19,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish16.png",
+  "espece": "giant-snakehead",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "4",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5500,
+   "special": {
+    "prix": 8250,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "giant-trevally",
+  "nom": {
+   "fr": "Carangue grosse tête",
+   "en": "Giant trevally"
+  },
+  "n": 68,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish70.png",
+  "espece": "giant-trevally",
+  "lieu": "ponton",
+  "lieu_texte": "Ponton",
+  "ombre": "5",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4500,
+   "special": {
+    "prix": 6750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "golden-trout",
+  "nom": {
+   "fr": "Truite dorée",
+   "en": "Golden trout"
+  },
+  "n": 29,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish79.png",
+  "espece": "golden-trout",
+  "lieu": "riviere-falaise",
+  "lieu_texte": "Rivière (en hauteur)",
+  "ombre": "3",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "special": {
+    "prix": 22500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "goldfish",
+  "nom": {
+   "fr": "Poisson rouge",
+   "en": "Goldfish"
+  },
+  "n": 7,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish7.png",
+  "espece": "goldfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300,
+   "special": {
+    "prix": 1950,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "great-white-shark",
+  "nom": {
+   "fr": "Grand requin blanc",
+   "en": "Great white shark"
+  },
+  "n": 74,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish62.png",
+  "espece": "great-white-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5-aileron",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "special": {
+    "prix": 22500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "guppy",
+  "nom": {
+   "fr": "Guppy",
+   "en": "Guppy"
+  },
+  "n": 34,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish29.png",
+  "espece": "guppy",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300,
+   "special": {
+    "prix": 1950,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "hammerhead-shark",
+  "nom": {
+   "fr": "Requin marteau",
+   "en": "Hammerhead shark"
+  },
+  "n": 73,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish61.png",
+  "espece": "hammerhead-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5-aileron",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000,
+   "special": {
+    "prix": 12000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "horse-mackerel",
+  "nom": {
+   "fr": "Chinchard",
+   "en": "Horse mackerel"
+  },
+  "n": 57,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish46.png",
+  "espece": "horse-mackerel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 150,
+   "special": {
+    "prix": 225,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "killifish",
+  "nom": {
+   "fr": "Fondule barré",
+   "en": "Killifish"
+  },
+  "n": 10,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish9.png",
+  "espece": "killifish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "king-salmon",
+  "nom": {
+   "fr": "Saumon roi",
+   "en": "King salmon"
+  },
+  "n": 32,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish28.png",
+  "espece": "king-salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "5",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800,
+   "special": {
+    "prix": 2700,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "koi",
+  "nom": {
+   "fr": "Carpe koï",
+   "en": "Koi"
+  },
+  "n": 6,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish6.png",
+  "espece": "koi",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "4",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000,
+   "special": {
+    "prix": 6000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "loach",
+  "nom": {
+   "fr": "Loche d'étang",
+   "en": "Loach"
+  },
+  "n": 17,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish13.png",
+  "espece": "loach",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "special": {
+    "prix": 600,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "mahi-mahi",
+  "nom": {
+   "fr": "Coryphène",
+   "en": "Mahi-mahi"
+  },
+  "n": 69,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish82.png",
+  "espece": "mahi-mahi",
+  "lieu": "ponton",
+  "lieu_texte": "Ponton",
+  "ombre": "5",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000,
+   "special": {
+    "prix": 9000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "mitten-crab",
+  "nom": {
+   "fr": "Crabe chinois",
+   "en": "Mitten crab"
+  },
+  "n": 33,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish66.png",
+  "espece": "mitten-crab",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000,
+   "special": {
+    "prix": 3000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "moray-eel",
+  "nom": {
+   "fr": "Murène",
+   "en": "Moray eel"
+  },
+  "n": 64,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish55.png",
+  "espece": "moray-eel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "longue",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      2,
+      3,
+      4
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000,
+   "special": {
+    "prix": 3000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "napoleonfish",
+  "nom": {
+   "fr": "Napoléon",
+   "en": "Napoleonfish"
+  },
+  "n": 52,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish43.png",
+  "espece": "napoleonfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "special": {
+    "prix": 15000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "neon-tetra",
+  "nom": {
+   "fr": "Néon bleu",
+   "en": "Neon tetra"
+  },
+  "n": 38,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish31.png",
+  "espece": "neon-tetra",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500,
+   "special": {
+    "prix": 750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "nibble-fish",
+  "nom": {
+   "fr": "Poisson docteur",
+   "en": "Nibble fish"
+  },
+  "n": 35,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish67.png",
+  "espece": "nibble-fish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1500,
+   "special": {
+    "prix": 2250,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "oarfish",
+  "nom": {
+   "fr": "Poisson-ruban",
+   "en": "Oarfish"
+  },
+  "n": 78,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish69.png",
+  "espece": "oarfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 9000,
+   "special": {
+    "prix": 13500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "ocean-sunfish",
+  "nom": {
+   "fr": "Lune de mer",
+   "en": "Ocean sunfish"
+  },
+  "n": 70,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish60.png",
+  "espece": "ocean-sunfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5-aileron",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000,
+   "special": {
+    "prix": 6000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "olive-flounder",
+  "nom": {
+   "fr": "Cardeau",
+   "en": "Olive flounder"
+  },
+  "n": 62,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish51.png",
+  "espece": "olive-flounder",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "special": {
+    "prix": 1200,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "pale-chub",
+  "nom": {
+   "fr": "Chevaine",
+   "en": "Pale chub"
+  },
+  "n": 2,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish1.png",
+  "espece": "pale-chub",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "pike",
+  "nom": {
+   "fr": "Brochet",
+   "en": "Pike"
+  },
+  "n": 24,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish20.png",
+  "espece": "pike",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "5",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800,
+   "special": {
+    "prix": 2700,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "piranha",
+  "nom": {
+   "fr": "Piranha",
+   "en": "Piranha"
+  },
+  "n": 40,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish32.png",
+  "espece": "piranha",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ],
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ],
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500,
+   "special": {
+    "prix": 3750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "pond-smelt",
+  "nom": {
+   "fr": "Éperlan",
+   "en": "Pond smelt"
+  },
+  "n": 25,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish21.png",
+  "espece": "pond-smelt",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "special": {
+    "prix": 600,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "pop-eyed-goldfish",
+  "nom": {
+   "fr": "Cyprin doré",
+   "en": "Pop-eyed goldfish"
+  },
+  "n": 8,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish8.png",
+  "espece": "pop-eyed-goldfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300,
+   "special": {
+    "prix": 1950,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "puffer-fish",
+  "nom": {
+   "fr": "Poisson-porc-épic",
+   "en": "Puffer fish"
+  },
+  "n": 55,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish45.png",
+  "espece": "puffer-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250,
+   "special": {
+    "prix": 375,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "rainbowfish",
+  "nom": {
+   "fr": "Poisson arc-en-ciel",
+   "en": "Rainbowfish"
+  },
+  "n": 39,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish80.png",
+  "espece": "rainbowfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "special": {
+    "prix": 1200,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "ranchu-goldfish",
+  "nom": {
+   "fr": "Ranchu",
+   "en": "Ranchu goldfish"
+  },
+  "n": 9,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish85.png",
+  "espece": "ranchu-goldfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4500,
+   "special": {
+    "prix": 6750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "ray",
+  "nom": {
+   "fr": "Raie",
+   "en": "Ray"
+  },
+  "n": 71,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish59.png",
+  "espece": "ray",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "red-snapper",
+  "nom": {
+   "fr": "Vivaneau",
+   "en": "Red snapper"
+  },
+  "n": 60,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish49.png",
+  "espece": "red-snapper",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "ribbon-eel",
+  "nom": {
+   "fr": "Murène ruban bleue",
+   "en": "Ribbon eel"
+  },
+  "n": 65,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish71.png",
+  "espece": "ribbon-eel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "longue",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600,
+   "special": {
+    "prix": 900,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "saddled-bichir",
+  "nom": {
+   "fr": "Bichir",
+   "en": "Saddled bichir"
+  },
+  "n": 45,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish68.png",
+  "espece": "saddled-bichir",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000,
+   "special": {
+    "prix": 6000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "salmon",
+  "nom": {
+   "fr": "Saumon",
+   "en": "Salmon"
+  },
+  "n": 31,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish27.png",
+  "espece": "salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "4",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 700,
+   "special": {
+    "prix": 1050,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "saw-shark",
+  "nom": {
+   "fr": "Requin scie",
+   "en": "Saw shark"
+  },
+  "n": 72,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish74.png",
+  "espece": "saw-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5-aileron",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000,
+   "special": {
+    "prix": 18000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "sea-bass",
+  "nom": {
+   "fr": "Bar commun",
+   "en": "Sea bass"
+  },
+  "n": 59,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish48.png",
+  "espece": "sea-bass",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "special": {
+    "prix": 600,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "sea-butterfly",
+  "nom": {
+   "fr": "Clione",
+   "en": "Sea butterfly"
+  },
+  "n": 47,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish37.png",
+  "espece": "sea-butterfly",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "sea-horse",
+  "nom": {
+   "fr": "Hippocampe",
+   "en": "Sea horse"
+  },
+  "n": 48,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish39.png",
+  "espece": "sea-horse",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1100,
+   "special": {
+    "prix": 1650,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "snapping-turtle",
+  "nom": {
+   "fr": "Tortue serpentine",
+   "en": "Snapping turtle"
+  },
+  "n": 13,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish78.png",
+  "espece": "snapping-turtle",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000,
+   "special": {
+    "prix": 7500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "soft-shelled-turtle",
+  "nom": {
+   "fr": "Tortue trionyx",
+   "en": "Soft-shelled turtle"
+  },
+  "n": 12,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish65.png",
+  "espece": "soft-shelled-turtle",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      2,
+      3
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3750,
+   "special": {
+    "prix": 5625,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "squid",
+  "nom": {
+   "fr": "Calmar",
+   "en": "Squid"
+  },
+  "n": 63,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish52.png",
+  "espece": "squid",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500,
+   "special": {
+    "prix": 750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "stringfish",
+  "nom": {
+   "fr": "Dai yu",
+   "en": "Stringfish"
+  },
+  "n": 30,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish26.png",
+  "espece": "stringfish",
+  "lieu": "riviere-falaise",
+  "lieu_texte": "Rivière (en hauteur)",
+  "ombre": "5",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000,
+   "special": {
+    "prix": 22500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "sturgeon",
+  "nom": {
+   "fr": "Esturgeon",
+   "en": "Sturgeon"
+  },
+  "n": 46,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish75.png",
+  "espece": "sturgeon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "6",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "special": {
+    "prix": 15000,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "suckerfish",
+  "nom": {
+   "fr": "Rémora rayé",
+   "en": "Suckerfish"
+  },
+  "n": 76,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish83.png",
+  "espece": "suckerfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5-aileron",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1500,
+   "special": {
+    "prix": 2250,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "surgeonfish",
+  "nom": {
+   "fr": "Poisson chirurgien",
+   "en": "Surgeonfish"
+  },
+  "n": 50,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish41.png",
+  "espece": "surgeonfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "sweetfish",
+  "nom": {
+   "fr": "Ayu",
+   "en": "Sweetfish"
+  },
+  "n": 26,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish22.png",
+  "espece": "sweetfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 900,
+   "special": {
+    "prix": 1350,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "tadpole",
+  "nom": {
+   "fr": "Têtard",
+   "en": "Tadpole"
+  },
+  "n": 14,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish64.png",
+  "espece": "tadpole",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100,
+   "special": {
+    "prix": 150,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "tilapia",
+  "nom": {
+   "fr": "Tilapia",
+   "en": "Tilapia"
+  },
+  "n": 23,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish76.png",
+  "espece": "tilapia",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "special": {
+    "prix": 1200,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "tuna",
+  "nom": {
+   "fr": "Thon",
+   "en": "Tuna"
+  },
+  "n": 66,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish57.png",
+  "espece": "tuna",
+  "lieu": "ponton",
+  "lieu_texte": "Ponton",
+  "ombre": "6",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 7000,
+   "special": {
+    "prix": 10500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "whale-shark",
+  "nom": {
+   "fr": "Requin-baleine",
+   "en": "Whale shark"
+  },
+  "n": 75,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish72.png",
+  "espece": "whale-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "5-aileron",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 13000,
+   "special": {
+    "prix": 19500,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "yellow-perch",
+  "nom": {
+   "fr": "Perche jaune",
+   "en": "Yellow perch"
+  },
+  "n": 21,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish18.png",
+  "espece": "yellow-perch",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "zebra-turkeyfish",
+  "nom": {
+   "fr": "Poisson-scorpion",
+   "en": "Zebra turkeyfish"
+  },
+  "n": 53,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Fish44.png",
+  "espece": "zebra-turkeyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500,
+   "special": {
+    "prix": 750,
+    "acheteur": "Djason"
+   }
+  },
+  "musee": true
+ }
+]

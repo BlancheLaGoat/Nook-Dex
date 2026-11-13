@@ -1,0 +1,5758 @@
+[
+ {
+  "id": "abstract-wall",
+  "nom": {
+   "fr": "Mur art abstrait",
+   "en": "Abstract wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallAbstract00.png",
+  "prix": {
+   "achat": 1560,
+   "vente": 390,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "airplane-wall",
+  "nom": {
+   "fr": "Mur d'avion",
+   "en": "Airplane wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallAirplane00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "ancient-wall",
+  "nom": {
+   "fr": "Mur hiéroglyphe",
+   "en": "Ancient wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallEgypt00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "antique-brick-wall",
+  "nom": {
+   "fr": "Mur de briques ancien",
+   "en": "Antique brick wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallAntique00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "apparel-shop-wall",
+  "nom": {
+   "fr": "Mur magasin de vêtements",
+   "en": "Apparel-shop wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDisplay00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "apple-wall",
+  "nom": {
+   "fr": "Mur pommes",
+   "en": "Apple wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallApple00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "aqua-tile-wall",
+  "nom": {
+   "fr": "Mur mosaïque turquoise",
+   "en": "Aqua tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTile01.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "arched-window-wall",
+  "nom": {
+   "fr": "Mur fenêtres cintrées",
+   "en": "Arched-window wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallGlass00.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "aurora-wall",
+  "nom": {
+   "fr": "Mur aurore polaire",
+   "en": "Aurora wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallAurora00.png",
+  "prix": {
+   "achat": 7000,
+   "vente": 1750
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Winter Solstice",
+  "v": "1.6.0"
+ },
+ {
+  "id": "autumn-wall",
+  "nom": {
+   "fr": "Mur automne",
+   "en": "Autumn wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallAutumun00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4700
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "maple leaves",
+  "v": "1.0.0"
+ },
+ {
+  "id": "backyard-fence-wall",
+  "nom": {
+   "fr": "Mur clôture patio",
+   "en": "Backyard-fence wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallBackyard00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bamboo-wall",
+  "nom": {
+   "fr": "Mur en bambou",
+   "en": "Bamboo wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBamboo00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "bamboo-grove-wall",
+  "nom": {
+   "fr": "Mur forêt de bambou",
+   "en": "Bamboo-grove wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallChikurin00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4300
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "young spring bamboo",
+  "v": "1.0.0"
+ },
+ {
+  "id": "bamboo-screen-wall",
+  "nom": {
+   "fr": "Mur paravent en bambou",
+   "en": "Bamboo-screen wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRattan00.png",
+  "prix": {
+   "achat": 1770,
+   "vente": 442,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bank-vault-wall",
+  "nom": {
+   "fr": "Mur coffres-forts",
+   "en": "Bank-vault wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSafeBox00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "basic-wall",
+  "nom": {
+   "fr": "Mur pans blancs",
+   "en": "Basic wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSimplePanel00.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 540,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bathhouse-wall",
+  "nom": {
+   "fr": "Mur de bains publics",
+   "en": "Bathhouse wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPublicBath00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "beaded-curtain-wall",
+  "nom": {
+   "fr": "Mur rideau de perles",
+   "en": "Beaded-curtain wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBeadsCurtain00.png",
+  "prix": {
+   "achat": 1720,
+   "vente": 430,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "beige-art-deco-wall",
+  "nom": {
+   "fr": "Mur Art déco beige",
+   "en": "Beige art-deco wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallArtDeco00.png",
+  "prix": {
+   "achat": 2780,
+   "vente": 695,
+   "echange": {
+    "prix": 2500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "beige-blossoming-wall",
+  "nom": {
+   "fr": "Mur beige à petites fleurs",
+   "en": "Beige blossoming wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCountry00.png",
+  "prix": {
+   "achat": 1760,
+   "vente": 440,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "beige-moroccan-wall",
+  "nom": {
+   "fr": "Mur treillis marocain beige",
+   "en": "Beige Moroccan wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMorocco00.png",
+  "prix": {
+   "achat": 2440,
+   "vente": 610,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-botanical-tile-wall",
+  "nom": {
+   "fr": "Mur botanique noir",
+   "en": "Black botanical-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallWoodTile03.png",
+  "prix": {
+   "achat": 1240,
+   "vente": 310,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-european-style-wall",
+  "nom": {
+   "fr": "Mur à l'européenne noir",
+   "en": "Black European-style wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallFrench01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "black-hallway-wall",
+  "nom": {
+   "fr": "Mur hall noir",
+   "en": "Black hallway wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHall03.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-perforated-board-wall",
+  "nom": {
+   "fr": "Mur panneau perforé noir",
+   "en": "Black perforated-board wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPegboard02.png",
+  "prix": {
+   "achat": 1180,
+   "vente": 295,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-two-toned-tile-wall",
+  "nom": {
+   "fr": "Mur carrelé bicolore noir",
+   "en": "Black two-toned tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTwoToneTile06.png",
+  "prix": {
+   "achat": 1850,
+   "vente": 462,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-window-panel-wall",
+  "nom": {
+   "fr": "Mur noir carreaux",
+   "en": "Black window-panel wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallWindow01.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700,
+   "echange": {
+    "prix": 2500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "black-brick-wall",
+  "nom": {
+   "fr": "Mur briques noires",
+   "en": "Black-brick wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBrick02.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250,
+   "echange": {
+    "prix": 900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-crown-wall",
+  "nom": {
+   "fr": "Mur motif couronnes noir",
+   "en": "Black-crown wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCrown01.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blackboard-wall",
+  "nom": {
+   "fr": "Mur menu de café",
+   "en": "Blackboard wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBlackBoard00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-blossoming-wall",
+  "nom": {
+   "fr": "Mur floraison bleu",
+   "en": "Blue blossoming wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCountry02.png",
+  "prix": {
+   "achat": 1760,
+   "vente": 440,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-camo-wall",
+  "nom": {
+   "fr": "Mur camouflage bleu",
+   "en": "Blue camo wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCamouflage01.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-delicate-blooms-wall",
+  "nom": {
+   "fr": "Mur à fleurs délicates bleu",
+   "en": "Blue delicate-blooms wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallManor03.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-diner-wall",
+  "nom": {
+   "fr": "Mur années 50 bleu",
+   "en": "Blue diner wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDiner00.png",
+  "prix": {
+   "achat": 2420,
+   "vente": 605,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-flower-print-wall",
+  "nom": {
+   "fr": "Mur à fleurs bleu",
+   "en": "Blue flower-print wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlower03.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-heart-pattern-wall",
+  "nom": {
+   "fr": "Mur motif cœurs turquoise",
+   "en": "Blue heart-pattern wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHeart00.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-honeycomb-tile-wall",
+  "nom": {
+   "fr": "Mur carrelage bleu",
+   "en": "Blue honeycomb-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHoneycomb01.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-intricate-wall",
+  "nom": {
+   "fr": "Mur entrelacs floraux bleu",
+   "en": "Blue intricate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlowerPop00.png",
+  "prix": {
+   "achat": 1570,
+   "vente": 392,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-molded-panel-wall",
+  "nom": {
+   "fr": "Mur à moulures bleu",
+   "en": "Blue molded-panel wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPanelMold01.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-moroccan-wall",
+  "nom": {
+   "fr": "Mur treillis marocain bleu",
+   "en": "Blue Moroccan wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMorocco01.png",
+  "prix": {
+   "achat": 2440,
+   "vente": 610,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-moroccan-style-wall",
+  "nom": {
+   "fr": "Mur marocain bleu",
+   "en": "Blue Moroccan-style wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTadelakt00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "blue-painted-wood-wall",
+  "nom": {
+   "fr": "Mur en bois peint bleu",
+   "en": "Blue painted-wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPaintWood00.png",
+  "prix": {
+   "achat": 1650,
+   "vente": 412,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-playroom-wall",
+  "nom": {
+   "fr": "Mur salle de jeu bleu",
+   "en": "Blue playroom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallToy00.png",
+  "prix": {
+   "achat": 2540,
+   "vente": 635,
+   "echange": {
+    "prix": 2300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-quilt-wall",
+  "nom": {
+   "fr": "Mur patchwork bleu",
+   "en": "Blue quilt wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDollhouse01.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-shanty-wall",
+  "nom": {
+   "fr": "Mur baraquement bleu",
+   "en": "Blue shanty wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTin02.png",
+  "prix": {
+   "achat": 620,
+   "vente": 155,
+   "echange": {
+    "prix": 560,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-simple-cloth-wall",
+  "nom": {
+   "fr": "Mur textile bleu ciel",
+   "en": "Blue simple-cloth wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSimple03.png",
+  "prix": {
+   "achat": 750,
+   "vente": 187,
+   "echange": {
+    "prix": 680,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-subway-tile-wall",
+  "nom": {
+   "fr": "Mur métro carrelé bleu",
+   "en": "Blue subway-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMetro00.png",
+  "prix": {
+   "achat": 1340,
+   "vente": 335,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-tile-wall",
+  "nom": {
+   "fr": "Mur mosaïque bleu marine",
+   "en": "Blue tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTile03.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-two-toned-tile-wall",
+  "nom": {
+   "fr": "Mur carrelé bicolore bleu",
+   "en": "Blue two-toned tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTwoToneTile05.png",
+  "prix": {
+   "achat": 1850,
+   "vente": 462,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-crown-wall",
+  "nom": {
+   "fr": "Mur motif couronnes bleu",
+   "en": "Blue-crown wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCrown00.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-paint-wall",
+  "nom": {
+   "fr": "Mur peint bleu",
+   "en": "Blue-paint wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStucco03.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-rose-wall",
+  "nom": {
+   "fr": "Mur de roses vert",
+   "en": "Blue-rose wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRose03.png",
+  "prix": {
+   "achat": 1720,
+   "vente": 430,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-striped-wall",
+  "nom": {
+   "fr": "Mur rayures bleu",
+   "en": "Blue-striped wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStripe03.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "botanical-tile-wall",
+  "nom": {
+   "fr": "Mur botanique jaune",
+   "en": "Botanical-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallWoodTile02.png",
+  "prix": {
+   "achat": 1240,
+   "vente": 310,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brick-garden-wall",
+  "nom": {
+   "fr": "Mur jardin en briques",
+   "en": "Brick garden wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSchoolyard00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "brown-botanical-tile-wall",
+  "nom": {
+   "fr": "Mur botanique brun",
+   "en": "Brown botanical-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallWoodTile01.png",
+  "prix": {
+   "achat": 1240,
+   "vente": 310,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-diner-wall",
+  "nom": {
+   "fr": "Mur années 50 brun",
+   "en": "Brown diner wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDiner03.png",
+  "prix": {
+   "achat": 2420,
+   "vente": 605,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-hallway-wall",
+  "nom": {
+   "fr": "Mur hall brun",
+   "en": "Brown hallway wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHall00.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-herringbone-wall",
+  "nom": {
+   "fr": "Mur à chevrons beige",
+   "en": "Brown herringbone wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHerringbone00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-shanty-wall",
+  "nom": {
+   "fr": "Mur baraquement brun",
+   "en": "Brown shanty wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTin03.png",
+  "prix": {
+   "achat": 620,
+   "vente": 155,
+   "echange": {
+    "prix": 560,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-wedding-wall",
+  "nom": {
+   "fr": "Mur mariage brun",
+   "en": "Brown wedding wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallChurch01.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 12,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "brown-brick-wall",
+  "nom": {
+   "fr": "Mur briques brunes",
+   "en": "Brown-brick wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBrick03.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250,
+   "echange": {
+    "prix": 900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-crown-wall",
+  "nom": {
+   "fr": "Mur motif couronnes brun",
+   "en": "Brown-crown wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCrown03.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bunny-day-wall",
+  "nom": {
+   "fr": "Mur fête des œufs",
+   "en": "Bunny Day wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallEaster00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Bunny Day (days before); Bunny Day",
+  "v": "1.1.0"
+ },
+ {
+  "id": "butterflies-wall",
+  "nom": {
+   "fr": "Mur papillons de jour",
+   "en": "Butterflies wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallInsect00.png",
+  "prix": {
+   "achat": null,
+   "vente": 840
+  },
+  "sources": [
+   "Djason"
+  ],
+  "evenement": "Bug-Off (1); Bug-Off (2); Bug-Off (3); Bug-Off (4)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "cabin-wall",
+  "nom": {
+   "fr": "Mur chalet",
+   "en": "Cabin wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLog00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "cafe-curtain-wall",
+  "nom": {
+   "fr": "Mur rideaux de café",
+   "en": "Café-curtain wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallCafe00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "camo-wall",
+  "nom": {
+   "fr": "Mur camouflage",
+   "en": "Camo wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCamouflage00.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "candles-wall",
+  "nom": {
+   "fr": "Mur de bougies",
+   "en": "Candles wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallCandle00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "chain-link-fence",
+  "nom": {
+   "fr": "Mur grillagé",
+   "en": "Chain-link fence"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallEmptyLot00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cherry-wall",
+  "nom": {
+   "fr": "Mur cerises",
+   "en": "Cherry wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCherry00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "cherry-blossom-trees-wall",
+  "nom": {
+   "fr": "Mur fleurs de cerisier",
+   "en": "Cherry-blossom-trees wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSakura00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "cherry-blossom petals",
+  "v": "1.0.0"
+ },
+ {
+  "id": "chic-lego-wall",
+  "nom": {
+   "fr": "Mur chic LEGO®",
+   "en": "Chic LEGO® wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLego03.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "chic-tearoom-wall",
+  "nom": {
+   "fr": "Mur salon de thé chic",
+   "en": "Chic tearoom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMud03.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chic-wall",
+  "nom": {
+   "fr": "Mur rustique",
+   "en": "Chic wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallClassic00.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chocolate-hallway-wall",
+  "nom": {
+   "fr": "Mur hall chocolat",
+   "en": "Chocolate hallway wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHall01.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chocolate-herringbone-wall",
+  "nom": {
+   "fr": "Mur à chevrons chocolat",
+   "en": "Chocolate herringbone wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHerringbone01.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "cinnamoroll-wall",
+  "nom": {
+   "fr": "Mur Cinnamoroll",
+   "en": "Cinnamoroll wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCinnamon00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "circuit-board-wall",
+  "nom": {
+   "fr": "Mur circuit imprimé",
+   "en": "Circuit-board wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallGeek00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "circus-wall",
+  "nom": {
+   "fr": "Mur cirque",
+   "en": "Circus wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSummer00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "cityscape-wall",
+  "nom": {
+   "fr": "Mur ville",
+   "en": "Cityscape wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallNightView00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "classic-library-wall",
+  "nom": {
+   "fr": "Mur bibliothèque classique",
+   "en": "Classic-library wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLibrary00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1450
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "club-wall",
+  "nom": {
+   "fr": "Mur discothèque",
+   "en": "Club wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallClub00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "coffee-shop-wall",
+  "nom": {
+   "fr": "Mur magasin de café",
+   "en": "Coffee-shop wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCoffee00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "colorful-lego-wall",
+  "nom": {
+   "fr": "Mur coloré LEGO®",
+   "en": "Colorful LEGO® wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLego00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "colorful-puzzle-wall",
+  "nom": {
+   "fr": "Mur puzzle multicolore",
+   "en": "Colorful puzzle wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPuzzle01.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-tile-wall",
+  "nom": {
+   "fr": "Mur mosaïque multicolore",
+   "en": "Colorful-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTile02.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "common-wall",
+  "nom": {
+   "fr": "Mur ordinaire",
+   "en": "Common wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCommon00.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 720,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "concession-stand-wall",
+  "nom": {
+   "fr": "Mur stand de cinéma",
+   "en": "Concession-stand wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallStand00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "concrete-wall",
+  "nom": {
+   "fr": "Mur en béton",
+   "en": "Concrete wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallConcrete00.png",
+  "prix": {
+   "achat": 940,
+   "vente": 235,
+   "echange": {
+    "prix": 850,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "construction-site-wall",
+  "nom": {
+   "fr": "Mur de chantier",
+   "en": "Construction-site wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBlueSheet00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "crepe-design-wall",
+  "nom": {
+   "fr": "Mur crêpé",
+   "en": "Crepe-design wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCrepe00.png",
+  "prix": {
+   "achat": 1550,
+   "vente": 387,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-blue-wall",
+  "nom": {
+   "fr": "Mur sobre cœurs bleu",
+   "en": "Cute blue wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCute02.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-lego-wall",
+  "nom": {
+   "fr": "Mur mimi LEGO®",
+   "en": "Cute LEGO® wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLego02.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "cute-red-wall",
+  "nom": {
+   "fr": "Mur sobre cœurs rouge",
+   "en": "Cute red wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCute01.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-white-wall",
+  "nom": {
+   "fr": "Mur sobre cœurs blanc",
+   "en": "Cute white wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCute00.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-yellow-wall",
+  "nom": {
+   "fr": "Mur sobre cœurs jaune",
+   "en": "Cute yellow wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCute03.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-wooden-mosaic-wall",
+  "nom": {
+   "fr": "Mur lambris fin sombre",
+   "en": "Dark wooden-mosaic wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMixPlankWood01.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-chocolate-wall",
+  "nom": {
+   "fr": "Mur chocolat noir",
+   "en": "Dark-chocolate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallChocolate00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "desert-vista",
+  "nom": {
+   "fr": "Mur vue désert",
+   "en": "Desert vista"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallDesert00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dig-site-wall",
+  "nom": {
+   "fr": "Mur fossiles",
+   "en": "Dig-site wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStratum00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dirt-clod-wall",
+  "nom": {
+   "fr": "Mur terreux",
+   "en": "Dirt-clod wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallOldSoil00.png",
+  "prix": {
+   "achat": 200,
+   "vente": 50,
+   "echange": {
+    "prix": 180,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dojo-wall",
+  "nom": {
+   "fr": "Mur de dojo",
+   "en": "Dojo wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBaseboards00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dungeon-wall",
+  "nom": {
+   "fr": "Mur donjon",
+   "en": "Dungeon wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallJail00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "eeltail-alley-wall",
+  "nom": {
+   "fr": "Mur banlieue Balibot",
+   "en": "Eeltail Alley wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSplatoon00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "exquisite-wall",
+  "nom": {
+   "fr": "Mur magnifique",
+   "en": "Exquisite wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallChina00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "falling-snow-wall",
+  "nom": {
+   "fr": "Mur chute de neige",
+   "en": "Falling-snow wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSnowy00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2700
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.6.0"
+ },
+ {
+  "id": "fireworks-show-wall",
+  "nom": {
+   "fr": "Mur feux d'artifice",
+   "en": "Fireworks-show wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallFireworks00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nintendo",
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "notes_source": "Mailed to players after the 1.4.0 update in a letter from Nintendo",
+  "v": "1.4.0"
+ },
+ {
+  "id": "forest-wall",
+  "nom": {
+   "fr": "Mur forêt",
+   "en": "Forest wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMushForest00.png",
+  "prix": {
+   "achat": null,
+   "vente": 44000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "mushrooms",
+  "v": "1.0.0"
+ },
+ {
+  "id": "frozen-foods-freezer-wall",
+  "nom": {
+   "fr": "Mur rayon surgelés",
+   "en": "Frozen-foods freezer wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallFrozenFood00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "future-tech-wall",
+  "nom": {
+   "fr": "Mur hypertechnologique",
+   "en": "Future-tech wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallTechnology00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "garbage-heap-wall",
+  "nom": {
+   "fr": "Mur dépotoir",
+   "en": "Garbage-heap wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallGarbage00.png",
+  "prix": {
+   "achat": null,
+   "vente": 120
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "glowing-moss-cave-wall",
+  "nom": {
+   "fr": "Mur caverne schistostega",
+   "en": "Glowing-moss cave wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallGlowCave00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "glowing-moss-forest-wall",
+  "nom": {
+   "fr": "Mur forêt schistostega",
+   "en": "Glowing-moss forest wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallGlowMoss00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1700
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "glowing-moss-ruins-wall",
+  "nom": {
+   "fr": "Mur ruines schistostega",
+   "en": "Glowing-moss ruins wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallGlowRemains00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "gold-screen-wall",
+  "nom": {
+   "fr": "Mur paravent",
+   "en": "Gold-screen wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFusumaGorgeous00.png",
+  "prix": {
+   "achat": null,
+   "vente": 20750
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-wall",
+  "nom": {
+   "fr": "Mur d'or",
+   "en": "Golden wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallGold00.png",
+  "prix": {
+   "achat": null,
+   "vente": 40000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "graveyard-wall",
+  "nom": {
+   "fr": "Mur cimetière",
+   "en": "Graveyard wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallCemetery00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "gray-diner-wall",
+  "nom": {
+   "fr": "Mur années 50 gris",
+   "en": "Gray diner wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDiner02.png",
+  "prix": {
+   "achat": 2420,
+   "vente": 605,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gray-locker-room-wall",
+  "nom": {
+   "fr": "Mur vestiaire acier",
+   "en": "Gray locker-room wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLocker01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "gray-molded-panel-wall",
+  "nom": {
+   "fr": "Mur à moulures gris",
+   "en": "Gray molded-panel wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPanelMold02.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gray-shanty-wall",
+  "nom": {
+   "fr": "Mur baraquement gris",
+   "en": "Gray shanty wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTin00.png",
+  "prix": {
+   "achat": 620,
+   "vente": 155,
+   "echange": {
+    "prix": 560,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gray-shelving-wall",
+  "nom": {
+   "fr": "Mur rayons acier",
+   "en": "Gray-shelving wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallShelf01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "gray-striped-wall",
+  "nom": {
+   "fr": "Mur rayures gris",
+   "en": "Gray-striped wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStripe02.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-blossoming-wall",
+  "nom": {
+   "fr": "Mur floraison vert",
+   "en": "Green blossoming wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCountry03.png",
+  "prix": {
+   "achat": 1760,
+   "vente": 440,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-delicate-blooms-wall",
+  "nom": {
+   "fr": "Mur à fleurs délicates vert",
+   "en": "Green delicate-blooms wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallManor02.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-flower-print-wall",
+  "nom": {
+   "fr": "Mur à fleurs vert",
+   "en": "Green flower-print wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlower01.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-honeycomb-tile-wall",
+  "nom": {
+   "fr": "Mur carrelage vert",
+   "en": "Green honeycomb-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHoneycomb02.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-intricate-wall",
+  "nom": {
+   "fr": "Mur entrelacs floraux vert",
+   "en": "Green intricate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlowerPop02.png",
+  "prix": {
+   "achat": 1570,
+   "vente": 392,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-molded-panel-wall",
+  "nom": {
+   "fr": "Mur à moulures vert",
+   "en": "Green molded-panel wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPanelMold03.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-painted-wood-wall",
+  "nom": {
+   "fr": "Mur en bois peint vert",
+   "en": "Green painted-wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPaintWood01.png",
+  "prix": {
+   "achat": 1650,
+   "vente": 412,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-playroom-wall",
+  "nom": {
+   "fr": "Mur salle de jeu vert",
+   "en": "Green playroom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallToy02.png",
+  "prix": {
+   "achat": 2540,
+   "vente": 635,
+   "echange": {
+    "prix": 2300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-wedding-wall",
+  "nom": {
+   "fr": "Mur mariage vert",
+   "en": "Green wedding wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallChurch02.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 12,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "green-paint-wall",
+  "nom": {
+   "fr": "Mur peint vert",
+   "en": "Green-paint wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStucco04.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "greenhouse-wall",
+  "nom": {
+   "fr": "Mur serre",
+   "en": "Greenhouse wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallGreenHouse00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "groovy-wall",
+  "nom": {
+   "fr": "Mur groovy",
+   "en": "Groovy wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPsyche00.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hallway-wall",
+  "nom": {
+   "fr": "Mur couloir",
+   "en": "Hallway wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBoard00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "harmonious-wall",
+  "nom": {
+   "fr": "Mur impérial",
+   "en": "Harmonious wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallOriental00.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "heavy-curtain-wall",
+  "nom": {
+   "fr": "Mur rideau de velours",
+   "en": "Heavy-curtain wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallThickCurtain00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hello-kitty-wall",
+  "nom": {
+   "fr": "Mur Hello Kitty",
+   "en": "Hello Kitty wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallKitty00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "honeycomb-wall",
+  "nom": {
+   "fr": "Mur rayons de miel",
+   "en": "Honeycomb wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHoney00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "honeycomb-tile-wall",
+  "nom": {
+   "fr": "Mur carrelage",
+   "en": "Honeycomb-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHoneycomb00.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ice-wall",
+  "nom": {
+   "fr": "Mur glace",
+   "en": "Ice wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallIce00.png",
+  "prix": {
+   "achat": null,
+   "vente": 8200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "ice-cream-shoppe-wall",
+  "nom": {
+   "fr": "Mur glacier",
+   "en": "Ice-cream-shoppe wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallIcecream00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "iceberg-wall",
+  "nom": {
+   "fr": "Mur banquise",
+   "en": "Iceberg wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallIceFloe00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "imperial-wall",
+  "nom": {
+   "fr": "Mur shogun",
+   "en": "Imperial wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDynasty00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "industrial-wall",
+  "nom": {
+   "fr": "Mur d'usine",
+   "en": "Industrial wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFactory00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ivy-wall",
+  "nom": {
+   "fr": "Mur de lierre",
+   "en": "Ivy wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallIvy00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jingle-wall",
+  "nom": {
+   "fr": "Mur festif",
+   "en": "Jingle wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallXmas00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "ornaments",
+  "v": "1.0.0"
+ },
+ {
+  "id": "jungle-wall",
+  "nom": {
+   "fr": "Mur jungle",
+   "en": "Jungle wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallJungle00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1380
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "kerokerokeroppi-wall",
+  "nom": {
+   "fr": "Mur Kerokerokeroppi",
+   "en": "Kerokerokeroppi wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallKeroppi00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "kiki-and-lala-wall",
+  "nom": {
+   "fr": "Mur Kiki & Lala",
+   "en": "Kiki & Lala wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallKikilala00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "kisses-wall",
+  "nom": {
+   "fr": "Mur bisous",
+   "en": "Kisses wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallKiss00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "korok-forest-wall",
+  "nom": {
+   "fr": "Mur forêt Korogu",
+   "en": "Korok Forest wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallZeldaForest00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "laboratory-wall",
+  "nom": {
+   "fr": "Mur laboratoire",
+   "en": "Laboratory wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallLabo00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lattice-wall",
+  "nom": {
+   "fr": "Mur tonnelle",
+   "en": "Lattice wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLattice00.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "limestone-cave-wall",
+  "nom": {
+   "fr": "Mur grotte calcaire",
+   "en": "Limestone-cave wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallLimestone00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "magma-cavern-wall",
+  "nom": {
+   "fr": "Mur volcan",
+   "en": "Magma-cavern wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallVolcano00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "manga-library-wall",
+  "nom": {
+   "fr": "Mur bibliothèque manga",
+   "en": "Manga-library wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLibrary01.png",
+  "prix": {
+   "achat": null,
+   "vente": 1050
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "mangrove-wall",
+  "nom": {
+   "fr": "Mur mangrove",
+   "en": "Mangrove wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMangrove00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "marine-pop-wall",
+  "nom": {
+   "fr": "Mur marin pop",
+   "en": "Marine pop wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFish00.png",
+  "prix": {
+   "achat": null,
+   "vente": 805
+  },
+  "sources": [
+   "Pollux"
+  ],
+  "evenement": "Fishing Tourney (Spring); Fishing Tourney (Summer); Fishing Tourney (Fall); Fishing Tourney (Winter)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "meadow-vista",
+  "nom": {
+   "fr": "Mur vue prairie",
+   "en": "Meadow vista"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallHighLands00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mermaid-wall",
+  "nom": {
+   "fr": "Mur sirène",
+   "en": "Mermaid wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallMermaid00.png",
+  "prix": {
+   "achat": null,
+   "vente": 23520
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.3.0"
+ },
+ {
+  "id": "misty-garden-wall",
+  "nom": {
+   "fr": "Mur de pluie douce",
+   "en": "Misty-garden wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallRain00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mod-wall",
+  "nom": {
+   "fr": "Mur psyché",
+   "en": "Mod wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMod00.png",
+  "prix": {
+   "achat": 1220,
+   "vente": 305,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "modern-lego-wall",
+  "nom": {
+   "fr": "Mur moderne LEGO®",
+   "en": "Modern LEGO® wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLego01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "modern-shoji-screen-wall",
+  "nom": {
+   "fr": "Mur papier de riz",
+   "en": "Modern shoji-screen wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallShojiModem00.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "modern-tearoom-wall",
+  "nom": {
+   "fr": "Mur salon de thé moderne",
+   "en": "Modern tearoom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMud02.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "modern-wood-wall",
+  "nom": {
+   "fr": "Mur bois moderne",
+   "en": "Modern wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMixwood00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "monochromatic-dotted-wall",
+  "nom": {
+   "fr": "Mur à pois monochromes",
+   "en": "Monochromatic dotted wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDot00.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275,
+   "echange": {
+    "prix": 990,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "monochromatic-tile-wall",
+  "nom": {
+   "fr": "Mur carrelage monochrome",
+   "en": "Monochromatic-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTile00.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mortar-wall",
+  "nom": {
+   "fr": "Mur mortier",
+   "en": "Mortar wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPlaster00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mosaic-tile-wall",
+  "nom": {
+   "fr": "Mur carrelage mosaïque",
+   "en": "Mosaic-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMosaicTile00.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mossy-garden-wall",
+  "nom": {
+   "fr": "Mur moussu",
+   "en": "Mossy-garden wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMoss00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "museum-wall",
+  "nom": {
+   "fr": "Mur musée",
+   "en": "Museum wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMuseum00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "mush-wall",
+  "nom": {
+   "fr": "Mur champi",
+   "en": "Mush wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMush00.png",
+  "prix": {
+   "achat": null,
+   "vente": 21400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "mushrooms",
+  "v": "1.0.0"
+ },
+ {
+  "id": "mushroom-mural",
+  "nom": {
+   "fr": "Mur Mario",
+   "en": "Mushroom mural"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallMario00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nintendo",
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Mailed to players after the 1.8.0 update in a letter from Nintendo; Not available before March 1st 2021",
+  "v": "1.8.0"
+ },
+ {
+  "id": "my-melody-wall",
+  "nom": {
+   "fr": "Mur My Melody",
+   "en": "My Melody wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMymelody00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "nook-inc-wall",
+  "nom": {
+   "fr": "Mur Nook Inc.",
+   "en": "Nook Inc. wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFirst00.png",
+  "prix": {
+   "achat": null,
+   "vente": 6000,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Échange de Miles Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ocean-horizon-wall",
+  "nom": {
+   "fr": "Mur horizon marin",
+   "en": "Ocean-horizon wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallHorizon00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "office-wall",
+  "nom": {
+   "fr": "Mur pro",
+   "en": "Office wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallOffice00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "old-wallpaper",
+  "nom": {
+   "fr": "Mur miteux",
+   "en": "Old wallpaper"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallOld00.png",
+  "prix": {
+   "achat": 200,
+   "vente": 50,
+   "echange": {
+    "prix": 180,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "olive-moroccan-wall",
+  "nom": {
+   "fr": "Mur treillis marocain kaki",
+   "en": "Olive Moroccan wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMorocco03.png",
+  "prix": {
+   "achat": 2440,
+   "vente": 610,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "operating-room-wall",
+  "nom": {
+   "fr": "Mur bloc opératoire",
+   "en": "Operating-room wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallOperatingRoom00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "orange-camo-wall",
+  "nom": {
+   "fr": "Mur camouflage rouge",
+   "en": "Orange camo wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCamouflage03.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "orange-molded-panel-wall",
+  "nom": {
+   "fr": "Mur à moulures orange",
+   "en": "Orange molded-panel wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPanelMold00.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "orange-moroccan-style-wall",
+  "nom": {
+   "fr": "Mur marocain orange",
+   "en": "Orange Moroccan-style wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTadelakt01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "orange-wall",
+  "nom": {
+   "fr": "Mur oranges",
+   "en": "Orange wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallOrange00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "orange-paint-wall",
+  "nom": {
+   "fr": "Mur peint orange",
+   "en": "Orange-paint wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStucco01.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "outdoor-window-wall",
+  "nom": {
+   "fr": "Mur extérieur fenêtre",
+   "en": "Outdoor-window wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTeahouse00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "paintball-wall",
+  "nom": {
+   "fr": "Mur paintball",
+   "en": "Paintball wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallAtelier00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "palace-wall",
+  "nom": {
+   "fr": "Mur palais",
+   "en": "Palace wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallPalace00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "paradise-planning-wall",
+  "nom": {
+   "fr": "Mur Les Villas de Lou",
+   "en": "Paradise Planning wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallGoldRich00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Mantin"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "party-wall",
+  "nom": {
+   "fr": "Mur fête",
+   "en": "Party wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallParty00.png",
+  "prix": {
+   "achat": null,
+   "vente": 370
+  },
+  "sources": [
+   "Birthday"
+  ],
+  "evenement": "Birthday",
+  "v": "1.0.0"
+ },
+ {
+  "id": "pastel-dotted-wall",
+  "nom": {
+   "fr": "Mur à pois pastel",
+   "en": "Pastel dotted wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDot01.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275,
+   "echange": {
+    "prix": 990,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pastel-puzzle-wall",
+  "nom": {
+   "fr": "Mur puzzle pastel",
+   "en": "Pastel puzzle wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPuzzle00.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "paw-print-wall",
+  "nom": {
+   "fr": "Mur pattes",
+   "en": "Paw-print wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFootmark00.png",
+  "prix": {
+   "achat": 1160,
+   "vente": 290,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "peach-two-toned-tile-wall",
+  "nom": {
+   "fr": "Mur carrelé bicolore rose",
+   "en": "Peach two-toned tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTwoToneTile04.png",
+  "prix": {
+   "achat": 1850,
+   "vente": 462,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "peach-wall",
+  "nom": {
+   "fr": "Mur pêches",
+   "en": "Peach wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPeach00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "pear-wall",
+  "nom": {
+   "fr": "Mur poires",
+   "en": "Pear wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPear00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "perforated-board-wall",
+  "nom": {
+   "fr": "Mur panneau perforé brun",
+   "en": "Perforated-board wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPegboard01.png",
+  "prix": {
+   "achat": 1180,
+   "vente": 295,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pharmacy-shelving-wall",
+  "nom": {
+   "fr": "Mur rayons de pharmacie",
+   "en": "Pharmacy-shelving wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMedicineRoom00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "pink-blossoming-wall",
+  "nom": {
+   "fr": "Mur floraison rose",
+   "en": "Pink blossoming wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCountry01.png",
+  "prix": {
+   "achat": 1760,
+   "vente": 440,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-diner-wall",
+  "nom": {
+   "fr": "Mur années 50 pêche",
+   "en": "Pink diner wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDiner01.png",
+  "prix": {
+   "achat": 2420,
+   "vente": 605,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-flower-print-wall",
+  "nom": {
+   "fr": "Mur à fleurs rose",
+   "en": "Pink flower-print wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlower00.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-heart-pattern-wall",
+  "nom": {
+   "fr": "Mur motif cœurs rose",
+   "en": "Pink heart-pattern wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHeart01.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-painted-wood-wall",
+  "nom": {
+   "fr": "Mur en bois peint rose",
+   "en": "Pink painted-wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPaintWood02.png",
+  "prix": {
+   "achat": 1650,
+   "vente": 412,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-playroom-wall",
+  "nom": {
+   "fr": "Mur salle de jeu rose",
+   "en": "Pink playroom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallToy01.png",
+  "prix": {
+   "achat": 2540,
+   "vente": 635,
+   "echange": {
+    "prix": 2300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-quilt-wall",
+  "nom": {
+   "fr": "Mur patchwork rose",
+   "en": "Pink quilt wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDollhouse00.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-shanty-wall",
+  "nom": {
+   "fr": "Mur baraquement rose",
+   "en": "Pink shanty wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTin01.png",
+  "prix": {
+   "achat": 620,
+   "vente": 155,
+   "echange": {
+    "prix": 560,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-simple-cloth-wall",
+  "nom": {
+   "fr": "Mur textile saumon",
+   "en": "Pink simple-cloth wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSimple02.png",
+  "prix": {
+   "achat": 750,
+   "vente": 187,
+   "echange": {
+    "prix": 680,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-crown-wall",
+  "nom": {
+   "fr": "Mur motif couronnes rose",
+   "en": "Pink-crown wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCrown02.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-striped-wall",
+  "nom": {
+   "fr": "Mur rayures rose",
+   "en": "Pink-striped wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStripe01.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pirate-wall",
+  "nom": {
+   "fr": "Mur pirate",
+   "en": "Pirate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallPirates00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750
+  },
+  "sources": [
+   "Gullivarrr"
+  ],
+  "v": "1.3.0"
+ },
+ {
+  "id": "pompompurin-wall",
+  "nom": {
+   "fr": "Mur Pompompurin",
+   "en": "Pompompurin wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPurin00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "prom-wall",
+  "nom": {
+   "fr": "Mur bal de promo",
+   "en": "Prom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallBallroom00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Prom",
+  "v": "1.9.0"
+ },
+ {
+  "id": "purple-camo-wall",
+  "nom": {
+   "fr": "Mur camouflage violet",
+   "en": "Purple camo wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCamouflage02.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-dotted-wall",
+  "nom": {
+   "fr": "Mur à pois mauve",
+   "en": "Purple dotted wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDot04.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275,
+   "echange": {
+    "prix": 990,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-moroccan-wall",
+  "nom": {
+   "fr": "Mur treillis marocain violet",
+   "en": "Purple Moroccan wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMorocco02.png",
+  "prix": {
+   "achat": 2440,
+   "vente": 610,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-puzzle-wall",
+  "nom": {
+   "fr": "Mur puzzle mauve",
+   "en": "Purple puzzle wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPuzzle03.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-quilt-wall",
+  "nom": {
+   "fr": "Mur patchwork mauve",
+   "en": "Purple quilt wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDollhouse03.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-rose-wall",
+  "nom": {
+   "fr": "Mur de roses bleues",
+   "en": "Purple-rose wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRose01.png",
+  "prix": {
+   "achat": 1720,
+   "vente": 430,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rammed-earth-wall",
+  "nom": {
+   "fr": "Mur en pisé",
+   "en": "Rammed-earth wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHanchiku00.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ramshackle-wall",
+  "nom": {
+   "fr": "Mur délabré",
+   "en": "Ramshackle wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRuins00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-art-deco-wall",
+  "nom": {
+   "fr": "Mur Art déco pourpre",
+   "en": "Red art-deco wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallArtDeco01.png",
+  "prix": {
+   "achat": 2780,
+   "vente": 695,
+   "echange": {
+    "prix": 2500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-delicate-blooms-wall",
+  "nom": {
+   "fr": "Mur à fleurs délicates rouge",
+   "en": "Red delicate-blooms wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallManor01.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-dotted-wall",
+  "nom": {
+   "fr": "Mur à pois rouge",
+   "en": "Red dotted wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDot02.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275,
+   "echange": {
+    "prix": 990,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-heart-pattern-wall",
+  "nom": {
+   "fr": "Mur motif cœurs rouge",
+   "en": "Red heart-pattern wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHeart03.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-intricate-wall",
+  "nom": {
+   "fr": "Mur entrelacs floraux rouge",
+   "en": "Red intricate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlowerPop03.png",
+  "prix": {
+   "achat": 1570,
+   "vente": 392,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-locker-room-wall",
+  "nom": {
+   "fr": "Mur vestiaire rouge",
+   "en": "Red locker-room wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallLocker00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "red-perforated-board-wall",
+  "nom": {
+   "fr": "Mur panneau perforé rouge",
+   "en": "Red perforated-board wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPegboard03.png",
+  "prix": {
+   "achat": 1180,
+   "vente": 295,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-two-toned-tile-wall",
+  "nom": {
+   "fr": "Mur carrelé bicolore rouge",
+   "en": "Red two-toned tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTwoToneTile03.png",
+  "prix": {
+   "achat": 1850,
+   "vente": 462,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-brick-wall",
+  "nom": {
+   "fr": "Mur briques rouges",
+   "en": "Red-brick wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBrick01.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250,
+   "echange": {
+    "prix": 900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "retro-flower-print-wall",
+  "nom": {
+   "fr": "Mur à fleurs rétro",
+   "en": "Retro flower-print wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallKitsch00.png",
+  "prix": {
+   "achat": 1660,
+   "vente": 415,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "retro-restaurant-wall",
+  "nom": {
+   "fr": "Mur restaurant rétro",
+   "en": "Retro restaurant wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRestaurant00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "rice-paddy-wall",
+  "nom": {
+   "fr": "Mur rizière",
+   "en": "Rice-paddy wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallFarm00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ringside-seating",
+  "nom": {
+   "fr": "Mur gymnase",
+   "en": "Ringside seating"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallWrestling00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "robo-wall",
+  "nom": {
+   "fr": "Mur robot",
+   "en": "Robo-wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRobo00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "rock-climbing-wall",
+  "nom": {
+   "fr": "Mur pierres d'escalade",
+   "en": "Rock-climbing wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBouldering00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "room-sketch-wall",
+  "nom": {
+   "fr": "Mur Joyeux décorateur",
+   "en": "Room Sketch wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSketch00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Mantin"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "rope-net-wall",
+  "nom": {
+   "fr": "Mur filet de corde",
+   "en": "Rope-net wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallRopenet00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "rose-wall",
+  "nom": {
+   "fr": "Mur de roses",
+   "en": "Rose wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRose00.png",
+  "prix": {
+   "achat": 1720,
+   "vente": 430,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ruins-wall",
+  "nom": {
+   "fr": "Mur de ruine",
+   "en": "Ruins wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRemains00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rustic-stone-wall",
+  "nom": {
+   "fr": "Mur en pierres traditionnel",
+   "en": "Rustic-stone wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStone00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1750
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "sakura-wood-wall",
+  "nom": {
+   "fr": "Mur bois sakura",
+   "en": "Sakura-wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSolidWood00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "cherry-blossom petals",
+  "v": "1.0.0"
+ },
+ {
+  "id": "sci-fi-wall",
+  "nom": {
+   "fr": "Mur science-fiction",
+   "en": "Sci-fi wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSF00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "screen-wall",
+  "nom": {
+   "fr": "Mur paravent en papier",
+   "en": "Screen wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFusuma00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sea-view",
+  "nom": {
+   "fr": "Mur front de mer",
+   "en": "Sea view"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSeaView00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "security-monitors-wall",
+  "nom": {
+   "fr": "Mur vidéosurveillance",
+   "en": "Security-monitors wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallMonitor00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sepia-puzzle-wall",
+  "nom": {
+   "fr": "Mur puzzle sépia",
+   "en": "Sepia puzzle wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPuzzle02.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "server-room-wall",
+  "nom": {
+   "fr": "Mur salle des serveurs",
+   "en": "Server-room wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallServer00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "shoji-screen",
+  "nom": {
+   "fr": "Mur shôji",
+   "en": "Shoji screen"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallShoji00.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "shutter-wall",
+  "nom": {
+   "fr": "Mur volet roulant",
+   "en": "Shutter wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallShutter00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ski-slope-wall",
+  "nom": {
+   "fr": "Mur piste de ski",
+   "en": "Ski-slope wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallGelande00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "skull-wall",
+  "nom": {
+   "fr": "Mur crânes",
+   "en": "Skull wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallSkull00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sky-wall",
+  "nom": {
+   "fr": "Mur ciel",
+   "en": "Sky wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallCloud00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "skyscraper-wall",
+  "nom": {
+   "fr": "Mur gratte-ciel",
+   "en": "Skyscraper wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSkyscraper00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "snowflake-wall",
+  "nom": {
+   "fr": "Mur flocons",
+   "en": "Snowflake wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSnowCrystal00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "soothing-tearoom-wall",
+  "nom": {
+   "fr": "Mur salon de thé apaisant",
+   "en": "Soothing tearoom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMud01.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "spooky-wall",
+  "nom": {
+   "fr": "Mur Halloween",
+   "en": "Spooky wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHalloween00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000
+  },
+  "sources": [
+   "Habitants"
+  ],
+  "notes_source": "Trade candy or a lollipop with a villager",
+  "evenement": "Halloween",
+  "v": "1.5.0"
+ },
+ {
+  "id": "stacked-wood-wall",
+  "nom": {
+   "fr": "Mur tronçons de bois",
+   "en": "Stacked-wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFireWood00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "stadium-wall",
+  "nom": {
+   "fr": "Mur stade",
+   "en": "Stadium wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallStadium00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "standard-tearoom-wall",
+  "nom": {
+   "fr": "Mur salon de thé standard",
+   "en": "Standard tearoom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMud00.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "starry-wall",
+  "nom": {
+   "fr": "Mur d'étoiles",
+   "en": "Starry wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallStarPrint00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "starry-sky-wall",
+  "nom": {
+   "fr": "Mur ciel étoilé",
+   "en": "Starry-sky wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallStarSky00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "stately-wall",
+  "nom": {
+   "fr": "Mur ouvragé",
+   "en": "Stately wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRenaissance00.png",
+  "prix": {
+   "achat": 2450,
+   "vente": 612,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "steampunk-wall",
+  "nom": {
+   "fr": "Mur steampunk",
+   "en": "Steampunk wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSteampunk00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "steel-frame-wall",
+  "nom": {
+   "fr": "Mur poutres en fer",
+   "en": "Steel-frame wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSteel00.png",
+  "prix": {
+   "achat": null,
+   "vente": 6000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "stone-wall",
+  "nom": {
+   "fr": "Mur de pierre",
+   "en": "Stone wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBasement00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "stormy-night-wall",
+  "nom": {
+   "fr": "Mur nuit d'orage",
+   "en": "Stormy-night wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallThunder00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "straw-wall",
+  "nom": {
+   "fr": "Mur paillasse",
+   "en": "Straw wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStraw00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "strawberry-chocolate-wall",
+  "nom": {
+   "fr": "Mur chocolat fraise",
+   "en": "Strawberry-chocolate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallChocolate02.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "street-art-wall",
+  "nom": {
+   "fr": "Mur street art",
+   "en": "Street-art wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStreetArt00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "summit-wall",
+  "nom": {
+   "fr": "Mur montagnes",
+   "en": "Summit wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallMountainTop00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "supermarket-wall",
+  "nom": {
+   "fr": "Mur supermarché",
+   "en": "Supermarket wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSupermarket00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "tent-wall",
+  "nom": {
+   "fr": "Mur tente",
+   "en": "Tent wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallGlamping00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "train-window-wall",
+  "nom": {
+   "fr": "Mur vitres de train",
+   "en": "Train-window wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallTrain00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "tree-lined-wall",
+  "nom": {
+   "fr": "Mur rangée d'arbres",
+   "en": "Tree-lined wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRoadsideTree00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tropical-vista",
+  "nom": {
+   "fr": "Mur vue tropiques",
+   "en": "Tropical vista"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallTropical00.png",
+  "prix": {
+   "achat": null,
+   "vente": 6000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "summer shells",
+  "v": "1.0.0"
+ },
+ {
+  "id": "turkey-day-wall",
+  "nom": {
+   "fr": "Mur fête du partage",
+   "en": "Turkey Day wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHarvest00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750
+  },
+  "sources": [
+   "Dindou"
+  ],
+  "notes_source": "Reward for giving Franklin the requested ingredients",
+  "evenement": "Turkey Day",
+  "v": "1.6.0"
+ },
+ {
+  "id": "underwater-wall",
+  "nom": {
+   "fr": "Mur fonds marins",
+   "en": "Underwater wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallFishTank00.png",
+  "prix": {
+   "achat": null,
+   "vente": 8600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "summer shells",
+  "v": "1.0.0"
+ },
+ {
+  "id": "wavy-tile-wall",
+  "nom": {
+   "fr": "Mur ondulations",
+   "en": "Wavy-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallWaveTile00.png",
+  "prix": {
+   "achat": 1740,
+   "vente": 435,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wedding-party-wall",
+  "nom": {
+   "fr": "Mur cérémonie de mariage",
+   "en": "Wedding-party wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallJuneBride00.png",
+  "prix": {
+   "achat": null,
+   "vente": 437,
+   "echange": {
+    "prix": 12,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "western-vista",
+  "nom": {
+   "fr": "Mur vue Far West",
+   "en": "Western vista"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallWilderness00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-botanical-tile-wall",
+  "nom": {
+   "fr": "Mur botanique blanc",
+   "en": "White botanical-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallWoodTile00.png",
+  "prix": {
+   "achat": 1240,
+   "vente": 310,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-delicate-blooms-wall",
+  "nom": {
+   "fr": "Mur à fleurs délicates blanc",
+   "en": "White delicate-blooms wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallManor00.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-european-style-wall",
+  "nom": {
+   "fr": "Mur à l'européenne blanc",
+   "en": "White European-style wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallFrench00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "white-hallway-wall",
+  "nom": {
+   "fr": "Mur hall gris",
+   "en": "White hallway wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHall02.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-honeycomb-tile-wall",
+  "nom": {
+   "fr": "Mur carrelage blanc",
+   "en": "White honeycomb-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHoneycomb03.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-painted-wood-wall",
+  "nom": {
+   "fr": "Mur en bois peint blanc",
+   "en": "White painted-wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPaintWood03.png",
+  "prix": {
+   "achat": 1650,
+   "vente": 412,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-perforated-board-wall",
+  "nom": {
+   "fr": "Mur panneau perforé blanc",
+   "en": "White perforated-board wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallPegboard00.png",
+  "prix": {
+   "achat": 1180,
+   "vente": 295,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-simple-cloth-wall",
+  "nom": {
+   "fr": "Mur textile blanc",
+   "en": "White simple-cloth wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSimple00.png",
+  "prix": {
+   "achat": 750,
+   "vente": 187,
+   "echange": {
+    "prix": 680,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-subway-tile-wall",
+  "nom": {
+   "fr": "Mur métro carrelé blanc",
+   "en": "White subway-tile wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMetro01.png",
+  "prix": {
+   "achat": 1340,
+   "vente": 335,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-wedding-wall",
+  "nom": {
+   "fr": "Mur mariage blanc",
+   "en": "White wedding wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallChurch00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 12,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "white-window-panel-wall",
+  "nom": {
+   "fr": "Mur blanc carreaux",
+   "en": "White window-panel wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpWallWindow00.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700,
+   "echange": {
+    "prix": 2500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "white-brick-wall",
+  "nom": {
+   "fr": "Mur briques blanches",
+   "en": "White-brick wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallBrick00.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250,
+   "echange": {
+    "prix": 900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-chocolate-wall",
+  "nom": {
+   "fr": "Mur chocolat blanc",
+   "en": "White-chocolate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallChocolate01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-rose-wall",
+  "nom": {
+   "fr": "Mur de roses blanches",
+   "en": "White-rose wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallRose02.png",
+  "prix": {
+   "achat": 1720,
+   "vente": 430,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-shelving-wall",
+  "nom": {
+   "fr": "Mur rayons blancs",
+   "en": "White-shelving wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallShelf00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "wild-wood-wall",
+  "nom": {
+   "fr": "Mur bois sauvage",
+   "en": "Wild-wood wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallWildWood00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "wooden-knot-wall",
+  "nom": {
+   "fr": "Mur lambris avec nœuds",
+   "en": "Wooden-knot wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallCedar00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "wooden-mosaic-wall",
+  "nom": {
+   "fr": "Mur lambris fin",
+   "en": "Wooden-mosaic wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallMixPlankWood00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "woodland-wall",
+  "nom": {
+   "fr": "Mur sylvestre",
+   "en": "Woodland wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallJukai00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1380
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-flower-print-wall",
+  "nom": {
+   "fr": "Mur à fleurs jaune",
+   "en": "Yellow flower-print wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlower02.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-heart-pattern-wall",
+  "nom": {
+   "fr": "Mur motif cœurs jaune",
+   "en": "Yellow heart-pattern wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallHeart02.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-intricate-wall",
+  "nom": {
+   "fr": "Mur entrelacs floraux jaune",
+   "en": "Yellow intricate wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallFlowerPop01.png",
+  "prix": {
+   "achat": 1570,
+   "vente": 392,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-playroom-wall",
+  "nom": {
+   "fr": "Mur salle de jeu jaune",
+   "en": "Yellow playroom wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallToy03.png",
+  "prix": {
+   "achat": 2540,
+   "vente": 635,
+   "echange": {
+    "prix": 2300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-quilt-wall",
+  "nom": {
+   "fr": "Mur patchwork jaune",
+   "en": "Yellow quilt wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallDollhouse02.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-simple-cloth-wall",
+  "nom": {
+   "fr": "Mur textile jaune",
+   "en": "Yellow simple-cloth wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallSimple01.png",
+  "prix": {
+   "achat": 750,
+   "vente": 187,
+   "echange": {
+    "prix": 680,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-paint-wall",
+  "nom": {
+   "fr": "Mur peint jaune",
+   "en": "Yellow-paint wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStucco00.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-striped-wall",
+  "nom": {
+   "fr": "Mur rayures jaune",
+   "en": "Yellow-striped wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallStripe04.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "zen-architecture-wall",
+  "nom": {
+   "fr": "Mur architectural zen",
+   "en": "Zen architecture wall"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexWallTwotone00.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470,
+   "echange": {
+    "prix": 1700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "2.0.0"
+ }
+]

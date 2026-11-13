@@ -1,0 +1,2939 @@
+[
+ {
+  "id": "axe",
+  "nom": {
+   "fr": "Hache",
+   "en": "Axe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAxe.png",
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "bamboo-wand",
+  "nom": {
+   "fr": "Baguette bambou",
+   "en": "Bamboo wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickBamboo.png",
+  "prix": {
+   "achat": null,
+   "vente": 3900
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "young spring bamboo",
+  "v": "1.0.0"
+ },
+ {
+  "id": "bean-tossing-kit",
+  "nom": {
+   "fr": "Kit de lancer de haricots",
+   "en": "Bean-tossing kit"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSoy0.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Setsubun",
+  "v": "1.7.0"
+ },
+ {
+  "id": "berry-vanilla-soft-serve",
+  "nom": {
+   "fr": "Glace italienne baies-vanille",
+   "en": "Berry-vanilla soft serve"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcesoft3.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "bitter-orange-folding-fan",
+  "nom": {
+   "fr": "Éventail orange amère",
+   "en": "Bitter-orange folding fan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSensu2.png",
+  "prix": {
+   "achat": null,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "blue-balloon",
+  "nom": {
+   "fr": "Ballon de baudruche bleu",
+   "en": "Blue balloon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBalloonNormal.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "blue-sparkler",
+  "nom": {
+   "fr": "Cierge magique bleu",
+   "en": "Blue sparkler"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFireworks1.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "boba-coffee",
+  "nom": {
+   "fr": "Café aux perles",
+   "en": "Boba coffee"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTapioca4.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "boba-green-tea",
+  "nom": {
+   "fr": "Thé vert aux perles",
+   "en": "Boba green tea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTapioca2.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "boba-mango-tea",
+  "nom": {
+   "fr": "Thé aux perles mangue",
+   "en": "Boba mango tea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTapioca3.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "boba-milk-tea",
+  "nom": {
+   "fr": "Thé aux perles lait",
+   "en": "Boba milk tea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTapioca0.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "boba-strawberry-tea",
+  "nom": {
+   "fr": "Thé aux perles fraise",
+   "en": "Boba strawberry tea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTapioca1.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "bubble-blower",
+  "nom": {
+   "fr": "Lance-bulles",
+   "en": "Bubble blower"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBubblesNormal.png",
+  "prix": {
+   "achat": 150,
+   "vente": 37,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "bug-wand",
+  "nom": {
+   "fr": "Baguette insecte",
+   "en": "Bug wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStcikInsect.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Djason"
+  ],
+  "evenement": "Bug-Off (1); Bug-Off (2); Bug-Off (3); Bug-Off (4)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "bunny-day-wand",
+  "nom": {
+   "fr": "Baguette fête des œufs",
+   "en": "Bunny Day wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickEgg.png",
+  "prix": {
+   "achat": null,
+   "vente": 11100
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Bunny Day",
+  "v": "1.1.0"
+ },
+ {
+  "id": "canned-apple-juice",
+  "nom": {
+   "fr": "Canette de jus de pomme",
+   "en": "Canned apple juice"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer2.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "canned-coffee",
+  "nom": {
+   "fr": "Canette de café",
+   "en": "Canned coffee"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer5.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "canned-grape-juice",
+  "nom": {
+   "fr": "Canette de jus de raisin",
+   "en": "Canned grape juice"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer1.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "canned-green-tea",
+  "nom": {
+   "fr": "Canette de thé vert",
+   "en": "Canned green tea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer3.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "canned-orange-juice",
+  "nom": {
+   "fr": "Canette de jus d'orange",
+   "en": "Canned orange juice"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer0.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "canned-soda",
+  "nom": {
+   "fr": "Canette mystère",
+   "en": "Canned soda"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer7.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "canned-sports-drink",
+  "nom": {
+   "fr": "Canette de boisson sportive",
+   "en": "Canned sports drink"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer6.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "canned-tea",
+  "nom": {
+   "fr": "Canette de thé au citron",
+   "en": "Canned tea"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCanPlayer4.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "cherry-blossom-wand",
+  "nom": {
+   "fr": "Baguette fleurs de cerisier",
+   "en": "Cherry-blossom wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickCherryblossom.png",
+  "prix": {
+   "achat": null,
+   "vente": 2700
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "cherry-blossom petals",
+  "v": "1.0.0"
+ },
+ {
+  "id": "chitose-ame",
+  "nom": {
+   "fr": "Chitose ame",
+   "en": "Chitose ame"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolChitoseame.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Shichi-Go-San",
+  "v": "1.11.0"
+ },
+ {
+  "id": "chocolate-cone",
+  "nom": {
+   "fr": "Cône chocolat",
+   "en": "Chocolate cone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecream1.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "chocolate-donut",
+  "nom": {
+   "fr": "Beignet au chocolat",
+   "en": "Chocolate donut"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolDonutPlayer.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "chocolate-frozen-treat",
+  "nom": {
+   "fr": "Délice glacé chocolat",
+   "en": "Chocolate frozen treat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecandyPlayer2.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "chocolate-soft-serve",
+  "nom": {
+   "fr": "Glace italienne chocolat",
+   "en": "Chocolate soft serve"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcesoft1.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "colorful-fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche colorée",
+   "en": "Colorful fishing rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFishingrodDuck_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-light-stick",
+  "nom": {
+   "fr": "Baguette fluo colorée",
+   "en": "Colorful light stick"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSticklightColorful.png",
+  "prix": {
+   "achat": null,
+   "vente": 450,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "colorful-net",
+  "nom": {
+   "fr": "Filet coloré",
+   "en": "Colorful net"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolNetPattern_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-shovel",
+  "nom": {
+   "fr": "Pelle colorée",
+   "en": "Colorful shovel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolScoopColorful_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-slingshot",
+  "nom": {
+   "fr": "Lance-pierre coloré",
+   "en": "Colorful slingshot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSlingshotColorful_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-watering-can",
+  "nom": {
+   "fr": "Arrosoir coloré",
+   "en": "Colorful watering can"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolWateringColorful_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "cosmos-wand",
+  "nom": {
+   "fr": "Baguette cosmos",
+   "en": "Cosmos wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickCosmos.png",
+  "prix": {
+   "achat": null,
+   "vente": 1580
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "dream-axe",
+  "nom": {
+   "fr": "Hache onirique",
+   "en": "Dream axe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAxeDream.png",
+  "prix": {
+   "achat": null,
+   "vente": 222
+  },
+  "sources": [
+   "Slumber Islands"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "dream-fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche onirique",
+   "en": "Dream fishing rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAnglingDream_Remake_0_0.png",
+  "prix": {
+   "achat": null,
+   "vente": 222
+  },
+  "sources": [
+   "Slumber Islands"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "dream-ladder",
+  "nom": {
+   "fr": "Échelle onirique",
+   "en": "Dream ladder"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolLadderDream.png",
+  "prix": {
+   "achat": null,
+   "vente": 222
+  },
+  "sources": [
+   "Slumber Islands"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "dream-net",
+  "nom": {
+   "fr": "Filet onirique",
+   "en": "Dream net"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolNetDream_Remake_0_0.png",
+  "prix": {
+   "achat": null,
+   "vente": 222
+  },
+  "sources": [
+   "Slumber Islands"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "dream-shovel",
+  "nom": {
+   "fr": "Pelle onirique",
+   "en": "Dream shovel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolScoopDream_Remake_0_0.png",
+  "prix": {
+   "achat": null,
+   "vente": 222
+  },
+  "sources": [
+   "Slumber Islands"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "dream-timer",
+  "nom": {
+   "fr": "Chronomètre onirique",
+   "en": "Dream timer"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTimerDream.png",
+  "prix": {
+   "achat": null,
+   "vente": 222
+  },
+  "sources": [
+   "Slumber Islands"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "dream-vaulting-pole",
+  "nom": {
+   "fr": "Perche onirique",
+   "en": "Dream vaulting pole"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/LongWoodenStickDream.png",
+  "prix": {
+   "achat": null,
+   "vente": 222
+  },
+  "sources": [
+   "Slumber Islands"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "dumbbell",
+  "nom": {
+   "fr": "Haltère à une main",
+   "en": "Dumbbell"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolDumbbellPlayer_Remake_0_0.png",
+  "variantes": 6,
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Sent in the mail after doing group stretches on 20 different days",
+  "v": "2.0.0"
+ },
+ {
+  "id": "duster",
+  "nom": {
+   "fr": "Plumeau",
+   "en": "Duster"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolDusterPlayer.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "elephant-watering-can",
+  "nom": {
+   "fr": "Arrosoir éléphant",
+   "en": "Elephant watering can"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolWateringElephant_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "fiery-cheer-megaphone",
+  "nom": {
+   "fr": "Még. de supporter flammes",
+   "en": "Fiery cheer megaphone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolMegaphone1.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Big Game Celebration",
+  "v": "1.7.0"
+ },
+ {
+  "id": "fish-fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche poisson",
+   "en": "Fish fishing rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFishingrodColorful_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "fish-wand",
+  "nom": {
+   "fr": "Baguette poisson",
+   "en": "Fish wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickFish.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Pollux"
+  ],
+  "evenement": "Fishing Tourney (Spring); Fishing Tourney (Summer); Fishing Tourney (Fall); Fishing Tourney (Winter)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche",
+   "en": "Fishing rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAngling_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "flimsy-axe",
+  "nom": {
+   "fr": "Hache rudimentaire",
+   "en": "Flimsy axe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAxeStone.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 100,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook",
+   "Rodrigue",
+   "Amiral"
+  ],
+  "notes_source": "Available after unlocking the axe in the story",
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "flimsy-fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche rudimentaire",
+   "en": "Flimsy fishing rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFishingrodWood.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100,
+   "echange": {
+    "prix": 100,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook",
+   "Rodrigue",
+   "Amiral"
+  ],
+  "notes_source": "Available in all tiers of shops, including Timmy & Tommy before the shop is opened",
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "flimsy-net",
+  "nom": {
+   "fr": "Filet rudimentaire",
+   "en": "Flimsy net"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolNet.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100,
+   "echange": {
+    "prix": 100,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook",
+   "Rodrigue",
+   "Amiral"
+  ],
+  "notes_source": "Available in all tiers of shops, including Timmy & Tommy before the shop is opened",
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "flimsy-shovel",
+  "nom": {
+   "fr": "Pelle rudimentaire",
+   "en": "Flimsy shovel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolShovelWood.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 100,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook",
+   "Rodrigue",
+   "Amiral"
+  ],
+  "notes_source": "Available after unlocking the shovel in the story",
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "flimsy-watering-can",
+  "nom": {
+   "fr": "Arrosoir rudimentaire",
+   "en": "Flimsy watering can"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolWateringWood.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in all tiers of shops, including Timmy & Tommy before the shop is opened",
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "flower-petal-basket",
+  "nom": {
+   "fr": "Panier de pétales",
+   "en": "Flower-petal basket"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFlowershower.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Wedding Season (Nook Shopping)",
+  "v": "1.10.0"
+ },
+ {
+  "id": "football-cheer-megaphone",
+  "nom": {
+   "fr": "Mégaphone de supporter",
+   "en": "Football cheer megaphone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolMegaphone0.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Big Game Celebration",
+  "v": "1.7.0"
+ },
+ {
+  "id": "foxtail",
+  "nom": {
+   "fr": "Vulpin",
+   "en": "Foxtail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFoxtailPlayer.png",
+  "prix": {
+   "achat": null,
+   "vente": 60
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "glittery-cheer-megaphone",
+  "nom": {
+   "fr": "Még. de supporter pailleté",
+   "en": "Glittery cheer megaphone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolMegaphone3.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Big Game Celebration",
+  "v": "1.7.0"
+ },
+ {
+  "id": "golden-axe",
+  "nom": {
+   "fr": "Hache dorée",
+   "en": "Golden axe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAxeGold.png",
+  "prix": {
+   "achat": null,
+   "vente": 10655
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-ladder-set-up-kit",
+  "nom": {
+   "fr": "Kit installation d'échelle or",
+   "en": "Golden ladder set-up kit"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/LadderKitD.png",
+  "prix": {
+   "achat": null,
+   "vente": 10720
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "golden-net",
+  "nom": {
+   "fr": "Filet doré",
+   "en": "Golden net"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolNetGold.png",
+  "prix": {
+   "achat": null,
+   "vente": 10400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-rod",
+  "nom": {
+   "fr": "Canne à pêche dorée",
+   "en": "Golden rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFishingrodGold.png",
+  "prix": {
+   "achat": null,
+   "vente": 10400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-shovel",
+  "nom": {
+   "fr": "Pelle dorée",
+   "en": "Golden shovel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolScoopGold.png",
+  "prix": {
+   "achat": null,
+   "vente": 10675
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-slingshot",
+  "nom": {
+   "fr": "Lance-pierre doré",
+   "en": "Golden slingshot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSlingshotGold.png",
+  "prix": {
+   "achat": null,
+   "vente": 10300
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-wand",
+  "nom": {
+   "fr": "Baguette d'or",
+   "en": "Golden wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickGolden.png",
+  "prix": {
+   "achat": null,
+   "vente": 20750
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-watering-can",
+  "nom": {
+   "fr": "Arrosoir doré",
+   "en": "Golden watering can"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolWateringGold.png",
+  "prix": {
+   "achat": null,
+   "vente": 10675
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "grass-green-folding-fan",
+  "nom": {
+   "fr": "Éventail vert herbe",
+   "en": "Grass-green folding fan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSensu3.png",
+  "prix": {
+   "achat": null,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "green-balloon",
+  "nom": {
+   "fr": "Ballon de baudruche vert",
+   "en": "Green balloon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBalloonNormal3.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "handheld-lantern",
+  "nom": {
+   "fr": "Lampion",
+   "en": "Handheld lantern"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolLantern_Remake_0_0.png",
+  "variantes": 6,
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Lantern Festival",
+  "v": "1.11.0"
+ },
+ {
+  "id": "hyacinth-wand",
+  "nom": {
+   "fr": "Baguette jacinthe",
+   "en": "Hyacinth wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickHyacinth.png",
+  "prix": {
+   "achat": null,
+   "vente": 1660
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "ice-wand",
+  "nom": {
+   "fr": "Baguette glace",
+   "en": "Ice wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickSnow.png",
+  "prix": {
+   "achat": null,
+   "vente": 6500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "iron-ladder-set-up-kit",
+  "nom": {
+   "fr": "Kit installation d'échelle fer",
+   "en": "Iron ladder set-up kit"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/LadderKitC0_Remake_0_0.png",
+  "variantes": 3,
+  "prix": {
+   "achat": null,
+   "vente": 5190
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "iron-wand",
+  "nom": {
+   "fr": "Baguette en fer",
+   "en": "Iron wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickIron.png",
+  "prix": {
+   "achat": null,
+   "vente": 3750
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "kiki-and-lala-wand",
+  "nom": {
+   "fr": "Baguette Kiki & Lala",
+   "en": "Kiki & Lala wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickKikilala0.png",
+  "prix": {
+   "achat": 12240,
+   "vente": 3060
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "ladder",
+  "nom": {
+   "fr": "Échelle",
+   "en": "Ladder"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolLadder.png",
+  "prix": {
+   "achat": null,
+   "vente": 1440
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "light-stick",
+  "nom": {
+   "fr": "Baguette fluo",
+   "en": "Light stick"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSticklight.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Marie",
+   "Boutique Nook"
+  ],
+  "notes_source": "Obtained by speaking to Isabelle on New Year's Eve",
+  "evenement": "Countdown",
+  "v": "1.0.0"
+ },
+ {
+  "id": "lily-wand",
+  "nom": {
+   "fr": "Baguette lys",
+   "en": "Lily wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickYuri.png",
+  "prix": {
+   "achat": null,
+   "vente": 1580
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "magic-bag",
+  "nom": {
+   "fr": "Sac à cadeaux",
+   "en": "Magic bag"
+  },
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/SantaSack.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Rodolphe"
+  ],
+  "evenement": "Toy Day",
+  "v": "1.6.0"
+ },
+ {
+  "id": "maracas",
+  "nom": {
+   "fr": "Paire de maracas",
+   "en": "Maracas"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolMaracasCarnival.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Nintendo",
+   "Nook Shopping (sélection du jour)"
+  ],
+  "notes_source": "Mailed to players after the 1.7.0 update in a letter from Nintendo",
+  "v": "1.7.0"
+ },
+ {
+  "id": "matcha-donut",
+  "nom": {
+   "fr": "Beignet au matcha",
+   "en": "Matcha donut"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolDonutPlayer3.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "matcha-vanilla-soft-serve",
+  "nom": {
+   "fr": "Glace ital. matcha-vanille",
+   "en": "Matcha-vanilla soft serve"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcesoft2.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "megaphone",
+  "nom": {
+   "fr": "Mégaphone",
+   "en": "Megaphone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolMegaphoneMike.png",
+  "prix": {
+   "achat": 3500,
+   "vente": 875
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Only available for Nintendo Switch 2 Edition players",
+  "v": "3.0.0"
+ },
+ {
+  "id": "melon-cotton-candy",
+  "nom": {
+   "fr": "Barbe à papa melon",
+   "en": "Melon cotton candy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCandyfloss2.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "melon-cheesecake-cone",
+  "nom": {
+   "fr": "Cône cheesecake melon",
+   "en": "Melon-cheesecake cone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecreamDouble1.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "mums-wand",
+  "nom": {
+   "fr": "Baguette chrysanthème",
+   "en": "Mums wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickChrysanthemum.png",
+  "prix": {
+   "achat": null,
+   "vente": 1580
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "mushroom-wand",
+  "nom": {
+   "fr": "Baguette champignon",
+   "en": "Mushroom wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickMushroom_Remake_0_0.png",
+  "variantes": 5,
+  "prix": {
+   "achat": null,
+   "vente": 3300
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "mushrooms",
+  "v": "1.0.0"
+ },
+ {
+  "id": "net",
+  "nom": {
+   "fr": "Filet",
+   "en": "Net"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolNetNormal_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "nice-branch",
+  "nom": {
+   "fr": "Branche coupée",
+   "en": "Nice branch"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBranchPlayer.png",
+  "prix": {
+   "achat": null,
+   "vente": 30
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "nook-inc-balloon",
+  "nom": {
+   "fr": "Ballon Nook Inc.",
+   "en": "Nook Inc. balloon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBalloonNook.png",
+  "prix": {
+   "achat": null,
+   "vente": 210,
+   "echange": {
+    "prix": 30,
+    "monnaie": "Nook Points"
+   }
+  },
+  "sources": [
+   "NookLink"
+  ],
+  "notes_source": "Mailed to players once ordered from NookLink within the Nintendo Switch Online app",
+  "v": "2.0.0"
+ },
+ {
+  "id": "nook-inc-handheld-pennant",
+  "nom": {
+   "fr": "Fanion portable Nook Inc.",
+   "en": "Nook Inc. handheld pennant"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolPennantRcm.png",
+  "prix": {
+   "achat": null,
+   "vente": 2500,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Échange de Miles Nook"
+  ],
+  "v": "1.4.0"
+ },
+ {
+  "id": "nook-inc-uchiwa-fan",
+  "nom": {
+   "fr": "Éventail uchiwa Nook Inc.",
+   "en": "Nook Inc. uchiwa fan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFanNook0.png",
+  "prix": {
+   "achat": null,
+   "vente": 2000,
+   "echange": {
+    "prix": 400,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Échange de Miles Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ocarina",
+  "nom": {
+   "fr": "Ocarina",
+   "en": "Ocarina"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolOcarina.png",
+  "prix": {
+   "achat": null,
+   "vente": 1000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "ocarina-of-time",
+  "nom": {
+   "fr": "Ocarina du temps",
+   "en": "Ocarina of Time"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolOcarinaTime.png",
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "orange-frozen-treat",
+  "nom": {
+   "fr": "Délice glacé orange",
+   "en": "Orange frozen treat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecandyPlayer0.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "orange-mint-cone",
+  "nom": {
+   "fr": "Cône orange-menthe",
+   "en": "Orange-mint cone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecreamDouble2.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "outdoorsy-fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche de rando",
+   "en": "Outdoorsy fishing rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFishingrodOutdoor_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "outdoorsy-net",
+  "nom": {
+   "fr": "Filet de rando",
+   "en": "Outdoorsy net"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolNetOutdoor_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "outdoorsy-shovel",
+  "nom": {
+   "fr": "Pelle de rando",
+   "en": "Outdoorsy shovel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolScoopOutdoor_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "outdoorsy-slingshot",
+  "nom": {
+   "fr": "Lance-pierre de rando",
+   "en": "Outdoorsy slingshot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSlingshotOutdoor_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "outdoorsy-watering-can",
+  "nom": {
+   "fr": "Arrosoir de rando",
+   "en": "Outdoorsy watering can"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolWateringOutdoor_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "pan-flute",
+  "nom": {
+   "fr": "Flûte de pan",
+   "en": "Pan flute"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolPanpipe.png",
+  "prix": {
+   "achat": null,
+   "vente": 2800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "young spring bamboo",
+  "v": "1.0.0"
+ },
+ {
+  "id": "pansy-wand",
+  "nom": {
+   "fr": "Baguette pensée",
+   "en": "Pansy wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickPansy.png",
+  "prix": {
+   "achat": null,
+   "vente": 1580
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "party-popper",
+  "nom": {
+   "fr": "Pétard",
+   "en": "Party popper"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCracker.png",
+  "prix": {
+   "achat": 100,
+   "vente": 25
+  },
+  "sources": [
+   "Boutique Nook",
+   "Tom Nook"
+  ],
+  "notes_source": "Available from Nook's Cranny; \nAvailable from Tom Nook during Countdown",
+  "evenement": "Countdown",
+  "v": "1.0.0"
+ },
+ {
+  "id": "peachy-pink-folding-fan",
+  "nom": {
+   "fr": "Éventail rose pêche",
+   "en": "Peachy-pink folding fan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSensu0.png",
+  "prix": {
+   "achat": null,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "pink-balloon",
+  "nom": {
+   "fr": "Ballon de baudruche rose",
+   "en": "Pink balloon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBalloonNormal4.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "pinwheel",
+  "nom": {
+   "fr": "Moulin",
+   "en": "Pinwheel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolWindmill.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "plain-cotton-candy",
+  "nom": {
+   "fr": "Barbe à papa",
+   "en": "Plain cotton candy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCandyfloss0.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "pocket-magazine",
+  "nom": {
+   "fr": "Magazine de poche",
+   "en": "Pocket magazine"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolMagazine_Remake_0_0.png",
+  "variantes": 4,
+  "prix": {
+   "achat": null,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "pocketbook",
+  "nom": {
+   "fr": "Livre de poche",
+   "en": "Pocketbook"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBookPlayer_Remake_0_0.png",
+  "variantes": 5,
+  "prix": {
+   "achat": null,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "printed-design-shovel",
+  "nom": {
+   "fr": "Pelle design",
+   "en": "Printed-design shovel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolScoopPattern_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "protein-shake",
+  "nom": {
+   "fr": "Boisson protéinée",
+   "en": "Protein shake"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolProtein_Remake_0_0.png",
+  "variantes": 4,
+  "prix": {
+   "achat": 960,
+   "vente": 240
+  },
+  "sources": [
+   "Group Stretching"
+  ],
+  "notes_source": "Sent in the mail after doing group stretches on 30 different days",
+  "v": "2.0.0"
+ },
+ {
+  "id": "rainbow-soft-serve",
+  "nom": {
+   "fr": "Glace italienne arc-en-ciel",
+   "en": "Rainbow soft serve"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcesoft4.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "ramune-soda-cotton-candy",
+  "nom": {
+   "fr": "Barbe à papa ramune",
+   "en": "Ramune-soda cotton candy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCandyfloss3.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "ramune-soda-frozen-treat",
+  "nom": {
+   "fr": "Délice glacé ramune",
+   "en": "Ramune-soda frozen treat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecandyPlayer1.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "ramune-soda-lemon-cone",
+  "nom": {
+   "fr": "Cône ramune citron",
+   "en": "Ramune-soda-lemon cone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecreamDouble0.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "red-balloon",
+  "nom": {
+   "fr": "Ballon de baudruche rouge",
+   "en": "Red balloon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBalloonNormal1.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "red-sparkler",
+  "nom": {
+   "fr": "Cierge magique rouge",
+   "en": "Red sparkler"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolFireworks.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "rose-wand",
+  "nom": {
+   "fr": "Baguette rose",
+   "en": "Rose wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickRose.png",
+  "prix": {
+   "achat": null,
+   "vente": 1580
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "shamrock-soda",
+  "nom": {
+   "fr": "Soda trèfle",
+   "en": "Shamrock soda"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolJuiceShamrock.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Shamrock Day",
+  "v": "1.8.0"
+ },
+ {
+  "id": "shamrock-wand",
+  "nom": {
+   "fr": "Baguette trèfle",
+   "en": "Shamrock wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickShamrock.png",
+  "prix": {
+   "achat": null,
+   "vente": 1560
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Shamrock Day",
+  "v": "1.8.0"
+ },
+ {
+  "id": "shell-wand",
+  "nom": {
+   "fr": "Baguette coquillage",
+   "en": "Shell wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickShell.png",
+  "prix": {
+   "achat": null,
+   "vente": 5100
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "summer shells",
+  "v": "1.0.0"
+ },
+ {
+  "id": "shovel",
+  "nom": {
+   "fr": "Pelle",
+   "en": "Shovel"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolScoop_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "sky-blue-folding-fan",
+  "nom": {
+   "fr": "Éventail bleu ciel",
+   "en": "Sky-blue folding fan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSensu1.png",
+  "prix": {
+   "achat": null,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "slingshot",
+  "nom": {
+   "fr": "Lance-pierre",
+   "en": "Slingshot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolSlingshot_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 900,
+   "vente": 225
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in all tiers of shops, including Timmy & Tommy before the shop is opened",
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "sparkling-cider",
+  "nom": {
+   "fr": "Boisson pétillante festive",
+   "en": "Sparkling cider"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolJuiceFuzzyapple.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "New Year's Eve",
+  "v": "1.6.0"
+ },
+ {
+  "id": "spooky-treats-basket",
+  "nom": {
+   "fr": "Panier bonbons Halloween",
+   "en": "Spooky treats basket"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBasketHalloween_Remake_0_0.png",
+  "variantes": 4,
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Boutique Nook"
+  ],
+  "diy": true,
+  "evenement": "Halloween (days before); Halloween",
+  "v": "1.11.0"
+ },
+ {
+  "id": "spooky-wand",
+  "nom": {
+   "fr": "Baguette Halloween",
+   "en": "Spooky wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickHalloween.png",
+  "prix": {
+   "achat": null,
+   "vente": 4300
+  },
+  "sources": [
+   "Fabrication (DIY)",
+   "Jacqu'O"
+  ],
+  "diy": true,
+  "evenement": "Halloween",
+  "v": "1.5.0"
+ },
+ {
+  "id": "star-net",
+  "nom": {
+   "fr": "Filet étoilé",
+   "en": "Star net"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolNetStar_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in Nook's Cranny (upgraded only)",
+  "v": "1.0.0"
+ },
+ {
+  "id": "star-wand",
+  "nom": {
+   "fr": "Baguette étoile",
+   "en": "Star wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolChangeStick.png",
+  "prix": {
+   "achat": null,
+   "vente": 6500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "starry-cheer-megaphone",
+  "nom": {
+   "fr": "Még. de supporter étoiles",
+   "en": "Starry cheer megaphone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolMegaphone2.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Big Game Celebration",
+  "v": "1.7.0"
+ },
+ {
+  "id": "stone-axe",
+  "nom": {
+   "fr": "Hache de pierre",
+   "en": "Stone axe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAxeStoneNormal.png",
+  "prix": {
+   "achat": null,
+   "vente": 560
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "strawberry-cone",
+  "nom": {
+   "fr": "Cône fraise",
+   "en": "Strawberry cone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecream2.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "strawberry-cotton-candy",
+  "nom": {
+   "fr": "Barbe à papa fraise",
+   "en": "Strawberry cotton candy"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCandyfloss1.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle"
+  ],
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.11.0"
+ },
+ {
+  "id": "strawberry-donut",
+  "nom": {
+   "fr": "Beignet à la fraise",
+   "en": "Strawberry donut"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolDonutPlayer2.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "takeout-coffee",
+  "nom": {
+   "fr": "Café à emporter",
+   "en": "Takeout coffee"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolCupTakeout.png",
+  "prix": {
+   "achat": null,
+   "vente": 75
+  },
+  "sources": [
+   "Robusto"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "tambourine",
+  "nom": {
+   "fr": "Tambourin",
+   "en": "Tambourine"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTambourine.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "notes_source": "Available in the re-buyable slot in Nook's Cranny",
+  "v": "1.0.0"
+ },
+ {
+  "id": "timer",
+  "nom": {
+   "fr": "Chrono",
+   "en": "Timer"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolTimer.png",
+  "prix": {
+   "achat": 840,
+   "vente": 210
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "transceiver",
+  "nom": {
+   "fr": "Transmetteur",
+   "en": "Transceiver"
+  },
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Transceiver.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Resetti"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "tree-branch-wand",
+  "nom": {
+   "fr": "Baguette branche",
+   "en": "Tree-branch wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickTree.png",
+  "prix": {
+   "achat": null,
+   "vente": 1550
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "tri-rod",
+  "nom": {
+   "fr": "Sceptre de Tri",
+   "en": "Tri Rod"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickTri0.png",
+  "prix": {
+   "achat": 13330,
+   "vente": 3332
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "tulip-wand",
+  "nom": {
+   "fr": "Baguette tulipe",
+   "en": "Tulip wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickTulip.png",
+  "prix": {
+   "achat": null,
+   "vente": 1580
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "tweeter",
+  "nom": {
+   "fr": "Sans-gêne",
+   "en": "Tweeter"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBlowouts.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "uchiwa-fan",
+  "nom": {
+   "fr": "Éventail uchiwa",
+   "en": "Uchiwa fan"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolPaperFan.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ },
+ {
+  "id": "vanilla-cone",
+  "nom": {
+   "fr": "Cône vanille",
+   "en": "Vanilla cone"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcecream0.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "vanilla-soft-serve",
+  "nom": {
+   "fr": "Glace italienne vanille",
+   "en": "Vanilla soft serve"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolIcesoft0.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "vaulting-pole",
+  "nom": {
+   "fr": "Perche",
+   "en": "Vaulting pole"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/LongWoodenStick.png",
+  "prix": {
+   "achat": null,
+   "vente": 600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "vine-ladder-set-up-kit",
+  "nom": {
+   "fr": "Kit installation échelle vigne",
+   "en": "Vine ladder set-up kit"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/LadderKitA0_Remake_0_0.png",
+  "variantes": 3,
+  "prix": {
+   "achat": null,
+   "vente": 1940
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "wand",
+  "nom": {
+   "fr": "Baguette magique",
+   "en": "Wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickWood.png",
+  "prix": {
+   "achat": null,
+   "vente": 1000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "watering-can",
+  "nom": {
+   "fr": "Arrosoir",
+   "en": "Watering can"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolWatering_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "wedding-wand",
+  "nom": {
+   "fr": "Baguette de mariage",
+   "en": "Wedding wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickJune.png",
+  "prix": {
+   "achat": null,
+   "vente": 3500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "white-chocolate-donut",
+  "nom": {
+   "fr": "Beignet au chocolat blanc",
+   "en": "White-chocolate donut"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolDonutPlayer1.png",
+  "prix": {
+   "achat": null,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Co-op Raffle"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "windflower-wand",
+  "nom": {
+   "fr": "Baguette anémone",
+   "en": "Windflower wand"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolStickAnemones.png",
+  "prix": {
+   "achat": null,
+   "vente": 1580
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "wooden-ladder-set-up-kit",
+  "nom": {
+   "fr": "Kit installation échelle bois",
+   "en": "Wooden ladder set-up kit"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/LadderKitB0_Remake_0_0.png",
+  "variantes": 6,
+  "prix": {
+   "achat": null,
+   "vente": 2040
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "worn-axe",
+  "nom": {
+   "fr": "Hache émoussée",
+   "en": "Worn axe"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolAxeFragile.png",
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "May Day Tour"
+  ],
+  "evenement": "May Day",
+  "v": "1.2.0"
+ },
+ {
+  "id": "yellow-balloon",
+  "nom": {
+   "fr": "Ballon de baudruche jaune",
+   "en": "Yellow balloon"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/ToolBalloonNormal2.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150,
+   "echange": {
+    "prix": 500,
+    "monnaie": "Bells"
+   }
+  },
+  "sources": [
+   "Redd's Raffle",
+   "Boutique Nook"
+  ],
+  "notes_source": "Available from Redd's Raffle during Fireworks Shows; Available from Nook's Cranny rotating cabinet stock outside of August",
+  "evenement": "Fireworks Show (1); Fireworks Show (2); Fireworks Show (3); Fireworks Show (4); Fireworks Show (5)",
+  "v": "1.4.0"
+ }
+]

@@ -1,0 +1,61 @@
+{
+  "name": "nook-dex",
+  "productName": "Nook Dex",
+  "version": "0.1.0",
+  "description": "Nook Dex : suivi de collection pour les jeux Animal Crossing",
+  "author": "BlancheLaGoat",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "donnees": "node scripts/nh.js && node scripts/nl.js && node scripts/cf.js && node scripts/ww.js && node scripts/gc.js && node scripts/verifier.js",
+    "donnees:nh": "node scripts/nh.js",
+    "donnees:nl": "node scripts/nl.js",
+    "donnees:cf": "node scripts/cf.js",
+    "donnees:ww": "node scripts/ww.js",
+    "donnees:gc": "node scripts/gc.js",
+    "verifier": "node scripts/verifier.js",
+    "test": "node --test tests/*.test.js",
+    "dist": "electron-builder --win",
+    "release": "electron-builder --win --publish always"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9"
+  },
+  "devDependencies": {
+    "electron": "^44.9.0",
+    "electron-builder": "^26.15.3",
+    "exceljs": "^4.4.0"
+  },
+  "build": {
+    "appId": "com.blanchelagoat.nookdex",
+    "productName": "Nook Dex",
+    "copyright": "BlancheLaGoat",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "src/**/*",
+      "data/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Nook Dex"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "BlancheLaGoat",
+        "repo": "Nook-Dex",
+        "releaseType": "release"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1356 @@
+[
+ {
+  "id": "ancient-wall",
+  "nom": {
+   "fr": "Mur hiéroglyphe",
+   "en": "Ancient wall"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Ancient_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2300
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "arched-window",
+  "nom": {
+   "fr": "Fenêtre cintrée",
+   "en": "Arched window"
+  },
+  "image": "https://dodo.ac/np/images/5/5a/Arched_Window_CF_Model.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "backgammon-wall",
+  "nom": {
+   "fr": "Mur backgammon",
+   "en": "Backgammon wall"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Backgammon_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "backyard-fence",
+  "nom": {
+   "fr": "Clôture patio",
+   "en": "Backyard fence"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Backyard_Fence_CF_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "bamboo-wall",
+  "nom": {
+   "fr": "Mur en bambou",
+   "en": "Bamboo wall"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Bamboo_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "exotic-wall",
+  "nom": {
+   "fr": "Mur teck",
+   "en": "Exotic wall"
+  },
+  "image": "https://dodo.ac/np/images/f/f7/Exotic_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "bathhouse-wall",
+  "nom": {
+   "fr": "Mur de bain",
+   "en": "Bathhouse wall"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/Bathhouse_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "blue-wall",
+  "nom": {
+   "fr": "Mur bleu",
+   "en": "Blue wall"
+  },
+  "image": "https://dodo.ac/np/images/6/6c/Blue_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1260,
+   "vente": 315
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "blue-trim-wall",
+  "nom": {
+   "fr": "Mur frise bleue",
+   "en": "Blue-trim wall"
+  },
+  "image": "https://dodo.ac/np/images/0/0c/Blue-Trim_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "cabana-wall",
+  "nom": {
+   "fr": "Mur rotin",
+   "en": "Cabana wall"
+  },
+  "image": "https://dodo.ac/np/images/f/f9/Cabana_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "cabin-wall",
+  "nom": {
+   "fr": "Mur chalet",
+   "en": "Cabin wall"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Cabin_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "chainlink-fence",
+  "nom": {
+   "fr": "Mur grillagé",
+   "en": "Chainlink fence"
+  },
+  "image": "https://dodo.ac/np/images/7/7b/Chainlink_Fence_CF_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "chic-wall",
+  "nom": {
+   "fr": "Mur rustique",
+   "en": "Chic wall"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Chic_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "citrus-wall",
+  "nom": {
+   "fr": "Mur agrume",
+   "en": "Citrus wall"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Citrus_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1120,
+   "vente": 280
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "cityscape-wall",
+  "nom": {
+   "fr": "Mur ville",
+   "en": "Cityscape wall"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Cityscape_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "classic-wall",
+  "nom": {
+   "fr": "Mur chic",
+   "en": "Classic wall"
+  },
+  "image": "https://dodo.ac/np/images/f/f2/Classic_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "library-wall",
+  "nom": {
+   "fr": "Bibliothèque",
+   "en": "Library wall"
+  },
+  "image": "https://dodo.ac/np/images/2/22/Library_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "classroom-wall",
+  "nom": {
+   "fr": "Mur bicolore",
+   "en": "Classroom wall"
+  },
+  "image": "https://dodo.ac/np/images/4/4b/Classroom_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "common-wall",
+  "nom": {
+   "fr": "Mur ordinaire",
+   "en": "Common wall"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Common_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1240,
+   "vente": 310
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "concrete-wall",
+  "nom": {
+   "fr": "Mur en béton",
+   "en": "Concrete wall"
+  },
+  "image": "https://dodo.ac/np/images/7/75/Concrete_Wall_CF_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "blue-tarp",
+  "nom": {
+   "fr": "Bâche bleue",
+   "en": "Blue tarp"
+  },
+  "image": "https://dodo.ac/np/images/8/80/Blue_Tarp_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1400
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "creepy-wallpaper",
+  "nom": {
+   "fr": "Mur lugubre",
+   "en": "Creepy wallpaper"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Creepy_Wallpaper_CF_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "WiiConnect24"
+  ]
+ },
+ {
+  "id": "desert-vista",
+  "nom": {
+   "fr": "Vue désert",
+   "en": "Desert vista"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Desert_Vista_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2250
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "dirt-clod-wall",
+  "nom": {
+   "fr": "Mur terreux",
+   "en": "Dirt-clod wall"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Dirt-Clod_Wall_CF_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "egg-wall",
+  "nom": {
+   "fr": "Mur œuf",
+   "en": "Egg wall"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Egg_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Zipper"
+  ]
+ },
+ {
+  "id": "exquisite-wall",
+  "nom": {
+   "fr": "Mur magnifique",
+   "en": "Exquisite wall"
+  },
+  "image": "https://dodo.ac/np/images/8/8b/Exquisite_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1470,
+   "vente": 367
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "floral-wall",
+  "nom": {
+   "fr": "Mur de fleurs",
+   "en": "Floral wall"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Floral_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2250,
+   "vente": 562
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "forest-wall",
+  "nom": {
+   "fr": "Mur forêt",
+   "en": "Forest wall"
+  },
+  "image": "https://dodo.ac/np/images/9/9b/Forest_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 420
+  },
+  "sources": [
+   "mushroom"
+  ]
+ },
+ {
+  "id": "garden-wall",
+  "nom": {
+   "fr": "Clôture bambous",
+   "en": "Garden wall"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Garden_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "gold-screen-wall",
+  "nom": {
+   "fr": "Mur paravent",
+   "en": "Gold screen wall"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Gold_Screen_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2180,
+   "vente": 545
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "golden-wallpaper",
+  "nom": {
+   "fr": "Mur d'or",
+   "en": "Golden wallpaper"
+  },
+  "image": "https://dodo.ac/np/images/9/92/Golden_Wallpaper_CF_Model.png",
+  "prix": {
+   "achat": 32000,
+   "vente": 8000
+  },
+  "sources": [
+   "WiiConnect24"
+  ]
+ },
+ {
+  "id": "gorgeous-wall",
+  "nom": {
+   "fr": "Mur somptueux",
+   "en": "Gorgeous wall"
+  },
+  "image": "https://dodo.ac/np/images/7/72/Gorgeous_Wall_CF_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "gracie-wallpaper",
+  "nom": {
+   "fr": "Mur Carla",
+   "en": "Gracie wallpaper"
+  },
+  "image": "https://dodo.ac/np/images/7/72/Gracie_Wallpaper_CF_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "green-wall",
+  "nom": {
+   "fr": "Mur vert",
+   "en": "Green wall"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Green_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1050,
+   "vente": 262
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "groovy-wall",
+  "nom": {
+   "fr": "Mur groovy",
+   "en": "Groovy wall"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Groovy_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "harvest-wall",
+  "nom": {
+   "fr": "Mur dindon",
+   "en": "Harvest wall"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Harvest_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1200
+  },
+  "sources": [
+   "Franklin"
+  ]
+ },
+ {
+  "id": "illusion-wall",
+  "nom": {
+   "fr": "Mur illusion",
+   "en": "Illusion wall"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Illusion_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "imperial-wall",
+  "nom": {
+   "fr": "Mur Shogun",
+   "en": "Imperial wall"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Imperial_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2660,
+   "vente": 665
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "industrial-wall",
+  "nom": {
+   "fr": "Mur d'usine",
+   "en": "Industrial wall"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Industrial_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1875
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "ivy-wall",
+  "nom": {
+   "fr": "Mur de lierre",
+   "en": "Ivy wall"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/Ivy_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1250,
+   "vente": 312
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "jingle-wall",
+  "nom": {
+   "fr": "Mur festif",
+   "en": "Jingle wall"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Jingle_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 12240
+  },
+  "sources": [
+   "Jingle"
+  ]
+ },
+ {
+  "id": "kiddie-wall",
+  "nom": {
+   "fr": "Mur crèche",
+   "en": "Kiddie wall"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Kiddie_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "kitchen-wall",
+  "nom": {
+   "fr": "Rideau de perles",
+   "en": "Kitchen wall"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Kitchen_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1120,
+   "vente": 280
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "kitschy-wall",
+  "nom": {
+   "fr": "Mur kitsch",
+   "en": "Kitschy wall"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Kitschy_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1240,
+   "vente": 310
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "lab-wall",
+  "nom": {
+   "fr": "Mur labo",
+   "en": "Lab wall"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Lab_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1460,
+   "vente": 365
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "lattice-wall",
+  "nom": {
+   "fr": "Mur tonnelle",
+   "en": "Lattice wall"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Lattice_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "lovely-wall",
+  "nom": {
+   "fr": "Mur cœur",
+   "en": "Lovely wall"
+  },
+  "image": "https://dodo.ac/np/images/a/a7/Lovely_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "manor-wall",
+  "nom": {
+   "fr": "Mur de manoir",
+   "en": "Manor wall"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Manor_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1050,
+   "vente": 262
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "meadow-vista",
+  "nom": {
+   "fr": "Vue prairie",
+   "en": "Meadow vista"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Meadow_Vista_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2000
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "mod-wall",
+  "nom": {
+   "fr": "Mur psyché",
+   "en": "Mod wall"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Mod_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "modern-screen",
+  "nom": {
+   "fr": "Mur papier riz",
+   "en": "Modern screen"
+  },
+  "image": "https://dodo.ac/np/images/9/94/Modern_Screen_CF_Model.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "modern-wall",
+  "nom": {
+   "fr": "Mur moderne",
+   "en": "Modern wall"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Modern_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "mortar-wall",
+  "nom": {
+   "fr": "Mur mortier",
+   "en": "Mortar wall"
+  },
+  "image": "https://dodo.ac/np/images/6/66/Mortar_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1750
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "mosaic-wall",
+  "nom": {
+   "fr": "Mur mosaïque",
+   "en": "Mosaic wall"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/Mosaic_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "mushroom-mural",
+  "nom": {
+   "fr": "Mur Mario",
+   "en": "Mushroom mural"
+  },
+  "image": "https://dodo.ac/np/images/9/91/Mushroom_Mural_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "balloons"
+  ]
+ },
+ {
+  "id": "office-wall",
+  "nom": {
+   "fr": "Mur pro",
+   "en": "Office wall"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Office_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1750
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "old-brick-wall",
+  "nom": {
+   "fr": "Mur de briques",
+   "en": "Old brick wall"
+  },
+  "image": "https://dodo.ac/np/images/0/05/Old_Brick_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item"
+  ]
+ },
+ {
+  "id": "old-wallpaper",
+  "nom": {
+   "fr": "Mur miteux",
+   "en": "Old wallpaper"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Old_Wallpaper_CF_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "any villager"
+  ]
+ },
+ {
+  "id": "ornate-wall",
+  "nom": {
+   "fr": "Mur ornementé",
+   "en": "Ornate wall"
+  },
+  "image": "https://dodo.ac/np/images/e/e4/Ornate_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1580,
+   "vente": 395
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item"
+  ]
+ },
+ {
+  "id": "parlor-wall",
+  "nom": {
+   "fr": "Mur petit salon",
+   "en": "Parlor wall"
+  },
+  "image": "https://dodo.ac/np/images/4/4b/Parlor_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1120,
+   "vente": 280
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "pastel-dot-wall",
+  "nom": {
+   "fr": "Mur pastel",
+   "en": "Pastel-dot wall"
+  },
+  "image": "https://dodo.ac/np/images/0/00/Pastel-Dot_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "pave-wall",
+  "nom": {
+   "fr": "Mur carnaval",
+   "en": "Pavé wall"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Pav%25C3%25A9_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Pavé"
+  ]
+ },
+ {
+  "id": "music-room-wall",
+  "nom": {
+   "fr": "Mur studio",
+   "en": "Music-room wall"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Music-Room_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1600
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "persian-wall",
+  "nom": {
+   "fr": "Mur perse",
+   "en": "Persian wall"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Persian_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "plaster-wall",
+  "nom": {
+   "fr": "Crépi jaune",
+   "en": "Plaster wall"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Plaster_Wall_CF_Model.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "playroom-wall",
+  "nom": {
+   "fr": "Mur salle de jeu",
+   "en": "Playroom wall"
+  },
+  "image": "https://dodo.ac/np/images/1/11/Playroom_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "plaza-wall",
+  "nom": {
+   "fr": "Mur plaza",
+   "en": "Plaza wall"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Plaza_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "princess-wall",
+  "nom": {
+   "fr": "Mur princesse",
+   "en": "Princess wall"
+  },
+  "image": "https://dodo.ac/np/images/f/f7/Princess_Wall_CF_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "ranch-wall",
+  "nom": {
+   "fr": "Mur ranch",
+   "en": "Ranch wall"
+  },
+  "image": "https://dodo.ac/np/images/8/8a/Ranch_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "regal-wall",
+  "nom": {
+   "fr": "Mur royal",
+   "en": "Regal wall"
+  },
+  "image": "https://dodo.ac/np/images/8/86/Regal_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2240,
+   "vente": 560
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "ringside-seating",
+  "nom": {
+   "fr": "Gymnase",
+   "en": "Ringside seating"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Ringside_Seating_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2250
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "robo-wall",
+  "nom": {
+   "fr": "Mur robot",
+   "en": "Robo-wall"
+  },
+  "image": "https://dodo.ac/np/images/1/16/Robo-Wall_CF_Model.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "rose-wall",
+  "nom": {
+   "fr": "Mur de roses",
+   "en": "Rose wall"
+  },
+  "image": "https://dodo.ac/np/images/2/28/Rose_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2240,
+   "vente": 560
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "stone-wall",
+  "nom": {
+   "fr": "Mur de pierre",
+   "en": "Stone wall"
+  },
+  "image": "https://dodo.ac/np/images/4/4b/Stone_Wall_CF_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item"
+  ]
+ },
+ {
+  "id": "sea-view",
+  "nom": {
+   "fr": "Mur front de mer",
+   "en": "Sea view"
+  },
+  "image": "https://dodo.ac/np/images/9/9c/Sea_View_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1000
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "shanty-wall",
+  "nom": {
+   "fr": "Mur baraquement",
+   "en": "Shanty wall"
+  },
+  "image": "https://dodo.ac/np/images/4/44/Shanty_Wall_CF_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "shoji-screen",
+  "nom": {
+   "fr": "Mur shôji",
+   "en": "Shoji screen"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Shoji_Screen_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1875
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "sky-wall",
+  "nom": {
+   "fr": "Mur ciel",
+   "en": "Sky wall"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Sky_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "snowman-wall",
+  "nom": {
+   "fr": "Mur Yétiti",
+   "en": "Snowman wall"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Snowman_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "spooky-wall",
+  "nom": {
+   "fr": "Mur Halloween",
+   "en": "Spooky wall"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Spooky_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 10310
+  },
+  "sources": [
+   "Jack"
+  ]
+ },
+ {
+  "id": "sporty-wall",
+  "nom": {
+   "fr": "Mur sport",
+   "en": "Sporty wall"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Sporty_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "WiiConnect24"
+  ]
+ },
+ {
+  "id": "tea-room-wall",
+  "nom": {
+   "fr": "Mur salon de thé",
+   "en": "Tea-room wall"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Tea-Room_Wall_CF_Model.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "lunar-horizon",
+  "nom": {
+   "fr": "Décor lunaire",
+   "en": "Lunar horizon"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Lunar_Horizon_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1900
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "stately-wall",
+  "nom": {
+   "fr": "Mur ouvragé",
+   "en": "Stately wall"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Stately_Wall_CF_Model.png",
+  "prix": {
+   "achat": 2450,
+   "vente": 612
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "basement-wall",
+  "nom": {
+   "fr": "Mur de cave",
+   "en": "Basement wall"
+  },
+  "image": "https://dodo.ac/np/images/f/ff/Basement_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1875
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "sweets-wall",
+  "nom": {
+   "fr": "Mur bonbons",
+   "en": "Sweets wall"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Sweets_Wall_CF_Model.png",
+  "prix": {
+   "achat": 124000,
+   "vente": 31000
+  },
+  "sources": [
+   "GracieGrace"
+  ]
+ },
+ {
+  "id": "tree-lined-wall",
+  "nom": {
+   "fr": "Rangée d'arbres",
+   "en": "Tree-lined wall"
+  },
+  "image": "https://dodo.ac/np/images/3/3d/Tree-Lined_Wall_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1850
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "tropical-vista",
+  "nom": {
+   "fr": "Vue tropiques",
+   "en": "Tropical vista"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Tropical_Vista_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2300
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "western-vista",
+  "nom": {
+   "fr": "Vue Far West",
+   "en": "Western vista"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Western_Vista_CF_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "wood-paneling",
+  "nom": {
+   "fr": "Mur en lambris",
+   "en": "Wood paneling"
+  },
+  "image": "https://dodo.ac/np/images/0/00/Wood_Paneling_CF_Model.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item"
+  ]
+ }
+]

@@ -1,0 +1,2757 @@
+[
+ {
+  "id": "bitterling",
+  "nom": {
+   "fr": "Bouvière",
+   "en": "Bitterling"
+  },
+  "n": 1,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Bouvi%C3%A8re.png",
+  "espece": "bitterling",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 900
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "pale-chub",
+  "nom": {
+   "fr": "Chevaine",
+   "en": "Pale chub"
+  },
+  "n": 2,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Chevaine.png",
+  "espece": "pale-chub",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "crucian-carp",
+  "nom": {
+   "fr": "Carassin",
+   "en": "Crucian carp"
+  },
+  "n": 3,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Carassin.png",
+  "espece": "crucian-carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "dace",
+  "nom": {
+   "fr": "Vandoise",
+   "en": "Dace"
+  },
+  "n": 4,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Vandoise.png",
+  "espece": "dace",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "barbel-steed",
+  "nom": {
+   "fr": "Barbeau",
+   "en": "Barbel steed"
+  },
+  "n": 5,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Barbeau.png",
+  "espece": "barbel-steed",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "carp",
+  "nom": {
+   "fr": "Carpe",
+   "en": "Carp"
+  },
+  "n": 6,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Carpe.png",
+  "espece": "carp",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "koi",
+  "nom": {
+   "fr": "Carpe koï",
+   "en": "Koi"
+  },
+  "n": 7,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Carpe%20ko%C3%AF.png",
+  "espece": "koi",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "goldfish",
+  "nom": {
+   "fr": "Poisson rouge",
+   "en": "Goldfish"
+  },
+  "n": 8,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson%20rouge.png",
+  "espece": "goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "popeyed-goldfish",
+  "nom": {
+   "fr": "Cyprin doré",
+   "en": "Popeyed goldfish"
+  },
+  "n": 9,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Cyprin%20dor%C3%A9.png",
+  "espece": "popeyed-goldfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "killifish",
+  "nom": {
+   "fr": "Fondule barré",
+   "en": "Killifish"
+  },
+  "n": 10,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Fondule%20barr%C3%A9.png",
+  "espece": "killifish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "crawfish",
+  "nom": {
+   "fr": "Écrevisse",
+   "en": "Crawfish"
+  },
+  "n": 11,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Ecrevisse.png",
+  "espece": "crawfish",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      14
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "frog",
+  "nom": {
+   "fr": "Grenouille",
+   "en": "Frog"
+  },
+  "n": 12,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Grenouille.png",
+  "espece": "frog",
+  "lieu": "etang",
+  "lieu_texte": "Étang",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "freshwater-goby",
+  "nom": {
+   "fr": "Gobie",
+   "en": "Freshwater goby"
+  },
+  "n": 13,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Gobie.png",
+  "espece": "freshwater-goby",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "loach",
+  "nom": {
+   "fr": "Loche d'étang",
+   "en": "Loach"
+  },
+  "n": 14,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Loche%20d'%C3%A9tang.png",
+  "espece": "loach",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "catfish",
+  "nom": {
+   "fr": "Silure",
+   "en": "Catfish"
+  },
+  "n": 15,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Silure.png",
+  "espece": "catfish",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "eel",
+  "nom": {
+   "fr": "Anguille",
+   "en": "Eel"
+  },
+  "n": 16,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Anguille.png",
+  "espece": "eel",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "longue",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      1,
+      14
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "giant-snakehead",
+  "nom": {
+   "fr": "Gobie géant",
+   "en": "Giant snakehead"
+  },
+  "n": 17,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Gobie%20g%C3%A9ant.png",
+  "espece": "giant-snakehead",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "bluegill",
+  "nom": {
+   "fr": "Crapet",
+   "en": "Bluegill"
+  },
+  "n": 18,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Crapet.png",
+  "espece": "bluegill",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "yellow-perch",
+  "nom": {
+   "fr": "Perche jaune",
+   "en": "Yellow perch"
+  },
+  "n": 19,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Perche%20jaune.png",
+  "espece": "yellow-perch",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 240
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "black-bass",
+  "nom": {
+   "fr": "Bar",
+   "en": "Black bass"
+  },
+  "n": 20,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Bar.png",
+  "espece": "black-bass",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "pike",
+  "nom": {
+   "fr": "Brochet",
+   "en": "Pike"
+  },
+  "n": 21,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Brochet.png",
+  "espece": "pike",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "pond-smelt",
+  "nom": {
+   "fr": "Éperlan",
+   "en": "Pond smelt"
+  },
+  "n": 22,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Eperlan.png",
+  "espece": "pond-smelt",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "sweetfish",
+  "nom": {
+   "fr": "Ayu",
+   "en": "Sweetfish"
+  },
+  "n": 23,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Ayu.png",
+  "espece": "sweetfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      14
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 900
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "cherry-salmon",
+  "nom": {
+   "fr": "Saumon rose",
+   "en": "Cherry salmon"
+  },
+  "n": 24,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Saumon%20rose.png",
+  "espece": "cherry-salmon",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "char",
+  "nom": {
+   "fr": "Omble",
+   "en": "Char"
+  },
+  "n": 25,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Omble.png",
+  "espece": "char",
+  "lieu": "cascade",
+  "lieu_texte": "Cascade",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "rainbow-trout",
+  "nom": {
+   "fr": "Truite",
+   "en": "Rainbow trout"
+  },
+  "n": 26,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Truite.png",
+  "espece": "rainbow-trout",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "stringfish",
+  "nom": {
+   "fr": "Dai yu",
+   "en": "Stringfish"
+  },
+  "n": 27,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Dai%20yu.png",
+  "espece": "stringfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "salmon",
+  "nom": {
+   "fr": "Saumon",
+   "en": "Salmon"
+  },
+  "n": 28,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Saumon.png",
+  "espece": "salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 700
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "king-salmon",
+  "nom": {
+   "fr": "Saumon roi",
+   "en": "King salmon"
+  },
+  "n": 29,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Saumon%20roi.png",
+  "espece": "king-salmon",
+  "lieu": "embouchure",
+  "lieu_texte": "Embouchure",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "guppy",
+  "nom": {
+   "fr": "Guppy",
+   "en": "Guppy"
+  },
+  "n": 30,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Guppy.png",
+  "espece": "guppy",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "angelfish",
+  "nom": {
+   "fr": "Poisson ange",
+   "en": "Angelfish"
+  },
+  "n": 31,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson%20ange.png",
+  "espece": "angelfish",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "neon-tetra",
+  "nom": {
+   "fr": "Néon bleu",
+   "en": "Neon tetra"
+  },
+  "n": 32,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/N%C3%A9on%20bleu.png",
+  "espece": "neon-tetra",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "piranha",
+  "nom": {
+   "fr": "Piranha",
+   "en": "Piranha"
+  },
+  "n": 33,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Piranha.png",
+  "espece": "piranha",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ],
+      [
+       21,
+       4
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       9,
+       16
+      ],
+      [
+       21,
+       4
+      ]
+     ],
+     "jours": [
+      1,
+      14
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "arowana",
+  "nom": {
+   "fr": "Arowana",
+   "en": "Arowana"
+  },
+  "n": 34,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Arowana.png",
+  "espece": "arowana",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ],
+     "jours": [
+      1,
+      14
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "dorado",
+  "nom": {
+   "fr": "Dorade",
+   "en": "Dorado"
+  },
+  "n": 35,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Dorade.png",
+  "espece": "dorado",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "gar",
+  "nom": {
+   "fr": "Gar",
+   "en": "Gar"
+  },
+  "n": 36,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Gar.png",
+  "espece": "gar",
+  "lieu": "bassin-de-riviere",
+  "lieu_texte": "Bassin de rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "arapaima",
+  "nom": {
+   "fr": "Arapaïma",
+   "en": "Arapaima"
+  },
+  "n": 37,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Arapa%C3%AFma.png",
+  "espece": "arapaima",
+  "lieu": "riviere",
+  "lieu_texte": "Rivière",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "sea-butterfly",
+  "nom": {
+   "fr": "Clione",
+   "en": "Sea butterfly"
+  },
+  "n": 38,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Clione.png",
+  "espece": "sea-butterfly",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "jellyfish",
+  "nom": {
+   "fr": "Méduse",
+   "en": "Jellyfish"
+  },
+  "n": 39,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/M%C3%A9duse.png",
+  "espece": "jellyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      15,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "sea-horse",
+  "nom": {
+   "fr": "Hippocampe",
+   "en": "Sea horse"
+  },
+  "n": 40,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Hippocampe.png",
+  "espece": "sea-horse",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1100
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "clownfish",
+  "nom": {
+   "fr": "Poisson clown",
+   "en": "Clownfish"
+  },
+  "n": 41,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson-clown.png",
+  "espece": "clownfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "1",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 650
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "surgeonfish",
+  "nom": {
+   "fr": "P. chirurgien",
+   "en": "Surgeonfish"
+  },
+  "n": 42,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson%20chirurgien.png",
+  "espece": "surgeonfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "butterflyfish",
+  "nom": {
+   "fr": "Poisson papillon",
+   "en": "Butterflyfish"
+  },
+  "n": 43,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson%20papillon.png",
+  "espece": "butterflyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "napoleonfish",
+  "nom": {
+   "fr": "Napoléon",
+   "en": "Napoleonfish"
+  },
+  "n": 44,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Napol%C3%A9on.png",
+  "espece": "napoleonfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "zebra-turkeyfish",
+  "nom": {
+   "fr": "Poisson scorpion",
+   "en": "Zebra turkeyfish"
+  },
+  "n": 45,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson%20scorpion.png",
+  "espece": "zebra-turkeyfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "puffer-fish",
+  "nom": {
+   "fr": "Poisson-lune",
+   "en": "Puffer fish"
+  },
+  "n": 46,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson-lune.png",
+  "espece": "puffer-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 240
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "horse-mackerel",
+  "nom": {
+   "fr": "Chinchard",
+   "en": "Horse mackerel"
+  },
+  "n": 47,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Chinchard.png",
+  "espece": "horse-mackerel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 150
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "barred-knifejaw",
+  "nom": {
+   "fr": "Scarus",
+   "en": "Barred knifejaw"
+  },
+  "n": 48,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Scarus.png",
+  "espece": "barred-knifejaw",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 5000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "sea-bass",
+  "nom": {
+   "fr": "Bar commun",
+   "en": "Sea bass"
+  },
+  "n": 49,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Bar%20commun.png",
+  "espece": "sea-bass",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "red-snapper",
+  "nom": {
+   "fr": "Vivaneau",
+   "en": "Red snapper"
+  },
+  "n": 50,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Vivaneau.png",
+  "espece": "red-snapper",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "dab",
+  "nom": {
+   "fr": "Limande",
+   "en": "Dab"
+  },
+  "n": 51,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Limande.png",
+  "espece": "dab",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "olive-flounder",
+  "nom": {
+   "fr": "Cardeau",
+   "en": "Olive flounder"
+  },
+  "n": 52,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Cardeau.png",
+  "espece": "olive-flounder",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "squid",
+  "nom": {
+   "fr": "Calmar",
+   "en": "Squid"
+  },
+  "n": 53,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Calmar.png",
+  "espece": "squid",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      1,
+      14
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "octopus",
+  "nom": {
+   "fr": "Poulpe",
+   "en": "Octopus"
+  },
+  "n": 54,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poulpe.png",
+  "espece": "octopus",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "2",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      15,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "lobster",
+  "nom": {
+   "fr": "Homard",
+   "en": "Lobster"
+  },
+  "n": 55,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Homard.png",
+  "espece": "lobster",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "moray-eel",
+  "nom": {
+   "fr": "Murène",
+   "en": "Moray eel"
+  },
+  "n": 56,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Mur%C3%A8ne.png",
+  "espece": "moray-eel",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "4",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "football-fish",
+  "nom": {
+   "fr": "Poisson lanterne",
+   "en": "Football fish"
+  },
+  "n": 57,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Poisson%20lanterne.png",
+  "espece": "football-fish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "3",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "tuna",
+  "nom": {
+   "fr": "Thon",
+   "en": "Tuna"
+  },
+  "n": 58,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Thon.png",
+  "espece": "tuna",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 7000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "blue-marlin",
+  "nom": {
+   "fr": "Marlin bleu",
+   "en": "Blue marlin"
+  },
+  "n": 59,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Marlin%20bleu.png",
+  "espece": "blue-marlin",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "ray",
+  "nom": {
+   "fr": "Raie",
+   "en": "Ray"
+  },
+  "n": 60,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Raie.png",
+  "espece": "ray",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "ocean-sunfish",
+  "nom": {
+   "fr": "Lune de mer",
+   "en": "Ocean sunfish"
+  },
+  "n": 61,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Lune%20de%20mer.png",
+  "espece": "ocean-sunfish",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       21
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "hammerhead-shark",
+  "nom": {
+   "fr": "Requin marteau",
+   "en": "Hammerhead shark"
+  },
+  "n": 62,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Requin%20marteau.png",
+  "espece": "hammerhead-shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "shark",
+  "nom": {
+   "fr": "Requin",
+   "en": "Shark"
+  },
+  "n": 63,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/Requin.png",
+  "espece": "shark",
+  "lieu": "mer",
+  "lieu_texte": "Mer",
+  "ombre": "6-aileron",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ },
+ {
+  "id": "coelacanth",
+  "nom": {
+   "fr": "Cœlacanthe",
+   "en": "Coelacanth"
+  },
+  "n": 64,
+  "image": "https://www.animalcrossing-online.com/let-s-go-to-the-city-wii/img/poissons/C%C5%93lacanthe.png",
+  "espece": "coelacanth",
+  "lieu": "mer-quand-il-pleut-ou-neige",
+  "lieu_texte": "Mer (quand il pleut ou neige)",
+  "ombre": "6",
+  "conditions": [
+   "pluie-neige"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       9
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 15000
+  },
+  "musee": true,
+  "notes": [
+   "Mois et heures tirés du code du jeu (taux d'apparition)."
+  ]
+ }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' nookimg: data:; style-src 'self' 'unsafe-inline'; script-src 'self'">
+  <title>Nook Dex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="barre-haut">
+      <div class="logo" aria-label="Nook Dex"><span class="logo-feuille">🍃</span> Nook Dex</div>
+      <button id="choix-profil" class="bouton-profil" title="Changer de profil"></button>
+      <div class="espace"></div>
+      <button id="horloge" class="horloge" title="Date et heure utilisées pour « disponible maintenant »"></button>
+      <button id="bouton-theme" class="bouton-icone" title="Thème clair / sombre">🌙</button>
+      <button id="bouton-reglages" class="bouton-icone" title="Réglages">⚙️</button>
+    </header>
+    <div class="corps">
+      <nav id="menu" class="menu"></nav>
+      <main id="contenu" class="contenu"></main>
+    </div>
+  </div>
+  <aside id="fiche" class="fiche" aria-hidden="true"></aside>
+  <div id="fenetres"></div>
+  <div id="notifications" class="notifications"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

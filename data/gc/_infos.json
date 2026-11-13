@@ -1,0 +1,36 @@
+{
+ "genere_le": "2026-11-13",
+ "sources": [
+  {
+   "nom": "Nookipedia",
+   "url": "https://nookipedia.com"
+  },
+  {
+   "nom": "Data Spreadsheet for Animal Crossing (GCN)",
+   "url": "https://nookipedia.com/wiki/Community:ACGC_Spreadsheet"
+  }
+ ],
+ "note": "Nook Dex suit la version européenne (Animal Crossing). La version japonaise Dōbutsu no Mori e+ a 8 insectes et 8 poissons en plus (coconut crab, crab, diving beetle, dung beetle, flea, hermit crab, hercules beetle, Alexandra's swallowtail butterfly, blue marlin, dab, horse mackerel, octopus, olive flounder, balloonfish, seahorse, squid). Chaque fiche indique dans quelles versions l'élément existe.",
+ "versions_japonaises": {
+  "insectes_e_plus": [
+   "coconut crab",
+   "crab",
+   "diving beetle",
+   "dung beetle",
+   "flea",
+   "hermit crab",
+   "hercules beetle",
+   "Alexandra's swallowtail butterfly"
+  ],
+  "poissons_e_plus": [
+   "blue marlin",
+   "dab",
+   "horse mackerel",
+   "octopus",
+   "olive flounder",
+   "balloonfish",
+   "seahorse",
+   "squid"
+  ]
+ }
+}

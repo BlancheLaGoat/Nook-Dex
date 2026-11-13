@@ -1,0 +1,1535 @@
+[
+ {
+  "id": "acanthostega",
+  "nom": {
+   "fr": "Acanthostéga",
+   "en": "Acanthostega"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilFirstFourLegs.png",
+  "groupe": {
+   "id": "acanthostega",
+   "fr": "Acanthostéga",
+   "en": "acanthostega"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 2000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "amber",
+  "nom": {
+   "fr": "Ambre",
+   "en": "Amber"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilAmber.png",
+  "groupe": {
+   "id": "amber",
+   "fr": "Ambre",
+   "en": "amber"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 1200
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ammonite",
+  "nom": {
+   "fr": "Ammonite",
+   "en": "Ammonite"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilAmmonoidea.png",
+  "groupe": {
+   "id": "ammonite",
+   "fr": "Ammonite",
+   "en": "ammonite"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 1100
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ankylo-skull",
+  "nom": {
+   "fr": "Crâne d'ankylosaure",
+   "en": "Ankylo skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilAnkylosaurusA.png",
+  "groupe": {
+   "id": "ankylosaurus",
+   "fr": "Ankylosaure",
+   "en": "Ankylosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ankylo-tail",
+  "nom": {
+   "fr": "Queue d'ankylosaure",
+   "en": "Ankylo tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilAnkylosaurusC.png",
+  "groupe": {
+   "id": "ankylosaurus",
+   "fr": "Ankylosaure",
+   "en": "Ankylosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 2500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ankylo-torso",
+  "nom": {
+   "fr": "Torse d'ankylosaure",
+   "en": "Ankylo torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilAnkylosaurusB.png",
+  "groupe": {
+   "id": "ankylosaurus",
+   "fr": "Ankylosaure",
+   "en": "Ankylosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "anomalocaris",
+  "nom": {
+   "fr": "Anomalocaris",
+   "en": "Anomalocaris"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilAnomalocaris.png",
+  "groupe": {
+   "id": "anomalocaris",
+   "fr": "Anomalocaris",
+   "en": "anomalocaris"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 2000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "archaeopteryx",
+  "nom": {
+   "fr": "Archéoptéryx",
+   "en": "Archaeopteryx"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilArchaeopteryx.png",
+  "groupe": {
+   "id": "archaeopteryx",
+   "fr": "Archéoptéryx",
+   "en": "archaeopteryx"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 1300
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "archelon-skull",
+  "nom": {
+   "fr": "Crâne d'archélon",
+   "en": "Archelon skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilArchelonA.png",
+  "groupe": {
+   "id": "archelon",
+   "fr": "Archélon",
+   "en": "Archelon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "archelon-tail",
+  "nom": {
+   "fr": "Queue d'archélon",
+   "en": "Archelon tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilArchelonB.png",
+  "groupe": {
+   "id": "archelon",
+   "fr": "Archélon",
+   "en": "Archelon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "australopith",
+  "nom": {
+   "fr": "Australopithèque",
+   "en": "Australopith"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilAustralopithecus.png",
+  "groupe": {
+   "id": "australopith",
+   "fr": "Australopithèque",
+   "en": "australopith"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 1100
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "brachio-chest",
+  "nom": {
+   "fr": "Torse de brachiosaure",
+   "en": "Brachio chest"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilBrachiosaurusB.png",
+  "groupe": {
+   "id": "brachiosaurus",
+   "fr": "Brachiosaure",
+   "en": "Brachiosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "brachio-pelvis",
+  "nom": {
+   "fr": "Bassin de brachiosaure",
+   "en": "Brachio pelvis"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilBrachiosaurusC.png",
+  "groupe": {
+   "id": "brachiosaurus",
+   "fr": "Brachiosaure",
+   "en": "Brachiosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "brachio-skull",
+  "nom": {
+   "fr": "Crâne de brachiosaure",
+   "en": "Brachio skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilBrachiosaurusA.png",
+  "groupe": {
+   "id": "brachiosaurus",
+   "fr": "Brachiosaure",
+   "en": "Brachiosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 6000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "brachio-tail",
+  "nom": {
+   "fr": "Queue de brachiosaure",
+   "en": "Brachio tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilBrachiosaurusD.png",
+  "groupe": {
+   "id": "brachiosaurus",
+   "fr": "Brachiosaure",
+   "en": "Brachiosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "coprolite",
+  "nom": {
+   "fr": "Coprolithe",
+   "en": "Coprolite"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilCoprolite.png",
+  "groupe": {
+   "id": "coprolite",
+   "fr": "Coprolithe",
+   "en": "coprolite"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 1100
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "deinony-tail",
+  "nom": {
+   "fr": "Queue de déinonychus",
+   "en": "Deinony tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDeinonychusB.png",
+  "groupe": {
+   "id": "deinonychus",
+   "fr": "Déinonychus",
+   "en": "Deinonychus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 2500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "deinony-torso",
+  "nom": {
+   "fr": "Torse de déinonychus",
+   "en": "Deinony torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDeinonychusA.png",
+  "groupe": {
+   "id": "deinonychus",
+   "fr": "Déinonychus",
+   "en": "Deinonychus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "dimetrodon-skull",
+  "nom": {
+   "fr": "Crâne de dimétrodon",
+   "en": "Dimetrodon skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDimetrodonA.png",
+  "groupe": {
+   "id": "dimetrodon",
+   "fr": "Dimétrodon",
+   "en": "Dimetrodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "dimetrodon-torso",
+  "nom": {
+   "fr": "Corps de dimétrodon",
+   "en": "Dimetrodon torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDimetrodonB.png",
+  "groupe": {
+   "id": "dimetrodon",
+   "fr": "Dimétrodon",
+   "en": "Dimetrodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "dinosaur-track",
+  "nom": {
+   "fr": "Empreinte de dinosaure",
+   "en": "Dinosaur track"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilIchnology.png",
+  "groupe": {
+   "id": "dinosaur-track",
+   "fr": "Empreinte de dinosaure",
+   "en": "dinosaur track"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 1000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "diplo-chest",
+  "nom": {
+   "fr": "Torse de diplodocus",
+   "en": "Diplo chest"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDiplodocusC.png",
+  "groupe": {
+   "id": "diplodocus",
+   "fr": "Diplodocus",
+   "en": "Diplodocus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "diplo-neck",
+  "nom": {
+   "fr": "Cou de diplodocus",
+   "en": "Diplo neck"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDiplodocusB.png",
+  "groupe": {
+   "id": "diplodocus",
+   "fr": "Diplodocus",
+   "en": "Diplodocus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "diplo-pelvis",
+  "nom": {
+   "fr": "Bassin de diplodocus",
+   "en": "Diplo pelvis"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDiplodocusD.png",
+  "groupe": {
+   "id": "diplodocus",
+   "fr": "Diplodocus",
+   "en": "Diplodocus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "diplo-skull",
+  "nom": {
+   "fr": "Crâne de diplodocus",
+   "en": "Diplo skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDiplodocusA.png",
+  "groupe": {
+   "id": "diplodocus",
+   "fr": "Diplodocus",
+   "en": "Diplodocus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "diplo-tail",
+  "nom": {
+   "fr": "Queue de diplodocus",
+   "en": "Diplo tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDiplodocusE.png",
+  "groupe": {
+   "id": "diplodocus",
+   "fr": "Diplodocus",
+   "en": "Diplodocus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "diplo-tail-tip",
+  "nom": {
+   "fr": "Pointe de queue de diplo",
+   "en": "Diplo tail tip"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDiplodocusF.png",
+  "groupe": {
+   "id": "diplodocus",
+   "fr": "Diplodocus",
+   "en": "Diplodocus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "dunkleosteus",
+  "nom": {
+   "fr": "Dunkléostéus",
+   "en": "Dunkleosteus"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilDunkleosteus.png",
+  "groupe": {
+   "id": "dunkleosteus",
+   "fr": "Dunkléostéus",
+   "en": "dunkleosteus"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 3500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "eusthenopteron",
+  "nom": {
+   "fr": "Eusthénoptéron",
+   "en": "Eusthenopteron"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilFirstAmphibian.png",
+  "groupe": {
+   "id": "eusthenopteron",
+   "fr": "Eusthénoptéron",
+   "en": "eusthenopteron"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 2000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "iguanodon-skull",
+  "nom": {
+   "fr": "Crâne d'iguanodon",
+   "en": "Iguanodon skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilIguanodonA.png",
+  "groupe": {
+   "id": "iguanodon",
+   "fr": "Iguanodon",
+   "en": "Iguanodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "iguanodon-tail",
+  "nom": {
+   "fr": "Queue d'iguanodon",
+   "en": "Iguanodon tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilIguanodonC.png",
+  "groupe": {
+   "id": "iguanodon",
+   "fr": "Iguanodon",
+   "en": "Iguanodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "iguanodon-torso",
+  "nom": {
+   "fr": "Torse d'iguanodon",
+   "en": "Iguanodon torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilIguanodonB.png",
+  "groupe": {
+   "id": "iguanodon",
+   "fr": "Iguanodon",
+   "en": "Iguanodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "juramaia",
+  "nom": {
+   "fr": "Juramaia",
+   "en": "Juramaia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilFirstMammal.png",
+  "groupe": {
+   "id": "juramaia",
+   "fr": "Juramaia",
+   "en": "juramaia"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 1500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "left-megalo-side",
+  "nom": {
+   "fr": "Partie gauche de mégacéros",
+   "en": "Left megalo side"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilMegalocerosB.png",
+  "groupe": {
+   "id": "megaloceros",
+   "fr": "Mégacéros",
+   "en": "Megaloceros"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "left-ptera-wing",
+  "nom": {
+   "fr": "Aile gauche de ptéranodon",
+   "en": "Left ptera wing"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilPteranodonC.png",
+  "groupe": {
+   "id": "pteranodon",
+   "fr": "Ptéranodon",
+   "en": "Pteranodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "left-quetzal-wing",
+  "nom": {
+   "fr": "Aile gauche de quetzal",
+   "en": "Left quetzal wing"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilQuetzalcoatlusC.png",
+  "groupe": {
+   "id": "quetzalcoatlus",
+   "fr": "Quetzalcoatlus",
+   "en": "Quetzalcoatlus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "mammoth-skull",
+  "nom": {
+   "fr": "Crâne de mammouth",
+   "en": "Mammoth skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilMammothA.png",
+  "groupe": {
+   "id": "mammoth",
+   "fr": "Mammouth",
+   "en": "Mammoth"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 3000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "mammoth-torso",
+  "nom": {
+   "fr": "Corps de mammouth",
+   "en": "Mammoth torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilMammothB.png",
+  "groupe": {
+   "id": "mammoth",
+   "fr": "Mammouth",
+   "en": "Mammoth"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 2500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "megacero-skull",
+  "nom": {
+   "fr": "Crâne de brontothérium",
+   "en": "Megacero skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilBrontotheriumA.png",
+  "groupe": {
+   "id": "megacerops",
+   "fr": "Brontothérium",
+   "en": "Megacerops"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "megacero-tail",
+  "nom": {
+   "fr": "Queue de brontothérium",
+   "en": "Megacero tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilBrontotheriumC.png",
+  "groupe": {
+   "id": "megacerops",
+   "fr": "Brontothérium",
+   "en": "Megacerops"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 3000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "megacero-torso",
+  "nom": {
+   "fr": "Corps de brontothérium",
+   "en": "Megacero torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilBrontotheriumB.png",
+  "groupe": {
+   "id": "megacerops",
+   "fr": "Brontothérium",
+   "en": "Megacerops"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 3500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "myllokunmingia",
+  "nom": {
+   "fr": "Myllokunmingia",
+   "en": "Myllokunmingia"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilFirstFish.png",
+  "groupe": {
+   "id": "myllokunmingia",
+   "fr": "Myllokunmingia",
+   "en": "myllokunmingia"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 1500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ophthalmo-skull",
+  "nom": {
+   "fr": "Crâne d'ophtalmosaure",
+   "en": "Ophthalmo skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilOphthalmosaurusA.png",
+  "groupe": {
+   "id": "ophthalmosaurus",
+   "fr": "Ophtalmosaure",
+   "en": "Ophthalmosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 2500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ophthalmo-torso",
+  "nom": {
+   "fr": "Corps d'ophtalmosaure",
+   "en": "Ophthalmo torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilOphthalmosaurusB.png",
+  "groupe": {
+   "id": "ophthalmosaurus",
+   "fr": "Ophtalmosaure",
+   "en": "Ophthalmosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 2000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "pachy-skull",
+  "nom": {
+   "fr": "Crâne de pachycéphal",
+   "en": "Pachy skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilPachycephalosaurusA.png",
+  "groupe": {
+   "id": "pachycephalosaurus",
+   "fr": "Pachycéphalosaure",
+   "en": "Pachycephalosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "pachy-tail",
+  "nom": {
+   "fr": "Queue de pachycéphal",
+   "en": "Pachy tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilPachycephalosaurusB.png",
+  "groupe": {
+   "id": "pachycephalosaurus",
+   "fr": "Pachycéphalosaure",
+   "en": "Pachycephalosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "parasaur-skull",
+  "nom": {
+   "fr": "Crâne de parasaurolophus",
+   "en": "Parasaur skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilParasaurolophusA.png",
+  "groupe": {
+   "id": "parasaurolophus",
+   "fr": "Parasaurolophus",
+   "en": "Parasaurolophus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "parasaur-tail",
+  "nom": {
+   "fr": "Queue de parasaurolophus",
+   "en": "Parasaur tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilParasaurolophusC.png",
+  "groupe": {
+   "id": "parasaurolophus",
+   "fr": "Parasaurolophus",
+   "en": "Parasaurolophus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 2500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "parasaur-torso",
+  "nom": {
+   "fr": "Torse de parasaurolophus",
+   "en": "Parasaur torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilParasaurolophusB.png",
+  "groupe": {
+   "id": "parasaurolophus",
+   "fr": "Parasaurolophus",
+   "en": "Parasaurolophus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "plesio-skull",
+  "nom": {
+   "fr": "Crâne de plésiosaure",
+   "en": "Plesio skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilElasmosaurusA.png",
+  "groupe": {
+   "id": "plesiosaurus",
+   "fr": "Plésiosaure",
+   "en": "Plesiosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "plesio-tail",
+  "nom": {
+   "fr": "Queue de plésiosaure",
+   "en": "Plesio tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilElasmosaurusC.png",
+  "groupe": {
+   "id": "plesiosaurus",
+   "fr": "Plésiosaure",
+   "en": "Plesiosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "plesio-torso",
+  "nom": {
+   "fr": "Corps de plésiosaure",
+   "en": "Plesio torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilElasmosaurusB.png",
+  "groupe": {
+   "id": "plesiosaurus",
+   "fr": "Plésiosaure",
+   "en": "Plesiosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ptera-body",
+  "nom": {
+   "fr": "Corps de ptéranodon",
+   "en": "Ptera body"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilPteranodonA.png",
+  "groupe": {
+   "id": "pteranodon",
+   "fr": "Ptéranodon",
+   "en": "Pteranodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "quetzal-torso",
+  "nom": {
+   "fr": "Corps de quetzal",
+   "en": "Quetzal torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilQuetzalcoatlusA.png",
+  "groupe": {
+   "id": "quetzalcoatlus",
+   "fr": "Quetzalcoatlus",
+   "en": "Quetzalcoatlus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "right-megalo-side",
+  "nom": {
+   "fr": "Partie droite de mégacéros",
+   "en": "Right megalo side"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilMegalocerosA.png",
+  "groupe": {
+   "id": "megaloceros",
+   "fr": "Mégacéros",
+   "en": "Megaloceros"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 5500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "right-ptera-wing",
+  "nom": {
+   "fr": "Aile droite de ptéranodon",
+   "en": "Right ptera wing"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilPteranodonB.png",
+  "groupe": {
+   "id": "pteranodon",
+   "fr": "Ptéranodon",
+   "en": "Pteranodon"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "right-quetzal-wing",
+  "nom": {
+   "fr": "Aile droite de quetzal",
+   "en": "Right quetzal wing"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilQuetzalcoatlusB.png",
+  "groupe": {
+   "id": "quetzalcoatlus",
+   "fr": "Quetzalcoatlus",
+   "en": "Quetzalcoatlus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "sabertooth-skull",
+  "nom": {
+   "fr": "Crâne de smilodon",
+   "en": "Sabertooth skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilSmilodonA.png",
+  "groupe": {
+   "id": "sabertooth-tiger",
+   "fr": "Smilodon",
+   "en": "Sabertooth Tiger"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 2500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "sabertooth-tail",
+  "nom": {
+   "fr": "Queue de smilodon",
+   "en": "Sabertooth tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilSmilodonB.png",
+  "groupe": {
+   "id": "sabertooth-tiger",
+   "fr": "Smilodon",
+   "en": "Sabertooth Tiger"
+  },
+  "salle": "Salle 3",
+  "prix": {
+   "vente": 2000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "shark-tooth-pattern",
+  "nom": {
+   "fr": "Mandibule d'hélicoprion",
+   "en": "Shark-tooth pattern"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilShark.png",
+  "groupe": {
+   "id": "shark-tooth-pattern",
+   "fr": "Mandibule d'hélicoprion",
+   "en": "shark-tooth pattern"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 1000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "spino-skull",
+  "nom": {
+   "fr": "Crâne de spinosaure",
+   "en": "Spino skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilSpinosaurusA.png",
+  "groupe": {
+   "id": "spinosaurus",
+   "fr": "Spinosaure",
+   "en": "Spinosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "spino-tail",
+  "nom": {
+   "fr": "Queue de spinosaure",
+   "en": "Spino tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilSpinosaurusC.png",
+  "groupe": {
+   "id": "spinosaurus",
+   "fr": "Spinosaure",
+   "en": "Spinosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 2500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "spino-torso",
+  "nom": {
+   "fr": "Corps de spinosaure",
+   "en": "Spino torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilSpinosaurusB.png",
+  "groupe": {
+   "id": "spinosaurus",
+   "fr": "Spinosaure",
+   "en": "Spinosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 3000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "stego-skull",
+  "nom": {
+   "fr": "Crâne de stégosaure",
+   "en": "Stego skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilStegosaurusA.png",
+  "groupe": {
+   "id": "stegosaurus",
+   "fr": "Stégosaure",
+   "en": "Stegosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "stego-tail",
+  "nom": {
+   "fr": "Queue de stégosaure",
+   "en": "Stego tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilStegosaurusC.png",
+  "groupe": {
+   "id": "stegosaurus",
+   "fr": "Stégosaure",
+   "en": "Stegosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "stego-torso",
+  "nom": {
+   "fr": "Corps de stégosaure",
+   "en": "Stego torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilStegosaurusB.png",
+  "groupe": {
+   "id": "stegosaurus",
+   "fr": "Stégosaure",
+   "en": "Stegosaurus"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "t-rex-skull",
+  "nom": {
+   "fr": "Crâne de tyrannosaure",
+   "en": "T. rex skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilTRexA.png",
+  "groupe": {
+   "id": "t-rex",
+   "fr": "Tyrannosaure",
+   "en": "T. Rex"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 6000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "t-rex-tail",
+  "nom": {
+   "fr": "Queue de tyrannosaure",
+   "en": "T. rex tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilTRexC.png",
+  "groupe": {
+   "id": "t-rex",
+   "fr": "Tyrannosaure",
+   "en": "T. Rex"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "t-rex-torso",
+  "nom": {
+   "fr": "Corps de tyrannosaure",
+   "en": "T. rex torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilTRexB.png",
+  "groupe": {
+   "id": "t-rex",
+   "fr": "Tyrannosaure",
+   "en": "T. Rex"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "tricera-skull",
+  "nom": {
+   "fr": "Crâne de tricératops",
+   "en": "Tricera skull"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilTriceratopsA.png",
+  "groupe": {
+   "id": "triceratops",
+   "fr": "Tricératops",
+   "en": "Triceratops"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "tricera-tail",
+  "nom": {
+   "fr": "Queue de tricératops",
+   "en": "Tricera tail"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilTriceratopsC.png",
+  "groupe": {
+   "id": "triceratops",
+   "fr": "Tricératops",
+   "en": "Triceratops"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 4500
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "tricera-torso",
+  "nom": {
+   "fr": "Corps de tricératops",
+   "en": "Tricera torso"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilTriceratopsB.png",
+  "groupe": {
+   "id": "triceratops",
+   "fr": "Tricératops",
+   "en": "Triceratops"
+  },
+  "salle": "Salle 2",
+  "prix": {
+   "vente": 5000
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ },
+ {
+  "id": "trilobite",
+  "nom": {
+   "fr": "Trilobite",
+   "en": "Trilobite"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrFossilTrilobite.png",
+  "groupe": {
+   "id": "trilobite",
+   "fr": "Trilobite",
+   "en": "trilobite"
+  },
+  "salle": "Salle 1",
+  "prix": {
+   "vente": 1300
+  },
+  "sources": [
+   "Expertise des fossiles"
+  ],
+  "musee": true
+ }
+]

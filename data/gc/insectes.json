@@ -1,0 +1,2276 @@
+[
+ {
+  "id": "common-butterfly",
+  "nom": {
+   "fr": "Papillon commun",
+   "en": "Common butterfly"
+  },
+  "n": 1,
+  "image": "https://dodo.ac/np/images/7/79/Common_Butterfly_PG_Icon.png",
+  "espece": "common-butterfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "yellow-butterfly",
+  "nom": {
+   "fr": "Brocatelle d'or",
+   "en": "Yellow butterfly"
+  },
+  "n": 2,
+  "image": "https://dodo.ac/np/images/b/be/Yellow_Butterfly_PG_Icon.png",
+  "espece": "yellow-butterfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "tiger-butterfly",
+  "nom": {
+   "fr": "Machaon",
+   "en": "Tiger butterfly"
+  },
+  "n": 3,
+  "image": "https://dodo.ac/np/images/9/9a/Tiger_Butterfly_PG_Icon.png",
+  "espece": "tiger-butterfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "purple-butterfly",
+  "nom": {
+   "fr": "Pyrale sanguine",
+   "en": "Purple butterfly"
+  },
+  "n": 4,
+  "image": "https://dodo.ac/np/images/8/82/Purple_Butterfly_PG_Icon.png",
+  "espece": "purple-butterfly",
+  "lieu": "vole-autour-des-arbres",
+  "lieu_texte": "Vole autour des arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "brown-cicada",
+  "nom": {
+   "fr": "Cercope",
+   "en": "Brown cicada"
+  },
+  "n": 5,
+  "image": "https://dodo.ac/np/images/6/6b/Brown_Cicada_PG_Icon.png",
+  "espece": "brown-cicada",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "robust-cicada",
+  "nom": {
+   "fr": "Cigale",
+   "en": "Robust cicada"
+  },
+  "n": 6,
+  "image": "https://dodo.ac/np/images/2/27/Robust_Cicada_PG_Icon.png",
+  "espece": "robust-cicada",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "walker-cicada",
+  "nom": {
+   "fr": "Cicadelle",
+   "en": "Walker cicada"
+  },
+  "n": 7,
+  "image": "https://dodo.ac/np/images/e/e5/Walker_Cicada_PG_Icon.png",
+  "espece": "walker-cicada",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "evening-cicada",
+  "nom": {
+   "fr": "Criquet du soir",
+   "en": "Evening cicada"
+  },
+  "n": 8,
+  "image": "https://dodo.ac/np/images/4/40/Evening_Cicada_PG_Icon.png",
+  "espece": "evening-cicada",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       16,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       16,
+       19
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 850
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "red-dragonfly",
+  "nom": {
+   "fr": "Demoiselle",
+   "en": "Red dragonfly"
+  },
+  "n": 9,
+  "image": "https://dodo.ac/np/images/2/2d/Red_Dragonfly_PG_Icon.png",
+  "espece": "red-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "common-dragonfly",
+  "nom": {
+   "fr": "Orthetrum",
+   "en": "Common dragonfly"
+  },
+  "n": 10,
+  "image": "https://dodo.ac/np/images/b/b4/Common_Dragonfly_PG_Icon.png",
+  "espece": "common-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      4
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "darner-dragonfly",
+  "nom": {
+   "fr": "Caloptéryx",
+   "en": "Darner dragonfly"
+  },
+  "n": 11,
+  "image": "https://dodo.ac/np/images/3/3e/Darner_Dragonfly_PG_Icon.png",
+  "espece": "darner-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "banded-dragonfly",
+  "nom": {
+   "fr": "Cordulégastre",
+   "en": "Banded dragonfly"
+  },
+  "n": 12,
+  "image": "https://dodo.ac/np/images/c/cd/Banded_Dragonfly_PG_Icon.png",
+  "espece": "banded-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4500
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cricket",
+  "nom": {
+   "fr": "Grillon des prés",
+   "en": "Cricket"
+  },
+  "n": 13,
+  "image": "https://dodo.ac/np/images/3/39/Cricket_PG_Icon.png",
+  "espece": "cricket",
+  "lieu": "dans-les-buissons",
+  "lieu_texte": "Dans les buissons",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "grasshopper",
+  "nom": {
+   "fr": "Sauterelle",
+   "en": "Grasshopper"
+  },
+  "n": 14,
+  "image": "https://dodo.ac/np/images/a/a3/Grasshopper_PG_Icon.png",
+  "espece": "grasshopper",
+  "lieu": "dans-les-buissons",
+  "lieu_texte": "Dans les buissons",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pine-cricket",
+  "nom": {
+   "fr": "Grillon",
+   "en": "Pine cricket"
+  },
+  "n": 15,
+  "image": "https://dodo.ac/np/images/4/43/Pine_Cricket_PG_Icon.png",
+  "espece": "pine-cricket",
+  "lieu": "dans-les-buissons",
+  "lieu_texte": "Dans les buissons",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bell-cricket",
+  "nom": {
+   "fr": "Grillon du Midi",
+   "en": "Bell cricket"
+  },
+  "n": 16,
+  "image": "https://dodo.ac/np/images/5/57/Bell_Cricket_PG_Icon.png",
+  "espece": "bell-cricket",
+  "lieu": "dans-les-buissons",
+  "lieu_texte": "Dans les buissons",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ladybug",
+  "nom": {
+   "fr": "Coccinelle",
+   "en": "Ladybug"
+  },
+  "n": 17,
+  "image": "https://dodo.ac/np/images/8/83/Ladybug_PG_Icon.png",
+  "espece": "ladybug",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "spotted-ladybug",
+  "nom": {
+   "fr": "Bête à bon Dieu",
+   "en": "Spotted ladybug"
+  },
+  "n": 18,
+  "image": "https://dodo.ac/np/images/8/82/Spotted_Ladybug_PG_Icon.png",
+  "espece": "spotted-ladybug",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      2
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      24,
+      31
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mantis",
+  "nom": {
+   "fr": "Mante religieuse",
+   "en": "Mantis"
+  },
+  "n": 19,
+  "image": "https://dodo.ac/np/images/2/2d/Mantis_PG_Icon.png",
+  "espece": "mantis",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "long-locust",
+  "nom": {
+   "fr": "Criquet",
+   "en": "Long locust"
+  },
+  "n": 20,
+  "image": "https://dodo.ac/np/images/9/9c/Long_Locust_PG_Icon.png",
+  "espece": "long-locust",
+  "lieu": "dans-les-buissons",
+  "lieu_texte": "Dans les buissons",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "migratory-locust",
+  "nom": {
+   "fr": "Criquet migrant",
+   "en": "Migratory locust"
+  },
+  "n": 21,
+  "image": "https://dodo.ac/np/images/8/88/Migratory_Locust_PG_Icon.png",
+  "espece": "migratory-locust",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1350
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cockroach",
+  "nom": {
+   "fr": "Cafard",
+   "en": "Cockroach"
+  },
+  "n": 22,
+  "image": "https://dodo.ac/np/images/e/e0/Cockroach_PG_Icon.png",
+  "espece": "cockroach",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres ou Sur les fleurs ou Sur les navets pourris",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "D'après le code du jeu : dehors de mars à novembre, à toute heure.",
+   "Des cafards peuvent aussi apparaître dans ta maison quand tu n'y es pas allé depuis longtemps, quel que soit le mois : ce sont ceux qu'on trouve « toute l'année »."
+  ],
+  "prix": {
+   "vente": 5
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bee",
+  "nom": {
+   "fr": "Abeille",
+   "en": "Bee"
+  },
+  "n": 23,
+  "image": "https://dodo.ac/np/images/7/7b/Bee_PG_Icon.png",
+  "espece": "bee",
+  "lieu": "dans-les-arbres",
+  "lieu_texte": "Dans les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4500
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "firefly",
+  "nom": {
+   "fr": "Luciole",
+   "en": "Firefly"
+  },
+  "n": 24,
+  "image": "https://dodo.ac/np/images/9/96/Firefly_PG_Icon.png",
+  "espece": "firefly",
+  "lieu": "vole-pres-de-leau",
+  "lieu_texte": "Vole près de l'eau",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "drone-beetle",
+  "nom": {
+   "fr": "Cétoine dorée",
+   "en": "Drone beetle"
+  },
+  "n": 25,
+  "image": "https://dodo.ac/np/images/9/9f/Drone_Beetle_PG_Icon.png",
+  "espece": "drone-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "longhorn-beetle",
+  "nom": {
+   "fr": "Longicorne",
+   "en": "Longhorn beetle"
+  },
+  "n": 26,
+  "image": "https://dodo.ac/np/images/1/1e/Longhorn_Beetle_PG_Icon.png",
+  "espece": "longhorn-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "jewel-beetle",
+  "nom": {
+   "fr": "Bupreste",
+   "en": "Jewel beetle"
+  },
+  "n": 27,
+  "image": "https://dodo.ac/np/images/e/ec/Jewel_Beetle_PG_Icon.png",
+  "espece": "jewel-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dynastid-beetle",
+  "nom": {
+   "fr": "Hanneton",
+   "en": "Dynastid beetle"
+  },
+  "n": 28,
+  "image": "https://dodo.ac/np/images/f/f3/Dynastid_Beetle_PG_Icon.png",
+  "espece": "dynastid-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1350
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "flat-stag-beetle",
+  "nom": {
+   "fr": "Copris",
+   "en": "Flat stag beetle"
+  },
+  "n": 29,
+  "image": "https://dodo.ac/np/images/3/38/Flat_Stag_Beetle_PG_Icon.png",
+  "espece": "flat-stag-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "saw-stag-beetle",
+  "nom": {
+   "fr": "Lucane",
+   "en": "Saw stag beetle"
+  },
+  "n": 30,
+  "image": "https://dodo.ac/np/images/1/12/Saw_Stag_Beetle_PG_Icon.png",
+  "espece": "saw-stag-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mountain-beetle",
+  "nom": {
+   "fr": "Scarabée",
+   "en": "Mountain beetle"
+  },
+  "n": 31,
+  "image": "https://dodo.ac/np/images/4/46/Mountain_Beetle_PG_Icon.png",
+  "espece": "mountain-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "giant-beetle",
+  "nom": {
+   "fr": "Hanneton foulon",
+   "en": "Giant beetle"
+  },
+  "n": 32,
+  "image": "https://dodo.ac/np/images/9/92/Giant_Beetle_PG_Icon.png",
+  "espece": "giant-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pond-skater",
+  "nom": {
+   "fr": "Patineur",
+   "en": "Pond skater"
+  },
+  "n": 33,
+  "image": "https://dodo.ac/np/images/9/9d/Pond_Skater_PG_Icon.png",
+  "espece": "pond-skater",
+  "lieu": "sur-le-lac",
+  "lieu_texte": "Sur le lac ou Sur les étangs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      5
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ant",
+  "nom": {
+   "fr": "Fourmi",
+   "en": "Ant"
+  },
+  "n": 34,
+  "image": "https://dodo.ac/np/images/5/5f/Ant_PG_Icon.png",
+  "espece": "ant",
+  "lieu": "sur-les-bonbons",
+  "lieu_texte": "Sur les bonbons ou Sur les navets pourris",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "pill-bug",
+  "nom": {
+   "fr": "Cloporte",
+   "en": "Pill bug"
+  },
+  "n": 35,
+  "image": "https://dodo.ac/np/images/9/90/Pill_Bug_PG_Icon.png",
+  "espece": "pill-bug",
+  "lieu": "sous-les-rochers",
+  "lieu_texte": "Sous les rochers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mosquito",
+  "nom": {
+   "fr": "Moustique",
+   "en": "Mosquito"
+  },
+  "n": 36,
+  "image": "https://dodo.ac/np/images/4/42/Mosquito_PG_Icon.png",
+  "espece": "mosquito",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       17,
+       23
+      ]
+     ]
+    },
+    {
+     "mois": [
+      4
+     ],
+     "heures": [
+      [
+       17,
+       23
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mole-cricket",
+  "nom": {
+   "fr": "Taupe-grillon",
+   "en": "Mole cricket"
+  },
+  "n": 37,
+  "image": "https://dodo.ac/np/images/d/d1/Mole_Cricket_PG_Icon.png",
+  "espece": "mole-cricket",
+  "lieu": "sous-terre",
+  "lieu_texte": "Sous terre",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "spider",
+  "nom": {
+   "fr": "Araignée",
+   "en": "Spider"
+  },
+  "n": 38,
+  "image": "https://dodo.ac/np/images/d/d4/Spider_PG_Icon.png",
+  "espece": "spider",
+  "lieu": "dans-les-arbres",
+  "lieu_texte": "Dans les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "snail",
+  "nom": {
+   "fr": "Escargot",
+   "en": "Snail"
+  },
+  "n": 39,
+  "image": "https://dodo.ac/np/images/1/1f/Snail_PG_Icon.png",
+  "espece": "snail",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      27,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bagworm",
+  "nom": {
+   "fr": "Psyché",
+   "en": "Bagworm"
+  },
+  "n": 40,
+  "image": "https://dodo.ac/np/images/f/ff/Bagworm_PG_Icon.png",
+  "espece": "bagworm",
+  "lieu": "dans-les-arbres",
+  "lieu_texte": "Dans les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ],
+     "jours": [
+      26,
+      31
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true,
+  "versions": [
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ }
+]

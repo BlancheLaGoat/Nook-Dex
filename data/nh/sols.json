@@ -1,0 +1,3995 @@
+[
+ {
+  "id": "aqua-tile-flooring",
+  "nom": {
+   "fr": "Sol mosaïque turquoise",
+   "en": "Aqua tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTile01.png",
+  "prix": {
+   "achat": 900,
+   "vente": 225,
+   "echange": {
+    "prix": 810,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "arabesque-flooring",
+  "nom": {
+   "fr": "Sol arabesques",
+   "en": "Arabesque flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorArabesque00.png",
+  "prix": {
+   "achat": 2120,
+   "vente": 530,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "arched-brick-flooring",
+  "nom": {
+   "fr": "Sol arches briques",
+   "en": "Arched-brick flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorArchBrick00.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275,
+   "echange": {
+    "prix": 990,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "argyle-tile-flooring",
+  "nom": {
+   "fr": "Sol carreaux et lattes",
+   "en": "Argyle tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTileWood00.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "artsy-parquet-flooring",
+  "nom": {
+   "fr": "Parquet marqueterie fine",
+   "en": "Artsy parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParquetArt00.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "backyard-lawn",
+  "nom": {
+   "fr": "Gazon patio",
+   "en": "Backyard lawn"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLawn00.png",
+  "prix": {
+   "achat": null,
+   "vente": 600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "bamboo-flooring",
+  "nom": {
+   "fr": "Sol en bambou",
+   "en": "Bamboo flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBamboo00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "basement-flooring",
+  "nom": {
+   "fr": "Sol de cave",
+   "en": "Basement flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBasement00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "beige-moroccan-flooring",
+  "nom": {
+   "fr": "Sol treillis marocain beige",
+   "en": "Beige Moroccan flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMorocco00.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "berry-chocolates-flooring",
+  "nom": {
+   "fr": "Sol chocolat fraise",
+   "en": "Berry-chocolates flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorChocolate02.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "birch-flooring",
+  "nom": {
+   "fr": "Parquet bouleau",
+   "en": "Birch flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBirch00.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 720,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-iron-parquet-flooring",
+  "nom": {
+   "fr": "Parquet bois et fer noir",
+   "en": "Black iron-parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParquetIron02.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "black-brick-flooring",
+  "nom": {
+   "fr": "Sol briques noires",
+   "en": "Black-brick flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBrick02.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "block-flooring",
+  "nom": {
+   "fr": "Revêtement blocs",
+   "en": "Block flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMario00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Not available before March 1st 2021",
+  "v": "1.8.0"
+ },
+ {
+  "id": "blue-camo-flooring",
+  "nom": {
+   "fr": "Sol camouflage bleu",
+   "en": "Blue camo flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCamouflage01.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-dot-flooring",
+  "nom": {
+   "fr": "Moquette à pois bleue",
+   "en": "Blue dot flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDot04.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 720,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-floral-flooring",
+  "nom": {
+   "fr": "Sol floral strié bleu",
+   "en": "Blue floral flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDecoWood01.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-honeycomb-tile",
+  "nom": {
+   "fr": "Sol alvéolé bleu",
+   "en": "Blue honeycomb tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHoneycomb01.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-moroccan-flooring",
+  "nom": {
+   "fr": "Sol treillis marocain bleu",
+   "en": "Blue Moroccan flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMorocco01.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-mosaic-tile-flooring",
+  "nom": {
+   "fr": "Sol mosaïque bleue",
+   "en": "Blue mosaic-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTile03.png",
+  "prix": {
+   "achat": 900,
+   "vente": 225,
+   "echange": {
+    "prix": 810,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-rubber-flooring",
+  "nom": {
+   "fr": "Sol en caoutchouc bleu",
+   "en": "Blue rubber flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRubber01.png",
+  "prix": {
+   "achat": 850,
+   "vente": 212,
+   "echange": {
+    "prix": 760,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blue-paint-flooring",
+  "nom": {
+   "fr": "Sol bois peint bleu",
+   "en": "Blue-paint flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPaintWood00.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "boxing-ring-mat",
+  "nom": {
+   "fr": "Sol arène de catch",
+   "en": "Boxing-ring mat"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorWrestling00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "broken-stone-path-flooring",
+  "nom": {
+   "fr": "Sol vieille route pavée",
+   "en": "Broken stone-path flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCemetery00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "brown-argyle-tile-flooring",
+  "nom": {
+   "fr": "Carrelage diagonal brun",
+   "en": "Brown argyle-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorArgyleTile01.png",
+  "prix": {
+   "achat": 1440,
+   "vente": 360,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-floral-flooring",
+  "nom": {
+   "fr": "Sol floral strié marron",
+   "en": "Brown floral flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDecoWood02.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-honeycomb-tile",
+  "nom": {
+   "fr": "Sol alvéolé marron",
+   "en": "Brown honeycomb tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHoneycomb00.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-iron-parquet-flooring",
+  "nom": {
+   "fr": "Parquet bois et fer argenté",
+   "en": "Brown iron-parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParquetIron01.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brown-wedding-flooring",
+  "nom": {
+   "fr": "Sol mariage brun",
+   "en": "Brown wedding flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMarbleTile01.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 12,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "brown-brick-flooring",
+  "nom": {
+   "fr": "Sol briques brunes",
+   "en": "Brown-brick flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBrick03.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bunny-day-flooring",
+  "nom": {
+   "fr": "Sol fête des œufs",
+   "en": "Bunny Day flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorEaster00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4800
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "Bunny Day (days before); Bunny Day",
+  "v": "1.1.0"
+ },
+ {
+  "id": "camo-flooring",
+  "nom": {
+   "fr": "Sol camouflage",
+   "en": "Camo flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCamouflage00.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cherry-blossom-flooring",
+  "nom": {
+   "fr": "Sol fleurs de cerisier",
+   "en": "Cherry-blossom flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSakura00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4400
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "cherry-blossom petals",
+  "v": "1.0.0"
+ },
+ {
+  "id": "chic-lego-flooring",
+  "nom": {
+   "fr": "Sol chic LEGO®",
+   "en": "Chic LEGO® flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLego03.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "cinnamoroll-flooring",
+  "nom": {
+   "fr": "Sol Cinnamoroll",
+   "en": "Cinnamoroll flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCinnamon00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "circuit-board-flooring",
+  "nom": {
+   "fr": "Sol circuit imprimé",
+   "en": "Circuit-board flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGeek00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "circus-flooring",
+  "nom": {
+   "fr": "Sol cirque",
+   "en": "Circus flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSummer00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "cloud-flooring",
+  "nom": {
+   "fr": "Sol nuages",
+   "en": "Cloud flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorCloud00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "club-flooring",
+  "nom": {
+   "fr": "Sol discothèque",
+   "en": "Club flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorClub00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "colored-leaves-flooring",
+  "nom": {
+   "fr": "Sol automne",
+   "en": "Colored-leaves flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorAutumun00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4300
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "maple leaves",
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-lego-flooring",
+  "nom": {
+   "fr": "Sol coloré LEGO®",
+   "en": "Colorful LEGO® flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLego00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "colorful-mosaic-tile-flooring",
+  "nom": {
+   "fr": "Sol mosaïque multicolore",
+   "en": "Colorful mosaic-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTile02.png",
+  "prix": {
+   "achat": 900,
+   "vente": 225,
+   "echange": {
+    "prix": 810,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-puzzle-flooring",
+  "nom": {
+   "fr": "Sol puzzle multicolore",
+   "en": "Colorful puzzle flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPuzzleMat01.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "colorful-tile-flooring",
+  "nom": {
+   "fr": "Moquette dalles colorées",
+   "en": "Colorful tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPanel01.png",
+  "prix": {
+   "achat": 1620,
+   "vente": 405,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "common-flooring",
+  "nom": {
+   "fr": "Sol ordinaire",
+   "en": "Common flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCommon00.png",
+  "prix": {
+   "achat": 720,
+   "vente": 180,
+   "echange": {
+    "prix": 650,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "concrete-flooring",
+  "nom": {
+   "fr": "Sol en béton",
+   "en": "Concrete flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorConcrete00.png",
+  "prix": {
+   "achat": 820,
+   "vente": 205,
+   "echange": {
+    "prix": 740,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "construction-site-flooring",
+  "nom": {
+   "fr": "Sol chantier",
+   "en": "Construction-site flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorConstruction00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cool-vinyl-flooring",
+  "nom": {
+   "fr": "Sol dalles PVC cool",
+   "en": "Cool vinyl flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTileChecker03.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cool-paint-flooring",
+  "nom": {
+   "fr": "Parquet peint tons froids",
+   "en": "Cool-paint flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorColorfulWood01.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550,
+   "echange": {
+    "prix": 2000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cork-flooring",
+  "nom": {
+   "fr": "Sol liège",
+   "en": "Cork flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCork00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "crop-circles-flooring",
+  "nom": {
+   "fr": "Sol cercle de culture",
+   "en": "Crop-circles flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCropCircles00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "crosswalk-flooring",
+  "nom": {
+   "fr": "Sol passage piéton",
+   "en": "Crosswalk flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSidewalk00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cubic-parquet-flooring",
+  "nom": {
+   "fr": "Parquet cubes trompe-l'œil",
+   "en": "Cubic parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHoneycombWood00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-blue-tile-flooring",
+  "nom": {
+   "fr": "Sol sobre bleu",
+   "en": "Cute blue-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCute02.png",
+  "prix": {
+   "achat": 780,
+   "vente": 195,
+   "echange": {
+    "prix": 700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-lego-flooring",
+  "nom": {
+   "fr": "Sol mimi LEGO®",
+   "en": "Cute LEGO® flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLego02.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "cute-red-tile-flooring",
+  "nom": {
+   "fr": "Sol sobre rouge",
+   "en": "Cute red-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCute01.png",
+  "prix": {
+   "achat": 780,
+   "vente": 195,
+   "echange": {
+    "prix": 700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-white-tile-flooring",
+  "nom": {
+   "fr": "Sol sobre blanc",
+   "en": "Cute white-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCute00.png",
+  "prix": {
+   "achat": 780,
+   "vente": 195,
+   "echange": {
+    "prix": 700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-yellow-tile-flooring",
+  "nom": {
+   "fr": "Sol sobre jaune",
+   "en": "Cute yellow-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCute03.png",
+  "prix": {
+   "achat": 780,
+   "vente": 195,
+   "echange": {
+    "prix": 700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cute-paint-flooring",
+  "nom": {
+   "fr": "Parquet peint tons chauds",
+   "en": "Cute-paint flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorColorfulWood00.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550,
+   "echange": {
+    "prix": 2000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "daisy-meadow",
+  "nom": {
+   "fr": "Sol pâquerettes",
+   "en": "Daisy meadow"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGrassland00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-herringbone-flooring",
+  "nom": {
+   "fr": "Sol chevrons bois acajou",
+   "en": "Dark herringbone flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHerringbone01.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-parquet-flooring",
+  "nom": {
+   "fr": "Sol parquet foncé",
+   "en": "Dark parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCountry01.png",
+  "prix": {
+   "achat": 1560,
+   "vente": 390,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-wood-pattern-flooring",
+  "nom": {
+   "fr": "Sol marqueterie brun foncé",
+   "en": "Dark wood-pattern flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSimpleParquet01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-block-flooring",
+  "nom": {
+   "fr": "Sol blocs de bois sombre",
+   "en": "Dark-block flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParquet01.png",
+  "prix": {
+   "achat": 1380,
+   "vente": 345,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dark-chocolates-flooring",
+  "nom": {
+   "fr": "Sol chocolat noir",
+   "en": "Dark-chocolates flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorChocolate00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dig-site-flooring",
+  "nom": {
+   "fr": "Sol fossiles",
+   "en": "Dig-site flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorStratum00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dirt-flooring",
+  "nom": {
+   "fr": "Sol terre",
+   "en": "Dirt flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCottonSoil00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "fast-food-flooring",
+  "nom": {
+   "fr": "Sol fast-food",
+   "en": "Fast-food flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTheater00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "field-flooring",
+  "nom": {
+   "fr": "Sol champ",
+   "en": "Field flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorFarm00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "flagstone-flooring",
+  "nom": {
+   "fr": "Sol pierre naturelle",
+   "en": "Flagstone flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorFlagStone00.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "floral-mosaic-tile-flooring",
+  "nom": {
+   "fr": "Sol mosaïque florale",
+   "en": "Floral mosaic-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMosaicTile00.png",
+  "prix": {
+   "achat": 1080,
+   "vente": 270,
+   "echange": {
+    "prix": 970,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "floral-rush-mat-flooring",
+  "nom": {
+   "fr": "Sol bouquets fleuris",
+   "en": "Floral rush-mat flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRush00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "flowing-river-flooring",
+  "nom": {
+   "fr": "Sol rivière",
+   "en": "Flowing-river flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorRiver00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "forest-flooring",
+  "nom": {
+   "fr": "Sol forêt",
+   "en": "Forest flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMushForest00.png",
+  "prix": {
+   "achat": null,
+   "vente": 35000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "mushrooms",
+  "v": "1.0.0"
+ },
+ {
+  "id": "future-tech-flooring",
+  "nom": {
+   "fr": "Sol hypertechnologique",
+   "en": "Future-tech flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorTechnology00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "galaxy-flooring",
+  "nom": {
+   "fr": "Sol galaxie",
+   "en": "Galaxy flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorGalaxy00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "garbage-heap-flooring",
+  "nom": {
+   "fr": "Sol dépotoir",
+   "en": "Garbage-heap flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGarbage00.png",
+  "prix": {
+   "achat": null,
+   "vente": 120
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "giraffe-print-flooring",
+  "nom": {
+   "fr": "Sol girafe",
+   "en": "Giraffe-print flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorAnimal01.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "glowing-moss-flooring",
+  "nom": {
+   "fr": "Sol schistostega",
+   "en": "Glowing-moss flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorGlowMoss00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1450
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "gold-iron-parquet-flooring",
+  "nom": {
+   "fr": "Parquet bois et fer doré",
+   "en": "Gold iron-parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParquetIron00.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "golden-flooring",
+  "nom": {
+   "fr": "Sol d'or",
+   "en": "Golden flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGold00.png",
+  "prix": {
+   "achat": null,
+   "vente": 40000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "gravel-flooring",
+  "nom": {
+   "fr": "Sol gravier",
+   "en": "Gravel flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGravel00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gray-argyle-tile-flooring",
+  "nom": {
+   "fr": "Carrelage diagonal gris",
+   "en": "Gray argyle-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorArgyleTile00.png",
+  "prix": {
+   "achat": 1440,
+   "vente": 360,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gray-vinyl-flooring",
+  "nom": {
+   "fr": "Sol dalles PVC noir/blanc",
+   "en": "Gray vinyl flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTileChecker00.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-floral-flooring",
+  "nom": {
+   "fr": "Sol floral strié vert",
+   "en": "Green floral flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDecoWood03.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-honeycomb-tile",
+  "nom": {
+   "fr": "Sol alvéolé vert",
+   "en": "Green honeycomb tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHoneycomb02.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-retro-flooring",
+  "nom": {
+   "fr": "Sol rétro vert",
+   "en": "Green retro flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorKitchen01.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-rubber-flooring",
+  "nom": {
+   "fr": "Sol en caoutchouc vert",
+   "en": "Green rubber flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRubber00.png",
+  "prix": {
+   "achat": 850,
+   "vente": 212,
+   "echange": {
+    "prix": 760,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-vinyl-flooring",
+  "nom": {
+   "fr": "Sol dalles PVC vert/orange",
+   "en": "Green vinyl flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTileChecker02.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "green-wedding-flooring",
+  "nom": {
+   "fr": "Sol mariage vert",
+   "en": "Green wedding flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMarbleTile02.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 12,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "green-paint-flooring",
+  "nom": {
+   "fr": "Sol bois peint vert",
+   "en": "Green-paint flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPaintWood01.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gym-flooring",
+  "nom": {
+   "fr": "Sol salle de sport",
+   "en": "Gym flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSchoolgym00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "hello-kitty-flooring",
+  "nom": {
+   "fr": "Sol Hello Kitty",
+   "en": "Hello Kitty flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorKitty00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "hexagonal-floral-flooring",
+  "nom": {
+   "fr": "Sol hexagones floraux",
+   "en": "Hexagonal floral flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHempTile00.png",
+  "prix": {
+   "achat": 860,
+   "vente": 215,
+   "echange": {
+    "prix": 770,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "highway-flooring",
+  "nom": {
+   "fr": "Sol autoroute",
+   "en": "Highway flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHighway00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "honeycomb-flooring",
+  "nom": {
+   "fr": "Sol rayons de miel",
+   "en": "Honeycomb flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHoney00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "hopscotch-flooring",
+  "nom": {
+   "fr": "Sol marelle de trottoir",
+   "en": "Hopscotch flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSchoolyard00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "ice-flooring",
+  "nom": {
+   "fr": "Sol glace",
+   "en": "Ice flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorIce00.png",
+  "prix": {
+   "achat": null,
+   "vente": 8200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "iceberg-flooring",
+  "nom": {
+   "fr": "Sol banquise",
+   "en": "Iceberg flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorIceFloe00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "imperial-tile",
+  "nom": {
+   "fr": "Sol shogun",
+   "en": "Imperial tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDynasty00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jointed-mat-flooring",
+  "nom": {
+   "fr": "Sol dalles imbriquées",
+   "en": "Jointed-mat flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorJointMat00.png",
+  "prix": {
+   "achat": 1050,
+   "vente": 262,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jungle-flooring",
+  "nom": {
+   "fr": "Sol jungle",
+   "en": "Jungle flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorJungle00.png",
+  "prix": {
+   "achat": null,
+   "vente": 2200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "kerokerokeroppi-flooring",
+  "nom": {
+   "fr": "Sol Kerokerokeroppi",
+   "en": "Kerokerokeroppi flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorKeroppi00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "kiki-and-lala-flooring",
+  "nom": {
+   "fr": "Sol Kiki & Lala",
+   "en": "Kiki & Lala flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorKikilala00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "kitschy-tile",
+  "nom": {
+   "fr": "Carrelage kitsch",
+   "en": "Kitschy tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorKitschTile00.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "korok-forest-flooring",
+  "nom": {
+   "fr": "Sol forêt Korogu",
+   "en": "Korok Forest flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorZeldaForest00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "lava-flooring",
+  "nom": {
+   "fr": "Sol lave",
+   "en": "Lava flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorVolcano00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "leopard-print-flooring",
+  "nom": {
+   "fr": "Sol léopard",
+   "en": "Leopard-print flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorAnimal00.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "light-herringbone-flooring",
+  "nom": {
+   "fr": "Sol chevrons bois naturel",
+   "en": "Light herringbone flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHerringbone00.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "light-parquet-flooring",
+  "nom": {
+   "fr": "Sol parquet clair",
+   "en": "Light parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCountry00.png",
+  "prix": {
+   "achat": 1560,
+   "vente": 390,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "light-wood-pattern-flooring",
+  "nom": {
+   "fr": "Sol marqueterie brun clair",
+   "en": "Light wood-pattern flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSimpleParquet00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lobby-flooring",
+  "nom": {
+   "fr": "Sol vestibule",
+   "en": "Lobby flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLobby00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lunar-surface",
+  "nom": {
+   "fr": "Sol lunaire",
+   "en": "Lunar surface"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLunar00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "magic-circle-flooring",
+  "nom": {
+   "fr": "Sol cercle magique",
+   "en": "Magic-circle flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorMagic00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "marine-pop-flooring",
+  "nom": {
+   "fr": "Sol marin pop",
+   "en": "Marine pop flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorFishPop00.png",
+  "prix": {
+   "achat": 2020,
+   "vente": 505,
+   "echange": {
+    "prix": 1800,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mermaid-flooring",
+  "nom": {
+   "fr": "Sol sirène",
+   "en": "Mermaid flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorMermaid00.png",
+  "prix": {
+   "achat": null,
+   "vente": 20975
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.3.0"
+ },
+ {
+  "id": "mint-dot-flooring",
+  "nom": {
+   "fr": "Moquette à pois menthe",
+   "en": "Mint dot flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDot01.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 720,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "modern-lego-flooring",
+  "nom": {
+   "fr": "Sol moderne LEGO®",
+   "en": "Modern LEGO® flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLego01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "modern-wood-flooring",
+  "nom": {
+   "fr": "Sol bois moderne",
+   "en": "Modern wood flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMixwood00.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "money-flooring",
+  "nom": {
+   "fr": "Sol billets de banque",
+   "en": "Money flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBill00.png",
+  "prix": {
+   "achat": null,
+   "vente": 25000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "monochromatic-dot-flooring",
+  "nom": {
+   "fr": "Moquette à pois simple",
+   "en": "Monochromatic dot flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDot00.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 720,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "monochromatic-tile-flooring",
+  "nom": {
+   "fr": "Moquette dalles gris foncé",
+   "en": "Monochromatic tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPanel00.png",
+  "prix": {
+   "achat": 1620,
+   "vente": 405,
+   "echange": {
+    "prix": 1500,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "moroccan-art-tile-flooring",
+  "nom": {
+   "fr": "Sol mosaïque art marocain",
+   "en": "Moroccan art-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMoroccanSquareTile00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "mossy-garden-flooring",
+  "nom": {
+   "fr": "Sol moussu",
+   "en": "Mossy-garden flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMoss00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "my-melody-flooring",
+  "nom": {
+   "fr": "Sol My Melody",
+   "en": "My Melody flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMymelody00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "natural-flooring",
+  "nom": {
+   "fr": "Sol naturel",
+   "en": "Natural flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorClassroom00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "natural-block-flooring",
+  "nom": {
+   "fr": "Sol blocs de bois naturel",
+   "en": "Natural-block flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParquet00.png",
+  "prix": {
+   "achat": 1380,
+   "vente": 345,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "nook-inc-flooring",
+  "nom": {
+   "fr": "Sol Nook Inc.",
+   "en": "Nook Inc. flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorFirst00.png",
+  "prix": {
+   "achat": null,
+   "vente": 6000,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Nook Miles"
+   }
+  },
+  "sources": [
+   "Échange de Miles Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "oasis-flooring",
+  "nom": {
+   "fr": "Sol oasis",
+   "en": "Oasis flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorOasis00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "old-board-flooring",
+  "nom": {
+   "fr": "Sol parquet ancien",
+   "en": "Old board flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorOldBoard00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "old-stone-tile-flooring",
+  "nom": {
+   "fr": "Sol vieille mosaïque pierre",
+   "en": "Old stone-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorLabo00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "olive-moroccan-flooring",
+  "nom": {
+   "fr": "Sol treillis marocain kaki",
+   "en": "Olive Moroccan flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMorocco03.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "operating-room-flooring",
+  "nom": {
+   "fr": "Sol bloc opératoire",
+   "en": "Operating-room flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorOperatingRoom00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "orange-camo-flooring",
+  "nom": {
+   "fr": "Sol camouflage orange",
+   "en": "Orange camo flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCamouflage03.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "orange-retro-flooring",
+  "nom": {
+   "fr": "Sol rétro orange",
+   "en": "Orange retro flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorKitchen00.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "paintball-flooring",
+  "nom": {
+   "fr": "Sol paintball",
+   "en": "Paintball flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorAtelier00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "palace-tile",
+  "nom": {
+   "fr": "Dallage palais",
+   "en": "Palace tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPalace00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "paradise-planning-flooring",
+  "nom": {
+   "fr": "Sol Les Villas de Lou",
+   "en": "Paradise Planning flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGoldRich00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Mantin"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "parking-flooring",
+  "nom": {
+   "fr": "Sol parking",
+   "en": "Parking flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParking00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "party-flooring",
+  "nom": {
+   "fr": "Sol fête",
+   "en": "Party flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParty00.png",
+  "prix": {
+   "achat": null,
+   "vente": 370
+  },
+  "sources": [
+   "Birthday"
+  ],
+  "evenement": "Birthday",
+  "v": "1.0.0"
+ },
+ {
+  "id": "pastel-puzzle-flooring",
+  "nom": {
+   "fr": "Sol puzzle pastel",
+   "en": "Pastel puzzle flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPuzzleMat00.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "patchwork-tile-flooring",
+  "nom": {
+   "fr": "Sol dallage patchwork",
+   "en": "Patchwork-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPatchworkTile00.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "patient-ward-flooring",
+  "nom": {
+   "fr": "Sol salle d'attente",
+   "en": "Patient-ward flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHospitalRoom00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "pine-board-flooring",
+  "nom": {
+   "fr": "Sol lattes sapin",
+   "en": "Pine-board flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSimple00.png",
+  "prix": {
+   "achat": 2500,
+   "vente": 625,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pink-paint-flooring",
+  "nom": {
+   "fr": "Sol bois peint rose",
+   "en": "Pink-paint flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPaintWood02.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pirate-flooring",
+  "nom": {
+   "fr": "Sol pirate",
+   "en": "Pirate flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPirates00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750
+  },
+  "sources": [
+   "Gullivarrr"
+  ],
+  "v": "1.3.0"
+ },
+ {
+  "id": "pompompurin-flooring",
+  "nom": {
+   "fr": "Sol Pompompurin",
+   "en": "Pompompurin flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPurin00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "notes_source": "Scan the associated Sanrio amiibo card",
+  "v": "1.9.0"
+ },
+ {
+  "id": "prom-flooring",
+  "nom": {
+   "fr": "Sol bal de promo",
+   "en": "Prom flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBallroom00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (saisonnier)"
+  ],
+  "evenement": "Prom",
+  "v": "1.9.0"
+ },
+ {
+  "id": "purple-camo-flooring",
+  "nom": {
+   "fr": "Sol camouflage violet",
+   "en": "Purple camo flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCamouflage02.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-moroccan-flooring",
+  "nom": {
+   "fr": "Sol treillis marocain violet",
+   "en": "Purple Moroccan flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMorocco02.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525,
+   "echange": {
+    "prix": 1900,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purple-puzzle-flooring",
+  "nom": {
+   "fr": "Sol puzzle bleuté",
+   "en": "Purple puzzle flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPuzzleMat03.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pyramid-tile",
+  "nom": {
+   "fr": "Sol pyramide",
+   "en": "Pyramid tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorEgypt00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "racetrack-flooring",
+  "nom": {
+   "fr": "Sol piste d'athlétisme",
+   "en": "Racetrack flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorAthletics00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ramshackle-flooring",
+  "nom": {
+   "fr": "Sol délabré",
+   "en": "Ramshackle flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRuins00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "random-square-tile-flooring",
+  "nom": {
+   "fr": "Sol carreaux isatis",
+   "en": "Random-square-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSquareTile00.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rattan-flooring",
+  "nom": {
+   "fr": "Sol jonc",
+   "en": "Rattan flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRattan00.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275,
+   "echange": {
+    "prix": 990,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-dot-flooring",
+  "nom": {
+   "fr": "Moquette à pois rouge",
+   "en": "Red dot flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDot02.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200,
+   "echange": {
+    "prix": 720,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-and-black-vinyl-flooring",
+  "nom": {
+   "fr": "Sol dalles PVC rouge/noir",
+   "en": "Red-and-black vinyl flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTileChecker01.png",
+  "prix": {
+   "achat": 1150,
+   "vente": 287,
+   "echange": {
+    "prix": 1000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "red-brick-flooring",
+  "nom": {
+   "fr": "Sol briques rouges",
+   "en": "Red-brick flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBrick01.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "restaurant-kitchen-flooring",
+  "nom": {
+   "fr": "Sol cuisine de restaurant",
+   "en": "Restaurant-kitchen flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCookery00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "robo-flooring",
+  "nom": {
+   "fr": "Sol robot",
+   "en": "Robo-flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRobo00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "rocky-mountain-flooring",
+  "nom": {
+   "fr": "Sol paroi rocheuse",
+   "en": "Rocky-mountain flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRock00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "room-sketch-flooring",
+  "nom": {
+   "fr": "Sol Joyeux décorateur",
+   "en": "Room Sketch flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorSketch00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Mantin"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "rope-net-flooring",
+  "nom": {
+   "fr": "Sol filet de corde",
+   "en": "Rope-net flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorRopenet00.png",
+  "prix": {
+   "achat": null,
+   "vente": 1000
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "2.0.0"
+ },
+ {
+  "id": "rose-flooring",
+  "nom": {
+   "fr": "Sol roses",
+   "en": "Rose flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRoseCarpet00.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550,
+   "echange": {
+    "prix": 2000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rosewood-flooring",
+  "nom": {
+   "fr": "Sol palissandre",
+   "en": "Rosewood flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRoseWood00.png",
+  "prix": {
+   "achat": 2420,
+   "vente": 605,
+   "echange": {
+    "prix": 2200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rubber-tile-flooring",
+  "nom": {
+   "fr": "Sol dalles caoutchouc",
+   "en": "Rubber-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorRubberTile00.png",
+  "prix": {
+   "achat": 700,
+   "vente": 175,
+   "echange": {
+    "prix": 630,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rush-tatami",
+  "nom": {
+   "fr": "Sol en nattes de tatami",
+   "en": "Rush tatami"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTatami01.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550,
+   "echange": {
+    "prix": 2000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rush-tatami-flooring",
+  "nom": {
+   "fr": "Sol tatamis paille de riz",
+   "en": "Rush tatami flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTatamiPanel01.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550,
+   "echange": {
+    "prix": 2000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "saharahs-desert",
+  "nom": {
+   "fr": "Sol désert",
+   "en": "Saharah's desert"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDesert00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sakura-wood-flooring",
+  "nom": {
+   "fr": "Sol bois sakura",
+   "en": "Sakura-wood flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSolidWood00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "cherry-blossom petals",
+  "v": "1.0.0"
+ },
+ {
+  "id": "sandlot",
+  "nom": {
+   "fr": "Sol sable",
+   "en": "Sandlot"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorEmptyLot00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sandy-beach-flooring",
+  "nom": {
+   "fr": "Sol plage de sable",
+   "en": "Sandy-beach flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSand00.png",
+  "prix": {
+   "achat": null,
+   "vente": 4120
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "sci-fi-flooring",
+  "nom": {
+   "fr": "Sol science-fiction",
+   "en": "Sci-fi flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorSF00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7500
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "scramble-crosswalk",
+  "nom": {
+   "fr": "Sol passages piétons",
+   "en": "Scramble crosswalk"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorScramble00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sepia-puzzle-flooring",
+  "nom": {
+   "fr": "Sol puzzle rétro",
+   "en": "Sepia puzzle flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPuzzleMat02.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ship-deck",
+  "nom": {
+   "fr": "Sol pont de navire",
+   "en": "Ship deck"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSeaView00.png",
+  "prix": {
+   "achat": 4000,
+   "vente": 1000,
+   "echange": {
+    "prix": 3600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sidewalk-flooring",
+  "nom": {
+   "fr": "Sol rue piétonne",
+   "en": "Sidewalk flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSidewalk01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-blue-flooring",
+  "nom": {
+   "fr": "Moquette bleue",
+   "en": "Simple blue flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSimpleCarpet01.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-purple-flooring",
+  "nom": {
+   "fr": "Moquette violette",
+   "en": "Simple purple flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSimpleCarpet03.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-red-flooring",
+  "nom": {
+   "fr": "Moquette rouge",
+   "en": "Simple red flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSimpleCarpet00.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "simple-white-flooring",
+  "nom": {
+   "fr": "Moquette blanche",
+   "en": "Simple white flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSimpleCarpet04.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ski-slope-flooring",
+  "nom": {
+   "fr": "Sol piste de ski",
+   "en": "Ski-slope flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGelande00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "snowflakes",
+  "v": "1.0.0"
+ },
+ {
+  "id": "skull-print-flooring",
+  "nom": {
+   "fr": "Sol crânes",
+   "en": "Skull-print flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSkull00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "slate-flooring",
+  "nom": {
+   "fr": "Sol ardoises",
+   "en": "Slate flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSlate00.png",
+  "prix": {
+   "achat": 1380,
+   "vente": 345,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "spooky-flooring",
+  "nom": {
+   "fr": "Sol Halloween",
+   "en": "Spooky flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHalloween00.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000
+  },
+  "sources": [
+   "Habitants"
+  ],
+  "notes_source": "Trade candy or a lollipop with a villager",
+  "evenement": "Halloween",
+  "v": "1.5.0"
+ },
+ {
+  "id": "starry-sands-flooring",
+  "nom": {
+   "fr": "Sol plage étoilée",
+   "en": "Starry-sands flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSandStar00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7720
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "summer shells",
+  "v": "1.0.0"
+ },
+ {
+  "id": "steampunk-flooring",
+  "nom": {
+   "fr": "Sol steampunk",
+   "en": "Steampunk flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSteampunk00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "steel-flooring",
+  "nom": {
+   "fr": "Sol en acier",
+   "en": "Steel flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorSteel00.png",
+  "prix": {
+   "achat": null,
+   "vente": 5250
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "v": "1.0.0"
+ },
+ {
+  "id": "stone-tile",
+  "nom": {
+   "fr": "Sol pavé",
+   "en": "Stone tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMarble00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750,
+   "echange": {
+    "prix": 2700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "stripe-flooring",
+  "nom": {
+   "fr": "Sol rayures",
+   "en": "Stripe flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorStripe00.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300,
+   "echange": {
+    "prix": 1100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sumo-ring",
+  "nom": {
+   "fr": "Sol sumotori",
+   "en": "Sumo ring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorArena00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "swamp-flooring",
+  "nom": {
+   "fr": "Sol marécage",
+   "en": "Swamp flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBog00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tatami",
+  "nom": {
+   "fr": "Sol tatamis",
+   "en": "Tatami"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTatami00.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550,
+   "echange": {
+    "prix": 2000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tatami-flooring",
+  "nom": {
+   "fr": "Sol tatamis carrés",
+   "en": "Tatami flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTatamiPanel00.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550,
+   "echange": {
+    "prix": 2000,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tent-flooring",
+  "nom": {
+   "fr": "Sol tente",
+   "en": "Tent flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGlamping00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Saharah's Co-op"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "terra-cotta-flooring",
+  "nom": {
+   "fr": "Sol terre cuite",
+   "en": "Terra-cotta flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTileTerracotta00.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450,
+   "echange": {
+    "prix": 1600,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tiger-print-flooring",
+  "nom": {
+   "fr": "Sol tigre",
+   "en": "Tiger-print flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorAnimal03.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "train-station-flooring",
+  "nom": {
+   "fr": "Sol quai de gare",
+   "en": "Train-station flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPlatform00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tricolor-turf-war-flooring",
+  "nom": {
+   "fr": "Sol guerre tricolore",
+   "en": "Tricolor Turf War flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorSplatoon00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Nook Shopping (promotion)"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "turkey-day-flooring",
+  "nom": {
+   "fr": "Sol fête du partage",
+   "en": "Turkey Day flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHarvest00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750
+  },
+  "sources": [
+   "Dindou"
+  ],
+  "notes_source": "Reward for giving Franklin the requested ingredients",
+  "evenement": "Turkey Day",
+  "v": "1.6.0"
+ },
+ {
+  "id": "underwater-flooring",
+  "nom": {
+   "fr": "Sol fonds marins",
+   "en": "Underwater flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorFishTank00.png",
+  "prix": {
+   "achat": null,
+   "vente": 6600
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "summer shells",
+  "v": "1.0.0"
+ },
+ {
+  "id": "water-flooring",
+  "nom": {
+   "fr": "Sol eau",
+   "en": "Water flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomSpFloorWater00.png",
+  "prix": {
+   "achat": null,
+   "vente": 7200
+  },
+  "sources": [
+   "Fabrication (DIY)"
+  ],
+  "diy": true,
+  "evenement": "summer shells",
+  "v": "1.0.0"
+ },
+ {
+  "id": "western-desert",
+  "nom": {
+   "fr": "Sol Far West",
+   "en": "Western desert"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorWilderness00.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-honeycomb-tile",
+  "nom": {
+   "fr": "Sol alvéolé blanc",
+   "en": "White honeycomb tile"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorHoneycomb03.png",
+  "prix": {
+   "achat": 1420,
+   "vente": 355,
+   "echange": {
+    "prix": 1300,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-iron-parquet-flooring",
+  "nom": {
+   "fr": "Parquet bois et fer blanc",
+   "en": "White iron-parquet flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorParquetIron03.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587,
+   "echange": {
+    "prix": 2100,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-mosaic-tile-flooring",
+  "nom": {
+   "fr": "Sol mosaïque blanche",
+   "en": "White mosaic-tile flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorTile00.png",
+  "prix": {
+   "achat": 900,
+   "vente": 225,
+   "echange": {
+    "prix": 810,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-wedding-flooring",
+  "nom": {
+   "fr": "Sol mariage blanc",
+   "en": "White wedding flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorMarbleTile00.png",
+  "prix": {
+   "achat": null,
+   "vente": 750,
+   "echange": {
+    "prix": 12,
+    "monnaie": "Heart Crystals"
+   }
+  },
+  "sources": [
+   "Serge"
+  ],
+  "evenement": "Wedding Season",
+  "v": "1.2.0"
+ },
+ {
+  "id": "white-brick-flooring",
+  "nom": {
+   "fr": "Sol briques blanches",
+   "en": "White-brick flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorBrick00.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-chocolates-flooring",
+  "nom": {
+   "fr": "Sol chocolat blanc",
+   "en": "White-chocolates flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorChocolate01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "white-paint-flooring",
+  "nom": {
+   "fr": "Sol bois peint blanc",
+   "en": "White-paint flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorPaintWood03.png",
+  "prix": {
+   "achat": 1040,
+   "vente": 260,
+   "echange": {
+    "prix": 940,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wildflower-meadow",
+  "nom": {
+   "fr": "Sol fleurs sauvages",
+   "en": "Wildflower meadow"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorGrassland01.png",
+  "prix": {
+   "achat": 3000,
+   "vente": 750
+  },
+  "sources": [
+   "Sarah",
+   "Saharah's Co-op"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wooden-knot-flooring",
+  "nom": {
+   "fr": "Sol nœuds de bois",
+   "en": "Wooden-knot flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorCedar00.png",
+  "prix": {
+   "achat": 780,
+   "vente": 195,
+   "echange": {
+    "prix": 700,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yellow-floral-flooring",
+  "nom": {
+   "fr": "Sol floral strié jaune",
+   "en": "Yellow floral flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorDecoWood00.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380,
+   "echange": {
+    "prix": 1400,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "zebra-print-flooring",
+  "nom": {
+   "fr": "Sol zèbre",
+   "en": "Zebra-print flooring"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/RoomTexFloorAnimal02.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325,
+   "echange": {
+    "prix": 1200,
+    "monnaie": "Poki"
+   }
+  },
+  "sources": [
+   "Boutique Nook"
+  ],
+  "v": "1.0.0"
+ }
+]

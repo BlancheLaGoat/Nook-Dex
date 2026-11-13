@@ -1,0 +1,1011 @@
+[
+ {
+  "id": "ancient-tile",
+  "nom": {
+   "fr": "Carrelage ancien",
+   "en": "Ancient tile"
+  },
+  "image": "https://dodo.ac/np/images/8/8b/Ancient_Tile_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "parquet-floor",
+  "nom": {
+   "fr": "Parquet ouvragé",
+   "en": "Parquet floor"
+  },
+  "image": "https://dodo.ac/np/images/e/e2/Parquet_Floor_WW_Model.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "backyard-lawn",
+  "nom": {
+   "fr": "Gazon patio",
+   "en": "Backyard lawn"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Backyard_Lawn_WW_Model.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "bamboo-flooring",
+  "nom": {
+   "fr": "Sol en bambou",
+   "en": "Bamboo flooring"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Bamboo_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "birch-flooring",
+  "nom": {
+   "fr": "Parquet bouleau",
+   "en": "Birch flooring"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Birch_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "block-floor",
+  "nom": {
+   "fr": "Revêtement blocs",
+   "en": "Block floor"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/Block_Floor_WW_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "blue-flooring",
+  "nom": {
+   "fr": "Moquette bleue",
+   "en": "Blue flooring"
+  },
+  "image": "https://dodo.ac/np/images/d/d7/Blue_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 1580,
+   "vente": 395
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "boxing-ring-mat",
+  "nom": {
+   "fr": "Tapis de ring",
+   "en": "Boxing ring mat"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Boxing_Ring_Mat_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2500
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "cowhide-rug",
+  "nom": {
+   "fr": "Peau de vache",
+   "en": "Cowhide rug"
+  },
+  "image": "https://dodo.ac/np/images/d/de/Cowhide_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "red-tile",
+  "nom": {
+   "fr": "Carrelage rouge",
+   "en": "Red tile"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Red_Tile_WW_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "cabana-flooring",
+  "nom": {
+   "fr": "Sol rotin",
+   "en": "Cabana flooring"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Cabana_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "ceramic-tile",
+  "nom": {
+   "fr": "Céramique",
+   "en": "Ceramic tile"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Ceramic_Tile_WW_Model.png",
+  "prix": {
+   "achat": 1390,
+   "vente": 347
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "charcoal-tile",
+  "nom": {
+   "fr": "Lino gris",
+   "en": "Charcoal tile"
+  },
+  "image": "https://dodo.ac/np/images/7/7d/Charcoal_Tile_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "checkered-tile",
+  "nom": {
+   "fr": "Carrelage pavés",
+   "en": "Checkered tile"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Checkered_Tile_WW_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "classic-carpet",
+  "nom": {
+   "fr": "Tapis rustique",
+   "en": "Classic carpet"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Classic_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "cloud-flooring",
+  "nom": {
+   "fr": "Sol nuages",
+   "en": "Cloud flooring"
+  },
+  "image": "https://dodo.ac/np/images/3/36/Cloud_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "kiddie-carpet",
+  "nom": {
+   "fr": "Tapis d'enfant",
+   "en": "Kiddie carpet"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Kiddie_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 1630,
+   "vente": 407
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "common-floor",
+  "nom": {
+   "fr": "Sol ordinaire",
+   "en": "Common floor"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Common_Floor_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "any villager"
+  ]
+ },
+ {
+  "id": "concrete-floor",
+  "nom": {
+   "fr": "Sol en ciment",
+   "en": "Concrete floor"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Concrete_Floor_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "closed-road",
+  "nom": {
+   "fr": "Route barrée",
+   "en": "Closed road"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Closed_Road_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1625
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "daisy-meadow",
+  "nom": {
+   "fr": "Sol pâquerettes",
+   "en": "Daisy meadow"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Daisy_Meadow_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "diner-tile",
+  "nom": {
+   "fr": "Carrelage damier",
+   "en": "Diner tile"
+  },
+  "image": "https://dodo.ac/np/images/8/83/Diner_Tile_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "exotic-rug",
+  "nom": {
+   "fr": "Tapis teck",
+   "en": "Exotic rug"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Exotic_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1820,
+   "vente": 455
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "exquisite-rug",
+  "nom": {
+   "fr": "Tapis magnifique",
+   "en": "Exquisite rug"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Exquisite_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "fancy-carpet",
+  "nom": {
+   "fr": "Tapis fantaisie",
+   "en": "Fancy carpet"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Fancy_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 2980,
+   "vente": 745
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "forest-floor",
+  "nom": {
+   "fr": "Sol forêt",
+   "en": "Forest floor"
+  },
+  "image": "https://dodo.ac/np/images/2/2e/Forest_Floor_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 420
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "green-rug",
+  "nom": {
+   "fr": "Carpette verte",
+   "en": "Green rug"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Green_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "illusion-floor",
+  "nom": {
+   "fr": "Sol illusion",
+   "en": "Illusion floor"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/Illusion_Floor_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "imperial-tile",
+  "nom": {
+   "fr": "Sol chinois",
+   "en": "Imperial tile"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Imperial_Tile_WW_Model.png",
+  "prix": {
+   "achat": 2980,
+   "vente": 745
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "kitchen-tile",
+  "nom": {
+   "fr": "Lino cuisine",
+   "en": "Kitchen tile"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Kitchen_Tile_WW_Model.png",
+  "prix": {
+   "achat": 1890,
+   "vente": 472
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "lovely-carpet",
+  "nom": {
+   "fr": "Tapis cœur",
+   "en": "Lovely carpet"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Lovely_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "lunar-surface",
+  "nom": {
+   "fr": "Sol lunaire",
+   "en": "Lunar surface"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Lunar_Surface_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2000
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "modern-tile",
+  "nom": {
+   "fr": "Sol moderne",
+   "en": "Modern tile"
+  },
+  "image": "https://dodo.ac/np/images/3/3b/Modern_Tile_WW_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "mosaic-tile",
+  "nom": {
+   "fr": "Mosaïque",
+   "en": "Mosaic tile"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Mosaic_Tile_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "music-room-floor",
+  "nom": {
+   "fr": "Sol studio",
+   "en": "Music room floor"
+  },
+  "image": "https://dodo.ac/np/images/d/d5/Music_Room_Floor_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "old-flooring",
+  "nom": {
+   "fr": "Parquet abîmé",
+   "en": "Old flooring"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Old_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "lab-floor",
+  "nom": {
+   "fr": "Sol labo",
+   "en": "Lab floor"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Lab_Floor_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "opulent-rug",
+  "nom": {
+   "fr": "Carpette manoir",
+   "en": "Opulent rug"
+  },
+  "image": "https://dodo.ac/np/images/6/6c/Opulent_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1230,
+   "vente": 307
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "citrus-carpet",
+  "nom": {
+   "fr": "Tapis agrume",
+   "en": "Citrus carpet"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Citrus_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 1330,
+   "vente": 332
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "ornate-rug",
+  "nom": {
+   "fr": "Carpette décorée",
+   "en": "Ornate rug"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Ornate_Rug_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "palace-tile",
+  "nom": {
+   "fr": "Dallage palais",
+   "en": "Palace tile"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Palace_Tile_WW_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "pastel-dot-rug",
+  "nom": {
+   "fr": "Carpette pastel",
+   "en": "Pastel dot rug"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Pastel_Dot_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "playroom-rug",
+  "nom": {
+   "fr": "Tapis de jeu",
+   "en": "Playroom rug"
+  },
+  "image": "https://dodo.ac/np/images/b/b1/Playroom_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "plaza-tile",
+  "nom": {
+   "fr": "Carrelage plaza",
+   "en": "Plaza tile"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Plaza_Tile_WW_Model.png",
+  "prix": {
+   "achat": 2180,
+   "vente": 545
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "plush-carpet",
+  "nom": {
+   "fr": "Tapis somptueux",
+   "en": "Plush carpet"
+  },
+  "image": "https://dodo.ac/np/images/6/6e/Plush_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 2160,
+   "vente": 540
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "ranch-flooring",
+  "nom": {
+   "fr": "Parquet ranch",
+   "en": "Ranch flooring"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Ranch_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 1750,
+   "vente": 437
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "cabin-rug",
+  "nom": {
+   "fr": "Carpette chalet",
+   "en": "Cabin rug"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Cabin_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1540,
+   "vente": 385
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "regal-carpet",
+  "nom": {
+   "fr": "Tapis majestueux",
+   "en": "Regal carpet"
+  },
+  "image": "https://dodo.ac/np/images/b/b1/Regal_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 2850,
+   "vente": 712
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "robo-floor",
+  "nom": {
+   "fr": "Sol robot",
+   "en": "Robo-floor"
+  },
+  "image": "https://dodo.ac/np/images/3/34/Robo-Floor_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "round-carpet",
+  "nom": {
+   "fr": "Tapis rond",
+   "en": "Round carpet"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Round_Carpet_WW_Model.png",
+  "prix": {
+   "achat": 1080,
+   "vente": 270
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "saharahs-desert",
+  "nom": {
+   "fr": "Désert",
+   "en": "Saharah's desert"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Saharah's_Desert_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "sandlot",
+  "nom": {
+   "fr": "Sable",
+   "en": "Sandlot"
+  },
+  "image": "https://dodo.ac/np/images/1/16/Sandlot_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1700
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "shanty-mat",
+  "nom": {
+   "fr": "Tapis de paille",
+   "en": "Shanty mat"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Shanty_Mat_WW_Model.png",
+  "prix": {
+   "achat": 720,
+   "vente": 180
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "ship-deck",
+  "nom": {
+   "fr": "Pont de navire",
+   "en": "Ship deck"
+  },
+  "image": "https://dodo.ac/np/images/0/04/Ship_Deck_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1000
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "slate-flooring",
+  "nom": {
+   "fr": "Sol ardoises",
+   "en": "Slate flooring"
+  },
+  "image": "https://dodo.ac/np/images/7/7d/Slate_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 1380,
+   "vente": 345
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "snowman-carpet",
+  "nom": {
+   "fr": "Tapis Yétiti",
+   "en": "Snowman carpet"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Snowman_Carpet_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "steel-flooring",
+  "nom": {
+   "fr": "Sol en acier",
+   "en": "Steel flooring"
+  },
+  "image": "https://dodo.ac/np/images/4/4a/Steel_Flooring_WW_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "stone-tile",
+  "nom": {
+   "fr": "Sol pavé",
+   "en": "Stone tile"
+  },
+  "image": "https://dodo.ac/np/images/2/29/Stone_Tile_WW_Model.png",
+  "prix": {
+   "achat": 2750,
+   "vente": 687
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "fairy-tale-floor",
+  "nom": {
+   "fr": "Sol fable",
+   "en": "Fairy tale floor"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Fairy_Tale_Floor_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "tartan-rug",
+  "nom": {
+   "fr": "Tapis en tartan",
+   "en": "Tartan rug"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Tartan_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1820,
+   "vente": 455
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "tatami-floor",
+  "nom": {
+   "fr": "Sol de cave",
+   "en": "Tatami floor"
+  },
+  "image": "https://dodo.ac/np/images/2/2d/Tatami_Floor_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2125
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "persian-rug",
+  "nom": {
+   "fr": "Carpette perse",
+   "en": "Persian rug"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Persian_Rug_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "any villager"
+  ]
+ },
+ {
+  "id": "tropical-floor",
+  "nom": {
+   "fr": "Sol tropical",
+   "en": "Tropical floor"
+  },
+  "image": "https://dodo.ac/np/images/8/8c/Tropical_Floor_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2050
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "western-desert",
+  "nom": {
+   "fr": "Désert Far West",
+   "en": "Western desert"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Western_Desert_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1700
+  },
+  "sources": [
+   "Saharah"
+  ]
+ }
+]

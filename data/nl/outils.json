@@ -1,0 +1,1281 @@
+[
+ {
+  "id": "axe",
+  "nom": {
+   "fr": "Hache",
+   "en": "Axe"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Axe_NL_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "garden shop"
+  ]
+ },
+ {
+  "id": "beans",
+  "nom": {
+   "fr": "Panier de haricots",
+   "en": "Beans"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Beans_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store",
+   "Harvey"
+  ]
+ },
+ {
+  "id": "blue-balloon",
+  "nom": {
+   "fr": "Ballon bleu",
+   "en": "Blue balloon"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Blue_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "blue-glow-wand",
+  "nom": {
+   "fr": "Baguette fluo bleue",
+   "en": "Blue glow wand"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Blue_Glow_Wand_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "Isabelle"
+  ]
+ },
+ {
+  "id": "blue-pinwheel",
+  "nom": {
+   "fr": "Moulin bleu",
+   "en": "Blue pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/9/9d/Blue_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bubble-wand",
+  "nom": {
+   "fr": "Lance-bulles",
+   "en": "Bubble wand"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Bubble_Wand_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-b-balloon",
+  "nom": {
+   "fr": "Ballon lapin bleu",
+   "en": "Bunny b. balloon"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Bunny_B._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-c-balloon",
+  "nom": {
+   "fr": "Ballon lapin b. ciel",
+   "en": "Bunny c. balloon"
+  },
+  "image": "https://dodo.ac/np/images/0/0a/Bunny_C._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-g-balloon",
+  "nom": {
+   "fr": "Ballon lapin vert",
+   "en": "Bunny g. balloon"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Bunny_G._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-i-balloon",
+  "nom": {
+   "fr": "Ballon lapin violet",
+   "en": "Bunny i. balloon"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Bunny_I._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-o-balloon",
+  "nom": {
+   "fr": "Ballon lapin orange",
+   "en": "Bunny o. balloon"
+  },
+  "image": "https://dodo.ac/np/images/9/97/Bunny_O._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-p-balloon",
+  "nom": {
+   "fr": "Ballon lapin rose",
+   "en": "Bunny p. balloon"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Bunny_P._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-r-balloon",
+  "nom": {
+   "fr": "Ballon lapin rouge",
+   "en": "Bunny r. balloon"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Bunny_R._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "bunny-y-balloon",
+  "nom": {
+   "fr": "Ballon lapin jaune",
+   "en": "Bunny y. balloon"
+  },
+  "image": "https://dodo.ac/np/images/f/f5/Bunny_Y._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "choco-soft-serve",
+  "nom": {
+   "fr": "Cornet chocolat",
+   "en": "Choco soft-serve"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/Choco_Soft-Serve_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "coffee",
+  "nom": {
+   "fr": "Café",
+   "en": "Coffee"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Coffee_NL_Model.png",
+  "prix": {
+   "achat": 200,
+   "vente": 200
+  },
+  "sources": [
+   "The Roost"
+  ]
+ },
+ {
+  "id": "cyan-balloon",
+  "nom": {
+   "fr": "Ballon bleu ciel",
+   "en": "Cyan balloon"
+  },
+  "image": "https://dodo.ac/np/images/0/0d/Cyan_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "cyan-pinwheel",
+  "nom": {
+   "fr": "Moulin bleu ciel",
+   "en": "Cyan pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Cyan_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "fishing-rod",
+  "nom": {
+   "fr": "Canne à pêche",
+   "en": "Fishing rod"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Fishing_Rod_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "flower-fairy-wand",
+  "nom": {
+   "fr": "Baguette églantine",
+   "en": "Flower Fairy wand"
+  },
+  "image": "https://dodo.ac/np/images/c/c7/Flower_Fairy_Wand_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 300
+  },
+  "sources": [
+   "Distribution Nintendo"
+  ]
+ },
+ {
+  "id": "golden-axe",
+  "nom": {
+   "fr": "Hache dorée",
+   "en": "Golden axe"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Golden_Axe_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 100
+  },
+  "sources": [
+   "Leif"
+  ]
+ },
+ {
+  "id": "golden-net",
+  "nom": {
+   "fr": "Filet doré",
+   "en": "Golden net"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Golden_Net_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Nat"
+  ]
+ },
+ {
+  "id": "golden-rod",
+  "nom": {
+   "fr": "Canne à pêche dorée",
+   "en": "Golden rod"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Golden_Rod_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Chip"
+  ]
+ },
+ {
+  "id": "golden-shovel",
+  "nom": {
+   "fr": "Pelle dorée",
+   "en": "Golden shovel"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Golden_Shovel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Leif"
+  ]
+ },
+ {
+  "id": "golden-slingshot",
+  "nom": {
+   "fr": "Lance-pierre doré",
+   "en": "Golden slingshot"
+  },
+  "image": "https://dodo.ac/np/images/0/0d/Golden_Slingshot_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "balloon"
+  ]
+ },
+ {
+  "id": "golden-can",
+  "nom": {
+   "fr": "Arrosoir doré",
+   "en": "Golden can"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Golden_Can_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Isabelle"
+  ]
+ },
+ {
+  "id": "good-luck-roll",
+  "nom": {
+   "fr": "Maki porte-bonheur",
+   "en": "Good-luck roll"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Good-Luck_Roll_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "green-balloon",
+  "nom": {
+   "fr": "Ballon vert",
+   "en": "Green balloon"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Green_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "green-glow-wand",
+  "nom": {
+   "fr": "Baguette fluo verte",
+   "en": "Green glow wand"
+  },
+  "image": "https://dodo.ac/np/images/9/9d/Green_Glow_Wand_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "green-pinwheel",
+  "nom": {
+   "fr": "Moulin vert",
+   "en": "Green pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/a/a7/Green_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-b-balloon",
+  "nom": {
+   "fr": "Ballon cœur bleu",
+   "en": "Heart b. balloon"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Heart_B._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-c-balloon",
+  "nom": {
+   "fr": "Ballon cœur b. ciel",
+   "en": "Heart c. balloon"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Heart_C._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-g-balloon",
+  "nom": {
+   "fr": "Ballon cœur vert",
+   "en": "Heart g. balloon"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Heart_G._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-i-balloon",
+  "nom": {
+   "fr": "Ballon cœur violet",
+   "en": "Heart i. balloon"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Heart_I._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-o-balloon",
+  "nom": {
+   "fr": "Ballon cœur orange",
+   "en": "Heart o. balloon"
+  },
+  "image": "https://dodo.ac/np/images/f/f9/Heart_O._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-p-balloon",
+  "nom": {
+   "fr": "Ballon cœur rose",
+   "en": "Heart p. balloon"
+  },
+  "image": "https://dodo.ac/np/images/b/bf/Heart_P._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-r-balloon",
+  "nom": {
+   "fr": "Ballon cœur rouge",
+   "en": "Heart r. balloon"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Heart_R._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "heart-y-balloon",
+  "nom": {
+   "fr": "Ballon cœur jaune",
+   "en": "Heart y. balloon"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Heart_Y._Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "indigo-balloon",
+  "nom": {
+   "fr": "Ballon violet",
+   "en": "Indigo balloon"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Indigo_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "indigo-pinwheel",
+  "nom": {
+   "fr": "Moulin mauve",
+   "en": "Indigo pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Indigo_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "kiki-and-lala-wand",
+  "nom": {
+   "fr": "Baguette Kiki & Lala",
+   "en": "Kiki and Lala wand"
+  },
+  "image": "https://dodo.ac/np/images/0/05/Kiki_and_Lala_Wand_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 300
+  }
+ },
+ {
+  "id": "lemon-double-scoop",
+  "nom": {
+   "fr": "Glace citron-menthe",
+   "en": "Lemon double scoop"
+  },
+  "image": "https://dodo.ac/np/images/9/99/Lemon_Double_Scoop_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "matcha-soft-serve",
+  "nom": {
+   "fr": "Cornet pistache",
+   "en": "Matcha soft-serve"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Matcha_Soft-Serve_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "megaphone",
+  "nom": {
+   "fr": "Mégaphone",
+   "en": "Megaphone"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Megaphone_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "mint-double-scoop",
+  "nom": {
+   "fr": "Glace tropical-melon",
+   "en": "Mint double scoop"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Mint_Double_Scoop_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "mystery-bag",
+  "nom": {
+   "fr": "Sac mystère",
+   "en": "Mystery bag"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Santa_Bag_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Santa bag"
+  ]
+ },
+ {
+  "id": "net",
+  "nom": {
+   "fr": "Filet",
+   "en": "Net"
+  },
+  "image": "https://dodo.ac/np/images/5/5c/Net_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "orange-balloon",
+  "nom": {
+   "fr": "Ballon orange",
+   "en": "Orange balloon"
+  },
+  "image": "https://dodo.ac/np/images/5/58/Orange_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "orange-pinwheel",
+  "nom": {
+   "fr": "Moulin orange",
+   "en": "Orange pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/7/7b/Orange_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "party-popper",
+  "nom": {
+   "fr": "Pétard",
+   "en": "Party popper"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Party_Popper_NL_Model.png",
+  "prix": {
+   "achat": 300,
+   "vente": 75
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "pink-balloon",
+  "nom": {
+   "fr": "Ballon rose",
+   "en": "Pink balloon"
+  },
+  "image": "https://dodo.ac/np/images/a/ab/Pink_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "pink-glow-wand",
+  "nom": {
+   "fr": "Baguette fluo rose",
+   "en": "Pink glow wand"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Pink_Glow_Wand_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "pink-pinwheel",
+  "nom": {
+   "fr": "Moulin rose",
+   "en": "Pink pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/8/80/Pink_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "red-balloon",
+  "nom": {
+   "fr": "Ballon rouge",
+   "en": "Red balloon"
+  },
+  "image": "https://dodo.ac/np/images/8/8a/Red_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "red-pinwheel",
+  "nom": {
+   "fr": "Moulin rouge",
+   "en": "Red pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Red_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "rental-axe",
+  "nom": {
+   "fr": "Hache (prêt)",
+   "en": "Rental axe"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Axe_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Lloid"
+  ]
+ },
+ {
+  "id": "rental-can",
+  "nom": {
+   "fr": "Arrosoir (prêt)",
+   "en": "Rental can"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Watering_Can_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Lloid"
+  ]
+ },
+ {
+  "id": "rental-net",
+  "nom": {
+   "fr": "Filet (prêt)",
+   "en": "Rental net"
+  },
+  "image": "https://dodo.ac/np/images/5/5c/Net_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Lloid",
+   "tour"
+  ]
+ },
+ {
+  "id": "rental-rod",
+  "nom": {
+   "fr": "Canne à pêche (prêt)",
+   "en": "Rental rod"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Fishing_Rod_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Lloid",
+   "tour"
+  ]
+ },
+ {
+  "id": "rental-shovel",
+  "nom": {
+   "fr": "Pelle (prêt)",
+   "en": "Rental shovel"
+  },
+  "image": "https://dodo.ac/np/images/0/0e/Shovel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Lloid",
+   "tour"
+  ]
+ },
+ {
+  "id": "rental-slingshot",
+  "nom": {
+   "fr": "Lance-pierre (prêt)",
+   "en": "Rental slingshot"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Slingshot_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "tour"
+  ]
+ },
+ {
+  "id": "rental-toy-hammer",
+  "nom": {
+   "fr": "Marteau plas. (prêt)",
+   "en": "Rental toy hammer"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Toy_Hammer_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "tour"
+  ]
+ },
+ {
+  "id": "roman-candle",
+  "nom": {
+   "fr": "Chandelle romaine",
+   "en": "Roman candle"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Sparkler_NL_Model.png",
+  "prix": {
+   "achat": 120,
+   "vente": 30
+  },
+  "sources": [
+   "Timmy and Tommy's store",
+   "dud ticket"
+  ]
+ },
+ {
+  "id": "santa-bag",
+  "nom": {
+   "fr": "Sac de père Noël",
+   "en": "Santa bag"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Santa_Bag_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Jingle"
+  ]
+ },
+ {
+  "id": "shovel",
+  "nom": {
+   "fr": "Pelle",
+   "en": "Shovel"
+  },
+  "image": "https://dodo.ac/np/images/0/0e/Shovel_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "silver-axe",
+  "nom": {
+   "fr": "Hache d'argent",
+   "en": "Silver axe"
+  },
+  "image": "https://dodo.ac/np/images/0/0e/Silver_Axe_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 100
+  },
+  "sources": [
+   "Souvenir Shop"
+  ]
+ },
+ {
+  "id": "silver-can",
+  "nom": {
+   "fr": "Arrosoir d'argent",
+   "en": "Silver can"
+  },
+  "image": "https://dodo.ac/np/images/2/24/Silver_Can_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Leif"
+  ]
+ },
+ {
+  "id": "silver-net",
+  "nom": {
+   "fr": "Filet d'argent",
+   "en": "Silver net"
+  },
+  "image": "https://dodo.ac/np/images/b/b2/Silver_Net_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "silver-rod",
+  "nom": {
+   "fr": "Canne à pêche argent",
+   "en": "Silver rod"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Silver_Rod_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "silver-shovel",
+  "nom": {
+   "fr": "Pelle d'argent",
+   "en": "Silver shovel"
+  },
+  "image": "https://dodo.ac/np/images/f/fa/Silver_Shovel_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Museum Shop"
+  ]
+ },
+ {
+  "id": "silver-slingshot",
+  "nom": {
+   "fr": "Lance-pierre argent",
+   "en": "Silver slingshot"
+  },
+  "image": "https://dodo.ac/np/images/d/d5/Silver_Slingshot_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "balloon"
+  ]
+ },
+ {
+  "id": "slingshot",
+  "nom": {
+   "fr": "Lance-pierre",
+   "en": "Slingshot"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Slingshot_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "sparkler",
+  "nom": {
+   "fr": "Cierge magique",
+   "en": "Sparkler"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Sparkler_NL_Model.png",
+  "prix": {
+   "achat": 120,
+   "vente": 30
+  },
+  "sources": [
+   "Timmy and Tommy's store",
+   "dud ticket"
+  ]
+ },
+ {
+  "id": "sparkling-cider",
+  "nom": {
+   "fr": "Cocktail de fruits",
+   "en": "Sparkling cider"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Sparkling_Cider_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "Isabelle"
+  ]
+ },
+ {
+  "id": "strawberry-ice-cream",
+  "nom": {
+   "fr": "Glace à la framboise",
+   "en": "Strawberry ice cream"
+  },
+  "image": "https://dodo.ac/np/images/7/76/Strawberry_Ice_Cream_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "swirl-soft-serve",
+  "nom": {
+   "fr": "Cornet fraise",
+   "en": "Swirl soft-serve"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Swirl_Soft-Serve_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "timer",
+  "nom": {
+   "fr": "Chrono",
+   "en": "Timer"
+  },
+  "image": "https://dodo.ac/np/images/8/88/Timer_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "toy-hammer",
+  "nom": {
+   "fr": "Marteau en plastique",
+   "en": "Toy hammer"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Toy_Hammer_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "Souvenir Shop"
+  ]
+ },
+ {
+  "id": "tweeter",
+  "nom": {
+   "fr": "Sans-gêne",
+   "en": "Tweeter"
+  },
+  "image": "https://dodo.ac/np/images/3/36/Tweeter_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "vanilla-ice-cream",
+  "nom": {
+   "fr": "Glace fruits confits",
+   "en": "Vanilla ice cream"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Vanilla_Ice_Cream_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "vanilla-soft-serve",
+  "nom": {
+   "fr": "Cornet vanille",
+   "en": "Vanilla soft-serve"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Vanilla_Soft-Serve_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 200
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "watering-can",
+  "nom": {
+   "fr": "Arrosoir",
+   "en": "Watering can"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Watering_Can_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "garden shop",
+   "Isabelle"
+  ]
+ },
+ {
+  "id": "yellow-balloon",
+  "nom": {
+   "fr": "Ballon jaune",
+   "en": "Yellow balloon"
+  },
+  "image": "https://dodo.ac/np/images/f/fd/Yellow_Balloon_NL_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ },
+ {
+  "id": "yellow-glow-wand",
+  "nom": {
+   "fr": "Baguette fluo jaune",
+   "en": "Yellow glow wand"
+  },
+  "image": "https://dodo.ac/np/images/8/83/Yellow_Glow_Wand_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Timmy and Tommy's store"
+  ]
+ },
+ {
+  "id": "yellow-pinwheel",
+  "nom": {
+   "fr": "Moulin jaune",
+   "en": "Yellow pinwheel"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Yellow_Pinwheel_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 125
+  },
+  "sources": [
+   "HH Showcase"
+  ]
+ }
+]

@@ -1,0 +1,8217 @@
+[
+ {
+  "id": "aces-photo",
+  "nom": {
+   "fr": "Photo de Boumboum",
+   "en": "Ace's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "admirals-photo",
+  "nom": {
+   "fr": "Photo de Maréchal",
+   "en": "Admiral's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "agent-ss-photo",
+  "nom": {
+   "fr": "Photo de Ninjette",
+   "en": "Agent S's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "agness-photo",
+  "nom": {
+   "fr": "Photo de Pansy",
+   "en": "Agnes's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "als-photo",
+  "nom": {
+   "fr": "Photo de Gustave",
+   "en": "Al's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "alfonsos-photo",
+  "nom": {
+   "fr": "Photo d'Alphonse",
+   "en": "Alfonso's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "alices-photo",
+  "nom": {
+   "fr": "Photo d'Alice",
+   "en": "Alice's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "allis-photo",
+  "nom": {
+   "fr": "Photo d'Allie",
+   "en": "Alli's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "amelias-photo",
+  "nom": {
+   "fr": "Photo d'Aurélie",
+   "en": "Amelia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "anabelles-photo",
+  "nom": {
+   "fr": "Photo d'Anabelle",
+   "en": "Anabelle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "anchovys-photo",
+  "nom": {
+   "fr": "Photo de Miguel",
+   "en": "Anchovy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "anguss-photo",
+  "nom": {
+   "fr": "Photo d'Angus",
+   "en": "Angus's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBul00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "anicottis-photo",
+  "nom": {
+   "fr": "Photo d'Annie",
+   "en": "Anicotti's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ankhas-photo",
+  "nom": {
+   "fr": "Photo de Neferti",
+   "en": "Ankha's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat19_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "annalisas-photo",
+  "nom": {
+   "fr": "Photo de Roberta",
+   "en": "Annalisa's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "annalises-photo",
+  "nom": {
+   "fr": "Photo d'Âne-lise",
+   "en": "Annalise's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "antonios-photo",
+  "nom": {
+   "fr": "Photo d'Antonio",
+   "en": "Antonio's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "apollos-photo",
+  "nom": {
+   "fr": "Photo d'Apollon",
+   "en": "Apollo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "apples-photo",
+  "nom": {
+   "fr": "Photo d'Esther",
+   "en": "Apple's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "astrids-photo",
+  "nom": {
+   "fr": "Photo de Rhona",
+   "en": "Astrid's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "audies-photo",
+  "nom": {
+   "fr": "Photo de Monica",
+   "en": "Audie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "auroras-photo",
+  "nom": {
+   "fr": "Photo d'Aurore",
+   "en": "Aurora's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "avas-photo",
+  "nom": {
+   "fr": "Photo d'Eva",
+   "en": "Ava's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "averys-photo",
+  "nom": {
+   "fr": "Photo de Faust",
+   "en": "Avery's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "axels-photo",
+  "nom": {
+   "fr": "Photo d'Axel",
+   "en": "Axel's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "azaleas-photo",
+  "nom": {
+   "fr": "Photo d'Azalée",
+   "en": "Azalea's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRhn05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "baabaras-photo",
+  "nom": {
+   "fr": "Photo de Bêêtty",
+   "en": "Baabara's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bams-photo",
+  "nom": {
+   "fr": "Photo de Nacer",
+   "en": "Bam's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bangles-photo",
+  "nom": {
+   "fr": "Photo de Bengale",
+   "en": "Bangle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlTig03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "barolds-photo",
+  "nom": {
+   "fr": "Photo de Manu",
+   "en": "Barold's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "beas-photo",
+  "nom": {
+   "fr": "Photo de Béa",
+   "en": "Bea's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "beardos-photo",
+  "nom": {
+   "fr": "Photo d'Eustache",
+   "en": "Beardo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "beaus-photo",
+  "nom": {
+   "fr": "Photo de Stefaon",
+   "en": "Beau's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "beckys-photo",
+  "nom": {
+   "fr": "Photo de Sonya",
+   "en": "Becky's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bellas-photo",
+  "nom": {
+   "fr": "Photo de Belle",
+   "en": "Bella's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "benedicts-photo",
+  "nom": {
+   "fr": "Photo de Dimitri",
+   "en": "Benedict's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "benjamins-photo",
+  "nom": {
+   "fr": "Photo de Bernardo",
+   "en": "Benjamin's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "berthas-photo",
+  "nom": {
+   "fr": "Photo de Bertha",
+   "en": "Bertha's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHip03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bettinas-photo",
+  "nom": {
+   "fr": "Photo de Sabrina",
+   "en": "Bettina's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "biancas-photo",
+  "nom": {
+   "fr": "Photo de Noémie",
+   "en": "Bianca's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlTig06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "biffs-photo",
+  "nom": {
+   "fr": "Photo de Biff",
+   "en": "Biff's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHip04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "big-tops-photo",
+  "nom": {
+   "fr": "Photo de Miles",
+   "en": "Big Top's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bills-photo",
+  "nom": {
+   "fr": "Photo de Choco",
+   "en": "Bill's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "billys-photo",
+  "nom": {
+   "fr": "Photo de Seguin",
+   "en": "Billy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "biskits-photo",
+  "nom": {
+   "fr": "Photo de Crocket",
+   "en": "Biskit's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bittys-photo",
+  "nom": {
+   "fr": "Photo de Potama",
+   "en": "Bitty's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHip05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blaires-photo",
+  "nom": {
+   "fr": "Photo de Cachou",
+   "en": "Blaire's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blancas-photo",
+  "nom": {
+   "fr": "Photo de Blanca",
+   "en": "Blanca's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpMka_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "blanches-photo",
+  "nom": {
+   "fr": "Photo de Sophie",
+   "en": "Blanche's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "blatherss-photo",
+  "nom": {
+   "fr": "Photo de Thibou",
+   "en": "Blathers's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpOwl_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "bluebears-photo",
+  "nom": {
+   "fr": "Photo de Myrtille",
+   "en": "Bluebear's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bobs-photo",
+  "nom": {
+   "fr": "Photo de Robert",
+   "en": "Bob's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bonbons-photo",
+  "nom": {
+   "fr": "Photo de Sylvette",
+   "en": "Bonbon's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "boness-photo",
+  "nom": {
+   "fr": "Photo de Nonos",
+   "en": "Bones's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bookers-photo",
+  "nom": {
+   "fr": "Photo de Chausset",
+   "en": "Booker's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpDgb_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "boomers-photo",
+  "nom": {
+   "fr": "Photo d'Ethan",
+   "en": "Boomer's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "boones-photo",
+  "nom": {
+   "fr": "Photo de Babouin",
+   "en": "Boone's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bootss-photo",
+  "nom": {
+   "fr": "Photo de Croko",
+   "en": "Boots's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "boriss-photo",
+  "nom": {
+   "fr": "Photo de Boris",
+   "en": "Boris's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "boyds-photo",
+  "nom": {
+   "fr": "Photo de Primo",
+   "en": "Boyd's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brees-photo",
+  "nom": {
+   "fr": "Photo de Quenotte",
+   "en": "Bree's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "brewsters-photo",
+  "nom": {
+   "fr": "Photo de Robusto",
+   "en": "Brewster's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPge_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Thibou"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "broccolos-photo",
+  "nom": {
+   "fr": "Photo de Steven",
+   "en": "Broccolo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "broffinas-photo",
+  "nom": {
+   "fr": "Photo de Jo",
+   "en": "Broffina's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bruces-photo",
+  "nom": {
+   "fr": "Photo de Boubou",
+   "en": "Bruce's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bubbless-photo",
+  "nom": {
+   "fr": "Photo d'Hippy",
+   "en": "Bubbles's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHip02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bucks-photo",
+  "nom": {
+   "fr": "Photo de Daniel",
+   "en": "Buck's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "buds-photo",
+  "nom": {
+   "fr": "Photo de Léonard",
+   "en": "Bud's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlLon00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "bunnies-photo",
+  "nom": {
+   "fr": "Photo de Clara",
+   "en": "Bunnie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "butchs-photo",
+  "nom": {
+   "fr": "Photo d'Avril",
+   "en": "Butch's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "buzzs-photo",
+  "nom": {
+   "fr": "Photo de Phébus",
+   "en": "Buzz's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cjs-photo",
+  "nom": {
+   "fr": "Photo de Pollux",
+   "en": "C.J.'s photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpBey_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "callys-photo",
+  "nom": {
+   "fr": "Photo de Célia",
+   "en": "Cally's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "camofrogs-photo",
+  "nom": {
+   "fr": "Photo de Milos",
+   "en": "Camofrog's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "canberras-photo",
+  "nom": {
+   "fr": "Photo de Kolala",
+   "en": "Canberra's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "candis-photo",
+  "nom": {
+   "fr": "Photo de Sucrette",
+   "en": "Candi's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "carmens-photo",
+  "nom": {
+   "fr": "Photo de Zoé",
+   "en": "Carmen's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "carolines-photo",
+  "nom": {
+   "fr": "Photo d'Isabelle",
+   "en": "Caroline's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "carries-photo",
+  "nom": {
+   "fr": "Photo de Kanga",
+   "en": "Carrie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cashmeres-photo",
+  "nom": {
+   "fr": "Photo de Cashmir",
+   "en": "Cashmere's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ceces-photo",
+  "nom": {
+   "fr": "Photo de Kala",
+   "en": "Cece's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu19_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "celestes-photo",
+  "nom": {
+   "fr": "Photo de Céleste",
+   "en": "Celeste's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpOws_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "celias-photo",
+  "nom": {
+   "fr": "Photo de Garance",
+   "en": "Celia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cephalobots-photo",
+  "nom": {
+   "fr": "Photo d'Octoborg",
+   "en": "Cephalobot's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOcp04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "cesars-photo",
+  "nom": {
+   "fr": "Photo de César",
+   "en": "Cesar's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chabwicks-photo",
+  "nom": {
+   "fr": "Photo de Zinzin",
+   "en": "Chabwick's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "chadders-photo",
+  "nom": {
+   "fr": "Photo de Mozzar",
+   "en": "Chadder's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chais-photo",
+  "nom": {
+   "fr": "Photo de Chaï",
+   "en": "Chai's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "charlises-photo",
+  "nom": {
+   "fr": "Photo de Zabou",
+   "en": "Charlise's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chelseas-photo",
+  "nom": {
+   "fr": "Photo de Chelsea",
+   "en": "Chelsea's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "cheris-photo",
+  "nom": {
+   "fr": "Photo de Rosalie",
+   "en": "Cheri's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cherrys-photo",
+  "nom": {
+   "fr": "Photo d'Anna",
+   "en": "Cherry's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chesters-photo",
+  "nom": {
+   "fr": "Photo de Placide",
+   "en": "Chester's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chevres-photo",
+  "nom": {
+   "fr": "Photo de Biquette",
+   "en": "Chevre's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chiefs-photo",
+  "nom": {
+   "fr": "Photo de Chef",
+   "en": "Chief's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chips-photo",
+  "nom": {
+   "fr": "Photo de Castor",
+   "en": "Chip's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpBev_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "chopss-photo",
+  "nom": {
+   "fr": "Photo d'Aaron",
+   "en": "Chops's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chows-photo",
+  "nom": {
+   "fr": "Photo de Chulin",
+   "en": "Chow's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "chrissys-photo",
+  "nom": {
+   "fr": "Photo de Kristine",
+   "en": "Chrissy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "claudes-photo",
+  "nom": {
+   "fr": "Photo de Claude",
+   "en": "Claude's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "claudias-photo",
+  "nom": {
+   "fr": "Photo de Vanina",
+   "en": "Claudia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlTig05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "clays-photo",
+  "nom": {
+   "fr": "Photo de Guido",
+   "en": "Clay's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cleos-photo",
+  "nom": {
+   "fr": "Photo de Cléa",
+   "en": "Cleo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "clydes-photo",
+  "nom": {
+   "fr": "Photo de Dorian",
+   "en": "Clyde's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "coachs-photo",
+  "nom": {
+   "fr": "Photo d'Arnold",
+   "en": "Coach's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBul07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cobbs-photo",
+  "nom": {
+   "fr": "Photo de Porken",
+   "en": "Cobb's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cocos-photo",
+  "nom": {
+   "fr": "Photo de Coco",
+   "en": "Coco's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "coles-photo",
+  "nom": {
+   "fr": "Photo d'Épicure",
+   "en": "Cole's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "coltons-photo",
+  "nom": {
+   "fr": "Photo de Tony",
+   "en": "Colton's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cookies-photo",
+  "nom": {
+   "fr": "Photo de Cookie",
+   "en": "Cookie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "coppers-photo",
+  "nom": {
+   "fr": "Photo de Maret",
+   "en": "Copper's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpDga_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "cousteaus-photo",
+  "nom": {
+   "fr": "Photo de Figaro",
+   "en": "Cousteau's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cranstons-photo",
+  "nom": {
+   "fr": "Photo de Gabin",
+   "en": "Cranston's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "croques-photo",
+  "nom": {
+   "fr": "Photo de Carlos",
+   "en": "Croque's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cubes-photo",
+  "nom": {
+   "fr": "Photo de Cube",
+   "en": "Cube's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "curloss-photo",
+  "nom": {
+   "fr": "Photo de Tonton",
+   "en": "Curlos's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "curlys-photo",
+  "nom": {
+   "fr": "Photo de Tirbou",
+   "en": "Curly's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "curts-photo",
+  "nom": {
+   "fr": "Photo de Curt",
+   "en": "Curt's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cyds-photo",
+  "nom": {
+   "fr": "Photo de Punk",
+   "en": "Cyd's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cyranos-photo",
+  "nom": {
+   "fr": "Photo de Cyrano",
+   "en": "Cyrano's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "cyruss-photo",
+  "nom": {
+   "fr": "Photo de Serge",
+   "en": "Cyrus's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpAlp_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "daisy-maes-photo",
+  "nom": {
+   "fr": "Photo de Porcelette",
+   "en": "Daisy Mae's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpBoc_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "daisys-photo",
+  "nom": {
+   "fr": "Photo de Naomie",
+   "en": "Daisy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "deenas-photo",
+  "nom": {
+   "fr": "Photo de Mina",
+   "en": "Deena's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "deirdres-photo",
+  "nom": {
+   "fr": "Photo de Bichoune",
+   "en": "Deirdre's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dels-photo",
+  "nom": {
+   "fr": "Photo d'Hector",
+   "en": "Del's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "delis-photo",
+  "nom": {
+   "fr": "Photo de Magogo",
+   "en": "Deli's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "derwins-photo",
+  "nom": {
+   "fr": "Photo de Prof",
+   "en": "Derwin's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dianas-photo",
+  "nom": {
+   "fr": "Photo de Didi",
+   "en": "Diana's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "digbys-photo",
+  "nom": {
+   "fr": "Photo de Max",
+   "en": "Digby's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpSzo_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "divas-photo",
+  "nom": {
+   "fr": "Photo de Violette",
+   "en": "Diva's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dizzys-photo",
+  "nom": {
+   "fr": "Photo de Pachy",
+   "en": "Dizzy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dj-kks-photo",
+  "nom": {
+   "fr": "Photo de DJ Kéké",
+   "en": "DJ KK's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpTkkB_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "dobies-photo",
+  "nom": {
+   "fr": "Photo de Loupiot",
+   "en": "Dobie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "docs-photo",
+  "nom": {
+   "fr": "Photo de Doc",
+   "en": "Doc's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "doms-photo",
+  "nom": {
+   "fr": "Photo de Bouloche",
+   "en": "Dom's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dons-photo",
+  "nom": {
+   "fr": "Photo de Don",
+   "en": "Don's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpMob_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "doras-photo",
+  "nom": {
+   "fr": "Photo de Dora",
+   "en": "Dora's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dottys-photo",
+  "nom": {
+   "fr": "Photo de Dorothée",
+   "en": "Dotty's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "dragos-photo",
+  "nom": {
+   "fr": "Photo de Drago",
+   "en": "Drago's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "drakes-photo",
+  "nom": {
+   "fr": "Photo de Colvert",
+   "en": "Drake's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "drifts-photo",
+  "nom": {
+   "fr": "Photo de Gordon",
+   "en": "Drift's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "eds-photo",
+  "nom": {
+   "fr": "Photo d'Édouard",
+   "en": "Ed's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "egberts-photo",
+  "nom": {
+   "fr": "Photo d'Herbert",
+   "en": "Egbert's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "elises-photo",
+  "nom": {
+   "fr": "Photo d'Élise",
+   "en": "Elise's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ellies-photo",
+  "nom": {
+   "fr": "Photo d'Ella",
+   "en": "Ellie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "elmers-photo",
+  "nom": {
+   "fr": "Photo de Martin",
+   "en": "Elmer's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "eloises-photo",
+  "nom": {
+   "fr": "Photo d'Éloïse",
+   "en": "Eloise's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "elviss-photo",
+  "nom": {
+   "fr": "Photo d'Elvis",
+   "en": "Elvis's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlLon01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "eriks-photo",
+  "nom": {
+   "fr": "Photo d'Abraham",
+   "en": "Erik's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "etoiles-photo",
+  "nom": {
+   "fr": "Photo d'Étoile",
+   "en": "Étoile's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "eugenes-photo",
+  "nom": {
+   "fr": "Photo de Jamy",
+   "en": "Eugene's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "eunices-photo",
+  "nom": {
+   "fr": "Photo de Bérénice",
+   "en": "Eunice's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "faiths-photo",
+  "nom": {
+   "fr": "Photo de Kolette",
+   "en": "Faith's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "fangs-photo",
+  "nom": {
+   "fr": "Photo de Pierrot",
+   "en": "Fang's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "faunas-photo",
+  "nom": {
+   "fr": "Photo de Bibi",
+   "en": "Fauna's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "felicitys-photo",
+  "nom": {
+   "fr": "Photo de Maud",
+   "en": "Felicity's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "filberts-photo",
+  "nom": {
+   "fr": "Photo de Filibert",
+   "en": "Filbert's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "flicks-photo",
+  "nom": {
+   "fr": "Photo de Djason",
+   "en": "Flick's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpChy_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "flips-photo",
+  "nom": {
+   "fr": "Photo de Rudy",
+   "en": "Flip's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "flos-photo",
+  "nom": {
+   "fr": "Photo de Nora",
+   "en": "Flo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "floras-photo",
+  "nom": {
+   "fr": "Photo de Justine",
+   "en": "Flora's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "flurrys-photo",
+  "nom": {
+   "fr": "Photo d'Emma",
+   "en": "Flurry's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "francines-photo",
+  "nom": {
+   "fr": "Photo de Nadine",
+   "en": "Francine's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "franks-photo",
+  "nom": {
+   "fr": "Photo de Greggae",
+   "en": "Frank's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "franklins-photo",
+  "nom": {
+   "fr": "Photo de Dindou",
+   "en": "Franklin's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpTuk_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "freckless-photo",
+  "nom": {
+   "fr": "Photo de Caro",
+   "en": "Freckles's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "fretts-photo",
+  "nom": {
+   "fr": "Photo de Foufou",
+   "en": "Frett's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "freyas-photo",
+  "nom": {
+   "fr": "Photo de Luppa",
+   "en": "Freya's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "frigas-photo",
+  "nom": {
+   "fr": "Photo de Friga",
+   "en": "Friga's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "fritas-photo",
+  "nom": {
+   "fr": "Photo de Clarabêl",
+   "en": "Frita's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "froberts-photo",
+  "nom": {
+   "fr": "Photo de Verbert",
+   "en": "Frobert's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "fuchsias-photo",
+  "nom": {
+   "fr": "Photo de Rosanne",
+   "en": "Fuchsia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gabis-photo",
+  "nom": {
+   "fr": "Photo de Gaby",
+   "en": "Gabi's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "galas-photo",
+  "nom": {
+   "fr": "Photo de Camille",
+   "en": "Gala's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gastons-photo",
+  "nom": {
+   "fr": "Photo de Gaston",
+   "en": "Gaston's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gayles-photo",
+  "nom": {
+   "fr": "Photo d'Odile",
+   "en": "Gayle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "genjis-photo",
+  "nom": {
+   "fr": "Photo de Kali",
+   "en": "Genji's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gigis-photo",
+  "nom": {
+   "fr": "Photo de Gloria",
+   "en": "Gigi's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gladyss-photo",
+  "nom": {
+   "fr": "Photo de Gladys",
+   "en": "Gladys's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "glorias-photo",
+  "nom": {
+   "fr": "Photo de Déborah",
+   "en": "Gloria's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "goldies-photo",
+  "nom": {
+   "fr": "Photo de Mirza",
+   "en": "Goldie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gonzos-photo",
+  "nom": {
+   "fr": "Photo de Gonzo",
+   "en": "Gonzo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gooses-photo",
+  "nom": {
+   "fr": "Photo de Pouli",
+   "en": "Goose's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gracies-photo",
+  "nom": {
+   "fr": "Photo de Carla",
+   "en": "Gracie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpGrf_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "grahams-photo",
+  "nom": {
+   "fr": "Photo de Graham",
+   "en": "Graham's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gramss-photo",
+  "nom": {
+   "fr": "Photo de Mamiral",
+   "en": "Grams's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpKpg_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "gretas-photo",
+  "nom": {
+   "fr": "Photo de Greta",
+   "en": "Greta's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "grizzlys-photo",
+  "nom": {
+   "fr": "Photo de Grizzly",
+   "en": "Grizzly's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "grouchos-photo",
+  "nom": {
+   "fr": "Photo de Ronchon",
+   "en": "Groucho's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gruffs-photo",
+  "nom": {
+   "fr": "Photo de Grognon",
+   "en": "Gruff's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "gullivers-photo",
+  "nom": {
+   "fr": "Photo de Gulliver",
+   "en": "Gulliver's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpGul_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "gwens-photo",
+  "nom": {
+   "fr": "Photo de Gwen",
+   "en": "Gwen's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hamlets-photo",
+  "nom": {
+   "fr": "Photo de Jojo",
+   "en": "Hamlet's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hamphreys-photo",
+  "nom": {
+   "fr": "Photo de Charles",
+   "en": "Hamphrey's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hanss-photo",
+  "nom": {
+   "fr": "Photo de Loran",
+   "en": "Hans's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "harriets-photo",
+  "nom": {
+   "fr": "Photo de Ginette",
+   "en": "Harriet's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPoo_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "harrys-photo",
+  "nom": {
+   "fr": "Photo de Bob",
+   "en": "Harry's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHip08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "harveys-photo",
+  "nom": {
+   "fr": "Photo de Joe",
+   "en": "Harvey's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpSpn_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "hazels-photo",
+  "nom": {
+   "fr": "Photo de Pamela",
+   "en": "Hazel's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "henrys-photo",
+  "nom": {
+   "fr": "Photo d'Henri",
+   "en": "Henry's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg19_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hippeuxs-photo",
+  "nom": {
+   "fr": "Photo de Paulito",
+   "en": "Hippeux's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHip09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hopkinss-photo",
+  "nom": {
+   "fr": "Photo de Grignote",
+   "en": "Hopkins's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hoppers-photo",
+  "nom": {
+   "fr": "Photo de Victor",
+   "en": "Hopper's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hornsbys-photo",
+  "nom": {
+   "fr": "Photo de Cornio",
+   "en": "Hornsby's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRhn04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hucks-photo",
+  "nom": {
+   "fr": "Photo de Bajoue",
+   "en": "Huck's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "hughs-photo",
+  "nom": {
+   "fr": "Photo de Bonno",
+   "en": "Hugh's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "igglys-photo",
+  "nom": {
+   "fr": "Photo d'Urbain",
+   "en": "Iggly's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ikes-photo",
+  "nom": {
+   "fr": "Photo d'Isaac",
+   "en": "Ike's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "iones-photo",
+  "nom": {
+   "fr": "Photo de Terra",
+   "en": "Ione's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu21_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "isabelles-photo",
+  "nom": {
+   "fr": "Photo de Marie",
+   "en": "Isabelle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpSza_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10,
+   "echange": {
+    "prix": 100,
+    "monnaie": "Nook Points"
+   }
+  },
+  "sources": [
+   "NookLink"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "jacks-photo",
+  "nom": {
+   "fr": "Photo de Jacqu'O",
+   "en": "Jack's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPkn_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "jacobs-photo",
+  "nom": {
+   "fr": "Photo de Jacob",
+   "en": "Jacob's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jacquess-photo",
+  "nom": {
+   "fr": "Photo de Jacky",
+   "en": "Jacques's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jambettes-photo",
+  "nom": {
+   "fr": "Photo de Gambette",
+   "en": "Jambette's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jays-photo",
+  "nom": {
+   "fr": "Photo de Gérard",
+   "en": "Jay's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jeremiahs-photo",
+  "nom": {
+   "fr": "Photo de Jérémie",
+   "en": "Jeremiah's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "jingles-photo",
+  "nom": {
+   "fr": "Photo de Rodolphe",
+   "en": "Jingle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpRei_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Check Toy Day stockings the day after Toy Day"
+  ],
+  "evenement": "Toy Day (day after)",
+  "v": "1.6.0"
+ },
+ {
+  "id": "jitterss-photo",
+  "nom": {
+   "fr": "Photo de Gilbert",
+   "en": "Jitters's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "joans-photo",
+  "nom": {
+   "fr": "Photo de Porcella",
+   "en": "Joan's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpBoa_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "joeys-photo",
+  "nom": {
+   "fr": "Photo de Joseph",
+   "en": "Joey's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "judys-photo",
+  "nom": {
+   "fr": "Photo de Laura",
+   "en": "Judy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr19_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "julias-photo",
+  "nom": {
+   "fr": "Photo de Julie",
+   "en": "Julia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "julians-photo",
+  "nom": {
+   "fr": "Photo de Lico",
+   "en": "Julian's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "junes-photo",
+  "nom": {
+   "fr": "Photo d'Agnès",
+   "en": "June's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kks-photo",
+  "nom": {
+   "fr": "Photo de Kéké",
+   "en": "K.K.'s photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpTkkA_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kabukis-photo",
+  "nom": {
+   "fr": "Photo de Kabuki",
+   "en": "Kabuki's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kappns-photo",
+  "nom": {
+   "fr": "Photo d'Amiral",
+   "en": "Kapp'n's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpKpp_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "katies-photo",
+  "nom": {
+   "fr": "Photo de Cathie",
+   "en": "Katie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpLom_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "katrinas-photo",
+  "nom": {
+   "fr": "Photo d'Astrid",
+   "en": "Katrina's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpBpt_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "katts-photo",
+  "nom": {
+   "fr": "Photo de Kat",
+   "en": "Katt's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat21_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "keatons-photo",
+  "nom": {
+   "fr": "Photo d'Enzo",
+   "en": "Keaton's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kens-photo",
+  "nom": {
+   "fr": "Photo de Ken",
+   "en": "Ken's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ketchups-photo",
+  "nom": {
+   "fr": "Photo de Ketchup",
+   "en": "Ketchup's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kevins-photo",
+  "nom": {
+   "fr": "Photo de Jean-Bon",
+   "en": "Kevin's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kickss-photo",
+  "nom": {
+   "fr": "Photo de Blaise",
+   "en": "Kicks's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpSkk_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "kid-cats-photo",
+  "nom": {
+   "fr": "Photo de Câlin",
+   "en": "Kid Cat's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kidds-photo",
+  "nom": {
+   "fr": "Photo de Moktar",
+   "en": "Kidd's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kikis-photo",
+  "nom": {
+   "fr": "Photo de Kiki",
+   "en": "Kiki's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kitts-photo",
+  "nom": {
+   "fr": "Photo de Poquette",
+   "en": "Kitt's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kittys-photo",
+  "nom": {
+   "fr": "Photo de Kitty",
+   "en": "Kitty's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "klauss-photo",
+  "nom": {
+   "fr": "Photo de Klaus",
+   "en": "Klaus's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "knoxs-photo",
+  "nom": {
+   "fr": "Photo de Wolfram",
+   "en": "Knox's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kodys-photo",
+  "nom": {
+   "fr": "Photo de Bill",
+   "en": "Kody's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "kyles-photo",
+  "nom": {
+   "fr": "Photo de Gary",
+   "en": "Kyle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "labels-photo",
+  "nom": {
+   "fr": "Photo de Tiquette",
+   "en": "Label's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpHgc_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "leifs-photo",
+  "nom": {
+   "fr": "Photo de Racine",
+   "en": "Leif's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpSlo_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "leilas-photo",
+  "nom": {
+   "fr": "Photo de Lila",
+   "en": "Leila's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpKps_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "leilanis-photo",
+  "nom": {
+   "fr": "Photo de Liliane",
+   "en": "Leilani's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpKpm_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "leonardos-photo",
+  "nom": {
+   "fr": "Photo de Dolph",
+   "en": "Leonardo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlTig04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "leopolds-photo",
+  "nom": {
+   "fr": "Photo de Leandro",
+   "en": "Leopold's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlLon04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lilys-photo",
+  "nom": {
+   "fr": "Photo de Raina",
+   "en": "Lily's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "limbergs-photo",
+  "nom": {
+   "fr": "Photo de Gruyère",
+   "en": "Limberg's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lionels-photo",
+  "nom": {
+   "fr": "Photo de Léopold",
+   "en": "Lionel's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlLon08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lobos-photo",
+  "nom": {
+   "fr": "Photo de Lobo",
+   "en": "Lobo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lollys-photo",
+  "nom": {
+   "fr": "Photo de Linette",
+   "en": "Lolly's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lopezs-photo",
+  "nom": {
+   "fr": "Photo de Jon",
+   "en": "Lopez's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lotties-photo",
+  "nom": {
+   "fr": "Photo de Lou",
+   "en": "Lottie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpOtg_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "louies-photo",
+  "nom": {
+   "fr": "Photo de Louis",
+   "en": "Louie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "luchas-photo",
+  "nom": {
+   "fr": "Photo de Condor",
+   "en": "Lucha's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "luckys-photo",
+  "nom": {
+   "fr": "Photo de Ramsès",
+   "en": "Lucky's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lucys-photo",
+  "nom": {
+   "fr": "Photo de Lucie",
+   "en": "Lucy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "lunas-photo",
+  "nom": {
+   "fr": "Photo de Serena",
+   "en": "Luna's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpTap_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "lyles-photo",
+  "nom": {
+   "fr": "Photo de Lionel",
+   "en": "Lyle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpOtt_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "lymans-photo",
+  "nom": {
+   "fr": "Photo de Kalyptus",
+   "en": "Lyman's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mabels-photo",
+  "nom": {
+   "fr": "Photo de Layette",
+   "en": "Mabel's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpHgh_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "macs-photo",
+  "nom": {
+   "fr": "Photo de Brutus",
+   "en": "Mac's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "maddies-photo",
+  "nom": {
+   "fr": "Photo d'Olympe",
+   "en": "Maddie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "maelles-photo",
+  "nom": {
+   "fr": "Photo de Maëlle",
+   "en": "Maelle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "maggies-photo",
+  "nom": {
+   "fr": "Photo de Marjorie",
+   "en": "Maggie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mallarys-photo",
+  "nom": {
+   "fr": "Photo de Mallory",
+   "en": "Mallary's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "maples-photo",
+  "nom": {
+   "fr": "Photo de Léa",
+   "en": "Maple's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "marcels-photo",
+  "nom": {
+   "fr": "Photo d'Ismaël",
+   "en": "Marcel's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "marcies-photo",
+  "nom": {
+   "fr": "Photo de Selma",
+   "en": "Marcie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "margies-photo",
+  "nom": {
+   "fr": "Photo de Maguy",
+   "en": "Margie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "marinas-photo",
+  "nom": {
+   "fr": "Photo de Marina",
+   "en": "Marina's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOcp01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "marlos-photo",
+  "nom": {
+   "fr": "Photo de Marlou",
+   "en": "Marlo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "marshals-photo",
+  "nom": {
+   "fr": "Photo de Mathéo",
+   "en": "Marshal's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "martys-photo",
+  "nom": {
+   "fr": "Photo de Marty",
+   "en": "Marty's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "mathildas-photo",
+  "nom": {
+   "fr": "Photo de Mathilde",
+   "en": "Mathilda's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "megans-photo",
+  "nom": {
+   "fr": "Photo de Candy",
+   "en": "Megan's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "melbas-photo",
+  "nom": {
+   "fr": "Photo de Melba",
+   "en": "Melba's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "merengues-photo",
+  "nom": {
+   "fr": "Photo de Patty",
+   "en": "Merengue's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRhn07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "merrys-photo",
+  "nom": {
+   "fr": "Photo de Suzy",
+   "en": "Merry's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "midges-photo",
+  "nom": {
+   "fr": "Photo de Michèle",
+   "en": "Midge's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "minerus-photo",
+  "nom": {
+   "fr": "Photo de Mineru",
+   "en": "Mineru's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "mints-photo",
+  "nom": {
+   "fr": "Photo d'Amande",
+   "en": "Mint's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "miras-photo",
+  "nom": {
+   "fr": "Photo de Grisette",
+   "en": "Mira's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt19_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mirandas-photo",
+  "nom": {
+   "fr": "Photo de Maëllis",
+   "en": "Miranda's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mitzis-photo",
+  "nom": {
+   "fr": "Photo de Mistigri",
+   "en": "Mitzi's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "moes-photo",
+  "nom": {
+   "fr": "Photo de Momo",
+   "en": "Moe's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mollys-photo",
+  "nom": {
+   "fr": "Photo de Molly",
+   "en": "Molly's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "moniques-photo",
+  "nom": {
+   "fr": "Photo de Monique",
+   "en": "Monique's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "montys-photo",
+  "nom": {
+   "fr": "Photo de Lourant",
+   "en": "Monty's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "mooses-photo",
+  "nom": {
+   "fr": "Photo de Joachim",
+   "en": "Moose's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "motts-photo",
+  "nom": {
+   "fr": "Photo d'Aimé",
+   "en": "Mott's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlLon06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "muffys-photo",
+  "nom": {
+   "fr": "Photo de Charlène",
+   "en": "Muffy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "murphys-photo",
+  "nom": {
+   "fr": "Photo d'Eddie",
+   "en": "Murphy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "nans-photo",
+  "nom": {
+   "fr": "Photo de Nana",
+   "en": "Nan's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "nanas-photo",
+  "nom": {
+   "fr": "Photo de Mireille",
+   "en": "Nana's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "naomis-photo",
+  "nom": {
+   "fr": "Photo de Maiko",
+   "en": "Naomi's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCow07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "nats-photo",
+  "nom": {
+   "fr": "Photo de Djarod",
+   "en": "Nat's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpChm_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "nates-photo",
+  "nom": {
+   "fr": "Photo de Nathan",
+   "en": "Nate's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "nibbless-photo",
+  "nom": {
+   "fr": "Photo de Lola",
+   "en": "Nibbles's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "nikos-photo",
+  "nom": {
+   "fr": "Photo de Gratien",
+   "en": "Niko's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpMnc_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Gratien"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "normas-photo",
+  "nom": {
+   "fr": "Photo de Norma",
+   "en": "Norma's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCow06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ohares-photo",
+  "nom": {
+   "fr": "Photo de Civet",
+   "en": "O'Hare's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "octavians-photo",
+  "nom": {
+   "fr": "Photo d'Octave",
+   "en": "Octavian's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOcp00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "olafs-photo",
+  "nom": {
+   "fr": "Photo de Blair",
+   "en": "Olaf's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "olives-photo",
+  "nom": {
+   "fr": "Photo de Grisa",
+   "en": "Olive's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "olivias-photo",
+  "nom": {
+   "fr": "Photo d'Olivia",
+   "en": "Olivia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "opals-photo",
+  "nom": {
+   "fr": "Photo d'Opaline",
+   "en": "Opal's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "orvilles-photo",
+  "nom": {
+   "fr": "Photo de Morris",
+   "en": "Orville's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpDod_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "ozzies-photo",
+  "nom": {
+   "fr": "Photo de Koko",
+   "en": "Ozzie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pancettis-photo",
+  "nom": {
+   "fr": "Photo de Lydie",
+   "en": "Pancetti's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pangos-photo",
+  "nom": {
+   "fr": "Photo de Mathilda",
+   "en": "Pango's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "paolos-photo",
+  "nom": {
+   "fr": "Photo de Paolo",
+   "en": "Paolo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "papis-photo",
+  "nom": {
+   "fr": "Photo de Bourrico",
+   "en": "Papi's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pascals-photo",
+  "nom": {
+   "fr": "Photo de Pascal",
+   "en": "Pascal's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpSeo_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "pashminas-photo",
+  "nom": {
+   "fr": "Photo de Chavrina",
+   "en": "Pashmina's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pates-photo",
+  "nom": {
+   "fr": "Photo de Terrine",
+   "en": "Pate's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pattys-photo",
+  "nom": {
+   "fr": "Photo de Margaux",
+   "en": "Patty's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCow00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "paulas-photo",
+  "nom": {
+   "fr": "Photo de Wendy",
+   "en": "Paula's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "paves-photo",
+  "nom": {
+   "fr": "Photo de Roberto",
+   "en": "Pavé's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPck_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "peachess-photo",
+  "nom": {
+   "fr": "Photo de Prune",
+   "en": "Peaches's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "peanuts-photo",
+  "nom": {
+   "fr": "Photo de Rachida",
+   "en": "Peanut's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pecans-photo",
+  "nom": {
+   "fr": "Photo de Pécan",
+   "en": "Pecan's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pecks-photo",
+  "nom": {
+   "fr": "Photo de Pec",
+   "en": "Peck's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "peewees-photo",
+  "nom": {
+   "fr": "Photo de Gogo",
+   "en": "Peewee's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "peggys-photo",
+  "nom": {
+   "fr": "Photo de Rose",
+   "en": "Peggy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pekoes-photo",
+  "nom": {
+   "fr": "Photo de Pauline",
+   "en": "Pekoe's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pellys-photo",
+  "nom": {
+   "fr": "Photo d'Opélie",
+   "en": "Pelly's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPlk_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "penelopes-photo",
+  "nom": {
+   "fr": "Photo de Missy",
+   "en": "Penelope's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "petes-photo",
+  "nom": {
+   "fr": "Photo d'Antoine",
+   "en": "Pete's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPlo_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "petris-photo",
+  "nom": {
+   "fr": "Photo de Shimi",
+   "en": "Petri's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus19_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "phils-photo",
+  "nom": {
+   "fr": "Photo de Phil",
+   "en": "Phil's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "phineass-photo",
+  "nom": {
+   "fr": "Photo d'Hélium",
+   "en": "Phineas's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpFsl_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "phoebes-photo",
+  "nom": {
+   "fr": "Photo de Faustine",
+   "en": "Phoebe's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "phylliss-photo",
+  "nom": {
+   "fr": "Photo d'Élisabec",
+   "en": "Phyllis's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPlm_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "pierces-photo",
+  "nom": {
+   "fr": "Photo de Napoléon",
+   "en": "Pierce's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pietros-photo",
+  "nom": {
+   "fr": "Photo de Pietro",
+   "en": "Pietro's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pinkys-photo",
+  "nom": {
+   "fr": "Photo de Rosine",
+   "en": "Pinky's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pipers-photo",
+  "nom": {
+   "fr": "Photo de Neige",
+   "en": "Piper's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pippys-photo",
+  "nom": {
+   "fr": "Photo de Nadia",
+   "en": "Pippy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pluckys-photo",
+  "nom": {
+   "fr": "Photo de Poulette",
+   "en": "Plucky's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlChn10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pompoms-photo",
+  "nom": {
+   "fr": "Photo de Pompon",
+   "en": "Pompom's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ponchos-photo",
+  "nom": {
+   "fr": "Photo de Théo",
+   "en": "Poncho's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "poppys-photo",
+  "nom": {
+   "fr": "Photo d'Irène",
+   "en": "Poppy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "porters-photo",
+  "nom": {
+   "fr": "Photo de Lazare",
+   "en": "Porter's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpMnk_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "portias-photo",
+  "nom": {
+   "fr": "Photo de Dalma",
+   "en": "Portia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "princes-photo",
+  "nom": {
+   "fr": "Photo de Prince",
+   "en": "Prince's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pucks-photo",
+  "nom": {
+   "fr": "Photo d'Hervé",
+   "en": "Puck's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "puddless-photo",
+  "nom": {
+   "fr": "Photo de Rénata",
+   "en": "Puddles's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "pudges-photo",
+  "nom": {
+   "fr": "Photo de Gradub",
+   "en": "Pudge's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "punchys-photo",
+  "nom": {
+   "fr": "Photo de Cédric",
+   "en": "Punchy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "purrls-photo",
+  "nom": {
+   "fr": "Photo de Perle",
+   "en": "Purrl's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "queenies-photo",
+  "nom": {
+   "fr": "Photo de Reine",
+   "en": "Queenie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "quillsons-photo",
+  "nom": {
+   "fr": "Photo de Narcisse",
+   "en": "Quillson's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "quinns-photo",
+  "nom": {
+   "fr": "Photo d'Astair",
+   "en": "Quinn's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "raddles-photo",
+  "nom": {
+   "fr": "Photo de Fabien",
+   "en": "Raddle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rashers-photo",
+  "nom": {
+   "fr": "Photo de Salami",
+   "en": "Rasher's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "raymonds-photo",
+  "nom": {
+   "fr": "Photo de Raymond",
+   "en": "Raymond's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat23_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "redds-photo",
+  "nom": {
+   "fr": "Photo de Rounard",
+   "en": "Redd's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpFox_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "reeses-photo",
+  "nom": {
+   "fr": "Photo de Risette",
+   "en": "Reese's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpAlw_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "renees-photo",
+  "nom": {
+   "fr": "Photo de Rina",
+   "en": "Renée's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRhn08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "reneighs-photo",
+  "nom": {
+   "fr": "Photo de Jennifer",
+   "en": "Reneigh's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "resettis-photo",
+  "nom": {
+   "fr": "Photo de Resetti",
+   "en": "Resetti's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpMol_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "rexs-photo",
+  "nom": {
+   "fr": "Photo de Léo",
+   "en": "Rex's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlLon02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rhondas-photo",
+  "nom": {
+   "fr": "Photo de Renée",
+   "en": "Rhonda's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRhn01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ribbots-photo",
+  "nom": {
+   "fr": "Photo de Crabot",
+   "en": "Ribbot's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rickys-photo",
+  "nom": {
+   "fr": "Photo de Rocky",
+   "en": "Ricky's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rillas-photo",
+  "nom": {
+   "fr": "Photo de Rilla",
+   "en": "Rilla's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "rios-photo",
+  "nom": {
+   "fr": "Photo d'Estrella",
+   "en": "Rio's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "rizzos-photo",
+  "nom": {
+   "fr": "Photo de Sourizzi",
+   "en": "Rizzo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "roalds-photo",
+  "nom": {
+   "fr": "Photo de Reynald",
+   "en": "Roald's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "robins-photo",
+  "nom": {
+   "fr": "Photo de Robie",
+   "en": "Robin's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "roccos-photo",
+  "nom": {
+   "fr": "Photo de Bebel",
+   "en": "Rocco's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHip00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rockets-photo",
+  "nom": {
+   "fr": "Photo de Gertrude",
+   "en": "Rocket's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rods-photo",
+  "nom": {
+   "fr": "Photo de Marcel",
+   "en": "Rod's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rodeos-photo",
+  "nom": {
+   "fr": "Photo de Flèche",
+   "en": "Rodeo's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBul01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rodneys-photo",
+  "nom": {
+   "fr": "Photo de Chico",
+   "en": "Rodney's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rolfs-photo",
+  "nom": {
+   "fr": "Photo de Ralf",
+   "en": "Rolf's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlTig00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rooneys-photo",
+  "nom": {
+   "fr": "Photo de Mike",
+   "en": "Rooney's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rorys-photo",
+  "nom": {
+   "fr": "Photo d'Hercule",
+   "en": "Rory's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlLon07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "roscoes-photo",
+  "nom": {
+   "fr": "Photo de Rosco",
+   "en": "Roscoe's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rosies-photo",
+  "nom": {
+   "fr": "Photo de Rosie",
+   "en": "Rosie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "roswells-photo",
+  "nom": {
+   "fr": "Photo de Roswell",
+   "en": "Roswell's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "rovers-photo",
+  "nom": {
+   "fr": "Photo de Charly",
+   "en": "Rover's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpXct_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Charly"
+  ],
+  "evenement": "May Day",
+  "v": "1.10.0"
+ },
+ {
+  "id": "rowans-photo",
+  "nom": {
+   "fr": "Photo de Marito",
+   "en": "Rowan's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlTig01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rubys-photo",
+  "nom": {
+   "fr": "Photo de Rubis",
+   "en": "Ruby's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "rudys-photo",
+  "nom": {
+   "fr": "Photo de Rougepif",
+   "en": "Rudy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat20_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sables-photo",
+  "nom": {
+   "fr": "Photo de Cousette",
+   "en": "Sable's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpHgs_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "saharahs-photo",
+  "nom": {
+   "fr": "Photo de Sarah",
+   "en": "Saharah's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpCml_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "sallys-photo",
+  "nom": {
+   "fr": "Photo de Damia",
+   "en": "Sally's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "samsons-photo",
+  "nom": {
+   "fr": "Photo de Samson",
+   "en": "Samson's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMus04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sandys-photo",
+  "nom": {
+   "fr": "Photo d'Ottie",
+   "en": "Sandy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sashas-photo",
+  "nom": {
+   "fr": "Photo d'Alix",
+   "en": "Sasha's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt21_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "savannahs-photo",
+  "nom": {
+   "fr": "Photo de Savana",
+   "en": "Savannah's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "scoots-photo",
+  "nom": {
+   "fr": "Photo de Scooter",
+   "en": "Scoot's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sharis-photo",
+  "nom": {
+   "fr": "Photo de Luna",
+   "en": "Shari's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sheldons-photo",
+  "nom": {
+   "fr": "Photo de Roy",
+   "en": "Sheldon's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu16_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sheps-photo",
+  "nom": {
+   "fr": "Photo de Mehdi",
+   "en": "Shep's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sherbs-photo",
+  "nom": {
+   "fr": "Photo de Capri",
+   "en": "Sherb's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "shinos-photo",
+  "nom": {
+   "fr": "Photo de Shino",
+   "en": "Shino's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "shrunks-photo",
+  "nom": {
+   "fr": "Photo de Ciboulot",
+   "en": "Shrunk's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpUpa_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "simons-photo",
+  "nom": {
+   "fr": "Photo de Simon",
+   "en": "Simon's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "skyes-photo",
+  "nom": {
+   "fr": "Photo de Marilou",
+   "en": "Skye's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "slys-photo",
+  "nom": {
+   "fr": "Photo de Chuck",
+   "en": "Sly's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCrd06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "snakes-photo",
+  "nom": {
+   "fr": "Photo de Jeannot",
+   "en": "Snake's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "snootys-photo",
+  "nom": {
+   "fr": "Photo de Tarina",
+   "en": "Snooty's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "soleils-photo",
+  "nom": {
+   "fr": "Photo de Stella",
+   "en": "Soleil's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHam04_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sparros-photo",
+  "nom": {
+   "fr": "Photo de Darius",
+   "en": "Sparro's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd18_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "spikes-photo",
+  "nom": {
+   "fr": "Photo de Rhino",
+   "en": "Spike's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRhn02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sporks-photo",
+  "nom": {
+   "fr": "Photo de Justin",
+   "en": "Spork's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sprinkles-photo",
+  "nom": {
+   "fr": "Photo de Laurie",
+   "en": "Sprinkle's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sprockets-photo",
+  "nom": {
+   "fr": "Photo de Laflèche",
+   "en": "Sprocket's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOst03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "statics-photo",
+  "nom": {
+   "fr": "Photo d'Électro",
+   "en": "Static's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "stellas-photo",
+  "nom": {
+   "fr": "Photo de Bigoudi",
+   "en": "Stella's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sterlings-photo",
+  "nom": {
+   "fr": "Photo de Manfred",
+   "en": "Sterling's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPbr07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "stinkys-photo",
+  "nom": {
+   "fr": "Photo de Tupux",
+   "en": "Stinky's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "stitchess-photo",
+  "nom": {
+   "fr": "Photo de Miro",
+   "en": "Stitches's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "stus-photo",
+  "nom": {
+   "fr": "Photo de Beubeu",
+   "en": "Stu's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBul03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sydneys-photo",
+  "nom": {
+   "fr": "Photo de Koaline",
+   "en": "Sydney's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sylvanas-photo",
+  "nom": {
+   "fr": "Photo de Mounia",
+   "en": "Sylvana's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu14_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "sylvias-photo",
+  "nom": {
+   "fr": "Photo de Madsi",
+   "en": "Sylvia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "t-bones-photo",
+  "nom": {
+   "fr": "Photo de Steakos",
+   "en": "T-Bone's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBul05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tabbys-photo",
+  "nom": {
+   "fr": "Photo de Tigri",
+   "en": "Tabby's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tads-photo",
+  "nom": {
+   "fr": "Photo de Rénato",
+   "en": "Tad's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tammis-photo",
+  "nom": {
+   "fr": "Photo de Lili",
+   "en": "Tammi's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tammys-photo",
+  "nom": {
+   "fr": "Photo de Vanessa",
+   "en": "Tammy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr17_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tangys-photo",
+  "nom": {
+   "fr": "Photo de Marine",
+   "en": "Tangy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tanks-photo",
+  "nom": {
+   "fr": "Photo de Ben",
+   "en": "Tank's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRhn00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tashas-photo",
+  "nom": {
+   "fr": "Photo de Nadeige",
+   "en": "Tasha's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu13_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "teddys-photo",
+  "nom": {
+   "fr": "Photo de Teddy",
+   "en": "Teddy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "texs-photo",
+  "nom": {
+   "fr": "Photo d'Émilien",
+   "en": "Tex's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn12_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tias-photo",
+  "nom": {
+   "fr": "Photo de Fanny",
+   "en": "Tia's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tianshengs-photo",
+  "nom": {
+   "fr": "Photo de Tiansheng",
+   "en": "Tiansheng's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlMnk09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "tiffanys-photo",
+  "nom": {
+   "fr": "Photo de Tiphaine",
+   "en": "Tiffany's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "timbras-photo",
+  "nom": {
+   "fr": "Photo de Sélène",
+   "en": "Timbra's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp10_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "timmy-and-tommys-photo",
+  "nom": {
+   "fr": "Photo de Méli et Mélo",
+   "en": "Timmy and Tommy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpRcm_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10,
+   "echange": {
+    "prix": 100,
+    "monnaie": "Nook Points"
+   }
+  },
+  "sources": [
+   "NookLink"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "tippers-photo",
+  "nom": {
+   "fr": "Photo de Valé",
+   "en": "Tipper's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCow01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tobys-photo",
+  "nom": {
+   "fr": "Photo de Toby",
+   "en": "Toby's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlRbt20_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "tom-nooks-photo",
+  "nom": {
+   "fr": "Photo de Tom Nook",
+   "en": "Tom Nook's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpRco_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10,
+   "echange": {
+    "prix": 100,
+    "monnaie": "Nook Points"
+   }
+  },
+  "sources": [
+   "NookLink"
+  ],
+  "v": "1.9.0"
+ },
+ {
+  "id": "toms-photo",
+  "nom": {
+   "fr": "Photo de Tom",
+   "en": "Tom's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCat15_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tortimers-photo",
+  "nom": {
+   "fr": "Photo de Tortimer",
+   "en": "Tortimer's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpTtlA_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "truffless-photo",
+  "nom": {
+   "fr": "Photo de Trufa",
+   "en": "Truffles's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPig01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tuckers-photo",
+  "nom": {
+   "fr": "Photo de Barry",
+   "en": "Tucker's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlElp09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tulins-photo",
+  "nom": {
+   "fr": "Photo de Babil",
+   "en": "Tulin's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd20_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "tutus-photo",
+  "nom": {
+   "fr": "Photo de Tutu",
+   "en": "Tutu's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "twiggys-photo",
+  "nom": {
+   "fr": "Photo de Titi",
+   "en": "Twiggy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBrd03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "tybalts-photo",
+  "nom": {
+   "fr": "Photo de Jeff",
+   "en": "Tybalt's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlTig02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "ursalas-photo",
+  "nom": {
+   "fr": "Photo d'Oursula",
+   "en": "Ursala's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBea08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "velmas-photo",
+  "nom": {
+   "fr": "Photo de Véra",
+   "en": "Velma's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGoa06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "vestas-photo",
+  "nom": {
+   "fr": "Photo d'Hélaine",
+   "en": "Vesta's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "vics-photo",
+  "nom": {
+   "fr": "Photo de Toto",
+   "en": "Vic's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlBul08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "viches-photo",
+  "nom": {
+   "fr": "Photo de Mara",
+   "en": "Viché's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlSqu20_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "3.0.0"
+ },
+ {
+  "id": "victorias-photo",
+  "nom": {
+   "fr": "Photo de Victoria",
+   "en": "Victoria's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs01_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "violets-photo",
+  "nom": {
+   "fr": "Photo de Gaëlle",
+   "en": "Violet's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlGor07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "vivians-photo",
+  "nom": {
+   "fr": "Photo de Viviane",
+   "en": "Vivian's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "vladimirs-photo",
+  "nom": {
+   "fr": "Photo de Vladimir",
+   "en": "Vladimir's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlCbr06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wades-photo",
+  "nom": {
+   "fr": "Photo de Miglou",
+   "en": "Wade's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlPgn09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "walkers-photo",
+  "nom": {
+   "fr": "Photo de George",
+   "en": "Walker's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDog06_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "walts-photo",
+  "nom": {
+   "fr": "Photo de Walt",
+   "en": "Walt's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKgr08_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wardells-photo",
+  "nom": {
+   "fr": "Photo de Mantin",
+   "en": "Wardell's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpMan_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Mantin"
+  ],
+  "evenement": "Happy Home Paradise",
+  "ext": "hhp",
+  "v": "2.0.0"
+ },
+ {
+  "id": "wart-jrs-photo",
+  "nom": {
+   "fr": "Photo de Crakos",
+   "en": "Wart Jr.'s photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlFlg05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "webers-photo",
+  "nom": {
+   "fr": "Photo de Bébert",
+   "en": "Weber's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDuk11_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wendells-photo",
+  "nom": {
+   "fr": "Photo de Morsicus",
+   "en": "Wendell's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpWrl_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "wendys-photo",
+  "nom": {
+   "fr": "Photo de Karen",
+   "en": "Wendy's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp09_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "whitneys-photo",
+  "nom": {
+   "fr": "Photo de Blanche",
+   "en": "Whitney's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol03_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wilburs-photo",
+  "nom": {
+   "fr": "Photo de Rodrigue",
+   "en": "Wilbur's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpDoc_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "willows-photo",
+  "nom": {
+   "fr": "Photo de Maï",
+   "en": "Willow's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlShp07_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "winnies-photo",
+  "nom": {
+   "fr": "Photo d'Anne",
+   "en": "Winnie's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlHrs05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "wisps-photo",
+  "nom": {
+   "fr": "Photo de Follet",
+   "en": "Wisp's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpGstA_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "wolfgangs-photo",
+  "nom": {
+   "fr": "Photo de Wolfgang",
+   "en": "Wolfgang's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlWol02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "yukas-photo",
+  "nom": {
+   "fr": "Photo de Calypso",
+   "en": "Yuka's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlKal00_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "zells-photo",
+  "nom": {
+   "fr": "Photo de Régis",
+   "en": "Zell's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlDer02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ },
+ {
+  "id": "zippers-photo",
+  "nom": {
+   "fr": "Photo d'Albin",
+   "en": "Zipper's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcSpPyn_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Lou"
+  ],
+  "evenement": "Happy Home Paradise",
+  "v": "2.0.0"
+ },
+ {
+  "id": "zoes-photo",
+  "nom": {
+   "fr": "Photo de Cléo",
+   "en": "Zoe's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlAnt05_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "2.0.0"
+ },
+ {
+  "id": "zuckers-photo",
+  "nom": {
+   "fr": "Photo de Marvin",
+   "en": "Zucker's photo"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/BromideNpcNmlOcp02_Remake_0_0.png",
+  "variantes": 8,
+  "prix": {
+   "achat": null,
+   "vente": 10
+  },
+  "sources": [
+   "Grande amitié"
+  ],
+  "v": "1.0.0"
+ }
+]

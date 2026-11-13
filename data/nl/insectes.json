@@ -1,0 +1,2813 @@
+[
+ {
+  "id": "common-butterfly",
+  "nom": {
+   "fr": "Piéride de la rave",
+   "en": "Common butterfly"
+  },
+  "n": 1,
+  "image": "https://dodo.ac/np/images/thumb/a/ac/Common_Butterfly_NL_Model.png/128px-Common_Butterfly_NL_Model.png",
+  "espece": "common-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 90
+  },
+  "musee": true
+ },
+ {
+  "id": "yellow-butterfly",
+  "nom": {
+   "fr": "Citrin",
+   "en": "Yellow butterfly"
+  },
+  "n": 2,
+  "image": "https://dodo.ac/np/images/thumb/6/69/Yellow_Butterfly_NL_Model.png/128px-Yellow_Butterfly_NL_Model.png",
+  "espece": "yellow-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 90
+  },
+  "musee": true
+ },
+ {
+  "id": "tiger-butterfly",
+  "nom": {
+   "fr": "Machaon",
+   "en": "Tiger butterfly"
+  },
+  "n": 3,
+  "image": "https://dodo.ac/np/images/thumb/c/c2/Tiger_Butterfly_NL_Model.png/128px-Tiger_Butterfly_NL_Model.png",
+  "espece": "tiger-butterfly",
+  "lieu": "vole-pres-des-fleurs-rouges-et-roses",
+  "lieu_texte": "Vole près des fleurs rouges et roses",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "peacock-butterfly",
+  "nom": {
+   "fr": "Papilio bianor",
+   "en": "Peacock butterfly"
+  },
+  "n": 4,
+  "image": "https://dodo.ac/np/images/thumb/4/4f/Peacock_Butterfly_NL_Model.png/128px-Peacock_Butterfly_NL_Model.png",
+  "espece": "peacock-butterfly",
+  "lieu": "vole-pres-des-fleurs-bleues-violettes-et-noires",
+  "lieu_texte": "Vole près des fleurs bleues, violettes et noires",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 220
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "monarch-butterfly",
+  "nom": {
+   "fr": "Monarque",
+   "en": "Monarch butterfly"
+  },
+  "n": 5,
+  "image": "https://dodo.ac/np/images/thumb/8/81/Monarch_Butterfly_NL_Model.png/128px-Monarch_Butterfly_NL_Model.png",
+  "espece": "monarch-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 140
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "emperor-butterfly",
+  "nom": {
+   "fr": "Morpho bleu",
+   "en": "Emperor butterfly"
+  },
+  "n": 6,
+  "image": "https://dodo.ac/np/images/thumb/4/41/Emperor_Butterfly_NL_Model.png/128px-Emperor_Butterfly_NL_Model.png",
+  "espece": "emperor-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "agrias-butterfly",
+  "nom": {
+   "fr": "Agrias",
+   "en": "Agrias butterfly"
+  },
+  "n": 7,
+  "image": "https://dodo.ac/np/images/3/38/Agrias_Butterfly_NL_Model.png",
+  "espece": "agrias-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "raja-b-butterfly",
+  "nom": {
+   "fr": "Brookiana",
+   "en": "Raja B. Butterfly"
+  },
+  "n": 8,
+  "image": "https://dodo.ac/np/images/thumb/f/f8/Raja_B._Butterfly_NL_Model.png/128px-Raja_B._Butterfly_NL_Model.png",
+  "espece": "raja-b-butterfly",
+  "lieu": "pres-de-leau-douce",
+  "lieu_texte": "Près de l'eau douce",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true
+ },
+ {
+  "id": "birdwing-butterfly",
+  "nom": {
+   "fr": "Ornithoptère",
+   "en": "Birdwing butterfly"
+  },
+  "n": 9,
+  "image": "https://dodo.ac/np/images/thumb/d/d2/Birdwing_Butterfly_NL_Model.png/128px-Birdwing_Butterfly_NL_Model.png",
+  "espece": "birdwing-butterfly",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "moth",
+  "nom": {
+   "fr": "Papillon de nuit",
+   "en": "Moth"
+  },
+  "n": 10,
+  "image": "https://dodo.ac/np/images/thumb/b/b8/Moth_NL_Model.png/128px-Moth_NL_Model.png",
+  "espece": "moth",
+  "lieu": "vole-pres-des-lumieres",
+  "lieu_texte": "Vole près des lumières",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 60
+  },
+  "musee": true
+ },
+ {
+  "id": "oak-silk-moth",
+  "nom": {
+   "fr": "Coscinocera hercules",
+   "en": "Oak silk moth"
+  },
+  "n": 11,
+  "image": "https://dodo.ac/np/images/thumb/a/aa/Oak_Silk_Moth_NL_Model.png/128px-Oak_Silk_Moth_NL_Model.png",
+  "espece": "oak-silk-moth",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1200
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "honeybee",
+  "nom": {
+   "fr": "Abeille naine",
+   "en": "Honeybee"
+  },
+  "n": 12,
+  "image": "https://dodo.ac/np/images/thumb/b/b6/Honeybee_NL_Model.png/128px-Honeybee_NL_Model.png",
+  "espece": "honeybee",
+  "lieu": "vole-pres-des-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true
+ },
+ {
+  "id": "bee",
+  "nom": {
+   "fr": "Abeille",
+   "en": "Bee"
+  },
+  "n": 13,
+  "image": "https://dodo.ac/np/images/thumb/5/5b/Bee_NL_Model.png/128px-Bee_NL_Model.png",
+  "espece": "bee",
+  "lieu": "en-secouant-les-arbres",
+  "lieu_texte": "En secouant les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500
+  },
+  "musee": true
+ },
+ {
+  "id": "long-locust",
+  "nom": {
+   "fr": "Acrida cinerea",
+   "en": "Long locust"
+  },
+  "n": 14,
+  "image": "https://dodo.ac/np/images/thumb/0/03/Long_Locust_NL_Model.png/128px-Long_Locust_NL_Model.png",
+  "espece": "long-locust",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "migratory-locust",
+  "nom": {
+   "fr": "Criquet pèlerin",
+   "en": "Migratory locust"
+  },
+  "n": 15,
+  "image": "https://dodo.ac/np/images/thumb/d/d6/Migratory_Locust_NL_Model.png/128px-Migratory_Locust_NL_Model.png",
+  "espece": "migratory-locust",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "rice-grasshopper",
+  "nom": {
+   "fr": "Criquet",
+   "en": "Rice grasshopper"
+  },
+  "n": 16,
+  "image": "https://dodo.ac/np/images/thumb/9/90/Rice_Grasshopper_NL_Model.png/128px-Rice_Grasshopper_NL_Model.png",
+  "espece": "rice-grasshopper",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true
+ },
+ {
+  "id": "mantis",
+  "nom": {
+   "fr": "Mante religieuse",
+   "en": "Mantis"
+  },
+  "n": 17,
+  "image": "https://dodo.ac/np/images/thumb/a/a8/Mantis_NL_Model.png/128px-Mantis_NL_Model.png",
+  "espece": "mantis",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "orchid-mantis",
+  "nom": {
+   "fr": "Mante orchidée",
+   "en": "Orchid mantis"
+  },
+  "n": 18,
+  "image": "https://dodo.ac/np/images/thumb/4/4c/Orchid_Mantis_NL_Model.png/128px-Orchid_Mantis_NL_Model.png",
+  "espece": "orchid-mantis",
+  "lieu": "sur-les-fleurs-blanches",
+  "lieu_texte": "Sur les fleurs blanches",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2400
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "brown-cicada",
+  "nom": {
+   "fr": "Cigale cercope",
+   "en": "Brown cicada"
+  },
+  "n": 19,
+  "image": "https://dodo.ac/np/images/thumb/7/71/Brown_Cicada_NL_Model.png/128px-Brown_Cicada_NL_Model.png",
+  "espece": "brown-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "robust-cicada",
+  "nom": {
+   "fr": "Cigale hyalessa",
+   "en": "Robust cicada"
+  },
+  "n": 20,
+  "image": "https://dodo.ac/np/images/thumb/f/fa/Robust_Cicada_NL_Model.png/128px-Robust_Cicada_NL_Model.png",
+  "espece": "robust-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "giant-cicada",
+  "nom": {
+   "fr": "Cigale géante",
+   "en": "Giant cicada"
+  },
+  "n": 21,
+  "image": "https://dodo.ac/np/images/thumb/d/d9/Giant_Cicada_NL_Model.png/128px-Giant_Cicada_NL_Model.png",
+  "espece": "giant-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500
+  },
+  "musee": true
+ },
+ {
+  "id": "walker-cicada",
+  "nom": {
+   "fr": "Cigale cicadelle",
+   "en": "Walker cicada"
+  },
+  "n": 22,
+  "image": "https://dodo.ac/np/images/thumb/0/08/Walker_Cicada_NL_Model.png/128px-Walker_Cicada_NL_Model.png",
+  "espece": "walker-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400
+  },
+  "musee": true
+ },
+ {
+  "id": "evening-cicada",
+  "nom": {
+   "fr": "Cigale higurashi",
+   "en": "Evening cicada"
+  },
+  "n": 23,
+  "image": "https://dodo.ac/np/images/thumb/d/d6/Evening_Cicada_NL_Model.png/128px-Evening_Cicada_NL_Model.png",
+  "espece": "evening-cicada",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       16,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 550
+  },
+  "musee": true
+ },
+ {
+  "id": "cicada-shell",
+  "nom": {
+   "fr": "Mue de cigale",
+   "en": "Cicada shell"
+  },
+  "n": 24,
+  "image": "https://dodo.ac/np/images/thumb/b/b3/Cicada_Shell_NL_Model.png/128px-Cicada_Shell_NL_Model.png",
+  "espece": "cicada-shell",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true
+ },
+ {
+  "id": "lantern-fly",
+  "nom": {
+   "fr": "Laternaria",
+   "en": "Lantern fly"
+  },
+  "n": 25,
+  "image": "https://dodo.ac/np/images/thumb/2/2a/Lantern_Fly_NL_Model.png/128px-Lantern_Fly_NL_Model.png",
+  "espece": "lantern-fly",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      9
+     ],
+     "heures": [
+      [
+       16,
+       19
+      ],
+      [
+       23,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       16,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1800
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "red-dragonfly",
+  "nom": {
+   "fr": "Demoiselle",
+   "en": "Red dragonfly"
+  },
+  "n": 26,
+  "image": "https://dodo.ac/np/images/thumb/1/1b/Red_Dragonfly_NL_Model.png/128px-Red_Dragonfly_NL_Model.png",
+  "espece": "red-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true
+ },
+ {
+  "id": "darner-dragonfly",
+  "nom": {
+   "fr": "Anax napolitain",
+   "en": "Darner dragonfly"
+  },
+  "n": 27,
+  "image": "https://dodo.ac/np/images/thumb/c/c6/Darner_Dragonfly_NL_Model.png/128px-Darner_Dragonfly_NL_Model.png",
+  "espece": "darner-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "banded-dragonfly",
+  "nom": {
+   "fr": "Cordulégastre",
+   "en": "Banded dragonfly"
+  },
+  "n": 28,
+  "image": "https://dodo.ac/np/images/thumb/2/20/Banded_Dragonfly_NL_Model.png/128px-Banded_Dragonfly_NL_Model.png",
+  "espece": "banded-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "notes": [
+   "Les sources ne sont pas d'accord sur les mois. Nookipedia : juillet, août. Tableur ACNL : juin, juillet, août."
+  ],
+  "prix": {
+   "vente": 4500
+  },
+  "musee": true,
+  "a_verifier": [
+   "mois"
+  ]
+ },
+ {
+  "id": "petaltail-dragonfly",
+  "nom": {
+   "fr": "Libellule géante",
+   "en": "Petaltail dragonfly"
+  },
+  "n": 29,
+  "image": "https://dodo.ac/np/images/thumb/2/2a/Petaltail_Dragonfly_NL_Model.png/128px-Petaltail_Dragonfly_NL_Model.png",
+  "espece": "petaltail-dragonfly",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       17,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true
+ },
+ {
+  "id": "ant",
+  "nom": {
+   "fr": "Fourmi",
+   "en": "Ant"
+  },
+  "n": 30,
+  "image": "https://dodo.ac/np/images/2/23/Ant_NL_Model.png",
+  "espece": "ant",
+  "lieu": "sur-les-navets-pourris-ou-les-bonbons-pas-sous-la-pluie",
+  "lieu_texte": "Sur les navets pourris ou les bonbons (pas sous la pluie)",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80
+  },
+  "musee": true
+ },
+ {
+  "id": "pondskater",
+  "nom": {
+   "fr": "Patineur",
+   "en": "Pondskater"
+  },
+  "n": 31,
+  "image": "https://dodo.ac/np/images/thumb/b/bd/Pondskater_NL_Model.png/128px-Pondskater_NL_Model.png",
+  "espece": "pondskater",
+  "lieu": "sur-les-rivieres-et-les-etangs",
+  "lieu_texte": "Sur les rivières et les étangs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true
+ },
+ {
+  "id": "diving-beetle",
+  "nom": {
+   "fr": "Dytique",
+   "en": "Diving beetle"
+  },
+  "n": 32,
+  "image": "https://dodo.ac/np/images/thumb/c/c5/Diving_Beetle_NL_Model.png/128px-Diving_Beetle_NL_Model.png",
+  "espece": "diving-beetle",
+  "lieu": "sur-les-rivieres-et-les-etangs",
+  "lieu_texte": "Sur les rivières et les étangs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true
+ },
+ {
+  "id": "stinkbug",
+  "nom": {
+   "fr": "Punaise",
+   "en": "Stinkbug"
+  },
+  "n": 33,
+  "image": "https://dodo.ac/np/images/thumb/5/53/Stinkbug_NL_Model.png/128px-Stinkbug_NL_Model.png",
+  "espece": "stinkbug",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120
+  },
+  "musee": true
+ },
+ {
+  "id": "snail",
+  "nom": {
+   "fr": "Escargot",
+   "en": "Snail"
+  },
+  "n": 34,
+  "image": "https://dodo.ac/np/images/thumb/e/eb/Snail_NL_Model.png/128px-Snail_NL_Model.png",
+  "espece": "snail",
+  "lieu": "sur-les-hibiscus-quand-il-pleut",
+  "lieu_texte": "Sur les hibiscus (quand il pleut)",
+  "conditions": [
+   "pluie"
+  ],
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true
+ },
+ {
+  "id": "cricket",
+  "nom": {
+   "fr": "Grillon des prés",
+   "en": "Cricket"
+  },
+  "n": 35,
+  "image": "https://dodo.ac/np/images/thumb/f/fd/Cricket_NL_Model.png/128px-Cricket_NL_Model.png",
+  "espece": "cricket",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true
+ },
+ {
+  "id": "bell-cricket",
+  "nom": {
+   "fr": "Grillon du Midi",
+   "en": "Bell cricket"
+  },
+  "n": 36,
+  "image": "https://dodo.ac/np/images/thumb/6/6a/Bell_Cricket_NL_Model.png/128px-Bell_Cricket_NL_Model.png",
+  "espece": "bell-cricket",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430
+  },
+  "musee": true
+ },
+ {
+  "id": "grasshopper",
+  "nom": {
+   "fr": "Sauterelle",
+   "en": "Grasshopper"
+  },
+  "n": 37,
+  "image": "https://dodo.ac/np/images/thumb/9/9f/Grasshopper_NL_Model.png/128px-Grasshopper_NL_Model.png",
+  "espece": "grasshopper",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7
+     ],
+     "heures": [
+      [
+       16,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "mole-cricket",
+  "nom": {
+   "fr": "Taupe-grillon",
+   "en": "Mole cricket"
+  },
+  "n": 38,
+  "image": "https://dodo.ac/np/images/thumb/7/73/Mole_Cricket_NL_Model.png/128px-Mole_Cricket_NL_Model.png",
+  "espece": "mole-cricket",
+  "lieu": "sous-terre",
+  "lieu_texte": "Sous terre",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 280
+  },
+  "musee": true
+ },
+ {
+  "id": "walking-leaf",
+  "nom": {
+   "fr": "Phyllie",
+   "en": "Walking leaf"
+  },
+  "n": 39,
+  "image": "https://dodo.ac/np/images/thumb/a/a2/Walking_Leaf_NL_Model.png/128px-Walking_Leaf_NL_Model.png",
+  "espece": "walking-leaf",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600
+  },
+  "musee": true
+ },
+ {
+  "id": "walking-stick",
+  "nom": {
+   "fr": "Phasme",
+   "en": "Walking stick"
+  },
+  "n": 40,
+  "image": "https://dodo.ac/np/images/thumb/b/bf/Walking_Stick_NL_Model.png/128px-Walking_Stick_NL_Model.png",
+  "espece": "walking-stick",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       17,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "bagworm",
+  "nom": {
+   "fr": "Psyché",
+   "en": "Bagworm"
+  },
+  "n": 41,
+  "image": "https://dodo.ac/np/images/thumb/6/68/Bagworm_NL_Model.png/128px-Bagworm_NL_Model.png",
+  "espece": "bagworm",
+  "lieu": "en-secouant-les-arbres-feuillus-et-cedres",
+  "lieu_texte": "En secouant les arbres (feuillus et cèdres)",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "ladybug",
+  "nom": {
+   "fr": "Coccinelle",
+   "en": "Ladybug"
+  },
+  "n": 42,
+  "image": "https://dodo.ac/np/images/thumb/7/74/Ladybug_NL_Model.png/128px-Ladybug_NL_Model.png",
+  "espece": "ladybug",
+  "lieu": "sur-les-fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "violin-beetle",
+  "nom": {
+   "fr": "Mormolyce",
+   "en": "Violin beetle"
+  },
+  "n": 43,
+  "image": "https://dodo.ac/np/images/thumb/7/79/Violin_Beetle_NL_Model.png/128px-Violin_Beetle_NL_Model.png",
+  "espece": "violin-beetle",
+  "lieu": "sur-les-souches",
+  "lieu_texte": "Sur les souches",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    },
+    {
+     "mois": [
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 260
+  },
+  "musee": true
+ },
+ {
+  "id": "longhorn-beetle",
+  "nom": {
+   "fr": "Longicorne",
+   "en": "Longhorn beetle"
+  },
+  "n": 44,
+  "image": "https://dodo.ac/np/images/thumb/c/c8/Longhorn_Beetle_NL_Model.png/128px-Longhorn_Beetle_NL_Model.png",
+  "espece": "longhorn-beetle",
+  "lieu": "sur-les-souches",
+  "lieu_texte": "Sur les souches",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 260
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "tiger-beetle",
+  "nom": {
+   "fr": "Cicindèle",
+   "en": "Tiger beetle"
+  },
+  "n": 45,
+  "image": "https://dodo.ac/np/images/thumb/1/1a/Tiger_Beetle_NL_Model.png/128px-Tiger_Beetle_NL_Model.png",
+  "espece": "tiger-beetle",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    },
+    {
+     "mois": [
+      10
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1500
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "dung-beetle",
+  "nom": {
+   "fr": "Bousier",
+   "en": "Dung beetle"
+  },
+  "n": 46,
+  "image": "https://dodo.ac/np/images/thumb/1/15/Dung_Beetle_NL_Model.png/128px-Dung_Beetle_NL_Model.png",
+  "espece": "dung-beetle",
+  "lieu": "en-poussant-les-boules-de-neige",
+  "lieu_texte": "En poussant les boules de neige",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800
+  },
+  "musee": true
+ },
+ {
+  "id": "wharf-roach",
+  "nom": {
+   "fr": "Ligie",
+   "en": "Wharf roach"
+  },
+  "n": 47,
+  "image": "https://dodo.ac/np/images/thumb/e/e0/Wharf_Roach_NL_Model.png/128px-Wharf_Roach_NL_Model.png",
+  "espece": "wharf-roach",
+  "lieu": "sur-la-plage",
+  "lieu_texte": "Sur la plage",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "hermit-crab",
+  "nom": {
+   "fr": "Bernard-l'ermite",
+   "en": "Hermit crab"
+  },
+  "n": 48,
+  "image": "https://dodo.ac/np/images/thumb/1/1f/Hermit_Crab_NL_Model.png/128px-Hermit_Crab_NL_Model.png",
+  "espece": "hermit-crab",
+  "lieu": "sur-la-plage",
+  "lieu_texte": "Sur la plage ou Île de Tortimer",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "firefly",
+  "nom": {
+   "fr": "Luciole",
+   "en": "Firefly"
+  },
+  "n": 49,
+  "image": "https://dodo.ac/np/images/thumb/6/6c/Firefly_NL_Model.png/128px-Firefly_NL_Model.png",
+  "espece": "firefly",
+  "lieu": "vole-pres-de-leau-douce",
+  "lieu_texte": "Vole près de l'eau douce",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "fruit-beetle",
+  "nom": {
+   "fr": "Nitidule",
+   "en": "Fruit beetle"
+  },
+  "n": 50,
+  "image": "https://dodo.ac/np/images/thumb/3/34/Fruit_Beetle_NL_Model.png/128px-Fruit_Beetle_NL_Model.png",
+  "espece": "fruit-beetle",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 100
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "scarab-beetle",
+  "nom": {
+   "fr": "Scarabée",
+   "en": "Scarab beetle"
+  },
+  "n": 51,
+  "image": "https://dodo.ac/np/images/thumb/0/05/Scarab_Beetle_NL_Model.png/128px-Scarab_Beetle_NL_Model.png",
+  "espece": "scarab-beetle",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "jewel-beetle",
+  "nom": {
+   "fr": "Bupreste",
+   "en": "Jewel beetle"
+  },
+  "n": 52,
+  "image": "https://dodo.ac/np/images/thumb/d/db/Jewel_Beetle_NL_Model.png/128px-Jewel_Beetle_NL_Model.png",
+  "espece": "jewel-beetle",
+  "lieu": "sur-les-feuillus-et-les-cedres",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2400
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "miyama-stag",
+  "nom": {
+   "fr": "Lucane miyama",
+   "en": "Miyama stag"
+  },
+  "n": 53,
+  "image": "https://dodo.ac/np/images/thumb/4/44/Miyama_Stag_NL_Model.png/128px-Miyama_Stag_NL_Model.png",
+  "espece": "miyama-stag",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "saw-stag",
+  "nom": {
+   "fr": "Lucane inclinatus",
+   "en": "Saw stag"
+  },
+  "n": 54,
+  "image": "https://dodo.ac/np/images/thumb/d/de/Saw_Stag_NL_Model.png/128px-Saw_Stag_NL_Model.png",
+  "espece": "saw-stag",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "giant-stag",
+  "nom": {
+   "fr": "Lucane cerf-volant",
+   "en": "Giant stag"
+  },
+  "n": 55,
+  "image": "https://dodo.ac/np/images/thumb/9/99/Giant_Stag_NL_Model.png/128px-Giant_Stag_NL_Model.png",
+  "espece": "giant-stag",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "rainbow-stag",
+  "nom": {
+   "fr": "Lucane copris irisé",
+   "en": "Rainbow stag"
+  },
+  "n": 56,
+  "image": "https://dodo.ac/np/images/thumb/1/1e/Rainbow_Stag_NL_Model.png/128px-Rainbow_Stag_NL_Model.png",
+  "espece": "rainbow-stag",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "cyclommatus-stag",
+  "nom": {
+   "fr": "Lucane cyclommatus",
+   "en": "Cyclommatus stag"
+  },
+  "n": 57,
+  "image": "https://dodo.ac/np/images/thumb/3/3a/Cyclommatus_Stag_NL_Model.png/128px-Cyclommatus_Stag_NL_Model.png",
+  "espece": "cyclommatus-stag",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "golden-stag",
+  "nom": {
+   "fr": "Lucane lamprima",
+   "en": "Golden stag"
+  },
+  "n": 58,
+  "image": "https://dodo.ac/np/images/thumb/f/f2/Golden_Stag_NL_Model.png/128px-Golden_Stag_NL_Model.png",
+  "espece": "golden-stag",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "horned-dynastid",
+  "nom": {
+   "fr": "Scarabée kabuto",
+   "en": "Horned dynastid"
+  },
+  "n": 59,
+  "image": "https://dodo.ac/np/images/thumb/3/31/Horned_Dynastid_NL_Model.png/128px-Horned_Dynastid_NL_Model.png",
+  "espece": "horned-dynastid",
+  "lieu": "sur-les-arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1350
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "horned-atlas",
+  "nom": {
+   "fr": "Scarabée Atlas",
+   "en": "Horned atlas"
+  },
+  "n": 60,
+  "image": "https://dodo.ac/np/images/thumb/6/68/Horned_Atlas_NL_Model.png/128px-Horned_Atlas_NL_Model.png",
+  "espece": "horned-atlas",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "horned-elephant",
+  "nom": {
+   "fr": "Scarabée éléphant",
+   "en": "Horned elephant"
+  },
+  "n": 61,
+  "image": "https://dodo.ac/np/images/thumb/5/51/Horned_Elephant_NL_Model.png/128px-Horned_Elephant_NL_Model.png",
+  "espece": "horned-elephant",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "horned-hercules",
+  "nom": {
+   "fr": "Scarabée Hercule",
+   "en": "Horned hercules"
+  },
+  "n": 62,
+  "image": "https://dodo.ac/np/images/thumb/2/23/Horned_Hercules_NL_Model.png/128px-Horned_Hercules_NL_Model.png",
+  "espece": "horned-hercules",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "goliath-beetle",
+  "nom": {
+   "fr": "Scarabée Goliath",
+   "en": "Goliath beetle"
+  },
+  "n": 63,
+  "image": "https://dodo.ac/np/images/thumb/0/07/Goliath_Beetle_NL_Model.png/128px-Goliath_Beetle_NL_Model.png",
+  "espece": "goliath-beetle",
+  "lieu": "sur-les-cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000
+  },
+  "musee": true,
+  "conditions": [
+   "ile-tortimer"
+  ]
+ },
+ {
+  "id": "flea",
+  "nom": {
+   "fr": "Puce",
+   "en": "Flea"
+  },
+  "n": 64,
+  "image": "https://dodo.ac/np/images/7/76/Flea_NL_Model.png",
+  "espece": "flea",
+  "lieu": "sur-les-habitants",
+  "lieu_texte": "Sur les habitants",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 70
+  },
+  "musee": true
+ },
+ {
+  "id": "pill-bug",
+  "nom": {
+   "fr": "Cloporte",
+   "en": "Pill bug"
+  },
+  "n": 65,
+  "image": "https://dodo.ac/np/images/1/12/Pill_Bug_NL_Model.png",
+  "espece": "pill-bug",
+  "lieu": "en-frappant-les-rochers",
+  "lieu_texte": "En frappant les rochers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200
+  },
+  "musee": true
+ },
+ {
+  "id": "mosquito",
+  "nom": {
+   "fr": "Moustique",
+   "en": "Mosquito"
+  },
+  "n": 66,
+  "image": "https://dodo.ac/np/images/thumb/f/fd/Mosquito_NL_Model.png/128px-Mosquito_NL_Model.png",
+  "espece": "mosquito",
+  "lieu": "en-vol",
+  "lieu_texte": "En vol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       17,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130
+  },
+  "musee": true
+ },
+ {
+  "id": "fly",
+  "nom": {
+   "fr": "Mouche",
+   "en": "Fly"
+  },
+  "n": 67,
+  "image": "https://dodo.ac/np/images/9/93/Fly_NL_Model.png",
+  "espece": "fly",
+  "lieu": "vole-pres-des-rafflesias-des-dechets-ou-des-navets-et-fruits-pourris",
+  "lieu_texte": "Vole près des rafflésias, des déchets ou des navets et fruits pourris",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 60
+  },
+  "musee": true
+ },
+ {
+  "id": "house-centipede",
+  "nom": {
+   "fr": "Scutigère",
+   "en": "House centipede"
+  },
+  "n": 68,
+  "image": "https://dodo.ac/np/images/thumb/3/3f/House_Centipede_NL_Model.png/128px-House_Centipede_NL_Model.png",
+  "espece": "house-centipede",
+  "lieu": "en-frappant-les-rochers",
+  "lieu_texte": "En frappant les rochers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250
+  },
+  "musee": true
+ },
+ {
+  "id": "centipede",
+  "nom": {
+   "fr": "Mille-pattes",
+   "en": "Centipede"
+  },
+  "n": 69,
+  "image": "https://dodo.ac/np/images/thumb/f/fa/Centipede_NL_Model.png/128px-Centipede_NL_Model.png",
+  "espece": "centipede",
+  "lieu": "en-frappant-les-rochers",
+  "lieu_texte": "En frappant les rochers",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       23
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "spider",
+  "nom": {
+   "fr": "Araignée",
+   "en": "Spider"
+  },
+  "n": 70,
+  "image": "https://dodo.ac/np/images/thumb/3/34/Spider_NL_Model.png/128px-Spider_NL_Model.png",
+  "espece": "spider",
+  "lieu": "en-secouant-les-arbres",
+  "lieu_texte": "En secouant les arbres",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    },
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    },
+    {
+     "mois": [
+      10
+     ],
+     "heures": [
+      [
+       23,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300
+  },
+  "musee": true
+ },
+ {
+  "id": "tarantula",
+  "nom": {
+   "fr": "Tarentule",
+   "en": "Tarantula"
+  },
+  "n": 71,
+  "image": "https://dodo.ac/np/images/thumb/5/55/Tarantula_NL_Model.png/128px-Tarantula_NL_Model.png",
+  "espece": "tarantula",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true
+ },
+ {
+  "id": "scorpion",
+  "nom": {
+   "fr": "Scorpion",
+   "en": "Scorpion"
+  },
+  "n": 72,
+  "image": "https://dodo.ac/np/images/thumb/9/94/Scorpion_NL_Model.png/128px-Scorpion_NL_Model.png",
+  "espece": "scorpion",
+  "lieu": "au-sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "tous": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000
+  },
+  "musee": true
+ }
+]

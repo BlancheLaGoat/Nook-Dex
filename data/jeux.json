@@ -1,0 +1,496 @@
+[
+ {
+  "id": "nh",
+  "nom": "Animal Crossing: New Horizons",
+  "court": "New Horizons",
+  "sigle": "NH",
+  "plateforme": "Switch",
+  "annee": 2020,
+  "disponible": true,
+  "hemispheres": true,
+  "extensions": [
+   {
+    "id": "hhp",
+    "nom": "Happy Home Paradise"
+   }
+  ],
+  "categories": [
+   {
+    "id": "insectes",
+    "nom": "Insectes",
+    "icone": "🐞",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "poissons",
+    "nom": "Poissons",
+    "icone": "🐟",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "creatures-marines",
+    "nom": "Créatures marines",
+    "icone": "🐙",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "fossiles",
+    "nom": "Fossiles",
+    "icone": "🦴",
+    "type": "fossile",
+    "musee": true
+   },
+   {
+    "id": "art",
+    "nom": "Œuvres d'art",
+    "icone": "🖼️",
+    "type": "art",
+    "musee": true
+   },
+   {
+    "id": "meubles",
+    "nom": "Meubles",
+    "icone": "🪑",
+    "type": "objet"
+   },
+   {
+    "id": "papiers-peints",
+    "nom": "Papiers peints",
+    "icone": "🧱",
+    "type": "objet"
+   },
+   {
+    "id": "sols",
+    "nom": "Sols",
+    "icone": "🟫",
+    "type": "objet"
+   },
+   {
+    "id": "tapis",
+    "nom": "Tapis",
+    "icone": "🧶",
+    "type": "objet"
+   },
+   {
+    "id": "vetements",
+    "nom": "Vêtements",
+    "icone": "👕",
+    "type": "objet"
+   },
+   {
+    "id": "recettes",
+    "nom": "Recettes DIY",
+    "icone": "🔨",
+    "type": "recette"
+   },
+   {
+    "id": "kk",
+    "nom": "Morceaux de K.K.",
+    "icone": "🎸",
+    "type": "objet"
+   },
+   {
+    "id": "gyroides",
+    "nom": "Gyroïdes",
+    "icone": "🏺",
+    "type": "objet"
+   },
+   {
+    "id": "photos",
+    "nom": "Photos",
+    "icone": "📷",
+    "type": "objet"
+   },
+   {
+    "id": "posters",
+    "nom": "Posters",
+    "icone": "🪧",
+    "type": "objet"
+   },
+   {
+    "id": "fleurs",
+    "nom": "Fleurs",
+    "icone": "🌷",
+    "type": "fleur"
+   },
+   {
+    "id": "outils",
+    "nom": "Outils",
+    "icone": "🪓",
+    "type": "objet"
+   },
+   {
+    "id": "clotures",
+    "nom": "Clôtures",
+    "icone": "🚧",
+    "type": "objet"
+   },
+   {
+    "id": "gestes",
+    "nom": "Gestes",
+    "icone": "💬",
+    "type": "objet"
+   },
+   {
+    "id": "vacances",
+    "nom": "Résidences de vacances",
+    "icone": "🏝️",
+    "type": "vacances",
+    "ext": "hhp"
+   }
+  ]
+ },
+ {
+  "id": "nl",
+  "nom": "Animal Crossing: New Leaf",
+  "court": "New Leaf",
+  "sigle": "NL",
+  "plateforme": "3DS",
+  "annee": 2012,
+  "disponible": true,
+  "hemispheres": false,
+  "extensions": [
+   {
+    "id": "wa",
+    "nom": "Welcome amiibo (mise à jour 1.4)"
+   }
+  ],
+  "categories": [
+   {
+    "id": "insectes",
+    "nom": "Insectes",
+    "icone": "🐞",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "poissons",
+    "nom": "Poissons",
+    "icone": "🐟",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "creatures-marines",
+    "nom": "Créatures marines",
+    "icone": "🐙",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "fossiles",
+    "nom": "Fossiles",
+    "icone": "🦴",
+    "type": "fossile",
+    "musee": true
+   },
+   {
+    "id": "art",
+    "nom": "Œuvres d'art",
+    "icone": "🖼️",
+    "type": "art",
+    "musee": true
+   },
+   {
+    "id": "meubles",
+    "nom": "Meubles",
+    "icone": "🪑",
+    "type": "objet"
+   },
+   {
+    "id": "papiers-peints",
+    "nom": "Papiers peints",
+    "icone": "🧱",
+    "type": "objet"
+   },
+   {
+    "id": "sols",
+    "nom": "Sols",
+    "icone": "🟫",
+    "type": "objet"
+   },
+   {
+    "id": "vetements",
+    "nom": "Vêtements",
+    "icone": "👕",
+    "type": "objet"
+   },
+   {
+    "id": "kk",
+    "nom": "Morceaux de K.K.",
+    "icone": "🎸",
+    "type": "objet"
+   },
+   {
+    "id": "gyroides",
+    "nom": "Gyroïdes",
+    "icone": "🏺",
+    "type": "objet"
+   },
+   {
+    "id": "outils",
+    "nom": "Outils",
+    "icone": "🪓",
+    "type": "objet"
+   },
+   {
+    "id": "photos",
+    "nom": "Photos",
+    "icone": "📷",
+    "type": "objet"
+   }
+  ]
+ },
+ {
+  "id": "cf",
+  "nom": "Animal Crossing: Let's Go to the City",
+  "court": "Let's Go to the City",
+  "sigle": "CF",
+  "plateforme": "Wii",
+  "annee": 2008,
+  "disponible": true,
+  "hemispheres": false,
+  "extensions": [],
+  "categories": [
+   {
+    "id": "insectes",
+    "nom": "Insectes",
+    "icone": "🐞",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "poissons",
+    "nom": "Poissons",
+    "icone": "🐟",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "fossiles",
+    "nom": "Fossiles",
+    "icone": "🦴",
+    "type": "fossile",
+    "musee": true
+   },
+   {
+    "id": "art",
+    "nom": "Œuvres d'art",
+    "icone": "🖼️",
+    "type": "art",
+    "musee": true
+   },
+   {
+    "id": "meubles",
+    "nom": "Meubles",
+    "icone": "🪑",
+    "type": "objet"
+   },
+   {
+    "id": "papiers-peints",
+    "nom": "Papiers peints",
+    "icone": "🧱",
+    "type": "objet"
+   },
+   {
+    "id": "sols",
+    "nom": "Sols",
+    "icone": "🟫",
+    "type": "objet"
+   },
+   {
+    "id": "vetements",
+    "nom": "Vêtements",
+    "icone": "👕",
+    "type": "objet"
+   },
+   {
+    "id": "kk",
+    "nom": "Morceaux de K.K.",
+    "icone": "🎸",
+    "type": "objet"
+   },
+   {
+    "id": "gyroides",
+    "nom": "Gyroïdes",
+    "icone": "🏺",
+    "type": "objet"
+   },
+   {
+    "id": "outils",
+    "nom": "Outils",
+    "icone": "🪓",
+    "type": "objet"
+   }
+  ]
+ },
+ {
+  "id": "ww",
+  "nom": "Animal Crossing: Wild World",
+  "court": "Wild World",
+  "sigle": "WW",
+  "plateforme": "DS",
+  "annee": 2005,
+  "disponible": true,
+  "hemispheres": false,
+  "extensions": [],
+  "categories": [
+   {
+    "id": "insectes",
+    "nom": "Insectes",
+    "icone": "🐞",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "poissons",
+    "nom": "Poissons",
+    "icone": "🐟",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "fossiles",
+    "nom": "Fossiles",
+    "icone": "🦴",
+    "type": "fossile",
+    "musee": true
+   },
+   {
+    "id": "art",
+    "nom": "Œuvres d'art",
+    "icone": "🖼️",
+    "type": "art",
+    "musee": true
+   },
+   {
+    "id": "meubles",
+    "nom": "Meubles",
+    "icone": "🪑",
+    "type": "objet"
+   },
+   {
+    "id": "papiers-peints",
+    "nom": "Papiers peints",
+    "icone": "🧱",
+    "type": "objet"
+   },
+   {
+    "id": "sols",
+    "nom": "Sols",
+    "icone": "🟫",
+    "type": "objet"
+   },
+   {
+    "id": "vetements",
+    "nom": "Vêtements",
+    "icone": "👕",
+    "type": "objet"
+   },
+   {
+    "id": "kk",
+    "nom": "Morceaux de K.K.",
+    "icone": "🎸",
+    "type": "objet"
+   },
+   {
+    "id": "gyroides",
+    "nom": "Gyroïdes",
+    "icone": "🏺",
+    "type": "objet"
+   },
+   {
+    "id": "outils",
+    "nom": "Outils",
+    "icone": "🪓",
+    "type": "objet"
+   },
+   {
+    "id": "photos",
+    "nom": "Photos",
+    "icone": "📷",
+    "type": "objet"
+   }
+  ]
+ },
+ {
+  "id": "gc",
+  "nom": "Animal Crossing",
+  "court": "Animal Crossing (GameCube)",
+  "sigle": "GC",
+  "plateforme": "GameCube",
+  "annee": 2001,
+  "disponible": true,
+  "hemispheres": false,
+  "extensions": [],
+  "categories": [
+   {
+    "id": "insectes",
+    "nom": "Insectes",
+    "icone": "🐞",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "poissons",
+    "nom": "Poissons",
+    "icone": "🐟",
+    "type": "creature",
+    "musee": true
+   },
+   {
+    "id": "fossiles",
+    "nom": "Fossiles",
+    "icone": "🦴",
+    "type": "fossile",
+    "musee": true
+   },
+   {
+    "id": "art",
+    "nom": "Œuvres d'art",
+    "icone": "🖼️",
+    "type": "art",
+    "musee": true
+   },
+   {
+    "id": "meubles",
+    "nom": "Meubles",
+    "icone": "🪑",
+    "type": "objet"
+   },
+   {
+    "id": "papiers-peints",
+    "nom": "Papiers peints",
+    "icone": "🧱",
+    "type": "objet"
+   },
+   {
+    "id": "sols",
+    "nom": "Sols",
+    "icone": "🟫",
+    "type": "objet"
+   },
+   {
+    "id": "vetements",
+    "nom": "Vêtements",
+    "icone": "👕",
+    "type": "objet"
+   },
+   {
+    "id": "kk",
+    "nom": "Morceaux de K.K.",
+    "icone": "🎸",
+    "type": "objet"
+   },
+   {
+    "id": "gyroides",
+    "nom": "Gyroïdes",
+    "icone": "🏺",
+    "type": "objet"
+   }
+  ]
+ }
+]

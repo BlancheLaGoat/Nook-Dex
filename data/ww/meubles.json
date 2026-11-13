@@ -1,0 +1,8778 @@
+[
+ {
+  "id": "1-up-mushroom",
+  "nom": {
+   "fr": "Champi 1Up",
+   "en": "1-Up mushroom"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/1-Up_Mushroom_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "block",
+  "nom": {
+   "fr": "Bloc ?",
+   "en": "? block"
+  },
+  "image": "https://dodo.ac/np/images/3/34/%3F_Block_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "country-guitar",
+  "nom": {
+   "fr": "Guitare country",
+   "en": "Country guitar"
+  },
+  "image": "https://dodo.ac/np/images/9/94/Country_Guitar_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Wendell"
+  ]
+ },
+ {
+  "id": "folk-guitar",
+  "nom": {
+   "fr": "Guitare folk",
+   "en": "Folk guitar"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Folk_Guitar_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "aloe",
+  "nom": {
+   "fr": "Aloès",
+   "en": "Aloe"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Aloe_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "amazing-machine",
+  "nom": {
+   "fr": "Machine extra.",
+   "en": "Amazing machine"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Amazing_Machine_WW_Model.png",
+  "prix": {
+   "achat": 3600,
+   "vente": 900
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "anatomical-model",
+  "nom": {
+   "fr": "Modèle anatomie",
+   "en": "Anatomical model"
+  },
+  "image": "https://dodo.ac/np/images/d/d6/Anatomical_Model_WW_Model.png",
+  "prix": {
+   "achat": 3360,
+   "vente": 840
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "anchor",
+  "nom": {
+   "fr": "Ancre",
+   "en": "Anchor"
+  },
+  "image": "https://dodo.ac/np/images/c/cf/Anchor_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "spaceman",
+  "nom": {
+   "fr": "Alien",
+   "en": "Spaceman"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Spaceman_WW_Model.png",
+  "prix": {
+   "achat": 1440,
+   "vente": 360
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "cash-register",
+  "nom": {
+   "fr": "Caisse",
+   "en": "Cash register"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Cash_Register_WW_Model.png",
+  "prix": {
+   "achat": 6480,
+   "vente": 1620
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "antique-clock",
+  "nom": {
+   "fr": "Horloge ancienne",
+   "en": "Antique clock"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Antique_Clock_WW_Model.png",
+  "prix": {
+   "achat": 2350,
+   "vente": 587
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-table",
+  "nom": {
+   "fr": "Table rustique",
+   "en": "Classic table"
+  },
+  "image": "https://dodo.ac/np/images/8/8b/Classic_Table_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "arc-de-triomphe",
+  "nom": {
+   "fr": "Arc de Triomphe",
+   "en": "Arc de Triomphe"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/Arc_de_Triomphe_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2300
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "arcade-machine",
+  "nom": {
+   "fr": "Machine d'arcade",
+   "en": "Arcade machine"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Arcade_Machine_WW_Model.png",
+  "prix": {
+   "achat": 4400,
+   "vente": 1100
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "stool",
+  "nom": {
+   "fr": "Tabouret",
+   "en": "Stool"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Stool_WW_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "arwing",
+  "nom": {
+   "fr": "Arwing",
+   "en": "Arwing"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Arwing_WW_Model.png",
+  "prix": {
+   "achat": 7200,
+   "vente": 1800
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "asteroid",
+  "nom": {
+   "fr": "Astéroïde",
+   "en": "Asteroid"
+  },
+  "image": "https://dodo.ac/np/images/1/17/Asteroid_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "spaceman-sam",
+  "nom": {
+   "fr": "Spationaute",
+   "en": "Spaceman Sam"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Spaceman_Sam_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "automatic-washer",
+  "nom": {
+   "fr": "Lave-linge auto.",
+   "en": "Automatic washer"
+  },
+  "image": "https://dodo.ac/np/images/a/ac/Automatic_Washer_WW_Model.png",
+  "prix": {
+   "achat": 4800,
+   "vente": 1200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "azalea-bonsai",
+  "nom": {
+   "fr": "Bonsaï azalée",
+   "en": "Azalea bonsai"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Azalea_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "baby-bear",
+  "nom": {
+   "fr": "Bébé ours",
+   "en": "Baby bear"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Baby_Bear_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off), Mom"
+  ]
+ },
+ {
+  "id": "baby-bed",
+  "nom": {
+   "fr": "Lit bébé",
+   "en": "Baby bed"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Baby_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2900,
+   "vente": 725
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "baby-panda",
+  "nom": {
+   "fr": "Bébé panda",
+   "en": "Baby panda"
+  },
+  "image": "https://dodo.ac/np/images/0/00/Baby_Panda_WW_Model.png",
+  "prix": {
+   "achat": 480,
+   "vente": 120
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "backpack",
+  "nom": {
+   "fr": "Sac à dos",
+   "en": "Backpack"
+  },
+  "image": "https://dodo.ac/np/images/9/92/Backpack_WW_Model.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ball-return",
+  "nom": {
+   "fr": "Renvoi boules",
+   "en": "Ball return"
+  },
+  "image": "https://dodo.ac/np/images/4/40/Ball_Return_WW_Model.png",
+  "prix": {
+   "achat": 6200,
+   "vente": 1550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "barbecue",
+  "nom": {
+   "fr": "Barbecue",
+   "en": "Barbecue"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Barbecue_WW_Model.png",
+  "prix": {
+   "achat": 1760,
+   "vente": 440
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "barbers-pole",
+  "nom": {
+   "fr": "Enseigne barbier",
+   "en": "Barber's pole"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Barber's_Pole_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "barrel",
+  "nom": {
+   "fr": "Tonneau",
+   "en": "Barrel"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Barrel_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "basketball-hoop",
+  "nom": {
+   "fr": "Panneau basket",
+   "en": "Basketball hoop"
+  },
+  "image": "https://dodo.ac/np/images/b/bc/Basketball_Hoop_WW_Model.png",
+  "prix": {
+   "achat": 2120,
+   "vente": 530
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "bass",
+  "nom": {
+   "fr": "Basse",
+   "en": "Bass"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Bass_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "beach-chair",
+  "nom": {
+   "fr": "Transat",
+   "en": "Beach chair"
+  },
+  "image": "https://dodo.ac/np/images/a/a2/Beach_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1850,
+   "vente": 462
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "beach-table",
+  "nom": {
+   "fr": "Table de plage",
+   "en": "Beach table"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Beach_Table_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bear-pole",
+  "nom": {
+   "fr": "Totem ours",
+   "en": "Bear pole"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Bear_Pole_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "big-festive-tree",
+  "nom": {
+   "fr": "Grand sapin",
+   "en": "Big festive tree"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Big_Festive_Tree_WW_Model.png",
+  "prix": {
+   "achat": 2480,
+   "vente": 620
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "cannon",
+  "nom": {
+   "fr": "Canon",
+   "en": "Cannon"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Cannon_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "billiard-table",
+  "nom": {
+   "fr": "Billard",
+   "en": "Billiard table"
+  },
+  "image": "https://dodo.ac/np/images/b/bf/Billiard_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bird-feeder",
+  "nom": {
+   "fr": "Mangeoire oiseau",
+   "en": "Bird feeder"
+  },
+  "image": "https://dodo.ac/np/images/5/53/Bird_Feeder_WW_Model.png",
+  "prix": {
+   "achat": 1260,
+   "vente": 315
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bird-bath",
+  "nom": {
+   "fr": "Bassin à oiseaux",
+   "en": "Bird bath"
+  },
+  "image": "https://dodo.ac/np/images/9/9d/Bird_Bath_WW_Model.png",
+  "prix": {
+   "achat": 1450,
+   "vente": 362
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "birdcage",
+  "nom": {
+   "fr": "Cage à oiseaux",
+   "en": "Birdcage"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Birdcage_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "birdhouse",
+  "nom": {
+   "fr": "Abri à oiseaux",
+   "en": "Birdhouse"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Birdhouse_WW_Model.png",
+  "prix": {
+   "achat": 1620,
+   "vente": 405
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "birthday-cake",
+  "nom": {
+   "fr": "Gâteau d'anniv.",
+   "en": "Birthday cake"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Birthday_Cake_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 0
+  },
+  "sources": [
+   "any villager",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "black-bishop",
+  "nom": {
+   "fr": "Fou noir",
+   "en": "Black bishop"
+  },
+  "image": "https://dodo.ac/np/images/9/9f/Black_Bishop_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "white-bishop",
+  "nom": {
+   "fr": "Fou blanc",
+   "en": "White bishop"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/White_Bishop_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "biwa-lute",
+  "nom": {
+   "fr": "Luth biwa",
+   "en": "Biwa lute"
+  },
+  "image": "https://dodo.ac/np/images/c/c6/Biwa_Lute_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "brick-block",
+  "nom": {
+   "fr": "Brique",
+   "en": "Brick block"
+  },
+  "image": "https://dodo.ac/np/images/8/84/Brick_Block_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "blue-bed",
+  "nom": {
+   "fr": "Lit bleu",
+   "en": "Blue bed"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Blue_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "blue-bench",
+  "nom": {
+   "fr": "Banc bleu",
+   "en": "Blue bench"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Blue_Bench_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-bookcase",
+  "nom": {
+   "fr": "Étagère bleue",
+   "en": "Blue bookcase"
+  },
+  "image": "https://dodo.ac/np/images/f/f4/Blue_Bookcase_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-chair",
+  "nom": {
+   "fr": "Chaise bleue",
+   "en": "Blue chair"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Blue_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-clock",
+  "nom": {
+   "fr": "Horloge bleue",
+   "en": "Blue clock"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Blue_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-corner",
+  "nom": {
+   "fr": "Coin bleu",
+   "en": "Blue corner"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Blue_Corner_WW_Model.png",
+  "prix": {
+   "achat": 6800,
+   "vente": 1700
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "blue-dresser",
+  "nom": {
+   "fr": "Commode bleue",
+   "en": "Blue dresser"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Blue_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "blue-falcon",
+  "nom": {
+   "fr": "N/A",
+   "en": "Blue Falcon"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Blue_Falcon_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "blue-table",
+  "nom": {
+   "fr": "Table bleue",
+   "en": "Blue table"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Blue_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "blue-wardrobe",
+  "nom": {
+   "fr": "Armoire bleue",
+   "en": "Blue wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Blue_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 1920,
+   "vente": 480
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bonfire",
+  "nom": {
+   "fr": "Feu de joie",
+   "en": "Bonfire"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Bonfire_WW_Model.png",
+  "prix": {
+   "achat": 2240,
+   "vente": 560
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bottled-ship",
+  "nom": {
+   "fr": "Bateau bouteille",
+   "en": "Bottled ship"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Bottled_Ship_WW_Model.png",
+  "prix": {
+   "achat": 3360,
+   "vente": 840
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bow",
+  "nom": {
+   "fr": "Arc",
+   "en": "Bow"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Bow_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bowling-pins",
+  "nom": {
+   "fr": "Jeu de quilles",
+   "en": "Bowling pins"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Bowling_Pins_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "chocolates",
+  "nom": {
+   "fr": "Boîte chocolats",
+   "en": "Chocolates"
+  },
+  "image": "https://dodo.ac/np/images/6/68/Chocolates_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 680
+  },
+  "sources": [
+   "Gulliver",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "boxing-mat",
+  "nom": {
+   "fr": "Tapis de boxe",
+   "en": "Boxing mat"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Boxing_Mat_WW_Model.png",
+  "prix": {
+   "achat": 1180,
+   "vente": 295
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bromeliaceae",
+  "nom": {
+   "fr": "Guzmania",
+   "en": "Bromeliaceae"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Bromeliaceae_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "bug-zapper",
+  "nom": {
+   "fr": "Anti-moustiques",
+   "en": "Bug zapper"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Bug_Zapper_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabana-armchair",
+  "nom": {
+   "fr": "Fauteuil rotin",
+   "en": "Cabana armchair"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Cabana_Armchair_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "cabana-bed",
+  "nom": {
+   "fr": "Lit rotin",
+   "en": "Cabana bed"
+  },
+  "image": "https://dodo.ac/np/images/6/69/Cabana_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "cabana-bookcase",
+  "nom": {
+   "fr": "Étagère rotin",
+   "en": "Cabana bookcase"
+  },
+  "image": "https://dodo.ac/np/images/b/b5/Cabana_Bookcase_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabana-chair",
+  "nom": {
+   "fr": "Chaise rotin",
+   "en": "Cabana chair"
+  },
+  "image": "https://dodo.ac/np/images/1/1c/Cabana_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "cabana-dresser",
+  "nom": {
+   "fr": "Commode rotin",
+   "en": "Cabana dresser"
+  },
+  "image": "https://dodo.ac/np/images/c/c7/Cabana_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabana-lamp",
+  "nom": {
+   "fr": "Lampe rotin",
+   "en": "Cabana lamp"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/Cabana_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabana-screen",
+  "nom": {
+   "fr": "Paravent rotin",
+   "en": "Cabana screen"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Cabana_Screen_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabana-table",
+  "nom": {
+   "fr": "Table rotin",
+   "en": "Cabana table"
+  },
+  "image": "https://dodo.ac/np/images/e/e5/Cabana_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabana-vanity",
+  "nom": {
+   "fr": "Coiffeuse rotin",
+   "en": "Cabana vanity"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Cabana_Vanity_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabana-wardrobe",
+  "nom": {
+   "fr": "Armoire rotin",
+   "en": "Cabana wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/1/17/Cabana_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 2240,
+   "vente": 560
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabin-bookcase",
+  "nom": {
+   "fr": "Étagère chalet",
+   "en": "Cabin bookcase"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Cabin_Bookcase_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "cabin-chair",
+  "nom": {
+   "fr": "Chaise chalet",
+   "en": "Cabin chair"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Cabin_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "cabin-clock",
+  "nom": {
+   "fr": "Horloge chalet",
+   "en": "Cabin clock"
+  },
+  "image": "https://dodo.ac/np/images/1/1f/Cabin_Clock_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabin-dresser",
+  "nom": {
+   "fr": "Commode chalet",
+   "en": "Cabin dresser"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Cabin_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2160,
+   "vente": 540
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "cabin-wardrobe",
+  "nom": {
+   "fr": "Armoire chalet",
+   "en": "Cabin wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Cabin_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 2480,
+   "vente": 620
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cactus",
+  "nom": {
+   "fr": "Cactus",
+   "en": "Cactus"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Cactus_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "caladium",
+  "nom": {
+   "fr": "Caladium",
+   "en": "Caladium"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Caladium_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "campfire",
+  "nom": {
+   "fr": "Feu de camp",
+   "en": "Campfire"
+  },
+  "image": "https://dodo.ac/np/images/2/2d/Campfire_WW_Model.png",
+  "prix": {
+   "achat": 1360,
+   "vente": 340
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "candle",
+  "nom": {
+   "fr": "Bougie",
+   "en": "Candle"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Candle_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "candy-machine",
+  "nom": {
+   "fr": "Distri. bonbons",
+   "en": "Candy machine"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Candy_Machine_WW_Model.png",
+  "prix": {
+   "achat": 980,
+   "vente": 245
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cardboard-box",
+  "nom": {
+   "fr": "Boîte en carton",
+   "en": "Cardboard box"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Cardboard_Box_WW_Model.png",
+  "prix": {
+   "achat": 100,
+   "vente": 25
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "red-boom-box",
+  "nom": {
+   "fr": "Ghetto-blaster R",
+   "en": "Red boom box"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Red_Boom_Box_WW_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "white-boom-box",
+  "nom": {
+   "fr": "Ghetto-blaster B",
+   "en": "White boom box"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/White_Boom_Box_WW_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "festive-candle",
+  "nom": {
+   "fr": "Chandelier fête",
+   "en": "Festive candle"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Festive_Candle_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "cello",
+  "nom": {
+   "fr": "Violoncelle",
+   "en": "Cello"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Cello_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cement-mixer",
+  "nom": {
+   "fr": "Bétonneuse",
+   "en": "Cement mixer"
+  },
+  "image": "https://dodo.ac/np/images/4/41/Cement_Mixer_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "checkout-counter",
+  "nom": {
+   "fr": "Comptoir",
+   "en": "Checkout counter"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Checkout_Counter_WW_Model.png",
+  "prix": {
+   "achat": 3480,
+   "vente": 870
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "clackercart",
+  "nom": {
+   "fr": "Chariot",
+   "en": "Clackercart"
+  },
+  "image": "https://dodo.ac/np/images/3/3b/Clackercart_WW_Model.png",
+  "prix": {
+   "achat": 1380,
+   "vente": 345
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-bed",
+  "nom": {
+   "fr": "Lit rustique",
+   "en": "Classic bed"
+  },
+  "image": "https://dodo.ac/np/images/8/84/Classic_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2520,
+   "vente": 630
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-bookcase",
+  "nom": {
+   "fr": "Étagère rustique",
+   "en": "Classic bookcase"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Classic_Bookcase_WW_Model.png",
+  "prix": {
+   "achat": 2560,
+   "vente": 640
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "classic-buffet",
+  "nom": {
+   "fr": "Console rustique",
+   "en": "Classic buffet"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Classic_Buffet_WW_Model.png",
+  "prix": {
+   "achat": 3360,
+   "vente": 840
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-chair",
+  "nom": {
+   "fr": "Chaise rustique",
+   "en": "Classic chair"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Classic_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-clock",
+  "nom": {
+   "fr": "Horloge rustique",
+   "en": "Classic clock"
+  },
+  "image": "https://dodo.ac/np/images/0/09/Classic_Clock_WW_Model.png",
+  "prix": {
+   "achat": 2180,
+   "vente": 545
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-desk",
+  "nom": {
+   "fr": "Bureau rustique",
+   "en": "Classic desk"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Classic_Desk_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-sofa",
+  "nom": {
+   "fr": "Canapé rustique",
+   "en": "Classic sofa"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Classic_Sofa_WW_Model.png",
+  "prix": {
+   "achat": 2240,
+   "vente": 560
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "classic-vanity",
+  "nom": {
+   "fr": "Coiff. rustique",
+   "en": "Classic vanity"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Classic_Vanity_WW_Model.png",
+  "prix": {
+   "achat": 2560,
+   "vente": 640
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "classic-wardrobe",
+  "nom": {
+   "fr": "Armoire rustique",
+   "en": "Classic wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Classic_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 2560,
+   "vente": 640
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "claw-foot-tub",
+  "nom": {
+   "fr": "Baignoire pieds",
+   "en": "Claw-foot tub"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Claw-Foot_Tub_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "clear-model",
+  "nom": {
+   "fr": "Mannequin",
+   "en": "Clear model"
+  },
+  "image": "https://dodo.ac/np/images/c/c6/Clear_Model_WW_Model.png",
+  "prix": {
+   "achat": 3360,
+   "vente": 840
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "clothes-closet",
+  "nom": {
+   "fr": "Armoire",
+   "en": "Clothes closet"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Clothes_Closet_WW_Model.png",
+  "prix": {
+   "achat": 1340,
+   "vente": 335
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "clothesline-pole",
+  "nom": {
+   "fr": "Étendoir",
+   "en": "Clothesline pole"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Clothesline_Pole_WW_Model.png",
+  "prix": {
+   "achat": 960,
+   "vente": 240
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "coconut-palm",
+  "nom": {
+   "fr": "Cocotier",
+   "en": "Coconut palm"
+  },
+  "image": "https://dodo.ac/np/images/b/b2/Coconut_Palm_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "coffee-maker",
+  "nom": {
+   "fr": "Cafetière",
+   "en": "Coffee maker"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Coffee_Maker_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "coin",
+  "nom": {
+   "fr": "Pièce",
+   "en": "Coin"
+  },
+  "image": "https://dodo.ac/np/images/4/41/Coin_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "basic-blue-bed",
+  "nom": {
+   "fr": "Lit bleu simple",
+   "en": "Basic blue bed"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Basic_Blue_Bed_WW_Model.png",
+  "prix": {
+   "achat": 200,
+   "vente": 50
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "basic-green-bed",
+  "nom": {
+   "fr": "Lit vert simple",
+   "en": "Basic green bed"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Basic_Green_Bed_WW_Model.png",
+  "prix": {
+   "achat": 200,
+   "vente": 50
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "basic-red-bed",
+  "nom": {
+   "fr": "Lit rouge simple",
+   "en": "Basic red bed"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Basic_Red_Bed_WW_Model.png",
+  "prix": {
+   "achat": 200,
+   "vente": 50
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "basic-yellow-bed",
+  "nom": {
+   "fr": "Lit jaune simple",
+   "en": "Basic yellow bed"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Basic_Yellow_Bed_WW_Model.png",
+  "prix": {
+   "achat": 200,
+   "vente": 50
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "gold-econo-chair",
+  "nom": {
+   "fr": "Chaise dorée",
+   "en": "Gold econo-chair"
+  },
+  "image": "https://dodo.ac/np/images/c/c5/Gold_Econo-Chair_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "jade-econo-chair",
+  "nom": {
+   "fr": "Chaise jade",
+   "en": "Jade econo-chair"
+  },
+  "image": "https://dodo.ac/np/images/d/dd/Jade_Econo-Chair_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ruby-econo-chair",
+  "nom": {
+   "fr": "Chaise rubis",
+   "en": "Ruby econo-chair"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Ruby_Econo-Chair_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "compass",
+  "nom": {
+   "fr": "Boussole",
+   "en": "Compass"
+  },
+  "image": "https://dodo.ac/np/images/b/bb/Compass_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 320
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "complex-machine",
+  "nom": {
+   "fr": "Machine complexe",
+   "en": "Complex machine"
+  },
+  "image": "https://dodo.ac/np/images/b/b4/Complex_Machine_WW_Model.png",
+  "prix": {
+   "achat": 3840,
+   "vente": 960
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "orange-cone",
+  "nom": {
+   "fr": "Cône orange",
+   "en": "Orange cone"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Orange_Cone_WW_Model.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "striped-cone",
+  "nom": {
+   "fr": "Cône rayé",
+   "en": "Striped cone"
+  },
+  "image": "https://dodo.ac/np/images/0/04/Striped_Cone_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "traffic-cone",
+  "nom": {
+   "fr": "Cône bicolore",
+   "en": "Traffic cone"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Traffic_Cone_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "conga-drum",
+  "nom": {
+   "fr": "Conga",
+   "en": "Conga drum"
+  },
+  "image": "https://dodo.ac/np/images/c/c7/Conga_Drum_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cooler",
+  "nom": {
+   "fr": "Glacière",
+   "en": "Cooler"
+  },
+  "image": "https://dodo.ac/np/images/b/bc/Cooler_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "corn-plant",
+  "nom": {
+   "fr": "Yucca",
+   "en": "Corn plant"
+  },
+  "image": "https://dodo.ac/np/images/f/ff/Corn_Plant_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "covered-wagon",
+  "nom": {
+   "fr": "Chariot bâché",
+   "en": "Covered wagon"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Covered_Wagon_WW_Model.png",
+  "prix": {
+   "achat": 3800,
+   "vente": 950
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "cow-skull",
+  "nom": {
+   "fr": "Crâne de vache",
+   "en": "Cow skull"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Cow_Skull_WW_Model.png",
+  "prix": {
+   "achat": 1020,
+   "vente": 255
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cradle",
+  "nom": {
+   "fr": "Berceau",
+   "en": "Cradle"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Cradle_WW_Model.png",
+  "prix": {
+   "achat": 3800,
+   "vente": 950
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cream-sofa",
+  "nom": {
+   "fr": "Canapé crème",
+   "en": "Cream sofa"
+  },
+  "image": "https://dodo.ac/np/images/9/94/Cream_Sofa_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "croton",
+  "nom": {
+   "fr": "Croton",
+   "en": "Croton"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Croton_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cube-clock",
+  "nom": {
+   "fr": "Horloge cube",
+   "en": "Cube clock"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Cube_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cd-player",
+  "nom": {
+   "fr": "Lecteur CD",
+   "en": "CD player"
+  },
+  "image": "https://dodo.ac/np/images/0/05/CD_Player_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "daffodil",
+  "nom": {
+   "fr": "Jonquille",
+   "en": "Daffodil"
+  },
+  "image": "https://dodo.ac/np/images/d/db/Daffodil_WW_Model.png",
+  "prix": {
+   "achat": 680,
+   "vente": 170
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "dart-board",
+  "nom": {
+   "fr": "Cible fléchettes",
+   "en": "Dart board"
+  },
+  "image": "https://dodo.ac/np/images/7/75/Dart_Board_WW_Model.png",
+  "prix": {
+   "achat": 1520,
+   "vente": 380
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "deer-scare",
+  "nom": {
+   "fr": "Jeu d'eau",
+   "en": "Deer scare"
+  },
+  "image": "https://dodo.ac/np/images/2/29/Deer_Scare_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "deluxe-range",
+  "nom": {
+   "fr": "Four luxe",
+   "en": "Deluxe range"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Deluxe_Range_WW_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "deluxe-washer",
+  "nom": {
+   "fr": "Lave-linge luxe",
+   "en": "Deluxe washer"
+  },
+  "image": "https://dodo.ac/np/images/8/8a/Deluxe_Washer_WW_Model.png",
+  "prix": {
+   "achat": 5200,
+   "vente": 1300
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "desert-cactus",
+  "nom": {
+   "fr": "Cactus cierge",
+   "en": "Desert cactus"
+  },
+  "image": "https://dodo.ac/np/images/d/d5/Desert_Cactus_WW_Model.png",
+  "prix": {
+   "achat": 890,
+   "vente": 222
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "desk-light",
+  "nom": {
+   "fr": "Lampe de bureau",
+   "en": "Desk light"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Desk_Light_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "computer",
+  "nom": {
+   "fr": "Ordinateur",
+   "en": "Computer"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Computer_WW_Model.png",
+  "prix": {
+   "achat": 1720,
+   "vente": 430
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "detour-arrow",
+  "nom": {
+   "fr": "Flèche détour",
+   "en": "Detour arrow"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Detour_Arrow_WW_Model.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "dharma",
+  "nom": {
+   "fr": "Matriochka",
+   "en": "Dharma"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Dharma_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "dice-stereo",
+  "nom": {
+   "fr": "Chaîne stéréo dé",
+   "en": "Dice stereo"
+  },
+  "image": "https://dodo.ac/np/images/8/8b/Dice_Stereo_WW_Model.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "diver-dan",
+  "nom": {
+   "fr": "Scaphandre",
+   "en": "Diver Dan"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Diver_Dan_WW_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "djimbe-drum",
+  "nom": {
+   "fr": "Djembé",
+   "en": "Djimbe drum"
+  },
+  "image": "https://dodo.ac/np/images/f/fe/Djimbe_Drum_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "doghouse",
+  "nom": {
+   "fr": "Niche",
+   "en": "Doghouse"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Doghouse_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "dolly",
+  "nom": {
+   "fr": "Poupée",
+   "en": "Dolly"
+  },
+  "image": "https://dodo.ac/np/images/e/e6/Dolly_WW_Model.png",
+  "prix": {
+   "achat": 6800,
+   "vente": 1700
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "red-sofa",
+  "nom": {
+   "fr": "Canapé rouge",
+   "en": "Red sofa"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Red_Sofa_WW_Model.png",
+  "prix": {
+   "achat": 2050,
+   "vente": 512
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "dracaena",
+  "nom": {
+   "fr": "Dragonnier",
+   "en": "Dracaena"
+  },
+  "image": "https://dodo.ac/np/images/6/63/Dracaena_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star",
+   "Mom"
+  ]
+ },
+ {
+  "id": "eagle-pole",
+  "nom": {
+   "fr": "Totem aigle",
+   "en": "Eagle pole"
+  },
+  "image": "https://dodo.ac/np/images/6/66/Eagle_Pole_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ebony-piano",
+  "nom": {
+   "fr": "Piano ébène",
+   "en": "Ebony piano"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Ebony_Piano_WW_Model.png",
+  "prix": {
+   "achat": 3800,
+   "vente": 950
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "metal-guitar",
+  "nom": {
+   "fr": "Guitare métal",
+   "en": "Metal guitar"
+  },
+  "image": "https://dodo.ac/np/images/c/ce/Metal_Guitar_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "elephant-slide",
+  "nom": {
+   "fr": "Éléphoboggan",
+   "en": "Elephant slide"
+  },
+  "image": "https://dodo.ac/np/images/6/6a/Elephant_Slide_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "exotic-bed",
+  "nom": {
+   "fr": "Lit teck",
+   "en": "Exotic bed"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Exotic_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2540,
+   "vente": 635
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "exotic-bureau",
+  "nom": {
+   "fr": "Bureau teck",
+   "en": "Exotic bureau"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Exotic_Bureau_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "exotic-bench",
+  "nom": {
+   "fr": "Banc teck",
+   "en": "Exotic bench"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Exotic_Bench_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "exotic-chest",
+  "nom": {
+   "fr": "Coffre teck",
+   "en": "Exotic chest"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Exotic_Chest_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "exotic-end-table",
+  "nom": {
+   "fr": "Mini-table teck",
+   "en": "Exotic end table"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/Exotic_End_Table_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "exotic-table",
+  "nom": {
+   "fr": "Table teck",
+   "en": "Exotic table"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Exotic_Table_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "exotic-lamp",
+  "nom": {
+   "fr": "Lampe teck",
+   "en": "Exotic lamp"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Exotic_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "exotic-screen",
+  "nom": {
+   "fr": "Paravent teck",
+   "en": "Exotic screen"
+  },
+  "image": "https://dodo.ac/np/images/0/0d/Exotic_Screen_WW_Model.png",
+  "prix": {
+   "achat": 2250,
+   "vente": 562
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "exotic-chair",
+  "nom": {
+   "fr": "Banc teck",
+   "en": "Exotic chair"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Exotic_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "exotic-wardrobe",
+  "nom": {
+   "fr": "Armoire teck",
+   "en": "Exotic wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Exotic_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 2180,
+   "vente": 545
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "extinguisher",
+  "nom": {
+   "fr": "Extincteur",
+   "en": "Extinguisher"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Extinguisher_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "fan-palm",
+  "nom": {
+   "fr": "Palmier d'Arec",
+   "en": "Fan palm"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/Fan_Palm_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "violin",
+  "nom": {
+   "fr": "Violon",
+   "en": "Violin"
+  },
+  "image": "https://dodo.ac/np/images/4/44/Violin_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "festive-flag",
+  "nom": {
+   "fr": "Fanion de fête",
+   "en": "Festive flag"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Festive_Flag_WW_Model.png",
+  "prix": {
+   "achat": 680,
+   "vente": 170
+  },
+  "sources": [
+   "Tom Nook's store"
+  ]
+ },
+ {
+  "id": "festive-tree",
+  "nom": {
+   "fr": "Sapin",
+   "en": "Festive tree"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Festive_Tree_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "red-vase",
+  "nom": {
+   "fr": "Vase rouge",
+   "en": "Red vase"
+  },
+  "image": "https://dodo.ac/np/images/7/71/Red_Vase_WW_Model.png",
+  "prix": {
+   "achat": 2450,
+   "vente": 612
+  },
+  "sources": [
+   "Saharah"
+  ]
+ },
+ {
+  "id": "fire-bar",
+  "nom": {
+   "fr": "N/A",
+   "en": "Fire bar"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Fire_Bar_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "fire-flower",
+  "nom": {
+   "fr": "Fleur de feu",
+   "en": "Fire flower"
+  },
+  "image": "https://dodo.ac/np/images/e/e8/Fire_Flower_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "fire-hydrant",
+  "nom": {
+   "fr": "Borne incendie",
+   "en": "Fire hydrant"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Fire_Hydrant_WW_Model.png",
+  "prix": {
+   "achat": 960,
+   "vente": 240
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "fireplace",
+  "nom": {
+   "fr": "Cheminée",
+   "en": "Fireplace"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Fireplace_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "florence-flask",
+  "nom": {
+   "fr": "Alambic",
+   "en": "Florence flask"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Florence_Flask_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "daffodil-chair",
+  "nom": {
+   "fr": "Chaise jonquille",
+   "en": "Daffodil chair"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Daffodil_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "iris-chair",
+  "nom": {
+   "fr": "Chaise iris",
+   "en": "Iris chair"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/Iris_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tulip-chair",
+  "nom": {
+   "fr": "Chaise tulipe",
+   "en": "Tulip chair"
+  },
+  "image": "https://dodo.ac/np/images/5/5a/Tulip_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "daffodil-table",
+  "nom": {
+   "fr": "Table jonquille",
+   "en": "Daffodil table"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Daffodil_Table_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "iris-table",
+  "nom": {
+   "fr": "Table iris",
+   "en": "Iris table"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Iris_Table_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tulip-table",
+  "nom": {
+   "fr": "Table tulipe",
+   "en": "Tulip table"
+  },
+  "image": "https://dodo.ac/np/images/d/dc/Tulip_Table_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "flower-trophy",
+  "nom": {
+   "fr": "Trophée plantes",
+   "en": "Flower trophy"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Flower_Trophy_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "flying-saucer",
+  "nom": {
+   "fr": "Soucoupe volante",
+   "en": "Flying saucer"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Flying_Saucer_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "frog-woman-pole",
+  "nom": {
+   "fr": "Totem rainette",
+   "en": "Frog woman pole"
+  },
+  "image": "https://dodo.ac/np/images/c/c5/Frog_Woman_Pole_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "froggy-chair",
+  "nom": {
+   "fr": "Siège rainette",
+   "en": "Froggy chair"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Froggy_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "beige-box",
+  "nom": {
+   "fr": "Casier beige",
+   "en": "Beige box"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Beige_Box_WW_Model.png",
+  "prix": {
+   "achat": 980,
+   "vente": 245
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-box",
+  "nom": {
+   "fr": "Casier bleu",
+   "en": "Blue box"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Blue_Box_WW_Model.png",
+  "prix": {
+   "achat": 980,
+   "vente": 245
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pink-box",
+  "nom": {
+   "fr": "Casier rose",
+   "en": "Pink box"
+  },
+  "image": "https://dodo.ac/np/images/f/f4/Pink_Box_WW_Model.png",
+  "prix": {
+   "achat": 980,
+   "vente": 245
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "garbage-can",
+  "nom": {
+   "fr": "Poubelle",
+   "en": "Garbage can"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Garbage_Can_WW_Model.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "garbage-pail",
+  "nom": {
+   "fr": "Conteneur ordure",
+   "en": "Garbage pail"
+  },
+  "image": "https://dodo.ac/np/images/9/98/Garbage_Pail_WW_Model.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "garden-gnome",
+  "nom": {
+   "fr": "Nain de jardin",
+   "en": "Garden gnome"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/Garden_Gnome_WW_Model.png",
+  "prix": {
+   "achat": 3380,
+   "vente": 845
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "range",
+  "nom": {
+   "fr": "Four",
+   "en": "Range"
+  },
+  "image": "https://dodo.ac/np/images/4/40/Range_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "stove",
+  "nom": {
+   "fr": "Cuisinière",
+   "en": "Stove"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Stove_WW_Model.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "gerbera",
+  "nom": {
+   "fr": "Gerbera",
+   "en": "Gerbera"
+  },
+  "image": "https://dodo.ac/np/images/7/71/Gerbera_WW_Model.png",
+  "prix": {
+   "achat": 780,
+   "vente": 195
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "giant-dharma",
+  "nom": {
+   "fr": "Matriochka XL",
+   "en": "Giant dharma"
+  },
+  "image": "https://dodo.ac/np/images/c/ca/Giant_Dharma_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "glass-top-table",
+  "nom": {
+   "fr": "Table en verre",
+   "en": "Glass-top table"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Glass-Top_Table_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "globe",
+  "nom": {
+   "fr": "Globe terrestre",
+   "en": "Globe"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Globe_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "flagpole",
+  "nom": {
+   "fr": "Hampe",
+   "en": "Flagpole"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Flagpole_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "bug-trophy",
+  "nom": {
+   "fr": "Trophée insectes",
+   "en": "Bug trophy"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Bug_Trophy_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "fish-trophy",
+  "nom": {
+   "fr": "Trophée de pêche",
+   "en": "Fish trophy"
+  },
+  "image": "https://dodo.ac/np/images/3/3b/Fish_Trophy_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  },
+  "sources": [
+   "Tortimer"
+  ]
+ },
+ {
+  "id": "gold-stereo",
+  "nom": {
+   "fr": "Hi-fi dorée",
+   "en": "Gold stereo"
+  },
+  "image": "https://dodo.ac/np/images/d/d5/Gold_Stereo_WW_Model.png",
+  "prix": {
+   "achat": 2640,
+   "vente": 660
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-golf-bag",
+  "nom": {
+   "fr": "Sac golf bleu",
+   "en": "Blue golf bag"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Blue_Golf_Bag_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-golf-bag",
+  "nom": {
+   "fr": "Sac golf vert",
+   "en": "Green golf bag"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Green_Golf_Bag_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "white-golf-bag",
+  "nom": {
+   "fr": "Sac golf blanc",
+   "en": "White golf bag"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/White_Golf_Bag_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "grapefruit-table",
+  "nom": {
+   "fr": "Table pomélo",
+   "en": "Grapefruit table"
+  },
+  "image": "https://dodo.ac/np/images/9/94/Grapefruit_Table_WW_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-bed",
+  "nom": {
+   "fr": "Lit vert",
+   "en": "Green bed"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Green_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2160,
+   "vente": 540
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-bench",
+  "nom": {
+   "fr": "Banc vert",
+   "en": "Green bench"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Green_Bench_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-chair",
+  "nom": {
+   "fr": "Chaise verte",
+   "en": "Green chair"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Green_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-counter",
+  "nom": {
+   "fr": "Console verte",
+   "en": "Green counter"
+  },
+  "image": "https://dodo.ac/np/images/9/92/Green_Counter_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-desk",
+  "nom": {
+   "fr": "Secrétaire vert",
+   "en": "Green desk"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Green_Desk_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-dresser",
+  "nom": {
+   "fr": "Commode verte",
+   "en": "Green dresser"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Green_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2320,
+   "vente": 580
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "green-lamp",
+  "nom": {
+   "fr": "Lampe verte",
+   "en": "Green lamp"
+  },
+  "image": "https://dodo.ac/np/images/2/2c/Green_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-pantry",
+  "nom": {
+   "fr": "Buffet vert",
+   "en": "Green pantry"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Green_Pantry_WW_Model.png",
+  "prix": {
+   "achat": 2290,
+   "vente": 572
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "green-table",
+  "nom": {
+   "fr": "Table verte",
+   "en": "Green table"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Green_Table_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-wardrobe",
+  "nom": {
+   "fr": "Armoire verte",
+   "en": "Green wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Green_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "hammock",
+  "nom": {
+   "fr": "Hamac",
+   "en": "Hammock"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Hammock_WW_Model.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "hamster-cage",
+  "nom": {
+   "fr": "Cage à hamster",
+   "en": "Hamster cage"
+  },
+  "image": "https://dodo.ac/np/images/4/47/Hamster_Cage_WW_Model.png",
+  "prix": {
+   "achat": 2290,
+   "vente": 572
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "handcart",
+  "nom": {
+   "fr": "Brouette",
+   "en": "Handcart"
+  },
+  "image": "https://dodo.ac/np/images/1/1f/Handcart_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "harp",
+  "nom": {
+   "fr": "Harpe",
+   "en": "Harp"
+  },
+  "image": "https://dodo.ac/np/images/f/f8/Harp_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "hawthorn-bonsai",
+  "nom": {
+   "fr": "Bonsaï aubépine",
+   "en": "Hawthorn bonsai"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Hawthorn_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "hearth",
+  "nom": {
+   "fr": "Âtre",
+   "en": "Hearth"
+  },
+  "image": "https://dodo.ac/np/images/b/bb/Hearth_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "hi-fi-stereo",
+  "nom": {
+   "fr": "Chaîne hi-fi",
+   "en": "Hi-fi stereo"
+  },
+  "image": "https://dodo.ac/np/images/2/20/Hi-Fi_Stereo_WW_Model.png",
+  "prix": {
+   "achat": 5400,
+   "vente": 1350
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "high-end-stereo",
+  "nom": {
+   "fr": "Hi-fi stéréo",
+   "en": "High-end stereo"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/High-End_Stereo_WW_Model.png",
+  "prix": {
+   "achat": 2750,
+   "vente": 687
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "holly-bonsai",
+  "nom": {
+   "fr": "Bonsaï houx",
+   "en": "Holly bonsai"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Holly_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "hospital-bed",
+  "nom": {
+   "fr": "Lit d'hôpital",
+   "en": "Hospital bed"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Hospital_Bed_WW_Model.png",
+  "prix": {
+   "achat": 3600,
+   "vente": 900
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "one-story-model",
+  "nom": {
+   "fr": "Modèle 1 étage",
+   "en": "One-story model"
+  },
+  "image": "https://dodo.ac/np/images/6/63/One-Story_Model_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Happy Room Academy"
+  ]
+ },
+ {
+  "id": "iron-frame",
+  "nom": {
+   "fr": "Poutre en fer",
+   "en": "Iron frame"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Iron_Frame_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ivory-piano",
+  "nom": {
+   "fr": "Piano ivoire",
+   "en": "Ivory piano"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Ivory_Piano_WW_Model.png",
+  "prix": {
+   "achat": 3500,
+   "vente": 875
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "jack-in-the-box",
+  "nom": {
+   "fr": "Boîte à malice",
+   "en": "Jack-in-the-box"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Jack-in-the-Box_WW_Model.png",
+  "prix": {
+   "achat": 4124,
+   "vente": 1031
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "jackhammer",
+  "nom": {
+   "fr": "Marteau-piqueur",
+   "en": "Jackhammer"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Jackhammer_WW_Model.png",
+  "prix": {
+   "achat": 1880,
+   "vente": 470
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "jasmine-bonsai",
+  "nom": {
+   "fr": "Bonsaï jasmin",
+   "en": "Jasmine bonsai"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Jasmine_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "judges-bell",
+  "nom": {
+   "fr": "Gong",
+   "en": "Judge's bell"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Judge's_Bell_WW_Model.png",
+  "prix": {
+   "achat": 1790,
+   "vente": 447
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "apple-clock",
+  "nom": {
+   "fr": "Horloge pomme",
+   "en": "Apple clock"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/Apple_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "apple-tv",
+  "nom": {
+   "fr": "Télé pomme",
+   "en": "Apple TV"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Apple_TV_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Katie",
+   "Kaitlin"
+  ]
+ },
+ {
+  "id": "jukebox",
+  "nom": {
+   "fr": "Juke-box",
+   "en": "Jukebox"
+  },
+  "image": "https://dodo.ac/np/images/2/22/Jukebox_WW_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "black-katana",
+  "nom": {
+   "fr": "Katana noir",
+   "en": "Black katana"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Black_Katana_WW_Model.png",
+  "prix": {
+   "achat": 12000,
+   "vente": 3000
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "white-katana",
+  "nom": {
+   "fr": "Katana blanc",
+   "en": "White katana"
+  },
+  "image": "https://dodo.ac/np/images/e/ee/White_Katana_WW_Model.png",
+  "prix": {
+   "achat": 36800,
+   "vente": 9200
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "kayak",
+  "nom": {
+   "fr": "Kayak",
+   "en": "Kayak"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/Kayak_WW_Model.png",
+  "prix": {
+   "achat": 3460,
+   "vente": 865
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "keg",
+  "nom": {
+   "fr": "Tonnelet",
+   "en": "Keg"
+  },
+  "image": "https://dodo.ac/np/images/6/67/Keg_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "kiddie-bed",
+  "nom": {
+   "fr": "Lit enfant",
+   "en": "Kiddie bed"
+  },
+  "image": "https://dodo.ac/np/images/1/19/Kiddie_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "kiddie-bureau",
+  "nom": {
+   "fr": "Bureau enfant",
+   "en": "Kiddie bureau"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Kiddie_Bureau_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kiddie-clock",
+  "nom": {
+   "fr": "Horloge enfant",
+   "en": "Kiddie clock"
+  },
+  "image": "https://dodo.ac/np/images/6/6b/Kiddie_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1480,
+   "vente": 370
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "kiddie-couch",
+  "nom": {
+   "fr": "Canapé enfant",
+   "en": "Kiddie couch"
+  },
+  "image": "https://dodo.ac/np/images/f/f1/Kiddie_Couch_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kiddie-stereo",
+  "nom": {
+   "fr": "Hi-fi enfant",
+   "en": "Kiddie stereo"
+  },
+  "image": "https://dodo.ac/np/images/a/ac/Kiddie_Stereo_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "kiddie-table",
+  "nom": {
+   "fr": "Table enfant",
+   "en": "Kiddie table"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Kiddie_Table_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kiddie-wardrobe",
+  "nom": {
+   "fr": "Armoire enfant",
+   "en": "Kiddie wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/4/40/Kiddie_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 2180,
+   "vente": 545
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "black-king",
+  "nom": {
+   "fr": "Roi noir",
+   "en": "Black king"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Black_King_WW_Model.png",
+  "prix": {
+   "achat": 8000,
+   "vente": 2000
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "white-king",
+  "nom": {
+   "fr": "Roi blanc",
+   "en": "White king"
+  },
+  "image": "https://dodo.ac/np/images/0/00/White_King_WW_Model.png",
+  "prix": {
+   "achat": 8000,
+   "vente": 2000
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "kitchen-corner",
+  "nom": {
+   "fr": "Évier de coin",
+   "en": "Kitchen corner"
+  },
+  "image": "https://dodo.ac/np/images/4/4b/Kitchen_Corner_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kitschy-clock",
+  "nom": {
+   "fr": "Horloge kitch",
+   "en": "Kitschy clock"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Kitschy_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "black-knight",
+  "nom": {
+   "fr": "Cavalier noir",
+   "en": "Black knight"
+  },
+  "image": "https://dodo.ac/np/images/8/8f/Black_Knight_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "white-knight",
+  "nom": {
+   "fr": "Cavalier blanc",
+   "en": "White knight"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/White_Knight_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "lab-bench",
+  "nom": {
+   "fr": "Table labo",
+   "en": "Lab bench"
+  },
+  "image": "https://dodo.ac/np/images/a/ac/Lab_Bench_WW_Model.png",
+  "prix": {
+   "achat": 4800,
+   "vente": 1200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lab-chair",
+  "nom": {
+   "fr": "Chaise labo",
+   "en": "Lab chair"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Lab_Chair_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lady-palm",
+  "nom": {
+   "fr": "Palmier chanvre",
+   "en": "Lady palm"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Lady_Palm_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lantern",
+  "nom": {
+   "fr": "Lanterne",
+   "en": "Lantern"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Lantern_WW_Model.png",
+  "prix": {
+   "achat": 1180,
+   "vente": 295
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lawn-chair",
+  "nom": {
+   "fr": "Chaise de jardin",
+   "en": "Lawn chair"
+  },
+  "image": "https://dodo.ac/np/images/9/9b/Lawn_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1180,
+   "vente": 295
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lawn-mower",
+  "nom": {
+   "fr": "Tondeuse à gazon",
+   "en": "Lawn mower"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Lawn_Mower_WW_Model.png",
+  "prix": {
+   "achat": 2760,
+   "vente": 690
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "lefty-lucky-cat",
+  "nom": {
+   "fr": "Chat fétiche G",
+   "en": "Lefty lucky cat"
+  },
+  "image": "https://dodo.ac/np/images/c/c6/Lefty_Lucky_Cat_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "lemon-table",
+  "nom": {
+   "fr": "Table citron",
+   "en": "Lemon table"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Lemon_Table_WW_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "life-ring",
+  "nom": {
+   "fr": "Bouée sauvetage",
+   "en": "Life ring"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Life_Ring_WW_Model.png",
+  "prix": {
+   "achat": 1250,
+   "vente": 312
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lily-pad-table",
+  "nom": {
+   "fr": "Table nénuphar",
+   "en": "Lily-pad table"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Lily-Pad_Table_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Katie",
+   "Kaitlin"
+  ]
+ },
+ {
+  "id": "cabin-bed",
+  "nom": {
+   "fr": "Lit chalet",
+   "en": "Cabin bed"
+  },
+  "image": "https://dodo.ac/np/images/1/13/Cabin_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabin-low-table",
+  "nom": {
+   "fr": "Table b. chalet",
+   "en": "Cabin low table"
+  },
+  "image": "https://dodo.ac/np/images/4/4a/Cabin_Low_Table_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabin-armchair",
+  "nom": {
+   "fr": "Fauteuil chalet",
+   "en": "Cabin armchair"
+  },
+  "image": "https://dodo.ac/np/images/8/8a/Cabin_Armchair_WW_Model.png",
+  "prix": {
+   "achat": 2280,
+   "vente": 570
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabin-couch",
+  "nom": {
+   "fr": "Canapé chalet",
+   "en": "Cabin couch"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Cabin_Couch_WW_Model.png",
+  "prix": {
+   "achat": 2480,
+   "vente": 620
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "cabin-table",
+  "nom": {
+   "fr": "Table chalet",
+   "en": "Cabin table"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Cabin_Table_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lovely-armoire",
+  "nom": {
+   "fr": "Armoire cœur",
+   "en": "Lovely armoire"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Lovely_Armoire_WW_Model.png",
+  "prix": {
+   "achat": 2240,
+   "vente": 560
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "lovely-bed",
+  "nom": {
+   "fr": "Lit cœur",
+   "en": "Lovely bed"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Lovely_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lovely-chair",
+  "nom": {
+   "fr": "Chaise cœur",
+   "en": "Lovely chair"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Lovely_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lovely-dresser",
+  "nom": {
+   "fr": "Commode cœur",
+   "en": "Lovely dresser"
+  },
+  "image": "https://dodo.ac/np/images/0/0d/Lovely_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2160,
+   "vente": 540
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lovely-end-table",
+  "nom": {
+   "fr": "Guéridon cœur",
+   "en": "Lovely end table"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Lovely_End_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "lovely-kitchen",
+  "nom": {
+   "fr": "Cuisine cœur",
+   "en": "Lovely kitchen"
+  },
+  "image": "https://dodo.ac/np/images/c/c7/Lovely_Kitchen_WW_Model.png",
+  "prix": {
+   "achat": 2280,
+   "vente": 570
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "lovely-lamp",
+  "nom": {
+   "fr": "Lampe cœur",
+   "en": "Lovely lamp"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Lovely_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lovely-loveseat",
+  "nom": {
+   "fr": "Fauteuil cœur",
+   "en": "Lovely loveseat"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Lovely_Loveseat_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lovely-phone",
+  "nom": {
+   "fr": "Téléphone cœur",
+   "en": "Lovely phone"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Lovely_Phone_WW_Model.png",
+  "prix": {
+   "achat": 10400,
+   "vente": 2600
+  },
+  "sources": [
+   "Katie",
+   "Kaitlin"
+  ]
+ },
+ {
+  "id": "lovely-table",
+  "nom": {
+   "fr": "Table b. cœur",
+   "en": "Lovely table"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Lovely_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lovely-vanity",
+  "nom": {
+   "fr": "Coiffeuse cœur",
+   "en": "Lovely vanity"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Lovely_Vanity_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lucky-black-cat",
+  "nom": {
+   "fr": "Chat N fétiche",
+   "en": "Lucky black cat"
+  },
+  "image": "https://dodo.ac/np/images/d/d0/Lucky_Black_Cat_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "lucky-cat",
+  "nom": {
+   "fr": "Chat N fétiche",
+   "en": "Lucky cat"
+  },
+  "image": "https://dodo.ac/np/images/6/6e/Lucky_Cat_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lucky-gold-cat",
+  "nom": {
+   "fr": "Chat fétiche O",
+   "en": "Lucky gold cat"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Lucky_Gold_Cat_WW_Model.png",
+  "prix": {
+   "achat": 6200,
+   "vente": 1550
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "lunar-lander",
+  "nom": {
+   "fr": "Module lunaire",
+   "en": "Lunar lander"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Lunar_Lander_WW_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lunar-rover",
+  "nom": {
+   "fr": "Véhicule lunaire",
+   "en": "Lunar rover"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Lunar_Rover_WW_Model.png",
+  "prix": {
+   "achat": 2560,
+   "vente": 640
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mahjong-table",
+  "nom": {
+   "fr": "Table mah-jong",
+   "en": "Mahjong table"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Mahjong_Table_WW_Model.png",
+  "prix": {
+   "achat": 4200,
+   "vente": 1050
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mama-bear",
+  "nom": {
+   "fr": "Maman ours",
+   "en": "Mama bear"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Mama_Bear_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mama-panda",
+  "nom": {
+   "fr": "Maman panda",
+   "en": "Mama panda"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Mama_Panda_WW_Model.png",
+  "prix": {
+   "achat": 480,
+   "vente": 120
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "manhole-cover",
+  "nom": {
+   "fr": "Plaque d'égout",
+   "en": "Manhole cover"
+  },
+  "image": "https://dodo.ac/np/images/5/51/Manhole_Cover_WW_Model.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "manekin-pis",
+  "nom": {
+   "fr": "Manneken Pis",
+   "en": "Manekin Pis"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Manekin_Pis_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1300
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "two-story-model",
+  "nom": {
+   "fr": "Modèle 2 étages",
+   "en": "Two-story model"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Two-Story_Model_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Happy Room Academy"
+  ]
+ },
+ {
+  "id": "mansion-model",
+  "nom": {
+   "fr": "Modèle villa",
+   "en": "Mansion model"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Mansion_Model_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Happy Room Academy"
+  ]
+ },
+ {
+  "id": "maple-bonsai",
+  "nom": {
+   "fr": "Bonsaï érable",
+   "en": "Maple bonsai"
+  },
+  "image": "https://dodo.ac/np/images/9/9b/Maple_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "vibraphone",
+  "nom": {
+   "fr": "Vibraphone",
+   "en": "Vibraphone"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Vibraphone_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "master-sword",
+  "nom": {
+   "fr": "Excalibur",
+   "en": "Master Sword"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Master_Sword_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "matryoshka",
+  "nom": {
+   "fr": "Série matriochka",
+   "en": "Matryoshka"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Matryoshka_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 980
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "medicine-chest",
+  "nom": {
+   "fr": "Commode labo",
+   "en": "Medicine chest"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Medicine_Chest_WW_Model.png",
+  "prix": {
+   "achat": 2280,
+   "vente": 570
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "merlion",
+  "nom": {
+   "fr": "Merlion",
+   "en": "Merlion"
+  },
+  "image": "https://dodo.ac/np/images/a/a6/Merlion_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2300
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "mermaid-statue",
+  "nom": {
+   "fr": "Petite sirène",
+   "en": "Mermaid statue"
+  },
+  "image": "https://dodo.ac/np/images/1/1b/Mermaid_Statue_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1900
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "merry-go-round",
+  "nom": {
+   "fr": "Manège",
+   "en": "Merry-go-round"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Merry-Go-Round_WW_Model.png",
+  "prix": {
+   "achat": 640,
+   "vente": 160
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "metroid",
+  "nom": {
+   "fr": "Metroid",
+   "en": "Metroid"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Metroid_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "metronome",
+  "nom": {
+   "fr": "Métronome",
+   "en": "Metronome"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Metronome_WW_Model.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "microwave",
+  "nom": {
+   "fr": "Micro-ondes",
+   "en": "Microwave"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Microwave_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mini-dharma",
+  "nom": {
+   "fr": "Mini-matriochka",
+   "en": "Mini-dharma"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Mini-Dharma_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mini-lamp",
+  "nom": {
+   "fr": "Petite lampe",
+   "en": "Mini-lamp"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Mini-Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "miniature-car",
+  "nom": {
+   "fr": "Modèle voiture",
+   "en": "Miniature car"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/Miniature_Car_WW_Model.png",
+  "prix": {
+   "achat": 10000,
+   "vente": 2500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mixer",
+  "nom": {
+   "fr": "Mixeur",
+   "en": "Mixer"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Mixer_WW_Model.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "moai-statue",
+  "nom": {
+   "fr": "Statue Moai",
+   "en": "Moai statue"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Moai_Statue_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1900
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "mochi-pestle",
+  "nom": {
+   "fr": "Pilon à riz",
+   "en": "Mochi pestle"
+  },
+  "image": "https://dodo.ac/np/images/9/97/Mochi_Pestle_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-bed",
+  "nom": {
+   "fr": "Lit moderne",
+   "en": "Modern bed"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Modern_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2320,
+   "vente": 580
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-cabinet",
+  "nom": {
+   "fr": "Vitrine moderne",
+   "en": "Modern cabinet"
+  },
+  "image": "https://dodo.ac/np/images/4/48/Modern_Cabinet_WW_Model.png",
+  "prix": {
+   "achat": 2580,
+   "vente": 645
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "modern-chair",
+  "nom": {
+   "fr": "Chaise moderne",
+   "en": "Modern chair"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Modern_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-desk",
+  "nom": {
+   "fr": "Bureau moderne",
+   "en": "Modern desk"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Modern_Desk_WW_Model.png",
+  "prix": {
+   "achat": 2480,
+   "vente": 620
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-dresser",
+  "nom": {
+   "fr": "Commode moderne",
+   "en": "Modern dresser"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Modern_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2250,
+   "vente": 562
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-end-table",
+  "nom": {
+   "fr": "Table moderne",
+   "en": "Modern end table"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Modern_End_Table_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "modern-lamp",
+  "nom": {
+   "fr": "Lampe moderne",
+   "en": "Modern lamp"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Modern_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-sofa",
+  "nom": {
+   "fr": "Canapé moderne",
+   "en": "Modern sofa"
+  },
+  "image": "https://dodo.ac/np/images/4/42/Modern_Sofa_WW_Model.png",
+  "prix": {
+   "achat": 2620,
+   "vente": 655
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-table",
+  "nom": {
+   "fr": "Table b. moderne",
+   "en": "Modern table"
+  },
+  "image": "https://dodo.ac/np/images/3/37/Modern_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "modern-wardrobe",
+  "nom": {
+   "fr": "Armoire moderne",
+   "en": "Modern wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/a/a9/Modern_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 2560,
+   "vente": 640
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "moon",
+  "nom": {
+   "fr": "Lune",
+   "en": "Moon"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Moon_WW_Model.png",
+  "prix": {
+   "achat": 32000,
+   "vente": 8000
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "mop",
+  "nom": {
+   "fr": "Balai-éponge",
+   "en": "Mop"
+  },
+  "image": "https://dodo.ac/np/images/4/4f/Mop_WW_Model.png",
+  "prix": {
+   "achat": 900,
+   "vente": 225
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mountain-bike",
+  "nom": {
+   "fr": "V.T.T.",
+   "en": "Mountain bike"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Mountain_Bike_WW_Model.png",
+  "prix": {
+   "achat": 3380,
+   "vente": 845
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mouth-of-truth",
+  "nom": {
+   "fr": "Bouche de Vérité",
+   "en": "Mouth of Truth"
+  },
+  "image": "https://dodo.ac/np/images/3/33/Mouth_of_Truth_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1900
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "mr-flamingo",
+  "nom": {
+   "fr": "M. Flamingo",
+   "en": "Mr. Flamingo"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Mr._Flamingo_WW_Model.png",
+  "prix": {
+   "achat": 1530,
+   "vente": 382
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mrs-flamingo",
+  "nom": {
+   "fr": "Mme Flamingo",
+   "en": "Mrs. Flamingo"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Mrs._Flamingo_WW_Model.png",
+  "prix": {
+   "achat": 1530,
+   "vente": 382
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mugho-bonsai",
+  "nom": {
+   "fr": "Bonsaï pin mugho",
+   "en": "Mugho bonsai"
+  },
+  "image": "https://dodo.ac/np/images/b/bc/Mugho_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mummys-casket",
+  "nom": {
+   "fr": "Sarcophage",
+   "en": "Mummy's casket"
+  },
+  "image": "https://dodo.ac/np/images/0/0d/Mummy's_Casket_WW_Model.png",
+  "prix": {
+   "achat": 4400,
+   "vente": 1100
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "museum-model",
+  "nom": {
+   "fr": "Modèle musée",
+   "en": "Museum model"
+  },
+  "image": "https://dodo.ac/np/images/3/3e/Museum_Model_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Museum"
+  ]
+ },
+ {
+  "id": "mush-bed",
+  "nom": {
+   "fr": "Lit champi",
+   "en": "Mush bed"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Mush_Bed_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-closet",
+  "nom": {
+   "fr": "Buffet champi",
+   "en": "Mush closet"
+  },
+  "image": "https://dodo.ac/np/images/2/2e/Mush_Closet_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2450
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-dresser",
+  "nom": {
+   "fr": "Commode champi",
+   "en": "Mush dresser"
+  },
+  "image": "https://dodo.ac/np/images/7/7e/Mush_Dresser_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2450
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-end-table",
+  "nom": {
+   "fr": "Table b. champi",
+   "en": "Mush end table"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Mush_End_Table_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2200
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-lamp",
+  "nom": {
+   "fr": "Lampe champi",
+   "en": "Mush lamp"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Mush_Lamp_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-chair",
+  "nom": {
+   "fr": "Chaise champi",
+   "en": "Mush chair"
+  },
+  "image": "https://dodo.ac/np/images/9/9d/Mush_Chair_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1900
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-stand",
+  "nom": {
+   "fr": "Porte-m. champi",
+   "en": "Mush stand"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Mush_Stand_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2400
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-stool",
+  "nom": {
+   "fr": "Étagère champi",
+   "en": "Mush stool"
+  },
+  "image": "https://dodo.ac/np/images/6/69/Mush_Stool_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1800
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-table",
+  "nom": {
+   "fr": "Table champi",
+   "en": "Mush table"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/Mush_Table_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2500
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "mush-tv",
+  "nom": {
+   "fr": "Télé champi",
+   "en": "Mush TV"
+  },
+  "image": "https://dodo.ac/np/images/8/8c/Mush_TV_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2500
+  },
+  "sources": [
+   "Cornimer"
+  ]
+ },
+ {
+  "id": "pine-chair",
+  "nom": {
+   "fr": "Chaise en pin",
+   "en": "Pine chair"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Pine_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pine-table",
+  "nom": {
+   "fr": "Table en pin",
+   "en": "Pine table"
+  },
+  "image": "https://dodo.ac/np/images/3/3d/Pine_Table_WW_Model.png",
+  "prix": {
+   "achat": 2280,
+   "vente": 570
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "neutral-corner",
+  "nom": {
+   "fr": "Coin neutre",
+   "en": "Neutral corner"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Neutral_Corner_WW_Model.png",
+  "prix": {
+   "achat": 5500,
+   "vente": 1375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "executive-toy",
+  "nom": {
+   "fr": "Gadget de bureau",
+   "en": "Executive toy"
+  },
+  "image": "https://dodo.ac/np/images/4/43/Executive_Toy_WW_Model.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ninja-sword",
+  "nom": {
+   "fr": "Épée ninja",
+   "en": "Ninja sword"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Ninja_Sword_WW_Model.png",
+  "prix": {
+   "achat": 9600,
+   "vente": 2400
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "nintendo-bench",
+  "nom": {
+   "fr": "Banc Nintendo",
+   "en": "Nintendo bench"
+  },
+  "image": "https://dodo.ac/np/images/b/bb/Nintendo_Bench_WW_Model.png",
+  "prix": {
+   "achat": 120,
+   "vente": 30
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "nook-n-go",
+  "nom": {
+   "fr": "Nookoprix",
+   "en": "Nook 'n' Go"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Nook_'n'_Go_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook Point System"
+  ]
+ },
+ {
+  "id": "nooks-cranny",
+  "nom": {
+   "fr": "Boutique Nook",
+   "en": "Nook's Cranny"
+  },
+  "image": "https://dodo.ac/np/images/0/04/Nook's_Cranny_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook Point System"
+  ]
+ },
+ {
+  "id": "nookingtons",
+  "nom": {
+   "fr": "Hypernook",
+   "en": "Nookington's"
+  },
+  "image": "https://dodo.ac/np/images/1/1b/Nookington's_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook Point System"
+  ]
+ },
+ {
+  "id": "nookway",
+  "nom": {
+   "fr": "Supernook",
+   "en": "Nookway"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/Nookway_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook Point System"
+  ]
+ },
+ {
+  "id": "odd-clock",
+  "nom": {
+   "fr": "Horloge bizarre",
+   "en": "Odd clock"
+  },
+  "image": "https://dodo.ac/np/images/6/6f/Odd_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "office-chair",
+  "nom": {
+   "fr": "Chaise pro",
+   "en": "Office chair"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/Office_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "brown-drum",
+  "nom": {
+   "fr": "Fût marron",
+   "en": "Brown drum"
+  },
+  "image": "https://dodo.ac/np/images/c/ca/Brown_Drum_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-drum",
+  "nom": {
+   "fr": "Fût vert",
+   "en": "Green drum"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Green_Drum_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "haz-mat-barrel",
+  "nom": {
+   "fr": "Baril de goudron",
+   "en": "Haz-mat barrel"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/Haz-Mat_Barrel_WW_Model.png",
+  "prix": {
+   "achat": 830,
+   "vente": 207
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "oil-drum",
+  "nom": {
+   "fr": "Bidon d'essence",
+   "en": "Oil drum"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Oil_Drum_WW_Model.png",
+  "prix": {
+   "achat": 840,
+   "vente": 210
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "red-drum",
+  "nom": {
+   "fr": "Fût rouge",
+   "en": "Red drum"
+  },
+  "image": "https://dodo.ac/np/images/8/81/Red_Drum_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "sewing-machine",
+  "nom": {
+   "fr": "Machine à coudre",
+   "en": "Sewing machine"
+  },
+  "image": "https://dodo.ac/np/images/6/68/Sewing_Machine_WW_Model.png",
+  "prix": {
+   "achat": 1350,
+   "vente": 337
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "alarm-clock",
+  "nom": {
+   "fr": "Réveil",
+   "en": "Alarm clock"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Alarm_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "outdoor-bath",
+  "nom": {
+   "fr": "Bain extérieur",
+   "en": "Outdoor bath"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Outdoor_Bath_WW_Model.png",
+  "prix": {
+   "achat": 4900,
+   "vente": 1225
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "glow-clock",
+  "nom": {
+   "fr": "Horloge phosph.",
+   "en": "Glow clock"
+  },
+  "image": "https://dodo.ac/np/images/d/de/Glow_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1500,
+   "vente": 375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "owl-clock",
+  "nom": {
+   "fr": "Horloge chouette",
+   "en": "Owl clock"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Owl_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pachira",
+  "nom": {
+   "fr": "Pachira",
+   "en": "Pachira"
+  },
+  "image": "https://dodo.ac/np/images/a/ac/Pachira_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pagoda",
+  "nom": {
+   "fr": "Pagode",
+   "en": "Pagoda"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Pagoda_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1280
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "pantheon-post",
+  "nom": {
+   "fr": "Colonne Panthéon",
+   "en": "Pantheon post"
+  },
+  "image": "https://dodo.ac/np/images/7/73/Pantheon_Post_WW_Model.png",
+  "prix": {
+   "achat": 3600,
+   "vente": 900
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "papa-bear",
+  "nom": {
+   "fr": "Papa ours",
+   "en": "Papa bear"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Papa_Bear_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Katie",
+   "Kaitlin"
+  ]
+ },
+ {
+  "id": "papa-panda",
+  "nom": {
+   "fr": "Papa panda",
+   "en": "Papa panda"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Papa_Panda_WW_Model.png",
+  "prix": {
+   "achat": 480,
+   "vente": 120
+  },
+  "sources": [
+   "Katie",
+   "Kaitlin"
+  ]
+ },
+ {
+  "id": "black-pawn",
+  "nom": {
+   "fr": "Pion noir",
+   "en": "Black pawn"
+  },
+  "image": "https://dodo.ac/np/images/5/5c/Black_Pawn_WW_Model.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "white-pawn",
+  "nom": {
+   "fr": "Pion blanc",
+   "en": "White pawn"
+  },
+  "image": "https://dodo.ac/np/images/f/fa/White_Pawn_WW_Model.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pear-dresser",
+  "nom": {
+   "fr": "Commode poire",
+   "en": "Pear dresser"
+  },
+  "image": "https://dodo.ac/np/images/b/bc/Pear_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pear-wardrobe",
+  "nom": {
+   "fr": "Armoire poire",
+   "en": "Pear wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Pear_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "phonograph",
+  "nom": {
+   "fr": "Phonographe",
+   "en": "Phonograph"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Phonograph_WW_Model.png",
+  "prix": {
+   "achat": 1840,
+   "vente": 460
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "picnic-table",
+  "nom": {
+   "fr": "Table pic-nic",
+   "en": "Picnic table"
+  },
+  "image": "https://dodo.ac/np/images/9/96/Picnic_Table_WW_Model.png",
+  "prix": {
+   "achat": 1390,
+   "vente": 347
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "piggy-bank",
+  "nom": {
+   "fr": "Tirelire cochon",
+   "en": "Piggy bank"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Piggy_Bank_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1120
+  },
+  "sources": [
+   "town hall"
+  ]
+ },
+ {
+  "id": "pikmin",
+  "nom": {
+   "fr": "Pikmin",
+   "en": "Pikmin"
+  },
+  "image": "https://dodo.ac/np/images/2/26/Pikmin_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "pinball-machine",
+  "nom": {
+   "fr": "Flipper",
+   "en": "Pinball machine"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Pinball_Machine_WW_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pine-bonsai",
+  "nom": {
+   "fr": "Bonsaï pin",
+   "en": "Pine bonsai"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Pine_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pineapple-bed",
+  "nom": {
+   "fr": "Lit ananas",
+   "en": "Pineapple bed"
+  },
+  "image": "https://dodo.ac/np/images/a/aa/Pineapple_Bed_WW_Model.png",
+  "prix": {
+   "achat": 1990,
+   "vente": 497
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-pipe",
+  "nom": {
+   "fr": "Tuyau vert",
+   "en": "Green pipe"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Green_Pipe_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "ship-cannon",
+  "nom": {
+   "fr": "Canon",
+   "en": "Ship cannon"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Ship_Cannon_WW_Model.png",
+  "prix": {
+   "achat": 1820,
+   "vente": 455
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "helm",
+  "nom": {
+   "fr": "Roue",
+   "en": "Helm"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Helm_WW_Model.png",
+  "prix": {
+   "achat": 1120,
+   "vente": 280
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "treasure-chest",
+  "nom": {
+   "fr": "Coffre au trésor",
+   "en": "Treasure chest"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Treasure_Chest_WW_Model.png",
+  "prix": {
+   "achat": 8600,
+   "vente": 2150
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "storage-case",
+  "nom": {
+   "fr": "Casier rangement",
+   "en": "Storage case"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Storage_Case_WW_Model.png",
+  "prix": {
+   "achat": 980,
+   "vente": 245
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "backyard-pool",
+  "nom": {
+   "fr": "Piscine jardin",
+   "en": "Backyard pool"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Backyard_Pool_WW_Model.png",
+  "prix": {
+   "achat": 990,
+   "vente": 247
+  },
+  "sources": [
+   "Crazy Redd's",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "plate-armor",
+  "nom": {
+   "fr": "Armure",
+   "en": "Plate armor"
+  },
+  "image": "https://dodo.ac/np/images/7/74/Plate_Armor_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1850
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "plum-bonsai",
+  "nom": {
+   "fr": "Bonsaï prunier",
+   "en": "Plum bonsai"
+  },
+  "image": "https://dodo.ac/np/images/6/6b/Plum_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "ponderosa-bonsai",
+  "nom": {
+   "fr": "Bonsaï pin russe",
+   "en": "Ponderosa bonsai"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Ponderosa_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "toaster",
+  "nom": {
+   "fr": "Grille-pain",
+   "en": "Toaster"
+  },
+  "image": "https://dodo.ac/np/images/9/95/Toaster_WW_Model.png",
+  "prix": {
+   "achat": 720,
+   "vente": 180
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-vase",
+  "nom": {
+   "fr": "Vase bleu",
+   "en": "Blue vase"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Blue_Vase_WW_Model.png",
+  "prix": {
+   "achat": 2500,
+   "vente": 625
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "potbelly-stove",
+  "nom": {
+   "fr": "Poêle à charbon",
+   "en": "Potbelly stove"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Potbelly_Stove_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pothos",
+  "nom": {
+   "fr": "Pothos",
+   "en": "Pothos"
+  },
+  "image": "https://dodo.ac/np/images/e/e6/Pothos_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "reel-to-reel",
+  "nom": {
+   "fr": "Magnétophone",
+   "en": "Reel-to-reel"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/Reel-to-Reel_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "propane-stove",
+  "nom": {
+   "fr": "Barbecue à gaz",
+   "en": "Propane stove"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Propane_Stove_WW_Model.png",
+  "prix": {
+   "achat": 1470,
+   "vente": 367
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "sandbag",
+  "nom": {
+   "fr": "Sac de frappe",
+   "en": "Sandbag"
+  },
+  "image": "https://dodo.ac/np/images/a/a7/Sandbag_WW_Model.png",
+  "prix": {
+   "achat": 3190,
+   "vente": 797
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "pyramid",
+  "nom": {
+   "fr": "Pyramide",
+   "en": "Pyramid"
+  },
+  "image": "https://dodo.ac/np/images/b/bb/Pyramid_WW_Model.png",
+  "prix": {
+   "achat": 3800,
+   "vente": 950
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "black-queen",
+  "nom": {
+   "fr": "Reine noire",
+   "en": "Black queen"
+  },
+  "image": "https://dodo.ac/np/images/f/ff/Black_Queen_WW_Model.png",
+  "prix": {
+   "achat": 8000,
+   "vente": 2000
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "white-queen",
+  "nom": {
+   "fr": "Reine blanche",
+   "en": "White queen"
+  },
+  "image": "https://dodo.ac/np/images/e/e1/White_Queen_WW_Model.png",
+  "prix": {
+   "achat": 8000,
+   "vente": 2000
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "quince-bonsai",
+  "nom": {
+   "fr": "Bonsaï cydonia",
+   "en": "Quince bonsai"
+  },
+  "image": "https://dodo.ac/np/images/e/e6/Quince_Bonsai_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "racoon-figurine",
+  "nom": {
+   "fr": "Raton laveur",
+   "en": "Racoon figurine"
+  },
+  "image": "https://dodo.ac/np/images/f/fc/Racoon_Figurine_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "ranch-armchair",
+  "nom": {
+   "fr": "Fauteuil ranch",
+   "en": "Ranch armchair"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Ranch_Armchair_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ranch-bed",
+  "nom": {
+   "fr": "Lit ranch",
+   "en": "Ranch bed"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Ranch_Bed_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ranch-bookcase",
+  "nom": {
+   "fr": "Étagère ranch",
+   "en": "Ranch bookcase"
+  },
+  "image": "https://dodo.ac/np/images/6/69/Ranch_Bookcase_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ranch-chair",
+  "nom": {
+   "fr": "Chaise ranch",
+   "en": "Ranch chair"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Ranch_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "ranch-couch",
+  "nom": {
+   "fr": "Canapé ranch",
+   "en": "Ranch couch"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Ranch_Couch_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ranch-hutch",
+  "nom": {
+   "fr": "Buffet ranch",
+   "en": "Ranch hutch"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Ranch_Hutch_WW_Model.png",
+  "prix": {
+   "achat": 2560,
+   "vente": 640
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "ranch-dresser",
+  "nom": {
+   "fr": "Commode ranch",
+   "en": "Ranch dresser"
+  },
+  "image": "https://dodo.ac/np/images/1/1c/Ranch_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2720,
+   "vente": 680
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "ranch-table",
+  "nom": {
+   "fr": "Table ranch",
+   "en": "Ranch table"
+  },
+  "image": "https://dodo.ac/np/images/1/10/Ranch_Table_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ranch-tea-table",
+  "nom": {
+   "fr": "Table b. ranch",
+   "en": "Ranch tea table"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Ranch_Tea_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ranch-wardrobe",
+  "nom": {
+   "fr": "Armoire ranch",
+   "en": "Ranch wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/d/de/Ranch_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": 3050,
+   "vente": 762
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "raven-pole",
+  "nom": {
+   "fr": "Totem corbeau",
+   "en": "Raven pole"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Raven_Pole_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "red-corner",
+  "nom": {
+   "fr": "Coin rouge",
+   "en": "Red corner"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Red_Corner_WW_Model.png",
+  "prix": {
+   "achat": 6800,
+   "vente": 1700
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "refrigerator",
+  "nom": {
+   "fr": "Réfrigérateur",
+   "en": "Refrigerator"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Refrigerator_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "regal-armoire",
+  "nom": {
+   "fr": "Armoire royale",
+   "en": "Regal armoire"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Regal_Armoire_WW_Model.png",
+  "prix": {
+   "achat": 3820,
+   "vente": 955
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "regal-bed",
+  "nom": {
+   "fr": "Lit royal",
+   "en": "Regal bed"
+  },
+  "image": "https://dodo.ac/np/images/7/7e/Regal_Bed_WW_Model.png",
+  "prix": {
+   "achat": 3120,
+   "vente": 780
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "regal-bookcase",
+  "nom": {
+   "fr": "Étagère royale",
+   "en": "Regal bookcase"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Regal_Bookcase_WW_Model.png",
+  "prix": {
+   "achat": 3120,
+   "vente": 780
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "regal-chair",
+  "nom": {
+   "fr": "Chaise royale",
+   "en": "Regal chair"
+  },
+  "image": "https://dodo.ac/np/images/6/67/Regal_Chair_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "regal-clock",
+  "nom": {
+   "fr": "Horloge royale",
+   "en": "Regal clock"
+  },
+  "image": "https://dodo.ac/np/images/c/cd/Regal_Clock_WW_Model.png",
+  "prix": {
+   "achat": 3360,
+   "vente": 840
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "regal-dresser",
+  "nom": {
+   "fr": "Commode royale",
+   "en": "Regal dresser"
+  },
+  "image": "https://dodo.ac/np/images/f/f5/Regal_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 3520,
+   "vente": 880
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "regal-lamp",
+  "nom": {
+   "fr": "Lampe royale",
+   "en": "Regal lamp"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Regal_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "regal-sofa",
+  "nom": {
+   "fr": "Canapé royal",
+   "en": "Regal sofa"
+  },
+  "image": "https://dodo.ac/np/images/0/07/Regal_Sofa_WW_Model.png",
+  "prix": {
+   "achat": 3100,
+   "vente": 775
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "regal-table",
+  "nom": {
+   "fr": "Table royale",
+   "en": "Regal table"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Regal_Table_WW_Model.png",
+  "prix": {
+   "achat": 2540,
+   "vente": 635
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "regal-vanity",
+  "nom": {
+   "fr": "Coiffeuse royale",
+   "en": "Regal vanity"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Regal_Vanity_WW_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "fan",
+  "nom": {
+   "fr": "Ventilateur",
+   "en": "Fan"
+  },
+  "image": "https://dodo.ac/np/images/2/29/Fan_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "retro-fridge",
+  "nom": {
+   "fr": "Réfrigérateur V",
+   "en": "Retro fridge"
+  },
+  "image": "https://dodo.ac/np/images/1/12/Retro_Fridge_WW_Model.png",
+  "prix": {
+   "achat": 2300,
+   "vente": 575
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "gas-pump",
+  "nom": {
+   "fr": "Pompe à essence",
+   "en": "Gas pump"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/Gas_Pump_WW_Model.png",
+  "prix": {
+   "achat": 1280,
+   "vente": 320
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "massage-chair",
+  "nom": {
+   "fr": "Siège de massage",
+   "en": "Massage chair"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Massage_Chair_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Saharah",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "radiator",
+  "nom": {
+   "fr": "Radiateur",
+   "en": "Radiator"
+  },
+  "image": "https://dodo.ac/np/images/2/2f/Radiator_WW_Model.png",
+  "prix": {
+   "achat": 2380,
+   "vente": 595
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "retro-stereo",
+  "nom": {
+   "fr": "Hi-fi rétro",
+   "en": "Retro stereo"
+  },
+  "image": "https://dodo.ac/np/images/5/58/Retro_Stereo_WW_Model.png",
+  "prix": {
+   "achat": 5500,
+   "vente": 1375
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "retro-tv",
+  "nom": {
+   "fr": "Télé rétro",
+   "en": "Retro TV"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Retro_TV_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ringside-table",
+  "nom": {
+   "fr": "Table arbitrage",
+   "en": "Ringside table"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Ringside_Table_WW_Model.png",
+  "prix": {
+   "achat": 1320,
+   "vente": 330
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "robo-bed",
+  "nom": {
+   "fr": "Lit robot",
+   "en": "Robo-bed"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Robo-Bed_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "robo-chair",
+  "nom": {
+   "fr": "Fauteuil robot",
+   "en": "Robo-chair"
+  },
+  "image": "https://dodo.ac/np/images/a/a8/Robo-Chair_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "robo-clock",
+  "nom": {
+   "fr": "Horloge robot",
+   "en": "Robo-clock"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Robo-Clock_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "robo-closet",
+  "nom": {
+   "fr": "Buffet robot",
+   "en": "Robo-closet"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Robo-Closet_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "robo-dresser",
+  "nom": {
+   "fr": "Commode robot",
+   "en": "Robo-dresser"
+  },
+  "image": "https://dodo.ac/np/images/7/75/Robo-Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2560,
+   "vente": 640
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "robo-lamp",
+  "nom": {
+   "fr": "Lampe robot",
+   "en": "Robo-lamp"
+  },
+  "image": "https://dodo.ac/np/images/e/e8/Robo-Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "robo-sofa",
+  "nom": {
+   "fr": "Sofa robot",
+   "en": "Robo-sofa"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Robo-Sofa_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "robo-stereo",
+  "nom": {
+   "fr": "Chaîne robot",
+   "en": "Robo-stereo"
+  },
+  "image": "https://dodo.ac/np/images/1/16/Robo-Stereo_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "robo-table",
+  "nom": {
+   "fr": "Table b. robot",
+   "en": "Robo-table"
+  },
+  "image": "https://dodo.ac/np/images/b/bf/Robo-Table_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "robo-tv",
+  "nom": {
+   "fr": "Télé robot",
+   "en": "Robo-TV"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Robo-TV_WW_Model.png",
+  "prix": {
+   "achat": 2360,
+   "vente": 590
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "rock-guitar",
+  "nom": {
+   "fr": "Guitare rock",
+   "en": "Rock guitar"
+  },
+  "image": "https://dodo.ac/np/images/a/a0/Rock_Guitar_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "rocket",
+  "nom": {
+   "fr": "Fusée",
+   "en": "Rocket"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/Rocket_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "blue-lava-lamp",
+  "nom": {
+   "fr": "Lampe à lave B",
+   "en": "Blue lava lamp"
+  },
+  "image": "https://dodo.ac/np/images/7/7b/Blue_Lava_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "green-lava-lamp",
+  "nom": {
+   "fr": "Lampe à lave V",
+   "en": "Green lava lamp"
+  },
+  "image": "https://dodo.ac/np/images/4/45/Green_Lava_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "purple-lava-lamp",
+  "nom": {
+   "fr": "Lampe à lave R",
+   "en": "Purple lava lamp"
+  },
+  "image": "https://dodo.ac/np/images/e/e5/Purple_Lava_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "rocking-chair",
+  "nom": {
+   "fr": "Rocking-chair",
+   "en": "Rocking chair"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Rocking_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "rocking-horse",
+  "nom": {
+   "fr": "Cheval à bascule",
+   "en": "Rocking horse"
+  },
+  "image": "https://dodo.ac/np/images/0/09/Rocking_Horse_WW_Model.png",
+  "prix": {
+   "achat": 600,
+   "vente": 150
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "black-rook",
+  "nom": {
+   "fr": "Tour noire",
+   "en": "Black rook"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Black_Rook_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "white-rook",
+  "nom": {
+   "fr": "Tour blanche",
+   "en": "White rook"
+  },
+  "image": "https://dodo.ac/np/images/f/f9/White_Rook_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "round-cactus",
+  "nom": {
+   "fr": "Cactus boule",
+   "en": "Round cactus"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Round_Cactus_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "red-clock",
+  "nom": {
+   "fr": "Horloge rouge",
+   "en": "Red clock"
+  },
+  "image": "https://dodo.ac/np/images/9/92/Red_Clock_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "space-heater",
+  "nom": {
+   "fr": "Chauffage",
+   "en": "Space heater"
+  },
+  "image": "https://dodo.ac/np/images/b/ba/Space_Heater_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "rubber-tree",
+  "nom": {
+   "fr": "Caoutchouc",
+   "en": "Rubber tree"
+  },
+  "image": "https://dodo.ac/np/images/5/55/Rubber_Tree_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "broken-post",
+  "nom": {
+   "fr": "Colonne brisée",
+   "en": "Broken post"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Broken_Post_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "corinthian-post",
+  "nom": {
+   "fr": "Colonne Corinthe",
+   "en": "Corinthian post"
+  },
+  "image": "https://dodo.ac/np/images/9/9a/Corinthian_Post_WW_Model.png",
+  "prix": {
+   "achat": 3600,
+   "vente": 900
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ionian-post",
+  "nom": {
+   "fr": "Colonne Ionie",
+   "en": "Ionian post"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Ionian_Post_WW_Model.png",
+  "prix": {
+   "achat": 3600,
+   "vente": 900
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "saddle-fence",
+  "nom": {
+   "fr": "Porte-selle",
+   "en": "Saddle fence"
+  },
+  "image": "https://dodo.ac/np/images/c/c5/Saddle_Fence_WW_Model.png",
+  "prix": {
+   "achat": 2180,
+   "vente": 545
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "safe",
+  "nom": {
+   "fr": "Coffre-fort",
+   "en": "Safe"
+  },
+  "image": "https://dodo.ac/np/images/8/83/Safe_WW_Model.png",
+  "prix": {
+   "achat": 758,
+   "vente": 189
+  },
+  "sources": [
+   "Redd"
+  ]
+ },
+ {
+  "id": "samurai-suit",
+  "nom": {
+   "fr": "Tenue samouraï",
+   "en": "Samurai suit"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Samurai_Suit_WW_Model.png",
+  "prix": {
+   "achat": 4500,
+   "vente": 1125
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "satellite",
+  "nom": {
+   "fr": "Satellite",
+   "en": "Satellite"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Satellite_WW_Model.png",
+  "prix": {
+   "achat": 2600,
+   "vente": 650
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "saw-horse",
+  "nom": {
+   "fr": "Barrière travaux",
+   "en": "Saw horse"
+  },
+  "image": "https://dodo.ac/np/images/7/7d/Saw_Horse_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "scale",
+  "nom": {
+   "fr": "Balance",
+   "en": "Scale"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Scale_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "scarecrow",
+  "nom": {
+   "fr": "Épouvantail",
+   "en": "Scarecrow"
+  },
+  "image": "https://dodo.ac/np/images/7/7b/Scarecrow_WW_Model.png",
+  "prix": {
+   "achat": 420,
+   "vente": 105
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "screen",
+  "nom": {
+   "fr": "Paravent",
+   "en": "Screen"
+  },
+  "image": "https://dodo.ac/np/images/0/0a/Screen_WW_Model.png",
+  "prix": {
+   "achat": 1650,
+   "vente": 412
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "koopa-shell",
+  "nom": {
+   "fr": "Carapace Koopa",
+   "en": "Koopa shell"
+  },
+  "image": "https://dodo.ac/np/images/2/24/Koopa_Shell_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "ship-compass",
+  "nom": {
+   "fr": "Boussole bâteau",
+   "en": "Ship compass"
+  },
+  "image": "https://dodo.ac/np/images/6/6b/Ship_Compass_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Pascal"
+  ]
+ },
+ {
+  "id": "shower",
+  "nom": {
+   "fr": "Douche",
+   "en": "Shower"
+  },
+  "image": "https://dodo.ac/np/images/2/20/Shower_WW_Model.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "red-armchair",
+  "nom": {
+   "fr": "Fauteuil rouge",
+   "en": "Red armchair"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Red_Armchair_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "sink",
+  "nom": {
+   "fr": "Évier",
+   "en": "Sink"
+  },
+  "image": "https://dodo.ac/np/images/7/7e/Sink_WW_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "siphon",
+  "nom": {
+   "fr": "Siphon",
+   "en": "Siphon"
+  },
+  "image": "https://dodo.ac/np/images/a/a7/Siphon_WW_Model.png",
+  "prix": {
+   "achat": 1780,
+   "vente": 445
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "skeleton",
+  "nom": {
+   "fr": "Squelette",
+   "en": "Skeleton"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Skeleton_WW_Model.png",
+  "prix": {
+   "achat": 3360,
+   "vente": 840
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "sleeping-bag",
+  "nom": {
+   "fr": "Sac de couchage",
+   "en": "Sleeping bag"
+  },
+  "image": "https://dodo.ac/np/images/9/98/Sleeping_Bag_WW_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star",
+   "Nintendo Wi-Fi Connection"
+  ]
+ },
+ {
+  "id": "sleigh",
+  "nom": {
+   "fr": "Luge",
+   "en": "Sleigh"
+  },
+  "image": "https://dodo.ac/np/images/9/92/Sleigh_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tea-vase",
+  "nom": {
+   "fr": "Pot à thé",
+   "en": "Tea vase"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Tea_Vase_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "snake-plant",
+  "nom": {
+   "fr": "Sansevieria",
+   "en": "Snake plant"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Snake_Plant_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "snowboard",
+  "nom": {
+   "fr": "Snowboard",
+   "en": "Snowboard"
+  },
+  "image": "https://dodo.ac/np/images/4/4a/Snowboard_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "snowman",
+  "nom": {
+   "fr": "Yétiti",
+   "en": "Snowman"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Snowman_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 3000
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-bed",
+  "nom": {
+   "fr": "Lit Yétiti",
+   "en": "Snowman bed"
+  },
+  "image": "https://dodo.ac/np/images/e/ef/Snowman_Bed_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-chair",
+  "nom": {
+   "fr": "Chaise Yétiti",
+   "en": "Snowman chair"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Snowman_Chair_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-clock",
+  "nom": {
+   "fr": "Horloge Yétiti",
+   "en": "Snowman clock"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Snowman_Clock_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-dresser",
+  "nom": {
+   "fr": "Commode Yétiti",
+   "en": "Snowman dresser"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Snowman_Dresser_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-fridge",
+  "nom": {
+   "fr": "Frigo Yétiti",
+   "en": "Snowman fridge"
+  },
+  "image": "https://dodo.ac/np/images/0/09/Snowman_Fridge_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-lamp",
+  "nom": {
+   "fr": "Lampe Yétiti",
+   "en": "Snowman lamp"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Snowman_Lamp_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-sofa",
+  "nom": {
+   "fr": "Canapé Yétiti",
+   "en": "Snowman sofa"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Snowman_Sofa_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-table",
+  "nom": {
+   "fr": "Table Yétiti",
+   "en": "Snowman table"
+  },
+  "image": "https://dodo.ac/np/images/2/2d/Snowman_Table_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-tv",
+  "nom": {
+   "fr": "Télé Yétiti",
+   "en": "Snowman TV"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Snowman_TV_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "snowman-wardrobe",
+  "nom": {
+   "fr": "Armoire Yétiti",
+   "en": "Snowman wardrobe"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Snowman_Wardrobe_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 8888
+  },
+  "sources": [
+   "Snowman"
+  ]
+ },
+ {
+  "id": "space-shuttle",
+  "nom": {
+   "fr": "Navette spatiale",
+   "en": "Space shuttle"
+  },
+  "image": "https://dodo.ac/np/images/d/d9/Space_Shuttle_WW_Model.png",
+  "prix": {
+   "achat": 2780,
+   "vente": 695
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "space-station",
+  "nom": {
+   "fr": "Station spatiale",
+   "en": "Space station"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Space_Station_WW_Model.png",
+  "prix": {
+   "achat": 2800,
+   "vente": 700
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "speed-bag",
+  "nom": {
+   "fr": "Ballon de boxe",
+   "en": "Speed bag"
+  },
+  "image": "https://dodo.ac/np/images/a/af/Speed_Bag_WW_Model.png",
+  "prix": {
+   "achat": 2990,
+   "vente": 747
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "sphinx",
+  "nom": {
+   "fr": "Sphinx",
+   "en": "Sphinx"
+  },
+  "image": "https://dodo.ac/np/images/6/68/Sphinx_WW_Model.png",
+  "prix": {
+   "achat": 3200,
+   "vente": 800
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "sprinkler",
+  "nom": {
+   "fr": "Arrosoir",
+   "en": "Sprinkler"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Sprinkler_WW_Model.png",
+  "prix": {
+   "achat": 1640,
+   "vente": 410
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "stadiometer",
+  "nom": {
+   "fr": "Toise",
+   "en": "Stadiometer"
+  },
+  "image": "https://dodo.ac/np/images/b/bf/Stadiometer_WW_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "mens-toilet",
+  "nom": {
+   "fr": "Vespasienne",
+   "en": "Men's toilet"
+  },
+  "image": "https://dodo.ac/np/images/e/e8/Men's_Toilet_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "steam-roller",
+  "nom": {
+   "fr": "Rouleau à vapeur",
+   "en": "Steam roller"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Steam_Roller_WW_Model.png",
+  "prix": {
+   "achat": 4500,
+   "vente": 1125
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "boxing-barricade",
+  "nom": {
+   "fr": "Barrière de ring",
+   "en": "Boxing barricade"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Boxing_Barricade_WW_Model.png",
+  "prix": {
+   "achat": 1050,
+   "vente": 262
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "storefront",
+  "nom": {
+   "fr": "Devanture",
+   "en": "Storefront"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Storefront_WW_Model.png",
+  "prix": {
+   "achat": 3680,
+   "vente": 920
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "stroller",
+  "nom": {
+   "fr": "Poussette",
+   "en": "Stroller"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Stroller_WW_Model.png",
+  "prix": {
+   "achat": 1960,
+   "vente": 490
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "writing-chair",
+  "nom": {
+   "fr": "Siège secrétaire",
+   "en": "Writing chair"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Writing_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "writing-desk",
+  "nom": {
+   "fr": "Secrétaire",
+   "en": "Writing desk"
+  },
+  "image": "https://dodo.ac/np/images/0/04/Writing_Desk_WW_Model.png",
+  "prix": {
+   "achat": 1900,
+   "vente": 475
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "office-desk",
+  "nom": {
+   "fr": "Bureau pro",
+   "en": "Office desk"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Office_Desk_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "sunflower",
+  "nom": {
+   "fr": "Tournesol",
+   "en": "Sunflower"
+  },
+  "image": "https://dodo.ac/np/images/9/9c/Sunflower_WW_Model.png",
+  "prix": {
+   "achat": 980,
+   "vente": 245
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "super-mushroom",
+  "nom": {
+   "fr": "Super champignon",
+   "en": "Super mushroom"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Super_Mushroom_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "starman",
+  "nom": {
+   "fr": "Starman",
+   "en": "Starman"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Starman_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 256
+  },
+  "sources": [
+   "DS Download Station"
+  ]
+ },
+ {
+  "id": "super-toilet",
+  "nom": {
+   "fr": "Super W.-C.",
+   "en": "Super toilet"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Super_Toilet_WW_Model.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "surfboard",
+  "nom": {
+   "fr": "Planche de surf",
+   "en": "Surfboard"
+  },
+  "image": "https://dodo.ac/np/images/0/0b/Surfboard_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "sword",
+  "nom": {
+   "fr": "Épée",
+   "en": "Sword"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Sword_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kitchen-sink",
+  "nom": {
+   "fr": "Meuble évier",
+   "en": "Kitchen sink"
+  },
+  "image": "https://dodo.ac/np/images/9/9c/Kitchen_Sink_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "table-lamp",
+  "nom": {
+   "fr": "Lampe de table",
+   "en": "Table lamp"
+  },
+  "image": "https://dodo.ac/np/images/0/04/Table_Lamp_WW_Model.png",
+  "prix": {
+   "achat": 640,
+   "vente": 160
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tabletop-game",
+  "nom": {
+   "fr": "Table de jeux",
+   "en": "Tabletop game"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Tabletop_Game_WW_Model.png",
+  "prix": {
+   "achat": 2480,
+   "vente": 620
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "japanese-drum",
+  "nom": {
+   "fr": "Tambour taiko",
+   "en": "Japanese drum"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Japanese_Drum_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tall-cactus",
+  "nom": {
+   "fr": "Grand cactus",
+   "en": "Tall cactus"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Tall_Cactus_WW_Model.png",
+  "prix": {
+   "achat": 1700,
+   "vente": 425
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tall-lantern",
+  "nom": {
+   "fr": "Lanterne haute",
+   "en": "Tall lantern"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Tall_Lantern_WW_Model.png",
+  "prix": {
+   "achat": 1980,
+   "vente": 495
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "lime-chair",
+  "nom": {
+   "fr": "Chaise cédrat",
+   "en": "Lime chair"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Lime_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "orange-chair",
+  "nom": {
+   "fr": "Chaise orange",
+   "en": "Orange chair"
+  },
+  "image": "https://dodo.ac/np/images/1/11/Orange_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tape-deck",
+  "nom": {
+   "fr": "Cassettophone",
+   "en": "Tape deck"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Tape_Deck_WW_Model.png",
+  "prix": {
+   "achat": 700,
+   "vente": 175
+  },
+  "sources": [
+   "Tom Nook's store",
+   "starting item",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tea-set",
+  "nom": {
+   "fr": "Service à thé",
+   "en": "Tea set"
+  },
+  "image": "https://dodo.ac/np/images/c/c9/Tea_Set_WW_Model.png",
+  "prix": {
+   "achat": 300,
+   "vente": 75
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tea-table",
+  "nom": {
+   "fr": "Table à thé",
+   "en": "Tea table"
+  },
+  "image": "https://dodo.ac/np/images/7/7a/Tea_Table_WW_Model.png",
+  "prix": {
+   "achat": 1000,
+   "vente": 250
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "telescope",
+  "nom": {
+   "fr": "Télescope",
+   "en": "Telescope"
+  },
+  "image": "https://dodo.ac/np/images/7/7e/Telescope_WW_Model.png",
+  "prix": {
+   "achat": 5800,
+   "vente": 1450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tennis-table",
+  "nom": {
+   "fr": "Table ping-pong",
+   "en": "Tennis table"
+  },
+  "image": "https://dodo.ac/np/images/b/b1/Tennis_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "throne",
+  "nom": {
+   "fr": "Trône",
+   "en": "Throne"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Throne_WW_Model.png",
+  "prix": {
+   "achat": 800000,
+   "vente": 200000
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "tiki-torch",
+  "nom": {
+   "fr": "Flambeau",
+   "en": "Tiki torch"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Tiki_Torch_WW_Model.png",
+  "prix": {
+   "achat": 870,
+   "vente": 217
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "timpano-drum",
+  "nom": {
+   "fr": "Timpano",
+   "en": "Timpano drum"
+  },
+  "image": "https://dodo.ac/np/images/5/5e/Timpano_Drum_WW_Model.png",
+  "prix": {
+   "achat": 2100,
+   "vente": 525
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "box-of-tissues",
+  "nom": {
+   "fr": "Mouchoir",
+   "en": "Box of tissues"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Box_of_Tissues_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 320
+  },
+  "sources": [
+   "town hall"
+  ]
+ },
+ {
+  "id": "toilet",
+  "nom": {
+   "fr": "W.-C.",
+   "en": "Toilet"
+  },
+  "image": "https://dodo.ac/np/images/4/49/Toilet_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tower-of-pisa",
+  "nom": {
+   "fr": "Tour de Pise",
+   "en": "Tower of Pisa"
+  },
+  "image": "https://dodo.ac/np/images/4/4b/Tower_of_Pisa_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 2300
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "town-hall-model",
+  "nom": {
+   "fr": "Modèle mairie",
+   "en": "Town hall model"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Town_Hall_Model_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 450
+  },
+  "sources": [
+   "town hall"
+  ]
+ },
+ {
+  "id": "train-set",
+  "nom": {
+   "fr": "Train miniature",
+   "en": "Train set"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Train_Set_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "trash-bin",
+  "nom": {
+   "fr": "Boîte à ordures",
+   "en": "Trash bin"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Trash_Bin_WW_Model.png",
+  "prix": {
+   "achat": 400,
+   "vente": 100
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "trash-can",
+  "nom": {
+   "fr": "Corbeille",
+   "en": "Trash can"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Trash_Can_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tribal-mask",
+  "nom": {
+   "fr": "Masque tribal",
+   "en": "Tribal mask"
+  },
+  "image": "https://dodo.ac/np/images/0/09/Tribal_Mask_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1100
+  },
+  "sources": [
+   "Gulliver"
+  ]
+ },
+ {
+  "id": "triforce",
+  "nom": {
+   "fr": "Triforce",
+   "en": "Triforce"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Triforce_WW_Model.png",
+  "prix": {
+   "achat": 10000,
+   "vente": 2500
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "trunk-measure",
+  "nom": {
+   "fr": "Mesureur",
+   "en": "Trunk measure"
+  },
+  "image": "https://dodo.ac/np/images/7/78/Trunk_Measure_WW_Model.png",
+  "prix": {
+   "achat": 1680,
+   "vente": 420
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "tumbleweed",
+  "nom": {
+   "fr": "Boule de ronces",
+   "en": "Tumbleweed"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Tumbleweed_WW_Model.png",
+  "prix": {
+   "achat": 520,
+   "vente": 130
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "turntable",
+  "nom": {
+   "fr": "Tourne-disque",
+   "en": "Turntable"
+  },
+  "image": "https://dodo.ac/np/images/8/89/Turntable_WW_Model.png",
+  "prix": {
+   "achat": 2580,
+   "vente": 645
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "tv-with-a-vcr",
+  "nom": {
+   "fr": "Télé-magnéto.",
+   "en": "TV with a VCR"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/TV_with_a_VCR_WW_Model.png",
+  "prix": {
+   "achat": 2000,
+   "vente": 500
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "ukulele",
+  "nom": {
+   "fr": "Ukulélé",
+   "en": "Ukulele"
+  },
+  "image": "https://dodo.ac/np/images/f/fe/Ukulele_WW_Model.png",
+  "prix": {
+   "achat": 1600,
+   "vente": 400
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "unknown-machine",
+  "nom": {
+   "fr": "Machine inconnue",
+   "en": "Unknown machine"
+  },
+  "image": "https://dodo.ac/np/images/b/b6/Unknown_Machine_WW_Model.png",
+  "prix": {
+   "achat": 4800,
+   "vente": 1200
+  },
+  "sources": [
+   "spotlight item",
+   "Wishy the Star"
+  ]
+ },
+ {
+  "id": "office-locker",
+  "nom": {
+   "fr": "Casier pro",
+   "en": "Office locker"
+  },
+  "image": "https://dodo.ac/np/images/f/f7/Office_Locker_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "vacuum-cleaner",
+  "nom": {
+   "fr": "Aspirateur",
+   "en": "Vacuum cleaner"
+  },
+  "image": "https://dodo.ac/np/images/f/f9/Vacuum_Cleaner_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "vision-tester",
+  "nom": {
+   "fr": "Test de vision",
+   "en": "Vision tester"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Vision_Tester_WW_Model.png",
+  "prix": {
+   "achat": 2280,
+   "vente": 570
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "wagon-wheel",
+  "nom": {
+   "fr": "Roue de chariot",
+   "en": "Wagon wheel"
+  },
+  "image": "https://dodo.ac/np/images/0/09/Wagon_Wheel_WW_Model.png",
+  "prix": {
+   "achat": 1230,
+   "vente": 307
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "washer-dryer",
+  "nom": {
+   "fr": "Lave/sèche-linge",
+   "en": "Washer/dryer"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Washer-Dryer_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "water-bird",
+  "nom": {
+   "fr": "Oiseau aquatique",
+   "en": "Water bird"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Water_Bird_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "watering-trough",
+  "nom": {
+   "fr": "Abreuvoir",
+   "en": "Watering trough"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Watering_Trough_WW_Model.png",
+  "prix": {
+   "achat": 1100,
+   "vente": 275
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "melon-chair",
+  "nom": {
+   "fr": "Chaise melon",
+   "en": "Melon chair"
+  },
+  "image": "https://dodo.ac/np/images/9/97/Melon_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "watermelon-chair",
+  "nom": {
+   "fr": "Chaise melon",
+   "en": "Watermelon chair"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Watermelon_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1300,
+   "vente": 325
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Nintendo Wi-Fi Connection",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "watermelon-table",
+  "nom": {
+   "fr": "Table pastèque",
+   "en": "Watermelon table"
+  },
+  "image": "https://dodo.ac/np/images/1/1a/Watermelon_Table_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "wave-breaker",
+  "nom": {
+   "fr": "Brise-lames",
+   "en": "Wave breaker"
+  },
+  "image": "https://dodo.ac/np/images/e/e7/Wave_Breaker_WW_Model.png",
+  "prix": {
+   "achat": 1760,
+   "vente": 440
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "weeping-fig",
+  "nom": {
+   "fr": "Figuier pleureur",
+   "en": "Weeping fig"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Weeping_Fig_WW_Model.png",
+  "prix": {
+   "achat": 1200,
+   "vente": 300
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "weight-bench",
+  "nom": {
+   "fr": "Banc de muscu",
+   "en": "Weight bench"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/Weight_Bench_WW_Model.png",
+  "prix": {
+   "achat": 3590,
+   "vente": 897
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "well",
+  "nom": {
+   "fr": "Puits",
+   "en": "Well"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Well_WW_Model.png",
+  "prix": {
+   "achat": 2700,
+   "vente": 675
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "western-fence",
+  "nom": {
+   "fr": "Barrière western",
+   "en": "Western fence"
+  },
+  "image": "https://dodo.ac/np/images/1/16/Western_Fence_WW_Model.png",
+  "prix": {
+   "achat": 880,
+   "vente": 220
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "wet-roadway-sign",
+  "nom": {
+   "fr": "Route glissante",
+   "en": "Wet roadway sign"
+  },
+  "image": "https://dodo.ac/np/images/9/9a/Wet_Roadway_Sign_WW_Model.png",
+  "prix": {
+   "achat": 850,
+   "vente": 212
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "wide-screen-tv",
+  "nom": {
+   "fr": "Télé 16/9",
+   "en": "Wide-screen TV"
+  },
+  "image": "https://dodo.ac/np/images/f/fd/Wide-Screen_TV_WW_Model.png",
+  "prix": {
+   "achat": 2200,
+   "vente": 550
+  },
+  "sources": [
+   "Crazy Redd's"
+  ]
+ },
+ {
+  "id": "wobbelina",
+  "nom": {
+   "fr": "Culbutine",
+   "en": "Wobbelina"
+  },
+  "image": "https://dodo.ac/np/images/6/63/Wobbelina_WW_Model.png",
+  "prix": {
+   "achat": 700,
+   "vente": 175
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "wooden-box",
+  "nom": {
+   "fr": "Boîte en bois",
+   "en": "Wooden box"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Wooden_Box_WW_Model.png",
+  "prix": {
+   "achat": 200,
+   "vente": 50
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "blue-bureau",
+  "nom": {
+   "fr": "Bureau bleu",
+   "en": "Blue bureau"
+  },
+  "image": "https://dodo.ac/np/images/6/6e/Blue_Bureau_WW_Model.png",
+  "prix": {
+   "achat": 2160,
+   "vente": 540
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "music-box",
+  "nom": {
+   "fr": "Boîte à musique",
+   "en": "Music box"
+  },
+  "image": "https://dodo.ac/np/images/b/b7/Music_Box_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 1050
+  },
+  "sources": [
+   "Katie",
+   "Kaitlin"
+  ]
+ },
+ {
+  "id": "blue-cabinet",
+  "nom": {
+   "fr": "Vitrine bleue",
+   "en": "Blue cabinet"
+  },
+  "image": "https://dodo.ac/np/images/8/89/Blue_Cabinet_WW_Model.png",
+  "prix": {
+   "achat": 2400,
+   "vente": 600
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kiddie-bookcase",
+  "nom": {
+   "fr": "Étagère enfant",
+   "en": "Kiddie bookcase"
+  },
+  "image": "https://dodo.ac/np/images/9/9a/Kiddie_Bookcase_WW_Model.png",
+  "prix": {
+   "achat": 1800,
+   "vente": 450
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kiddie-chair",
+  "nom": {
+   "fr": "Chaise enfant",
+   "en": "Kiddie chair"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Kiddie_Chair_WW_Model.png",
+  "prix": {
+   "achat": 1400,
+   "vente": 350
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ },
+ {
+  "id": "kiddie-dresser",
+  "nom": {
+   "fr": "Commode enfant",
+   "en": "Kiddie dresser"
+  },
+  "image": "https://dodo.ac/np/images/c/c5/Kiddie_Dresser_WW_Model.png",
+  "prix": {
+   "achat": 2150,
+   "vente": 537
+  },
+  "sources": [
+   "Tom Nook's store",
+   "Crazy Redd's, Lost and found, tree, balloons (if rare), any villager, Birthday, Tortimer (Fishing Tourney/Bug-Off)"
+  ]
+ }
+]

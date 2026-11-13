@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "academic-painting",
+  "nom": {
+   "fr": "Toile académique",
+   "en": "Academic painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtVitruvianMan.png",
+  "oeuvre": {
+   "titre": "Vitruvian Man",
+   "artiste": "Leonardo da Vinci, circa 1487, Pen and ink on paper"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtVitruvianManFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "amazing-painting",
+  "nom": {
+   "fr": "Toile incroyable",
+   "en": "Amazing painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtNightWatch.png",
+  "oeuvre": {
+   "titre": "The Night Watch",
+   "artiste": "Rembrandt van Rijn, 1642, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtNightWatchFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "ancient-statue",
+  "nom": {
+   "fr": "Statuette antique",
+   "en": "Ancient statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureDoguu.png",
+  "oeuvre": {
+   "titre": "Jōmon Period \"Dogū\" Figurine Shakōki-dogū",
+   "artiste": "Artist Unknown, 1000-400 BCE, Fired pottery"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureDoguuFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "basic-painting",
+  "nom": {
+   "fr": "Toile classique",
+   "en": "Basic painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtBlueBoy.png",
+  "oeuvre": {
+   "titre": "The Blue Boy",
+   "artiste": "Thomas Gainsborough, 1770, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtBlueBoyFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "beautiful-statue",
+  "nom": {
+   "fr": "Statue féminine",
+   "en": "Beautiful statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureMilo.png",
+  "oeuvre": {
+   "titre": "Venus de Milo",
+   "artiste": "Artist Unknown, circa 130 BCE, Marble"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureMiloFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "calm-painting",
+  "nom": {
+   "fr": "Toile apaisante",
+   "en": "Calm painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtSundayOn.png",
+  "oeuvre": {
+   "titre": "A Sunday Afternoon on the Island of La Grande Jatte",
+   "artiste": "Georges Seurat, circa 1885, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "common-painting",
+  "nom": {
+   "fr": "Toile commune",
+   "en": "Common painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtGleaners.png",
+  "oeuvre": {
+   "titre": "The Gleaners",
+   "artiste": "Jean-François Millet, 1857, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "detailed-painting",
+  "nom": {
+   "fr": "Toile détaillée",
+   "en": "Detailed painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtAjisaisoukeizu.png",
+  "oeuvre": {
+   "titre": "Ajisai Sōkeizu",
+   "artiste": "Itō Jakuchū, 18th century, Dyed silk"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtAjisaisoukeizuFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "dynamic-painting",
+  "nom": {
+   "fr": "Toile déferlante",
+   "en": "Dynamic painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtKanagawaOki.png",
+  "oeuvre": {
+   "titre": "Thirty-Six Views of Mount Fuji The Great Wave off Kanagawa",
+   "artiste": "Katsushika Hokusai, circa 1831, Woodblock print"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "familiar-statue",
+  "nom": {
+   "fr": "Statue pensive",
+   "en": "Familiar statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureThinker.png",
+  "oeuvre": {
+   "titre": "The Thinker",
+   "artiste": "Auguste Rodin, 1902, Bronze"
+  },
+  "sous": "Statue",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "famous-painting",
+  "nom": {
+   "fr": "Toile célèbre",
+   "en": "Famous painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtMonaLisa.png",
+  "oeuvre": {
+   "titre": "Mona Lisa",
+   "artiste": "Leonardo da Vinci, circa 1503, Oil on poplar"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtMonaLisaFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "flowery-painting",
+  "nom": {
+   "fr": "Toile florale",
+   "en": "Flowery painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtSunflower.png",
+  "oeuvre": {
+   "titre": "Sunflowers",
+   "artiste": "Vincent van Gogh, circa 1888, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "gallant-statue",
+  "nom": {
+   "fr": "Statue majestueuse",
+   "en": "Gallant statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureDavid.png",
+  "oeuvre": {
+   "titre": "David",
+   "artiste": "Michelangelo, circa 1504, Marble"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureDavidFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "glowing-painting",
+  "nom": {
+   "fr": "Toile crépusculaire",
+   "en": "Glowing painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtFightingTemeraire.png",
+  "oeuvre": {
+   "titre": "The Fighting Temeraire",
+   "artiste": "Joseph Mallord William Turner, 1839, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "graceful-painting",
+  "nom": {
+   "fr": "Toile gracieuse",
+   "en": "Graceful painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtMikaeri.png",
+  "oeuvre": {
+   "titre": "Beauty Looking Back",
+   "artiste": "Hishikawa Moronobu, 17th century, Color on silk"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtMikaeriFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "great-statue",
+  "nom": {
+   "fr": "Statue imposante",
+   "en": "Great statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureKamehameha.png",
+  "oeuvre": {
+   "titre": "King Kamehameha I",
+   "artiste": "Thomas Ridgeway Gould, circa 1883, Bronze"
+  },
+  "sous": "Statue",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "informative-statue",
+  "nom": {
+   "fr": "Tablette édifiante",
+   "en": "Informative statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureRosettaStone.png",
+  "oeuvre": {
+   "titre": "Rosetta Stone",
+   "artiste": "Artist Unknown, 196 BCE, Granodiorite"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureRosettaStoneFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "jolly-painting",
+  "nom": {
+   "fr": "Toile potagère",
+   "en": "Jolly painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtSummer.png",
+  "oeuvre": {
+   "titre": "Summer",
+   "artiste": "Giuseppe Arcimboldo, circa 1563, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtSummerFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "moody-painting",
+  "nom": {
+   "fr": "Toile puissante",
+   "en": "Moody painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtSlower.png",
+  "oeuvre": {
+   "titre": "The Sower",
+   "artiste": "Jean-François Millet, circa 1850, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "motherly-statue",
+  "nom": {
+   "fr": "Statue maternelle",
+   "en": "Motherly statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureCapitolini.png",
+  "oeuvre": {
+   "titre": "Capitoline Wolf",
+   "artiste": "Artist Unknown, 5th century BCE, Bronze"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureCapitoliniFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "moving-painting",
+  "nom": {
+   "fr": "Toile émouvante",
+   "en": "Moving painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtBirthVenus.png",
+  "oeuvre": {
+   "titre": "The Birth of Venus",
+   "artiste": "Sandro Botticelli, circa 1485, Tempera on canvas"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtBirthVenusFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "mysterious-painting",
+  "nom": {
+   "fr": "Toile ténébreuse",
+   "en": "Mysterious painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtIsleOfDead.png",
+  "oeuvre": {
+   "titre": "Isle of the Dead",
+   "artiste": "Arnold Böcklin, 1883, Oil on wood"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "mystic-statue",
+  "nom": {
+   "fr": "Sculpture mystérieuse",
+   "en": "Mystic statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureNefertiti.png",
+  "oeuvre": {
+   "titre": "Bust of Nefertiti",
+   "artiste": "Thutmose, circa 1345 BCE, Limestone"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureNefertitiFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "nice-painting",
+  "nom": {
+   "fr": "Toile magnifique",
+   "en": "Nice painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtFifePlayer.png",
+  "oeuvre": {
+   "titre": "The Fifer",
+   "artiste": "Édouard Manet, 1866, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "perfect-painting",
+  "nom": {
+   "fr": "Toile parfaite",
+   "en": "Perfect painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtAppleOrange.png",
+  "oeuvre": {
+   "titre": "Apples and Oranges",
+   "artiste": "Paul Cézanne, circa 1899, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "proper-painting",
+  "nom": {
+   "fr": "Toile austère",
+   "en": "Proper painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtBarFB.png",
+  "oeuvre": {
+   "titre": "A Bar at the Folies-Bergère",
+   "artiste": "Édouard Manet, circa 1882, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "quaint-painting",
+  "nom": {
+   "fr": "Toile charmante",
+   "en": "Quaint painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtMilkmaid.png",
+  "oeuvre": {
+   "titre": "The Milkmaid",
+   "artiste": "Johannes Vermeer, circa 1658, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtMilkmaidFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "robust-statue",
+  "nom": {
+   "fr": "Statue athlétique",
+   "en": "Robust statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureDiskobolos.png",
+  "oeuvre": {
+   "titre": "Discobolus",
+   "artiste": "Artist Unknown, 2nd century CE, Marble"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureDiskobolosFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "rock-head-statue",
+  "nom": {
+   "fr": "Sculpture déterminée",
+   "en": "Rock-head statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureOlmecaHead.png",
+  "oeuvre": {
+   "titre": "Olmec Colossal Head",
+   "artiste": "Artist Unknown, circa 1000 BCE, Basalt, andesite"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureOlmecaHeadFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "scary-painting",
+  "nom": {
+   "fr": "Toile effrayante",
+   "en": "Scary painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtOotaniOniji.png",
+  "oeuvre": {
+   "titre": "Ōtani Oniji the 3rd as Yakko Edobei",
+   "artiste": "Tōshūsai Sharaku, 1794, Woodblock print"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtOotaniOnijiFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "scenic-painting",
+  "nom": {
+   "fr": "Toile hivernale",
+   "en": "Scenic painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtHunterSnow.png",
+  "oeuvre": {
+   "titre": "The Hunters in the Snow",
+   "artiste": "Pieter Brueghel the Elder, 1565, Oil on wood panel"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtHunterSnowFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "serene-painting",
+  "nom": {
+   "fr": "Toile royale",
+   "en": "Serene painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtPortraitCecilia.png",
+  "oeuvre": {
+   "titre": "Lady with an Ermine",
+   "artiste": "Leonardo da Vinci, circa 1490, Oil on wood panel"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtPortraitCeciliaFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "sinking-painting",
+  "nom": {
+   "fr": "Toile tragique",
+   "en": "Sinking painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtOphelia.png",
+  "oeuvre": {
+   "titre": "Ophelia",
+   "artiste": "John Everett Millais, 1852, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "solemn-painting",
+  "nom": {
+   "fr": "Toile solennelle",
+   "en": "Solemn painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtLasMeninas.png",
+  "oeuvre": {
+   "titre": "Las Meninas",
+   "artiste": "Diego Velázquez, circa 1656, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtLasMeninasFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "tremendous-statue",
+  "nom": {
+   "fr": "Sculpture singulière",
+   "en": "Tremendous statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureHoumuwuDing.png",
+  "oeuvre": {
+   "titre": "Houmuwu Ding",
+   "artiste": "Artist Unknown, 1200 BCE, Bronze"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureHoumuwuDingFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "twinkling-painting",
+  "nom": {
+   "fr": "Toile scintillante",
+   "en": "Twinkling painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtStarryNight.png",
+  "oeuvre": {
+   "titre": "The Starry Night",
+   "artiste": "Vincent van Gogh, 1889, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "valiant-statue",
+  "nom": {
+   "fr": "Statue héroïque",
+   "en": "Valiant statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureSamothrace.png",
+  "oeuvre": {
+   "titre": "Nike of Samothrace",
+   "artiste": "Artist Unknown, circa 190 BCE, Marble"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureSamothraceFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "warm-painting",
+  "nom": {
+   "fr": "Toile radieuse",
+   "en": "Warm painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtClothedMaja.png",
+  "oeuvre": {
+   "titre": "The Clothed Maja",
+   "artiste": "Francisco de Goya, circa 1805, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "warrior-statue",
+  "nom": {
+   "fr": "Statue guerrière",
+   "en": "Warrior statue"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureHeibayo.png",
+  "oeuvre": {
+   "titre": "Terracotta Army",
+   "artiste": "Artist Unknown, 210 BCE, Earthenware"
+  },
+  "sous": "Statue",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrSculptureHeibayoFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "wild-painting-left-half",
+  "nom": {
+   "fr": "Partie g. de toile sauvage",
+   "en": "Wild painting left half"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtRaijin.png",
+  "oeuvre": {
+   "titre": "Folding Screen of Fūjin and Raijin (L)",
+   "artiste": "Tawaraya Sōtatsu, 17th century, Gold leaf and ink on paper"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtRaijinFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "wild-painting-right-half",
+  "nom": {
+   "fr": "Partie d. de toile sauvage",
+   "en": "Wild painting right half"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtFuujin.png",
+  "oeuvre": {
+   "titre": "Folding Screen of Fūjin and Raijin (R)",
+   "artiste": "Tawaraya Sōtatsu, 17th century, Gold leaf and ink on paper"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtFuujinFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "wistful-painting",
+  "nom": {
+   "fr": "Toile nacrée",
+   "en": "Wistful painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtPearlEarring.png",
+  "oeuvre": {
+   "titre": "Girl with a Pearl Earring",
+   "artiste": "Johannes Vermeer, circa 1665, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": {
+   "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtPearlEarringFake.png"
+  },
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ },
+ {
+  "id": "worthy-painting",
+  "nom": {
+   "fr": "Toile précieuse",
+   "en": "Worthy painting"
+  },
+  "image": "https://nh-cdn.catalogue.ac/FtrIcon/FtrArtLibertyLeading.png",
+  "oeuvre": {
+   "titre": "Liberty Leading the People",
+   "artiste": "Eugène Delacroix, 1830, Oil on canvas"
+  },
+  "sous": "Tableau",
+  "faux": null,
+  "prix": {
+   "achat": 4980,
+   "vente": 1245
+  },
+  "sources": [
+   "Jolly Redd's Treasure Trawler"
+  ],
+  "musee": true
+ }
+]

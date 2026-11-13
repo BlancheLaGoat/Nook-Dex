@@ -1,0 +1,4769 @@
+[
+ {
+  "id": "agrias-butterfly",
+  "nom": {
+   "fr": "Agrias",
+   "en": "Agrias butterfly"
+  },
+  "n": 10,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins6.png",
+  "espece": "agrias-butterfly",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "ant",
+  "nom": {
+   "fr": "Fourmi",
+   "en": "Ant"
+  },
+  "n": 69,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins26.png",
+  "espece": "ant",
+  "lieu": "navets-pourris",
+  "lieu_texte": "Sur les navets pourris ou les bonbons",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 80,
+   "special": {
+    "prix": 120,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "atlas-moth",
+  "nom": {
+   "fr": "Attacus Atlas",
+   "en": "Atlas moth"
+  },
+  "n": 14,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins10.png",
+  "espece": "atlas-moth",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "bagworm",
+  "nom": {
+   "fr": "Psyché",
+   "en": "Bagworm"
+  },
+  "n": 68,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins36.png",
+  "espece": "bagworm",
+  "lieu": "secouer-arbres",
+  "lieu_texte": "En secouant les arbres (feuillus ou cèdres)",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600,
+   "special": {
+    "prix": 900,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "banded-dragonfly",
+  "nom": {
+   "fr": "Cordulégastre",
+   "en": "Banded dragonfly"
+  },
+  "n": 34,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins24.png",
+  "espece": "banded-dragonfly",
+  "lieu": "vol-eau",
+  "lieu_texte": "Vole près de l'eau",
+  "conditions": [
+   "sans-pluie",
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4500,
+   "special": {
+    "prix": 6750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "bell-cricket",
+  "nom": {
+   "fr": "Grillon du Midi",
+   "en": "Bell cricket"
+  },
+  "n": 21,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins31.png",
+  "espece": "bell-cricket",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430,
+   "special": {
+    "prix": 645,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "blue-weevil-beetle",
+  "nom": {
+   "fr": "Charançon bleu",
+   "en": "Blue weevil beetle"
+  },
+  "n": 49,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins80.png",
+  "espece": "blue-weevil-beetle",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "special": {
+    "prix": 1200,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "brown-cicada",
+  "nom": {
+   "fr": "Cigale cercope",
+   "en": "Brown cicada"
+  },
+  "n": 26,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins17.png",
+  "espece": "brown-cicada",
+  "lieu": "arbres-feuillus",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250,
+   "special": {
+    "prix": 375,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "centipede",
+  "nom": {
+   "fr": "Mille-pattes",
+   "en": "Centipede"
+  },
+  "n": 77,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins60.png",
+  "espece": "centipede",
+  "lieu": "rochers",
+  "lieu_texte": "En frappant les rochers",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       23
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       16,
+       23
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "cicada-shell",
+  "nom": {
+   "fr": "Mue de cigale",
+   "en": "Cicada shell"
+  },
+  "n": 31,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins69.png",
+  "espece": "cicada-shell",
+  "lieu": "arbres-feuillus",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10,
+   "special": {
+    "prix": 15,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "citrus-long-horned-beetle",
+  "nom": {
+   "fr": "Capricorne des agrumes",
+   "en": "Citrus long-horned beetle"
+  },
+  "n": 47,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins39.png",
+  "espece": "citrus-long-horned-beetle",
+  "lieu": "souches",
+  "lieu_texte": "Sur les souches",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 350,
+   "special": {
+    "prix": 525,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "common-bluebottle",
+  "nom": {
+   "fr": "Graphium sarpedon",
+   "en": "Common bluebottle"
+  },
+  "n": 5,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins72.png",
+  "espece": "common-bluebottle",
+  "lieu": "vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "common-butterfly",
+  "nom": {
+   "fr": "Piéride de la rave",
+   "en": "Common butterfly"
+  },
+  "n": 1,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins0.png",
+  "espece": "common-butterfly",
+  "lieu": "vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160,
+   "special": {
+    "prix": 240,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "cricket",
+  "nom": {
+   "fr": "Grillon des prés",
+   "en": "Cricket"
+  },
+  "n": 20,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins30.png",
+  "espece": "cricket",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130,
+   "special": {
+    "prix": 195,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "cyclommatus-stag",
+  "nom": {
+   "fr": "Lucane cyclommatus",
+   "en": "Cyclommatus stag"
+  },
+  "n": 59,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins49.png",
+  "espece": "cyclommatus-stag",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000,
+   "special": {
+    "prix": 12000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "damselfly",
+  "nom": {
+   "fr": "Demoiselle",
+   "en": "Damselfly"
+  },
+  "n": 35,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins81.png",
+  "espece": "damselfly",
+  "lieu": "vol-eau",
+  "lieu_texte": "Vole près de l'eau",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500,
+   "special": {
+    "prix": 750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "darner-dragonfly",
+  "nom": {
+   "fr": "Anax napolitain",
+   "en": "Darner dragonfly"
+  },
+  "n": 33,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins23.png",
+  "espece": "darner-dragonfly",
+  "lieu": "vol-eau",
+  "lieu_texte": "Vole près de l'eau",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 230,
+   "special": {
+    "prix": 345,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "diving-beetle",
+  "nom": {
+   "fr": "Dytique",
+   "en": "Diving beetle"
+  },
+  "n": 39,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins28.png",
+  "espece": "diving-beetle",
+  "lieu": "eau",
+  "lieu_texte": "Sur les rivières et les étangs",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 800,
+   "special": {
+    "prix": 1200,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "drone-beetle",
+  "nom": {
+   "fr": "Pseudotorynorrhina",
+   "en": "Drone beetle"
+  },
+  "n": 53,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins75.png",
+  "espece": "drone-beetle",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "dung-beetle",
+  "nom": {
+   "fr": "Bousier",
+   "en": "Dung beetle"
+  },
+  "n": 50,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins40.png",
+  "espece": "dung-beetle",
+  "lieu": "neige",
+  "lieu_texte": "En poussant les boules de neige",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "earth-boring-dung-beetle",
+  "nom": {
+   "fr": "Geotrupidae",
+   "en": "Earth-boring dung beetle"
+  },
+  "n": 51,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins42.png",
+  "espece": "earth-boring-dung-beetle",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "emperor-butterfly",
+  "nom": {
+   "fr": "Morpho bleu",
+   "en": "Emperor butterfly"
+  },
+  "n": 9,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins5.png",
+  "espece": "emperor-butterfly",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000,
+   "special": {
+    "prix": 6000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "evening-cicada",
+  "nom": {
+   "fr": "Cigale higurashi",
+   "en": "Evening cicada"
+  },
+  "n": 30,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins20.png",
+  "espece": "evening-cicada",
+  "lieu": "arbres-feuillus",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       16,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       16,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 550,
+   "special": {
+    "prix": 825,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "firefly",
+  "nom": {
+   "fr": "Luciole",
+   "en": "Firefly"
+  },
+  "n": 36,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins41.png",
+  "espece": "firefly",
+  "lieu": "vol-eau",
+  "lieu_texte": "Vole près de l'eau",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      12
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "flea",
+  "nom": {
+   "fr": "Puce",
+   "en": "Flea"
+  },
+  "n": 74,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins56.png",
+  "espece": "flea",
+  "lieu": "habitants",
+  "lieu_texte": "Sur les habitants",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 70,
+   "special": {
+    "prix": 105,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "fly",
+  "nom": {
+   "fr": "Mouche",
+   "en": "Fly"
+  },
+  "n": 72,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins59.png",
+  "espece": "fly",
+  "lieu": "dechets",
+  "lieu_texte": "Vole près des déchets (bottes, pneus, canettes, feux d'artifice usagés) ou des navets pourris",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 60,
+   "special": {
+    "prix": 90,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "giant-cicada",
+  "nom": {
+   "fr": "Cigale géante",
+   "en": "Giant cicada"
+  },
+  "n": 28,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins65.png",
+  "espece": "giant-cicada",
+  "lieu": "arbres-feuillus",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500,
+   "special": {
+    "prix": 750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "giant-stag",
+  "nom": {
+   "fr": "Lucane cerf-volant",
+   "en": "Giant stag"
+  },
+  "n": 57,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins47.png",
+  "espece": "giant-stag",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "special": {
+    "prix": 15000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "giant-water-bug",
+  "nom": {
+   "fr": "Punaise d'eau géante",
+   "en": "Giant water bug"
+  },
+  "n": 40,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins76.png",
+  "espece": "giant-water-bug",
+  "lieu": "eau",
+  "lieu_texte": "Sur les rivières et les étangs",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000,
+   "special": {
+    "prix": 3000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "giraffe-stag",
+  "nom": {
+   "fr": "Lucane girafe",
+   "en": "Giraffe stag"
+  },
+  "n": 61,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins77.png",
+  "espece": "giraffe-stag",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000,
+   "special": {
+    "prix": 18000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "golden-stag",
+  "nom": {
+   "fr": "Lucane lamprima",
+   "en": "Golden stag"
+  },
+  "n": 60,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins50.png",
+  "espece": "golden-stag",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000,
+   "special": {
+    "prix": 18000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "goliath-beetle",
+  "nom": {
+   "fr": "Scarabée Goliath",
+   "en": "Goliath beetle"
+  },
+  "n": 54,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins55.png",
+  "espece": "goliath-beetle",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000,
+   "special": {
+    "prix": 12000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "grasshopper",
+  "nom": {
+   "fr": "Sauterelle",
+   "en": "Grasshopper"
+  },
+  "n": 19,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins32.png",
+  "espece": "grasshopper",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160,
+   "special": {
+    "prix": 240,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "great-purple-emperor",
+  "nom": {
+   "fr": "Sasakia charonda",
+   "en": "Great purple emperor"
+  },
+  "n": 7,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins74.png",
+  "espece": "great-purple-emperor",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie",
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "hermit-crab",
+  "nom": {
+   "fr": "Bernard-l'ermite",
+   "en": "Hermit crab"
+  },
+  "n": 70,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins66.png",
+  "espece": "hermit-crab",
+  "lieu": "plage",
+  "lieu_texte": "Déguisé sur le rivage",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "honeybee",
+  "nom": {
+   "fr": "Abeille naine",
+   "en": "Honeybee"
+  },
+  "n": 24,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins11.png",
+  "espece": "honeybee",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "horned-atlas",
+  "nom": {
+   "fr": "Scarabée Atlas",
+   "en": "Horned atlas"
+  },
+  "n": 63,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins52.png",
+  "espece": "horned-atlas",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000,
+   "special": {
+    "prix": 12000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "horned-dynastid",
+  "nom": {
+   "fr": "Scarabée kabuto",
+   "en": "Horned dynastid"
+  },
+  "n": 62,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins51.png",
+  "espece": "horned-dynastid",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1350,
+   "special": {
+    "prix": 2025,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "horned-elephant",
+  "nom": {
+   "fr": "Scarabée éléphant",
+   "en": "Horned elephant"
+  },
+  "n": 64,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins53.png",
+  "espece": "horned-elephant",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000,
+   "special": {
+    "prix": 12000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "horned-hercules",
+  "nom": {
+   "fr": "Scarabée Hercule",
+   "en": "Horned hercules"
+  },
+  "n": 65,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins54.png",
+  "espece": "horned-hercules",
+  "lieu": "cocotiers",
+  "lieu_texte": "Sur les cocotiers",
+  "conditions": [
+   "apres-100-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       17,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 12000,
+   "special": {
+    "prix": 18000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "jewel-beetle",
+  "nom": {
+   "fr": "Bupreste",
+   "en": "Jewel beetle"
+  },
+  "n": 45,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins44.png",
+  "espece": "jewel-beetle",
+  "lieu": "souches",
+  "lieu_texte": "Sur les souches",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2400,
+   "special": {
+    "prix": 3600,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "ladybug",
+  "nom": {
+   "fr": "Coccinelle",
+   "en": "Ladybug"
+  },
+  "n": 43,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins37.png",
+  "espece": "ladybug",
+  "lieu": "fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      4,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "long-locust",
+  "nom": {
+   "fr": "Acrida cinerea",
+   "en": "Long locust"
+  },
+  "n": 16,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins13.png",
+  "espece": "long-locust",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "madagascan-sunset-moth",
+  "nom": {
+   "fr": "Chrysiridia rhipheus",
+   "en": "Madagascan sunset moth"
+  },
+  "n": 15,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins79.png",
+  "espece": "madagascan-sunset-moth",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500,
+   "special": {
+    "prix": 3750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "man-faced-stink-bug",
+  "nom": {
+   "fr": "Catacanthus",
+   "en": "Man-faced stink bug"
+  },
+  "n": 42,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins78.png",
+  "espece": "man-faced-stink-bug",
+  "lieu": "fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "mantis",
+  "nom": {
+   "fr": "Mante religieuse",
+   "en": "Mantis"
+  },
+  "n": 22,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins15.png",
+  "espece": "mantis",
+  "lieu": "fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 430,
+   "special": {
+    "prix": 645,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "migratory-locust",
+  "nom": {
+   "fr": "Criquet pèlerin",
+   "en": "Migratory locust"
+  },
+  "n": 17,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins14.png",
+  "espece": "migratory-locust",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600,
+   "special": {
+    "prix": 900,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "miyama-stag",
+  "nom": {
+   "fr": "Lucane miyama",
+   "en": "Miyama stag"
+  },
+  "n": 56,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins45.png",
+  "espece": "miyama-stag",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "mole-cricket",
+  "nom": {
+   "fr": "Taupe-grillon",
+   "en": "Mole cricket"
+  },
+  "n": 37,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins33.png",
+  "espece": "mole-cricket",
+  "lieu": "sous-terre",
+  "lieu_texte": "Sous terre (creuser là où le bruit est le plus fort)",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 500,
+   "special": {
+    "prix": 750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "monarch-butterfly",
+  "nom": {
+   "fr": "Monarque",
+   "en": "Monarch butterfly"
+  },
+  "n": 8,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins4.png",
+  "espece": "monarch-butterfly",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       4,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 140,
+   "special": {
+    "prix": 210,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "mosquito",
+  "nom": {
+   "fr": "Moustique",
+   "en": "Mosquito"
+  },
+  "n": 73,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins58.png",
+  "espece": "mosquito",
+  "lieu": "vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       17,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       17,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130,
+   "special": {
+    "prix": 195,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "moth",
+  "nom": {
+   "fr": "Papillon de nuit",
+   "en": "Moth"
+  },
+  "n": 13,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins9.png",
+  "espece": "moth",
+  "lieu": "lumiere",
+  "lieu_texte": "Vole près des sources de lumière",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130,
+   "special": {
+    "prix": 195,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "orchid-mantis",
+  "nom": {
+   "fr": "Mante orchidée",
+   "en": "Orchid mantis"
+  },
+  "n": 23,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins16.png",
+  "espece": "orchid-mantis",
+  "lieu": "fleurs",
+  "lieu_texte": "Sur les fleurs blanches",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2400,
+   "special": {
+    "prix": 3600,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "paper-kite-butterfly",
+  "nom": {
+   "fr": "Grand planeur",
+   "en": "Paper kite butterfly"
+  },
+  "n": 6,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins73.png",
+  "espece": "paper-kite-butterfly",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1000,
+   "special": {
+    "prix": 1500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "peacock-butterfly",
+  "nom": {
+   "fr": "Papilio bianor",
+   "en": "Peacock butterfly"
+  },
+  "n": 4,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins3.png",
+  "espece": "peacock-butterfly",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs bleues, violettes ou noires",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500,
+   "special": {
+    "prix": 3750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "pill-bug",
+  "nom": {
+   "fr": "Cloporte",
+   "en": "Pill bug"
+  },
+  "n": 76,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins57.png",
+  "espece": "pill-bug",
+  "lieu": "rochers",
+  "lieu_texte": "En frappant les rochers",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       23,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       23,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250,
+   "special": {
+    "prix": 375,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "pondskater",
+  "nom": {
+   "fr": "Patineur",
+   "en": "Pondskater"
+  },
+  "n": 38,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins27.png",
+  "espece": "pondskater",
+  "lieu": "eau",
+  "lieu_texte": "Sur les rivières et les étangs",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 130,
+   "special": {
+    "prix": 195,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "queen-alexandras-birdwing",
+  "nom": {
+   "fr": "Troides alexandrae",
+   "en": "Queen Alexandra's birdwing"
+  },
+  "n": 12,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins8.png",
+  "espece": "queen-alexandras-birdwing",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie",
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 4000,
+   "special": {
+    "prix": 6000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "rainbow-stag",
+  "nom": {
+   "fr": "Lucane copris irisé",
+   "en": "Rainbow stag"
+  },
+  "n": 58,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins48.png",
+  "espece": "rainbow-stag",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 6000,
+   "special": {
+    "prix": 9000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "rajah-brookes-birdwing",
+  "nom": {
+   "fr": "Troides brookiana",
+   "en": "Rajah Brooke's birdwing"
+  },
+  "n": 11,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins7.png",
+  "espece": "rajah-brookes-birdwing",
+  "lieu": "vol-fleurs",
+  "lieu_texte": "Vole près des fleurs",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500,
+   "special": {
+    "prix": 3750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "red-dragonfly",
+  "nom": {
+   "fr": "Sympetrum",
+   "en": "Red dragonfly"
+  },
+  "n": 32,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins22.png",
+  "espece": "red-dragonfly",
+  "lieu": "vol-eau",
+  "lieu_texte": "Vole près de l'eau",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      9,
+      10
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 180,
+   "special": {
+    "prix": 270,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "rice-grasshopper",
+  "nom": {
+   "fr": "Criquet",
+   "en": "Rice grasshopper"
+  },
+  "n": 18,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins67.png",
+  "espece": "rice-grasshopper",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       8,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "special": {
+    "prix": 600,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "robust-cicada",
+  "nom": {
+   "fr": "Cigale hyalessa",
+   "en": "Robust cicada"
+  },
+  "n": 27,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins18.png",
+  "espece": "robust-cicada",
+  "lieu": "arbres-feuillus",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 300,
+   "special": {
+    "prix": 450,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "rosalia-batesi-beetle",
+  "nom": {
+   "fr": "Rosalia batesi",
+   "en": "Rosalia batesi beetle"
+  },
+  "n": 48,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins82.png",
+  "espece": "rosalia-batesi-beetle",
+  "lieu": "souches",
+  "lieu_texte": "Sur les souches",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 3000,
+   "special": {
+    "prix": 4500,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "saw-stag",
+  "nom": {
+   "fr": "Lucane inclinatus",
+   "en": "Saw stag"
+  },
+  "n": 55,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins46.png",
+  "espece": "saw-stag",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2000,
+   "special": {
+    "prix": 3000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "scarab-beetle",
+  "nom": {
+   "fr": "Scarabée",
+   "en": "Scarab beetle"
+  },
+  "n": 52,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins43.png",
+  "espece": "scarab-beetle",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "conditions": [
+   "apres-50-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2
+     ],
+     "heures": [
+      [
+       23,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 10000,
+   "special": {
+    "prix": 15000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "scorpion",
+  "nom": {
+   "fr": "Scorpion",
+   "en": "Scorpion"
+  },
+  "n": 80,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins63.png",
+  "espece": "scorpion",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000,
+   "special": {
+    "prix": 12000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "snail",
+  "nom": {
+   "fr": "Escargot",
+   "en": "Snail"
+  },
+  "n": 75,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins29.png",
+  "espece": "snail",
+  "lieu": "rochers",
+  "lieu_texte": "Sur les rochers et les buissons",
+  "conditions": [
+   "pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 250,
+   "special": {
+    "prix": 375,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "spider",
+  "nom": {
+   "fr": "Araignée",
+   "en": "Spider"
+  },
+  "n": 78,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins61.png",
+  "espece": "spider",
+  "lieu": "secouer-arbres",
+  "lieu_texte": "En secouant les arbres (feuillus ou cèdres)",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       8
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600,
+   "special": {
+    "prix": 900,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "stinkbug",
+  "nom": {
+   "fr": "Punaise",
+   "en": "Stinkbug"
+  },
+  "n": 41,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins64.png",
+  "espece": "stinkbug",
+  "lieu": "fleurs",
+  "lieu_texte": "Sur les fleurs",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 120,
+   "special": {
+    "prix": 180,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "tarantula",
+  "nom": {
+   "fr": "Tarentule",
+   "en": "Tarantula"
+  },
+  "n": 79,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins62.png",
+  "espece": "tarantula",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       19,
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 8000,
+   "special": {
+    "prix": 12000,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "tiger-beetle",
+  "nom": {
+   "fr": "Cicindèle",
+   "en": "Tiger beetle"
+  },
+  "n": 44,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins70.png",
+  "espece": "tiger-beetle",
+  "lieu": "sol",
+  "lieu_texte": "Au sol",
+  "conditions": [
+   "sans-pluie",
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 1500,
+   "special": {
+    "prix": 2250,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "tiger-butterfly",
+  "nom": {
+   "fr": "Machaon",
+   "en": "Tiger butterfly"
+  },
+  "n": 3,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins2.png",
+  "espece": "tiger-butterfly",
+  "lieu": "vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 240,
+   "special": {
+    "prix": 360,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "violin-beetle",
+  "nom": {
+   "fr": "Mormolyce",
+   "en": "Violin beetle"
+  },
+  "n": 46,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins38.png",
+  "espece": "violin-beetle",
+  "lieu": "souches",
+  "lieu_texte": "Sur les souches",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      5,
+      6,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 450,
+   "special": {
+    "prix": 675,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "walker-cicada",
+  "nom": {
+   "fr": "Cigale cicadelle",
+   "en": "Walker cicada"
+  },
+  "n": 29,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins19.png",
+  "espece": "walker-cicada",
+  "lieu": "arbres-feuillus",
+  "lieu_texte": "Sur les feuillus et les cèdres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      8,
+      9
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      2,
+      3
+     ],
+     "heures": [
+      [
+       8,
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 400,
+   "special": {
+    "prix": 600,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "walking-leaf",
+  "nom": {
+   "fr": "Phyllie",
+   "en": "Walking leaf"
+  },
+  "n": 67,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins34.png",
+  "espece": "walking-leaf",
+  "lieu": "sous-arbres",
+  "lieu_texte": "Déguisé sous les arbres",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8,
+      9
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600,
+   "special": {
+    "prix": 900,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "walking-stick",
+  "nom": {
+   "fr": "Phasme",
+   "en": "Walking stick"
+  },
+  "n": 66,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins35.png",
+  "espece": "walking-stick",
+  "lieu": "arbres",
+  "lieu_texte": "Sur les arbres",
+  "conditions": [
+   "apres-20-prises"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       17,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "heures": [
+      [
+       4,
+       8
+      ],
+      [
+       17,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 600,
+   "special": {
+    "prix": 900,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "wasp",
+  "nom": {
+   "fr": "Guêpe",
+   "en": "Wasp"
+  },
+  "n": 25,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins12.png",
+  "espece": "wasp",
+  "lieu": "secouer-arbres",
+  "lieu_texte": "En secouant les arbres",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 2500,
+   "special": {
+    "prix": 3750,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "wharf-roach",
+  "nom": {
+   "fr": "Ligie",
+   "en": "Wharf roach"
+  },
+  "n": 71,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins71.png",
+  "espece": "wharf-roach",
+  "lieu": "plage",
+  "lieu_texte": "Sur les rochers de la plage",
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       0,
+       24
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 200,
+   "special": {
+    "prix": 300,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ },
+ {
+  "id": "yellow-butterfly",
+  "nom": {
+   "fr": "Citrin",
+   "en": "Yellow butterfly"
+  },
+  "n": 2,
+  "image": "https://nh-cdn.catalogue.ac/MenuIcon/Ins1.png",
+  "espece": "yellow-butterfly",
+  "lieu": "vol",
+  "lieu_texte": "En vol",
+  "conditions": [
+   "sans-pluie"
+  ],
+  "dispo": {
+   "nord": [
+    {
+     "mois": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ],
+   "sud": [
+    {
+     "mois": [
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+     ],
+     "heures": [
+      [
+       4,
+       19
+      ]
+     ]
+    }
+   ]
+  },
+  "prix": {
+   "vente": 160,
+   "special": {
+    "prix": 240,
+    "acheteur": "Pollux"
+   }
+  },
+  "musee": true
+ }
+]

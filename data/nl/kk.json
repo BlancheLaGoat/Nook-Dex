@@ -1,0 +1,1130 @@
+[
+ {
+  "id": "agent-kk",
+  "nom": {
+   "fr": "Agent Kéké",
+   "en": "Agent K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/d/dd/Agent_K.K._NL_Model.png/128px-Agent_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "aloha-kk",
+  "nom": {
+   "fr": "Ukulélé Kéké",
+   "en": "Aloha K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8b/Aloha_K.K._NL_Model.png/128px-Aloha_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "animal-city",
+  "nom": {
+   "fr": "Animal City",
+   "en": "Animal City"
+  },
+  "image": "https://dodo.ac/np/images/1/1f/Animal_City_NH_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  }
+ },
+ {
+  "id": "bubblegum-kk",
+  "nom": {
+   "fr": "Bubblegum Kéké",
+   "en": "Bubblegum K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/1/18/Bubblegum_K.K._NL_Model.png/128px-Bubblegum_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "cafe-kk",
+  "nom": {
+   "fr": "Kéké café",
+   "en": "Café K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/6/60/Caf%C3%A9_K.K._NL_Model.png/128px-Caf%C3%A9_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "comrade-kk",
+  "nom": {
+   "fr": "Tovaritch Kéké",
+   "en": "Comrade K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/9/9a/Comrade_K.K._NL_Model.png/128px-Comrade_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "dj-kk",
+  "nom": {
+   "fr": "DJ Kéké",
+   "en": "DJ K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/1/17/DJ_K.K._NL_Model.png/128px-DJ_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "drivin",
+  "nom": {
+   "fr": "Drivin'",
+   "en": "Drivin'"
+  },
+  "image": "https://dodo.ac/np/images/1/1f/Drivin%27_NH_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  }
+ },
+ {
+  "id": "farewell",
+  "nom": {
+   "fr": "Farewell",
+   "en": "Farewell"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Farewell_NH_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  }
+ },
+ {
+  "id": "forest-life",
+  "nom": {
+   "fr": "Vie de forêt",
+   "en": "Forest Life"
+  },
+  "image": "https://dodo.ac/np/images/thumb/c/c7/Forest_Life_NL_Model.png/128px-Forest_Life_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "go-kk-rider",
+  "nom": {
+   "fr": "Kéké route 66",
+   "en": "Go K.K. Rider"
+  },
+  "image": "https://dodo.ac/np/images/thumb/b/be/Go_K.K._Rider_NL_Model.png/128px-Go_K.K._Rider_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "hypno-kk",
+  "nom": {
+   "fr": "Psykéké",
+   "en": "Hypno K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/2/26/Hypno_K.K._NL_Model.png/128px-Hypno_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "imperial-kk",
+  "nom": {
+   "fr": "Kéké l'Empereur",
+   "en": "Imperial K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/a/a7/Imperial_K.K._NL_Model.png/128px-Imperial_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "i-love-you",
+  "nom": {
+   "fr": "Je vous aime",
+   "en": "I Love You"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/55/I_Love_You_NL_Model.png/128px-I_Love_You_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-etude",
+  "nom": {
+   "fr": "Étude de Kéké",
+   "en": "K.K. Étude"
+  },
+  "image": "https://dodo.ac/np/images/thumb/2/2a/K.K._%C3%89tude_NL_Model.png/128px-K.K._%C3%89tude_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-adventure",
+  "nom": {
+   "fr": "Kéké star",
+   "en": "K.K. Adventure"
+  },
+  "image": "https://dodo.ac/np/images/thumb/6/65/K.K._Adventure_NL_Model.png/128px-K.K._Adventure_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-aria",
+  "nom": {
+   "fr": "Aria de Kéké",
+   "en": "K.K. Aria"
+  },
+  "image": "https://dodo.ac/np/images/thumb/d/d2/K.K._Aria_NL_Model.png/128px-K.K._Aria_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-ballad",
+  "nom": {
+   "fr": "Ballade de Kéké",
+   "en": "K.K. Ballad"
+  },
+  "image": "https://dodo.ac/np/images/thumb/7/7a/K.K._Ballad_NL_Model.png/128px-K.K._Ballad_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-bazaar",
+  "nom": {
+   "fr": "Kéké bohême",
+   "en": "K.K. Bazaar"
+  },
+  "image": "https://dodo.ac/np/images/thumb/c/cf/K.K._Bazaar_NL_Model.png/128px-K.K._Bazaar_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-birthday",
+  "nom": {
+   "fr": "Anniversaire Kéké",
+   "en": "K.K. Birthday"
+  },
+  "image": "https://dodo.ac/np/images/thumb/9/92/K.K._Birthday_NL_Model.png/128px-K.K._Birthday_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-blues",
+  "nom": {
+   "fr": "Kéké blues",
+   "en": "K.K. Blues"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/5f/K.K._Blues_NL_Model.png/128px-K.K._Blues_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-bossa",
+  "nom": {
+   "fr": "Bossa de Kéké",
+   "en": "K.K. Bossa"
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8d/K.K._Bossa_NL_Model.png/128px-K.K._Bossa_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-calypso",
+  "nom": {
+   "fr": "Calypso de Kéké",
+   "en": "K.K. Calypso"
+  },
+  "image": "https://dodo.ac/np/images/thumb/4/45/K.K._Calypso_NL_Model.png/128px-K.K._Calypso_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-casbah",
+  "nom": {
+   "fr": "Cheb Kéké",
+   "en": "K.K. Casbah"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/5c/K.K._Casbah_NL_Model.png/128px-K.K._Casbah_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-chorale",
+  "nom": {
+   "fr": "Chorale de Kéké",
+   "en": "K.K. Chorale"
+  },
+  "image": "https://dodo.ac/np/images/thumb/2/27/K.K._Chorale_NL_Model.png/128px-K.K._Chorale_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-condor",
+  "nom": {
+   "fr": "El Condor Kéké",
+   "en": "K.K. Condor"
+  },
+  "image": "https://dodo.ac/np/images/thumb/e/e8/K.K._Condor_NL_Model.png/128px-K.K._Condor_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-country",
+  "nom": {
+   "fr": "Country Kéké",
+   "en": "K.K. Country"
+  },
+  "image": "https://dodo.ac/np/images/thumb/b/b7/K.K._Country_NL_Model.png/128px-K.K._Country_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-cruisin",
+  "nom": {
+   "fr": "Kéké R&B",
+   "en": "K.K. Cruisin'"
+  },
+  "image": "https://dodo.ac/np/images/thumb/a/aa/K.K._Cruisin%27_NL_Model.png/128px-K.K._Cruisin%27_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-d-and-b",
+  "nom": {
+   "fr": "Drum & bass Kéké",
+   "en": "K.K. D&B"
+  },
+  "image": "https://dodo.ac/np/images/thumb/c/ca/K.K._D%26B_NL_Model.png/128px-K.K._D%26B_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-dirge",
+  "nom": {
+   "fr": "Requiem de Kéké",
+   "en": "K.K. Dirge"
+  },
+  "image": "https://dodo.ac/np/images/thumb/b/b7/K.K._Dirge_NL_Model.png/128px-K.K._Dirge_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-disco",
+  "nom": {
+   "fr": "Disco Kéké",
+   "en": "K.K. Disco"
+  },
+  "image": "https://dodo.ac/np/images/thumb/7/71/K.K._Disco_NL_Model.png/128px-K.K._Disco_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-dixie",
+  "nom": {
+   "fr": "Kéké Dixie",
+   "en": "K.K. Dixie"
+  },
+  "image": "https://dodo.ac/np/images/thumb/a/af/K.K._Dixie_NL_Model.png/128px-K.K._Dixie_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-faire",
+  "nom": {
+   "fr": "Virelai Kéké",
+   "en": "K.K. Faire"
+  },
+  "image": "https://dodo.ac/np/images/thumb/3/3b/K.K._Faire_NL_Model.png/128px-K.K._Faire_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-flamenco",
+  "nom": {
+   "fr": "Flamenco Kéké",
+   "en": "K.K. Flamenco"
+  },
+  "image": "https://dodo.ac/np/images/thumb/3/39/K.K._Flamenco_NL_Model.png/128px-K.K._Flamenco_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-folk",
+  "nom": {
+   "fr": "Folk Kéké",
+   "en": "K.K. Folk"
+  },
+  "image": "https://dodo.ac/np/images/thumb/a/ac/K.K._Folk_NL_Model.png/128px-K.K._Folk_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-fusion",
+  "nom": {
+   "fr": "Fusion Kéké",
+   "en": "K.K. Fusion"
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8e/K.K._Fusion_NL_Model.png/128px-K.K._Fusion_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-groove",
+  "nom": {
+   "fr": "Groove Kéké",
+   "en": "K.K. Groove"
+  },
+  "image": "https://dodo.ac/np/images/thumb/e/e6/K.K._Groove_NL_Model.png/128px-K.K._Groove_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-gumbo",
+  "nom": {
+   "fr": "Gumbo Kéké",
+   "en": "K.K. Gumbo"
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8b/K.K._Gumbo_NL_Model.png/128px-K.K._Gumbo_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-house",
+  "nom": {
+   "fr": "Kéké House",
+   "en": "K.K. House"
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8c/K.K._House_NL_Model.png/128px-K.K._House_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-island",
+  "nom": {
+   "fr": "Mi hogar",
+   "en": "K.K. Island"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/51/K.K._Island_NL_Model.png/128px-K.K._Island_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-jazz",
+  "nom": {
+   "fr": "Jazz de Kéké",
+   "en": "K.K. Jazz"
+  },
+  "image": "https://dodo.ac/np/images/thumb/0/0f/K.K._Jazz_NL_Model.png/128px-K.K._Jazz_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-jongara",
+  "nom": {
+   "fr": "Shamisen Kéké",
+   "en": "K.K. Jongara"
+  },
+  "image": "https://dodo.ac/np/images/thumb/2/2a/K.K._Jongara_NL_Model.png/128px-K.K._Jongara_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-lament",
+  "nom": {
+   "fr": "Complainte Kéké",
+   "en": "K.K. Lament"
+  },
+  "image": "https://dodo.ac/np/images/thumb/7/7f/K.K._Lament_NL_Model.png/128px-K.K._Lament_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-love-song",
+  "nom": {
+   "fr": "Romance Kéké",
+   "en": "K.K. Love Song"
+  },
+  "image": "https://dodo.ac/np/images/thumb/d/d0/K.K._Love_Song_NL_Model.png/128px-K.K._Love_Song_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-lullaby",
+  "nom": {
+   "fr": "Berceuse de Kéké",
+   "en": "K.K. Lullaby"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/53/K.K._Lullaby_NL_Model.png/128px-K.K._Lullaby_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-mambo",
+  "nom": {
+   "fr": "Mambo de Kéké",
+   "en": "K.K. Mambo"
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8f/K.K._Mambo_NL_Model.png/128px-K.K._Mambo_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-marathon",
+  "nom": {
+   "fr": "Kéké marathon",
+   "en": "K.K. Marathon"
+  },
+  "image": "https://dodo.ac/np/images/thumb/0/0d/K.K._Marathon_NL_Model.png/128px-K.K._Marathon_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-march",
+  "nom": {
+   "fr": "Marche de Kéké",
+   "en": "K.K. March"
+  },
+  "image": "https://dodo.ac/np/images/thumb/1/1b/K.K._March_NL_Model.png/128px-K.K._March_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-mariachi",
+  "nom": {
+   "fr": "K.K. Mariachi",
+   "en": "K.K. Mariachi"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/K.K._Mariachi_NH_Texture.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  }
+ },
+ {
+  "id": "kk-metal",
+  "nom": {
+   "fr": "Kéké metal",
+   "en": "K.K. Metal"
+  },
+  "image": "https://dodo.ac/np/images/thumb/a/a4/K.K._Metal_NL_Model.png/128px-K.K._Metal_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-milonga",
+  "nom": {
+   "fr": "Milonga Kéké",
+   "en": "K.K. Milonga"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/59/K.K._Milonga_NL_Model.png/128px-K.K._Milonga_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-moody",
+  "nom": {
+   "fr": "Slow Kéké",
+   "en": "K.K. Moody"
+  },
+  "image": "https://dodo.ac/np/images/thumb/f/fd/K.K._Moody_NL_Model.png/128px-K.K._Moody_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-oasis",
+  "nom": {
+   "fr": "Maharadjah Kéké",
+   "en": "K.K. Oasis"
+  },
+  "image": "https://dodo.ac/np/images/thumb/c/cb/K.K._Oasis_NL_Model.png/128px-K.K._Oasis_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-parade",
+  "nom": {
+   "fr": "Kéké académie",
+   "en": "K.K. Parade"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/5d/K.K._Parade_NL_Model.png/128px-K.K._Parade_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-ragtime",
+  "nom": {
+   "fr": "Ragtime Kéké",
+   "en": "K.K. Ragtime"
+  },
+  "image": "https://dodo.ac/np/images/thumb/9/98/K.K._Ragtime_NL_Model.png/128px-K.K._Ragtime_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-rally",
+  "nom": {
+   "fr": "Parade Kéké",
+   "en": "K.K. Rally"
+  },
+  "image": "https://dodo.ac/np/images/thumb/d/d9/K.K._Rally_NL_Model.png/128px-K.K._Rally_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-reggae",
+  "nom": {
+   "fr": "Reggae de Kéké",
+   "en": "K.K. Reggae"
+  },
+  "image": "https://dodo.ac/np/images/thumb/1/1f/K.K._Reggae_NL_Model.png/128px-K.K._Reggae_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-rock",
+  "nom": {
+   "fr": "Rock Kéké",
+   "en": "K.K. Rock"
+  },
+  "image": "https://dodo.ac/np/images/thumb/e/e1/K.K._Rock_NL_Model.png/128px-K.K._Rock_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-rockabilly",
+  "nom": {
+   "fr": "Rockabilly Kéké",
+   "en": "K.K. Rockabilly"
+  },
+  "image": "https://dodo.ac/np/images/thumb/e/e5/K.K._Rockabilly_NL_Model.png/128px-K.K._Rockabilly_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-safari",
+  "nom": {
+   "fr": "Ali Farka Kéké",
+   "en": "K.K. Safari"
+  },
+  "image": "https://dodo.ac/np/images/thumb/1/15/K.K._Safari_NL_Model.png/128px-K.K._Safari_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-salsa",
+  "nom": {
+   "fr": "Salsa de Kéké",
+   "en": "K.K. Salsa"
+  },
+  "image": "https://dodo.ac/np/images/thumb/f/f3/K.K._Salsa_NL_Model.png/128px-K.K._Salsa_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-samba",
+  "nom": {
+   "fr": "Samba de Kéké",
+   "en": "K.K. Samba"
+  },
+  "image": "https://dodo.ac/np/images/thumb/a/a4/K.K._Samba_NL_Model.png/128px-K.K._Samba_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-ska",
+  "nom": {
+   "fr": "Ska Kéké",
+   "en": "K.K. Ska"
+  },
+  "image": "https://dodo.ac/np/images/thumb/b/bf/K.K._Ska_NL_Model.png/128px-K.K._Ska_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-sonata",
+  "nom": {
+   "fr": "Sonate Kéké",
+   "en": "K.K. Sonata"
+  },
+  "image": "https://dodo.ac/np/images/thumb/7/7f/K.K._Sonata_NL_Model.png/128px-K.K._Sonata_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-song",
+  "nom": {
+   "fr": "Rengaine de Kéké",
+   "en": "K.K. Song"
+  },
+  "image": "https://dodo.ac/np/images/thumb/c/cc/K.K._Song_NL_Model.png/128px-K.K._Song_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-soul",
+  "nom": {
+   "fr": "Soul de Kéké",
+   "en": "K.K. Soul"
+  },
+  "image": "https://dodo.ac/np/images/thumb/9/91/K.K._Soul_NL_Model.png/128px-K.K._Soul_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-steppe",
+  "nom": {
+   "fr": "Kéké balalaïka",
+   "en": "K.K. Steppe"
+  },
+  "image": "https://dodo.ac/np/images/thumb/0/08/K.K._Steppe_NL_Model.png/128px-K.K._Steppe_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-stroll",
+  "nom": {
+   "fr": "Flânerie Kéké",
+   "en": "K.K. Stroll"
+  },
+  "image": "https://dodo.ac/np/images/thumb/6/60/K.K._Stroll_NL_Model.png/128px-K.K._Stroll_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-swing",
+  "nom": {
+   "fr": "Swing de Kéké",
+   "en": "K.K. Swing"
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8f/K.K._Swing_NL_Model.png/128px-K.K._Swing_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-synth",
+  "nom": {
+   "fr": "Synthé Kéké",
+   "en": "K.K. Synth"
+  },
+  "image": "https://dodo.ac/np/images/thumb/7/7d/K.K._Synth_NL_Model.png/128px-K.K._Synth_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-tango",
+  "nom": {
+   "fr": "Tango de Kéké",
+   "en": "K.K. Tango"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/5c/K.K._Tango_NL_Model.png/128px-K.K._Tango_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-technopop",
+  "nom": {
+   "fr": "Technopop Kéké",
+   "en": "K.K. Technopop"
+  },
+  "image": "https://dodo.ac/np/images/thumb/6/61/K.K._Technopop_NL_Model.png/128px-K.K._Technopop_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-waltz",
+  "nom": {
+   "fr": "Valse de Kéké",
+   "en": "K.K. Waltz"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/58/K.K._Waltz_NL_Model.png/128px-K.K._Waltz_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "kk-western",
+  "nom": {
+   "fr": "Far West Kéké",
+   "en": "K.K. Western"
+  },
+  "image": "https://dodo.ac/np/images/thumb/4/47/K.K._Western_NL_Model.png/128px-K.K._Western_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "king-kk",
+  "nom": {
+   "fr": "Kéké King",
+   "en": "King K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/0/00/King_K.K._NL_Model.png/128px-King_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "lucky-kk",
+  "nom": {
+   "fr": "Kéké le verni",
+   "en": "Lucky K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/7/77/Lucky_K.K._NL_Model.png/128px-Lucky_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "marine-song-2001",
+  "nom": {
+   "fr": "Chant marin",
+   "en": "Marine Song 2001"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/57/Marine_Song_2001_NL_Model.png/128px-Marine_Song_2001_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "mountain-song",
+  "nom": {
+   "fr": "Chant montagnard",
+   "en": "Mountain Song"
+  },
+  "image": "https://dodo.ac/np/images/thumb/b/b7/Mountain_Song_NL_Model.png/128px-Mountain_Song_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "mr-kk",
+  "nom": {
+   "fr": "M. Kéké",
+   "en": "Mr. K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/b/bd/Mr._K.K._NL_Model.png/128px-Mr._K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "my-place",
+  "nom": {
+   "fr": "Chez moi",
+   "en": "My Place"
+  },
+  "image": "https://dodo.ac/np/images/thumb/d/db/My_Place_NL_Model.png/128px-My_Place_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "neapolitan",
+  "nom": {
+   "fr": "Napolitaine",
+   "en": "Neapolitan"
+  },
+  "image": "https://dodo.ac/np/images/thumb/b/bc/Neapolitan_NL_Model.png/128px-Neapolitan_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "only-me",
+  "nom": {
+   "fr": "Moi et juste moi",
+   "en": "Only Me"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/52/Only_Me_NL_Model.png/128px-Only_Me_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "pondering",
+  "nom": {
+   "fr": "Réfléchir",
+   "en": "Pondering"
+  },
+  "image": "https://dodo.ac/np/images/thumb/5/5a/Pondering_NL_Model.png/128px-Pondering_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "rockin-kk",
+  "nom": {
+   "fr": "Bouge avec Kéké",
+   "en": "Rockin' K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/1/1b/Rockin%27_K.K._NL_Model.png/128px-Rockin%27_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "soulful-kk",
+  "nom": {
+   "fr": "Kéké soul",
+   "en": "Soulful K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/6/6b/Soulful_K.K._NL_Model.png/128px-Soulful_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "space-kk",
+  "nom": {
+   "fr": "Space Kéké",
+   "en": "Space K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/7/75/Space_K.K._NL_Model.png/128px-Space_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "spring-blossoms",
+  "nom": {
+   "fr": "Floraison",
+   "en": "Spring Blossoms"
+  },
+  "image": "https://dodo.ac/np/images/thumb/c/ca/Spring_Blossoms_NL_Model.png/128px-Spring_Blossoms_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "stale-cupcakes",
+  "nom": {
+   "fr": "Vieux biscuits",
+   "en": "Stale Cupcakes"
+  },
+  "image": "https://dodo.ac/np/images/thumb/9/94/Stale_Cupcakes_NL_Model.png/128px-Stale_Cupcakes_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "steep-hill",
+  "nom": {
+   "fr": "La pente",
+   "en": "Steep Hill"
+  },
+  "image": "https://dodo.ac/np/images/thumb/f/fa/Steep_Hill_NL_Model.png/128px-Steep_Hill_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "surfin-kk",
+  "nom": {
+   "fr": "Kéké à la plage",
+   "en": "Surfin' K.K."
+  },
+  "image": "https://dodo.ac/np/images/thumb/3/3a/Surfin%27_K.K._NL_Model.png/128px-Surfin%27_K.K._NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "the-k-funk",
+  "nom": {
+   "fr": "Le Kéké Funk",
+   "en": "The K. Funk"
+  },
+  "image": "https://dodo.ac/np/images/thumb/8/8f/The_K._Funk_NL_Model.png/128px-The_K._Funk_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "to-the-edge",
+  "nom": {
+   "fr": "Limite",
+   "en": "To the Edge"
+  },
+  "image": "https://dodo.ac/np/images/1/1d/To_the_Edge_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "two-days-ago",
+  "nom": {
+   "fr": "2 jours plus tôt",
+   "en": "Two Days Ago"
+  },
+  "image": "https://dodo.ac/np/images/thumb/6/68/Two_Days_Ago_NL_Model.png/128px-Two_Days_Ago_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ },
+ {
+  "id": "wandering",
+  "nom": {
+   "fr": "Errance",
+   "en": "Wandering"
+  },
+  "image": "https://dodo.ac/np/images/thumb/9/99/Wandering_NL_Model.png/128px-Wandering_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": 800
+  }
+ }
+]
