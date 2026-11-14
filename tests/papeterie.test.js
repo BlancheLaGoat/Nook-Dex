@@ -23,3 +23,10 @@ test('papeterie : WW 63, CF 64, NL 68, GC 64 (tables Nookipedia = tableurs des j
 test('Wild World : sous-catégorie des hauts en français', () => {
   assert.ok(!lire('data/ww/vetements.json').some(e => e.sous === 'Tops'));
 });
+
+test('Wild World : 32 parapluies dans les vêtements, avec leur nom français', () => {
+  const parapluies = lire('data/ww/vetements.json').filter(e => e.sous === 'Parapluies');
+  assert.equal(parapluies.length, 32);
+  assert.ok(parapluies.every(e => !(e.a_verifier && e.a_verifier.includes('nom.fr'))));
+  assert.ok(parapluies.some(e => e.nom.fr === 'Parapluie noir'));
+});

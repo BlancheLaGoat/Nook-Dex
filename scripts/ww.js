@@ -169,6 +169,17 @@ async function main() {
   cats['papiers-peints'] = objets(interieur.filter(l => l.category === 'Wallpaper'), { frDe: (l, nom) => frObjet(nom) });
   cats.sols = objets(interieur.filter(l => l.category === 'Carpet'), { frDe: (l, nom) => frObjet(nom) });
   cats.vetements = objets(await c('ww_clothing'), { frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier), sous: l => TYPES_VETEMENTS[l.type] || l.type });
+  // Parapluies : dans Wild World, Nookipedia les range dans les outils (ww_tool, type « Umbrella ») ;
+  // comme New Leaf et New Horizons, Nook Dex les met dans les vêtements, sous-catégorie « Parapluies ».
+  // Noms français : onglet Umbrellas du tableur WW, sinon les traductions du jeu.
+  const parapluiesTableur = parNom('Umbrellas');
+  const parapluies = objets((await c('ww_tool')).filter(l => l.type === 'Umbrella'), {
+    frDe: (l, nom) => { const x = parapluiesTableur.get(nom.toLowerCase()); return (x && x['Name (French)']) || frObjet(nom) || frObjet(l.identifier); },
+    sous: () => 'Parapluies',
+  });
+  const idsVetements = new Set(cats.vetements.map(e => e.id));
+  for (const p of parapluies) if (idsVetements.has(p.id)) p.id = `${p.id}-parapluie`;
+  cats.vetements = [...cats.vetements, ...parapluies];
 
   const musiques = parNom('Music');
   cats.kk = objets((await c('song')).filter(s => s.ww === '1'), {

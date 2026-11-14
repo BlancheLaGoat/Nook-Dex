@@ -39,6 +39,7 @@ Un nouvel outil dans le menu des profils Wild World :
 
 ### ✉️ Papeterie
 - Nouvelle catégorie **Papeterie** pour Wild World (63), City Folk (64) et New Leaf (68), comme pour le GameCube.
+- Wild World : les **32 parapluies** apparaissent enfin, dans les vêtements (sous-catégorie « Parapluies »).
 
 ### ⚙️ Profils
 - Les profils GameCube ont trois nouveaux champs : « Mon nom », « Ma ville » et « Version du jeu ».
