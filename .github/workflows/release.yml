@@ -80,7 +80,13 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           V="v${{ needs.verifier.outputs.version }}"
-          gh release view "$V" >/dev/null 2>&1 || gh release create "$V" --draft --target "${{ github.sha }}" --title "Nook Dex ${{ needs.verifier.outputs.version }}" --notes "Nouvelle version de Nook Dex. Télécharge **Nook-Dex-Setup-${{ needs.verifier.outputs.version }}.exe** pour l'installer ; si Nook Dex est déjà installé, la mise à jour se fait toute seule."
+          # Texte de la release : la partie « ## <version> » de NOUVEAUTES.md, puis comment installer.
+          awk -v titre="## ${{ needs.verifier.outputs.version }}" '$0 == titre { garder = 1; next } /^## / { garder = 0 } garder' NOUVEAUTES.md > notes.md
+          [ -s notes.md ] || echo "Nouvelle version de Nook Dex." > notes.md
+          echo "" >> notes.md
+          echo "---" >> notes.md
+          echo "Télécharge **Nook-Dex-Setup-${{ needs.verifier.outputs.version }}.exe** pour installer Nook Dex ; s'il est déjà installé, la mise à jour se fait toute seule." >> notes.md
+          gh release view "$V" >/dev/null 2>&1 || gh release create "$V" --draft --target "${{ github.sha }}" --title "Nook Dex ${{ needs.verifier.outputs.version }}" --notes-file notes.md
 
       - name: Compiler et envoyer les fichiers
         env:
