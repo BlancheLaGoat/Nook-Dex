@@ -1,0 +1,47 @@
+{
+  "_explication": [
+    "Règles de la ville parfaite de Wild World (lues dans le code du jeu), utilisées par l'outil « Ville parfaite et arrosoir en or ».",
+    "Score d'une acre : on part de « depart », puis on applique chaque règle de « score ».",
+    "  arbres : aucune pénalité entre min et max ; sinon « par_ecart » par arbre manquant ou en trop.",
+    "  mauvaises_herbes / objets_au_sol : « par_unite » pour chaque unité au-delà de « tolere ».",
+    "  dechets / rafflesia : « par_unite » pour chacun.",
+    "  fleurs : « par_unite » (bonus) pour chaque fleur au-delà de « tolere ».",
+    "rangs_acre : le rang est celui de la première ligne dont « a_partir_de » est atteint, en lisant de haut en bas.",
+    "rang_ville : les tests sont faits dans l'ordre ; le premier qui est vrai donne le rang.",
+    "arrosoir_or : nombre de jours d'affilée en ville parfaite, puis à qui parler."
+  ],
+  "score": {
+    "depart": 100,
+    "arbres": { "min": 12, "max": 15, "par_ecart": -2 },
+    "mauvaises_herbes": { "tolere": 2, "par_unite": -1 },
+    "objets_au_sol": { "tolere": 2, "par_unite": -1 },
+    "dechets": { "par_unite": -10 },
+    "rafflesia": { "par_unite": -50 },
+    "fleurs": { "tolere": 2, "par_unite": 1 }
+  },
+  "rangs_acre": [
+    { "a_partir_de": 101, "rang": 4 },
+    { "a_partir_de": 95, "rang": 3 },
+    { "a_partir_de": 80, "rang": 2 },
+    { "a_partir_de": 75, "rang": 1 },
+    { "a_partir_de": null, "rang": 0 }
+  ],
+  "rang_ville": [
+    { "test": "toutes_au_rang", "rang_acre": 0, "rang": 0, "texte": "Toutes les acres au rang 0" },
+    { "test": "au_moins_une_au_rang_ou_moins", "rang_acre": 1, "rang": 1, "texte": "Au moins une acre au rang 0 ou 1" },
+    { "test": "au_moins_une_au_rang_ou_moins", "rang_acre": 2, "rang": 2, "texte": "Au moins une acre au rang 2" },
+    { "test": "moins_de_n_au_rang", "rang_acre": 4, "n": 8, "rang": 3, "texte": "Moins de 8 acres au rang 4" },
+    { "test": "sinon", "rang": 4, "texte": "Ville parfaite : aucune acre sous le rang 3 et au moins 8 acres au rang 4" }
+  ],
+  "ville_parfaite": { "rang": 4, "acres_rang_4": 8 },
+  "arrosoir_or": {
+    "jours": 15,
+    "parler_a": ["Pelly", "Phyllis"],
+    "texte": "Garder la ville parfaite 15 jours d'affilée, puis parler de l'environnement à Pelly ou Phyllis."
+  },
+  "cibles": {
+    "_explication": "Cibles proposées par défaut pour chaque acre (modifiables à la main dans l'outil).",
+    "arbres": { "min": 12, "max": 15 },
+    "fleurs_de_base": 3
+  }
+}
