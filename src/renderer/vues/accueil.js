@@ -5,7 +5,8 @@ import { progression, estActif } from '../lib/filtres.js';
 import { estDisponible, partBientot, arriveCeMois, NOMS_MOIS } from '../lib/dispo.js';
 import { ouvrirFiche } from './fiche.js';
 import { prochains, formaterPeriode } from '../lib/evenements.js';
-import { donneesCategorie } from '../lib/etat.js';
+import { donneesCategorie, rareteDe } from '../lib/etat.js';
+import { maxAnnee, tauxMaintenant, valeurMaintenant, formaterPourcent } from '../lib/rarete.js';
 
 export function afficherAccueil(conteneur, jeu, allerVers) {
   let noteJeu = null;
@@ -78,9 +79,20 @@ export function afficherAccueil(conteneur, jeu, allerVers) {
           if (arriveCeMois(e, hemi, mois)) arriveListe.push([c, e, st]);
         }
       }
+      // Avec les taux d'apparition : les plus rares du moment d'abord, avec leur pourcentage.
+      const tauxDe = new Map();
+      for (const [c, e] of maintenantListe) {
+        const cr = rareteDe(c.id);
+        if (cr && maxAnnee(cr, e.id)) tauxDe.set(e, valeurMaintenant(tauxMaintenant(cr, e.id, date)));
+      }
+      if (tauxDe.size) {
+        const cleTri = e => (tauxDe.has(e) && tauxDe.get(e) > 0 ? tauxDe.get(e) : Infinity);
+        maintenantListe.sort((a, b) => cleTri(a[1]) - cleTri(b[1]) || a[1].nom.fr.localeCompare(b[1].nom.fr, 'fr'));
+      }
       const puces = liste => h('div', { class: 'liste-mini' }, liste.map(([c, e, st]) =>
         h('button', { class: `puce-element${st.obtenu ? ' obtenu' : ''}`, title: `${c.nom} — ${e.lieu_texte || ''}`, onclick: () => ouvrirFiche(jeu, c, e) },
-          image(e.image, ''), e.nom.fr)));
+          image(e.image, ''), e.nom.fr,
+          liste === maintenantListe && tauxDe.has(e) ? h('span', { class: 'aide' }, ` ${formaterPourcent(tauxDe.get(e))}`) : null)));
       const section = (titre, liste, vide) => h('div', { class: 'section' },
         h('h2', {}, titre, h('span', { class: 'compte' }, `${liste.length}`)),
         liste.length ? puces(liste) : h('p', { class: 'aide' }, vide));

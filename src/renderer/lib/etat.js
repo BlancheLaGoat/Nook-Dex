@@ -1,5 +1,6 @@
 // État partagé de l'appli : jeux, profil actif, réglages, données chargées.
 import { cle } from './filtres.js';
+import { rareteCategorie, SEUILS_DEFAUT } from './rarete.js';
 
 export const etat = {
   jeux: [],
@@ -7,6 +8,8 @@ export const etat = {
   profil: null,          // profil actif (avec ses coches)
   reglages: { theme: 'systeme', profilActif: null, dateSimulee: null },
   donnees: new Map(),    // "nh/poissons" -> [éléments]
+  rarete: null,          // { jeu, donnees: data/<jeu>/rarete.json ou null, seuils } du jeu actif
+  codes: null,           // { jeu, donnees: data/<jeu>/codes.json ou null, parFiche: Map("categorie:id" -> objet) }
   vue: { type: 'accueil' },
   filtres: {},           // filtres mémorisés par catégorie
 };
@@ -41,6 +44,27 @@ export async function chargerToutLeJeu(jeu) {
 export function donneesChargees(jeuId, categorie) {
   return etat.donnees.get(`${jeuId}/${categorie}`) || [];
 }
+
+// Rareté (taux d'apparition) du jeu actif. Les jeux sans données ont donnees = null.
+export async function chargerRarete(jeuId) {
+  if (etat.rarete && etat.rarete.jeu === jeuId) return;
+  const r = (await window.nook.rarete(jeuId)) || {};
+  etat.rarete = { jeu: jeuId, donnees: r.donnees || null, seuils: (r.etoiles && r.etoiles.seuils) || SEUILS_DEFAUT };
+}
+// Codes d'objets du jeu actif (GameCube) : chaque objet du tableur, relié à sa fiche du dex.
+export async function chargerCodes(jeuId) {
+  if (etat.codes && etat.codes.jeu === jeuId) return;
+  const donnees = (await window.nook.codes(jeuId)) || null;
+  const parFiche = new Map();
+  for (const o of (donnees && donnees.objets) || []) if (o.fiche) parFiche.set(cle(o.fiche.categorie, o.fiche.id), o);
+  etat.codes = { jeu: jeuId, donnees, parFiche };
+}
+export const codeDe = (categorie, id) => (etat.codes && etat.codes.parFiche.get(cle(categorie, id))) || null;
+export const aDesCodes = categorie => !!(etat.codes && etat.codes.donnees
+  && Object.values(etat.codes.donnees.categories).some(c => c.dex === categorie));
+
+export const rareteDe = categorie => rareteCategorie(etat.rarete && etat.rarete.donnees, categorie);
+export const seuilsEtoiles = () => (etat.rarete && etat.rarete.seuils) || SEUILS_DEFAUT;
 
 // ---------------------------------------------------------------------------
 // Coches

@@ -1,6 +1,11 @@
 // Fenêtres : gestion des profils et réglages.
 import { h, vider, ouvrirFenetre, confirmer, notifier } from '../lib/dom.js';
 import { etat, enregistrerReglages, sauvegarderMaintenant, signaler } from '../lib/etat.js';
+import { erreurNom } from '../lib/motdepasse-gc.js';
+import { partieVersion, blocs, morceaux } from '../lib/nouveautes.js';
+
+// Jeux dont les codes d'objets dépendent du nom du joueur et de la ville.
+const JEUX_AVEC_CODES = ['gc'];
 
 // ---------------------------------------------------------------------------
 // Formulaire de profil (création ou modification)
@@ -13,6 +18,8 @@ export function formulaireProfil(existant, surValider) {
   const zoneOptions = h('div', { class: 'formulaire' });
   let hemisphere = existant ? existant.hemisphere : 'nord';
   let extensions = new Set(existant ? existant.extensions : []);
+  const joueur = { nom: (existant && existant.joueur && existant.joueur.nom) || '', ville: (existant && existant.joueur && existant.joueur.ville) || '' };
+  let region = (existant && existant.region) || 'eu';
 
   const dessinerOptions = () => {
     const jeu = etat.jeux.find(j => j.id === jeuId);
@@ -24,6 +31,23 @@ export function formulaireProfil(existant, surValider) {
           h('input', { type: 'radio', name: 'hemi', value: v, checked: hemisphere === v, onchange: () => { hemisphere = v; } }),
           v === 'nord' ? 'Nord (Europe, Amérique du Nord…)' : 'Sud (Australie, Amérique du Sud…)'))),
         h('span', { class: 'aide' }, "Il change les saisons des insectes, poissons et créatures marines.")));
+    }
+    if (JEUX_AVEC_CODES.includes(jeu.id)) {
+      const champ = (cle, titre, exemple) => {
+        const erreur = h('span', { class: 'aide' });
+        const verifier = () => { erreur.textContent = joueur[cle] ? (erreurNom(joueur[cle]) || '') : ''; };
+        const input = h('input', { type: 'text', maxlength: '8', value: joueur[cle], placeholder: exemple, oninput: ev => { joueur[cle] = ev.target.value; verifier(); } });
+        verifier();
+        return h('label', {}, titre, input, erreur);
+      };
+      zoneOptions.append(
+        champ('nom', 'Mon nom dans le jeu', 'Ex. : Blanche'),
+        champ('ville', 'Ma ville dans le jeu', 'Ex. : Lavande'),
+        h('span', { class: 'aide' }, "Écris-les exactement comme dans le jeu (majuscules et accents compris) : certains codes d'objets ne marchent que pour ce nom et cette ville."),
+        h('label', {}, 'Version du jeu',
+          h('div', { class: 'choix-groupe' }, [['eu', 'Européenne (PAL)'], ['us', 'Américaine (NTSC)']].map(([v, t]) => h('label', { class: 'ligne' },
+            h('input', { type: 'radio', name: 'region', value: v, checked: region === v, onchange: () => { region = v; } }), t))),
+          h('span', { class: 'aide' }, "La version européenne n'accepte pas les codes e-Reader.")));
     }
     if (jeu.extensions.length) {
       zoneOptions.append(h('label', {}, 'Extensions', jeu.extensions.map(x => h('label', { class: 'ligne' },
@@ -44,7 +68,13 @@ export function formulaireProfil(existant, surValider) {
   const valider = () => {
     const n = nom.value.trim();
     if (!n) { nom.focus(); notifier('Donne un nom à ton profil.', 'erreur'); return; }
-    surValider({ nom: n, jeu: jeuId, hemisphere, extensions: [...extensions] });
+    if (JEUX_AVEC_CODES.includes(jeuId)) {
+      for (const cle of ['nom', 'ville']) {
+        const err = joueur[cle] ? erreurNom(joueur[cle]) : null;
+        if (err) { notifier(`${cle === 'nom' ? 'Ton nom' : 'Ta ville'} : ${err}`, 'erreur'); return; }
+      }
+    }
+    surValider({ nom: n, jeu: jeuId, hemisphere, extensions: [...extensions], joueur: { nom: joueur.nom, ville: joueur.ville }, region });
   };
   nom.addEventListener('keydown', e => { if (e.key === 'Enter') valider(); });
 
@@ -73,7 +103,7 @@ function fenetreModifierProfil(p, surFini) {
   let fermer;
   const f = formulaireProfil(p, async infos => {
     const complet = p.id === etat.profil?.id ? etat.profil : await window.nook.lireProfil(p.id);
-    Object.assign(complet, { nom: infos.nom, hemisphere: infos.hemisphere, extensions: infos.extensions });
+    Object.assign(complet, { nom: infos.nom, hemisphere: infos.hemisphere, extensions: infos.extensions, joueur: infos.joueur, region: infos.region });
     await window.nook.ecrireProfil(complet);
     fermer();
     surFini();
@@ -178,10 +208,32 @@ export async function fenetreReglages(etatMaj) {
       h('div', {}, h('button', { class: 'bouton petit', onclick: () => window.nook.ouvrirDossier() }, 'Ouvrir le dossier'))),
     h('label', {}, 'Version',
       h('span', {}, `Nook Dex ${infos.version}`),
+      h('div', {}, h('button', { class: 'bouton petit', onclick: () => fenetreNouveautes(infos.version) }, '✨ Quoi de neuf ?')),
       h('span', { class: 'aide' }, texteMaj[(etatMaj && etatMaj.etat) || (infos.packagee ? 'verification' : 'dev')] || ''),
       etatMaj && etatMaj.etat === 'prete' ? h('div', {}, h('button', { class: 'bouton principal petit', onclick: () => window.nook.installerMaj() }, 'Redémarrer et installer')) : null),
     h('label', {}, 'Sources des données',
       h('span', { class: 'aide' }, 'Nookipedia (nookipedia.com) et les tableurs communautaires ACNH, ACNL, ACCF, ACWW et ACGC Spreadsheet (avec leurs feuilles de traductions). Les images restent la propriété de Nintendo. Nook Dex est un projet de fan non officiel.')),
     h('div', { class: 'actions' }, h('button', { class: 'bouton principal', onclick: () => fermer() }, 'Fermer')),
   ));
+}
+
+// ---------------------------------------------------------------------------
+// « Quoi de neuf ? » : la partie de NOUVEAUTES.md pour cette version.
+// Renvoie false si le fichier n'a rien pour cette version (aucune fenêtre n'est ouverte).
+// ---------------------------------------------------------------------------
+export async function fenetreNouveautes(version) {
+  const partie = partieVersion(await window.nook.nouveautes(), version);
+  if (!partie) return false;
+  const enLigne = t => morceaux(t).map(m => (m.gras ? h('strong', {}, m.texte) : m.texte));
+  const contenu = blocs(partie).map(b => (b.type === 'titre' ? h('h3', {}, b.texte)
+    : b.type === 'liste' ? h('ul', { class: 'nouveautes-liste' }, b.elements.map(e => h('li', {}, enLigne(e))))
+      : h('p', {}, enLigne(b.texte))));
+  let fermer;
+  fermer = ouvrirFenetre(`✨ Quoi de neuf dans Nook Dex ${version} ?`, h('div', { class: 'nouveautes' },
+    contenu,
+    h('div', { class: 'actions' }, h('button', { class: 'bouton principal', onclick: () => fermer() }, 'Super, merci !'))), { large: true });
+  // Le bouton du bas prend le focus et fait défiler la fenêtre : on revient au début du texte.
+  const corps = [...document.querySelectorAll('.fenetre-corps')].pop();
+  if (corps) requestAnimationFrame(() => { corps.scrollTop = 0; });
+  return true;
 }

@@ -7,6 +7,11 @@ contextBridge.exposeInMainWorld('nook', {
   especes: () => ipcRenderer.invoke('donnees:especes'),
   categorie: (jeu, categorie) => ipcRenderer.invoke('donnees:categorie', jeu, categorie),
   infosDonnees: jeu => ipcRenderer.invoke('donnees:infos', jeu),
+  rarete: jeu => ipcRenderer.invoke('donnees:rarete', jeu),
+  codes: jeu => ipcRenderer.invoke('donnees:codes', jeu),
+  arrosoir: () => ipcRenderer.invoke('donnees:arrosoir'),
+  exporterJson: (titre, nom, donnees) => ipcRenderer.invoke('fichier:exporterJson', titre, nom, donnees),
+  importerJson: titre => ipcRenderer.invoke('fichier:importerJson', titre),
 
   listerProfils: () => ipcRenderer.invoke('profils:liste'),
   lireProfil: id => ipcRenderer.invoke('profils:lire', id),
@@ -21,8 +26,10 @@ contextBridge.exposeInMainWorld('nook', {
   ecrireReglages: r => ipcRenderer.invoke('reglages:ecrire', r),
 
   infosApp: () => ipcRenderer.invoke('app:infos'),
+  nouveautes: () => ipcRenderer.invoke('app:nouveautes'),
   ouvrirDossier: () => ipcRenderer.invoke('app:ouvrirDossier'),
   ouvrirLien: url => ipcRenderer.invoke('app:ouvrirLien', url),
+  copier: texte => ipcRenderer.invoke('app:copier', texte),
 
   verifierMaj: () => ipcRenderer.invoke('maj:verifier'),
   installerMaj: () => ipcRenderer.invoke('maj:installer'),

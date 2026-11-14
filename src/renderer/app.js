@@ -1,7 +1,7 @@
 // Point d'entrée de l'interface : en-tête, menu, navigation entre les vues.
 import { h, vider, notifier } from './lib/dom.js';
 import {
-  etat, jeuActif, maintenant, surChangement, signaler, chargerToutLeJeu, donneesChargees,
+  etat, jeuActif, maintenant, surChangement, signaler, chargerToutLeJeu, chargerRarete, chargerCodes, donneesChargees,
   enregistrerReglages, appliquerTheme, sauvegarderMaintenant, sauvegardeEnAttente,
 } from './lib/etat.js';
 import { progression } from './lib/filtres.js';
@@ -11,7 +11,8 @@ import { fermerFiche } from './vues/fiche.js';
 import { afficherCalendrier } from './vues/calendrier.js';
 import { afficherEspeces } from './vues/especes.js';
 import { afficherEvenements } from './vues/evenements.js';
-import { fenetreProfils, fenetreNouveauProfil, fenetreReglages } from './vues/fenetres.js';
+import { afficherVille } from './vues/ville.js';
+import { fenetreProfils, fenetreNouveauProfil, fenetreReglages, fenetreNouveautes } from './vues/fenetres.js';
 
 const $ = id => document.getElementById(id);
 let nettoyerVue = null;
@@ -41,6 +42,9 @@ async function afficherVue(vue) {
     nettoyerVue = await afficherEvenements(contenu, jeu);
   } else if (vue.type === 'especes') {
     nettoyerVue = await afficherEspeces(contenu);
+  } else if (vue.type === 'ville') {
+    if (jeu.id !== 'ww') return afficherVue({ type: 'accueil' });
+    nettoyerVue = await afficherVille(contenu);
   }
 }
 
@@ -87,6 +91,7 @@ function dessinerMenu() {
     lien(etat.vue.type === 'evenements', '📆', 'Événements et anniversaires', null, () => afficherVue({ type: 'evenements' })),
     lien(etat.vue.type === 'especes', '🔎', 'Par espèce (tous les jeux)', null, () => afficherVue({ type: 'especes' })),
   );
+  if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'ville', '🌳', 'Ville parfaite et arrosoir en or', null, () => afficherVue({ type: 'ville' })));
 }
 
 // Seule la ligne de la catégorie cochée change : on la redessine sans tout reconstruire.
@@ -142,6 +147,8 @@ async function choisirProfil(id) {
   etat.profil = p;
   etat.filtres = {};
   await chargerToutLeJeu(jeu);
+  await chargerRarete(jeu.id);
+  await chargerCodes(jeu.id);
   await enregistrerReglages({ profilActif: p.id });
   etat.profils = await window.nook.listerProfils();
   dessinerEntete();
@@ -196,6 +203,19 @@ async function demarrer() {
   const choix = etat.profils.find(p => p.id === etat.reglages.profilActif) || etat.profils.find(p => (etat.jeux.find(j => j.id === p.jeu) || {}).disponible);
   if (choix) await choisirProfil(choix.id);
   else afficherBienvenue();
+  await montrerNouveautesSiBesoin();
+}
+
+// Après une mise à jour, la fenêtre « Quoi de neuf ? » s'ouvre une fois. Pas pour une toute
+// nouvelle installation (aucun profil) : il n'y a rien de « nouveau » à présenter.
+async function montrerNouveautesSiBesoin() {
+  try {
+    const { version } = await window.nook.infosApp();
+    if (etat.reglages.derniereVersionVue === version) return;
+    const dejaUtilisee = etat.profils.length > 0;
+    await enregistrerReglages({ derniereVersionVue: version });
+    if (dejaUtilisee) await fenetreNouveautes(version);
+  } catch (e) { console.error(e); }
 }
 
 demarrer().catch(e => {

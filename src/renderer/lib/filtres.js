@@ -38,6 +38,7 @@ export function filtrer(elements, c, ctx) {
     if (c.hybride === 'oui' && !e.hybride) return false;
     if (c.hybride === 'non' && e.hybride) return false;
     if (c.aVerifier && !(e.a_verifier && e.a_verifier.length)) return false;
+    if (c.provenance && !(ctx.provenance && ctx.provenance(e) === c.provenance)) return false;
     if (c.nouveaute && !(e.v && e.v.startsWith(c.nouveaute))) return false;
     if (c.maintenant && estDisponible(e, hemi, maintenant) !== true) return false;
     if (c.mois) {
@@ -58,9 +59,21 @@ export function filtrer(elements, c, ctx) {
 
 const comparerNoms = (a, b) => a.nom.fr.localeCompare(b.nom.fr, 'fr', { sensitivity: 'base' });
 
-export function trier(elements, tri) {
+// ctx.rarete (facultatif, jeux avec taux d'apparition) :
+//   max(id)        -> pourcentage maximum sur l'année, ou null si inconnu
+//   maintenant(id) -> pourcentage en ce moment (0 si absente), ou null si inconnu
+// Pour les tris par rareté, les plus rares d'abord ; les espèces sans taux (inconnues) à la fin.
+export function trier(elements, tri, ctx = {}) {
   const liste = [...elements];
   const prix = e => (e.prix && (e.prix.vente ?? e.prix.achat)) ?? -1;
+  const r = ctx.rarete;
+  const ouFin = v => (v == null || v <= 0 ? Infinity : v);
+  if (r && tri === 'rarete') {
+    return liste.sort((a, b) => ouFin(r.max(a.id)) - ouFin(r.max(b.id)) || comparerNoms(a, b));
+  }
+  if (r && tri === 'rarete-maintenant') {
+    return liste.sort((a, b) => ouFin(r.maintenant(a.id)) - ouFin(r.maintenant(b.id)) || ouFin(r.max(a.id)) - ouFin(r.max(b.id)) || comparerNoms(a, b));
+  }
   switch (tri) {
     case 'numero': return liste.sort((a, b) => (a.n ?? 9999) - (b.n ?? 9999) || comparerNoms(a, b));
     case 'prix-desc': return liste.sort((a, b) => prix(b) - prix(a) || comparerNoms(a, b));

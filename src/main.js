@@ -1,6 +1,6 @@
 // Processus principal d'Electron : la fenêtre, la lecture des données,
 // la sauvegarde des profils, le cache des images et les mises à jour.
-const { app, BrowserWindow, ipcMain, dialog, protocol, net, shell, nativeTheme } = require('electron');
+const { app, BrowserWindow, ipcMain, dialog, protocol, net, shell, nativeTheme, clipboard } = require('electron');
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
@@ -59,6 +59,14 @@ function normaliserProfil(p) {
     jeu: p.jeu,
     hemisphere: p.hemisphere === 'sud' ? 'sud' : 'nord',
     extensions: Array.isArray(p.extensions) ? p.extensions.filter(e => typeof e === 'string') : [],
+    // Nom du joueur et de la ville dans le jeu (codes d'objets du GameCube), et version du jeu.
+    joueur: {
+      nom: typeof (p.joueur && p.joueur.nom) === 'string' ? [...p.joueur.nom].slice(0, 8).join('') : '',
+      ville: typeof (p.joueur && p.joueur.ville) === 'string' ? [...p.joueur.ville].slice(0, 8).join('') : '',
+    },
+    region: p.region === 'us' ? 'us' : 'eu',
+    // Carte de la ville (outil « Ville parfaite » de Wild World) : vérifiée en détail par l'appli (lib/ville.js).
+    ...(p.ville && typeof p.ville === 'object' && !Array.isArray(p.ville) ? { ville: p.ville } : {}),
     cree_le: p.cree_le || new Date().toISOString(),
     modifie_le: new Date().toISOString(),
     elements: p.elements && typeof p.elements === 'object' ? p.elements : {},
@@ -151,12 +159,58 @@ function brancherIpc() {
     return lireJson(path.join(DOSSIER_DATA, jeu, `${categorie}.json`), []);
   });
 
+  // Taux d'apparition (data/<jeu>/rarete.json, absent pour les jeux sans données) + seuils des étoiles.
+  ipcMain.handle('donnees:rarete', (_e, jeu) => {
+    if (!ID_VALIDE.test(jeu)) return { donnees: null, etoiles: null };
+    return {
+      donnees: lireJson(path.join(DOSSIER_DATA, jeu, 'rarete.json'), null),
+      etoiles: lireJson(path.join(DOSSIER_DATA, 'rarete', 'etoiles.json'), null),
+    };
+  });
+
+  // Ville parfaite (Wild World) : modèles d'acres et règles du jeu.
+  ipcMain.handle('donnees:arrosoir', () => ({
+    modeles: lireJson(path.join(DOSSIER_DATA, 'arrosoir', 'modeles.json'), null),
+    regles: lireJson(path.join(DOSSIER_DATA, 'arrosoir', 'regles.json'), null),
+  }));
+
+  // Enregistrer / ouvrir un fichier JSON choisi par la joueuse (carte de la ville).
+  ipcMain.handle('fichier:exporterJson', async (_e, titre, nomDefaut, donnees) => {
+    const nom = String(nomDefaut || 'nook-dex.json').replace(/[^\p{L}\p{N} ._-]/gu, '').trim() || 'nook-dex.json';
+    const { canceled, filePath } = await dialog.showSaveDialog(fenetre, {
+      title: String(titre || 'Exporter'), defaultPath: path.join(app.getPath('documents'), nom),
+      filters: [{ name: 'Fichier Nook Dex', extensions: ['json'] }],
+    });
+    if (canceled || !filePath) return null;
+    ecrireSur(filePath, JSON.stringify(donnees, null, 1));
+    return filePath;
+  });
+  ipcMain.handle('fichier:importerJson', async (_e, titre) => {
+    const { canceled, filePaths } = await dialog.showOpenDialog(fenetre, {
+      title: String(titre || 'Importer'), properties: ['openFile'],
+      filters: [{ name: 'Fichier Nook Dex', extensions: ['json'] }],
+    });
+    if (canceled || !filePaths.length) return null;
+    const d = lireJson(filePaths[0], null);
+    if (!d || typeof d !== 'object') throw new Error("ce fichier n'est pas un JSON valide");
+    return d;
+  });
+
+  // Codes d'objets (data/<jeu>/codes.json, seulement pour le GameCube pour l'instant).
+  ipcMain.handle('donnees:codes', (_e, jeu) => {
+    if (!ID_VALIDE.test(jeu)) return null;
+    return lireJson(path.join(DOSSIER_DATA, jeu, 'codes.json'), null);
+  });
+
   ipcMain.handle('donnees:infos', (_e, jeu) => {
     if (!ID_VALIDE.test(jeu)) return null;
     return lireJson(path.join(DOSSIER_DATA, jeu, '_infos.json'), null);
   });
 
   ipcMain.handle('profils:liste', () => listerProfils());
+
+  // Copier un code d'objet dans le presse-papiers.
+  ipcMain.handle('app:copier', (_e, texte) => { clipboard.writeText(String(texte || '').slice(0, 200)); return true; });
 
   ipcMain.handle('profils:lire', (_e, id) => lireJson(fichierProfil(id)));
 
@@ -228,6 +282,8 @@ function brancherIpc() {
       theme: ['clair', 'sombre', 'systeme'].includes(r.theme) ? r.theme : 'systeme',
       profilActif: typeof r.profilActif === 'string' ? r.profilActif : null,
       dateSimulee: typeof r.dateSimulee === 'string' ? r.dateSimulee : null,
+      // Dernière version dont la fenêtre « Quoi de neuf ? » a été montrée.
+      derniereVersionVue: typeof r.derniereVersionVue === 'string' ? r.derniereVersionVue.slice(0, 20) : null,
     };
     ecrireSur(FICHIER_REGLAGES, JSON.stringify(propre, null, 1));
     nativeTheme.themeSource = propre.theme === 'clair' ? 'light' : propre.theme === 'sombre' ? 'dark' : 'system';
@@ -236,6 +292,10 @@ function brancherIpc() {
 
   ipcMain.handle('app:infos', () => ({ version: app.getVersion(), dossier: DOSSIER_UTILISATEUR, packagee: app.isPackaged }));
   ipcMain.handle('app:ouvrirDossier', () => shell.openPath(DOSSIER_UTILISATEUR));
+  // Texte de NOUVEAUTES.md (embarqué dans l'appli), pour la fenêtre « Quoi de neuf ? ».
+  ipcMain.handle('app:nouveautes', () => {
+    try { return fs.readFileSync(path.join(app.getAppPath(), 'NOUVEAUTES.md'), 'utf8'); } catch { return ''; }
+  });
   ipcMain.handle('app:ouvrirLien', (_e, url) => {
     if (typeof url === 'string' && /^https:\/\//.test(url)) shell.openExternal(url);
   });

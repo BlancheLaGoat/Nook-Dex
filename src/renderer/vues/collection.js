@@ -1,6 +1,7 @@
 // Vue « collection » : la liste d'une catégorie avec recherche, filtres, tri et cases à cocher.
 import { h, vider, image, clochettes, confirmer, ajouterA } from '../lib/dom.js';
-import { etat, donneesCategorie, etatDe, basculer, definirPlusieurs, maintenant, surChangement } from '../lib/etat.js';
+import { etat, donneesCategorie, etatDe, basculer, definirPlusieurs, maintenant, surChangement, rareteDe, seuilsEtoiles, codeDe, aDesCodes } from '../lib/etat.js';
+import { maxAnnee, tauxMaintenant, valeurMaintenant, etoilesPour, texteEtoiles } from '../lib/rarete.js';
 import { filtrer, trier, progression, valeursDistinctes, estActif } from '../lib/filtres.js';
 import { estDisponible, NOMS_MOIS } from '../lib/dispo.js';
 import { OMBRES, TRIS, COULEURS_FLEURS } from '../lib/libelles.js';
@@ -10,7 +11,7 @@ const PAR_PAQUET = 160; // nombre de cartes affichées à la fois (les suivantes
 
 const FILTRES_DEFAUT = {
   texte: '', tri: 'nom', obtenu: '', musee: '', lieu: '', sous: '', ombre: '',
-  mois: '', heure: '', maintenant: false, saison: '', hybride: '', aVerifier: false, nouveaute: '',
+  mois: '', heure: '', maintenant: false, saison: '', hybride: '', aVerifier: false, nouveaute: '', provenance: '',
 };
 
 export async function afficherCollection(conteneur, jeu, cat) {
@@ -19,6 +20,26 @@ export async function afficherCollection(conteneur, jeu, cat) {
   const creature = cat.type === 'creature';
   if (!etat.filtres[cat.id]) etat.filtres[cat.id] = { ...FILTRES_DEFAUT, tri: creature ? 'numero' : 'nom' };
   const f = etat.filtres[cat.id];
+  // Taux d'apparition de cette catégorie (null pour les jeux sans données).
+  const cr = creature ? rareteDe(cat.id) : null;
+  const ctxRarete = () => {
+    if (!cr) return null;
+    const date = maintenant();
+    const actuels = new Map();
+    return {
+      max: id => { const m = maxAnnee(cr, id); return m ? m.note : null; },
+      maintenant: id => {
+        if (!maxAnnee(cr, id)) return null;
+        if (!actuels.has(id)) actuels.set(id, valeurMaintenant(tauxMaintenant(cr, id, date)));
+        return actuels.get(id);
+      },
+    };
+  };
+
+  // Codes d'objets (GameCube) : provenance d'après le tableur, et progression « comme dans le tableur ».
+  const avecCodes = aDesCodes(cat.id);
+  const provenanceDe = e => { const o = codeDe(cat.id, e.id); return o ? o.provenance : null; };
+  const pourcent = (a, b) => `${b ? (Math.floor((a / b) * 1000) / 10).toLocaleString('fr-FR') : 0} %`;
 
   const entete = h('div', { class: 'titre-page' });
   const barreFiltres = h('div', { class: 'filtres' });
@@ -38,11 +59,20 @@ export async function afficherCollection(conteneur, jeu, cat) {
   // ---------- En-tête : titre + progression ----------
   function majEntete() {
     const p = progression(elements, etat.profil, cat.id);
-    ajouterA(vider(entete), 
+    // Même calcul que la ligne 2 du tableur des codes : objets du tableur cochés / objets du tableur.
+    let tableur = '';
+    if (avecCodes) {
+      const duTableur = elements.filter(e => codeDe(cat.id, e.id));
+      const faits = duTableur.filter(e => etatDe(cat.id, e.id).obtenu).length;
+      tableur = ` · tableur des codes : ${faits} / ${duTableur.length} (${pourcent(faits, duTableur.length)})`;
+    }
+    ajouterA(vider(entete),
       h('h1', {}, `${cat.icone} ${cat.nom}`),
       h('span', { class: 'sous-titre' },
         `${p.obtenus} / ${p.total} obtenus`,
-        cat.musee ? ` · ${p.musee} / ${p.totalMusee} au musée` : ''),
+        avecCodes ? ` (${pourcent(p.obtenus, p.total)})` : '',
+        cat.musee ? ` · ${p.musee} / ${p.totalMusee} au musée` : '',
+        tableur),
     );
   }
 
@@ -62,7 +92,8 @@ export async function afficherCollection(conteneur, jeu, cat) {
       oninput: e => { f.texte = e.target.value; rafraichirBientot(); },
     });
     const zone = [recherche];
-    const tris = TRIS.filter(([v]) => v !== 'numero' || creature).concat(elements.some(e => e.groupe) ? [['groupe', 'Groupe']] : []);
+    const tris = TRIS.filter(([v]) => v !== 'numero' || creature).concat(elements.some(e => e.groupe) ? [['groupe', 'Groupe']] : [])
+      .concat(cr ? [['rarete', 'Rareté (les plus rares d\'abord)'], ['rarete-maintenant', 'Taux actuel (les plus rares d\'abord)']] : []);
     zone.push(choix(f.tri, tris, v => changer('tri', v), 'Trier'));
     zone.push(choix(f.obtenu, [['', 'Obtenus et manquants'], ['oui', 'Obtenus'], ['non', 'Pas encore obtenus']], v => changer('obtenu', v), 'Obtenus'));
     if (cat.musee) zone.push(choix(f.musee, [['', 'Musée : tous'], ['oui', 'Donnés au musée'], ['non', 'Pas encore donnés']], v => changer('musee', v), 'Musée'));
@@ -79,10 +110,18 @@ export async function afficherCollection(conteneur, jeu, cat) {
       zone.push(choix(f.mois, [['', 'Tous les mois'], ...NOMS_MOIS.map((m, i) => [String(i + 1), `En ${m}`])], v => changer('mois', v), 'Disponible ce mois-là'));
       zone.push(choix(f.heure, [['', 'Toutes les heures'], ...Array.from({ length: 24 }, (_, i) => [String(i), `À ${i} h`])], v => changer('heure', v), 'Disponible à cette heure-là (pendant le mois choisi, ou le mois en cours)'));
       zone.push(choix(f.saison, [['', 'Toute la saison'], ['part', 'Part à la fin du mois'], ['arrive', 'Arrive ce mois-ci']], v => changer('saison', v), 'Saison'));
-      zone.push(interrupteur('⏰ Disponible maintenant', f.maintenant, v => changer('maintenant', v), "Selon la date et l'heure affichées en haut"));
+      zone.push(interrupteur('⏰ Disponible maintenant', f.maintenant, v => {
+        // Avec les taux d'apparition : on montre d'abord les plus rares du moment.
+        if (cr && v) { f.tri = 'rarete-maintenant'; f.maintenant = v; construireFiltres(); rafraichir(); return; }
+        changer('maintenant', v);
+      }, cr ? "Selon la date et l'heure affichées en haut ; triés du plus rare au plus courant" : "Selon la date et l'heure affichées en haut"));
     }
     if (cat.type === 'fleur') zone.push(choix(f.hybride, [['', 'Toutes les fleurs'], ['oui', 'Hybrides'], ['non', 'De base']], v => changer('hybride', v), 'Hybrides'));
     if (elements.some(e => e.v && e.v.startsWith('3.'))) zone.push(interrupteur('✨ Ajouts 3.0', f.nouveaute === '3.', v => changer('nouveaute', v ? '3.' : ''), 'Objets ajoutés par la mise à jour 3.0'));
+    if (avecCodes) {
+      const provenances = valeursDistinctes(elements, provenanceDe);
+      if (provenances.length > 1) zone.push(choix(f.provenance, [['', 'Toutes les provenances'], ...provenances.map(v => [v, v])], v => changer('provenance', v), "Provenance d'après le tableur des codes (en anglais)"));
+    }
     if (elements.some(e => e.a_verifier)) zone.push(interrupteur('⚠️ À vérifier', f.aVerifier, v => changer('aVerifier', v), 'Éléments dont une information est incertaine'));
     zone.push(h('button', { class: 'bouton petit', title: 'Remettre tous les filtres à zéro', onclick: () => { Object.assign(f, FILTRES_DEFAUT, { tri: f.tri }); construireFiltres(); rafraichir(); } }, 'Réinitialiser'));
     vider(barreFiltres).append(...zone);
@@ -99,6 +138,15 @@ export async function afficherCollection(conteneur, jeu, cat) {
     if (e.groupe && groupesMultiples.has(e.groupe.id)) return e.groupe.fr;
     if (e.sous) return e.sous;
     return e.prix && e.prix.vente != null ? clochettes(e.prix.vente) : '';
+  }
+
+  // Petites étoiles de rareté sous le nom (seulement si le jeu a des taux d'apparition).
+  function etoilesCarte(e) {
+    if (!cr) return null;
+    const m = maxAnnee(cr, e.id);
+    const note = m && etoilesPour(m.note, seuilsEtoiles());
+    if (!note) return h('div', { class: 'etoiles-carte inconnue', title: 'Rareté inconnue' }, '☆☆☆☆☆');
+    return h('div', { class: 'etoiles-carte', title: `${note.nom} (${note.etoiles}/5)` }, texteEtoiles(note.etoiles));
   }
 
   function creerCarte(e) {
@@ -136,6 +184,7 @@ export async function afficherCollection(conteneur, jeu, cat) {
       h('div', { class: 'nom' }, e.nom.fr),
       e.nom.en.toLowerCase() !== e.nom.fr.toLowerCase() ? h('div', { class: 'nom-en' }, e.nom.en) : null,
       h('div', { class: 'infos' }, infosCarte(e)),
+      etoilesCarte(e),
       badges.length ? h('div', { class: 'badges' }, badges) : null,
       cat.musee ? h('div', { class: 'coches' }, coche('musee', st.musee ? '🏛 Au musée' : '🏛 Musée', 'Donné au musée')) : null,
     );
@@ -170,7 +219,7 @@ export async function afficherCollection(conteneur, jeu, cat) {
   }
 
   function rafraichir() {
-    liste = trier(filtrer(elements, f, { profil: etat.profil, categorie: cat.id, maintenant: maintenant() }), f.tri);
+    liste = trier(filtrer(elements, f, { profil: etat.profil, categorie: cat.id, maintenant: maintenant(), provenance: provenanceDe }), f.tri, { rarete: ctxRarete() });
     cartes.clear();
     vider(grille);
     affiches = 0;
@@ -208,7 +257,7 @@ export async function afficherCollection(conteneur, jeu, cat) {
       rafraichir();
     } else if (raison === 'heure' && creature) {
       // L'heure a changé : on met à jour la liste si elle dépend de l'heure, sinon juste les pastilles « Dispo ».
-      if (f.maintenant || f.saison || (f.heure !== '' && !f.mois)) rafraichir();
+      if (f.maintenant || f.saison || f.tri === 'rarete-maintenant' || (f.heure !== '' && !f.mois)) rafraichir();
       else for (const [id, c] of cartes) majDispo(c, elements.find(x => x.id === id));
     }
   });

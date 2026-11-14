@@ -28,11 +28,25 @@ export function vider(el) {
   return el;
 }
 
+// « https://dodo.ac/np/images/thumb/9/99/X.png/128px-X.png » -> « https://dodo.ac/np/images/9/99/X.png » (sinon null).
+export function imageOrigine(url) {
+  const m = /^(https:\/\/dodo\.ac\/np\/images\/)thumb\/([0-9a-f]\/[0-9a-f]{2}\/[^/]+)\/\d+px-[^/]+$/.exec(String(url || ''));
+  return m ? m[1] + m[2] : null;
+}
+
 // Image distante passée par le cache local de l'appli.
 export function image(url, alt = '', classe = 'vignette') {
   if (!url) return h('div', { class: `${classe} sans-image`, 'aria-hidden': 'true' }, '?');
   const img = h('img', { class: classe, alt, loading: 'lazy', decoding: 'async', src: `nookimg://img/${encodeURIComponent(url)}` });
-  img.addEventListener('error', () => img.replaceWith(h('div', { class: `${classe} sans-image`, title: 'Image indisponible' }, '?')), { once: true });
+  // Nookipedia ne fabrique pas de miniature plus grande que l'image d'origine (« …/thumb/9/99/X.png/128px-X.png »
+  // répond 404) : on réessaie alors avec l'image d'origine, avant d'afficher « ? ».
+  const origine = imageOrigine(url);
+  const echec = () => img.replaceWith(h('div', { class: `${classe} sans-image`, title: 'Image indisponible' }, '?'));
+  img.addEventListener('error', () => {
+    if (!origine) return echec();
+    img.addEventListener('error', echec, { once: true });
+    img.src = `nookimg://img/${encodeURIComponent(origine)}`;
+  }, { once: true });
   return img;
 }
 

@@ -396,3 +396,75 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
 .ligne-evenement .nom { font-weight: 600; }
 .icone-evenement { width: 40px; height: 40px; display: grid; place-items: center; font-size: 22px; background: var(--surface-2); border-radius: 50%; flex-shrink: 0; }
 .puce-element.en-cours { border-color: var(--jaune); background: var(--jaune-pale); }
+
+/* ---------- Rareté (taux d'apparition) ---------- */
+.etoiles { color: #d9a21b; letter-spacing: 1px; font-size: 16px; }
+.element .etoiles-carte { color: #d9a21b; font-size: 12px; letter-spacing: 1px; margin-top: 2px; }
+.element .etoiles-carte.inconnue { color: var(--bord); }
+.rarete-note { margin-bottom: 8px; }
+.rarete-maintenant { margin: 6px 0 2px; }
+.grand-pourcent { font-size: 22px; font-weight: 700; color: var(--vert-fonce); }
+.grand-pourcent.absent { color: var(--texte-doux); }
+.info-bulle { cursor: help; color: var(--texte-doux); font-size: 13px; }
+.grille-rarete-cadre { overflow-x: auto; margin-top: 10px; }
+.grille-rarete { border-collapse: separate; border-spacing: 2px; font-size: 11.5px; width: 100%; }
+.grille-rarete th { font-weight: 600; color: var(--texte-doux); padding: 3px 4px; white-space: nowrap; }
+.grille-rarete thead th { font-size: 10.5px; }
+.grille-rarete tbody th { text-align: left; }
+.grille-rarete th.courant, .grille-rarete tr.courant th { color: var(--texte); }
+.grille-rarete td { text-align: center; padding: 4px 2px; border-radius: 6px; white-space: nowrap; min-width: 30px; }
+.grille-rarete td.vide { background: var(--surface-2); }
+.grille-rarete td.n1 { background: #e3f4ea; color: #2f6b4f; }
+.grille-rarete td.n2 { background: #c4e8d4; color: #2f6b4f; }
+.grille-rarete td.n3 { background: #f8e3b0; color: #7a5a0e; }
+.grille-rarete td.n4 { background: #f3c08a; color: #6e3d0c; }
+.grille-rarete td.n5 { background: #e98f8f; color: #5e1b1b; font-weight: 650; }
+.grille-rarete td.ici { outline: 2px solid var(--texte); outline-offset: -1px; }
+.rarete-source { margin-top: 10px; }
+.rarete-source summary { cursor: pointer; font-size: 12.5px; color: var(--texte-doux); }
+.grille-rarete td.en-transition { background: var(--surface-2); color: var(--texte-doux); font-style: italic; text-align: left; padding-left: 8px; }
+.code-objet { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 6px 0; }
+.code-objet > .aide { flex-basis: 100%; }
+.code-lignes { margin: 0; padding: 8px 10px; border-radius: 8px; background: var(--surface-2); font-family: Consolas, "Courier New", monospace; font-size: 14px; letter-spacing: 1px; user-select: all; }
+
+/* ---------- Ville parfaite (Wild World) ---------- */
+.ville-outils { align-items: center; }
+.ville-outils .separateur { flex: 1; }
+.ville-zone { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; margin-top: 10px; }
+.ville-carte { display: grid; grid-template-columns: repeat(4, auto); gap: 4px; padding: 6px; background: var(--surface-2); border-radius: 10px; }
+.ville-cadre { border: 3px solid transparent; border-radius: 4px; background: var(--surface); }
+.ville-cadre.choisi { outline: 3px solid var(--texte); outline-offset: 1px; }
+.ville-etiquette { font-size: 10.5px; padding: 1px 4px; color: var(--texte-doux); white-space: nowrap; }
+.ville-acre { display: block; cursor: crosshair; image-rendering: pixelated; }
+.ville-panneau { flex: 1; min-width: 280px; max-width: 460px; }
+.ville-panneau h2 { margin: 0 0 4px; }
+.ville-saisies { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: flex-end; }
+.ville-saisies label { display: flex; flex-direction: column; font-size: 12.5px; gap: 2px; }
+.ville-saisies label.ligne, .ville-panneau label.ligne { flex-direction: row; align-items: center; gap: 4px; }
+.champ-nombre { width: 70px; }
+.badge-rang { display: inline-block; color: #fff; font-weight: 700; font-size: 12px; padding: 1px 8px; border-radius: 10px; }
+.ville-legende { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--texte-doux); margin: 12px 0; }
+.ville-legende span { display: inline-flex; align-items: center; gap: 5px; }
+.ville-legende i { display: inline-block; width: 12px; height: 12px; border: 1px solid rgba(0,0,0,0.2); }
+.ville-legende i.rond { border-radius: 50%; }
+.ville-recap { border-collapse: collapse; font-size: 12.5px; width: 100%; max-width: 980px; }
+.ville-recap th, .ville-recap td { border-bottom: 1px solid var(--surface-2); padding: 3px 6px; text-align: left; }
+.ville-recap tbody tr { cursor: pointer; }
+.ville-recap tr.courant td { background: var(--surface-2); }
+.ville-jours { display: flex; flex-wrap: wrap; gap: 4px; }
+.ville-jour { border: 1px solid var(--surface-2); background: var(--surface); border-radius: 6px; padding: 4px 6px; font-size: 12px; cursor: pointer; color: var(--texte); }
+.ville-jour.oui { background: #2e7d32; color: #fff; border-color: #2e7d32; }
+.ville-jour.courant { outline: 2px solid var(--texte); }
+.ville-bibliotheque h3 { margin: 14px 0 6px; }
+.ville-modeles { display: flex; flex-wrap: wrap; gap: 6px; }
+.ville-modele { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px; border: 2px solid transparent; border-radius: 6px; background: var(--surface-2); cursor: pointer; color: var(--texte); max-width: 96px; }
+.ville-modele.choisi { border-color: #2e7d32; }
+.ville-modele small { font-size: 10px; color: var(--texte-doux); text-align: center; }
+.ville-apercu { image-rendering: pixelated; }
+
+/* ---------- Quoi de neuf ? ---------- */
+.nouveautes h3 { margin: 16px 0 6px; }
+.nouveautes h3:first-child { margin-top: 0; }
+.nouveautes p { margin: 4px 0; }
+.nouveautes-liste { margin: 4px 0 8px; padding-left: 20px; }
+.nouveautes-liste li { margin: 3px 0; }
