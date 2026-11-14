@@ -1,0 +1,1405 @@
+[
+ {
+  "id": "airmail-paper",
+  "nom": {
+   "fr": "Papier par avion",
+   "en": "Airmail paper"
+  },
+  "image": "https://dodo.ac/np/images/8/80/Airmail_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "aloha-paper",
+  "nom": {
+   "fr": "Papier Hawaii",
+   "en": "Aloha paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Aloha_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bamboo-paper",
+  "nom": {
+   "fr": "Papier bambou",
+   "en": "Bamboo paper"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Bamboo_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "blossom-paper",
+  "nom": {
+   "fr": "Papier fleurs",
+   "en": "Blossom paper"
+  },
+  "image": "https://dodo.ac/np/images/7/77/Blossom_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "bluebell-paper",
+  "nom": {
+   "fr": "Papier campanule",
+   "en": "Bluebell paper"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Bluebell_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "butterfly-paper",
+  "nom": {
+   "fr": "Papier papillon",
+   "en": "Butterfly paper"
+  },
+  "image": "https://dodo.ac/np/images/9/96/Butterfly_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cloudy-paper",
+  "nom": {
+   "fr": "Papier nuages",
+   "en": "Cloudy paper"
+  },
+  "image": "https://dodo.ac/np/images/4/47/Cloudy_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cool-neon-paper",
+  "nom": {
+   "fr": "Papier néon bleu",
+   "en": "Cool neon paper"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Cool_Neon_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "cool-paper",
+  "nom": {
+   "fr": "Papier branché",
+   "en": "Cool paper"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Cool_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dainty-paper",
+  "nom": {
+   "fr": "Papier délicat",
+   "en": "Dainty paper"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Dainty_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "daisy-paper",
+  "nom": {
+   "fr": "Papier floral",
+   "en": "Daisy paper"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Daisy_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "deep-sea-paper",
+  "nom": {
+   "fr": "Papier abysse",
+   "en": "Deep sea paper"
+  },
+  "image": "https://dodo.ac/np/images/0/05/Deep_Sea_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dizzy-paper",
+  "nom": {
+   "fr": "Papier vertige",
+   "en": "Dizzy paper"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Dizzy_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "dragon-paper",
+  "nom": {
+   "fr": "Papier dragon",
+   "en": "Dragon paper"
+  },
+  "image": "https://dodo.ac/np/images/1/1d/Dragon_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "elegant-paper",
+  "nom": {
+   "fr": "Papier élégant",
+   "en": "Elegant paper"
+  },
+  "image": "https://dodo.ac/np/images/2/22/Elegant_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "essay-paper",
+  "nom": {
+   "fr": "Papier à cases",
+   "en": "Essay paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a9/Essay_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fantasy-paper",
+  "nom": {
+   "fr": "Papier fantaisie",
+   "en": "Fantasy paper"
+  },
+  "image": "https://dodo.ac/np/images/f/f6/Fantasy_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "felt-paper",
+  "nom": {
+   "fr": "Papier décoré",
+   "en": "Felt paper"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Felt_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "festive-paper",
+  "nom": {
+   "fr": "Papier festif",
+   "en": "Festive paper"
+  },
+  "image": "https://dodo.ac/np/images/9/93/Festive_Paper_PG.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fireworks-paper",
+  "nom": {
+   "fr": "Papier artifice",
+   "en": "Fireworks paper"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Fireworks_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "fortune-paper",
+  "nom": {
+   "fr": "Papier fortune",
+   "en": "Fortune paper"
+  },
+  "image": "https://dodo.ac/np/images/f/fb/Fortune_Paper_PG.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "gingko-paper",
+  "nom": {
+   "fr": "Papier ginkgo",
+   "en": "Gingko paper"
+  },
+  "image": "https://dodo.ac/np/images/c/ce/Gingko_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "gyroid-paper",
+  "nom": {
+   "fr": "Papier gyroïde",
+   "en": "Gyroid paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a9/Gyroid_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "honeybee-paper",
+  "nom": {
+   "fr": "Papier ruche",
+   "en": "Honeybee paper"
+  },
+  "image": "https://dodo.ac/np/images/0/06/Honeybee_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "horsetail-paper",
+  "nom": {
+   "fr": "Papier jonc",
+   "en": "Horsetail paper"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Horsetail_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "hot-neon-paper",
+  "nom": {
+   "fr": "Papier néon rose",
+   "en": "Hot neon paper"
+  },
+  "image": "https://dodo.ac/np/images/6/60/Hot_Neon_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "inky-paper",
+  "nom": {
+   "fr": "Papier sombre",
+   "en": "Inky paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Inky_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ivy-paper",
+  "nom": {
+   "fr": "Papier lierre",
+   "en": "Ivy paper"
+  },
+  "image": "https://dodo.ac/np/images/a/ae/Ivy_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lacy-paper",
+  "nom": {
+   "fr": "Papier dentelle",
+   "en": "Lacy paper"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Lacy_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "lattice-paper",
+  "nom": {
+   "fr": "Papier treillis",
+   "en": "Lattice paper"
+  },
+  "image": "https://dodo.ac/np/images/5/51/Lattice_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "maple-leaf-paper",
+  "nom": {
+   "fr": "Papier érable",
+   "en": "Maple leaf paper"
+  },
+  "image": "https://dodo.ac/np/images/8/8d/Maple_Leaf_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "misty-paper",
+  "nom": {
+   "fr": "Papier brume",
+   "en": "Misty paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2a/Misty_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "museum-paper",
+  "nom": {
+   "fr": "Papier musée",
+   "en": "Museum paper"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Museum_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "mystic-paper",
+  "nom": {
+   "fr": "Papier mystique",
+   "en": "Mystic paper"
+  },
+  "image": "https://dodo.ac/np/images/9/9a/Mystic_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "neat-paper",
+  "nom": {
+   "fr": "Papier soigné",
+   "en": "Neat paper"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Neat_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "new-years-card",
+  "nom": {
+   "fr": "Carte de væux",
+   "en": "New year's card"
+  },
+  "image": "https://dodo.ac/np/images/d/db/New_Year's_Card_PG.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "noodle-paper",
+  "nom": {
+   "fr": "Papier Asie",
+   "en": "Noodle paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Noodle_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "octopus-paper",
+  "nom": {
+   "fr": "Papier pieuvre",
+   "en": "Octopus paper"
+  },
+  "image": "https://dodo.ac/np/images/0/0d/Octopus_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "orange-paper",
+  "nom": {
+   "fr": "Papier orange",
+   "en": "Orange paper"
+  },
+  "image": "https://dodo.ac/np/images/c/cc/Orange_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "panda-paper",
+  "nom": {
+   "fr": "Papier panda",
+   "en": "Panda paper"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Panda_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "parchment",
+  "nom": {
+   "fr": "Parchemin",
+   "en": "Parchment"
+  },
+  "image": "https://dodo.ac/np/images/7/70/Parchment_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "petal-paper",
+  "nom": {
+   "fr": "Papier pétales",
+   "en": "Petal paper"
+  },
+  "image": "https://dodo.ac/np/images/3/3f/Petal_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "polka-dot-paper",
+  "nom": {
+   "fr": "Papier à pois",
+   "en": "Polka-dot paper"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Polka-Dot_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rainbow-paper",
+  "nom": {
+   "fr": "Papier irisé",
+   "en": "Rainbow paper"
+  },
+  "image": "https://dodo.ac/np/images/3/34/Rainbow_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "rainy-day-paper",
+  "nom": {
+   "fr": "Papier pluie",
+   "en": "Rainy day paper"
+  },
+  "image": "https://dodo.ac/np/images/4/4c/Rainy_Day_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ranch-paper",
+  "nom": {
+   "fr": "Papier ranch",
+   "en": "Ranch paper"
+  },
+  "image": "https://dodo.ac/np/images/9/98/Ranch_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "ribbon-paper",
+  "nom": {
+   "fr": "Papier ruban",
+   "en": "Ribbon paper"
+  },
+  "image": "https://dodo.ac/np/images/c/c8/Ribbon_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "simple-paper",
+  "nom": {
+   "fr": "Papier normal",
+   "en": "Simple paper"
+  },
+  "image": "https://dodo.ac/np/images/c/c2/Simple_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "skyline-paper",
+  "nom": {
+   "fr": "Papier ville",
+   "en": "Skyline paper"
+  },
+  "image": "https://dodo.ac/np/images/d/df/Skyline_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "snowy-paper",
+  "nom": {
+   "fr": "Papier flocons",
+   "en": "Snowy paper"
+  },
+  "image": "https://dodo.ac/np/images/2/25/Snowy_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "sparkly-paper",
+  "nom": {
+   "fr": "Papier brillant",
+   "en": "Sparkly paper"
+  },
+  "image": "https://dodo.ac/np/images/b/b0/Sparkly_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "spooky-paper",
+  "nom": {
+   "fr": "Papier halloween",
+   "en": "Spooky paper"
+  },
+  "image": "https://dodo.ac/np/images/6/62/Spooky_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "stageshow-paper",
+  "nom": {
+   "fr": "Papier théâtre",
+   "en": "Stageshow paper"
+  },
+  "image": "https://dodo.ac/np/images/3/36/Stageshow_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "starry-sky-paper",
+  "nom": {
+   "fr": "Papier étoilé",
+   "en": "Starry sky paper"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Starry_Sky_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "steel-paper",
+  "nom": {
+   "fr": "Papier acier",
+   "en": "Steel paper"
+  },
+  "image": "https://dodo.ac/np/images/6/64/Steel_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "sunset-paper",
+  "nom": {
+   "fr": "Papier couchant",
+   "en": "Sunset paper"
+  },
+  "image": "https://dodo.ac/np/images/c/cb/Sunset_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "thick-paper",
+  "nom": {
+   "fr": "Papier épais",
+   "en": "Thick paper"
+  },
+  "image": "https://dodo.ac/np/images/5/56/Thick_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "tile-paper",
+  "nom": {
+   "fr": "Papier carreaux",
+   "en": "Tile paper"
+  },
+  "image": "https://dodo.ac/np/images/f/fa/Tile_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "vine-paper",
+  "nom": {
+   "fr": "Papier vigne",
+   "en": "Vine paper"
+  },
+  "image": "https://dodo.ac/np/images/9/99/Vine_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "watermelon-paper",
+  "nom": {
+   "fr": "Papier pastèque",
+   "en": "Watermelon paper"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Watermelon_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "wing-paper",
+  "nom": {
+   "fr": "Papier aile",
+   "en": "Wing paper"
+  },
+  "image": "https://dodo.ac/np/images/5/5b/Wing_Paper_PG.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "winter-paper",
+  "nom": {
+   "fr": "Papier hiver",
+   "en": "Winter paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Winter_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "woodcut-paper",
+  "nom": {
+   "fr": "Papier découpage",
+   "en": "Woodcut paper"
+  },
+  "image": "https://dodo.ac/np/images/3/3c/Woodcut_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ },
+ {
+  "id": "woodland-paper",
+  "nom": {
+   "fr": "Papier forêt",
+   "en": "Woodland paper"
+  },
+  "image": "https://dodo.ac/np/images/c/c4/Woodland_Paper_PG.png",
+  "prix": {
+   "achat": 160,
+   "vente": 10
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés (si courant), N'importe quel habitant, Follet"
+  ],
+  "versions": [
+   "Dōbutsu no Mori (N64)",
+   "Dōbutsu no Mori+",
+   "Animal Crossing",
+   "Dōbutsu no Mori e+"
+  ]
+ }
+]

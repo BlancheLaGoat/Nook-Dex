@@ -490,6 +490,18 @@
     "nom": "Gyroïdes",
     "icone": "🏺",
     "type": "objet"
+   },
+   {
+    "id": "outils",
+    "nom": "Outils",
+    "icone": "🪓",
+    "type": "objet"
+   },
+   {
+    "id": "papeterie",
+    "nom": "Papeterie",
+    "icone": "✉️",
+    "type": "objet"
    }
   ]
  }

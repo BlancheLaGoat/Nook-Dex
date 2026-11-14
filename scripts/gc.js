@@ -139,6 +139,23 @@ async function main() {
 
   cats.gyroides = objets(await c('pg_gyroid'), { frDe: (l, nom) => frObjet(nom) });
 
+  // Outils (dont parapluies, éventails, moulinets, ballons) et papeterie : les catégories
+  // « Items » et « Stationery » du tableur des codes (ACGC Hundo Helper).
+  const TYPES_OUTILS = {
+    Axe: 'Hache', Fan: 'Éventail', Umbrella: 'Parapluie', 'Balloon (item)': 'Ballon', Pinwheel: 'Moulinet',
+    'Fishing rod': 'Canne à pêche', Net: 'Filet', Shovel: 'Pelle', 'Party popper': 'Cotillon',
+  };
+  const avecVersions = (l, e) => { e.versions = versionsDe(l); };
+  cats.outils = objets((await c('pg_tool')).filter(dansAC), {
+    frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier),
+    sous: l => TYPES_OUTILS[l.type] || l.type,
+    complement: avecVersions,
+  });
+  cats.papeterie = objets((await c('pg_stationery')).filter(dansAC), {
+    frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier),
+    complement: avecVersions,
+  });
+
   // Ce que les versions japonaises ont en plus (pour information).
   const enPlus = liste => liste.filter(l => l.in_pg !== '1' && l.in_e_plus === '1').map(l => l.name);
   const notesJp = {
