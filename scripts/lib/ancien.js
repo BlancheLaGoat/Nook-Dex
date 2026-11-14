@@ -421,3 +421,31 @@ function affinerAvecDates(periodes, texte) {
   return res;
 }
 module.exports.affinerAvecDates = affinerAvecDates;
+
+// Refait les périodes d'une fiche à partir d'une présence mois par mois :
+//   cible = Map(mois -> null (mois entier) | [1, 15] | [16, 31])
+// Garde les horaires de la fiche ; un mois ajouté prend les horaires du mois le plus proche.
+function periodesAvecPresence(periodes, cible) {
+  const heuresParMois = new Map();
+  for (const p of periodes) for (const m of p.mois) if (!heuresParMois.has(m)) heuresParMois.set(m, p.heures);
+  const distance = (a, b) => Math.min((a - b + 12) % 12, (b - a + 12) % 12);
+  const heuresDe = m => {
+    if (heuresParMois.has(m)) return heuresParMois.get(m);
+    const proche = [...heuresParMois.keys()].sort((a, b) => distance(a, m) - distance(b, m) || a - b)[0];
+    return proche != null ? heuresParMois.get(proche) : [[0, 24]];
+  };
+  const groupes = new Map();
+  for (const m of [...cible.keys()].sort((a, b) => a - b)) {
+    const jours = cible.get(m);
+    const heures = heuresDe(m);
+    const cle = JSON.stringify([heures, jours]);
+    if (!groupes.has(cle)) groupes.set(cle, { mois: [], heures, ...(jours ? { jours } : {}) });
+    groupes.get(cle).mois.push(m);
+  }
+  // Même ordre que la fiche d'origine : d'abord les périodes qui existaient déjà.
+  const ordre = periodes.map(p => JSON.stringify([p.heures, p.jours || null]));
+  const rang = cle => { const i = ordre.indexOf(cle); return i < 0 ? 99 : i; };
+  return [...groupes.entries()].sort(([a], [b]) => rang(a) - rang(b)).map(([, g]) => g);
+}
+
+module.exports.periodesAvecPresence = periodesAvecPresence;

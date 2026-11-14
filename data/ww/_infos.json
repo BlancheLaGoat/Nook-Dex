@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-13",
+ "genere_le": "2026-11-14",
  "sources": [
   {
    "nom": "Nookipedia",
@@ -8,6 +8,10 @@
   {
    "nom": "Data Spreadsheet for Animal Crossing: Wild World",
    "url": "https://nookipedia.com/wiki/Community:ACWW_Spreadsheet"
+  },
+  {
+   "nom": "animalcrossing-online.com (périodes des poissons)",
+   "url": "https://www.animalcrossing-online.com/wild-world-ds/poissons.php"
   }
  ]
 }

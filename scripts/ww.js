@@ -2,6 +2,7 @@
 //
 // Sources :
 //  - Nookipedia (tables Cargo ww_*) : créatures, fossiles, meubles, vêtements…
+//  - animalcrossing-online.com : périodes d'apparition des poissons (à la quinzaine près).
 //  - « Data Spreadsheet for Animal Crossing: Wild World » : noms français (créatures, musiques).
 //  - Table ww_language_name : noms français des objets.
 //
@@ -14,9 +15,75 @@ const path = require('path');
 const { lireClasseurAvecCache } = require('./lib/xlsx');
 const { tableCargo } = require('./lib/cargo');
 const { DOSSIER_SOURCES, telecharger, majuscule, slug } = require('./lib/outils');
-const { creatures, objets, dicoLangue, ecrireJeu, nommerGroupesFossiles } = require('./lib/ancien');
+const { creatures, objets, dicoLangue, ecrireJeu, nommerGroupesFossiles, periodesAvecPresence } = require('./lib/ancien');
 
-const TABLEUR = { fichier: path.join(DOSSIER_SOURCES, 'ww', 'ww.xlsx'), url: 'https://docs.google.com/spreadsheets/d/1aGEu_eoS3a-g_Tf--ewS0fLhyOHbNzpSc5jtaEE8nrA/export?format=xlsx' };
+// Périodes d'apparition des poissons : celles d'animalcrossing-online.com font foi, à la quinzaine près
+// (« 16 juin - septembre »). Les horaires restent ceux de Nookipedia.
+const PAGE_POISSONS = {
+  url: 'https://www.animalcrossing-online.com/wild-world-ds/poissons.php',
+  fichier: path.join(DOSSIER_SOURCES, 'aco', 'ww-poissons.html'),
+};
+const MOIS_FR = ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembre', 'decembre'];
+const simple = t => String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/œ/g, 'oe').replace(/-/g, ' ').trim();
+
+// « 16 juin - septembre », « Mars - juin, septembre - novembre », « 16 - 31 août », « Septembre », « Toute l'année »
+// -> Map(mois -> null (mois entier) | [1, 15] | [16, 31])
+function presenceDepuisSite(texte) {
+  const quinzaines = new Set(); // "8.1" = 1-15 août, "8.2" = 16-31 août
+  const lire = (x, debut) => {
+    const m = /^(?:(\d+)\s+)?(\S+)$/.exec(simple(x));
+    const mois = m ? MOIS_FR.indexOf(m[2]) + 1 : 0;
+    if (!mois) throw new Error(`période illisible sur animalcrossing-online.com : « ${texte} »`);
+    return { mois, q: m[1] ? (Number(m[1]) >= 16 ? 2 : 1) : debut ? 1 : 2 };
+  };
+  if (/toute/.test(simple(texte))) {
+    for (let m = 1; m <= 12; m++) { quinzaines.add(`${m}.1`); quinzaines.add(`${m}.2`); }
+  } else {
+    for (const morceau of texte.split(',')) {
+      const [a, b] = morceau.split(/\s+-\s+/).map(x => x.trim());
+      const fin = lire(b || a, false);
+      // « 16 - 31 août » : le début n'a que le jour, le mois est celui de la fin.
+      let cur = /^\d+$/.test(a) ? { mois: fin.mois, q: Number(a) >= 16 ? 2 : 1 } : lire(a, true);
+      for (let n = 0; n < 24; n++) {
+        quinzaines.add(`${cur.mois}.${cur.q}`);
+        if (cur.mois === fin.mois && cur.q === fin.q) break;
+        cur = cur.q === 1 ? { mois: cur.mois, q: 2 } : { mois: (cur.mois % 12) + 1, q: 1 };
+      }
+    }
+  }
+  const presence = new Map();
+  for (let m = 1; m <= 12; m++) {
+    const q1 = quinzaines.has(`${m}.1`), q2 = quinzaines.has(`${m}.2`);
+    if (q1 && q2) presence.set(m, null);
+    else if (q1) presence.set(m, [1, 15]);
+    else if (q2) presence.set(m, [16, 31]);
+  }
+  return presence;
+}
+
+// Nom français (simplifié) -> { texte, presence }, lu dans la section « Tous les poissons ».
+async function periodesDuSite(maj) {
+  if (maj || !fs.existsSync(PAGE_POISSONS.fichier)) {
+    for (let essai = 1; essai <= 4; essai++) {
+      try { await telecharger(PAGE_POISSONS.url, PAGE_POISSONS.fichier, 5, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'); break; } catch (e) {
+        console.log(`  page poissons : essai ${essai} raté (${e.message})`);
+        await new Promise(r => setTimeout(r, 2000 * essai));
+      }
+    }
+  }
+  const res = new Map();
+  if (!fs.existsSync(PAGE_POISSONS.fichier)) return res;
+  const html = fs.readFileSync(PAGE_POISSONS.fichier, 'utf8');
+  const debut = html.indexOf('Tous les poissons');
+  const section = debut >= 0 ? html.slice(debut) : html;
+  for (const x of section.matchAll(/<h4 class="name2">([^<]+)<\/h4>(?:\s*<span class="rareline">[^<]*<\/span>)?\s*<\/span>\s*<span class="first infosline"><strong>Période : <\/strong>\s*([^<]+?)\s*<\/span>/g)) {
+    const cle = simple(x[1]);
+    if (!res.has(cle)) res.set(cle, { texte: x[2], presence: presenceDepuisSite(x[2]) });
+  }
+  return res;
+}
+
+const TABLEUR ={ fichier: path.join(DOSSIER_SOURCES, 'ww', 'ww.xlsx'), url: 'https://docs.google.com/spreadsheets/d/1aGEu_eoS3a-g_Tf--ewS0fLhyOHbNzpSc5jtaEE8nrA/export?format=xlsx' };
 const TYPES_VETEMENTS = { Shirts: 'Hauts', Hats: 'Chapeaux', Helmets: 'Casques', Accessories: 'Accessoires', Umbrellas: 'Parapluies' };
 
 async function main() {
@@ -59,6 +126,16 @@ async function main() {
   const cats = {};
   cats.insectes = creatures(await c('ww_bug'), optionsCreatures('Insects'));
   cats.poissons = creatures(await c('ww_fish'), optionsCreatures('Fish'));
+  const site = await periodesDuSite(maj);
+  if (!site.size) console.log('  ⚠ périodes des poissons : page animalcrossing-online.com illisible, on garde celles de Nookipedia.');
+  else {
+    for (const e of cats.poissons) {
+      const p = site.get(simple(e.nom.fr));
+      if (!p) { console.log(`  ⚠ ${e.nom.fr} : absent d'animalcrossing-online.com, période de Nookipedia gardée.`); continue; }
+      e.dispo.tous = periodesAvecPresence(e.dispo.tous, p.presence);
+      e.notes = [...(e.notes || []), `Période d'apparition : animalcrossing-online.com (« ${p.texte} »).`];
+    }
+  }
 
   const fossilesTableur = parNom('Fossils');
   cats.fossiles = nommerGroupesFossiles(objets(await c('ww_fossil'), {
@@ -108,7 +185,9 @@ async function main() {
   ecrireJeu('ww', cats, [
     { nom: 'Nookipedia', url: 'https://nookipedia.com' },
     { nom: 'Data Spreadsheet for Animal Crossing: Wild World', url: 'https://nookipedia.com/wiki/Community:ACWW_Spreadsheet' },
+    { nom: 'animalcrossing-online.com (périodes des poissons)', url: PAGE_POISSONS.url },
   ]);
 }
 
-main().catch(err => { console.error(err); process.exit(1); });
+if (require.main === module) main().catch(err => { console.error(err); process.exit(1); });
+module.exports = { presenceDepuisSite };

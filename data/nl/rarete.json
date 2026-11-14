@@ -1,0 +1,4816 @@
+{
+ "_genere": "Fichier fabriqué par scripts/rarete.js à partir de data/rarete/ : ne pas modifier à la main.",
+ "jeu": "nl",
+ "titre": "Animal Crossing: New Leaf (3DS, EUR, version 1.0)",
+ "source": "code.bin (ExeFS) ; tables 0x0090EF44 (insectes), 0x009033B8 (rivière), 0x00904420 (mer), 0x009053E0 (créatures marines)",
+ "notes": [
+  "Poissons et créatures marines : poids sur 100, chaque créneau totalise 100.",
+  "Insectes : poids sur 1000 (convertis en %), chaque créneau totalise 1000 ; 'Aucun insecte' (id 81) = part sans apparition.",
+  "Août et septembre changent de table le 16 (poissons et créatures marines).",
+  "Ids 72-74 en pêche = déchets ; id 107 (mer et plongée) et id 72 côté insectes (5 % de décembre à février) : non identifiés.",
+  "Tables de la ville uniquement (pas l'île de Tortimer ni les tours).",
+  "Le cœlacanthe est dans la table mer ; la condition pluie/neige est appliquée ailleurs dans le code (non vérifiée)."
+ ],
+ "categories": {
+  "poissons": {
+   "creneaux": [
+    {
+     "id": "4h-9h et 16h-21h",
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "id": "9h-16h",
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    },
+    {
+     "id": "21h-4h",
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 18,
+      "crucian-carp": 5,
+      "dace": 10,
+      "barbel-steed": 5,
+      "carp": 3,
+      "koi": 2,
+      "goldfish": 1,
+      "freshwater-goby": 1,
+      "yellow-perch": 7,
+      "black-bass": 4,
+      "pond-smelt": 39,
+      "stringfish": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 10,
+      "horse-mackerel": 20,
+      "sea-bass": 16,
+      "red-snapper": 4,
+      "dab": 13,
+      "olive-flounder": 7,
+      "squid": 8,
+      "football-fish": 6,
+      "tuna": 2,
+      "oarfish": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 18,
+      "pale-chub": 5,
+      "crucian-carp": 7,
+      "barbel-steed": 5,
+      "carp": 3,
+      "goldfish": 1,
+      "pop-eyed-goldfish": 1,
+      "bluegill": 3,
+      "yellow-perch": 8,
+      "black-bass": 6,
+      "pond-smelt": 39
+     }
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 9,
+      "horse-mackerel": 24,
+      "sea-bass": 18,
+      "red-snapper": 4,
+      "dab": 14,
+      "olive-flounder": 8,
+      "squid": 8,
+      "tuna": 2,
+      "oarfish": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 10,
+      "crucian-carp": 5,
+      "dace": 15,
+      "barbel-steed": 15,
+      "carp": 4,
+      "koi": 1,
+      "goldfish": 1,
+      "freshwater-goby": 5,
+      "yellow-perch": 6,
+      "black-bass": 4,
+      "pond-smelt": 29,
+      "stringfish": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 12,
+      "blowfish": 5,
+      "horse-mackerel": 19,
+      "sea-bass": 15,
+      "red-snapper": 4,
+      "dab": 13,
+      "olive-flounder": 7,
+      "squid": 8,
+      "football-fish": 8,
+      "tuna": 2,
+      "oarfish": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 18,
+      "crucian-carp": 5,
+      "dace": 10,
+      "barbel-steed": 5,
+      "carp": 3,
+      "koi": 2,
+      "goldfish": 1,
+      "freshwater-goby": 1,
+      "yellow-perch": 7,
+      "black-bass": 4,
+      "pond-smelt": 39,
+      "stringfish": 1
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 8,
+      "horse-mackerel": 20,
+      "sea-bass": 16,
+      "red-snapper": 4,
+      "dab": 14,
+      "olive-flounder": 8,
+      "squid": 13,
+      "football-fish": 6,
+      "tuna": 4,
+      "oarfish": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 18,
+      "pale-chub": 5,
+      "crucian-carp": 7,
+      "barbel-steed": 5,
+      "carp": 3,
+      "goldfish": 1,
+      "pop-eyed-goldfish": 1,
+      "bluegill": 3,
+      "yellow-perch": 8,
+      "black-bass": 6,
+      "pond-smelt": 39
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 7,
+      "horse-mackerel": 24,
+      "sea-bass": 19,
+      "red-snapper": 4,
+      "dab": 13,
+      "olive-flounder": 8,
+      "squid": 12,
+      "tuna": 4,
+      "oarfish": 1
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 10,
+      "crucian-carp": 5,
+      "dace": 15,
+      "barbel-steed": 15,
+      "carp": 4,
+      "koi": 1,
+      "goldfish": 1,
+      "freshwater-goby": 5,
+      "yellow-perch": 6,
+      "black-bass": 4,
+      "pond-smelt": 29,
+      "stringfish": 1
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 11,
+      "blowfish": 5,
+      "horse-mackerel": 16,
+      "sea-bass": 15,
+      "red-snapper": 4,
+      "dab": 14,
+      "olive-flounder": 8,
+      "squid": 10,
+      "football-fish": 8,
+      "tuna": 2,
+      "oarfish": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 10,
+      "dace": 8,
+      "barbel-steed": 6,
+      "carp": 3,
+      "koi": 2,
+      "goldfish": 2,
+      "tadpole": 5,
+      "freshwater-goby": 1,
+      "loach": 20,
+      "yellow-perch": 5,
+      "black-bass": 6,
+      "cherry-salmon": 10,
+      "char": 8,
+      "rainbow-trout": 10
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "horse-mackerel": 24,
+      "barred-knifejaw": 3,
+      "sea-bass": 19,
+      "red-snapper": 7,
+      "dab": 12,
+      "olive-flounder": 6,
+      "squid": 10,
+      "football-fish": 3,
+      "tuna": 1,
+      "oarfish": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 7,
+      "crucian-carp": 22,
+      "barbel-steed": 7,
+      "carp": 4,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 1,
+      "tadpole": 5,
+      "loach": 30,
+      "bluegill": 6,
+      "yellow-perch": 6,
+      "black-bass": 6
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "horse-mackerel": 30,
+      "barred-knifejaw": 3,
+      "sea-bass": 20,
+      "red-snapper": 7,
+      "dab": 11,
+      "olive-flounder": 6,
+      "squid": 10,
+      "tuna": 1,
+      "oarfish": 1
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 16,
+      "dace": 16,
+      "barbel-steed": 16,
+      "carp": 4,
+      "koi": 1,
+      "goldfish": 2,
+      "tadpole": 5,
+      "freshwater-goby": 5,
+      "loach": 20,
+      "yellow-perch": 4,
+      "black-bass": 7
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "horse-mackerel": 25,
+      "barred-knifejaw": 3,
+      "sea-bass": 16,
+      "red-snapper": 7,
+      "dab": 12,
+      "olive-flounder": 6,
+      "squid": 10,
+      "football-fish": 4,
+      "tuna": 1,
+      "oarfish": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 9,
+      "dace": 5,
+      "barbel-steed": 5,
+      "carp": 10,
+      "koi": 2,
+      "goldfish": 2,
+      "killifish": 3,
+      "crawfish": 10,
+      "tadpole": 5,
+      "freshwater-goby": 1,
+      "loach": 10,
+      "black-bass": 7,
+      "cherry-salmon": 9,
+      "char": 8,
+      "rainbow-trout": 10
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 4,
+      "clown-fish": 4,
+      "surgeonfish": 2,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 5,
+      "horse-mackerel": 20,
+      "barred-knifejaw": 3,
+      "sea-bass": 16,
+      "red-snapper": 8,
+      "dab": 10,
+      "olive-flounder": 4,
+      "squid": 8,
+      "oarfish": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 10,
+      "crucian-carp": 17,
+      "barbel-steed": 5,
+      "carp": 3,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 1,
+      "killifish": 3,
+      "crawfish": 13,
+      "tadpole": 5,
+      "loach": 21,
+      "bluegill": 6,
+      "black-bass": 6,
+      "guppy": 2,
+      "neon-tetra": 2
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 6,
+      "clown-fish": 6,
+      "surgeonfish": 2,
+      "butterfly-fish": 4,
+      "zebra-turkeyfish": 6,
+      "horse-mackerel": 20,
+      "barred-knifejaw": 3,
+      "sea-bass": 10,
+      "red-snapper": 8,
+      "dab": 8,
+      "olive-flounder": 4,
+      "squid": 8,
+      "oarfish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 15,
+      "dace": 14,
+      "barbel-steed": 14,
+      "carp": 11,
+      "koi": 1,
+      "goldfish": 2,
+      "killifish": 3,
+      "crawfish": 10,
+      "tadpole": 5,
+      "freshwater-goby": 4,
+      "loach": 10,
+      "black-bass": 7
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 3,
+      "clown-fish": 2,
+      "surgeonfish": 2,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 3,
+      "horse-mackerel": 20,
+      "barred-knifejaw": 3,
+      "sea-bass": 15,
+      "red-snapper": 8,
+      "dab": 10,
+      "olive-flounder": 4,
+      "squid": 14,
+      "oarfish": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "dace": 4,
+      "barbel-steed": 4,
+      "carp": 10,
+      "koi": 2,
+      "goldfish": 2,
+      "killifish": 3,
+      "crawfish": 10,
+      "tadpole": 5,
+      "frog": 8,
+      "freshwater-goby": 1,
+      "loach": 3,
+      "catfish": 2,
+      "black-bass": 15,
+      "cherry-salmon": 5,
+      "char": 7,
+      "rainbow-trout": 6,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 6,
+      "clown-fish": 7,
+      "surgeonfish": 2,
+      "butterfly-fish": 7,
+      "zebra-turkeyfish": 8,
+      "horse-mackerel": 15,
+      "barred-knifejaw": 3,
+      "sea-bass": 16,
+      "red-snapper": 8,
+      "olive-flounder": 4,
+      "squid": 8,
+      "oarfish": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 10,
+      "crucian-carp": 11,
+      "barbel-steed": 6,
+      "carp": 10,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 2,
+      "killifish": 3,
+      "crawfish": 10,
+      "tadpole": 5,
+      "frog": 8,
+      "loach": 5,
+      "bluegill": 6,
+      "black-bass": 13,
+      "guppy": 2,
+      "nibble-fish": 1,
+      "neon-tetra": 2
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "clown-fish": 6,
+      "surgeonfish": 2,
+      "butterfly-fish": 4,
+      "zebra-turkeyfish": 10,
+      "horse-mackerel": 18,
+      "barred-knifejaw": 3,
+      "sea-bass": 16,
+      "red-snapper": 8,
+      "olive-flounder": 4,
+      "squid": 6,
+      "oarfish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 12,
+      "dace": 8,
+      "barbel-steed": 8,
+      "carp": 10,
+      "koi": 1,
+      "goldfish": 2,
+      "killifish": 3,
+      "crawfish": 9,
+      "tadpole": 5,
+      "frog": 8,
+      "freshwater-goby": 4,
+      "loach": 3,
+      "catfish": 6,
+      "black-bass": 15,
+      "angelfish": 2
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 5,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 8,
+      "zebra-turkeyfish": 5,
+      "horse-mackerel": 16,
+      "barred-knifejaw": 3,
+      "sea-bass": 16,
+      "red-snapper": 8,
+      "olive-flounder": 4,
+      "squid": 13,
+      "oarfish": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "dace": 3,
+      "barbel-steed": 3,
+      "carp": 8,
+      "koi": 2,
+      "goldfish": 1,
+      "killifish": 4,
+      "crawfish": 11,
+      "tadpole": 5,
+      "frog": 8,
+      "freshwater-goby": 1,
+      "catfish": 5,
+      "eel": 5,
+      "black-bass": 13,
+      "cherry-salmon": 4,
+      "char": 6,
+      "rainbow-trout": 4,
+      "angelfish": 2,
+      "arowana": 1,
+      "dorado": 2,
+      "gar": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 6,
+      "clown-fish": 7,
+      "surgeonfish": 2,
+      "butterfly-fish": 7,
+      "zebra-turkeyfish": 8,
+      "horse-mackerel": 15,
+      "barred-knifejaw": 3,
+      "sea-bass": 15,
+      "red-snapper": 8,
+      "olive-flounder": 4,
+      "squid": 8,
+      "ocean-sunfish": 1,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 10,
+      "crucian-carp": 10,
+      "barbel-steed": 7,
+      "carp": 3,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 2,
+      "killifish": 5,
+      "crawfish": 10,
+      "tadpole": 5,
+      "frog": 8,
+      "giant-snakehead": 2,
+      "bluegill": 10,
+      "black-bass": 10,
+      "guppy": 3,
+      "nibble-fish": 2,
+      "neon-tetra": 3,
+      "piranha": 3,
+      "dorado": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "clown-fish": 7,
+      "surgeonfish": 2,
+      "butterfly-fish": 7,
+      "zebra-turkeyfish": 9,
+      "horse-mackerel": 15,
+      "barred-knifejaw": 3,
+      "sea-bass": 16,
+      "red-snapper": 8,
+      "olive-flounder": 4,
+      "squid": 6,
+      "ocean-sunfish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "dace": 3,
+      "barbel-steed": 6,
+      "carp": 6,
+      "koi": 1,
+      "goldfish": 1,
+      "killifish": 4,
+      "crawfish": 10,
+      "tadpole": 5,
+      "frog": 8,
+      "freshwater-goby": 4,
+      "catfish": 15,
+      "eel": 10,
+      "black-bass": 12,
+      "angelfish": 2,
+      "piranha": 1,
+      "arowana": 1,
+      "gar": 1,
+      "saddled-bichir": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 5,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 8,
+      "zebra-turkeyfish": 7,
+      "horse-mackerel": 16,
+      "barred-knifejaw": 3,
+      "sea-bass": 16,
+      "red-snapper": 8,
+      "olive-flounder": 4,
+      "squid": 6,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "dace": 3,
+      "barbel-steed": 4,
+      "carp": 6,
+      "koi": 2,
+      "goldfish": 1,
+      "killifish": 3,
+      "crawfish": 10,
+      "tadpole": 5,
+      "frog": 8,
+      "freshwater-goby": 1,
+      "catfish": 5,
+      "eel": 5,
+      "black-bass": 13,
+      "sweetfish": 16,
+      "angelfish": 2,
+      "arowana": 1,
+      "dorado": 2,
+      "gar": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 6,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 5,
+      "napoleonfish": 1,
+      "zebra-turkeyfish": 8,
+      "puffer-fish": 5,
+      "horse-mackerel": 10,
+      "barred-knifejaw": 4,
+      "sea-bass": 17,
+      "red-snapper": 8,
+      "olive-flounder": 3,
+      "squid": 6,
+      "blue-marlin": 2,
+      "ocean-sunfish": 1,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 5,
+      "crucian-carp": 10,
+      "barbel-steed": 6,
+      "carp": 3,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 2,
+      "killifish": 3,
+      "crawfish": 9,
+      "tadpole": 5,
+      "frog": 8,
+      "giant-snakehead": 2,
+      "bluegill": 10,
+      "black-bass": 9,
+      "sweetfish": 10,
+      "guppy": 3,
+      "nibble-fish": 2,
+      "neon-tetra": 3,
+      "piranha": 3,
+      "dorado": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 5,
+      "napoleonfish": 1,
+      "zebra-turkeyfish": 10,
+      "puffer-fish": 7,
+      "horse-mackerel": 11,
+      "barred-knifejaw": 4,
+      "sea-bass": 14,
+      "red-snapper": 8,
+      "olive-flounder": 3,
+      "squid": 5,
+      "blue-marlin": 2,
+      "ocean-sunfish": 2
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "dace": 3,
+      "barbel-steed": 6,
+      "carp": 3,
+      "koi": 1,
+      "goldfish": 1,
+      "killifish": 3,
+      "crawfish": 9,
+      "tadpole": 5,
+      "frog": 8,
+      "freshwater-goby": 4,
+      "catfish": 13,
+      "eel": 12,
+      "black-bass": 11,
+      "sweetfish": 5,
+      "angelfish": 2,
+      "piranha": 1,
+      "arowana": 1,
+      "gar": 1,
+      "arapaima": 1,
+      "saddled-bichir": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 5,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 5,
+      "zebra-turkeyfish": 6,
+      "puffer-fish": 6,
+      "horse-mackerel": 12,
+      "barred-knifejaw": 4,
+      "sea-bass": 16,
+      "red-snapper": 8,
+      "olive-flounder": 3,
+      "squid": 10,
+      "blue-marlin": 2,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "dace": 3,
+      "barbel-steed": 4,
+      "carp": 5,
+      "koi": 2,
+      "goldfish": 1,
+      "killifish": 3,
+      "crawfish": 10,
+      "soft-shelled-turtle": 2,
+      "frog": 10,
+      "freshwater-goby": 1,
+      "catfish": 5,
+      "eel": 5,
+      "black-bass": 16,
+      "sweetfish": 15,
+      "angelfish": 2,
+      "arowana": 1,
+      "dorado": 2,
+      "gar": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 5,
+      "napoleonfish": 1,
+      "zebra-turkeyfish": 8,
+      "puffer-fish": 11,
+      "horse-mackerel": 10,
+      "barred-knifejaw": 4,
+      "sea-bass": 13,
+      "red-snapper": 7,
+      "olive-flounder": 2,
+      "squid": 7,
+      "moray-eel": 2,
+      "blue-marlin": 1,
+      "ray": 1,
+      "ocean-sunfish": 1,
+      "hammerhead-shark": 1,
+      "shark": 1,
+      "saw-shark": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 6,
+      "crucian-carp": 10,
+      "barbel-steed": 6,
+      "carp": 3,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 2,
+      "killifish": 3,
+      "crawfish": 9,
+      "frog": 10,
+      "giant-snakehead": 2,
+      "bluegill": 10,
+      "black-bass": 7,
+      "sweetfish": 14,
+      "guppy": 3,
+      "nibble-fish": 2,
+      "neon-tetra": 3,
+      "piranha": 3,
+      "dorado": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 5,
+      "napoleonfish": 1,
+      "zebra-turkeyfish": 10,
+      "puffer-fish": 12,
+      "horse-mackerel": 14,
+      "barred-knifejaw": 4,
+      "sea-bass": 13,
+      "red-snapper": 4,
+      "olive-flounder": 2,
+      "squid": 5,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "ray": 1,
+      "ocean-sunfish": 2
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "dace": 3,
+      "barbel-steed": 6,
+      "carp": 4,
+      "koi": 1,
+      "goldfish": 1,
+      "killifish": 3,
+      "crawfish": 9,
+      "soft-shelled-turtle": 4,
+      "frog": 10,
+      "freshwater-goby": 4,
+      "catfish": 12,
+      "eel": 11,
+      "black-bass": 11,
+      "sweetfish": 5,
+      "angelfish": 2,
+      "piranha": 1,
+      "arowana": 1,
+      "gar": 1,
+      "arapaima": 1,
+      "saddled-bichir": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 5,
+      "clown-fish": 8,
+      "surgeonfish": 2,
+      "butterfly-fish": 5,
+      "zebra-turkeyfish": 7,
+      "puffer-fish": 12,
+      "horse-mackerel": 10,
+      "barred-knifejaw": 4,
+      "sea-bass": 17,
+      "red-snapper": 7,
+      "olive-flounder": 2,
+      "squid": 8,
+      "moray-eel": 2,
+      "blue-marlin": 1,
+      "hammerhead-shark": 1,
+      "shark": 1,
+      "saw-shark": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "dace": 3,
+      "barbel-steed": 4,
+      "carp": 5,
+      "koi": 2,
+      "goldfish": 1,
+      "killifish": 3,
+      "crawfish": 10,
+      "soft-shelled-turtle": 2,
+      "frog": 10,
+      "freshwater-goby": 1,
+      "catfish": 5,
+      "eel": 5,
+      "black-bass": 16,
+      "sweetfish": 15,
+      "angelfish": 2,
+      "arowana": 1,
+      "dorado": 2,
+      "gar": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "clown-fish": 6,
+      "surgeonfish": 2,
+      "butterfly-fish": 2,
+      "napoleonfish": 1,
+      "zebra-turkeyfish": 12,
+      "puffer-fish": 11,
+      "horse-mackerel": 15,
+      "barred-knifejaw": 4,
+      "sea-bass": 13,
+      "red-snapper": 3,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "ray": 1,
+      "ocean-sunfish": 1,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 6,
+      "crucian-carp": 10,
+      "barbel-steed": 6,
+      "carp": 3,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 2,
+      "killifish": 3,
+      "crawfish": 9,
+      "frog": 10,
+      "giant-snakehead": 2,
+      "bluegill": 10,
+      "black-bass": 7,
+      "sweetfish": 14,
+      "guppy": 3,
+      "nibble-fish": 2,
+      "neon-tetra": 3,
+      "piranha": 3,
+      "dorado": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "clown-fish": 6,
+      "surgeonfish": 2,
+      "butterfly-fish": 3,
+      "napoleonfish": 1,
+      "zebra-turkeyfish": 14,
+      "puffer-fish": 12,
+      "horse-mackerel": 15,
+      "barred-knifejaw": 4,
+      "sea-bass": 13,
+      "red-snapper": 3,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "ray": 1,
+      "ocean-sunfish": 2
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "dace": 3,
+      "barbel-steed": 6,
+      "carp": 4,
+      "koi": 1,
+      "goldfish": 1,
+      "killifish": 3,
+      "crawfish": 9,
+      "soft-shelled-turtle": 4,
+      "frog": 10,
+      "freshwater-goby": 4,
+      "catfish": 12,
+      "eel": 11,
+      "black-bass": 11,
+      "sweetfish": 5,
+      "angelfish": 2,
+      "piranha": 1,
+      "arowana": 1,
+      "gar": 1,
+      "arapaima": 1,
+      "saddled-bichir": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 5,
+      "clown-fish": 6,
+      "surgeonfish": 2,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 10,
+      "puffer-fish": 12,
+      "horse-mackerel": 15,
+      "barred-knifejaw": 4,
+      "sea-bass": 17,
+      "red-snapper": 3,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "dace": 3,
+      "barbel-steed": 4,
+      "carp": 5,
+      "koi": 2,
+      "goldfish": 2,
+      "crawfish": 8,
+      "soft-shelled-turtle": 3,
+      "freshwater-goby": 1,
+      "catfish": 5,
+      "eel": 2,
+      "black-bass": 15,
+      "pike": 1,
+      "sweetfish": 5,
+      "cherry-salmon": 9,
+      "char": 7,
+      "rainbow-trout": 9,
+      "angelfish": 2,
+      "arowana": 1,
+      "dorado": 2,
+      "gar": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "salmon": 40,
+      "king-salmon": 6,
+      "sea-horse": 3,
+      "clown-fish": 2,
+      "surgeonfish": 1,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 4,
+      "puffer-fish": 6,
+      "horse-mackerel": 8,
+      "barred-knifejaw": 3,
+      "sea-bass": 6,
+      "red-snapper": 3,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 1,
+      "ray": 1,
+      "ocean-sunfish": 1,
+      "hammerhead-shark": 1,
+      "shark": 1,
+      "saw-shark": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 10,
+      "crucian-carp": 13,
+      "barbel-steed": 7,
+      "carp": 3,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 2,
+      "crawfish": 10,
+      "bluegill": 10,
+      "black-bass": 10,
+      "pike": 1,
+      "sweetfish": 8,
+      "cherry-salmon": 3,
+      "char": 2,
+      "rainbow-trout": 3,
+      "guppy": 3,
+      "nibble-fish": 2,
+      "neon-tetra": 3,
+      "piranha": 3,
+      "dorado": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "salmon": 39,
+      "king-salmon": 6,
+      "sea-horse": 3,
+      "clown-fish": 2,
+      "surgeonfish": 1,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 5,
+      "puffer-fish": 7,
+      "horse-mackerel": 9,
+      "barred-knifejaw": 3,
+      "sea-bass": 7,
+      "red-snapper": 3,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "ray": 1,
+      "ocean-sunfish": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "dace": 5,
+      "barbel-steed": 6,
+      "carp": 3,
+      "koi": 1,
+      "goldfish": 2,
+      "crawfish": 12,
+      "soft-shelled-turtle": 5,
+      "freshwater-goby": 4,
+      "catfish": 16,
+      "eel": 5,
+      "black-bass": 14,
+      "sweetfish": 5,
+      "angelfish": 2,
+      "piranha": 1,
+      "arowana": 1,
+      "gar": 1,
+      "arapaima": 1,
+      "saddled-bichir": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "salmon": 40,
+      "king-salmon": 6,
+      "sea-horse": 3,
+      "clown-fish": 2,
+      "surgeonfish": 1,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 3,
+      "puffer-fish": 7,
+      "horse-mackerel": 8,
+      "barred-knifejaw": 3,
+      "sea-bass": 7,
+      "red-snapper": 3,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 1,
+      "hammerhead-shark": 1,
+      "shark": 1,
+      "saw-shark": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 4,
+      "dace": 3,
+      "barbel-steed": 3,
+      "carp": 3,
+      "koi": 2,
+      "goldfish": 2,
+      "soft-shelled-turtle": 3,
+      "freshwater-goby": 1,
+      "catfish": 3,
+      "black-bass": 10,
+      "pike": 1,
+      "cherry-salmon": 5,
+      "char": 4,
+      "rainbow-trout": 5,
+      "salmon": 36,
+      "king-salmon": 5,
+      "mitten-crab": 1,
+      "angelfish": 1,
+      "dorado": 2,
+      "gar": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 7,
+      "clown-fish": 2,
+      "surgeonfish": 1,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 7,
+      "puffer-fish": 6,
+      "horse-mackerel": 25,
+      "barred-knifejaw": 4,
+      "sea-bass": 17,
+      "red-snapper": 7,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "ray": 1,
+      "ocean-sunfish": 1,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 6,
+      "crucian-carp": 8,
+      "barbel-steed": 4,
+      "carp": 3,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 1,
+      "bluegill": 8,
+      "black-bass": 7,
+      "pike": 1,
+      "cherry-salmon": 3,
+      "char": 2,
+      "rainbow-trout": 3,
+      "salmon": 39,
+      "king-salmon": 5,
+      "guppy": 1,
+      "nibble-fish": 1,
+      "neon-tetra": 1,
+      "dorado": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 9,
+      "clown-fish": 2,
+      "surgeonfish": 1,
+      "butterfly-fish": 2,
+      "zebra-turkeyfish": 9,
+      "puffer-fish": 8,
+      "horse-mackerel": 22,
+      "barred-knifejaw": 4,
+      "sea-bass": 17,
+      "red-snapper": 7,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "ray": 1,
+      "ocean-sunfish": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "dace": 3,
+      "barbel-steed": 5,
+      "carp": 3,
+      "koi": 1,
+      "goldfish": 2,
+      "soft-shelled-turtle": 5,
+      "freshwater-goby": 4,
+      "catfish": 10,
+      "black-bass": 10,
+      "salmon": 32,
+      "king-salmon": 6,
+      "mitten-crab": 4,
+      "angelfish": 1,
+      "gar": 1,
+      "arapaima": 1,
+      "saddled-bichir": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 9,
+      "clown-fish": 2,
+      "surgeonfish": 1,
+      "butterfly-fish": 4,
+      "zebra-turkeyfish": 8,
+      "puffer-fish": 6,
+      "horse-mackerel": 21,
+      "barred-knifejaw": 4,
+      "sea-bass": 20,
+      "red-snapper": 7,
+      "olive-flounder": 2,
+      "moray-eel": 2,
+      "blue-marlin": 2,
+      "hammerhead-shark": 1,
+      "shark": 3,
+      "saw-shark": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "dace": 5,
+      "barbel-steed": 6,
+      "carp": 14,
+      "koi": 2,
+      "goldfish": 2,
+      "freshwater-goby": 1,
+      "catfish": 2,
+      "yellow-perch": 5,
+      "black-bass": 15,
+      "pike": 1,
+      "cherry-salmon": 11,
+      "char": 8,
+      "rainbow-trout": 11,
+      "mitten-crab": 1,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 6,
+      "zebra-turkeyfish": 9,
+      "horse-mackerel": 20,
+      "barred-knifejaw": 4,
+      "sea-bass": 21,
+      "red-snapper": 7,
+      "dab": 10,
+      "olive-flounder": 4,
+      "moray-eel": 2,
+      "ray": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "pale-chub": 10,
+      "crucian-carp": 22,
+      "barbel-steed": 8,
+      "carp": 5,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 1,
+      "bluegill": 10,
+      "yellow-perch": 6,
+      "black-bass": 13,
+      "pike": 1,
+      "cherry-salmon": 6,
+      "char": 4,
+      "rainbow-trout": 6,
+      "guppy": 1,
+      "neon-tetra": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 8,
+      "zebra-turkeyfish": 8,
+      "horse-mackerel": 24,
+      "barred-knifejaw": 4,
+      "sea-bass": 17,
+      "red-snapper": 7,
+      "dab": 10,
+      "olive-flounder": 4,
+      "moray-eel": 2,
+      "ray": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 16,
+      "dace": 12,
+      "barbel-steed": 15,
+      "carp": 15,
+      "koi": 1,
+      "goldfish": 2,
+      "freshwater-goby": 5,
+      "catfish": 6,
+      "yellow-perch": 3,
+      "black-bass": 15,
+      "mitten-crab": 5,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 5,
+      "zebra-turkeyfish": 6,
+      "horse-mackerel": 24,
+      "barred-knifejaw": 4,
+      "sea-bass": 25,
+      "red-snapper": 7,
+      "dab": 10,
+      "olive-flounder": 4,
+      "moray-eel": 2,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 5,
+      "crucian-carp": 14,
+      "dace": 6,
+      "barbel-steed": 6,
+      "carp": 14,
+      "koi": 2,
+      "goldfish": 2,
+      "freshwater-goby": 1,
+      "yellow-perch": 7,
+      "black-bass": 15,
+      "pike": 1,
+      "cherry-salmon": 8,
+      "char": 6,
+      "rainbow-trout": 8,
+      "mitten-crab": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 4,
+      "zebra-turkeyfish": 4,
+      "horse-mackerel": 24,
+      "barred-knifejaw": 5,
+      "sea-bass": 17,
+      "red-snapper": 8,
+      "dab": 12,
+      "olive-flounder": 6,
+      "football-fish": 4,
+      "tuna": 1,
+      "ray": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 6,
+      "pale-chub": 10,
+      "crucian-carp": 15,
+      "barbel-steed": 8,
+      "carp": 15,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 1,
+      "bluegill": 10,
+      "yellow-perch": 8,
+      "black-bass": 10,
+      "pike": 1,
+      "cherry-salmon": 3,
+      "char": 2,
+      "rainbow-trout": 3,
+      "guppy": 1,
+      "neon-tetra": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 5,
+      "zebra-turkeyfish": 5,
+      "horse-mackerel": 25,
+      "barred-knifejaw": 5,
+      "sea-bass": 21,
+      "red-snapper": 8,
+      "dab": 10,
+      "olive-flounder": 6,
+      "tuna": 1,
+      "ray": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 2,
+      "crucian-carp": 15,
+      "dace": 15,
+      "barbel-steed": 15,
+      "carp": 15,
+      "koi": 1,
+      "goldfish": 2,
+      "freshwater-goby": 5,
+      "yellow-perch": 6,
+      "black-bass": 15,
+      "mitten-crab": 5
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-horse": 3,
+      "zebra-turkeyfish": 3,
+      "blowfish": 5,
+      "horse-mackerel": 26,
+      "barred-knifejaw": 5,
+      "sea-bass": 19,
+      "red-snapper": 8,
+      "dab": 11,
+      "olive-flounder": 6,
+      "football-fish": 6,
+      "tuna": 1,
+      "coelacanth": 2
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 18,
+      "crucian-carp": 5,
+      "dace": 10,
+      "barbel-steed": 5,
+      "carp": 3,
+      "koi": 2,
+      "goldfish": 2,
+      "freshwater-goby": 1,
+      "yellow-perch": 7,
+      "black-bass": 4,
+      "pike": 1,
+      "pond-smelt": 37,
+      "stringfish": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 8,
+      "horse-mackerel": 19,
+      "sea-bass": 14,
+      "red-snapper": 3,
+      "dab": 14,
+      "olive-flounder": 8,
+      "squid": 8,
+      "football-fish": 6,
+      "tuna": 2,
+      "oarfish": 1,
+      "coelacanth": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 18,
+      "pale-chub": 5,
+      "crucian-carp": 7,
+      "barbel-steed": 6,
+      "carp": 4,
+      "goldfish": 2,
+      "pop-eyed-goldfish": 1,
+      "bluegill": 3,
+      "yellow-perch": 8,
+      "black-bass": 6,
+      "pike": 1,
+      "pond-smelt": 35
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 7,
+      "horse-mackerel": 24,
+      "sea-bass": 21,
+      "red-snapper": 3,
+      "dab": 12,
+      "olive-flounder": 8,
+      "squid": 6,
+      "tuna": 2,
+      "oarfish": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "bitterling": 10,
+      "crucian-carp": 7,
+      "dace": 15,
+      "barbel-steed": 15,
+      "carp": 4,
+      "koi": 1,
+      "goldfish": 2,
+      "freshwater-goby": 5,
+      "yellow-perch": 6,
+      "black-bass": 4,
+      "pond-smelt": 26,
+      "stringfish": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-butterfly": 11,
+      "blowfish": 5,
+      "horse-mackerel": 18,
+      "sea-bass": 15,
+      "red-snapper": 3,
+      "dab": 13,
+      "olive-flounder": 8,
+      "squid": 8,
+      "football-fish": 7,
+      "tuna": 2,
+      "oarfish": 1,
+      "coelacanth": 2
+     }
+    }
+   ],
+   "meteo_seulement": {
+    "coelacanth": "s'il pleut ou s'il neige"
+   },
+   "infos": [
+    "Dans New Leaf, août et septembre changent de table le 16."
+   ],
+   "sans_taux": {
+    "ribbon-eel": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+    "giant-trevally": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+    "whale-shark": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville."
+   }
+  },
+  "insectes": {
+   "creneaux": [
+    {
+     "id": "23h-4h",
+     "heures": [
+      [
+       23,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "4h-8h",
+     "heures": [
+      [
+       4,
+       8
+      ]
+     ]
+    },
+    {
+     "id": "8h-16h",
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "id": "16h-17h",
+     "heures": [
+      [
+       16,
+       17
+      ]
+     ]
+    },
+    {
+     "id": "17h-19h",
+     "heures": [
+      [
+       17,
+       19
+      ]
+     ]
+    },
+    {
+     "id": "19h-23h",
+     "heures": [
+      [
+       19,
+       23
+      ]
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 2,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 69.5
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 2,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 69.5
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 71.5
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 5
+     },
+     "rien": 66.5
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 1,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 5
+     },
+     "rien": 65.5
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 1,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 5
+     },
+     "rien": 65.5
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 2,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 69.5
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 2,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 69.5
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 71.5
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 5
+     },
+     "rien": 66.5
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 1,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 5
+     },
+     "rien": 65.5
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 1,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 5
+     },
+     "rien": 65.5
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "spider": 5
+     },
+     "rien": 76
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "common-butterfly": 4,
+      "yellow-butterfly": 4,
+      "tiger-butterfly": 2,
+      "peacock-butterfly": 2,
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "spider": 5
+     },
+     "rien": 64
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 12,
+      "yellow-butterfly": 12,
+      "tiger-butterfly": 6,
+      "peacock-butterfly": 5,
+      "honeybee": 10,
+      "mole-cricket": 3,
+      "ladybug": 12,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "spider": 5
+     },
+     "rien": 18.5
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 12,
+      "yellow-butterfly": 12,
+      "tiger-butterfly": 6,
+      "peacock-butterfly": 5,
+      "honeybee": 6,
+      "mole-cricket": 3,
+      "ladybug": 8,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "spider": 5
+     },
+     "rien": 26.5
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "common-butterfly": 4,
+      "yellow-butterfly": 4,
+      "tiger-butterfly": 2,
+      "peacock-butterfly": 2,
+      "mole-cricket": 3,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "spider": 5
+     },
+     "rien": 63.5
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "spider": 5
+     },
+     "rien": 76
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "stinkbug": 1,
+      "snail": 4,
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 73
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 3,
+      "peacock-butterfly": 3,
+      "stinkbug": 1,
+      "snail": 4,
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 57
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 20,
+      "yellow-butterfly": 20,
+      "tiger-butterfly": 8,
+      "peacock-butterfly": 5,
+      "honeybee": 12,
+      "mantis": 5,
+      "orchid-mantis": 1,
+      "stinkbug": 1,
+      "snail": 3,
+      "mole-cricket": 3,
+      "ladybug": 12,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 1,
+      "spider": 5
+     },
+     "rien": 2.5
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 20,
+      "yellow-butterfly": 20,
+      "tiger-butterfly": 8,
+      "peacock-butterfly": 5,
+      "honeybee": 8,
+      "mantis": 5,
+      "orchid-mantis": 1,
+      "stinkbug": 1,
+      "snail": 3,
+      "mole-cricket": 3,
+      "ladybug": 9,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 7,
+      "spider": 8
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 3,
+      "peacock-butterfly": 3,
+      "stinkbug": 1,
+      "snail": 4,
+      "mole-cricket": 3,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 56.5
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "stinkbug": 1,
+      "snail": 4,
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 73
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "moth": 5,
+      "stinkbug": 1,
+      "snail": 6,
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 66
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 3,
+      "peacock-butterfly": 3,
+      "stinkbug": 1,
+      "snail": 6,
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 55
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 18,
+      "yellow-butterfly": 18,
+      "tiger-butterfly": 12,
+      "peacock-butterfly": 8,
+      "raja-b-butterfly": 1,
+      "honeybee": 10,
+      "long-locust": 2,
+      "mantis": 5,
+      "orchid-mantis": 1,
+      "pondskater": 2,
+      "diving-beetle": 1,
+      "stinkbug": 1,
+      "snail": 4,
+      "mole-cricket": 2,
+      "ladybug": 9,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 1,
+      "spider": 3
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 18,
+      "yellow-butterfly": 15,
+      "tiger-butterfly": 10,
+      "peacock-butterfly": 6,
+      "raja-b-butterfly": 1,
+      "honeybee": 10,
+      "long-locust": 2,
+      "mantis": 5,
+      "orchid-mantis": 1,
+      "pondskater": 2,
+      "diving-beetle": 1,
+      "stinkbug": 1,
+      "snail": 6,
+      "mole-cricket": 2,
+      "ladybug": 10,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 1,
+      "spider": 7
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 3,
+      "peacock-butterfly": 3,
+      "long-locust": 5,
+      "stinkbug": 1,
+      "snail": 6,
+      "mole-cricket": 3,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 49.5
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "moth": 3,
+      "stinkbug": 1,
+      "snail": 6,
+      "mole-cricket": 3,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 68
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "emperor-butterfly": 1,
+      "moth": 16,
+      "oak-silk-moth": 2,
+      "lantern-fly": 3,
+      "stinkbug": 1,
+      "snail": 4,
+      "wharf-roach": 1,
+      "firefly": 50,
+      "rainbow-stag": 1,
+      "goliath-beetle": 1,
+      "flea": 1,
+      "pill-bug": 5,
+      "mosquito": 4,
+      "spider": 5,
+      "tarantula": 0.5
+     },
+     "rien": 4.5
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 3,
+      "peacock-butterfly": 3,
+      "emperor-butterfly": 1,
+      "lantern-fly": 3,
+      "stinkbug": 1,
+      "snail": 15,
+      "violin-beetle": 4,
+      "wharf-roach": 1,
+      "rainbow-stag": 1,
+      "goliath-beetle": 1,
+      "flea": 1,
+      "pill-bug": 9,
+      "spider": 9
+     },
+     "rien": 38
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 14,
+      "yellow-butterfly": 13,
+      "tiger-butterfly": 12,
+      "peacock-butterfly": 9,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 1,
+      "birdwing-butterfly": 0.5,
+      "honeybee": 10,
+      "long-locust": 2,
+      "mantis": 2,
+      "orchid-mantis": 1,
+      "darner-dragonfly": 6,
+      "pondskater": 4,
+      "diving-beetle": 2,
+      "stinkbug": 1,
+      "snail": 7.5,
+      "ladybug": 4,
+      "violin-beetle": 4,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "flea": 1,
+      "pill-bug": 1,
+      "spider": 2
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 14,
+      "yellow-butterfly": 13,
+      "tiger-butterfly": 10,
+      "peacock-butterfly": 8,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 1,
+      "honeybee": 7,
+      "long-locust": 2,
+      "mantis": 2,
+      "orchid-mantis": 1,
+      "lantern-fly": 1,
+      "darner-dragonfly": 11,
+      "pondskater": 4,
+      "diving-beetle": 2,
+      "stinkbug": 1,
+      "snail": 7.5,
+      "ladybug": 4,
+      "violin-beetle": 4,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "flea": 1,
+      "pill-bug": 1,
+      "centipede": 2,
+      "spider": 1
+     },
+     "rien": 0
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 3,
+      "peacock-butterfly": 3,
+      "raja-b-butterfly": 1,
+      "long-locust": 5,
+      "lantern-fly": 3,
+      "pondskater": 10,
+      "stinkbug": 1,
+      "snail": 9.5,
+      "violin-beetle": 4,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "flea": 1,
+      "pill-bug": 9,
+      "mosquito": 20,
+      "centipede": 2,
+      "spider": 9
+     },
+     "rien": 8
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "emperor-butterfly": 1,
+      "moth": 10,
+      "oak-silk-moth": 1,
+      "stinkbug": 1,
+      "snail": 4,
+      "wharf-roach": 1,
+      "firefly": 59.5,
+      "rainbow-stag": 1,
+      "goliath-beetle": 1,
+      "flea": 1,
+      "pill-bug": 5,
+      "mosquito": 7,
+      "centipede": 2,
+      "spider": 5,
+      "tarantula": 0.5
+     },
+     "rien": 0
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "emperor-butterfly": 2,
+      "moth": 15,
+      "oak-silk-moth": 2,
+      "cicada-shell": 2,
+      "lantern-fly": 1,
+      "stinkbug": 1,
+      "snail": 5,
+      "longhorn-beetle": 5,
+      "wharf-roach": 1,
+      "fruit-beetle": 15,
+      "scarab-beetle": 2,
+      "miyama-stag": 5,
+      "saw-stag": 3,
+      "giant-stag": 2,
+      "rainbow-stag": 1,
+      "cyclommatus-stag": 1,
+      "golden-stag": 0.5,
+      "horned-dynastid": 7,
+      "horned-atlas": 1,
+      "horned-elephant": 1,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 2,
+      "flea": 1,
+      "pill-bug": 2,
+      "mosquito": 2,
+      "spider": 5,
+      "tarantula": 0.5,
+      "scorpion": 0.5
+     },
+     "rien": 14
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "peacock-butterfly": 1,
+      "emperor-butterfly": 4,
+      "evening-cicada": 25,
+      "cicada-shell": 2,
+      "lantern-fly": 2,
+      "stinkbug": 1,
+      "snail": 5,
+      "walking-stick": 2,
+      "longhorn-beetle": 5,
+      "wharf-roach": 1,
+      "fruit-beetle": 15,
+      "scarab-beetle": 2,
+      "miyama-stag": 5,
+      "saw-stag": 3,
+      "giant-stag": 2,
+      "rainbow-stag": 1,
+      "cyclommatus-stag": 1,
+      "golden-stag": 0.5,
+      "horned-dynastid": 7,
+      "horned-atlas": 1,
+      "horned-elephant": 1,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 1,
+      "flea": 1,
+      "spider": 8
+     },
+     "rien": 3
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "tiger-butterfly": 1,
+      "peacock-butterfly": 1,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 1,
+      "birdwing-butterfly": 0.5,
+      "honeybee": 2,
+      "long-locust": 2,
+      "mantis": 1,
+      "orchid-mantis": 1,
+      "brown-cicada": 20,
+      "robust-cicada": 23,
+      "giant-cicada": 10,
+      "walker-cicada": 5,
+      "cicada-shell": 2,
+      "darner-dragonfly": 4,
+      "banded-dragonfly": 1,
+      "pondskater": 4,
+      "diving-beetle": 2,
+      "stinkbug": 1,
+      "snail": 3,
+      "walking-leaf": 0.5,
+      "longhorn-beetle": 2,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "fruit-beetle": 3,
+      "jewel-beetle": 2,
+      "miyama-stag": 1,
+      "saw-stag": 1,
+      "flea": 1
+     },
+     "rien": 2.5
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "tiger-butterfly": 2,
+      "peacock-butterfly": 2,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 2,
+      "long-locust": 2,
+      "mantis": 1,
+      "orchid-mantis": 1,
+      "brown-cicada": 14,
+      "robust-cicada": 9,
+      "giant-cicada": 6,
+      "walker-cicada": 5,
+      "evening-cicada": 16,
+      "cicada-shell": 2,
+      "lantern-fly": 1,
+      "darner-dragonfly": 3,
+      "banded-dragonfly": 2,
+      "pondskater": 4,
+      "diving-beetle": 1,
+      "stinkbug": 1,
+      "snail": 3,
+      "grasshopper": 4,
+      "walking-leaf": 1,
+      "longhorn-beetle": 2,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "fruit-beetle": 4,
+      "jewel-beetle": 3,
+      "miyama-stag": 3,
+      "saw-stag": 1,
+      "flea": 1,
+      "centipede": 1
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "long-locust": 2,
+      "evening-cicada": 37,
+      "cicada-shell": 2,
+      "lantern-fly": 2,
+      "pondskater": 5,
+      "stinkbug": 1,
+      "snail": 4,
+      "walking-stick": 2,
+      "longhorn-beetle": 2,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "fruit-beetle": 10,
+      "miyama-stag": 2,
+      "saw-stag": 1,
+      "rainbow-stag": 0.5,
+      "cyclommatus-stag": 0.5,
+      "golden-stag": 0.5,
+      "horned-dynastid": 3,
+      "horned-atlas": 0.5,
+      "horned-elephant": 0.5,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 1,
+      "flea": 1,
+      "mosquito": 18,
+      "centipede": 2
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "emperor-butterfly": 1,
+      "moth": 12,
+      "oak-silk-moth": 1,
+      "cicada-shell": 2,
+      "lantern-fly": 1,
+      "stinkbug": 1,
+      "snail": 6,
+      "wharf-roach": 1,
+      "fruit-beetle": 15,
+      "miyama-stag": 5,
+      "saw-stag": 3,
+      "rainbow-stag": 1,
+      "cyclommatus-stag": 1,
+      "golden-stag": 0.5,
+      "horned-dynastid": 5,
+      "horned-atlas": 1,
+      "horned-elephant": 1,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 2,
+      "flea": 1,
+      "pill-bug": 8,
+      "mosquito": 19,
+      "centipede": 3,
+      "spider": 8,
+      "tarantula": 0.5,
+      "scorpion": 0.5
+     },
+     "rien": 0
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "emperor-butterfly": 1,
+      "moth": 16,
+      "oak-silk-moth": 2,
+      "cicada-shell": 2,
+      "lantern-fly": 3,
+      "stinkbug": 1,
+      "snail": 5,
+      "longhorn-beetle": 5,
+      "wharf-roach": 1,
+      "fruit-beetle": 15,
+      "scarab-beetle": 2,
+      "miyama-stag": 5,
+      "saw-stag": 3,
+      "giant-stag": 2,
+      "rainbow-stag": 1,
+      "cyclommatus-stag": 1,
+      "golden-stag": 0.5,
+      "horned-dynastid": 7,
+      "horned-atlas": 1,
+      "horned-elephant": 1,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 2,
+      "flea": 1,
+      "pill-bug": 2,
+      "mosquito": 2,
+      "house-centipede": 2,
+      "spider": 5,
+      "tarantula": 0.5,
+      "scorpion": 0.5
+     },
+     "rien": 10
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "emperor-butterfly": 4,
+      "evening-cicada": 25,
+      "cicada-shell": 2,
+      "lantern-fly": 3,
+      "stinkbug": 1,
+      "snail": 5,
+      "walking-stick": 2,
+      "longhorn-beetle": 5,
+      "wharf-roach": 1,
+      "fruit-beetle": 15,
+      "scarab-beetle": 2,
+      "miyama-stag": 7,
+      "saw-stag": 5,
+      "giant-stag": 2,
+      "rainbow-stag": 1,
+      "cyclommatus-stag": 2,
+      "golden-stag": 0.5,
+      "horned-dynastid": 7,
+      "horned-atlas": 1,
+      "horned-elephant": 2,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 2,
+      "flea": 1,
+      "house-centipede": 2
+     },
+     "rien": 2
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "tiger-butterfly": 1,
+      "peacock-butterfly": 1,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 1,
+      "birdwing-butterfly": 0.5,
+      "long-locust": 3,
+      "migratory-locust": 2,
+      "rice-grasshopper": 2,
+      "mantis": 2,
+      "orchid-mantis": 1,
+      "brown-cicada": 19,
+      "robust-cicada": 19.5,
+      "giant-cicada": 12,
+      "walker-cicada": 8,
+      "cicada-shell": 2,
+      "darner-dragonfly": 3,
+      "banded-dragonfly": 2,
+      "pondskater": 2,
+      "diving-beetle": 1,
+      "stinkbug": 1,
+      "snail": 1,
+      "grasshopper": 2,
+      "walking-leaf": 1,
+      "longhorn-beetle": 2,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "fruit-beetle": 3.5,
+      "jewel-beetle": 2,
+      "miyama-stag": 1,
+      "saw-stag": 1,
+      "flea": 1
+     },
+     "rien": 0
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "tiger-butterfly": 2,
+      "peacock-butterfly": 2,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 2,
+      "long-locust": 5,
+      "migratory-locust": 2,
+      "rice-grasshopper": 2,
+      "mantis": 3,
+      "orchid-mantis": 2,
+      "brown-cicada": 5,
+      "robust-cicada": 6,
+      "giant-cicada": 6,
+      "walker-cicada": 8.5,
+      "evening-cicada": 8,
+      "cicada-shell": 2,
+      "lantern-fly": 1,
+      "darner-dragonfly": 8,
+      "banded-dragonfly": 2,
+      "pondskater": 2,
+      "diving-beetle": 1,
+      "stinkbug": 1,
+      "snail": 1,
+      "grasshopper": 9,
+      "walking-leaf": 1,
+      "longhorn-beetle": 2,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "fruit-beetle": 5,
+      "jewel-beetle": 3,
+      "miyama-stag": 2,
+      "saw-stag": 1,
+      "flea": 1,
+      "centipede": 2
+     },
+     "rien": 0
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "long-locust": 2,
+      "migratory-locust": 2,
+      "rice-grasshopper": 2,
+      "evening-cicada": 25.5,
+      "cicada-shell": 2,
+      "lantern-fly": 2,
+      "petaltail-dragonfly": 0.5,
+      "pondskater": 5,
+      "stinkbug": 1,
+      "snail": 4,
+      "walking-stick": 2,
+      "longhorn-beetle": 2,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "fruit-beetle": 13.5,
+      "miyama-stag": 3,
+      "saw-stag": 1,
+      "rainbow-stag": 0.5,
+      "cyclommatus-stag": 0.5,
+      "golden-stag": 0.5,
+      "horned-dynastid": 3,
+      "horned-atlas": 0.5,
+      "horned-elephant": 0.5,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 1,
+      "flea": 1,
+      "mosquito": 21,
+      "centipede": 2
+     },
+     "rien": 0
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "emperor-butterfly": 1,
+      "moth": 11,
+      "oak-silk-moth": 1,
+      "cicada-shell": 2,
+      "lantern-fly": 1,
+      "stinkbug": 1,
+      "snail": 6,
+      "wharf-roach": 1,
+      "fruit-beetle": 14,
+      "miyama-stag": 6,
+      "saw-stag": 3,
+      "rainbow-stag": 1,
+      "cyclommatus-stag": 1,
+      "golden-stag": 0.5,
+      "horned-dynastid": 5,
+      "horned-atlas": 2,
+      "horned-elephant": 1,
+      "horned-hercules": 0.5,
+      "goliath-beetle": 2,
+      "flea": 1,
+      "pill-bug": 8,
+      "mosquito": 17,
+      "house-centipede": 2,
+      "centipede": 3,
+      "spider": 8,
+      "tarantula": 0.5,
+      "scorpion": 0.5
+     },
+     "rien": 0
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "emperor-butterfly": 1,
+      "moth": 10,
+      "oak-silk-moth": 1,
+      "lantern-fly": 2,
+      "stinkbug": 1,
+      "snail": 4,
+      "cricket": 29,
+      "bell-cricket": 25,
+      "wharf-roach": 1,
+      "fruit-beetle": 6,
+      "rainbow-stag": 1,
+      "goliath-beetle": 1,
+      "flea": 0.5,
+      "pill-bug": 5,
+      "mosquito": 4,
+      "house-centipede": 2,
+      "spider": 5.5,
+      "scorpion": 0.5
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "monarch-butterfly": 6,
+      "emperor-butterfly": 1,
+      "lantern-fly": 1,
+      "stinkbug": 1,
+      "snail": 5,
+      "cricket": 27,
+      "bell-cricket": 22,
+      "walking-stick": 3,
+      "violin-beetle": 4,
+      "wharf-roach": 1,
+      "fruit-beetle": 6,
+      "rainbow-stag": 1,
+      "goliath-beetle": 1,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "house-centipede": 2,
+      "spider": 9
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 1,
+      "yellow-butterfly": 1,
+      "tiger-butterfly": 2,
+      "peacock-butterfly": 2,
+      "monarch-butterfly": 14,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 1,
+      "birdwing-butterfly": 0.5,
+      "long-locust": 14,
+      "migratory-locust": 10,
+      "rice-grasshopper": 2,
+      "mantis": 6,
+      "orchid-mantis": 3,
+      "walker-cicada": 2,
+      "red-dragonfly": 6,
+      "pondskater": 2,
+      "diving-beetle": 2,
+      "stinkbug": 1,
+      "snail": 4,
+      "grasshopper": 11,
+      "walking-leaf": 1,
+      "walking-stick": 2,
+      "violin-beetle": 4,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "flea": 0.5,
+      "pill-bug": 1,
+      "spider": 1
+     },
+     "rien": 3.5
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "monarch-butterfly": 13,
+      "agrias-butterfly": 1,
+      "raja-b-butterfly": 2,
+      "long-locust": 7,
+      "migratory-locust": 3,
+      "rice-grasshopper": 2,
+      "mantis": 4,
+      "orchid-mantis": 2,
+      "walker-cicada": 1,
+      "lantern-fly": 1,
+      "red-dragonfly": 33,
+      "pondskater": 3,
+      "diving-beetle": 1,
+      "stinkbug": 1,
+      "snail": 3,
+      "grasshopper": 11,
+      "walking-leaf": 1,
+      "walking-stick": 2,
+      "violin-beetle": 3,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "flea": 0.5,
+      "pill-bug": 1,
+      "centipede": 1,
+      "spider": 1
+     },
+     "rien": 1
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "long-locust": 10,
+      "migratory-locust": 8,
+      "rice-grasshopper": 2,
+      "lantern-fly": 2,
+      "red-dragonfly": 5,
+      "petaltail-dragonfly": 0.5,
+      "pondskater": 3,
+      "stinkbug": 1,
+      "snail": 4,
+      "cricket": 23,
+      "bell-cricket": 19,
+      "walking-stick": 3,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 1,
+      "flea": 0.5,
+      "pill-bug": 6,
+      "mosquito": 5,
+      "centipede": 2,
+      "spider": 4
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "emperor-butterfly": 1,
+      "moth": 5,
+      "oak-silk-moth": 1,
+      "stinkbug": 1,
+      "snail": 4,
+      "cricket": 34,
+      "bell-cricket": 25,
+      "wharf-roach": 1,
+      "fruit-beetle": 3,
+      "rainbow-stag": 1,
+      "goliath-beetle": 1,
+      "flea": 0.5,
+      "pill-bug": 6,
+      "mosquito": 5,
+      "house-centipede": 3,
+      "centipede": 2,
+      "spider": 5,
+      "scorpion": 0.5
+     },
+     "rien": 1
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "stinkbug": 1,
+      "cricket": 32,
+      "bell-cricket": 22,
+      "bagworm": 5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "house-centipede": 2,
+      "spider": 5
+     },
+     "rien": 23
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "monarch-butterfly": 3,
+      "stinkbug": 1,
+      "cricket": 25,
+      "bell-cricket": 16,
+      "walking-stick": 3,
+      "bagworm": 5,
+      "violin-beetle": 4,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "house-centipede": 2,
+      "spider": 5
+     },
+     "rien": 25.5
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "monarch-butterfly": 33,
+      "long-locust": 14,
+      "migratory-locust": 10,
+      "rice-grasshopper": 3,
+      "mantis": 6,
+      "orchid-mantis": 3,
+      "red-dragonfly": 6,
+      "stinkbug": 1,
+      "walking-stick": 2,
+      "ladybug": 10,
+      "violin-beetle": 4,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 2,
+      "spider": 2
+     },
+     "rien": 2.5
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "monarch-butterfly": 25,
+      "long-locust": 5,
+      "migratory-locust": 2,
+      "rice-grasshopper": 3,
+      "mantis": 4,
+      "orchid-mantis": 2,
+      "red-dragonfly": 46,
+      "stinkbug": 1,
+      "walking-stick": 2,
+      "ladybug": 2,
+      "violin-beetle": 3,
+      "tiger-beetle": 0.5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 2,
+      "centipede": 1
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "long-locust": 9,
+      "migratory-locust": 6,
+      "rice-grasshopper": 3,
+      "red-dragonfly": 22,
+      "petaltail-dragonfly": 0.5,
+      "stinkbug": 1,
+      "cricket": 22,
+      "bell-cricket": 16,
+      "walking-stick": 3,
+      "bagworm": 5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "centipede": 2
+     },
+     "rien": 0.5
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "stinkbug": 1,
+      "cricket": 35,
+      "bell-cricket": 22,
+      "bagworm": 5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 9,
+      "house-centipede": 2,
+      "centipede": 2
+     },
+     "rien": 23
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "cricket": 15,
+      "mole-cricket": 3,
+      "bagworm": 8,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 58
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "cricket": 9,
+      "mole-cricket": 3,
+      "walking-stick": 3,
+      "bagworm": 8,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 61
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "monarch-butterfly": 20,
+      "long-locust": 10,
+      "migratory-locust": 8,
+      "rice-grasshopper": 1,
+      "mantis": 6,
+      "orchid-mantis": 4,
+      "mole-cricket": 3,
+      "walking-stick": 2,
+      "bagworm": 15,
+      "violin-beetle": 4,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 11
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "monarch-butterfly": 15,
+      "long-locust": 6,
+      "migratory-locust": 3,
+      "rice-grasshopper": 1,
+      "mantis": 4,
+      "orchid-mantis": 2,
+      "mole-cricket": 3,
+      "walking-stick": 2,
+      "bagworm": 15,
+      "violin-beetle": 5,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "centipede": 2
+     },
+     "rien": 26
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "long-locust": 7,
+      "migratory-locust": 4,
+      "rice-grasshopper": 1,
+      "cricket": 9,
+      "mole-cricket": 3,
+      "walking-stick": 3,
+      "bagworm": 15,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "centipede": 2
+     },
+     "rien": 40
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "cricket": 15,
+      "mole-cricket": 3,
+      "bagworm": 8,
+      "wharf-roach": 0.5,
+      "flea": 0.5,
+      "pill-bug": 15,
+      "centipede": 2
+     },
+     "rien": 56
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 2,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 69.5
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 2,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 69.5
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 10,
+      "wharf-roach": 0.5,
+      "pill-bug": 15
+     },
+     "rien": 66.5
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 10,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 2
+     },
+     "rien": 64.5
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 10,
+      "dung-beetle": 1,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 2
+     },
+     "rien": 63.5
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "mole-cricket": 3,
+      "bagworm": 5,
+      "dung-beetle": 1,
+      "wharf-roach": 0.5,
+      "pill-bug": 15,
+      "centipede": 2
+     },
+     "rien": 68.5
+    }
+   ],
+   "sans_taux": {
+    "bee": "Autre mécanisme : l'abeille sort d'une ruche en secouant un arbre.",
+    "ant": "Autre mécanisme : la fourmi apparaît sur les navets pourris et les bonbons.",
+    "fly": "Autre mécanisme : la mouche apparaît sur les déchets et les navets pourris.",
+    "hermit-crab": "Autre mécanisme : le bernard-l'ermite apparaît sur la plage, déguisé en coquillage."
+   }
+  },
+  "creatures-marines": {
+   "creneaux": [
+    {
+     "id": "4h-9h et 16h-21h",
+     "heures": [
+      [
+       4,
+       9
+      ],
+      [
+       16,
+       21
+      ]
+     ]
+    },
+    {
+     "id": "9h-16h",
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    },
+    {
+     "id": "21h-4h",
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 10,
+      "acorn-barnacle": 3,
+      "oyster": 5,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 6,
+      "pearl-oyster": 7,
+      "scallop": 7,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "mantis-shrimp": 2,
+      "sweet-shrimp": 3,
+      "lobster": 1,
+      "snow-crab": 5,
+      "horsehair-crab": 5,
+      "red-king-crab": 5,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 13,
+      "acorn-barnacle": 3,
+      "oyster": 5,
+      "clam": 13,
+      "pearl-oyster": 12,
+      "scallop": 7,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "lobster": 1,
+      "snow-crab": 5,
+      "horsehair-crab": 5,
+      "red-king-crab": 5,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 6,
+      "acorn-barnacle": 3,
+      "oyster": 4,
+      "turban-shell": 5,
+      "abalone": 5,
+      "ear-shell": 5,
+      "clam": 6,
+      "pearl-oyster": 7,
+      "scallop": 7,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "mantis-shrimp": 5,
+      "sweet-shrimp": 5,
+      "lobster": 1,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 3,
+      "octopus": 3
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 10,
+      "acorn-barnacle": 3,
+      "oyster": 2,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 10,
+      "pearl-oyster": 7,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "mantis-shrimp": 2,
+      "sweet-shrimp": 3,
+      "lobster": 1,
+      "snow-crab": 5,
+      "horsehair-crab": 5,
+      "red-king-crab": 5
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 13,
+      "acorn-barnacle": 3,
+      "oyster": 2,
+      "clam": 12,
+      "pearl-oyster": 7,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "lobster": 1,
+      "snow-crab": 5,
+      "horsehair-crab": 5,
+      "red-king-crab": 5
+     }
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 7,
+      "acorn-barnacle": 3,
+      "oyster": 2,
+      "turban-shell": 5,
+      "abalone": 5,
+      "ear-shell": 5,
+      "clam": 6,
+      "pearl-oyster": 7,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "mantis-shrimp": 5,
+      "sweet-shrimp": 5,
+      "lobster": 1,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 3
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 12,
+      "acorn-barnacle": 3,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "mantis-shrimp": 5,
+      "lobster": 2,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 4,
+      "spider-crab": 4,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 20,
+      "acorn-barnacle": 3,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "lobster": 2,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 4,
+      "spider-crab": 4,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 10,
+      "acorn-barnacle": 3,
+      "turban-shell": 5,
+      "abalone": 5,
+      "ear-shell": 5,
+      "clam": 6,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "mantis-shrimp": 8,
+      "lobster": 2,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 4,
+      "spider-crab": 4,
+      "octopus": 3
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 12,
+      "acorn-barnacle": 3,
+      "turban-shell": 5,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "mantis-shrimp": 5,
+      "lobster": 3,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "spider-crab": 4,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 20,
+      "acorn-barnacle": 3,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "lobster": 3,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "spider-crab": 4,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 7,
+      "acorn-barnacle": 3,
+      "turban-shell": 10,
+      "abalone": 5,
+      "ear-shell": 5,
+      "clam": 9,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "mantis-shrimp": 8,
+      "lobster": 3,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "spider-crab": 4,
+      "octopus": 3
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 12,
+      "sea-urchin": 5,
+      "acorn-barnacle": 5,
+      "turban-shell": 5,
+      "abalone": 3,
+      "ear-shell": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 2,
+      "lobster": 5,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 20,
+      "sea-urchin": 5,
+      "acorn-barnacle": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 5,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 7,
+      "sea-urchin": 5,
+      "acorn-barnacle": 5,
+      "turban-shell": 10,
+      "abalone": 7,
+      "ear-shell": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 5,
+      "lobster": 5,
+      "octopus": 3
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 10,
+      "sea-grapes": 5,
+      "sea-urchin": 10,
+      "acorn-barnacle": 10,
+      "abalone": 3,
+      "ear-shell": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 2,
+      "tiger-prawn": 1,
+      "lobster": 3,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 10,
+      "sea-grapes": 5,
+      "sea-urchin": 10,
+      "acorn-barnacle": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 3,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 5,
+      "sea-grapes": 5,
+      "sea-urchin": 8,
+      "acorn-barnacle": 8,
+      "abalone": 7,
+      "ear-shell": 9,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 5,
+      "tiger-prawn": 4,
+      "lobster": 3,
+      "octopus": 3
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 5,
+      "sea-grapes": 10,
+      "sea-urchin": 10,
+      "acorn-barnacle": 10,
+      "abalone": 3,
+      "ear-shell": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 2,
+      "tiger-prawn": 1,
+      "lobster": 2,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 5,
+      "sea-grapes": 10,
+      "sea-urchin": 10,
+      "acorn-barnacle": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 2,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 5,
+      "sea-grapes": 5,
+      "sea-urchin": 7,
+      "acorn-barnacle": 7,
+      "abalone": 7,
+      "ear-shell": 8,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 5,
+      "tiger-prawn": 4,
+      "lobster": 2,
+      "octopus": 3,
+      "horseshoe-crab": 3
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "sea-grapes": 15,
+      "sea-urchin": 10,
+      "acorn-barnacle": 10,
+      "turban-shell": 5,
+      "abalone": 3,
+      "ear-shell": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "flatworm": 3,
+      "mantis-shrimp": 2,
+      "tiger-prawn": 1,
+      "lobster": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "especes": {
+      "sea-grapes": 15,
+      "sea-urchin": 15,
+      "acorn-barnacle": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "especes": {
+      "sea-grapes": 5,
+      "sea-urchin": 7,
+      "acorn-barnacle": 10,
+      "turban-shell": 10,
+      "abalone": 7,
+      "ear-shell": 8,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 3,
+      "sea-star": 3,
+      "sea-slug": 3,
+      "flatworm": 3,
+      "mantis-shrimp": 5,
+      "tiger-prawn": 4,
+      "lobster": 1,
+      "horseshoe-crab": 5
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "sea-grapes": 15,
+      "sea-urchin": 10,
+      "acorn-barnacle": 10,
+      "turban-shell": 5,
+      "abalone": 3,
+      "ear-shell": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "flatworm": 3,
+      "mantis-shrimp": 2,
+      "tiger-prawn": 1,
+      "lobster": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "especes": {
+      "sea-grapes": 15,
+      "sea-urchin": 10,
+      "acorn-barnacle": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "especes": {
+      "sea-grapes": 5,
+      "sea-urchin": 7,
+      "acorn-barnacle": 7,
+      "turban-shell": 10,
+      "abalone": 7,
+      "ear-shell": 8,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 3,
+      "sea-star": 3,
+      "sea-slug": 3,
+      "flatworm": 3,
+      "mantis-shrimp": 5,
+      "tiger-prawn": 4,
+      "lobster": 1,
+      "horseshoe-crab": 5
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "sea-grapes": 10,
+      "sea-urchin": 5,
+      "acorn-barnacle": 5,
+      "oyster": 5,
+      "turban-shell": 5,
+      "abalone": 3,
+      "ear-shell": 5,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "flatworm": 3,
+      "mantis-shrimp": 3,
+      "tiger-prawn": 1,
+      "lobster": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "especes": {
+      "sea-grapes": 10,
+      "sea-urchin": 5,
+      "acorn-barnacle": 5,
+      "oyster": 5,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "especes": {
+      "sea-grapes": 5,
+      "sea-urchin": 5,
+      "acorn-barnacle": 5,
+      "oyster": 5,
+      "turban-shell": 8,
+      "abalone": 7,
+      "ear-shell": 8,
+      "clam": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 3,
+      "sea-star": 3,
+      "sea-slug": 3,
+      "flatworm": 3,
+      "mantis-shrimp": 7,
+      "tiger-prawn": 4,
+      "lobster": 1,
+      "horseshoe-crab": 5
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 3,
+      "sweet-shrimp": 3,
+      "tiger-prawn": 2,
+      "lobster": 1,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "9h-16h",
+     "especes": {
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 1,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      30
+     ],
+     "creneau": "21h-4h",
+     "especes": {
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 5,
+      "abalone": 5,
+      "ear-shell": 5,
+      "clam": 5,
+      "pearl-oyster": 5,
+      "scallop": 5,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 8,
+      "sweet-shrimp": 5,
+      "tiger-prawn": 5,
+      "spiny-lobster": 2,
+      "lobster": 1,
+      "octopus": 3,
+      "horseshoe-crab": 3
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 2,
+      "sweet-shrimp": 5,
+      "lobster": 1,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "lobster": 1,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 5,
+      "abalone": 5,
+      "ear-shell": 5,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 3,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-slug": 3,
+      "mantis-shrimp": 5,
+      "sweet-shrimp": 10,
+      "spiny-lobster": 5,
+      "lobster": 1,
+      "octopus": 3
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 5,
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 7,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "mantis-shrimp": 2,
+      "sweet-shrimp": 5,
+      "lobster": 3,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 3,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 5,
+      "acorn-barnacle": 3,
+      "oyster": 15,
+      "clam": 10,
+      "pearl-oyster": 5,
+      "scallop": 7,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "lobster": 3,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 3,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 5,
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 3,
+      "pearl-oyster": 5,
+      "scallop": 7,
+      "sea-anemone": 5,
+      "sea-star": 5,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "mantis-shrimp": 5,
+      "sweet-shrimp": 10,
+      "spiny-lobster": 5,
+      "lobster": 3,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 3,
+      "octopus": 3
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "4h-9h et 16h-21h",
+     "especes": {
+      "seaweed": 5,
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 6,
+      "pearl-oyster": 5,
+      "scallop": 7,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "mantis-shrimp": 2,
+      "sweet-shrimp": 5,
+      "lobster": 5,
+      "snow-crab": 5,
+      "horsehair-crab": 5,
+      "red-king-crab": 5,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "9h-16h",
+     "especes": {
+      "seaweed": 10,
+      "acorn-barnacle": 3,
+      "oyster": 15,
+      "clam": 5,
+      "pearl-oyster": 5,
+      "scallop": 7,
+      "sea-anemone": 6,
+      "sea-star": 6,
+      "sea-cucumber": 6,
+      "sea-slug": 6,
+      "lobster": 5,
+      "snow-crab": 5,
+      "horsehair-crab": 5,
+      "red-king-crab": 5,
+      "octopus": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "21h-4h",
+     "especes": {
+      "seaweed": 5,
+      "acorn-barnacle": 3,
+      "oyster": 10,
+      "turban-shell": 3,
+      "abalone": 3,
+      "ear-shell": 3,
+      "clam": 3,
+      "pearl-oyster": 5,
+      "scallop": 7,
+      "sea-anemone": 5,
+      "sea-star": 5,
+      "sea-cucumber": 3,
+      "sea-slug": 6,
+      "mantis-shrimp": 5,
+      "sweet-shrimp": 10,
+      "spiny-lobster": 5,
+      "lobster": 3,
+      "snow-crab": 3,
+      "horsehair-crab": 3,
+      "red-king-crab": 3,
+      "octopus": 3
+     }
+    }
+   ],
+   "infos": [
+    "Créatures marines : à attraper en plongée. Août et septembre changent de table le 16."
+   ],
+   "sans_taux": {
+    "spotted-garden-eel": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+    "chambered-nautilus": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+    "giant-isopod": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville."
+   }
+  }
+ }
+}

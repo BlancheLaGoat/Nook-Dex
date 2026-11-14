@@ -1,0 +1,16 @@
+{
+  "_explication": [
+    "Note de rareté en étoiles, calculée à partir du pourcentage MAXIMUM de l'espèce sur toute l'année.",
+    "On prend la première ligne dont « a_partir_de » est atteint (en %), en lisant de haut en bas.",
+    "Exemple : une espèce qui ne dépasse jamais 3 % -> pas 15, pas 8, pas 4, mais 2 -> 4 étoiles.",
+    "Tu peux changer les nombres et les noms ; garde la dernière ligne à 0 pour que toutes les espèces aient une note.",
+    "Après une modification : ferme et relance l'appli."
+  ],
+  "seuils": [
+    { "a_partir_de": 15, "etoiles": 1, "nom": "Très courant" },
+    { "a_partir_de": 8,  "etoiles": 2, "nom": "Courant" },
+    { "a_partir_de": 4,  "etoiles": 3, "nom": "Peu courant" },
+    { "a_partir_de": 2,  "etoiles": 4, "nom": "Rare" },
+    { "a_partir_de": 0,  "etoiles": 5, "nom": "Très rare" }
+  ]
+}

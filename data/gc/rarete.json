@@ -1,0 +1,6205 @@
+{
+ "_genere": "Fichier fabriqué par scripts/rarete.js à partir de data/rarete/ : ne pas modifier à la main.",
+ "jeu": "gc",
+ "titre": "Animal Crossing (GameCube, PAL GAFP01 / US GAFE01)",
+ "source": "ac-decomp (ACreTeam), src/actor/ac_set_ovl_gyoei.c + ac_set_ovl_insect.c",
+ "notes": [
+  "Poissons : tirage pondéré, pourcent = poids / total de la liste (ville de rang 3+ ; en dessous le jeu applique un facteur 0.5/0.75/0.875).",
+  "Poissons : chaque mois a 2 quinzaines possibles ; seules août (mer) et septembre (rivière) changent à la 2e quinzaine.",
+  "Poissons : transition entre mois étalée sur 0 à 5 jours aléatoires (mélange des deux tables).",
+  "Coelacanthe : ajouté seulement s'il pleut, hors 9h-16h, poids 2 en mer.",
+  "Bassins : bug du jeu, l'heure est ignorée (toujours la table de nuit).",
+  "Insectes : si le total < 100, le reste correspond à 'aucun insecte' sur ce tirage."
+ ],
+ "categories": {
+  "poissons": {
+   "creneaux": [
+    {
+     "id": "21h-4h",
+     "heures": [
+      [
+       21,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "4h-9h",
+     "heures": [
+      [
+       4,
+       9
+      ]
+     ]
+    },
+    {
+     "id": "9h-16h",
+     "heures": [
+      [
+       9,
+       16
+      ]
+     ]
+    },
+    {
+     "id": "16h-21h",
+     "heures": [
+      [
+       16,
+       21
+      ]
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "bitterling": 15,
+      "pond-smelt": 30,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "bitterling": 15,
+      "pond-smelt": 30,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "bitterling": 15,
+      "pond-smelt": 30,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "bitterling": 15,
+      "pond-smelt": 30,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 21,
+      "brook-trout": 10,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "loach": 25,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 25,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 22,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "loach": 35,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 25,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 21,
+      "brook-trout": 10,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "loach": 25,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 25,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 22,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "loach": 35,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 25,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 20,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 15,
+      "dace": 15,
+      "loach": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 10,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 10,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 24,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "loach": 24,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 10,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 10,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 20,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 15,
+      "dace": 15,
+      "loach": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 10,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 10,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 24,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "loach": 24,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 10,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 5,
+      "dace": 5,
+      "loach": 10,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 16,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 10,
+      "dace": 10,
+      "loach": 3,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 5,
+      "loach": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 18,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "loach": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 5,
+      "loach": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 16,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 10,
+      "dace": 10,
+      "loach": 3,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 5,
+      "loach": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 18,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "loach": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 11,
+      "brook-trout": 10,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 5,
+      "loach": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 29,
+      "small-bass": 5,
+      "bass": 10,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 5,
+      "dace": 3,
+      "goldfish": 1,
+      "piranha": 1,
+      "eel": 10,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 17,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "giant-snakehead": 5,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "goldfish": 1,
+      "piranha": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 29,
+      "small-bass": 5,
+      "bass": 10,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 5,
+      "dace": 3,
+      "goldfish": 1,
+      "piranha": 1,
+      "eel": 10,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 17,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "giant-snakehead": 5,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "goldfish": 1,
+      "piranha": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 14,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 23,
+      "small-bass": 5,
+      "bass": 5,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 5,
+      "dace": 3,
+      "sweetfish": 5,
+      "goldfish": 1,
+      "piranha": 1,
+      "eel": 15,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 15,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "giant-snakehead": 10,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "sweetfish": 24,
+      "goldfish": 1,
+      "piranha": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 23,
+      "small-bass": 5,
+      "bass": 5,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 5,
+      "dace": 3,
+      "sweetfish": 5,
+      "goldfish": 1,
+      "piranha": 1,
+      "eel": 15,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 15,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "giant-snakehead": 10,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "sweetfish": 24,
+      "goldfish": 1,
+      "piranha": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 23,
+      "small-bass": 5,
+      "bass": 5,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 5,
+      "dace": 3,
+      "sweetfish": 5,
+      "goldfish": 1,
+      "piranha": 1,
+      "eel": 15,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 15,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "giant-snakehead": 10,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "sweetfish": 24,
+      "goldfish": 1,
+      "piranha": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 23,
+      "small-bass": 5,
+      "bass": 5,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 5,
+      "dace": 3,
+      "sweetfish": 5,
+      "goldfish": 1,
+      "piranha": 1,
+      "eel": 15,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 15,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "giant-snakehead": 10,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "sweetfish": 24,
+      "goldfish": 1,
+      "piranha": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1,
+      "killifish": 1
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "giant-catfish": 10,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 23,
+      "goldfish": 1,
+      "arowana": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "killifish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 16,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 24,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 5,
+      "dace": 3,
+      "sweetfish": 5,
+      "goldfish": 2,
+      "piranha": 1,
+      "eel": 5,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 5,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 2,
+      "arowana": 1,
+      "eel": 2,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 16,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "sweetfish": 5,
+      "goldfish": 2,
+      "piranha": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 2
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 8,
+      "brook-trout": 5,
+      "carp": 5,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "sweetfish": 5,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 2,
+      "arowana": 1,
+      "eel": 2,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 15,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 5,
+      "dace": 3,
+      "salmon": 49,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 4,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 5,
+      "large-char": 5,
+      "rainbow-trout": 5,
+      "salmon": 49,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 6,
+      "brook-trout": 10,
+      "carp": 3,
+      "small-bass": 5,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 5,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "salmon": 50,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 4,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "catfish": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 5,
+      "large-char": 5,
+      "rainbow-trout": 5,
+      "salmon": 49,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1,
+      "arapaima": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 19,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 10,
+      "dace": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 6,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 24,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 6,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 19,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "catfish": 5,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 10,
+      "dace": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 6,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 24,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 6,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "catfish": 2,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 3,
+      "dace": 3,
+      "cherry-salmon": 10,
+      "large-char": 10,
+      "rainbow-trout": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "angelfish": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 15,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 15,
+      "dace": 15,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 15,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 5,
+      "dace": 5,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 24,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 15,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 5,
+      "dace": 5,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 15,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 15,
+      "dace": 15,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 15,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 5,
+      "dace": 5,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 24,
+      "brook-trout": 15,
+      "carp": 3,
+      "small-bass": 20,
+      "bass": 5,
+      "large-bass": 2,
+      "bluegill": 10,
+      "barbel-steed": 5,
+      "pale-chub": 10,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "guppy": 1,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 15,
+      "brook-trout": 10,
+      "carp": 15,
+      "koi": 1,
+      "small-bass": 5,
+      "bass": 15,
+      "large-bass": 5,
+      "barbel-steed": 5,
+      "dace": 5,
+      "cherry-salmon": 5,
+      "large-char": 10,
+      "rainbow-trout": 5,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "bitterling": 15,
+      "pond-smelt": 30,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 15,
+      "dace": 15,
+      "bitterling": 15,
+      "pond-smelt": 30,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 7,
+      "brook-trout": 5,
+      "carp": 3,
+      "small-bass": 3,
+      "bass": 3,
+      "large-bass": 2,
+      "bluegill": 2,
+      "barbel-steed": 5,
+      "pale-chub": 5,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "goldfish": 1,
+      "freshwater-goby": 3,
+      "popeyed-goldfish": 1
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "riviere",
+     "eau_texte": "Rivière",
+     "especes": {
+      "crucian-carp": 5,
+      "brook-trout": 5,
+      "carp": 3,
+      "koi": 1,
+      "small-bass": 3,
+      "bass": 2,
+      "large-bass": 1,
+      "barbel-steed": 5,
+      "dace": 10,
+      "bitterling": 20,
+      "pond-smelt": 40,
+      "stringfish": 1,
+      "goldfish": 1,
+      "freshwater-goby": 3
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     }
+    },
+    {
+     "mois": 1,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     }
+    },
+    {
+     "mois": 2,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     },
+     "pluie": {
+      "coelacanth": 5.41
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     },
+     "pluie": {
+      "coelacanth": 5.41
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     },
+     "pluie": {
+      "coelacanth": 5.41
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     },
+     "pluie": {
+      "coelacanth": 5.41
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     },
+     "pluie": {
+      "coelacanth": 5.41
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     }
+    },
+    {
+     "mois": 3,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 57.14,
+      "red-snapper": 28.57,
+      "barred-knifejaw": 14.29
+     },
+     "pluie": {
+      "coelacanth": 5.41
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 47.62,
+      "red-snapper": 35.71,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 4.55
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     },
+     "pluie": {
+      "coelacanth": 4.76
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     },
+     "pluie": {
+      "coelacanth": 4.76
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     },
+     "pluie": {
+      "coelacanth": 4.76
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     },
+     "pluie": {
+      "coelacanth": 4.76
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     },
+     "pluie": {
+      "coelacanth": 4.76
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     }
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 50,
+      "red-snapper": 37.5,
+      "barred-knifejaw": 12.5
+     },
+     "pluie": {
+      "coelacanth": 4.76
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     }
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 60.61,
+      "red-snapper": 30.3,
+      "barred-knifejaw": 9.09
+     },
+     "pluie": {
+      "coelacanth": 5.71
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "jellyfish": 85.56,
+      "red-snapper": 11.11,
+      "barred-knifejaw": 3.33
+     },
+     "pluie": {
+      "coelacanth": 2.17
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "jellyfish": 85.56,
+      "red-snapper": 11.11,
+      "barred-knifejaw": 3.33
+     },
+     "pluie": {
+      "coelacanth": 2.17
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "jellyfish": 87,
+      "red-snapper": 10,
+      "barred-knifejaw": 3
+     }
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "jellyfish": 85.56,
+      "red-snapper": 11.11,
+      "barred-knifejaw": 3.33
+     },
+     "pluie": {
+      "coelacanth": 2.17
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "salmon": 83.33,
+      "red-snapper": 11.11,
+      "barred-knifejaw": 5.56
+     },
+     "pluie": {
+      "coelacanth": 2.17
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "salmon": 83.33,
+      "red-snapper": 11.11,
+      "barred-knifejaw": 5.56
+     },
+     "pluie": {
+      "coelacanth": 2.17
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "salmon": 85,
+      "red-snapper": 10,
+      "barred-knifejaw": 5
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "salmon": 83.33,
+      "red-snapper": 11.11,
+      "barred-knifejaw": 5.56
+     },
+     "pluie": {
+      "coelacanth": 2.17
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     }
+    },
+    {
+     "mois": 10,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 54.05,
+      "red-snapper": 27.03,
+      "barred-knifejaw": 18.92
+     },
+     "pluie": {
+      "coelacanth": 5.13
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 6.25
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 6.25
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 6.25
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 6.25
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 6.25
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     }
+    },
+    {
+     "mois": 11,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 66.67,
+      "red-snapper": 16.67,
+      "barred-knifejaw": 16.67
+     },
+     "pluie": {
+      "coelacanth": 6.25
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     }
+    },
+    {
+     "mois": 12,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "mer",
+     "eau_texte": "Mer",
+     "especes": {
+      "sea-bass": 86.96,
+      "red-snapper": 13.04
+     },
+     "pluie": {
+      "coelacanth": 8
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 4,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 13.04,
+      "crawfish": 86.96
+     }
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 5,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 5,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 6,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 7,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 8,
+     "jours": [
+      16,
+      31
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "killifish": 7.89,
+      "crawfish": 52.63,
+      "frog": 39.47
+     },
+     "rien": 0.01
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "21h-4h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "crawfish": 100
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "4h-9h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "crawfish": 100
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "9h-16h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "crawfish": 100
+     }
+    },
+    {
+     "mois": 9,
+     "jours": [
+      1,
+      15
+     ],
+     "creneau": "16h-21h",
+     "eau": "bassin",
+     "eau_texte": "Bassin",
+     "especes": {
+      "crawfish": 100
+     }
+    }
+   ],
+   "transition": {
+    "position": "fin",
+    "decalage_max": 5,
+    "mois": {
+     "du": 26,
+     "au": 6
+    },
+    "quinzaine": {
+     "du": 11,
+     "au": 21
+    }
+   },
+   "rang_ville": 3,
+   "facteurs_rang": [
+    0.5,
+    0.75,
+    0.875
+   ],
+   "pluie_seulement": {
+    "coelacanth": {
+     "sauf_creneaux": [
+      "9h-16h"
+     ]
+    }
+   }
+  },
+  "insectes": {
+   "creneaux": [
+    {
+     "id": "23h-4h",
+     "heures": [
+      [
+       23,
+       4
+      ]
+     ]
+    },
+    {
+     "id": "4h-8h",
+     "heures": [
+      [
+       4,
+       8
+      ]
+     ]
+    },
+    {
+     "id": "8h-16h",
+     "heures": [
+      [
+       8,
+       16
+      ]
+     ]
+    },
+    {
+     "id": "16h-17h",
+     "heures": [
+      [
+       16,
+       17
+      ]
+     ]
+    },
+    {
+     "id": "17h-19h",
+     "heures": [
+      [
+       17,
+       19
+      ]
+     ]
+    },
+    {
+     "id": "19h-23h",
+     "heures": [
+      [
+       19,
+       23
+      ]
+     ]
+    }
+   ],
+   "tables": [
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 1,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 2,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 81
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 81
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "ladybug": 15,
+      "spotted-ladybug": 15,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 41
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "ladybug": 5,
+      "spotted-ladybug": 5,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 71
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 81
+    },
+    {
+     "mois": 3,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 81
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 75
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 75
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 25,
+      "yellow-butterfly": 24,
+      "tiger-butterfly": 2,
+      "ladybug": 12,
+      "spotted-ladybug": 12,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 0
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "ladybug": 10,
+      "spotted-ladybug": 10,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 45
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 75
+    },
+    {
+     "mois": 4,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 75
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 82
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 82
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 20,
+      "yellow-butterfly": 20,
+      "tiger-butterfly": 5,
+      "common-dragonfly": 13,
+      "ladybug": 12,
+      "spotted-ladybug": 12,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 0
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 1,
+      "common-dragonfly": 15,
+      "ladybug": 10,
+      "spotted-ladybug": 10,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 36
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mosquito": 2,
+      "mole-cricket": 3,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 80
+    },
+    {
+     "mois": 5,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mosquito": 1,
+      "mole-cricket": 3,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 81
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "flat-stag-beetle": 2,
+      "firefly": 20,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 63
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "flat-stag-beetle": 2,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 83
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 15,
+      "yellow-butterfly": 15,
+      "tiger-butterfly": 5,
+      "purple-butterfly": 1,
+      "common-dragonfly": 21,
+      "darner-dragonfly": 8,
+      "longhorn-beetle": 5,
+      "ladybug": 5,
+      "spotted-ladybug": 5,
+      "cockroach": 4,
+      "pond-skater": 5,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 0
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 5,
+      "yellow-butterfly": 5,
+      "tiger-butterfly": 1,
+      "purple-butterfly": 1,
+      "common-dragonfly": 25,
+      "darner-dragonfly": 10,
+      "longhorn-beetle": 5,
+      "ladybug": 5,
+      "spotted-ladybug": 5,
+      "cockroach": 4,
+      "pond-skater": 5,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 18
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "cockroach": 4,
+      "pond-skater": 5,
+      "pill-bug": 5,
+      "mosquito": 10,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 70
+    },
+    {
+     "mois": 6,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "flat-stag-beetle": 2,
+      "firefly": 76,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mosquito": 7,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 0
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "drone-beetle": 10,
+      "dynastid-beetle": 5,
+      "flat-stag-beetle": 5,
+      "cockroach": 4,
+      "saw-stag-beetle": 5,
+      "mountain-beetle": 5,
+      "giant-beetle": 1,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 54
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "evening-cicada": 10,
+      "drone-beetle": 10,
+      "dynastid-beetle": 5,
+      "flat-stag-beetle": 5,
+      "cockroach": 4,
+      "saw-stag-beetle": 5,
+      "mountain-beetle": 5,
+      "giant-beetle": 1,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 44
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 3,
+      "yellow-butterfly": 3,
+      "tiger-butterfly": 3,
+      "purple-butterfly": 2,
+      "robust-cicada": 5,
+      "walker-cicada": 2,
+      "brown-cicada": 6,
+      "common-dragonfly": 8,
+      "darner-dragonfly": 5,
+      "banded-dragonfly": 5,
+      "drone-beetle": 4,
+      "jewel-beetle": 2,
+      "longhorn-beetle": 4,
+      "ladybug": 2,
+      "spotted-ladybug": 2,
+      "cockroach": 4,
+      "pond-skater": 5,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 24
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 3,
+      "yellow-butterfly": 3,
+      "tiger-butterfly": 1,
+      "purple-butterfly": 1,
+      "evening-cicada": 10,
+      "brown-cicada": 1,
+      "common-dragonfly": 8,
+      "darner-dragonfly": 5,
+      "banded-dragonfly": 5,
+      "drone-beetle": 8,
+      "longhorn-beetle": 5,
+      "ladybug": 3,
+      "spotted-ladybug": 2,
+      "cockroach": 4,
+      "pond-skater": 7,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 23
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "evening-cicada": 15,
+      "drone-beetle": 10,
+      "cockroach": 4,
+      "pond-skater": 8,
+      "pill-bug": 5,
+      "mosquito": 20,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 32
+    },
+    {
+     "mois": 7,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "drone-beetle": 10,
+      "dynastid-beetle": 5,
+      "flat-stag-beetle": 5,
+      "cockroach": 4,
+      "saw-stag-beetle": 5,
+      "mountain-beetle": 5,
+      "pill-bug": 5,
+      "mosquito": 15,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 40
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "drone-beetle": 10,
+      "dynastid-beetle": 5,
+      "flat-stag-beetle": 5,
+      "cockroach": 4,
+      "saw-stag-beetle": 5,
+      "mountain-beetle": 5,
+      "giant-beetle": 1,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 54
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "evening-cicada": 10,
+      "drone-beetle": 15,
+      "dynastid-beetle": 5,
+      "flat-stag-beetle": 5,
+      "cockroach": 4,
+      "saw-stag-beetle": 5,
+      "mountain-beetle": 5,
+      "giant-beetle": 1,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 39
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 3,
+      "yellow-butterfly": 2,
+      "tiger-butterfly": 3,
+      "purple-butterfly": 2,
+      "robust-cicada": 4,
+      "walker-cicada": 3,
+      "brown-cicada": 4,
+      "banded-dragonfly": 5,
+      "darner-dragonfly": 5,
+      "long-locust": 3,
+      "grasshopper": 8,
+      "drone-beetle": 4,
+      "jewel-beetle": 2,
+      "longhorn-beetle": 3,
+      "mantis": 4,
+      "cockroach": 4,
+      "pond-skater": 8,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 22
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "common-butterfly": 3,
+      "yellow-butterfly": 3,
+      "tiger-butterfly": 1,
+      "purple-butterfly": 1,
+      "evening-cicada": 9,
+      "brown-cicada": 1,
+      "darner-dragonfly": 5,
+      "banded-dragonfly": 5,
+      "long-locust": 3,
+      "grasshopper": 8,
+      "drone-beetle": 9,
+      "longhorn-beetle": 3,
+      "mantis": 4,
+      "cockroach": 4,
+      "pond-skater": 10,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 20
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "evening-cicada": 14,
+      "long-locust": 3,
+      "drone-beetle": 10,
+      "cockroach": 4,
+      "pond-skater": 10,
+      "pill-bug": 5,
+      "mosquito": 20,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 28
+    },
+    {
+     "mois": 8,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "drone-beetle": 10,
+      "dynastid-beetle": 5,
+      "flat-stag-beetle": 5,
+      "cockroach": 4,
+      "saw-stag-beetle": 5,
+      "mountain-beetle": 5,
+      "pill-bug": 5,
+      "mosquito": 15,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 40
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "cricket": 43,
+      "bell-cricket": 15,
+      "pine-cricket": 27,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 0
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "cricket": 20,
+      "bell-cricket": 3,
+      "pine-cricket": 5,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 57
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 3,
+      "yellow-butterfly": 3,
+      "tiger-butterfly": 3,
+      "walker-cicada": 2,
+      "red-dragonfly": 5,
+      "long-locust": 19,
+      "migratory-locust": 19,
+      "grasshopper": 11,
+      "mantis": 14,
+      "cockroach": 4,
+      "pond-skater": 3,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 3
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "red-dragonfly": 50,
+      "long-locust": 10,
+      "migratory-locust": 10,
+      "grasshopper": 5,
+      "mantis": 5,
+      "cockroach": 4,
+      "pond-skater": 5,
+      "pill-bug": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 0
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "red-dragonfly": 5,
+      "long-locust": 10,
+      "migratory-locust": 10,
+      "cricket": 20,
+      "bell-cricket": 3,
+      "pine-cricket": 5,
+      "cockroach": 4,
+      "pond-skater": 5,
+      "pill-bug": 5,
+      "mosquito": 5,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 22
+    },
+    {
+     "mois": 9,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "cricket": 40,
+      "bell-cricket": 15,
+      "pine-cricket": 28,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "mosquito": 2,
+      "spider": 2,
+      "snail": 4
+     },
+     "rien": 0
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "cricket": 30,
+      "bell-cricket": 10,
+      "pine-cricket": 20,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "bagworm": 2
+     },
+     "rien": 29
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "cricket": 5,
+      "bell-cricket": 3,
+      "pine-cricket": 5,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "bagworm": 2
+     },
+     "rien": 76
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "common-butterfly": 3,
+      "yellow-butterfly": 3,
+      "red-dragonfly": 5,
+      "long-locust": 15,
+      "migratory-locust": 15,
+      "ladybug": 10,
+      "spotted-ladybug": 10,
+      "mantis": 10,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "bagworm": 2
+     },
+     "rien": 18
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "red-dragonfly": 54,
+      "long-locust": 10,
+      "migratory-locust": 10,
+      "ladybug": 5,
+      "spotted-ladybug": 5,
+      "mantis": 5,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "bagworm": 2
+     },
+     "rien": 0
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "red-dragonfly": 5,
+      "long-locust": 5,
+      "migratory-locust": 5,
+      "cricket": 5,
+      "bell-cricket": 3,
+      "pine-cricket": 5,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "bagworm": 2
+     },
+     "rien": 61
+    },
+    {
+     "mois": 10,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "cricket": 30,
+      "bell-cricket": 10,
+      "pine-cricket": 20,
+      "cockroach": 4,
+      "pill-bug": 5,
+      "bagworm": 2
+     },
+     "rien": 29
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "cricket": 10,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "bagworm": 2
+     },
+     "rien": 78
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "cricket": 3,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "bagworm": 2
+     },
+     "rien": 85
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "long-locust": 5,
+      "migratory-locust": 5,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "bagworm": 2
+     },
+     "rien": 78
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "long-locust": 5,
+      "migratory-locust": 5,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "bagworm": 2
+     },
+     "rien": 78
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "cricket": 3,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "bagworm": 2
+     },
+     "rien": 85
+    },
+    {
+     "mois": 11,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "cricket": 10,
+      "cockroach": 2,
+      "pill-bug": 5,
+      "mole-cricket": 3,
+      "bagworm": 2
+     },
+     "rien": 78
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "23h-4h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "4h-8h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "8h-16h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "16h-17h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "17h-19h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    },
+    {
+     "mois": 12,
+     "jours": null,
+     "creneau": "19h-23h",
+     "especes": {
+      "pill-bug": 5,
+      "mole-cricket": 10,
+      "bagworm": 2
+     },
+     "rien": 83
+    }
+   ],
+   "transition": {
+    "position": "fin",
+    "decalage_max": 5,
+    "mois": {
+     "du": 26,
+     "au": 6
+    }
+   },
+   "rang_ville": 3,
+   "facteurs_rang": [
+    0.5,
+    0.75,
+    0.875
+   ],
+   "rang_ville_sauf": [
+    "ant",
+    "cockroach"
+   ]
+  }
+ }
+}

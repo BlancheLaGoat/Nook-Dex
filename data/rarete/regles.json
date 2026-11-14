@@ -1,0 +1,148 @@
+{
+  "_explication": [
+    "Règles propres à chaque jeu, utilisées par scripts/rarete.js pour fabriquer data/<jeu>/rarete.json.",
+    "transition : le jeu change de table avec un décalage de 0 à « decalage_max » jours, tiré au hasard pour chaque sauvegarde (impossible à connaître).",
+    "  transition.position : \"fin\" = la fenêtre commence avant le 1er (table du mois suivant déjà possible) et déborde sur le début du mois suivant.",
+    "  transition.mois : fenêtre où les tables des deux mois sont possibles, du jour « du » au jour « au » du mois suivant (ex. du 26 au 6).",
+    "  transition.quinzaine : même chose autour du changement de quinzaine (du jour « du » au jour « au » du même mois). Absent = pas de transition à la quinzaine.",
+    "  Sans « transition », la table change pile le 1er (et le 16 s'il y a des quinzaines).",
+    "rang_ville : les pourcentages supposent une ville de ce rang (ou plus) ; affiché en info-bulle.",
+    "facteurs_rang : facteurs appliqués par le jeu sous le rang_ville (rang 0, 1, 2…).",
+    "rang_ville_sauf : espèces pour lesquelles l'info-bulle du rang ne s'affiche pas (insectes sur bonbons ou déchets).",
+    "ajout_pluie : espèce absente des tables, ajoutée par le jeu seulement s'il pleut (poids ajouté à la table de l'eau indiquée, sauf aux créneaux listés).",
+    "mois_selon_tables : true = les tables du jeu font foi ; scripts/rarete.js corrige les mois (et quinzaines) des fiches data/<jeu>/<catégorie>.json pour qu'ils les suivent.",
+    "a_verifier : mention « à vérifier » affichée sur la fiche de l'espèce (identifiant de fiche -> texte).",
+    "infos : phrases affichées dans la section Rareté de toutes les fiches de la catégorie.",
+    "connecte (rarete.js) : taux quand on est connecté à une autre ville (City Folk : tirage sur 95 au lieu de 100), affichés en plus des taux normaux.",
+    "sans_taux : espèces sans taux dans les tables de la ville (île de Tortimer, autre mécanisme) -> « rareté inconnue » avec la raison sur leur fiche.",
+    "meteo_seulement : espèce présente dans les tables normales, mais que le jeu ne fait apparaître que par ce temps (identifiant de fiche -> « s'il pleut ou s'il neige ») ; le taux affiché ne vaut que ces jours-là."
+  ],
+  "gc": {
+    "poissons": {
+      "transition": {
+        "position": "fin",
+        "decalage_max": 5,
+        "mois": {
+          "du": 26,
+          "au": 6
+        },
+        "quinzaine": {
+          "du": 11,
+          "au": 21
+        }
+      },
+      "rang_ville": 3,
+      "facteurs_rang": [
+        0.5,
+        0.75,
+        0.875
+      ],
+      "ajout_pluie": [
+        {
+          "id": "coelacanth",
+          "eau": "mer",
+          "poids": 2,
+          "sauf_creneaux": [
+            "9h-16h"
+          ]
+        }
+      ],
+      "a_verifier": {},
+      "infos": []
+    },
+    "insectes": {
+      "transition": {
+        "position": "fin",
+        "decalage_max": 5,
+        "mois": {
+          "du": 26,
+          "au": 6
+        }
+      },
+      "rang_ville": 3,
+      "facteurs_rang": [
+        0.5,
+        0.75,
+        0.875
+      ],
+      "rang_ville_sauf": [
+        "ant",
+        "cockroach"
+      ],
+      "a_verifier": {},
+      "infos": []
+    }
+  },
+  "ww": {
+    "poissons": {
+      "_periodes": "Les périodes des fiches viennent d'animalcrossing-online.com (scripts/ww.js), pas des tables : les écarts sont listés par scripts/rarete.js.",
+      "a_verifier": {},
+      "infos": [
+        "Dans Wild World, la table change pile le 1er de chaque mois (et le 16 en août et en septembre), sans période de transition."
+      ],
+      "meteo_seulement": {
+        "coelacanth": "s'il pleut ou s'il neige"
+      }
+    },
+    "insectes": {
+      "mois_selon_tables": true,
+      "a_verifier": {},
+      "infos": []
+    }
+  },
+  "cf": {
+    "poissons": {
+      "mois_selon_tables": true,
+      "a_verifier": {},
+      "infos": [
+        "Dans City Folk, août et septembre changent de table le 15, sans période de transition.",
+        "Connecté à une autre ville, le jeu tire sur 95 au lieu de 100 : les poissons en fin de liste (souvent les plus rares) deviennent plus rares, voire impossibles."
+      ],
+      "meteo_seulement": {
+        "coelacanth": "s'il pleut ou s'il neige"
+      }
+    },
+    "insectes": {
+      "mois_selon_tables": true,
+      "a_verifier": {},
+      "infos": []
+    }
+  },
+  "nl": {
+    "poissons": {
+      "a_verifier": {},
+      "infos": [
+        "Dans New Leaf, août et septembre changent de table le 16."
+      ],
+      "sans_taux": {
+        "ribbon-eel": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+        "giant-trevally": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+        "whale-shark": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville."
+      },
+      "meteo_seulement": {
+        "coelacanth": "s'il pleut ou s'il neige"
+      }
+    },
+    "creatures_marines": {
+      "a_verifier": {},
+      "infos": [
+        "Créatures marines : à attraper en plongée. Août et septembre changent de table le 16."
+      ],
+      "sans_taux": {
+        "spotted-garden-eel": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+        "chambered-nautilus": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
+        "giant-isopod": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville."
+      }
+    },
+    "insectes": {
+      "a_verifier": {},
+      "infos": [],
+      "sans_taux": {
+        "bee": "Autre mécanisme : l'abeille sort d'une ruche en secouant un arbre.",
+        "ant": "Autre mécanisme : la fourmi apparaît sur les navets pourris et les bonbons.",
+        "fly": "Autre mécanisme : la mouche apparaît sur les déchets et les navets pourris.",
+        "hermit-crab": "Autre mécanisme : le bernard-l'ermite apparaît sur la plage, déguisé en coquillage."
+      }
+    }
+  }
+}
