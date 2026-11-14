@@ -32,5 +32,6 @@
    "seahorse",
    "squid"
   ]
- }
+ },
+ "sources_traduites": true
 }

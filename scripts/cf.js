@@ -123,7 +123,7 @@ async function pageDuSite(page, fichier, maj) {
 // Noms français absents des sources mais confirmés (version européenne du jeu).
 const NOMS_FR = { 'miyama stag beetle': 'Cervus' };
 
-const TYPES_VETEMENTS = { Shirts: 'Hauts', Hats: 'Chapeaux', Helmets: 'Casques', Accessories: 'Accessoires', Umbrellas: 'Parapluies' };
+const TYPES_VETEMENTS = { Shirts: 'Hauts', Tops: 'Hauts', Hats: 'Chapeaux', Helmets: 'Casques', Accessories: 'Accessoires', Umbrellas: 'Parapluies' };
 
 async function main() {
   const maj = process.argv.includes('--maj');
@@ -214,6 +214,11 @@ async function main() {
 
   cats.gyroides = objets(await c('cf_gyroid'), { frDe: (l, nom) => frObjet(nom) });
   cats.outils = objets((await c('cf_tool')).filter(l => l.type !== 'Umbrella'), { frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier) });
+  // Papeterie : table Nookipedia cf_stationery ; noms français de l'onglet Stationery du tableur, sinon des traductions du jeu.
+  const papeterieTableur = parNom('Stationery');
+  cats.papeterie = objets(await c('cf_stationery'), {
+    frDe: (l, nom) => { const x = papeterieTableur.get(nom.toLowerCase()); return (x && x['Name (French EU)']) || frObjet(nom) || frObjet(l.identifier); },
+  });
 
   ecrireJeu('cf', cats, [
     { nom: 'Nookipedia', url: 'https://nookipedia.com' },

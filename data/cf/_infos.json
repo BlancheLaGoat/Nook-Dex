@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-13",
+ "genere_le": "2026-11-14",
  "sources": [
   {
    "nom": "Nookipedia",
@@ -13,5 +13,6 @@
    "nom": "Fish and Insect Spawn Rates (City Folk)",
    "url": "https://docs.google.com/spreadsheets/d/10TjNaIYM7ovXduUfZP_69MezpM0Vc8K9nzljgUrxO48"
   }
- ]
+ ],
+ "sources_traduites": true
 }

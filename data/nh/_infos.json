@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-13",
+ "genere_le": "2026-11-14",
  "sources": [
   {
    "nom": "Data Spreadsheet for Animal Crossing New Horizons",
@@ -9,5 +9,6 @@
    "nom": "ACNH String Translations",
    "url": "https://docs.google.com/spreadsheets/d/1MMbsvDfu59OY9YBEAfHhFJ6O8vRTllNFgMrX7RBZuyI"
   }
- ]
+ ],
+ "sources_traduites": true
 }

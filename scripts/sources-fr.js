@@ -72,7 +72,7 @@ const TERMES = {
   'if rare': 'si rare', 'if very rare': 'si très rare', 'if common': 'si courant', common: 'courant', Common: 'courant', fail: "en cas d'échec",
   'good luck': 'chance', 'Any Season': 'toute saison', All: "toute l'année", Spring: 'printemps', Summer: 'été', Autumn: 'automne', Winter: 'hiver',
   House: 'maison', Boy: 'garçon', Girl: 'fille', Trick: 'farce', 'from Home': 'envoyé par Maman', shop: 'boutique', GBA: 'GBA', Jack: "Jacqu'O",
-  Lighthouse: 'Phare', Ground: 'Au sol',
+  Lighthouse: 'Phare', Ground: 'Au sol', 'letter reply': 'Réponse à une lettre',
   January: 'janvier', February: 'février', March: 'mars', April: 'avril', May: 'mai', June: 'juin', July: 'juillet', August: 'août',
   September: 'septembre', October: 'octobre', November: 'novembre', December: 'décembre',
 };
@@ -182,9 +182,15 @@ function principal() {
   if (fs.existsSync(fPoissons)) for (const e of JSON.parse(fs.readFileSync(fPoissons, 'utf8'))) nomsPoissonsNh.set(e.nom.en.toLowerCase(), e.nom.fr);
   const { texte, manquants } = creerTraducteur(dico, nomsPoissonsNh);
 
+  // Une traduction ne doit passer qu'UNE fois sur les textes anglais : certains noms sont à la fois anglais
+  // et français (Caroline -> Isabelle, mais Isabelle -> Marie). Chaque jeu traduit est marqué dans son
+  // _infos.json ; le script du jeu réécrit ce fichier (sans la marque) quand il régénère ses données.
   const jeux = JSON.parse(fs.readFileSync(path.join(DOSSIER_DATA, 'jeux.json'), 'utf8')).filter(j => j.disponible);
   let fichiers = 0, changes = 0;
   for (const j of jeux) {
+    const fInfos = path.join(DOSSIER_DATA, j.id, '_infos.json');
+    const infos = fs.existsSync(fInfos) ? JSON.parse(fs.readFileSync(fInfos, 'utf8')) : {};
+    if (infos.sources_traduites) { console.log(`${j.id} : déjà traduit (relancer npm run donnees:${j.id} pour retraduire).`); continue; }
     for (const c of j.categories) {
       const f = path.join(DOSSIER_DATA, j.id, `${c.id}.json`);
       if (!fs.existsSync(f)) continue;
@@ -197,14 +203,17 @@ function principal() {
       }
       if (modifie) { fs.writeFileSync(f, JSON.stringify(liste, null, 1) + '\n'); fichiers++; }
     }
+    if (fs.existsSync(fInfos)) fs.writeFileSync(fInfos, JSON.stringify({ ...infos, sources_traduites: true }, null, 1) + '\n');
   }
-  // Provenances du tableur des codes GameCube.
+  // Provenances du tableur des codes GameCube (même principe : marque dans codes.json, effacée par codes-gc.js).
   const fCodes = path.join(DOSSIER_DATA, 'gc', 'codes.json');
-  if (fs.existsSync(fCodes)) {
+  if (fs.existsSync(fCodes) && JSON.parse(fs.readFileSync(fCodes, 'utf8')).provenances_traduites) console.log('Codes GameCube : déjà traduits.');
+  else if (fs.existsSync(fCodes)) {
     const codes = JSON.parse(fs.readFileSync(fCodes, 'utf8'));
+    codes.provenances_traduites = true;
     let n = 0;
     for (const o of codes.objets) if (o.provenance) { const fr = texte(o.provenance); if (fr !== o.provenance) { o.provenance = fr; n++; } }
-    if (n) { fs.writeFileSync(fCodes, JSON.stringify(codes, null, 1) + '\n'); console.log(`Codes GameCube : ${n} provenances traduites.`); }
+    { fs.writeFileSync(fCodes, JSON.stringify(codes, null, 1) + '\n'); console.log(`Codes GameCube : ${n} provenances traduites.`); }
   }
   console.log(`${changes} fiches traduites dans ${fichiers} fichiers.`);
   if (manquants.size) console.log(`Restés en anglais (${manquants.size}) : ${[...manquants.keys()].sort().join(' | ')}`);

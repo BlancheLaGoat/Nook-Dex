@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-11-13",
+ "genere_le": "2026-11-14",
  "sources": [
   {
    "nom": "Nookipedia",
@@ -13,5 +13,6 @@
    "nom": "ACNL Translation Sheet",
    "url": "https://nookipedia.com/wiki/Community:ACNL_Spreadsheet"
   }
- ]
+ ],
+ "sources_traduites": true
 }

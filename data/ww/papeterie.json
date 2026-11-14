@@ -1,0 +1,1002 @@
+[
+ {
+  "id": "academy-paper",
+  "nom": {
+   "fr": "Papier scolaire",
+   "en": "Academy paper"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Academy_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "airmail-paper",
+  "nom": {
+   "fr": "Papier par avion",
+   "en": "Airmail paper"
+  },
+  "image": "https://dodo.ac/np/images/b/b3/Airmail_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "bathtub-paper",
+  "nom": {
+   "fr": "Papier bains",
+   "en": "Bathtub paper"
+  },
+  "image": "https://dodo.ac/np/images/d/d8/Bathtub_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "bejeweled-paper",
+  "nom": {
+   "fr": "Papier joyaux",
+   "en": "Bejeweled paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a5/Bejeweled_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "birthday-cards",
+  "nom": {
+   "fr": "Papier anniv.",
+   "en": "Birthday cards"
+  },
+  "image": "https://dodo.ac/np/images/b/be/Birthday_Cards_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "bubble-paper",
+  "nom": {
+   "fr": "Papier bulles",
+   "en": "Bubble paper"
+  },
+  "image": "https://dodo.ac/np/images/0/05/Bubble_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "buttercup-paper",
+  "nom": {
+   "fr": "Papier fleurs",
+   "en": "Buttercup paper"
+  },
+  "image": "https://dodo.ac/np/images/1/18/Buttercup_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "butterfly-paper",
+  "nom": {
+   "fr": "Papier papillon",
+   "en": "Butterfly paper"
+  },
+  "image": "https://dodo.ac/np/images/3/3a/Butterfly_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "camouflage-paper",
+  "nom": {
+   "fr": "Papier treillis",
+   "en": "Camouflage paper"
+  },
+  "image": "https://dodo.ac/np/images/5/5d/Camouflage_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "card-paper",
+  "nom": {
+   "fr": "Papier cartes",
+   "en": "Card paper"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Card_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "chic-paper",
+  "nom": {
+   "fr": "Papier chic",
+   "en": "Chic paper"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Chic_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "chinese-paper",
+  "nom": {
+   "fr": "Papier Asie",
+   "en": "Chinese paper"
+  },
+  "image": "https://dodo.ac/np/images/f/f3/Chinese_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "cloudy-paper",
+  "nom": {
+   "fr": "Papier nuages",
+   "en": "Cloudy paper"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Cloudy_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "composer-paper",
+  "nom": {
+   "fr": "Papier musique",
+   "en": "Composer paper"
+  },
+  "image": "https://dodo.ac/np/images/c/cf/Composer_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "cool-paper",
+  "nom": {
+   "fr": "Papier sympa",
+   "en": "Cool paper"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/Cool_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "cow-paper",
+  "nom": {
+   "fr": "Papier vache",
+   "en": "Cow paper"
+  },
+  "image": "https://dodo.ac/np/images/7/73/Cow_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "crater-paper",
+  "nom": {
+   "fr": "Papier cratère",
+   "en": "Crater paper"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Crater_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "egyptian-paper",
+  "nom": {
+   "fr": "Papier égyptien",
+   "en": "Egyptian paper"
+  },
+  "image": "https://dodo.ac/np/images/d/d6/Egyptian_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "elegant-paper",
+  "nom": {
+   "fr": "Papier sélect",
+   "en": "Elegant paper"
+  },
+  "image": "https://dodo.ac/np/images/3/3f/Elegant_Paper_WW_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "fireworks-paper",
+  "nom": {
+   "fr": "Papier artifice",
+   "en": "Fireworks paper"
+  },
+  "image": "https://dodo.ac/np/images/e/ea/Fireworks_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "floral-paper",
+  "nom": {
+   "fr": "Papier floral",
+   "en": "Floral paper"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Floral_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "flowery-paper",
+  "nom": {
+   "fr": "Papier fleuri",
+   "en": "Flowery paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Flowery_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "forest-paper",
+  "nom": {
+   "fr": "Papier forêt",
+   "en": "Forest paper"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Forest_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "formal-paper",
+  "nom": {
+   "fr": "Papier officiel",
+   "en": "Formal paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2d/Formal_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "four-leaf-paper",
+  "nom": {
+   "fr": "Papier trèfle",
+   "en": "Four-leaf paper"
+  },
+  "image": "https://dodo.ac/np/images/6/61/Four-Leaf_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "fox-paper",
+  "nom": {
+   "fr": "Papier renard",
+   "en": "Fox paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a1/Fox_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "geometric-paper",
+  "nom": {
+   "fr": "Papier géométrie",
+   "en": "Geometric paper"
+  },
+  "image": "https://dodo.ac/np/images/e/ec/Geometric_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "goldfish-paper",
+  "nom": {
+   "fr": "Papier poisson",
+   "en": "Goldfish paper"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Goldfish_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "hamburger-paper",
+  "nom": {
+   "fr": "Papier hamburger",
+   "en": "Hamburger paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2d/Hamburger_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "industrial-paper",
+  "nom": {
+   "fr": "Papier d'usine",
+   "en": "Industrial paper"
+  },
+  "image": "https://dodo.ac/np/images/8/89/Industrial_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "insurance-paper",
+  "nom": {
+   "fr": "Papier assurance",
+   "en": "Insurance paper"
+  },
+  "image": "https://dodo.ac/np/images/e/e0/Insurance_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "lacy-paper",
+  "nom": {
+   "fr": "Papier dentelle",
+   "en": "Lacy paper"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Lacy_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "lemon-lime-paper",
+  "nom": {
+   "fr": "Papier citron",
+   "en": "Lemon-lime paper"
+  },
+  "image": "https://dodo.ac/np/images/0/01/Lemon-Lime_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "leopard-paper",
+  "nom": {
+   "fr": "Papier léopard",
+   "en": "Leopard paper"
+  },
+  "image": "https://dodo.ac/np/images/6/6e/Leopard_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "lined-paper",
+  "nom": {
+   "fr": "Papier lignes",
+   "en": "Lined paper"
+  },
+  "image": "https://dodo.ac/np/images/4/46/Lined_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "lotus-paper",
+  "nom": {
+   "fr": "Papier lotus",
+   "en": "Lotus paper"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Lotus_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "lovely-paper",
+  "nom": {
+   "fr": "Papier cœur",
+   "en": "Lovely paper"
+  },
+  "image": "https://dodo.ac/np/images/d/da/Lovely_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "maple-leaf-paper",
+  "nom": {
+   "fr": "Papier érable",
+   "en": "Maple-leaf paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2e/Maple-Leaf_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "mosaic-paper",
+  "nom": {
+   "fr": "Papier mosaïque",
+   "en": "Mosaic paper"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Mosaic_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "mushroom-paper",
+  "nom": {
+   "fr": "Papier champi",
+   "en": "Mushroom paper"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Mushroom_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "new-years-cards",
+  "nom": {
+   "fr": "Carte de vœux",
+   "en": "New year's cards"
+  },
+  "image": "https://dodo.ac/np/images/e/eb/New_Year's_Cards_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "night-sky-paper",
+  "nom": {
+   "fr": "Papier astral",
+   "en": "Night sky paper"
+  },
+  "image": "https://dodo.ac/np/images/5/54/Night_Sky_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "nook-paper",
+  "nom": {
+   "fr": "Papier Nook",
+   "en": "Nook paper"
+  },
+  "image": "https://dodo.ac/np/images/3/39/Nook_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "notebook-paper",
+  "nom": {
+   "fr": "Papier calepin",
+   "en": "Notebook paper"
+  },
+  "image": "https://dodo.ac/np/images/6/63/Notebook_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "ocean-paper",
+  "nom": {
+   "fr": "Papier océan",
+   "en": "Ocean paper"
+  },
+  "image": "https://dodo.ac/np/images/5/50/Ocean_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "petal-paper",
+  "nom": {
+   "fr": "Papier pétales",
+   "en": "Petal paper"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Petal_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "piano-paper",
+  "nom": {
+   "fr": "Papier piano",
+   "en": "Piano paper"
+  },
+  "image": "https://dodo.ac/np/images/5/5b/Piano_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "plaid-paper",
+  "nom": {
+   "fr": "Papier plaid",
+   "en": "Plaid paper"
+  },
+  "image": "https://dodo.ac/np/images/e/ed/Plaid_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "polka-dot-paper",
+  "nom": {
+   "fr": "Papier à pois",
+   "en": "Polka-dot paper"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Polka-Dot_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "rainbow-paper",
+  "nom": {
+   "fr": "Papier irisé",
+   "en": "Rainbow paper"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Rainbow_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "ribbon-paper",
+  "nom": {
+   "fr": "Papier ruban",
+   "en": "Ribbon paper"
+  },
+  "image": "https://dodo.ac/np/images/0/02/Ribbon_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "smb3-paper",
+  "nom": {
+   "fr": "Papier SMB3",
+   "en": "SMB3 paper"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/SMB3_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "snowman-paper",
+  "nom": {
+   "fr": "Papier Yétiti",
+   "en": "Snowman paper"
+  },
+  "image": "https://dodo.ac/np/images/9/9e/Snowman_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "snowy-paper",
+  "nom": {
+   "fr": "Papier flocons",
+   "en": "Snowy paper"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Snowy_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "southwest-paper",
+  "nom": {
+   "fr": "Papier sud-ouest",
+   "en": "Southwest paper"
+  },
+  "image": "https://dodo.ac/np/images/7/7f/Southwest_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "sparkly-paper",
+  "nom": {
+   "fr": "Papier brillant",
+   "en": "Sparkly paper"
+  },
+  "image": "https://dodo.ac/np/images/5/59/Sparkly_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "star-paper",
+  "nom": {
+   "fr": "Papier étoile",
+   "en": "Star paper"
+  },
+  "image": "https://dodo.ac/np/images/d/d3/Star_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "tartan-paper",
+  "nom": {
+   "fr": "Papier tartan",
+   "en": "Tartan paper"
+  },
+  "image": "https://dodo.ac/np/images/d/d2/Tartan_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "tile-paper",
+  "nom": {
+   "fr": "Papier carreaux",
+   "en": "Tile paper"
+  },
+  "image": "https://dodo.ac/np/images/8/87/Tile_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "tortimer-paper",
+  "nom": {
+   "fr": "Papier Tortimer",
+   "en": "Tortimer paper"
+  },
+  "image": "https://dodo.ac/np/images/d/d1/Tortimer_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "town-view-paper",
+  "nom": {
+   "fr": "Papier ville",
+   "en": "Town view paper"
+  },
+  "image": "https://dodo.ac/np/images/7/73/Town_View_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ },
+ {
+  "id": "town-hall-paper",
+  "nom": {
+   "fr": "Papier poste",
+   "en": "Town-hall paper"
+  },
+  "image": "https://dodo.ac/np/images/2/28/Town-Hall_Paper_WW_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "vine-paper",
+  "nom": {
+   "fr": "Papier vigne",
+   "en": "Vine paper"
+  },
+  "image": "https://dodo.ac/np/images/b/bf/Vine_Paper_WW_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Tom Nook",
+   "Objets trouvés"
+  ]
+ }
+]

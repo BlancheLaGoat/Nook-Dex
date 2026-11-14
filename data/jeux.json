@@ -237,6 +237,12 @@
     "type": "objet"
    },
    {
+    "id": "papeterie",
+    "nom": "Papeterie",
+    "icone": "✉️",
+    "type": "objet"
+   },
+   {
     "id": "photos",
     "nom": "Photos",
     "icone": "📷",
@@ -324,6 +330,12 @@
     "nom": "Outils",
     "icone": "🪓",
     "type": "objet"
+   },
+   {
+    "id": "papeterie",
+    "nom": "Papeterie",
+    "icone": "✉️",
+    "type": "objet"
    }
   ]
  },
@@ -406,6 +418,12 @@
     "id": "outils",
     "nom": "Outils",
     "icone": "🪓",
+    "type": "objet"
+   },
+   {
+    "id": "papeterie",
+    "nom": "Papeterie",
+    "icone": "✉️",
     "type": "objet"
    },
    {

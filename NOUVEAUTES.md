@@ -37,6 +37,9 @@ Un nouvel outil dans le menu des profils Wild World :
 - **« Comment l'obtenir » en français** dans tous les jeux, avec les noms officiels des personnages (Rounard, Carla, Follet…).
 - Les images qui ne s'affichaient pas (lucane cerf-volant, poisson-lanterne de New Leaf…) s'affichent à nouveau.
 
+### ✉️ Papeterie
+- Nouvelle catégorie **Papeterie** pour Wild World (63), City Folk (64) et New Leaf (68), comme pour le GameCube.
+
 ### ⚙️ Profils
 - Les profils GameCube ont trois nouveaux champs : « Mon nom », « Ma ville » et « Version du jeu ».
 - Tes profils et ta progression actuels sont gardés tels quels.

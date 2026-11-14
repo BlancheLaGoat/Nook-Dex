@@ -1,0 +1,1080 @@
+[
+ {
+  "id": "academy-paper",
+  "nom": {
+   "fr": "Papier scolaire",
+   "en": "Academy paper"
+  },
+  "image": "https://dodo.ac/np/images/0/0a/Academy_Paper_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "airmail-paper",
+  "nom": {
+   "fr": "Papier par avion",
+   "en": "Airmail paper"
+  },
+  "image": "https://dodo.ac/np/images/f/fe/Airmail_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "bathtub-paper",
+  "nom": {
+   "fr": "Papier bains",
+   "en": "Bathtub paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2b/Bathtub_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "bejeweled-paper",
+  "nom": {
+   "fr": "Papier joyaux",
+   "en": "Bejeweled paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a2/Bejeweled_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "birthday-card",
+  "nom": {
+   "fr": "Papier anniversaire",
+   "en": "Birthday card"
+  },
+  "image": "https://dodo.ac/np/images/7/7c/Birthday_Card_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "bubble-paper",
+  "nom": {
+   "fr": "Papier bulles",
+   "en": "Bubble paper"
+  },
+  "image": "https://dodo.ac/np/images/1/1d/Bubble_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "buttercup-paper",
+  "nom": {
+   "fr": "Papier fleurs",
+   "en": "Buttercup paper"
+  },
+  "image": "https://dodo.ac/np/images/1/1e/Buttercup_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "butterfly-paper",
+  "nom": {
+   "fr": "Papier papillon",
+   "en": "Butterfly paper"
+  },
+  "image": "https://dodo.ac/np/images/8/82/Butterfly_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "camouflage-paper",
+  "nom": {
+   "fr": "Papier treillis",
+   "en": "Camouflage paper"
+  },
+  "image": "https://dodo.ac/np/images/8/88/Camouflage_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "campground-paper",
+  "nom": {
+   "fr": "Papier caravanerie",
+   "en": "Campground paper"
+  },
+  "image": "https://dodo.ac/np/images/c/c0/Campground_Paper_NLWa.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "card-paper",
+  "nom": {
+   "fr": "Papier cartes",
+   "en": "Card paper"
+  },
+  "image": "https://dodo.ac/np/images/c/c1/Card_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "chic-paper",
+  "nom": {
+   "fr": "Papier chic",
+   "en": "Chic paper"
+  },
+  "image": "https://dodo.ac/np/images/9/95/Chic_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "cloudy-paper",
+  "nom": {
+   "fr": "Papier nuages",
+   "en": "Cloudy paper"
+  },
+  "image": "https://dodo.ac/np/images/7/72/Cloudy_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "composer-paper",
+  "nom": {
+   "fr": "Papier musique",
+   "en": "Composer paper"
+  },
+  "image": "https://dodo.ac/np/images/6/6d/Composer_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "cool-paper",
+  "nom": {
+   "fr": "Papier sympa",
+   "en": "Cool paper"
+  },
+  "image": "https://dodo.ac/np/images/4/4e/Cool_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "cow-paper",
+  "nom": {
+   "fr": "Papier vache",
+   "en": "Cow paper"
+  },
+  "image": "https://dodo.ac/np/images/0/0f/Cow_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "crater-paper",
+  "nom": {
+   "fr": "Papier cratère",
+   "en": "Crater paper"
+  },
+  "image": "https://dodo.ac/np/images/5/52/Crater_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "elegant-paper",
+  "nom": {
+   "fr": "Papier sélect",
+   "en": "Elegant paper"
+  },
+  "image": "https://dodo.ac/np/images/e/e6/Elegant_Paper_NL_Model.png",
+  "prix": {
+   "achat": 800,
+   "vente": 200
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "fireworks-paper",
+  "nom": {
+   "fr": "Papier artifice",
+   "en": "Fireworks paper"
+  },
+  "image": "https://dodo.ac/np/images/b/b8/Fireworks_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "floral-paper",
+  "nom": {
+   "fr": "Papier floral",
+   "en": "Floral paper"
+  },
+  "image": "https://dodo.ac/np/images/7/79/Floral_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "flowery-paper",
+  "nom": {
+   "fr": "Papier fleuri",
+   "en": "Flowery paper"
+  },
+  "image": "https://dodo.ac/np/images/5/5f/Flowery_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "forest-paper",
+  "nom": {
+   "fr": "Papier forêt",
+   "en": "Forest paper"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Forest_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "formal-paper",
+  "nom": {
+   "fr": "Papier officiel",
+   "en": "Formal paper"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Formal_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "four-leaf-paper",
+  "nom": {
+   "fr": "Papier trèfle",
+   "en": "Four-leaf paper"
+  },
+  "image": "https://dodo.ac/np/images/e/e3/Four-Leaf_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "gallery-paper",
+  "nom": {
+   "fr": "Papier Rounard",
+   "en": "Gallery paper"
+  },
+  "image": "https://dodo.ac/np/images/9/90/Gallery_Paper_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "geometric-paper",
+  "nom": {
+   "fr": "Papier géométrie",
+   "en": "Geometric paper"
+  },
+  "image": "https://dodo.ac/np/images/b/b2/Geometric_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "goldfish-paper",
+  "nom": {
+   "fr": "Papier poisson",
+   "en": "Goldfish paper"
+  },
+  "image": "https://dodo.ac/np/images/4/44/Goldfish_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "halloween-paper",
+  "nom": {
+   "fr": "Papier Halloween",
+   "en": "Halloween paper"
+  },
+  "image": "https://dodo.ac/np/images/9/92/Halloween_Paper_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "hamburger-paper",
+  "nom": {
+   "fr": "Papier hamburger",
+   "en": "Hamburger paper"
+  },
+  "image": "https://dodo.ac/np/images/4/4d/Hamburger_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "hieroglyph-paper",
+  "nom": {
+   "fr": "Papier égyptien",
+   "en": "Hieroglyph paper"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Hieroglyph_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "imperial-paper",
+  "nom": {
+   "fr": "Papier Chine",
+   "en": "Imperial paper"
+  },
+  "image": "https://dodo.ac/np/images/c/ce/Imperial_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "industrial-paper",
+  "nom": {
+   "fr": "Papier d'usine",
+   "en": "Industrial paper"
+  },
+  "image": "https://dodo.ac/np/images/3/35/Industrial_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "lacy-paper",
+  "nom": {
+   "fr": "Papier dentelle",
+   "en": "Lacy paper"
+  },
+  "image": "https://dodo.ac/np/images/0/08/Lacy_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "lemon-lime-paper",
+  "nom": {
+   "fr": "Papier citron",
+   "en": "Lemon-lime paper"
+  },
+  "image": "https://dodo.ac/np/images/f/f5/Lemon-Lime_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "leopard-paper",
+  "nom": {
+   "fr": "Papier léopard",
+   "en": "Leopard paper"
+  },
+  "image": "https://dodo.ac/np/images/a/ac/Leopard_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "lined-paper",
+  "nom": {
+   "fr": "Papier lignes",
+   "en": "Lined paper"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Lined_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "lotus-paper",
+  "nom": {
+   "fr": "Papier nénuphar",
+   "en": "Lotus paper"
+  },
+  "image": "https://dodo.ac/np/images/0/03/Lotus_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "lovely-paper",
+  "nom": {
+   "fr": "Papier cœur",
+   "en": "Lovely paper"
+  },
+  "image": "https://dodo.ac/np/images/f/fd/Lovely_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "maple-leaf-paper",
+  "nom": {
+   "fr": "Papier érable",
+   "en": "Maple-leaf paper"
+  },
+  "image": "https://dodo.ac/np/images/8/8e/Maple-Leaf_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "melody-paper",
+  "nom": {
+   "fr": "Papier musical",
+   "en": "Melody paper"
+  },
+  "image": "https://dodo.ac/np/images/6/65/Melody_Paper_NL.png",
+  "prix": {
+   "achat": 500,
+   "vente": 125
+  },
+  "sources": [
+   "Magasin de Méli et Mélo"
+  ]
+ },
+ {
+  "id": "mosaic-paper",
+  "nom": {
+   "fr": "Papier mosaïque",
+   "en": "Mosaic paper"
+  },
+  "image": "https://dodo.ac/np/images/8/83/Mosaic_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "museum-paper",
+  "nom": {
+   "fr": "Papier Thibou",
+   "en": "Museum paper"
+  },
+  "image": "https://dodo.ac/np/images/f/f8/Museum_Paper_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "mushroom-paper",
+  "nom": {
+   "fr": "Papier champignon",
+   "en": "Mushroom paper"
+  },
+  "image": "https://dodo.ac/np/images/b/b9/Mushroom_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "new-years-cards",
+  "nom": {
+   "fr": "Carte de vœux",
+   "en": "New Year's cards"
+  },
+  "image": "https://dodo.ac/np/images/d/d5/New_Year's_Cards_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "night-sky-paper",
+  "nom": {
+   "fr": "Papier astral",
+   "en": "Night-sky paper"
+  },
+  "image": "https://dodo.ac/np/images/2/23/Night-Sky_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "nintendo-paper",
+  "nom": {
+   "fr": "Papier Nintendo",
+   "en": "Nintendo paper"
+  },
+  "image": "https://dodo.ac/np/images/8/80/Nintendo_Paper_NLWa.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "nook-paper",
+  "nom": {
+   "fr": "Papier Nook",
+   "en": "Nook paper"
+  },
+  "image": "https://dodo.ac/np/images/3/30/Nook_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "nooks-homes-paper",
+  "nom": {
+   "fr": "Papier Nook Immo",
+   "en": "Nook's Homes paper"
+  },
+  "image": "https://dodo.ac/np/images/2/21/Nook's_Homes_Paper_NLWa.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "notebook-paper",
+  "nom": {
+   "fr": "Papier calepin",
+   "en": "Notebook paper"
+  },
+  "image": "https://dodo.ac/np/images/1/14/Notebook_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "ocean-paper",
+  "nom": {
+   "fr": "Papier océan",
+   "en": "Ocean paper"
+  },
+  "image": "https://dodo.ac/np/images/3/31/Ocean_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "petal-paper",
+  "nom": {
+   "fr": "Papier pétales",
+   "en": "Petal paper"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Petal_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "piano-paper",
+  "nom": {
+   "fr": "Papier piano",
+   "en": "Piano paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a3/Piano_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "plaid-paper",
+  "nom": {
+   "fr": "Papier plaid",
+   "en": "Plaid paper"
+  },
+  "image": "https://dodo.ac/np/images/2/27/Plaid_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "polka-dot-paper",
+  "nom": {
+   "fr": "Papier à pois",
+   "en": "Polka-dot paper"
+  },
+  "image": "https://dodo.ac/np/images/2/2e/Polka-Dot_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "post-office-paper",
+  "nom": {
+   "fr": "Papier bureau poste",
+   "en": "Post-office paper"
+  },
+  "image": "https://dodo.ac/np/images/a/a4/Post-Office_Paper_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "rainbow-paper",
+  "nom": {
+   "fr": "Papier irisé",
+   "en": "Rainbow paper"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Rainbow_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "ribbon-paper",
+  "nom": {
+   "fr": "Papier ruban",
+   "en": "Ribbon paper"
+  },
+  "image": "https://dodo.ac/np/images/e/e9/Ribbon_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "smb3-paper",
+  "nom": {
+   "fr": "Papier SMB3",
+   "en": "SMB3 paper"
+  },
+  "image": "https://dodo.ac/np/images/1/1b/SMB3_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "snowman-paper",
+  "nom": {
+   "fr": "Papier Yétiti",
+   "en": "Snowman paper"
+  },
+  "image": "https://dodo.ac/np/images/a/ad/Snowman_Paper_NL_Model.png",
+  "prix": {
+   "achat": null,
+   "vente": null
+  },
+  "sources": [
+   "Impossible à obtenir"
+  ]
+ },
+ {
+  "id": "snowy-paper",
+  "nom": {
+   "fr": "Papier flocons",
+   "en": "Snowy paper"
+  },
+  "image": "https://dodo.ac/np/images/8/8c/Snowy_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "southwest-paper",
+  "nom": {
+   "fr": "Papier sud-ouest",
+   "en": "Southwest paper"
+  },
+  "image": "https://dodo.ac/np/images/c/c3/Southwest_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "sparkly-paper",
+  "nom": {
+   "fr": "Papier brillant",
+   "en": "Sparkly paper"
+  },
+  "image": "https://dodo.ac/np/images/3/3c/Sparkly_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "star-paper",
+  "nom": {
+   "fr": "Papier étoile",
+   "en": "Star paper"
+  },
+  "image": "https://dodo.ac/np/images/5/57/Star_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "tartan-paper",
+  "nom": {
+   "fr": "Papier tartan",
+   "en": "Tartan paper"
+  },
+  "image": "https://dodo.ac/np/images/f/f0/Tartan_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "tile-paper",
+  "nom": {
+   "fr": "Papier carreaux",
+   "en": "Tile paper"
+  },
+  "image": "https://dodo.ac/np/images/8/85/Tile_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "town-view-paper",
+  "nom": {
+   "fr": "Papier ville",
+   "en": "Town-view paper"
+  },
+  "image": "https://dodo.ac/np/images/3/32/Town-View_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "vine-paper",
+  "nom": {
+   "fr": "Papier vigne",
+   "en": "Vine paper"
+  },
+  "image": "https://dodo.ac/np/images/b/bd/Vine_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ },
+ {
+  "id": "weathered-paper",
+  "nom": {
+   "fr": "Papier ancien",
+   "en": "Weathered paper"
+  },
+  "image": "https://dodo.ac/np/images/b/bc/Weathered_Paper_NL_Model.png",
+  "prix": {
+   "achat": 160,
+   "vente": 40
+  },
+  "sources": [
+   "Magasin de Méli et Mélo",
+   "Objets trouvés, N'importe quel habitant (Réponse à une lettre)"
+  ]
+ }
+]

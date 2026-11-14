@@ -84,7 +84,7 @@ async function periodesDuSite(maj) {
 }
 
 const TABLEUR ={ fichier: path.join(DOSSIER_SOURCES, 'ww', 'ww.xlsx'), url: 'https://docs.google.com/spreadsheets/d/1aGEu_eoS3a-g_Tf--ewS0fLhyOHbNzpSc5jtaEE8nrA/export?format=xlsx' };
-const TYPES_VETEMENTS = { Shirts: 'Hauts', Hats: 'Chapeaux', Helmets: 'Casques', Accessories: 'Accessoires', Umbrellas: 'Parapluies' };
+const TYPES_VETEMENTS = { Shirts: 'Hauts', Tops: 'Hauts', Hats: 'Chapeaux', Helmets: 'Casques', Accessories: 'Accessoires', Umbrellas: 'Parapluies' };
 
 async function main() {
   const maj = process.argv.includes('--maj');
@@ -180,6 +180,11 @@ async function main() {
 
   cats.gyroides = objets(await c('ww_gyroid'), { frDe: (l, nom) => frObjet(nom) });
   cats.outils = objets((await c('ww_tool')).filter(l => l.type !== 'Umbrella'), { frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier) });
+  // Papeterie : table Nookipedia ww_stationery ; noms français de l'onglet Stationery du tableur, sinon des traductions du jeu.
+  const papeterieTableur = parNom('Stationery');
+  cats.papeterie = objets(await c('ww_stationery'), {
+    frDe: (l, nom) => { const x = papeterieTableur.get(nom.toLowerCase()); return (x && x['Name (French)']) || frObjet(nom) || frObjet(l.identifier); },
+  });
   cats.photos = objets(await c('ww_photo'), { frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier) });
 
   ecrireJeu('ww', cats, [

@@ -141,6 +141,11 @@ async function main() {
 
   cats.gyroides = objets(await c('nl_gyroid'), { frDe: (l, nom) => frObjet(nom), complement: (l, e) => { if (wa(l)) e.ext = 'wa'; } });
   cats.outils = objets(await c('nl_tool'), { frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier) });
+  // Papeterie : table Nookipedia nl_stationery ; noms français de l'onglet Stationery du tableur, sinon des traductions du jeu.
+  const papeterieTableur = new Map((d.Stationery || []).map(x => [String(x.Name).toLowerCase(), x]));
+  cats.papeterie = objets(await c('nl_stationery'), {
+    frDe: (l, nom) => { const x = papeterieTableur.get(nom.toLowerCase()); return (x && x['Name (French EU)']) || frObjet(nom) || frObjet(l.identifier); },
+  });
   cats.photos = objets(await c('nl_photo'), { frDe: (l, nom) => frObjet(nom) || frObjet(l.identifier), complement: (l, e) => { if (wa(l)) e.ext = 'wa'; } });
 
   ecrireJeu('nl', cats, [
