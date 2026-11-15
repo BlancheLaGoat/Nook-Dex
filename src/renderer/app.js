@@ -14,6 +14,7 @@ import { afficherEvenements } from './vues/evenements.js';
 import { afficherVille } from './vues/ville.js';
 import { afficherAFaire } from './vues/a-faire.js';
 import { afficherNavets } from './vues/navets.js';
+import { afficherFleurs } from './vues/fleurs.js';
 
 // Jeux qui ont l'écran des navets (New Leaf : désactivé pour l'instant, « bientôt »).
 const JEUX_NAVETS = ['nh', 'nl'];
@@ -39,6 +40,9 @@ async function afficherVue(vue) {
     nettoyerVue = afficherAccueil(contenu, jeu, id => afficherVue(['evenements', 'a-faire'].includes(id) ? { type: id } : { type: 'categorie', id }));
   } else if (vue.type === 'a-faire') {
     nettoyerVue = afficherAFaire(contenu, jeu);
+  } else if (vue.type === 'fleurs') {
+    if (jeu.id !== 'nh') return afficherVue({ type: 'accueil' });
+    nettoyerVue = await afficherFleurs(contenu, jeu);
   } else if (vue.type === 'navets') {
     if (!JEUX_NAVETS.includes(jeu.id)) return afficherVue({ type: 'accueil' });
     nettoyerVue = afficherNavets(contenu, jeu);
@@ -105,6 +109,7 @@ function dessinerMenu() {
     lien(etat.vue.type === 'especes', '🔎', 'Par espèce (tous les jeux)', null, () => afficherVue({ type: 'especes' })),
   );
   if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'ville', '🌳', 'Ville parfaite et arrosoir en or', null, () => afficherVue({ type: 'ville' })));
+  if (jeu.id === 'nh') menu.append(lien(etat.vue.type === 'fleurs', '🌷', 'Fleurs hybrides', null, () => afficherVue({ type: 'fleurs' })));
   if (JEUX_NAVETS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'navets', '🥬', jeu.id === 'nh' ? 'Navets (prix de la semaine)' : 'Navets (bientôt)', null, () => afficherVue({ type: 'navets' })));
 }
 

@@ -95,6 +95,9 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
 - Rareté de New Horizons : paramètres du jeu extraits par Ninji (version 1.4.0), via les tableurs
   « ACNH Fish / Bug / Sea Creatures Spawns » d'asteriation ([acnh.isomorphicbox.com](https://acnh.isomorphicbox.com/)).
 
+- Fleurs hybrides de New Horizons : génétique extraite du jeu par Aeter
+  ([guide des fleurs](https://aiterusawato.github.io/satogu/acnh/flowers/genotypes.html)) ; seuls les faits du jeu sont repris.
+
 - Navets de New Horizons : algorithme du jeu publié par Ninji (Treeki),
   [TurnipPrices.cpp](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b).
   Le prédicteur de Nook Dex est réécrit à partir de cet algorithme (aucun code repris d'un autre prédicteur).

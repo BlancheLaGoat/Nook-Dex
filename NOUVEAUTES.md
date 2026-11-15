@@ -13,6 +13,11 @@ Une nouvelle page, en haut du menu, qui liste les créatures **qui te manquent**
 - Le tableau de bord montre les **3 meilleures pistes** du moment.
 - Pour les espèces sans taux connu, seule la disponibilité est indiquée, sans chiffre inventé.
 
+### 🌷 Fleurs hybrides (New Horizons)
+Un nouvel outil dans le menu, d'après la génétique des fleurs extraite du jeu par Aeter :
+- **Croisement** : choisis deux fleurs (couleur et gènes) et vois les enfants possibles, en % par couleur et par gènes.
+- **Glossaire** : pour chaque espèce, toutes les couleurs, leurs gènes et où les trouver (graines, îles, croisement).
+
 ### 🥬 Navets : le prédicteur de prix (New Horizons)
 Un nouvel outil dans le menu : tu saisis le prix d'achat du dimanche et les cours que tu vois, et Nook Dex donne :
 - les **motifs possibles** (fluctuant, gros pic, petit pic, décroissant) avec leur probabilité ;

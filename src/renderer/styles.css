@@ -505,3 +505,21 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
 .navets-fourchettes td.vu { background: var(--surface); color: var(--texte-doux); font-style: italic; }
 .navets-fourchettes .meilleur { background: var(--jaune-pale); color: var(--texte); }
 .credits { margin-top: 18px; }
+
+/* Fleurs hybrides */
+.onglets { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.onglet { padding: 7px 14px; border: 1px solid var(--bord); border-radius: 999px; background: var(--surface); color: var(--texte); font: inherit; cursor: pointer; }
+.onglet.actif { background: var(--vert-pale, #dff1e6); border-color: transparent; font-weight: 600; }
+.fleur-parents { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px; align-items: center; margin-top: 10px; }
+.fleur-parent { display: grid; gap: 8px; }
+.fleur-parent select, .filtres select { max-width: 100%; }
+.fleur-fois { font-size: 28px; color: var(--texte-doux); }
+.fleur-ligne { display: flex; gap: 10px; align-items: center; }
+.fleur-resultats { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.fleur-resultat { background: var(--surface); border: 1px solid var(--bord); border-radius: 12px; padding: 10px 12px; display: grid; gap: 6px; }
+.fleur-pc { margin-left: auto; font-weight: 650; }
+.tableau-glossaire { border-collapse: collapse; width: 100%; margin-top: 10px; }
+.tableau-glossaire th, .tableau-glossaire td { padding: 6px 8px; border-bottom: 1px solid var(--bord); text-align: left; vertical-align: middle; }
+.genotypes { display: flex; flex-wrap: wrap; gap: 4px; }
+.genotype { font-family: ui-monospace, Consolas, monospace; font-size: 12px; padding: 2px 6px; border-radius: 6px; background: var(--surface-2); }
+.genotype.connu { font-weight: 700; outline: 1px solid var(--bord); }

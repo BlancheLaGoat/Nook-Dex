@@ -8,7 +8,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "donnees": "node scripts/nh.js && node scripts/nl.js && node scripts/cf.js && node scripts/ww.js && node scripts/gc.js && node scripts/evenements.js && node scripts/especes.js && node scripts/rarete-cf.js && node scripts/rarete-nh.js && node scripts/rarete.js && node scripts/codes-gc.js && node scripts/arrosoir.js && node scripts/sources-fr.js && node scripts/verifier.js",
+    "donnees": "node scripts/nh.js && node scripts/nl.js && node scripts/cf.js && node scripts/ww.js && node scripts/gc.js && node scripts/evenements.js && node scripts/especes.js && node scripts/rarete-cf.js && node scripts/rarete-nh.js && node scripts/rarete.js && node scripts/fleurs-nh.js && node scripts/codes-gc.js && node scripts/arrosoir.js && node scripts/sources-fr.js && node scripts/verifier.js",
     "donnees:nh": "node scripts/nh.js",
     "donnees:nl": "node scripts/nl.js",
     "donnees:cf": "node scripts/cf.js",
@@ -23,6 +23,7 @@
     "donnees:rarete": "node scripts/rarete.js",
     "donnees:rarete-cf": "node scripts/rarete-cf.js",
     "donnees:rarete-nh": "node scripts/rarete-nh.js",
+    "donnees:fleurs": "node scripts/fleurs-nh.js",
     "donnees:codes": "node scripts/codes-gc.js",
     "donnees:arrosoir": "node scripts/arrosoir.js",
     "donnees:sources-fr": "node scripts/sources-fr.js"
