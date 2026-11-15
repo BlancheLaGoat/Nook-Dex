@@ -63,7 +63,7 @@ export const codeDe = (categorie, id) => (etat.codes && etat.codes.parFiche.get(
 export const aDesCodes = categorie => !!(etat.codes && etat.codes.donnees
   && Object.values(etat.codes.donnees.categories).some(c => c.dex === categorie));
 
-export const rareteDe = categorie => rareteCategorie(etat.rarete && etat.rarete.donnees, categorie);
+export const rareteDe = categorie => rareteCategorie(etat.rarete && etat.rarete.donnees, categorie, etat.profil && etat.profil.hemisphere);
 export const seuilsEtoiles = () => (etat.rarete && etat.rarete.seuils) || SEUILS_DEFAUT;
 
 // ---------------------------------------------------------------------------

@@ -23,8 +23,17 @@ export const SEUILS_DEFAUT = [
 ];
 
 // Données de rareté d'une catégorie (null si le jeu ou la catégorie n'en a pas).
-export function rareteCategorie(rarete, categorie) {
-  return (rarete && rarete.categories && rarete.categories[categorie]) || null;
+// New Horizons : chaque table porte « hemisphere » ; on ne garde que celles de l'hémisphère demandé
+// (toujours le même objet pour un même hémisphère, pour que les caches de maxAnnee restent valables).
+const cacheHemisphere = new WeakMap();
+export function rareteCategorie(rarete, categorie, hemisphere = 'nord') {
+  const cr = (rarete && rarete.categories && rarete.categories[categorie]) || null;
+  if (!cr || !cr.tables.some(t => t.hemisphere)) return cr;
+  if (!cacheHemisphere.has(cr)) cacheHemisphere.set(cr, {});
+  const vues = cacheHemisphere.get(cr);
+  const h = hemisphere === 'sud' ? 'sud' : 'nord';
+  if (!vues[h]) vues[h] = { ...cr, tables: cr.tables.filter(t => t.hemisphere === h) };
+  return vues[h];
 }
 
 const jourDansTable = (t, jour) => !t.jours || (jour >= t.jours[0] && jour <= t.jours[1]);

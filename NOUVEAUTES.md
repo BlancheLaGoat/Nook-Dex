@@ -3,6 +3,17 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.2.0
+
+### ⭐ La rareté arrive dans New Horizons
+Les fiches des poissons, des insectes et des créatures marines de New Horizons disent maintenant **à quel point une créature est rare**, avec les taux tirés des paramètres du jeu.
+- La note de **1 à 5 étoiles**, sur la fiche et sur les cartes de la collection.
+- Le **taux du moment** et le **tableau mois × créneau horaire**, selon l'**hémisphère** de ton profil (nord ou sud).
+- Poissons : le taux **lieu par lieu** (rivière, embouchure, rivière en hauteur, étang, mer, ponton).
+- Le cœlacanthe et l'escargot indiquent qu'ils ne sortent **que s'il pleut**.
+- Les deux tris « les plus rares d'abord » et « taux actuel » fonctionnent aussi pour New Horizons.
+- Guêpe, fourmi et mouche expliquent pourquoi elles n'ont pas de taux (elles apparaissent autrement).
+
 ## 1.1.0
 
 ### ⭐ La rareté des créatures (GameCube, Wild World, City Folk, New Leaf)
