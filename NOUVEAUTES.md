@@ -3,6 +3,15 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.4.2
+
+### 🏮 Magasin de Nook (Wild World) : le feng shui de ta maison, calculé
+Le feng shui de ta maison change les chances des objets rares chez Nook et aux Doigts de fée. Nook Dex le calcule maintenant comme le jeu, à partir des meubles de ta sauvegarde : les meubles rouges dans les deux colonnes de l'est et les verts dans les deux rangées du sud de chaque pièce.
+- Nook Dex lit aussi dans ta sauvegarde si Nook fait ses extras du jour (un meuble échangé, les soldes).
+- Résultat : bien moins de « ? » dans le stock prévu (en moyenne 2 par jour au lieu de 6). Ceux qui restent viennent de règles du jeu, comme la couleur de la peinture de toit.
+- Le calcul est vérifié : il redonne le même stock que celui enregistré dans une vraie sauvegarde.
+- Si tu redécores ta maison, relis ta sauvegarde pour mettre le calcul à jour.
+
 ## 1.4.1
 
 ### ✂️ Les Doigts de fée (Wild World) : leur stock de chaque jour

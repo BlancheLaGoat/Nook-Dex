@@ -233,6 +233,53 @@ export function calibrerFee(d, ville, date, stockLu) {
   return ok;
 }
 
+// ---- le feng shui de la maison (room_score.c, item_footprint.c, item_group_order.c) ----
+// Dans chaque pièce, le jeu compte les meubles rouges dans les deux colonnes de l'est et les verts dans les deux
+// rangées du sud (un point par couleur A ou B qui correspond ; un meuble compte seulement si toutes ses cases sont
+// dans la bande). Le « dixième » des tirages est (rouges + verts) ÷ 10, arrondi (FX_Div), gardé sur un octet.
+// pieces : les 5 pièces de la maison, chacune 2 couches de 16 × 16 codes ; taille : la taille de la maison (0-6).
+// Le sol d'une pièce : 4 × 4, 6 × 6 puis 8 × 8 pour la pièce principale (tailles 0, 1, 2 et plus), 6 × 6 pour les
+// quatre autres, construites une à une (tailles 3 à 6) ; centré en x, contre le bas (z 13).
+const CASES = [[[0, 0]], [[0, 0], [1, 0]], [[0, 0], [1, 0], [0, 1], [1, 1]]];
+// Forme 1 (deux cases) : la deuxième case tourne avec le côté (0 à 3) ; le jeu la remet « depuis sa deuxième case,
+// tournée d'un demi-tour » (room_placement.c), ce qui fixe les côtés 0 et 1 à partir des côtés 2 et 3 vus dans une
+// vraie sauvegarde.
+const DEUX = [[1, 0], [0, -1], [-1, 0], [0, 1]];
+function casesDe(forme, cote) {
+  if (forme === 1) return [[0, 0], DEUX[cote]];
+  return CASES[forme] || [[0, 0]];
+}
+export function tailleSol(piece, taille) {
+  if (piece === 0) return taille <= 0 ? 4 : taille === 1 ? 6 : 8;
+  return taille >= piece + 2 ? 6 : 0;
+}
+export function fengShui(d, pieces, taille) {
+  let rouge = 0, vert = 0;
+  pieces.forEach((codes, p) => {
+    const s = tailleSol(p, taille);
+    if (!s) return;
+    const g = 8 - s / 2, dr = 7 + s / 2, h = 14 - s, b = 13;
+    const compter = (l, r, t, bo, couleur) => {
+      let n = 0;
+      for (let c = 0; c < 2; c++) for (let z = t; z <= bo; z++) for (let x = l; x <= r; x++) {
+        const code = codes[c * 256 + z * 16 + x];
+        if (!estMeuble(code)) continue;
+        const [a, bb, forme] = d.fengShui[Math.min(numMeuble(code), d.fengShui.length - 1)];
+        if (!casesDe(forme, code & 3).every(([dx, dz]) => x + dx >= l && x + dx <= r && z + dz >= t && z + dz <= bo)) continue;
+        if (a === couleur) n++;
+        if (bb === couleur) n++;
+      }
+      return Math.min(n, 255);
+    };
+    rouge = (rouge + compter(dr - 1, dr, h, b, 2)) & 0xff;
+    vert = (vert + compter(g, dr, b - 1, b, 4)) & 0xff;
+  });
+  // FX_Div(somme, 10.0) du SDK de la DS : quotient (somme × 2^32) ÷ (10 × 4096), puis (q + 2^19) >> 20 ; coupé à un octet.
+  const q = Math.floor(((rouge + vert) * 2 ** 32) / 40960);
+  const dixieme = Math.floor((q + 2 ** 19) / 2 ** 20) & 0xff;
+  return { rouge, vert, dixieme };
+}
+
 // ---- calibration : les réglages (feng shui, extras) qui redonnent le stock lu dans la sauvegarde ----
 // stockLu : les codes des places du magasin (AUCUN pour les places vides). Renvoie [{ dixieme, extras }].
 export function calibrer(d, ville, date, stockLu) {

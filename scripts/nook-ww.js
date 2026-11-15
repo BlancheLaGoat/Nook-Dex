@@ -5,7 +5,7 @@
 //  - dans le programme (ARM9, compressé en BLZ) : les six ordres des groupes 1-3 (0x020CBBDC), la liste des
 //    douze sacs de graines (0x020D0F5C) et les tailles des sections par niveau du magasin (0x020D0F10) ;
 //  - dans les fichiers de la cartouche : /ftr_info/FRN/always.bin (groupe de tirage de chaque meuble, octet 4 de
-//    chaque enregistrement de 8 octets) et /item_info/FRN/always.bin (classe, groupe et saison des autres objets,
+//    chaque enregistrement de 8 octets ; couleurs et forme pour le feng shui : octets 1, 2 et 5) et /item_info/FRN/always.bin (classe, groupe et saison des autres objets,
 //    octets 4, 6 et 8 des enregistrements de 12 octets). Les fichiers des autres langues sont identiques.
 //
 // Doigts de fée : les vêtements, accessoires, chapeaux et parapluies (mêmes fichiers item_info).
@@ -96,6 +96,9 @@ ecrireJson('ww/nook.json', {
   tailles,
   // Groupe de tirage de chacun des 0x6e9 meubles (code 0x3000 + 4 × numéro).
   meubles: [...Array(0x6e9)].map((_, n) => meubles[n * 8 + 4]),
+  // Feng shui (room_score.c) : [couleur A, couleur B, forme au sol] de chaque meuble (octets 1, 2 et 5 ; couleurs 1 jaune,
+  // 2 rouge, 4 vert ; formes 0 une case, 1 deux cases, 2 deux sur deux).
+  fengShui: [...Array(0x6e9)].map((_, n) => [meubles[n * 8 + 1], meubles[n * 8 + 2], meubles[n * 8 + 5]]),
   // [groupe, saison] : papeterie (64 piles pleines, 0x1003 + 4 × n), moquettes (0x1144 + n), papiers peints (0x1100 + n).
   papeterie: plage(0x1000, 64, 4, 3),
   moquettes: plage(0x1144, 0x44),

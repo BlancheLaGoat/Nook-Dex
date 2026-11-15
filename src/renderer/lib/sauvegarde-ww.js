@@ -144,7 +144,12 @@ export function navetsWW(octets) {
 // année − 2000) à + 0x4E, niveau dans les bits 9-10 du mot à + 0x5A. À 0x15FBC : les 9 octets de l'ordre des
 // groupes de rareté de la ville (un par genre d'objets), qui entrent dans la graine du stock de chaque jour.
 // Doigts de fée à 0x15F84 : 6 codes (u16, « posés dans une pièce »), puis la date du stock (jour, mois, année − 2000).
-const NOOK = 0x15DB4, ORDRES = 0x15FBC, FEE = 0x15F84;
+// La maison (HouseRecord, house_record.h) à 0xE558 : 5 pièces de 0x450 octets (2 couches de 16 × 16 codes au début),
+// puis à + 0x15A0 un mot dont les bits 0-2 sont la taille de la maison (0-6). Pour le feng shui (lib/nook-ww.js).
+// Les extras du jour du magasin (un meuble échangé, les soldes) n'ont lieu que si un joueur de la ville n'a plus le
+// drapeau 1 de son dossier (« travail chez Nook pas fini » : 64 drapeaux à + 0x21FC, avant la date de la dernière
+// partie) et qu'aucun agrandissement n'est prévu (octet + 0x59 du magasin).
+const NOOK = 0x15DB4, ORDRES = 0x15FBC, FEE = 0x15F84, MAISON = 0xE558, DRAPEAUX_JOUEUR = 0x21FC;
 export function nookWW(octets) {
   const { s } = villeValide(octets);
   return {
@@ -152,6 +157,13 @@ export function nookWW(octets) {
     niveau: (u16(s, NOOK + 0x5A) >> 9) & 3,
     stock: Array.from({ length: 37 }, (_, i) => u16(s, NOOK + 4 + i * 2)),
     date: { jour: s[NOOK + 0x4E], mois: s[NOOK + 0x4F], annee: 2000 + s[NOOK + 0x50] },
+    pieces: Array.from({ length: 5 }, (_, p) => Array.from({ length: 512 }, (_, i) => u16(s, MAISON + p * 0x450 + i * 2))),
+    tailleMaison: u16(s, MAISON + 0x15A0) & 7,
+    // Joueurs qui ont encore le travail chez Nook à faire (drapeau 1) ; les extras ont lieu si ce n'est pas le cas de tous.
+    tousAuTravail: [0, 1, 2, 3].map(n => DEBUT_JOUEURS + n * TAILLE_JOUEUR)
+      .filter(p => { const id = u16(s, p + 0x2280); return id !== 0 && id !== 0xFFFF; })
+      .every(p => (s[p + DRAPEAUX_JOUEUR] >> 1) & 1),
+    agrandissementPrevu: s[NOOK + 0x59] === 1,
     fee: {
       stock: Array.from({ length: 6 }, (_, i) => u16(s, FEE + i * 2)),
       date: { jour: s[FEE + 12], mois: s[FEE + 13], annee: 2000 + s[FEE + 14] },

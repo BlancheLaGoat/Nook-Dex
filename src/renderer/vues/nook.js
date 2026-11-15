@@ -3,7 +3,7 @@
 // calibration sont lus dans la sauvegarde et gardés dans le profil (profil.nookWW).
 import { h, vider, ajouterA, image, notifier } from '../lib/dom.js';
 import { etat, donneesCategorie, planifierSauvegarde, maintenant, etatDe } from '../lib/etat.js';
-import { stockPossible, feePossible, prochainesVentes, calibrer, calibrerFee, codePiece } from '../lib/nook-ww.js';
+import { stockPossible, feePossible, prochainesVentes, calibrer, calibrerFee, codePiece, fengShui } from '../lib/nook-ww.js';
 import { nookWW } from '../lib/sauvegarde-ww.js';
 
 const NIVEAUX = ['Nook Bazar', 'Nook Super', 'Nook Hyper', 'Nook Méga'];
@@ -73,12 +73,24 @@ export async function afficherNook(conteneur, jeu) {
       const ensemble = reglages.filter(r => fee.includes(r.dixieme));
       if (ensemble.length) reglages = ensemble;
     }
+    // Le feng shui calculé à partir des meubles de la maison, comme le jeu : s'il redonne lui aussi le stock lu, il est
+    // gardé seul (il ne reste que l'incertitude des extras du jour).
+    const fs = fengShui(donnees, n.pieces, n.tailleMaison);
+    // Les extras : connus aussi (le jour de la sauvegarde) ; pour les jours suivants, un agrandissement peut être
+    // prévu tant que le magasin n'est pas au dernier niveau, ce qui les supprime ces jours-là : les deux restent possibles.
+    const extrasCeJour = !n.tousAuTravail && !n.agrandissementPrevu;
+    const extrasAVenir = n.tousAuTravail ? [false] : n.niveau >= 3 ? [true] : [true, false];
+    const exacts = reglages.filter(r => r.dixieme === fs.dixieme && r.extras === extrasCeJour)
+      .length ? extrasAVenir.map(extras => ({ dixieme: fs.dixieme, extras })) : [];
+    const fengShuiExact = exacts.length > 0;
+    if (fengShuiExact) reglages = exacts;
     if (!reglages.length) { notifier("Le stock de cette sauvegarde ne correspond à aucun calcul : la prévision n'est pas possible pour cette ville.", 'erreur'); return; }
     // Une nouvelle lecture d'un autre jour resserre les réglages gardés (s'il s'agit de la même ville).
     const ancien = profil.nookWW;
     const memeVille = ancien && ancien.ordres.join() === n.ordres.join() && ancien.niveau === n.niveau;
     const garde = memeVille ? reglages.filter(r => ancien.reglages.some(a => a.dixieme === r.dixieme && a.extras === r.extras)) : reglages;
-    profil.nookWW = { ordres: n.ordres, niveau: n.niveau, reglages: garde.length ? garde : reglages, date: iso(date) };
+    profil.nookWW = { ordres: n.ordres, niveau: n.niveau, reglages: garde.length ? garde : reglages, date: iso(date),
+      fengShui: fengShuiExact ? { ...fs, taille: n.tailleMaison } : null };
     planifierSauvegarde();
     notifier(`Stock du ${date.toLocaleDateString('fr-FR')} retrouvé à l'identique : prévisions prêtes.`);
     dessiner();
@@ -120,14 +132,14 @@ export async function afficherNook(conteneur, jeu) {
     function puces(l) {
       return l.map(x => {
         const o = objet(x.code);
-        return h('span', { class: `puce-element${x.sur ? '' : ' possible'}`, title: [o.nom, x.sur ? '' : `possible${x.incertain ? ` : ${INCERTAIN[x.incertain] || ''}` : ' (selon le feng shui de ta maison)'}`, obtenu(o) ? 'déjà dans ton catalogue' : ''].filter(Boolean).join(' — ') },
+        return h('span', { class: `puce-element${x.sur ? '' : ' possible'}`, title: [o.nom, x.sur ? '' : `possible${x.incertain ? ` : ${INCERTAIN[x.incertain] || ''}` : ' (selon le feng shui ou les extras du jour)'}`, obtenu(o) ? 'déjà dans ton catalogue' : ''].filter(Boolean).join(' — ') },
           o.fiche && o.fiche.image ? image(o.fiche.image, '', 'vignette petite') : null, o.nom, x.sur ? null : h('span', { class: 'aide' }, ' ?'), obtenu(o) ? h('span', { class: 'aide' }, ' ✓') : null);
       });
     }
     const fee = feePossible(donnees, v, date, reglages);
     section.append(h('h2', { style: { marginTop: '18px' } }, '✂️ Les Doigts de fée'));
     for (const [id, titre] of SECTIONS_FEE) section.append(h('h3', {}, titre), h('div', { class: 'liste-mini' }, puces(fee.objets.filter(x => x.section === id))));
-    section.append(h('p', { class: 'aide' }, "« ? » : possible seulement (selon le feng shui de ta maison, que Nook Dex n'a pas pu fixer exactement, ou une règle du jeu). ✓ : déjà dans ton catalogue. Le jour du magasin commence à 6 h."));
+    section.append(h('p', { class: 'aide' }, "« ? » : possible seulement (un meuble échangé certains jours, le feng shui quand Nook Dex n'a pas pu le calculer, ou une règle du jeu). ✓ : déjà dans ton catalogue. Le jour du magasin commence à 6 h."));
     corps.append(section);
 
     // ---- quand Nook vendra-t-il… ----
@@ -161,7 +173,7 @@ export async function afficherNook(conteneur, jeu) {
       zoneRecherche,
       h('h3', {}, `Ce qui te manque, dans l'ordre où Nook le vendra (${manquants.length} sur l'année)`),
       manquants.length ? h('ul', { class: 'liste-conditions' }, manquants.slice(0, 40).map(ligne)) : h('p', { class: 'aide' }, "Rien : tout ce que Nook vendra dans l'année est déjà dans ton catalogue."),
-      h('p', { class: 'aide credits' }, `Calcul d'après le code du jeu décompilé par le projet acww-decomp (licence CC0) et les données de la ROM. Vérifié : le stock lu dans ta sauvegarde est retrouvé à l'identique. Réglages retenus : feng shui ${[...new Set(reglages.map(r => r.dixieme))].join(', ')}${reglages.some(r => r.extras) ? ' ; extras du jour possibles' : ''}. Relis ta sauvegarde un autre jour pour les affiner.`)));
+      h('p', { class: 'aide credits' }, `Calcul d'après le code du jeu décompilé par le projet acww-decomp (licence CC0) et les données de la ROM. Vérifié : le stock lu dans ta sauvegarde est retrouvé à l'identique. ${v.fengShui ? `Feng shui de ta maison calculé comme le jeu : ${v.fengShui.rouge} points rouges à l'est et ${v.fengShui.vert} verts au sud, soit ${v.fengShui.dixieme}. Si tu redécores ta maison, relis ta sauvegarde.` : `Feng shui retenu : ${[...new Set(reglages.map(r => r.dixieme))].join(', ')}. Relis ta sauvegarde un autre jour pour l'affiner.`}${reglages.every(r => r.extras) ? ' Les extras du jour de Nook (un meuble échangé, les soldes) sont comptés.' : reglages.some(r => r.extras) ? ' Les extras du jour de Nook (un meuble échangé, les soldes) restent possibles.' : ''}`)));
     chercher();
   }
   dessiner();
