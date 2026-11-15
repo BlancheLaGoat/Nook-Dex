@@ -32,6 +32,10 @@ src/renderer/          l'interface
   vues/                tableau de bord, collection, fiche, profils et réglages
   lib/dispo.js         « disponible maintenant », mois, heures, part bientôt
   lib/filtres.js       recherche, filtres, tri, progression
+  lib/sauvegarde-gc.js lecture des sauvegardes du GameCube (.gci, carte .raw) — jamais d'écriture
+  lib/sauvegarde-ww.js lecture des sauvegardes de Wild World (.sav, .dsv) — jamais d'écriture
+  lib/sauvegarde-nl.js lecture des sauvegardes de New Leaf (garden_plus.dat) — jamais d'écriture
+  lib/sauvegarde-nh.js déchiffrement et lecture des sauvegardes de New Horizons 3.0 — jamais d'écriture
 data/jeux.json         liste des jeux, catégories, extensions
 data/<jeu>/<cat>.json  les éléments d'une catégorie d'un jeu
 scripts/               scripts qui fabriquent data/ à partir des sources
@@ -91,6 +95,41 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
 - New Horizons : [Data Spreadsheet for Animal Crossing New Horizons](https://tinyurl.com/acnh-sheet)
   et [ACNH String Translations](https://docs.google.com/spreadsheets/d/1MMbsvDfu59OY9YBEAfHhFJ6O8vRTllNFgMrX7RBZuyI)
   (communauté ACNH Spreadsheet), [Nookipedia](https://nookipedia.com).
+
+- Rareté de New Horizons : paramètres du jeu extraits par Ninji (version 1.4.0), via les tableurs
+  « ACNH Fish / Bug / Sea Creatures Spawns » d'asteriation ([acnh.isomorphicbox.com](https://acnh.isomorphicbox.com/)).
+
+- Fleurs hybrides de New Horizons : génétique extraite du jeu par Aeter
+  ([guide des fleurs](https://aiterusawato.github.io/satogu/acnh/flowers/genotypes.html)) ; seuls les faits du jeu sont repris.
+
+- Navets de New Horizons : algorithme du jeu publié par Ninji (Treeki),
+  [TurnipPrices.cpp](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b).
+  Le prédicteur de Nook Dex est réécrit à partir de cet algorithme (aucun code repris d'un autre prédicteur).
+
+- Navets du GameCube : code du jeu décompilé par le projet [ac-decomp](https://github.com/ACreTeam/ac-decomp)
+  (m_kabu_manager.c, licence CC0) ; calcul réécrit pour Nook Dex.
+
+- Import des sauvegardes du GameCube : format lu d'après ac-decomp (m_card.c, m_flashrom.c, m_private.h,
+  m_museum_display.h, m_shop.c, licence CC0). `npm run donnees:sauvegarde-gc` fabrique la table
+  `data/gc/sauvegarde.json` (numéros de la sauvegarde -> fiches du dex). Lecture vérifiée sur les villes
+  neuves de [ac-exploit-gc](https://github.com/FIX94/ac-exploit-gc) (versions US, EU, AUS ; non incluses
+  dans le dépôt). La version japonaise n'est pas prise en charge.
+
+- Import des sauvegardes de Wild World : organisation de la sauvegarde d'après [ACSE](https://github.com/Cuyler36/ACSE)
+  (Cuyler36, licence MIT) et la documentation de [Leaflet](https://github.com/oddnebula/leaflet-wild-world)
+  (oddnebula, licence MIT) ; liste des objets : `WW_Items_en.txt` d'ACSE, téléchargée dans `sources/ww/` par
+  `npm run donnees:sauvegarde-ww`, qui fabrique `data/ww/sauvegarde.json`. Code écrit pour Nook Dex.
+
+- Import des sauvegardes de New Leaf - Welcome amiibo : organisation de `garden_plus.dat` d'après
+  [ACNL_Research](https://github.com/Slattz/ACNL_Research) (Slattz), [acnl-research](https://github.com/Le0X8/acnl-research)
+  (Le0X8, MIT) et l'ordre du musée du plugin [Vapecord](https://github.com/RedShyGuy/Vapecord-ACNL-Plugin) (RedShyGuy) ;
+  liste des objets : `Items_WA.txt` de Slattz, téléchargée dans `sources/nl/` par `npm run donnees:sauvegarde-nl`.
+  Lecture vérifiée sur deux vraies villes de Le0X8 (non incluses dans le dépôt).
+
+- Import des sauvegardes de New Horizons (3.0) : chiffrement, version, sommes Murmur3 et emplacements d'après
+  [NHSE](https://github.com/kwsch/NHSE) (kwsch) ; numéros internes : colonnes « Internal ID » du tableur ACNH
+  (`npm run donnees:sauvegarde-nh`, après `npm run donnees:nh`). Seuls les faits sont repris : le code est écrit pour
+  Nook Dex. À vérifier sur une vraie sauvegarde.
 
 ## Publier une nouvelle version
 

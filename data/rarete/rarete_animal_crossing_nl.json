@@ -6,7 +6,7 @@
   "Insectes : poids sur 1000 (convertis en %), chaque créneau totalise 1000 ; 'Aucun insecte' (id 81) = part sans apparition.",
   "Août et septembre changent de table le 16 (poissons et créatures marines).",
   "Ids 72-74 en pêche = déchets ; id 107 (mer et plongée) et id 72 côté insectes (5 % de décembre à février) : non identifiés.",
-  "Tables de la ville uniquement (pas l'île de Tortimer ni les tours).",
+  "Tables de la ville + île de Tortimer (clé ile_tortimer, toute l'année) ; les tours de l'île ne sont pas exportés.",
   "Le cœlacanthe est dans la table mer ; la condition pluie/neige est appliquée ailleurs dans le code (non vérifiée)."
  ],
  "poissons": [
@@ -17613,5 +17613,927 @@
    ],
    "pourcent_rien": 68.5
   }
- ]
+ ],
+ "ile_tortimer": {
+  "poissons": [
+   {
+    "creneau": "4h-9h et 16h-21h",
+    "eau": "riviere",
+    "table": [
+     {
+      "id": 2,
+      "espece": "Crucian carp",
+      "pourcent": 7.0
+     },
+     {
+      "id": 3,
+      "espece": "Dace",
+      "pourcent": 3.0
+     },
+     {
+      "id": 4,
+      "espece": "Barbel steed",
+      "pourcent": 4.0
+     },
+     {
+      "id": 5,
+      "espece": "Carp",
+      "pourcent": 5.0
+     },
+     {
+      "id": 6,
+      "espece": "Koi",
+      "pourcent": 2.0
+     },
+     {
+      "id": 7,
+      "espece": "Goldfish",
+      "pourcent": 1.0
+     },
+     {
+      "id": 9,
+      "espece": "Killifish",
+      "pourcent": 3.0
+     },
+     {
+      "id": 10,
+      "espece": "Crawfish",
+      "pourcent": 10.0
+     },
+     {
+      "id": 13,
+      "espece": "Frog",
+      "pourcent": 10.0
+     },
+     {
+      "id": 14,
+      "espece": "Freshwater goby",
+      "pourcent": 1.0
+     },
+     {
+      "id": 16,
+      "espece": "Catfish",
+      "pourcent": 5.0
+     },
+     {
+      "id": 17,
+      "espece": "Eel",
+      "pourcent": 5.0
+     },
+     {
+      "id": 21,
+      "espece": "Black bass",
+      "pourcent": 16.0
+     },
+     {
+      "id": 24,
+      "espece": "Sweetfish",
+      "pourcent": 17.0
+     },
+     {
+      "id": 34,
+      "espece": "Angelfish",
+      "pourcent": 2.0
+     },
+     {
+      "id": 37,
+      "espece": "Arowana",
+      "pourcent": 1.0
+     },
+     {
+      "id": 38,
+      "espece": "Dorado",
+      "pourcent": 1.0
+     },
+     {
+      "id": 39,
+      "espece": "Gar",
+      "pourcent": 2.0
+     },
+     {
+      "id": 40,
+      "espece": "Arapaima",
+      "pourcent": 1.0
+     },
+     {
+      "id": 107,
+      "espece": "Inconnu #107",
+      "pourcent": 4.0
+     }
+    ]
+   },
+   {
+    "creneau": "4h-9h et 16h-21h",
+    "eau": "mer",
+    "table": [
+     {
+      "id": 43,
+      "espece": "Sea horse",
+      "pourcent": 7.0
+     },
+     {
+      "id": 44,
+      "espece": "Clown fish",
+      "pourcent": 7.0
+     },
+     {
+      "id": 45,
+      "espece": "Surgeonfish",
+      "pourcent": 7.0
+     },
+     {
+      "id": 46,
+      "espece": "Butterfly fish",
+      "pourcent": 5.0
+     },
+     {
+      "id": 47,
+      "espece": "Napoleonfish",
+      "pourcent": 1.0
+     },
+     {
+      "id": 48,
+      "espece": "Zebra turkeyfish",
+      "pourcent": 4.0
+     },
+     {
+      "id": 50,
+      "espece": "Puffer fish",
+      "pourcent": 6.0
+     },
+     {
+      "id": 51,
+      "espece": "Horse mackerel",
+      "pourcent": 5.0
+     },
+     {
+      "id": 52,
+      "espece": "Barred knifejaw",
+      "pourcent": 3.0
+     },
+     {
+      "id": 53,
+      "espece": "Sea bass",
+      "pourcent": 5.0
+     },
+     {
+      "id": 54,
+      "espece": "Red snapper",
+      "pourcent": 4.0
+     },
+     {
+      "id": 56,
+      "espece": "Olive flounder",
+      "pourcent": 2.0
+     },
+     {
+      "id": 57,
+      "espece": "Squid",
+      "pourcent": 5.0
+     },
+     {
+      "id": 58,
+      "espece": "Moray eel",
+      "pourcent": 2.0
+     },
+     {
+      "id": 59,
+      "espece": "Ribbon eel",
+      "pourcent": 5.0
+     },
+     {
+      "id": 62,
+      "espece": "Blue marlin",
+      "pourcent": 1.0
+     },
+     {
+      "id": 63,
+      "espece": "Giant trevally",
+      "pourcent": 1.0
+     },
+     {
+      "id": 64,
+      "espece": "Ray",
+      "pourcent": 1.0
+     },
+     {
+      "id": 65,
+      "espece": "Ocean sunfish",
+      "pourcent": 1.0
+     },
+     {
+      "id": 66,
+      "espece": "Hammerhead shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 67,
+      "espece": "Shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 68,
+      "espece": "Saw shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 69,
+      "espece": "Whale shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 107,
+      "espece": "Inconnu #107",
+      "pourcent": 24.0
+     }
+    ]
+   },
+   {
+    "creneau": "9h-16h",
+    "eau": "riviere",
+    "table": [
+     {
+      "id": 1,
+      "espece": "Pale chub",
+      "pourcent": 6.0
+     },
+     {
+      "id": 2,
+      "espece": "Crucian carp",
+      "pourcent": 10.0
+     },
+     {
+      "id": 4,
+      "espece": "Barbel steed",
+      "pourcent": 6.0
+     },
+     {
+      "id": 5,
+      "espece": "Carp",
+      "pourcent": 3.0
+     },
+     {
+      "id": 7,
+      "espece": "Goldfish",
+      "pourcent": 2.0
+     },
+     {
+      "id": 8,
+      "espece": "Pop-eyed goldfish",
+      "pourcent": 2.0
+     },
+     {
+      "id": 9,
+      "espece": "Killifish",
+      "pourcent": 3.0
+     },
+     {
+      "id": 10,
+      "espece": "Crawfish",
+      "pourcent": 9.0
+     },
+     {
+      "id": 13,
+      "espece": "Frog",
+      "pourcent": 10.0
+     },
+     {
+      "id": 18,
+      "espece": "Giant snakehead",
+      "pourcent": 2.0
+     },
+     {
+      "id": 19,
+      "espece": "Bluegill",
+      "pourcent": 10.0
+     },
+     {
+      "id": 21,
+      "espece": "Black bass",
+      "pourcent": 7.0
+     },
+     {
+      "id": 24,
+      "espece": "Sweetfish",
+      "pourcent": 16.0
+     },
+     {
+      "id": 32,
+      "espece": "Guppy",
+      "pourcent": 3.0
+     },
+     {
+      "id": 35,
+      "espece": "Neon tetra",
+      "pourcent": 3.0
+     },
+     {
+      "id": 36,
+      "espece": "Piranha",
+      "pourcent": 3.0
+     },
+     {
+      "id": 38,
+      "espece": "Dorado",
+      "pourcent": 1.0
+     },
+     {
+      "id": 107,
+      "espece": "Inconnu #107",
+      "pourcent": 4.0
+     }
+    ]
+   },
+   {
+    "creneau": "9h-16h",
+    "eau": "mer",
+    "table": [
+     {
+      "id": 43,
+      "espece": "Sea horse",
+      "pourcent": 7.0
+     },
+     {
+      "id": 44,
+      "espece": "Clown fish",
+      "pourcent": 7.0
+     },
+     {
+      "id": 45,
+      "espece": "Surgeonfish",
+      "pourcent": 7.0
+     },
+     {
+      "id": 46,
+      "espece": "Butterfly fish",
+      "pourcent": 5.0
+     },
+     {
+      "id": 47,
+      "espece": "Napoleonfish",
+      "pourcent": 1.0
+     },
+     {
+      "id": 48,
+      "espece": "Zebra turkeyfish",
+      "pourcent": 4.0
+     },
+     {
+      "id": 50,
+      "espece": "Puffer fish",
+      "pourcent": 6.0
+     },
+     {
+      "id": 51,
+      "espece": "Horse mackerel",
+      "pourcent": 7.0
+     },
+     {
+      "id": 52,
+      "espece": "Barred knifejaw",
+      "pourcent": 3.0
+     },
+     {
+      "id": 53,
+      "espece": "Sea bass",
+      "pourcent": 6.0
+     },
+     {
+      "id": 54,
+      "espece": "Red snapper",
+      "pourcent": 2.0
+     },
+     {
+      "id": 56,
+      "espece": "Olive flounder",
+      "pourcent": 2.0
+     },
+     {
+      "id": 57,
+      "espece": "Squid",
+      "pourcent": 5.0
+     },
+     {
+      "id": 58,
+      "espece": "Moray eel",
+      "pourcent": 2.0
+     },
+     {
+      "id": 59,
+      "espece": "Ribbon eel",
+      "pourcent": 5.0
+     },
+     {
+      "id": 62,
+      "espece": "Blue marlin",
+      "pourcent": 2.0
+     },
+     {
+      "id": 63,
+      "espece": "Giant trevally",
+      "pourcent": 2.0
+     },
+     {
+      "id": 64,
+      "espece": "Ray",
+      "pourcent": 1.0
+     },
+     {
+      "id": 65,
+      "espece": "Ocean sunfish",
+      "pourcent": 1.0
+     },
+     {
+      "id": 69,
+      "espece": "Whale shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 107,
+      "espece": "Inconnu #107",
+      "pourcent": 24.0
+     }
+    ]
+   },
+   {
+    "creneau": "21h-4h",
+    "eau": "riviere",
+    "table": [
+     {
+      "id": 2,
+      "espece": "Crucian carp",
+      "pourcent": 5.0
+     },
+     {
+      "id": 3,
+      "espece": "Dace",
+      "pourcent": 3.0
+     },
+     {
+      "id": 4,
+      "espece": "Barbel steed",
+      "pourcent": 6.0
+     },
+     {
+      "id": 5,
+      "espece": "Carp",
+      "pourcent": 4.0
+     },
+     {
+      "id": 6,
+      "espece": "Koi",
+      "pourcent": 1.0
+     },
+     {
+      "id": 7,
+      "espece": "Goldfish",
+      "pourcent": 1.0
+     },
+     {
+      "id": 9,
+      "espece": "Killifish",
+      "pourcent": 3.0
+     },
+     {
+      "id": 10,
+      "espece": "Crawfish",
+      "pourcent": 9.0
+     },
+     {
+      "id": 13,
+      "espece": "Frog",
+      "pourcent": 10.0
+     },
+     {
+      "id": 14,
+      "espece": "Freshwater goby",
+      "pourcent": 4.0
+     },
+     {
+      "id": 16,
+      "espece": "Catfish",
+      "pourcent": 17.0
+     },
+     {
+      "id": 17,
+      "espece": "Eel",
+      "pourcent": 11.0
+     },
+     {
+      "id": 21,
+      "espece": "Black bass",
+      "pourcent": 11.0
+     },
+     {
+      "id": 24,
+      "espece": "Sweetfish",
+      "pourcent": 5.0
+     },
+     {
+      "id": 34,
+      "espece": "Angelfish",
+      "pourcent": 2.0
+     },
+     {
+      "id": 36,
+      "espece": "Piranha",
+      "pourcent": 1.0
+     },
+     {
+      "id": 37,
+      "espece": "Arowana",
+      "pourcent": 1.0
+     },
+     {
+      "id": 39,
+      "espece": "Gar",
+      "pourcent": 1.0
+     },
+     {
+      "id": 40,
+      "espece": "Arapaima",
+      "pourcent": 1.0
+     },
+     {
+      "id": 107,
+      "espece": "Inconnu #107",
+      "pourcent": 4.0
+     }
+    ]
+   },
+   {
+    "creneau": "21h-4h",
+    "eau": "mer",
+    "table": [
+     {
+      "id": 43,
+      "espece": "Sea horse",
+      "pourcent": 5.0
+     },
+     {
+      "id": 44,
+      "espece": "Clown fish",
+      "pourcent": 9.0
+     },
+     {
+      "id": 45,
+      "espece": "Surgeonfish",
+      "pourcent": 7.0
+     },
+     {
+      "id": 46,
+      "espece": "Butterfly fish",
+      "pourcent": 5.0
+     },
+     {
+      "id": 48,
+      "espece": "Zebra turkeyfish",
+      "pourcent": 3.0
+     },
+     {
+      "id": 50,
+      "espece": "Puffer fish",
+      "pourcent": 8.0
+     },
+     {
+      "id": 51,
+      "espece": "Horse mackerel",
+      "pourcent": 5.0
+     },
+     {
+      "id": 52,
+      "espece": "Barred knifejaw",
+      "pourcent": 3.0
+     },
+     {
+      "id": 53,
+      "espece": "Sea bass",
+      "pourcent": 6.0
+     },
+     {
+      "id": 54,
+      "espece": "Red snapper",
+      "pourcent": 4.0
+     },
+     {
+      "id": 56,
+      "espece": "Olive flounder",
+      "pourcent": 2.0
+     },
+     {
+      "id": 57,
+      "espece": "Squid",
+      "pourcent": 7.0
+     },
+     {
+      "id": 58,
+      "espece": "Moray eel",
+      "pourcent": 2.0
+     },
+     {
+      "id": 59,
+      "espece": "Ribbon eel",
+      "pourcent": 5.0
+     },
+     {
+      "id": 62,
+      "espece": "Blue marlin",
+      "pourcent": 1.0
+     },
+     {
+      "id": 63,
+      "espece": "Giant trevally",
+      "pourcent": 1.0
+     },
+     {
+      "id": 66,
+      "espece": "Hammerhead shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 67,
+      "espece": "Shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 68,
+      "espece": "Saw shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 69,
+      "espece": "Whale shark",
+      "pourcent": 1.0
+     },
+     {
+      "id": 107,
+      "espece": "Inconnu #107",
+      "pourcent": 23.0
+     }
+    ]
+   }
+  ],
+  "creatures_marines": [
+   {
+    "creneau": "4h-9h et 16h-21h",
+    "table": [
+     {
+      "id": 76,
+      "espece": "Seaweed",
+      "pourcent": 5.0
+     },
+     {
+      "id": 77,
+      "espece": "Sea grapes",
+      "pourcent": 12.0
+     },
+     {
+      "id": 78,
+      "espece": "Sea urchin",
+      "pourcent": 8.0
+     },
+     {
+      "id": 79,
+      "espece": "Acorn barnacle",
+      "pourcent": 5.0
+     },
+     {
+      "id": 82,
+      "espece": "Abalone",
+      "pourcent": 3.0
+     },
+     {
+      "id": 83,
+      "espece": "Ear shell",
+      "pourcent": 3.0
+     },
+     {
+      "id": 86,
+      "espece": "Scallop",
+      "pourcent": 2.0
+     },
+     {
+      "id": 87,
+      "espece": "Sea anemone",
+      "pourcent": 3.0
+     },
+     {
+      "id": 88,
+      "espece": "Sea star",
+      "pourcent": 3.0
+     },
+     {
+      "id": 90,
+      "espece": "Sea slug",
+      "pourcent": 3.0
+     },
+     {
+      "id": 91,
+      "espece": "Flatworm",
+      "pourcent": 5.0
+     },
+     {
+      "id": 92,
+      "espece": "Mantis shrimp",
+      "pourcent": 5.0
+     },
+     {
+      "id": 94,
+      "espece": "Tiger prawn",
+      "pourcent": 8.0
+     },
+     {
+      "id": 96,
+      "espece": "Lobster",
+      "pourcent": 8.0
+     },
+     {
+      "id": 101,
+      "espece": "Octopus",
+      "pourcent": 8.0
+     },
+     {
+      "id": 102,
+      "espece": "Spotted garden eel",
+      "pourcent": 8.0
+     },
+     {
+      "id": 103,
+      "espece": "Chambered nautilus",
+      "pourcent": 7.0
+     },
+     {
+      "id": 105,
+      "espece": "Giant isopod",
+      "pourcent": 4.0
+     }
+    ]
+   },
+   {
+    "creneau": "9h-16h",
+    "table": [
+     {
+      "id": 76,
+      "espece": "Seaweed",
+      "pourcent": 5.0
+     },
+     {
+      "id": 77,
+      "espece": "Sea grapes",
+      "pourcent": 12.0
+     },
+     {
+      "id": 78,
+      "espece": "Sea urchin",
+      "pourcent": 10.0
+     },
+     {
+      "id": 79,
+      "espece": "Acorn barnacle",
+      "pourcent": 8.0
+     },
+     {
+      "id": 86,
+      "espece": "Scallop",
+      "pourcent": 4.0
+     },
+     {
+      "id": 87,
+      "espece": "Sea anemone",
+      "pourcent": 8.0
+     },
+     {
+      "id": 88,
+      "espece": "Sea star",
+      "pourcent": 5.0
+     },
+     {
+      "id": 90,
+      "espece": "Sea slug",
+      "pourcent": 6.0
+     },
+     {
+      "id": 96,
+      "espece": "Lobster",
+      "pourcent": 8.0
+     },
+     {
+      "id": 101,
+      "espece": "Octopus",
+      "pourcent": 10.0
+     },
+     {
+      "id": 102,
+      "espece": "Spotted garden eel",
+      "pourcent": 10.0
+     },
+     {
+      "id": 103,
+      "espece": "Chambered nautilus",
+      "pourcent": 10.0
+     },
+     {
+      "id": 105,
+      "espece": "Giant isopod",
+      "pourcent": 4.0
+     }
+    ]
+   },
+   {
+    "creneau": "21h-4h",
+    "table": [
+     {
+      "id": 76,
+      "espece": "Seaweed",
+      "pourcent": 5.0
+     },
+     {
+      "id": 77,
+      "espece": "Sea grapes",
+      "pourcent": 12.0
+     },
+     {
+      "id": 78,
+      "espece": "Sea urchin",
+      "pourcent": 8.0
+     },
+     {
+      "id": 79,
+      "espece": "Acorn barnacle",
+      "pourcent": 5.0
+     },
+     {
+      "id": 82,
+      "espece": "Abalone",
+      "pourcent": 3.0
+     },
+     {
+      "id": 83,
+      "espece": "Ear shell",
+      "pourcent": 3.0
+     },
+     {
+      "id": 86,
+      "espece": "Scallop",
+      "pourcent": 2.0
+     },
+     {
+      "id": 87,
+      "espece": "Sea anemone",
+      "pourcent": 3.0
+     },
+     {
+      "id": 88,
+      "espece": "Sea star",
+      "pourcent": 3.0
+     },
+     {
+      "id": 90,
+      "espece": "Sea slug",
+      "pourcent": 3.0
+     },
+     {
+      "id": 91,
+      "espece": "Flatworm",
+      "pourcent": 5.0
+     },
+     {
+      "id": 92,
+      "espece": "Mantis shrimp",
+      "pourcent": 5.0
+     },
+     {
+      "id": 94,
+      "espece": "Tiger prawn",
+      "pourcent": 8.0
+     },
+     {
+      "id": 96,
+      "espece": "Lobster",
+      "pourcent": 8.0
+     },
+     {
+      "id": 101,
+      "espece": "Octopus",
+      "pourcent": 8.0
+     },
+     {
+      "id": 102,
+      "espece": "Spotted garden eel",
+      "pourcent": 8.0
+     },
+     {
+      "id": 103,
+      "espece": "Chambered nautilus",
+      "pourcent": 7.0
+     },
+     {
+      "id": 105,
+      "espece": "Giant isopod",
+      "pourcent": 4.0
+     }
+    ]
+   }
+  ]
+ }
 }

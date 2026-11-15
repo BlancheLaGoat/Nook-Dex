@@ -1,14 +1,14 @@
 {
   "name": "nook-dex",
   "productName": "Nook Dex",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Nook Dex : suivi de collection pour les jeux Animal Crossing",
   "author": "BlancheLaGoat",
   "license": "MIT",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "donnees": "node scripts/nh.js && node scripts/nl.js && node scripts/cf.js && node scripts/ww.js && node scripts/gc.js && node scripts/evenements.js && node scripts/especes.js && node scripts/rarete-cf.js && node scripts/rarete-nh.js && node scripts/rarete.js && node scripts/codes-gc.js && node scripts/arrosoir.js && node scripts/sources-fr.js && node scripts/verifier.js",
+    "donnees": "node scripts/nh.js && node scripts/nl.js && node scripts/cf.js && node scripts/ww.js && node scripts/gc.js && node scripts/evenements.js && node scripts/especes.js && node scripts/rarete-cf.js && node scripts/rarete-nh.js && node scripts/rarete.js && node scripts/fleurs-nh.js && node scripts/codes-gc.js && node scripts/sauvegarde-gc.js && node scripts/sauvegarde-ww.js && node scripts/sauvegarde-nl.js && node scripts/sauvegarde-nh.js && node scripts/arrosoir.js && node scripts/sources-fr.js && node scripts/verifier.js",
     "donnees:nh": "node scripts/nh.js",
     "donnees:nl": "node scripts/nl.js",
     "donnees:cf": "node scripts/cf.js",
@@ -23,9 +23,14 @@
     "donnees:rarete": "node scripts/rarete.js",
     "donnees:rarete-cf": "node scripts/rarete-cf.js",
     "donnees:rarete-nh": "node scripts/rarete-nh.js",
+    "donnees:fleurs": "node scripts/fleurs-nh.js",
     "donnees:codes": "node scripts/codes-gc.js",
     "donnees:arrosoir": "node scripts/arrosoir.js",
-    "donnees:sources-fr": "node scripts/sources-fr.js"
+    "donnees:sources-fr": "node scripts/sources-fr.js",
+    "donnees:sauvegarde-gc": "node scripts/sauvegarde-gc.js",
+    "donnees:sauvegarde-ww": "node scripts/sauvegarde-ww.js",
+    "donnees:sauvegarde-nl": "node scripts/sauvegarde-nl.js",
+    "donnees:sauvegarde-nh": "node scripts/sauvegarde-nh.js"
   },
   "dependencies": {
     "electron-updater": "^6.8.9"

@@ -263,22 +263,41 @@ test('New Leaf : poissons, créatures marines, insectes et espèces sans taux', 
   const bouviere = tauxMaintenant(p, 'bitterling', new Date(2026, 10, 10, 22));
   assert.equal(bouviere.pourcent, 2);
   assert.equal(bouviere.creneau, '21h-4h');
-  // 14 périodes × 3 créneaux × 2 eaux ; août coupé au 16.
-  assert.equal(p.tables.length, 84);
+  // Ville : 14 périodes × 3 créneaux × 2 eaux ; août coupé au 16. Île de Tortimer : mêmes 14 périodes (pour garder une ligne par moitié de mois).
+  assert.equal(p.tables.filter(t => !t.ile).length, 84);
+  assert.equal(p.tables.filter(t => t.ile).length, 84);
   assert.ok(p.tables.some(t => t.mois === 8 && t.jours && t.jours[0] === 16));
-  // Créatures marines : 14 périodes × 3 créneaux, une seule « eau ».
-  assert.equal(cm.tables.length, 42);
+  // Créatures marines : 14 périodes × 3 créneaux, pour la ville comme pour l'île.
+  assert.equal(cm.tables.filter(t => !t.ile).length, 42);
+  assert.equal(cm.tables.filter(t => t.ile).length, 42);
   assert.deepEqual(cm.creneaux.map(c => c.id).sort(), ['21h-4h', '4h-9h et 16h-21h', '9h-16h']);
   // Insectes : 12 mois × 6 créneaux, « aucun insecte » connu partout.
   assert.equal(i.tables.length, 72);
   assert.ok(i.tables.every(t => t.rien != null));
   // Déchets et « Inconnu » : ignorés dans les fiches, mais chaque tirage reste à 100 % (pas de « rien » inventé).
   const brut = lire('data/rarete/rarete_animal_crossing_nl.json');
-  for (const t of [...brut.poissons, ...brut.creatures_marines]) assert.ok(Math.abs(t.table.reduce((a, e) => a + e.pourcent, 0) - 100) < 0.05);
+  const ile = brut.ile_tortimer;
+  for (const t of [...brut.poissons, ...brut.creatures_marines, ...ile.poissons, ...ile.creatures_marines]) assert.ok(Math.abs(t.table.reduce((a, e) => a + e.pourcent, 0) - 100) < 0.05);
   assert.ok(p.tables.every(t => t.rien == null));
-  // Île de Tortimer et autres mécanismes : pas de taux, mais une raison.
-  for (const id of ['ribbon-eel', 'giant-trevally', 'whale-shark']) { assert.equal(maxAnnee(p, id), null); assert.match(p.sans_taux[id], /Tortimer/); }
-  for (const id of ['spotted-garden-eel', 'chambered-nautilus', 'giant-isopod']) { assert.equal(maxAnnee(cm, id), null); assert.match(cm.sans_taux[id], /Tortimer/); }
+  // Espèces de l'île de Tortimer : un taux toute l'année, sur la table de l'île (plus de « rareté inconnue »).
+  for (const [cr, id, lieu] of [[p, 'ribbon-eel', 'mer'], [p, 'giant-trevally', 'mer'], [p, 'whale-shark', 'mer'], [cm, 'spotted-garden-eel', 'plongée'], [cm, 'chambered-nautilus', 'plongée'], [cm, 'giant-isopod', 'plongée']]) {
+    assert.ok(maxAnnee(cr, id), id);
+    assert.ok(!(cr.sans_taux && cr.sans_taux[id]), id);
+    for (let mois = 0; mois < 12; mois++) {
+      const t = tauxMaintenant(cr, id, new Date(2026, mois, 10, 12));
+      assert.ok(t.pourcent > 0, `${id} en ${mois + 1}`);
+      assert.ok(t.details.every(d => d.eau_texte === `Île de Tortimer (${lieu})`), id);
+    }
+  }
+  // Dans les deux : le taux de la ville et celui de l'île s'affichent côte à côte (poisson-chirurgien, 20 août à midi : 2 % en ville, 7 % sur l'île).
+  const chirurgien = tauxMaintenant(p, 'surgeonfish', new Date(2026, 7, 20, 12));
+  assert.deepEqual(chirurgien.details.map(d => [d.eau_texte, d.pourcent]).sort(), [['Mer', 2], ['Île de Tortimer (mer)', 7]].sort());
+  assert.equal(chirurgien.pourcent, 7);
+  // Le tableau de la fiche n'a pas de ligne en double : l'île est coupée aux mêmes jours que la ville.
+  const { grilleEspece } = await charger('rarete.js');
+  const libelles = grilleEspece(p, 'surgeonfish').lignes.map(l => l.libelle);
+  assert.equal(new Set(libelles).size, libelles.length);
+  assert.equal(p.tables.filter(t => t.ile && t.mois === 9).map(t => String(t.jours)).sort().join(' '), p.tables.filter(t => !t.ile && t.mois === 9).map(t => String(t.jours)).sort().join(' '));
   for (const id of ['bee', 'ant', 'fly', 'hermit-crab']) { assert.equal(maxAnnee(i, id), null); assert.match(i.sans_taux[id], /Autre mécanisme/); }
 });
 

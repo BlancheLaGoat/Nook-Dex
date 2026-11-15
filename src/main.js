@@ -67,6 +67,10 @@ function normaliserProfil(p) {
     region: p.region === 'us' ? 'us' : 'eu',
     // Carte de la ville (outil « Ville parfaite » de Wild World) : vérifiée en détail par l'appli (lib/ville.js).
     ...(p.ville && typeof p.ville === 'object' && !Array.isArray(p.ville) ? { ville: p.ville } : {}),
+    // Semaine de navets (prédicteur de prix) : vérifiée en détail par l'appli (lib/navets.js).
+    ...(p.navets && typeof p.navets === 'object' && !Array.isArray(p.navets) ? { navets: p.navets } : {}),
+    // Champ de fleurs hybrides (planificateur) : vérifié en détail par l'appli (lib/fleurs.js).
+    ...(p.champFleurs && typeof p.champFleurs === 'object' && !Array.isArray(p.champFleurs) ? { champFleurs: p.champFleurs } : {}),
     cree_le: p.cree_le || new Date().toISOString(),
     modifie_le: new Date().toISOString(),
     elements: p.elements && typeof p.elements === 'object' ? p.elements : {},
@@ -194,6 +198,50 @@ function brancherIpc() {
     const d = lireJson(filePaths[0], null);
     if (!d || typeof d !== 'object') throw new Error("ce fichier n'est pas un JSON valide");
     return d;
+  });
+
+  // Ouvrir une sauvegarde de jeu (lecture seule) : renvoie ses octets, l'interface fait le décodage.
+  const FILTRES_SAUVEGARDE = {
+    gc: { name: 'Sauvegarde GameCube', extensions: ['gci', 'raw'] },
+    ww: { name: 'Sauvegarde Nintendo DS', extensions: ['sav', 'dsv'] },
+    nl: { name: 'Sauvegarde New Leaf (garden_plus.dat)', extensions: ['dat'] },
+  };
+  ipcMain.handle('fichier:lireSauvegarde', async (_e, titre, jeu) => {
+    const filtre = FILTRES_SAUVEGARDE[jeu];
+    if (!filtre) throw new Error("l'import de sauvegarde n'existe pas pour ce jeu");
+    const { canceled, filePaths } = await dialog.showOpenDialog(fenetre, {
+      title: String(titre || 'Ouvrir une sauvegarde'), properties: ['openFile'],
+      filters: [filtre, { name: 'Tous les fichiers', extensions: ['*'] }],
+    });
+    if (canceled || !filePaths.length) return null;
+    const taille = fs.statSync(filePaths[0]).size;
+    if (taille > 17 * 1024 * 1024) throw new Error('fichier trop gros pour une sauvegarde');
+    return { nom: path.basename(filePaths[0]), octets: new Uint8Array(fs.readFileSync(filePaths[0])) };
+  });
+
+  // New Horizons : la sauvegarde est un dossier (main.dat, mainHeader.dat, Villager0/personal.dat…).
+  ipcMain.handle('fichier:lireDossierNH', async (_e, titre) => {
+    const { canceled, filePaths } = await dialog.showOpenDialog(fenetre, {
+      title: String(titre || 'Choisir le dossier de sauvegarde'), properties: ['openDirectory'],
+    });
+    if (canceled || !filePaths.length) return null;
+    const dossier = filePaths[0];
+    const lire = (f, max) => {
+      const chemin = path.join(dossier, f);
+      if (!fs.existsSync(chemin)) return null;
+      if (fs.statSync(chemin).size > max) throw new Error(`${f} est trop gros pour une sauvegarde`);
+      return new Uint8Array(fs.readFileSync(chemin));
+    };
+    const Mo = 1024 * 1024;
+    const joueurs = fs.readdirSync(dossier, { withFileTypes: true })
+      .filter(d => d.isDirectory() && /^Villager[0-7]$/.test(d.name))
+      .map(d => d.name).sort()
+      .map(d => ({ dossier: d, header: lire(path.join(d, 'personalHeader.dat'), Mo), personal: lire(path.join(d, 'personal.dat'), 4 * Mo) }))
+      .filter(j => j.header && j.personal);
+    return {
+      nom: path.basename(dossier),
+      octets: { mainHeader: lire('mainHeader.dat', Mo), main: lire('main.dat', 32 * Mo), joueurs },
+    };
   });
 
   // Codes d'objets (data/<jeu>/codes.json, seulement pour le GameCube pour l'instant).

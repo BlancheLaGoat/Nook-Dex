@@ -12,6 +12,8 @@ contextBridge.exposeInMainWorld('nook', {
   arrosoir: () => ipcRenderer.invoke('donnees:arrosoir'),
   exporterJson: (titre, nom, donnees) => ipcRenderer.invoke('fichier:exporterJson', titre, nom, donnees),
   importerJson: titre => ipcRenderer.invoke('fichier:importerJson', titre),
+  lireSauvegarde: (titre, jeu) => ipcRenderer.invoke('fichier:lireSauvegarde', titre, jeu),
+  lireDossierNH: titre => ipcRenderer.invoke('fichier:lireDossierNH', titre),
 
   listerProfils: () => ipcRenderer.invoke('profils:liste'),
   lireProfil: id => ipcRenderer.invoke('profils:lire', id),

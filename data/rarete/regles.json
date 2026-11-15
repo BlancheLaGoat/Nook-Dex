@@ -113,13 +113,10 @@
     "poissons": {
       "a_verifier": {},
       "infos": [
-        "Dans New Leaf, août et septembre changent de table le 16."
+        "Dans New Leaf, août et septembre changent de table le 16.",
+        "Île de Tortimer : taux de l'île, les mêmes toute l'année, affichés à part (« Île de Tortimer (rivière / mer) »)."
       ],
-      "sans_taux": {
-        "ribbon-eel": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
-        "giant-trevally": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
-        "whale-shark": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville."
-      },
+      "sans_taux": {},
       "meteo_seulement": {
         "coelacanth": "s'il pleut ou s'il neige"
       }
@@ -127,13 +124,10 @@
     "creatures_marines": {
       "a_verifier": {},
       "infos": [
-        "Créatures marines : à attraper en plongée. Août et septembre changent de table le 16."
+        "Créatures marines : à attraper en plongée. Août et septembre changent de table le 16.",
+        "Île de Tortimer : taux de l'île en plongée, les mêmes toute l'année."
       ],
-      "sans_taux": {
-        "spotted-garden-eel": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
-        "chambered-nautilus": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville.",
-        "giant-isopod": "Île de Tortimer seulement : les taux de l'île ne sont pas dans les tables de la ville."
-      }
+      "sans_taux": {}
     },
     "insectes": {
       "a_verifier": {},

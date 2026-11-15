@@ -1,0 +1,2262 @@
+{
+ "_explication": [
+  "Règles de croisement des fleurs connues pour ce jeu, sans gènes : TOUTES sont à vérifier (Nook Dex les affiche avec la mention « à vérifier »).",
+  "fiabilite : « texte » = écrit tel quel sur Nookipedia ; « images » = lu dans les tableaux d'icônes de Nookipedia (non vérifié).",
+  "Fichier écrit à la main : il sera remplacé par les règles extraites des jeux."
+ ],
+ "source": "https://nookipedia.com/wiki/Flower",
+ "a_verifier": true,
+ "jeu": "New Leaf",
+ "especes": [
+  {
+   "nom": "Roses",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    },
+    {
+     "couleur": "or",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Tulipes",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Pensées",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Cosmos",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Lys",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Violettes",
+   "couleurs": [
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "violet",
+     "hybride": false
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Œillets",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": true
+    }
+   ]
+  }
+ ],
+ "regles": [
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "noir",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "bleu"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "violet"
+   ],
+   "enfants": [
+    "rouge",
+    "violet",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "noir",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "rose"
+   ],
+   "enfants": [
+    "jaune",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "bleu"
+   ],
+   "enfants": [
+    "jaune",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "violet"
+   ],
+   "enfants": [
+    "jaune",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "noir"
+   ],
+   "enfants": [
+    "jaune",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "orange",
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "bleu"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "noir"
+   ],
+   "enfants": [
+    "blanc",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "bleu"
+   ],
+   "enfants": [
+    "rose",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "violet"
+   ],
+   "enfants": [
+    "rose",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "rose",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "bleu"
+   ],
+   "enfants": [
+    "orange",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "rose",
+    "orange",
+    "rouge « spécial »"
+   ],
+   "fiabilite": "texte",
+   "note": "Le rouge spécial a le même aspect qu'un rouge ordinaire : impossible de les distinguer."
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "bleu",
+    "bleu"
+   ],
+   "enfants": [
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "bleu",
+    "violet"
+   ],
+   "enfants": [
+    "bleu",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "bleu",
+    "noir"
+   ],
+   "enfants": [
+    "bleu",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "bleu",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "violet",
+    "violet"
+   ],
+   "enfants": [
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "violet",
+    "noir"
+   ],
+   "enfants": [
+    "violet",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "violet",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "noir",
+    "noir"
+   ],
+   "enfants": [
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "noir",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "or",
+    "or"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge « spécial »",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "blanc",
+    "noir",
+    "violet",
+    "orange",
+    "bleu"
+   ],
+   "fiabilite": "texte",
+   "note": "Écrit sur Nookipedia ; les autres enfants viennent du tableau d'icônes."
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "orange",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "orange",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "rose"
+   ],
+   "enfants": [
+    "jaune",
+    "rose",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "rose",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "noir"
+   ],
+   "enfants": [
+    "jaune",
+    "orange",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune",
+    "rose",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "noir"
+   ],
+   "enfants": [
+    "blanc",
+    "orange",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rose",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "rose",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rose",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "rose",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose",
+    "orange",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "orange",
+    "noir"
+   ],
+   "enfants": [
+    "orange",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "noir",
+    "noir"
+   ],
+   "enfants": [
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "violet"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "rose"
+   ],
+   "enfants": [
+    "jaune",
+    "rose",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "violet"
+   ],
+   "enfants": [
+    "jaune",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "noir"
+   ],
+   "enfants": [
+    "jaune",
+    "noir",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "violet",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "noir"
+   ],
+   "enfants": [
+    "blanc",
+    "rouge",
+    "noir",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose",
+    "rouge",
+    "blanc",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rose",
+    "orange"
+   ],
+   "enfants": [
+    "rose",
+    "orange",
+    "rouge",
+    "jaune",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rose",
+    "violet"
+   ],
+   "enfants": [
+    "rose",
+    "violet",
+    "rouge",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rose",
+    "noir"
+   ],
+   "enfants": [
+    "rose",
+    "noir",
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "orange",
+    "violet",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "orange",
+    "violet"
+   ],
+   "enfants": [
+    "violet",
+    "orange",
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "orange",
+    "noir"
+   ],
+   "enfants": [
+    "noir",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "violet",
+    "violet"
+   ],
+   "enfants": [
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "violet",
+    "noir"
+   ],
+   "enfants": [
+    "violet",
+    "noir",
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "noir",
+    "noir"
+   ],
+   "enfants": [
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "bleu"
+   ],
+   "enfants": [
+    "rouge",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "violet"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "orange « spécial »"
+   ],
+   "enfants": [
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "bleu"
+   ],
+   "enfants": [
+    "jaune",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "violet"
+   ],
+   "enfants": [
+    "jaune",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "orange « spécial »"
+   ],
+   "enfants": [
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "bleu"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "violet",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "orange « spécial »"
+   ],
+   "enfants": [
+    "blanc",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "orange",
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "orange",
+    "bleu"
+   ],
+   "enfants": [
+    "orange « spécial »",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "orange",
+    "violet"
+   ],
+   "enfants": [
+    "orange",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "orange",
+    "orange « spécial »"
+   ],
+   "enfants": [
+    "orange",
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "bleu",
+    "bleu"
+   ],
+   "enfants": [
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "bleu",
+    "violet"
+   ],
+   "enfants": [
+    "bleu",
+    "violet",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "bleu",
+    "orange « spécial »"
+   ],
+   "enfants": [
+    "orange « spécial »",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "violet",
+    "violet"
+   ],
+   "enfants": [
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "violet",
+    "orange « spécial »"
+   ],
+   "enfants": [
+    "orange",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "orange « spécial »",
+    "orange « spécial »"
+   ],
+   "enfants": [
+    "bleu",
+    "orange",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "rose",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rouge",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "rose",
+    "blanc",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rouge",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "orange",
+    "jaune",
+    "noir",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rouge",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "jaune",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "jaune",
+    "rose"
+   ],
+   "enfants": [
+    "jaune",
+    "rose",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "jaune",
+    "noir"
+   ],
+   "enfants": [
+    "jaune",
+    "noir",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "orange",
+    "jaune",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "blanc",
+    "noir"
+   ],
+   "enfants": [
+    "blanc",
+    "noir",
+    "jaune",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose",
+    "rouge",
+    "blanc",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rose",
+    "orange"
+   ],
+   "enfants": [
+    "rose",
+    "orange",
+    "rouge",
+    "blanc",
+    "jaune",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "rose",
+    "noir"
+   ],
+   "enfants": [
+    "rose",
+    "noir",
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "orange",
+    "rouge",
+    "blanc",
+    "jaune",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "orange",
+    "noir"
+   ],
+   "enfants": [
+    "noir",
+    "orange",
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Lys",
+   "parents": [
+    "noir",
+    "noir"
+   ],
+   "enfants": [
+    "noir",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "jaune",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "jaune",
+    "violet"
+   ],
+   "enfants": [
+    "violet",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "jaune",
+    "bleu"
+   ],
+   "enfants": [
+    "jaune",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "blanc",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "blanc",
+    "bleu"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "violet",
+    "violet"
+   ],
+   "enfants": [
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "violet",
+    "bleu"
+   ],
+   "enfants": [
+    "violet",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Violettes",
+   "parents": [
+    "bleu",
+    "bleu"
+   ],
+   "enfants": [
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "rose « spécial »"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rouge",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rouge",
+    "rose « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "rose",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "blanc",
+    "rose « spécial »"
+   ],
+   "enfants": [
+    "rose",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rose",
+    "rose « spécial »"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rose « spécial »",
+    "rose « spécial »"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "noir",
+    "arrosoir en or"
+   ],
+   "enfants": [
+    "or"
+   ],
+   "fiabilite": "texte",
+   "note": "Arroser une rose noire fanée avec l'arrosoir en or."
+  }
+ ],
+ "mecanique": [
+  "New Leaf croise les fleurs autrement que les jeux d'avant : certaines couleurs ne s'obtiennent qu'avec des parents « spéciaux », nés d'un croisement précis.",
+  "Une fleur spéciale a le même nom et le même aspect qu'une fleur ordinaire.",
+  "Les enfants listés incluent les copies des parents. Le tableau de Nookipedia ne dit pas ce que donne une rose dorée croisée (« ??? ») : ces couples restent inconnus."
+ ]
+}

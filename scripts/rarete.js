@@ -33,6 +33,7 @@ const TEXTES_EAU = {
   riviere: 'Rivière', mer: 'Mer', bassin: 'Bassin',
   'riviere/etang/cascade': 'Rivière, étang, cascade', 'mer/embouchure': 'Mer, embouchure',
   embouchure: 'Embouchure', 'riviere-hauteur': 'Rivière en hauteur', etang: 'Étang', ponton: 'Ponton', plongee: 'Plongée',
+  'tortimer-riviere': 'Île de Tortimer (rivière)', 'tortimer-mer': 'Île de Tortimer (mer)', 'tortimer-plongee': 'Île de Tortimer (plongée)',
 };
 const texteEau = e => TEXTES_EAU[e] || (e ? e.charAt(0).toUpperCase() + e.slice(1) : '');
 
@@ -51,6 +52,20 @@ function lireCreneau(texte) {
   const plages = [...String(texte).matchAll(/(\d+)\s*h\s*-\s*(\d+)\s*h/g)].map(m => [Number(m[1]), Number(m[2])]);
   if (!plages.length) throw new Error(`créneau illisible : « ${texte} »`);
   return plages;
+}
+
+// Île de Tortimer (New Leaf) : clé « ile_tortimer », tables sans mois (valables toute l'année).
+// Chaque table est recopiée pour les 12 mois, avec un lieu à part (« Île de Tortimer (mer) »…).
+// Les mois que la ville coupe en deux (août et septembre dans New Leaf) le sont aussi pour l'île,
+// pour que le tableau de la fiche garde une ligne par moitié de mois.
+function tablesIle(brut, cat) {
+  const ile = (brut.ile_tortimer && brut.ile_tortimer[cat]) || [];
+  const periodes = MOIS.flatMap((mois, i) => {
+    const moities = [...new Set((brut[cat] || []).map(t => lirePeriode(t)).filter(p => p.mois === i + 1 && p.jours).map(p => p.jours.join('-')))];
+    // Mêmes jours exacts que la ville (septembre : 16-30), pour que les lignes du tableau se confondent.
+    return moities.length ? moities.map(j => ({ mois, quinzaine: j })) : [{ mois }];
+  });
+  return ile.flatMap(t => periodes.map(p => ({ ...t, ...p, ile: true, eau: `tortimer-${t.eau || 'plongee'}` })));
 }
 
 function convertirJeu(jeu, corresp, regles) {
@@ -77,7 +92,7 @@ function convertirJeu(jeu, corresp, regles) {
     }
 
     const creneaux = [];
-    const tables = brut[cat].map(t => {
+    const tables = [...brut[cat], ...tablesIle(brut, cat)].map(t => {
       const { mois, jours } = lirePeriode(t);
       if (!creneaux.some(c => c.id === t.creneau)) creneaux.push({ id: t.creneau, heures: lireCreneau(t.creneau) });
       const especes = {};
@@ -92,6 +107,7 @@ function convertirJeu(jeu, corresp, regles) {
       }
       const total = t.table.reduce((s, e) => s + e.pourcent, 0);
       const sortieTable = { mois, jours, creneau: t.creneau };
+      if (t.ile) sortieTable.ile = true; // île de Tortimer (New Leaf) : mêmes tables toute l'année
       if (t.hemisphere) sortieTable.hemisphere = t.hemisphere; // New Horizons : tables propres à chaque hémisphère
       if (t.eau) { sortieTable.eau = t.eau; sortieTable.eau_texte = texteEau(t.eau); }
       sortieTable.especes = especes;
@@ -150,13 +166,17 @@ function convertirJeu(jeu, corresp, regles) {
     const presents = new Set(tables.flatMap(t => [...Object.keys(t.especes), ...Object.keys(t.pluie || {})]));
     console.log(`  ${cat} : ${presents.size} espèces avec taux, ${tables.length} tables, ${creneaux.length} créneaux`);
 
+    // Comparaisons avec les mois des fiches : tables de la ville seulement (l'île de Tortimer sert toute l'année).
+    const tablesVille = tables.filter(t => !t.ile);
+    const presentsVille = new Set(tablesVille.flatMap(t => [...Object.keys(t.especes), ...Object.keys(t.pluie || {})]));
+
     // ---- Les tables font foi : on corrige les mois des fiches ----
     if (regle.mois_selon_tables) {
       const changements = [];
       for (const e of dex) {
-        if (!presents.has(e.id) || !e.dispo || !e.dispo.tous) continue;
+        if (!presentsVille.has(e.id) || !e.dispo || !e.dispo.tous) continue;
         const avant = e.dispo.tous;
-        const apres = periodesSelonTables(avant, tables, e.id);
+        const apres = periodesSelonTables(avant, tablesVille, e.id);
         if (canonique(avant) === canonique(apres)) continue;
         e.dispo.tous = apres;
         const note = "Mois corrigés d'après les tables d'apparition du jeu.";
@@ -179,8 +199,8 @@ function convertirJeu(jeu, corresp, regles) {
       const quinzaines = (liste, jours) => new Set(liste.flatMap(x => (jours(x) ? [`${x.m}.${jours(x)[0] > 1 ? 2 : 1}`] : [`${x.m}.1`, `${x.m}.2`])));
       const nomQ = k => { const [m, q] = k.split('.'); return `${MOIS_COURTS[m - 1]} ${q === '1' ? '1re quinzaine' : '2e quinzaine'}`; };
       for (const e of dex) {
-        if (!presents.has(e.id) || !e.dispo || !e.dispo.tous) continue;
-        const qt = quinzaines(tables.filter(t => t.especes[e.id] || (t.pluie && t.pluie[e.id])).map(t => ({ m: t.mois, j: t.jours })), x => x.j);
+        if (!presentsVille.has(e.id) || !e.dispo || !e.dispo.tous) continue;
+        const qt = quinzaines(tablesVille.filter(t => t.especes[e.id] || (t.pluie && t.pluie[e.id])).map(t => ({ m: t.mois, j: t.jours })), x => x.j);
         const qf = quinzaines(e.dispo.tous.flatMap(p => p.mois.map(m => ({ m, j: p.jours }))), x => x.j);
         const plus = [...qt].filter(k => !qf.has(k)), moins = [...qf].filter(k => !qt.has(k));
         if (plus.length || moins.length) {
@@ -189,8 +209,8 @@ function convertirJeu(jeu, corresp, regles) {
       }
     }
     for (const e of regle.transition ? dex : []) {
-      if (!presents.has(e.id) || !e.dispo) continue;
-      const moisTables = new Set(tables.filter(t => (t.especes[e.id] || (t.pluie && t.pluie[e.id]))).map(t => t.mois));
+      if (!presentsVille.has(e.id) || !e.dispo) continue;
+      const moisTables = new Set(tablesVille.filter(t => (t.especes[e.id] || (t.pluie && t.pluie[e.id]))).map(t => t.mois));
       const moisFiche = new Set((e.dispo.tous || e.dispo.nord || []).flatMap(p => p.mois));
       const enPlus = [...moisTables].filter(m => !moisFiche.has(m));
       let enMoins = [...moisFiche].filter(m => !moisTables.has(m));
@@ -207,10 +227,10 @@ function convertirJeu(jeu, corresp, regles) {
     }
     // Tables par hémisphère (New Horizons) : on compare les mois avec dispo.nord / dispo.sud des fiches.
     for (const hemi of ['nord', 'sud']) {
-      const duCote = tables.filter(t => t.hemisphere === hemi);
+      const duCote = tablesVille.filter(t => t.hemisphere === hemi);
       if (!duCote.length) continue;
       for (const e of dex) {
-        if (!presents.has(e.id) || !e.dispo || !e.dispo[hemi]) continue;
+        if (!presentsVille.has(e.id) || !e.dispo || !e.dispo[hemi]) continue;
         const moisTables = new Set(duCote.filter(t => t.especes[e.id] || (t.pluie && t.pluie[e.id])).map(t => t.mois));
         const moisFiche = new Set(e.dispo[hemi].flatMap(p => p.mois));
         const enPlus = [...moisTables].filter(m => !moisFiche.has(m)), enMoins = [...moisFiche].filter(m => !moisTables.has(m));

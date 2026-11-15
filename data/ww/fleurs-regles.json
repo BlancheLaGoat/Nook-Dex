@@ -1,0 +1,369 @@
+{
+ "_explication": [
+  "Règles de croisement des fleurs connues pour ce jeu, sans gènes : TOUTES sont à vérifier (Nook Dex les affiche avec la mention « à vérifier »).",
+  "fiabilite : « texte » = écrit tel quel sur Nookipedia ; « images » = lu dans les tableaux d'icônes de Nookipedia (non vérifié).",
+  "Fichier écrit à la main : il sera remplacé par les règles extraites des jeux."
+ ],
+ "source": "https://nookipedia.com/wiki/Flower",
+ "a_verifier": true,
+ "jeu": "Wild World",
+ "especes": [
+  {
+   "nom": "Roses",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    },
+    {
+     "couleur": "or",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Tulipes",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Pensées",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Cosmos",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  }
+ ],
+ "regles": [
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "fiabilite": "texte"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "noir",
+    "arrosoir en or"
+   ],
+   "enfants": [
+    "or"
+   ],
+   "fiabilite": "texte",
+   "note": "Arroser une rose noire fanée avec l'arrosoir en or."
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "jaune"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "noir",
+    "violet"
+   ],
+   "enfants": [
+    "noir",
+    "violet",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "jaune"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "fiabilite": "images"
+  }
+ ],
+ "mecanique": [
+  "Deux fleurs de la même espèce plantées côte à côte peuvent donner une nouvelle fleur, le lendemain matin, sur une case libre à côté d'un des parents.",
+  "Aucune probabilité n'est connue : la page dit seulement « il y a une chance ».",
+  "Dans Wild World, les fleurs n'ont pas besoin d'être arrosées pour se croiser."
+ ]
+}
