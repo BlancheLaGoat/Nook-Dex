@@ -32,6 +32,7 @@ src/renderer/          l'interface
   vues/                tableau de bord, collection, fiche, profils et réglages
   lib/dispo.js         « disponible maintenant », mois, heures, part bientôt
   lib/filtres.js       recherche, filtres, tri, progression
+  lib/sauvegarde-gc.js lecture des sauvegardes du GameCube (.gci, carte .raw) — jamais d'écriture
 data/jeux.json         liste des jeux, catégories, extensions
 data/<jeu>/<cat>.json  les éléments d'une catégorie d'un jeu
 scripts/               scripts qui fabriquent data/ à partir des sources
@@ -104,6 +105,12 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
 
 - Navets du GameCube : code du jeu décompilé par le projet [ac-decomp](https://github.com/ACreTeam/ac-decomp)
   (m_kabu_manager.c, licence CC0) ; calcul réécrit pour Nook Dex.
+
+- Import des sauvegardes du GameCube : format lu d'après ac-decomp (m_card.c, m_flashrom.c, m_private.h,
+  m_museum_display.h, m_shop.c, licence CC0). `npm run donnees:sauvegarde-gc` fabrique la table
+  `data/gc/sauvegarde.json` (numéros de la sauvegarde -> fiches du dex). Lecture vérifiée sur les villes
+  neuves de [ac-exploit-gc](https://github.com/FIX94/ac-exploit-gc) (versions US, EU, AUS ; non incluses
+  dans le dépôt). La version japonaise n'est pas prise en charge.
 
 ## Publier une nouvelle version
 

@@ -200,6 +200,18 @@ function brancherIpc() {
     return d;
   });
 
+  // Ouvrir une sauvegarde de jeu (lecture seule) : renvoie ses octets, l'interface fait le décodage.
+  ipcMain.handle('fichier:lireSauvegarde', async (_e, titre) => {
+    const { canceled, filePaths } = await dialog.showOpenDialog(fenetre, {
+      title: String(titre || 'Ouvrir une sauvegarde'), properties: ['openFile'],
+      filters: [{ name: 'Sauvegarde GameCube', extensions: ['gci', 'raw'] }, { name: 'Tous les fichiers', extensions: ['*'] }],
+    });
+    if (canceled || !filePaths.length) return null;
+    const taille = fs.statSync(filePaths[0]).size;
+    if (taille > 17 * 1024 * 1024) throw new Error('fichier trop gros pour une sauvegarde de GameCube');
+    return { nom: path.basename(filePaths[0]), octets: new Uint8Array(fs.readFileSync(filePaths[0])) };
+  });
+
   // Codes d'objets (data/<jeu>/codes.json, seulement pour le GameCube pour l'instant).
   ipcMain.handle('donnees:codes', (_e, jeu) => {
     if (!ID_VALIDE.test(jeu)) return null;

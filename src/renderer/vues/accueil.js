@@ -9,6 +9,7 @@ import { donneesCategorie, rareteDe } from '../lib/etat.js';
 import { maxAnnee, tauxMaintenant, valeurMaintenant, formaterPourcent } from '../lib/rarete.js';
 import { lignesAFaire, texteChance, texteTirages } from './a-faire.js';
 import { texteDepart } from '../lib/a-faire.js';
+import { fenetreImportSauvegarde, JEUX_AVEC_SAUVEGARDE } from './sauvegarde.js';
 
 export function afficherAccueil(conteneur, jeu, allerVers) {
   let noteJeu = null;
@@ -50,6 +51,11 @@ export function afficherAccueil(conteneur, jeu, allerVers) {
           h('div', {}, `${musee} / ${totalMusee} dons au musée`),
           h('div', { class: 'barre grosse musee', style: { marginTop: '8px' } }, h('div', { style: { width: `${pc(musee, totalMusee)}%` } })))),
     );
+
+    if (JEUX_AVEC_SAUVEGARDE.includes(jeu.id)) {
+      conteneur.append(h('div', { class: 'actions', style: { justifyContent: 'flex-start' } },
+        h('button', { class: 'bouton', title: 'Coche ce que contient ta sauvegarde (.gci ou carte mémoire .raw de Dolphin)', onclick: () => fenetreImportSauvegarde(jeu) }, '💾 Importer ma sauvegarde du jeu…')));
+    }
 
     if (noteJeu) conteneur.append(h('p', { class: 'note' }, 'ℹ️ ', noteJeu));
 
