@@ -15,7 +15,8 @@
     "infos : phrases affichées dans la section Rareté de toutes les fiches de la catégorie.",
     "connecte (rarete.js) : taux quand on est connecté à une autre ville (City Folk : tirage sur 95 au lieu de 100), affichés en plus des taux normaux.",
     "sans_taux : espèces sans taux dans les tables de la ville (île de Tortimer, autre mécanisme) -> « rareté inconnue » avec la raison sur leur fiche.",
-    "meteo_seulement : espèce présente dans les tables normales, mais que le jeu ne fait apparaître que par ce temps (identifiant de fiche -> « s'il pleut ou s'il neige ») ; le taux affiché ne vaut que ces jours-là."
+    "meteo_seulement : espèce présente dans les tables normales, mais que le jeu ne fait apparaître que par ce temps (identifiant de fiche -> « s'il pleut ou s'il neige ») ; le taux affiché ne vaut que ces jours-là.",
+    "hemisphere (New Horizons) : les tables de data/<jeu>/rarete.json portent « hemisphere » ; l'appli ne garde que celles de l'hémisphère du profil."
   ],
   "gc": {
     "poissons": {
@@ -143,6 +144,33 @@
         "fly": "Autre mécanisme : la mouche apparaît sur les déchets et les navets pourris.",
         "hermit-crab": "Autre mécanisme : le bernard-l'ermite apparaît sur la plage, déguisé en coquillage."
       }
+    }
+  },
+  "nh": {
+    "poissons": {
+      "a_verifier": {},
+      "infos": [
+        "Taux calculés lieu par lieu (rivière, embouchure, rivière en hauteur, étang, mer, ponton) : dans un étang, un poisson n'est tiré qu'entre poissons d'étang. Les déchets (botte, canette, pneu) et les cailloux font partie du tirage.",
+        "Les poissons qui demandent 20 ou 50 prises sont comptés comme débloqués."
+      ]
+    },
+    "insectes": {
+      "a_verifier": {},
+      "infos": [
+        "Taux pour une île qui a de tout (fleurs, arbres, palmiers, souches, rochers, eau) : chaque insecte est tiré parmi tous ceux de la saison et de l'heure.",
+        "Les insectes qui demandent 20, 50 ou 100 prises sont comptés comme débloqués."
+      ],
+      "sans_taux": {
+        "wasp": "Autre mécanisme : les guêpes sortent d'un nid en secouant un arbre.",
+        "ant": "Autre mécanisme : la fourmi apparaît sur les navets pourris.",
+        "fly": "Autre mécanisme : la mouche apparaît sur les déchets et les navets pourris."
+      }
+    },
+    "creatures_marines": {
+      "a_verifier": {},
+      "infos": [
+        "Créatures marines : à attraper en plongée. Elles demandent parfois 20 ou 50 prises, comptées comme débloquées."
+      ]
     }
   }
 }

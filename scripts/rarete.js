@@ -32,6 +32,7 @@ const CATEGORIES = [['poissons', 'poissons'], ['insectes', 'insectes'], ['creatu
 const TEXTES_EAU = {
   riviere: 'Rivière', mer: 'Mer', bassin: 'Bassin',
   'riviere/etang/cascade': 'Rivière, étang, cascade', 'mer/embouchure': 'Mer, embouchure',
+  embouchure: 'Embouchure', 'riviere-hauteur': 'Rivière en hauteur', etang: 'Étang', ponton: 'Ponton', plongee: 'Plongée',
 };
 const texteEau = e => TEXTES_EAU[e] || (e ? e.charAt(0).toUpperCase() + e.slice(1) : '');
 
@@ -91,8 +92,16 @@ function convertirJeu(jeu, corresp, regles) {
       }
       const total = t.table.reduce((s, e) => s + e.pourcent, 0);
       const sortieTable = { mois, jours, creneau: t.creneau };
+      if (t.hemisphere) sortieTable.hemisphere = t.hemisphere; // New Horizons : tables propres à chaque hémisphère
       if (t.eau) { sortieTable.eau = t.eau; sortieTable.eau_texte = texteEau(t.eau); }
       sortieTable.especes = especes;
+      // Espèces qui ne sortent que s'il pleut, avec leur part un jour de pluie (New Horizons : table_pluie).
+      for (const e of t.table_pluie || []) {
+        if (ignorer.has(e.espece)) continue;
+        const id = table[e.espece];
+        if (!id) { nonRelies.add(e.espece); continue; }
+        sortieTable.pluie = { ...(sortieTable.pluie || {}), [id]: arrondi(((sortieTable.pluie && sortieTable.pluie[id]) || 0) + e.pourcent) };
+      }
       if (Object.keys(connecte).length) sortieTable.connecte = connecte;
       // Chance qu'il n'y ait rien : donnée par le fichier (insectes, même 0 %), sinon le reste jusqu'à 100 %.
       if (t.pourcent_rien != null) sortieTable.rien = t.pourcent_rien;
@@ -116,6 +125,13 @@ function convertirJeu(jeu, corresp, regles) {
     // Conditions des espèces ajoutées seulement s'il pleut (pour l'affichage : « hors 9h-16h »).
     for (const a of regle.ajout_pluie || []) {
       sortieCat.pluie_seulement = { ...(sortieCat.pluie_seulement || {}), [a.id]: { sauf_creneaux: a.sauf_creneaux || [] } };
+    }
+    // Espèces venues de « table_pluie » (New Horizons) et jamais dans les tables normales : elles aussi ne sortent que s'il pleut.
+    if (brut[cat].some(t => t.table_pluie)) {
+      const normales = new Set(tables.flatMap(t => Object.keys(t.especes)));
+      for (const id of new Set(tables.flatMap(t => Object.keys(t.pluie || {})))) {
+        if (!normales.has(id)) sortieCat.pluie_seulement = { ...(sortieCat.pluie_seulement || {}), [id]: { sauf_creneaux: [] } };
+      }
     }
     // Espèces des tables normales qui n'apparaissent que par un certain temps (cœlacanthe : pluie ou neige).
     if (regle.meteo_seulement && Object.keys(regle.meteo_seulement).length) {
@@ -187,6 +203,20 @@ function convertirJeu(jeu, corresp, regles) {
       }
       if (enPlus.length || enMoins.length) {
         ecarts.push(`${e.nom.fr} : ${enPlus.length ? `dans les tables mais pas sur la fiche en ${enPlus.map(m => MOIS[m - 1]).join(', ')}` : ''}${enPlus.length && enMoins.length ? ' ; ' : ''}${enMoins.length ? `sur la fiche mais pas dans les tables en ${enMoins.map(m => MOIS[m - 1]).join(', ')}` : ''}`);
+      }
+    }
+    // Tables par hémisphère (New Horizons) : on compare les mois avec dispo.nord / dispo.sud des fiches.
+    for (const hemi of ['nord', 'sud']) {
+      const duCote = tables.filter(t => t.hemisphere === hemi);
+      if (!duCote.length) continue;
+      for (const e of dex) {
+        if (!presents.has(e.id) || !e.dispo || !e.dispo[hemi]) continue;
+        const moisTables = new Set(duCote.filter(t => t.especes[e.id] || (t.pluie && t.pluie[e.id])).map(t => t.mois));
+        const moisFiche = new Set(e.dispo[hemi].flatMap(p => p.mois));
+        const enPlus = [...moisTables].filter(m => !moisFiche.has(m)), enMoins = [...moisFiche].filter(m => !moisTables.has(m));
+        if (enPlus.length || enMoins.length) {
+          ecarts.push(`${e.nom.fr} (${hemi}) : ${enPlus.length ? `dans les tables mais pas sur la fiche en ${enPlus.map(m => MOIS[m - 1]).join(', ')}` : ''}${enPlus.length && enMoins.length ? ' ; ' : ''}${enMoins.length ? `sur la fiche mais pas dans les tables en ${enMoins.map(m => MOIS[m - 1]).join(', ')}` : ''}`);
+        }
       }
     }
     if (enTransition.length) console.log(`    mois « en transition » (normal : changement de table décalé) : ${enTransition.length} fiche(s)\n      - ${enTransition.join('\n      - ')}`);

@@ -289,3 +289,47 @@ test("cœlacanthe : seulement s'il pleut ou s'il neige (New Leaf, Wild World, Ci
     assert.ok(!(p.a_verifier && p.a_verifier.coelacanth), jeu);
   }
 });
+
+test('New Horizons : tables par hémisphère, filtrées selon le profil', async () => {
+  const { rareteCategorie, tauxMaintenant, maxAnnee } = await charger('rarete.js');
+  const r = lire('data/nh/rarete.json');
+  const nord = rareteCategorie(r, 'insectes', 'nord');
+  const sud = rareteCategorie(r, 'insectes', 'sud');
+  assert.ok(nord.tables.length && nord.tables.every(t => t.hemisphere === 'nord'));
+  assert.ok(sud.tables.length && sud.tables.every(t => t.hemisphere === 'sud'));
+  // Même objet à chaque appel (les caches de maxAnnee en dépendent) ; nord par défaut.
+  assert.equal(rareteCategorie(r, 'insectes', 'nord'), nord);
+  assert.equal(rareteCategorie(r, 'insectes'), nord);
+  // Les autres jeux n'ont pas d'hémisphère : la catégorie est rendue telle quelle.
+  const nl = lire('data/nl/rarete.json');
+  assert.equal(rareteCategorie(nl, 'poissons', 'sud'), nl.categories.poissons);
+  // Luciole : juin à 20 h dans le nord, absente en juin dans le sud (c'est l'hiver).
+  assert.ok(tauxMaintenant(nord, 'firefly', new Date(2026, 5, 10, 20)).pourcent > 0);
+  assert.equal(tauxMaintenant(sud, 'firefly', new Date(2026, 5, 10, 20)).pourcent, 0);
+  assert.ok(tauxMaintenant(sud, 'firefly', new Date(2026, 11, 10, 20)).pourcent > 0);
+  // Guêpe, fourmi, mouche : autre mécanisme, pas de taux mais une raison.
+  for (const id of ['wasp', 'ant', 'fly']) { assert.equal(maxAnnee(nord, id), null); assert.match(nord.sans_taux[id], /Autre mécanisme/); }
+});
+
+test("New Horizons : chaque tirage fait 100 %, cœlacanthe et escargot seulement s'il pleut", () => {
+  const brut = lire('data/rarete/rarete_animal_crossing_nh.json');
+  for (const cat of ['poissons', 'insectes', 'creatures_marines']) {
+    for (const t of brut[cat]) {
+      if (t.table.length) assert.ok(Math.abs(t.table.reduce((a, e) => a + e.pourcent, 0) - 100) < 1e-6, `${cat} ${t.mois} ${t.creneau}`);
+      assert.ok(['nord', 'sud'].includes(t.hemisphere));
+    }
+  }
+  assert.deepEqual([...new Set(brut.poissons.map(t => t.eau))].sort(), ['embouchure', 'etang', 'mer', 'ponton', 'riviere', 'riviere-hauteur']);
+  const r = lire('data/nh/rarete.json').categories;
+  for (const [cat, id] of [['poissons', 'coelacanth'], ['insectes', 'snail']]) {
+    assert.ok(r[cat].pluie_seulement[id], `${cat} ${id}`);
+    assert.ok(r[cat].tables.every(t => !t.especes[id]), `${cat} ${id} jamais par beau temps`);
+    assert.ok(r[cat].tables.some(t => t.pluie && t.pluie[id] > 0), `${cat} ${id} s'il pleut`);
+  }
+  // Toutes les espèces du dex ont un taux, sauf celles qui ont une raison.
+  for (const cat of ['poissons', 'insectes', 'creatures-marines']) {
+    const presents = new Set(r[cat].tables.flatMap(t => [...Object.keys(t.especes), ...Object.keys(t.pluie || {})]));
+    const sans = lire(`data/nh/${cat}.json`).filter(e => !presents.has(e.id)).map(e => e.id);
+    assert.deepEqual(sans.sort(), Object.keys(r[cat].sans_taux || {}).sort(), cat);
+  }
+});
