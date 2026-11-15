@@ -523,3 +523,8 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
 .genotypes { display: flex; flex-wrap: wrap; gap: 4px; }
 .genotype { font-family: ui-monospace, Consolas, monospace; font-size: 12px; padding: 2px 6px; border-radius: 6px; background: var(--surface-2); }
 .genotype.connu { font-weight: 700; outline: 1px solid var(--bord); }
+.chemin { margin-bottom: 10px; }
+.chemin h3 { display: flex; gap: 8px; align-items: center; }
+.etapes-chemin { margin: 8px 0 0; padding-left: 22px; display: grid; gap: 6px; }
+.etapes-chemin li { display: list-item; }
+.etapes-chemin li .vignette { vertical-align: middle; margin: 0 4px; }

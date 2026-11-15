@@ -2,11 +2,11 @@
 // Les calculs sont dans lib/fleurs.js ; les données dans data/nh/fleurs-genetique.json (recherches d'Aeter).
 import { h, vider, image, ajouterA } from '../lib/dom.js';
 import { donneesCategorie } from '../lib/etat.js';
-import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece } from '../lib/fleurs.js';
+import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece, rechercherChemins, etapesChemin } from '../lib/fleurs.js';
 
-const ONGLETS = [['croisement', '🧪 Croisement'], ['glossaire', '📖 Glossaire']];
+const ONGLETS = [['croisement', '🧪 Croisement'], ['obtenir', '🔎 Comment obtenir…'], ['glossaire', '📖 Glossaire']];
 // Choix gardés le temps de la session.
-const choix = { onglet: 'croisement', espece: 'roses', a: null, b: null, glossaire: 'roses' };
+const choix = { onglet: 'croisement', espece: 'roses', a: null, b: null, glossaire: 'roses', obtenir: { espece: 'roses', couleur: 'bleu', iles: false } };
 
 const pc = p => `${(p * 100).toLocaleString('fr-FR', { maximumFractionDigits: p < 0.1 ? 2 : 1 })} %`;
 const TEXTE_ORIGINE = { graines: 'graines', iles: 'îles' };
@@ -30,6 +30,7 @@ export async function afficherFleurs(conteneur, jeu) {
     ajouterA(corps, h('div', { class: 'onglets' }, ONGLETS.map(([id, nom]) =>
       h('button', { class: `onglet${choix.onglet === id ? ' actif' : ''}`, onclick: () => { choix.onglet = id; dessiner(); } }, nom))));
     if (choix.onglet === 'croisement') dessinerCroisement();
+    else if (choix.onglet === 'obtenir') dessinerObtenir();
     else dessinerGlossaire();
     corps.append(h('p', { class: 'aide credits' },
       "Génétique des fleurs d'après les recherches d'Aeter (données extraites du jeu). ",
@@ -71,6 +72,43 @@ export async function afficherFleurs(conteneur, jeu) {
           return h('li', { class: 'aide' }, `${g.g} · ${enLettres(g.g)} — ${pc(g.p)}${o ? ` (comme les ${TEXTE_ORIGINE[o]})` : ''}`);
         })))))),
       h('p', { class: 'aide' }, "Chaque jour, une fleur arrosée peut se reproduire avec une fleur de la même espèce sur une des 8 cases autour d'elle ; l'enfant pousse sur une case libre voisine. Sans voisine, elle se clone (même couleur, mêmes gènes)."));
+  }
+
+  // ---- Comment obtenir… ----
+  function dessinerObtenir() {
+    const o = choix.obtenir;
+    const esp = espece(o.espece);
+    const couleurs = couleursEspece(esp).map(c => c.couleur);
+    if (!couleurs.includes(o.couleur)) o.couleur = couleurs.find(c => !esp.graines[c]) || couleurs[0];
+    const zone = h('div', { class: 'section' }, h('p', { class: 'aide' }, 'Calcul des chemins…'));
+    ajouterA(corps,
+      h('div', { class: 'filtres statique' },
+        h('select', { onchange: e => { o.espece = e.target.value; dessiner(); } }, especes.map(e => h('option', { value: e.id, selected: e.id === esp.id }, e.nom))),
+        h('select', { onchange: e => { o.couleur = e.target.value; dessiner(); } }, couleurs.map(c => h('option', { value: c, selected: c === o.couleur }, majuscule(c)))),
+        h('label', { class: 'ligne' }, h('input', { type: 'checkbox', checked: o.iles, onchange: e => { o.iles = e.target.checked; dessiner(); } }), ' Partir aussi des fleurs des îles')),
+      zone);
+    // Le calcul prend jusqu'à une seconde : on laisse d'abord l'écran s'afficher.
+    setTimeout(() => {
+      if (!zone.isConnected) return;
+      const chemins = rechercherChemins(esp, o.couleur, { iles: o.iles });
+      vider(zone);
+      if (!chemins.length) { zone.append(h('p', { class: 'note' }, 'Aucun chemin trouvé en 4 générations.')); return; }
+      chemins.forEach((lot, i) => {
+        const etapes = etapesChemin(lot);
+        const numero = new Map(etapes.map((e, k) => [e.lot.id, k + 1]));
+        const nom = l => (l.depart ? `${majuscule(l.couleur)} (${TEXTE_ORIGINE[l.depart]})` : `${majuscule(l.couleur)} (étape ${numero.get(l.id)})`);
+        const genes = l => [...l.dist].sort((a, b) => b[1] - a[1]).map(([g, p]) => `${g}${l.dist.size > 1 ? ` ${pc(p)}` : ''}`).join(' · ');
+        zone.append(h('div', { class: 'carte chemin' },
+          h('h3', {}, vignette(esp, lot.couleur), lot.generation === 0
+            ? `${majuscule(lot.couleur)} : directement ${lot.depart === 'iles' ? 'sur les îles' : 'en graines'}`
+            : `Chemin ${i + 1} : environ ${Math.round(lot.cout).toLocaleString('fr-FR')} croisements en moyenne, ${lot.generation} génération${lot.generation > 1 ? 's' : ''}`),
+          etapes.length ? h('ol', { class: 'etapes-chemin' }, etapes.map(e => h('li', {},
+            h('span', {}, `${nom(e.parents[0])} × ${nom(e.parents[1])} → `), vignette(esp, e.lot.couleur), h('strong', {}, majuscule(e.lot.couleur)),
+            h('span', { class: 'aide' }, ` · ${pc(e.lot.p)} par croisement · gènes possibles : ${genes(e.lot)}`)))) : null));
+      });
+      zone.append(h('p', { class: 'aide' }, "Les chances supposent qu'on ne connaît pas les gènes exacts des fleurs obtenues (seulement leur couleur). ",
+        "En identifiant les bonnes fleurs par des croisements tests, on peut faire mieux. « Environ N croisements » = 1 / chance du dernier croisement, plus le plus long chemin de ses parents."));
+    }, 30);
   }
 
   // ---- Glossaire ----

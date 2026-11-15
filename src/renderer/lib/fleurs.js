@@ -89,3 +89,98 @@ export function couleursEspece(espece) {
   for (const [c, g] of Object.entries(espece.iles)) res.get(c).iles.push(g);
   return [...res.values()];
 }
+
+// ---------------------------------------------------------------------------
+// Recherche inverse : « comment obtenir une rose bleue ? »
+// ---------------------------------------------------------------------------
+// Un « lot » = des fleurs qu'on sait obtenir : leur couleur et la répartition possible de leurs gènes
+// (une fleur née d'un croisement peut avoir plusieurs génotypes pour la même couleur).
+//   { id, couleur, dist: Map(g -> p), generation, p (chance par croisement), cout, parents: [lotA, lotB] | null, depart }
+// cout = nombre moyen de croisements pour l'obtenir : 1 / p, plus le plus long des chemins de ses deux parents
+// (qu'on peut faire pousser en même temps). Fleurs de départ : 0. Plus c'est bas, plus le chemin est facile.
+// Plusieurs chemins peuvent mener au même lot (même couleur, mêmes gènes possibles) : on garde le moins coûteux.
+
+const cacheCroisements = new Map();
+function croiserMemo(g1, g2) {
+  const k = g1 < g2 ? `${g1}×${g2}` : `${g2}×${g1}`;
+  if (!cacheCroisements.has(k)) cacheCroisements.set(k, croiser(g1, g2));
+  return cacheCroisements.get(k);
+}
+
+// Croisement de deux lots : Map(génotype -> probabilité) pour l'enfant.
+export function croiserLots(distA, distB) {
+  const res = new Map();
+  for (const [a, pa] of distA) for (const [b, pb] of distB) {
+    for (const [g, p] of croiserMemo(a, b)) res.set(g, (res.get(g) || 0) + pa * pb * p);
+  }
+  return res;
+}
+
+const signature = (couleur, dist) => `${couleur}:${[...dist].sort((x, y) => (x[0] < y[0] ? -1 : 1)).map(([g, p]) => `${g}=${p.toFixed(6)}`).join(',')}`;
+
+// Lots de départ : fleurs de graines (et des îles si demandé), aux gènes connus.
+export function lotsDeDepart(espece, { iles = false } = {}) {
+  const lots = Object.entries(espece.graines).map(([c, g]) => ({ couleur: c, g, depart: 'graines' }));
+  if (iles) lots.push(...Object.entries(espece.iles).map(([c, g]) => ({ couleur: c, g, depart: 'iles' })));
+  return lots.map((x, i) => ({ id: `d${i}`, couleur: x.couleur, dist: new Map([[x.g, 1]]), generation: 0, p: 1, cout: 0, parents: null, depart: x.depart }));
+}
+
+// Chemins pour obtenir une couleur. Renvoie les meilleurs lots de cette couleur (au plus « nombre »),
+// du plus facile au plus difficile. Options : iles (partir aussi des fleurs des îles), generationsMax,
+// parCouleur (lots gardés par couleur à chaque génération : plus c'est grand, plus c'est complet mais lent).
+export function rechercherChemins(espece, cible, { iles = false, generationsMax = 4, parCouleur = 16, nombre = 3 } = {}) {
+  let lots = lotsDeDepart(espece, { iles });
+  const vus = new Map(lots.map(l => [signature(l.couleur, l.dist), l]));
+  let n = lots.length;
+  const trouves = lots.filter(l => l.couleur === cible);
+  for (let gen = 1; gen <= generationsMax; gen++) {
+    const nouveaux = new Map(); // signature -> meilleur lot de cette génération
+    for (let i = 0; i < lots.length; i++) {
+      for (let j = i; j < lots.length; j++) {
+        const A = lots[i], B = lots[j];
+        if (A.generation < gen - 1 && B.generation < gen - 1) continue; // déjà essayé à la génération d'avant
+        const enfant = croiserLots(A.dist, B.dist);
+        const parCouleurEnfant = new Map();
+        for (const [g, p] of enfant) {
+          const c = espece.couleurs[g];
+          if (!parCouleurEnfant.has(c)) parCouleurEnfant.set(c, new Map());
+          parCouleurEnfant.get(c).set(g, p);
+        }
+        for (const [c, dist] of parCouleurEnfant) {
+          const p = [...dist.values()].reduce((s, x) => s + x, 0);
+          for (const [g, x] of dist) dist.set(g, x / p);
+          const sig = signature(c, dist);
+          const cout = 1 / p + Math.max(A.cout, B.cout);
+          const deja = vus.get(sig) || nouveaux.get(sig);
+          // Déjà connu par un chemin moins coûteux : on garde l'ancien.
+          if (deja && deja.cout <= cout) continue;
+          nouveaux.set(sig, { id: deja ? deja.id : `l${n++}`, couleur: c, dist, generation: gen, p, cout, parents: [A, B] });
+        }
+      }
+    }
+    for (const [sig, l] of nouveaux) vus.set(sig, l);
+    // On ne garde que les meilleurs lots de chaque couleur pour la génération suivante.
+    const parC = new Map();
+    for (const l of [...nouveaux.values()].sort((a, b) => a.cout - b.cout)) {
+      if (!parC.has(l.couleur)) parC.set(l.couleur, []);
+      if (parC.get(l.couleur).length < parCouleur) parC.get(l.couleur).push(l);
+    }
+    for (const l of nouveaux.values()) if (l.couleur === cible) { const i = trouves.findIndex(t => t.id === l.id); if (i >= 0) trouves[i] = l; else trouves.push(l); }
+    lots = [...lots, ...[...parC.values()].flat()];
+  }
+  return trouves.sort((a, b) => a.cout - b.cout).slice(0, nombre);
+}
+
+// Étapes d'un chemin, dans l'ordre où les faire : [{ lot, parents: [A, B] }] (sans les fleurs de départ).
+export function etapesChemin(lot) {
+  const etapes = [];
+  const faits = new Set();
+  const visiter = l => {
+    if (!l.parents || faits.has(l.id)) return;
+    l.parents.forEach(visiter);
+    faits.add(l.id);
+    etapes.push({ lot: l, parents: l.parents });
+  };
+  visiter(lot);
+  return etapes;
+}

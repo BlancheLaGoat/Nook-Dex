@@ -74,3 +74,42 @@ test('glossaire : génotypes de chaque couleur, origine', async () => {
   const total = couleursEspece(r).reduce((s, c) => s + c.genotypes.length, 0);
   assert.equal(total, 81);
 });
+
+test('recherche inverse : la rose bleue, en étapes dans le bon ordre', async () => {
+  const { rechercherChemins, etapesChemin } = await charger();
+  const r = espece('roses');
+  const [bleu] = rechercherChemins(r, 'bleu');
+  assert.ok(bleu, 'un chemin vers la rose bleue');
+  assert.equal(bleu.couleur, 'bleu');
+  assert.ok(bleu.generation <= 4 && bleu.p > 0);
+  assert.deepEqual([...bleu.dist.keys()], ['2220']); // la seule rose bleue
+  const etapes = etapesChemin(bleu);
+  assert.equal(etapes[etapes.length - 1].lot, bleu);
+  // Chaque parent est une fleur de départ, ou a été obtenu à une étape d'avant.
+  const obtenus = new Set();
+  for (const e of etapes) {
+    for (const p of e.parents) assert.ok(p.depart || obtenus.has(p.id), `parent ${p.couleur} pas encore obtenu`);
+    obtenus.add(e.lot.id);
+  }
+  // Le coût est cohérent : 1 / chance du dernier croisement + le plus long chemin des parents.
+  assert.ok(Math.abs(bleu.cout - (1 / bleu.p + Math.max(...bleu.parents.map(p => p.cout)))) < 1e-9);
+});
+
+test('recherche inverse : chaque couleur de chaque espèce a un chemin depuis les graines', async () => {
+  const { rechercherChemins } = await charger();
+  for (const e of donnees.especes) {
+    for (const c of new Set(Object.values(e.couleurs))) {
+      const [l] = rechercherChemins(e, c, { parCouleur: 6 });
+      assert.ok(l, `${e.nom} ${c}`);
+      if (e.graines[c]) assert.equal(l.generation, 0, `${e.nom} ${c} : déjà en graines`);
+    }
+  }
+});
+
+test('recherche inverse : partir aussi des fleurs des îles', async () => {
+  const { rechercherChemins } = await charger();
+  const t = espece('tulipes');
+  // Tulipe noire : déjà sur les îles (génération 0) si on les autorise.
+  assert.equal(rechercherChemins(t, 'noir', { iles: true })[0].generation, 0);
+  assert.ok(rechercherChemins(t, 'noir')[0].generation >= 1);
+});

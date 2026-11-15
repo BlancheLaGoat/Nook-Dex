@@ -16,6 +16,7 @@ Une nouvelle page, en haut du menu, qui liste les créatures **qui te manquent**
 ### 🌷 Fleurs hybrides (New Horizons)
 Un nouvel outil dans le menu, d'après la génétique des fleurs extraite du jeu par Aeter :
 - **Croisement** : choisis deux fleurs (couleur et gènes) et vois les enfants possibles, en % par couleur et par gènes.
+- **Comment obtenir…** : choisis une couleur (la rose bleue, par exemple) et Nook Dex trouve les étapes de croisement depuis les graines (ou les îles), avec la chance de chaque étape.
 - **Glossaire** : pour chaque espèce, toutes les couleurs, leurs gènes et où les trouver (graines, îles, croisement).
 
 ### 🥬 Navets : le prédicteur de prix (New Horizons)
