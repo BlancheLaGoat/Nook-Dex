@@ -32,7 +32,7 @@ Un nouvel outil dans le menu : tu saisis le prix d'achat du dimanche et les cour
 - New Leaf, City Folk et Wild World : l'écran est prêt, mais il arrive **bientôt**.
 - D'après l'algorithme du jeu publié par Ninji.
 
-### 💾 Importer ta sauvegarde (GameCube et Wild World)
+### 💾 Importer ta sauvegarde (GameCube, Wild World, New Leaf et New Horizons)
 Sur le tableau de bord d'un profil GameCube, le bouton **« Importer ma sauvegarde du jeu… »** lit ta partie et coche le dex pour toi :
 - le **musée** (poissons, insectes, fossiles, tableaux), commun à toute la ville ;
 - le **catalogue** du joueur de ton choix : meubles, gyroïdes, papiers peints, sols, papeterie et morceaux de K.K. ;
@@ -45,6 +45,16 @@ Sur le tableau de bord d'un profil GameCube, le bouton **« Importer ma sauvegar
 - l'**encyclopédie** du joueur choisi : chaque poisson et insecte qu'il a **attrapé** est coché, même s'il n'est pas au musée ;
 - son **catalogue** : meubles, vêtements, gyroïdes, papiers peints, sols, papeterie, morceaux de K.K., photos…
 - accepte le `.sav` du jeu ou le `.dsv` de DeSmuME / RetroArch. Versions occidentales seulement (pas la japonaise ni la coréenne).
+
+**New Leaf - Welcome amiibo** : choisis le fichier `garden_plus.dat` (exporté avec Checkpoint ou JKSM, ou copié depuis Citra).
+- le **musée** complet (fossiles, poissons, créatures marines, insectes, tableaux et statues) ;
+- les **objets débloqués** du joueur choisi : créatures attrapées et tout le catalogue (meubles, vêtements, papiers peints, sols, morceaux de K.K., gyroïdes, photos, outils…).
+- L'ancien `garden.dat` (jeu jamais mis à jour en 1.5) n'est pas pris en charge.
+
+**New Horizons (version 3.0)** : choisis le **dossier** de la sauvegarde (exporté avec JKSV ou Checkpoint : celui qui contient `main.dat` et les dossiers `Villager0`, `Villager1`…). Nook Dex le déchiffre lui-même.
+- le **musée** de l'île ;
+- pour l'habitant choisi : tout ce qu'il a **déjà obtenu** (créatures attrapées, meubles, vêtements, papiers peints, posters, photos…) et ses **recettes** connues.
+- Seule la version 3.0 du jeu est lue. **À vérifier** : testé seulement sur des sauvegardes fabriquées (aucune vraie sauvegarde disponible).
 
 ### 🏝️ L'île de Tortimer (New Leaf)
 - Les poissons et les créatures marines de l'île ont maintenant **leur taux d'apparition**, le même toute l'année.

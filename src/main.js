@@ -204,6 +204,7 @@ function brancherIpc() {
   const FILTRES_SAUVEGARDE = {
     gc: { name: 'Sauvegarde GameCube', extensions: ['gci', 'raw'] },
     ww: { name: 'Sauvegarde Nintendo DS', extensions: ['sav', 'dsv'] },
+    nl: { name: 'Sauvegarde New Leaf (garden_plus.dat)', extensions: ['dat'] },
   };
   ipcMain.handle('fichier:lireSauvegarde', async (_e, titre, jeu) => {
     const filtre = FILTRES_SAUVEGARDE[jeu];
@@ -216,6 +217,31 @@ function brancherIpc() {
     const taille = fs.statSync(filePaths[0]).size;
     if (taille > 17 * 1024 * 1024) throw new Error('fichier trop gros pour une sauvegarde');
     return { nom: path.basename(filePaths[0]), octets: new Uint8Array(fs.readFileSync(filePaths[0])) };
+  });
+
+  // New Horizons : la sauvegarde est un dossier (main.dat, mainHeader.dat, Villager0/personal.dat…).
+  ipcMain.handle('fichier:lireDossierNH', async (_e, titre) => {
+    const { canceled, filePaths } = await dialog.showOpenDialog(fenetre, {
+      title: String(titre || 'Choisir le dossier de sauvegarde'), properties: ['openDirectory'],
+    });
+    if (canceled || !filePaths.length) return null;
+    const dossier = filePaths[0];
+    const lire = (f, max) => {
+      const chemin = path.join(dossier, f);
+      if (!fs.existsSync(chemin)) return null;
+      if (fs.statSync(chemin).size > max) throw new Error(`${f} est trop gros pour une sauvegarde`);
+      return new Uint8Array(fs.readFileSync(chemin));
+    };
+    const Mo = 1024 * 1024;
+    const joueurs = fs.readdirSync(dossier, { withFileTypes: true })
+      .filter(d => d.isDirectory() && /^Villager[0-7]$/.test(d.name))
+      .map(d => d.name).sort()
+      .map(d => ({ dossier: d, header: lire(path.join(d, 'personalHeader.dat'), Mo), personal: lire(path.join(d, 'personal.dat'), 4 * Mo) }))
+      .filter(j => j.header && j.personal);
+    return {
+      nom: path.basename(dossier),
+      octets: { mainHeader: lire('mainHeader.dat', Mo), main: lire('main.dat', 32 * Mo), joueurs },
+    };
   });
 
   // Codes d'objets (data/<jeu>/codes.json, seulement pour le GameCube pour l'instant).

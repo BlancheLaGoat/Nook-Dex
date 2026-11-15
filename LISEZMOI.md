@@ -34,6 +34,8 @@ src/renderer/          l'interface
   lib/filtres.js       recherche, filtres, tri, progression
   lib/sauvegarde-gc.js lecture des sauvegardes du GameCube (.gci, carte .raw) — jamais d'écriture
   lib/sauvegarde-ww.js lecture des sauvegardes de Wild World (.sav, .dsv) — jamais d'écriture
+  lib/sauvegarde-nl.js lecture des sauvegardes de New Leaf (garden_plus.dat) — jamais d'écriture
+  lib/sauvegarde-nh.js déchiffrement et lecture des sauvegardes de New Horizons 3.0 — jamais d'écriture
 data/jeux.json         liste des jeux, catégories, extensions
 data/<jeu>/<cat>.json  les éléments d'une catégorie d'un jeu
 scripts/               scripts qui fabriquent data/ à partir des sources
@@ -117,6 +119,17 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
   (Cuyler36, licence MIT) et la documentation de [Leaflet](https://github.com/oddnebula/leaflet-wild-world)
   (oddnebula, licence MIT) ; liste des objets : `WW_Items_en.txt` d'ACSE, téléchargée dans `sources/ww/` par
   `npm run donnees:sauvegarde-ww`, qui fabrique `data/ww/sauvegarde.json`. Code écrit pour Nook Dex.
+
+- Import des sauvegardes de New Leaf - Welcome amiibo : organisation de `garden_plus.dat` d'après
+  [ACNL_Research](https://github.com/Slattz/ACNL_Research) (Slattz), [acnl-research](https://github.com/Le0X8/acnl-research)
+  (Le0X8, MIT) et l'ordre du musée du plugin [Vapecord](https://github.com/RedShyGuy/Vapecord-ACNL-Plugin) (RedShyGuy) ;
+  liste des objets : `Items_WA.txt` de Slattz, téléchargée dans `sources/nl/` par `npm run donnees:sauvegarde-nl`.
+  Lecture vérifiée sur deux vraies villes de Le0X8 (non incluses dans le dépôt).
+
+- Import des sauvegardes de New Horizons (3.0) : chiffrement, version, sommes Murmur3 et emplacements d'après
+  [NHSE](https://github.com/kwsch/NHSE) (kwsch) ; numéros internes : colonnes « Internal ID » du tableur ACNH
+  (`npm run donnees:sauvegarde-nh`, après `npm run donnees:nh`). Seuls les faits sont repris : le code est écrit pour
+  Nook Dex. À vérifier sur une vraie sauvegarde.
 
 ## Publier une nouvelle version
 

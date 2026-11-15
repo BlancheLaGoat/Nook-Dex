@@ -11,6 +11,13 @@ import { lignesAFaire, texteChance, texteTirages } from './a-faire.js';
 import { texteDepart } from '../lib/a-faire.js';
 import { fenetreImportSauvegarde, JEUX_AVEC_SAUVEGARDE } from './sauvegarde.js';
 
+const AIDE_SAUVEGARDE = {
+  gc: 'Coche ce que contient ta sauvegarde (.gci ou carte mémoire .raw de Dolphin)',
+  ww: 'Coche ce que contient ta sauvegarde (.sav, ou .dsv de DeSmuME / RetroArch)',
+  nl: 'Coche ce que contient ta sauvegarde (garden_plus.dat, exporté avec Checkpoint, JKSM ou Citra)',
+  nh: 'Coche ce que contient ta sauvegarde (dossier exporté avec JKSV ou Checkpoint, version 3.0)',
+};
+
 export function afficherAccueil(conteneur, jeu, allerVers) {
   let noteJeu = null;
   let evenements = [];
@@ -54,7 +61,7 @@ export function afficherAccueil(conteneur, jeu, allerVers) {
 
     if (JEUX_AVEC_SAUVEGARDE.includes(jeu.id)) {
       conteneur.append(h('div', { class: 'actions', style: { justifyContent: 'flex-start' } },
-        h('button', { class: 'bouton', title: jeu.id === 'gc' ? 'Coche ce que contient ta sauvegarde (.gci ou carte mémoire .raw de Dolphin)' : 'Coche ce que contient ta sauvegarde (.sav, ou .dsv de DeSmuME / RetroArch)', onclick: () => fenetreImportSauvegarde(jeu) }, '💾 Importer ma sauvegarde du jeu…')));
+        h('button', { class: 'bouton', title: AIDE_SAUVEGARDE[jeu.id], onclick: () => fenetreImportSauvegarde(jeu) }, '💾 Importer ma sauvegarde du jeu…')));
     }
 
     if (noteJeu) conteneur.append(h('p', { class: 'note' }, 'ℹ️ ', noteJeu));

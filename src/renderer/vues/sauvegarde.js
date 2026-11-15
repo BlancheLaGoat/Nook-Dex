@@ -1,9 +1,11 @@
-// Fenêtre « Importer ma sauvegarde » (GameCube, Wild World) : coche dans le profil ce que la sauvegarde du jeu contient.
+// Fenêtre « Importer ma sauvegarde » (GameCube, Wild World, New Leaf, New Horizons) : coche dans le profil ce que la sauvegarde du jeu contient.
 // Le fichier du jeu n'est jamais modifié, et l'import ne fait qu'ajouter des coches (il n'en enlève aucune).
 import { h, vider, notifier, ouvrirFenetre } from '../lib/dom.js';
 import { etat, etatDe, donneesCategorie, definirPlusieurs } from '../lib/etat.js';
 import { lireSauvegardeGC, cochesImport } from '../lib/sauvegarde-gc.js';
 import { lireSauvegardeWW, cochesImportWW } from '../lib/sauvegarde-ww.js';
+import { lireSauvegardeNL, cochesImportNL } from '../lib/sauvegarde-nl.js';
+import { lireSauvegardeNH, cochesImportNH } from '../lib/sauvegarde-nh.js';
 
 // Par jeu : lecture du fichier, coches à faire, et textes de la fenêtre.
 const LECTEURS = {
@@ -23,13 +25,31 @@ const LECTEURS = {
     explication: "Le musée est commun à toute la ville ; l'encyclopédie (créatures attrapées) et le catalogue (meubles, vêtements, papiers peints, sols, papeterie, morceaux de K.K., photos…) sont propres à chaque joueur.",
     note: 'Lecture vérifiée sur une vraie ville européenne. Les versions japonaise et coréenne ne sont pas prises en charge.',
   },
+  nl: {
+    titre: 'Ouvrir ma sauvegarde New Leaf (garden_plus.dat)',
+    lire: lireSauvegardeNL,
+    coches: cochesImportNL,
+    version: () => 'Welcome amiibo',
+    explication: "Le musée est commun à toute la ville ; les objets débloqués (créatures attrapées, catalogue : meubles, vêtements, papiers peints, sols, morceaux de K.K., photos…) sont propres à chaque joueur.",
+    note: "Exporte « garden_plus.dat » avec Checkpoint ou JKSM (3DS), ou copie-le depuis Citra. Lecture vérifiée sur deux vraies villes ; l'ancien « garden.dat » (jeu jamais mis à jour en 1.5) n'est pas pris en charge.",
+  },
+  nh: {
+    titre: 'Choisir le dossier de ma sauvegarde New Horizons',
+    dossier: true,
+    lire: lireSauvegardeNH,
+    coches: cochesImportNH,
+    version: save => `version ${save.version}`,
+    explication: "Le musée est commun à toute l'île ; les objets déjà obtenus (créatures attrapées, meubles, vêtements…) et les recettes connues sont propres à chaque habitant.",
+    note: "Choisis le dossier exporté avec JKSV ou Checkpoint (celui qui contient main.dat et les dossiers Villager0, Villager1…). Seule la version 3.0 du jeu est prise en charge. À VÉRIFIER : testé seulement sur des sauvegardes fabriquées.",
+  },
 };
 export const JEUX_AVEC_SAUVEGARDE = Object.keys(LECTEURS);
 
 const NOMS_CATEGORIES = {
   poissons: 'poissons', insectes: 'insectes', fossiles: 'fossiles', art: 'tableaux', meubles: 'meubles',
   'papiers-peints': 'papiers peints', sols: 'sols', papeterie: 'papeterie', kk: 'morceaux de K.K.', gyroides: 'gyroïdes',
-  vetements: 'vêtements', photos: 'photos',
+  vetements: 'vêtements', photos: 'photos', 'creatures-marines': 'créatures marines', outils: 'outils',
+  tapis: 'tapis', recettes: 'recettes', posters: 'posters', fleurs: 'fleurs', clotures: 'clôtures',
 };
 
 // Ce que l'import change vraiment : coches nouvelles (obtenu) et dons nouveaux (musée), par catégorie.
@@ -52,12 +72,12 @@ export async function fenetreImportSauvegarde(jeu) {
   if (!lecteur) return;
   let fichier;
   try {
-    fichier = await window.nook.lireSauvegarde(lecteur.titre, jeu.id);
+    fichier = lecteur.dossier ? await window.nook.lireDossierNH(lecteur.titre) : await window.nook.lireSauvegarde(lecteur.titre, jeu.id);
   } catch (e) { notifier(`Lecture impossible : ${e.message}`, 'erreur'); return; }
   if (!fichier) return;
   let save, correspondance;
   try {
-    save = lecteur.lire(fichier.octets);
+    save = await lecteur.lire(fichier.octets);
     correspondance = await donneesCategorie(jeu.id, 'sauvegarde');
     if (!correspondance || !correspondance.musee) throw new Error('les données de correspondance du jeu manquent');
   } catch (e) { notifier(`Import impossible : ${e.message}`, 'erreur'); return; }
@@ -95,7 +115,7 @@ export async function fenetreImportSauvegarde(jeu) {
 
   dessiner();
   fermer = ouvrirFenetre('Importer ma sauvegarde', [
-    h('p', { class: 'aide' }, `Fichier « ${fichier.nom} » · ${lecteur.version(save)}${save.copie === 'secours' ? ' · copie de secours (la principale est abîmée)' : ''}.`),
+    h('p', { class: 'aide' }, `${lecteur.dossier ? 'Dossier' : 'Fichier'} « ${fichier.nom} » · ${lecteur.version(save)}${save.copie === 'secours' ? ' · copie de secours (la principale est abîmée)' : ''}.`),
     h('p', { class: 'aide' }, lecteur.explication, " Nook Dex n'enlève jamais une coche et ne modifie pas ta sauvegarde."),
     joueurs.length > 1 ? h('label', {}, 'Joueur',
       h('select', { onchange: ev => { numero = Number(ev.target.value); dessiner(); } },
