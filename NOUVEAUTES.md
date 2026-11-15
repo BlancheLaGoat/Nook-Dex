@@ -5,6 +5,14 @@ Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page d
 
 ## 1.3.0
 
+### 🎯 Que faire maintenant ?
+Une nouvelle page, en haut du menu, qui liste les créatures **qui te manquent** et que tu peux attraper **tout de suite**, selon l'heure (ou l'heure simulée), le mois et ton hémisphère.
+- Pour chacune : le **meilleur endroit** (rivière, étang, mer, plongée, île de Tortimer…), la **chance par tirage** et le nombre moyen de tirages (« environ 5 ombres »).
+- **Quand elle part** : « part dans 12 jours · n'apparaît plus avant juin », et l'heure de fin du créneau du jour.
+- Tri des plus faciles aux plus rares (ou l'inverse), au choix « pas encore attrapé » ou « pas encore au musée ».
+- Le tableau de bord montre les **3 meilleures pistes** du moment.
+- Pour les espèces sans taux connu, seule la disponibilité est indiquée, sans chiffre inventé.
+
 ### 🏝️ L'île de Tortimer (New Leaf)
 - Les poissons et les créatures marines de l'île ont maintenant **leur taux d'apparition**, le même toute l'année.
 - Le **poisson-ruban**, la **carangue géante**, le **requin-baleine**, l'**anguille jardinière**, le **nautile** et le **bathynome géant** ne sont plus en « rareté inconnue ».
