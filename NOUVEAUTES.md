@@ -13,6 +13,15 @@ Une nouvelle page, en haut du menu, qui liste les créatures **qui te manquent**
 - Le tableau de bord montre les **3 meilleures pistes** du moment.
 - Pour les espèces sans taux connu, seule la disponibilité est indiquée, sans chiffre inventé.
 
+### 🥬 Navets : le prédicteur de prix (New Horizons)
+Un nouvel outil dans le menu : tu saisis le prix d'achat du dimanche et les cours que tu vois, et Nook Dex donne :
+- les **motifs possibles** (fluctuant, gros pic, petit pic, décroissant) avec leur probabilité ;
+- la **fourchette de prix** de chaque demi-journée restante, et le prix le plus haut encore possible ;
+- la prise en compte du motif de la semaine dernière et du **premier achat** sur ton île.
+- La semaine est gardée dans ton profil ; le bouton « Nouvelle semaine » repart de zéro.
+- New Leaf : l'écran est prêt, mais il arrive **bientôt**.
+- D'après l'algorithme du jeu publié par Ninji.
+
 ### 🏝️ L'île de Tortimer (New Leaf)
 - Les poissons et les créatures marines de l'île ont maintenant **leur taux d'apparition**, le même toute l'année.
 - Le **poisson-ruban**, la **carangue géante**, le **requin-baleine**, l'**anguille jardinière**, le **nautile** et le **bathynome géant** ne sont plus en « rareté inconnue ».

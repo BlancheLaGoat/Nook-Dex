@@ -485,3 +485,23 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
   .ligne-a-faire { grid-template-columns: 44px 1fr; }
   .a-faire-chance, .a-faire-depart { grid-column: 2; }
 }
+
+/* Navets */
+.navets-saisie { display: grid; gap: 14px; }
+.navets-ligne { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+.navets-ligne label { display: flex; gap: 8px; align-items: center; font-weight: 550; }
+.navets-saisie input[type='number'] { width: 76px; padding: 6px 8px; border: 1px solid var(--bord); border-radius: var(--rayon-petit); background: var(--surface); color: var(--texte); font: inherit; }
+.navets-saisie select { padding: 6px 8px; border: 1px solid var(--bord); border-radius: var(--rayon-petit); background: var(--surface); color: var(--texte); font: inherit; }
+.navets-grille { border-collapse: separate; border-spacing: 6px; }
+.navets-grille th { text-align: left; font-weight: 600; color: var(--texte-doux); font-size: 13px; }
+.navets-motifs { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
+.navets-motif { background: var(--surface); border: 1px solid var(--bord); border-radius: 12px; padding: 10px 12px; display: grid; gap: 6px; }
+.navets-motif-tete { display: flex; justify-content: space-between; }
+.navets-cadre { overflow-x: auto; }
+.navets-fourchettes { border-collapse: separate; border-spacing: 2px; font-size: 12.5px; width: 100%; }
+.navets-fourchettes th { font-weight: 600; color: var(--texte-doux); padding: 4px 6px; white-space: nowrap; text-align: left; }
+.navets-fourchettes td { text-align: center; padding: 5px 4px; border-radius: 6px; background: var(--surface-2); white-space: nowrap; }
+.navets-fourchettes tr.tous td { font-weight: 650; }
+.navets-fourchettes td.vu { background: var(--surface); color: var(--texte-doux); font-style: italic; }
+.navets-fourchettes .meilleur { background: var(--jaune-pale); color: var(--texte); }
+.credits { margin-top: 18px; }

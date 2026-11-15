@@ -67,6 +67,8 @@ function normaliserProfil(p) {
     region: p.region === 'us' ? 'us' : 'eu',
     // Carte de la ville (outil « Ville parfaite » de Wild World) : vérifiée en détail par l'appli (lib/ville.js).
     ...(p.ville && typeof p.ville === 'object' && !Array.isArray(p.ville) ? { ville: p.ville } : {}),
+    // Semaine de navets (prédicteur de prix) : vérifiée en détail par l'appli (lib/navets.js).
+    ...(p.navets && typeof p.navets === 'object' && !Array.isArray(p.navets) ? { navets: p.navets } : {}),
     cree_le: p.cree_le || new Date().toISOString(),
     modifie_le: new Date().toISOString(),
     elements: p.elements && typeof p.elements === 'object' ? p.elements : {},

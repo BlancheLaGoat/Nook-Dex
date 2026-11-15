@@ -92,6 +92,13 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
   et [ACNH String Translations](https://docs.google.com/spreadsheets/d/1MMbsvDfu59OY9YBEAfHhFJ6O8vRTllNFgMrX7RBZuyI)
   (communauté ACNH Spreadsheet), [Nookipedia](https://nookipedia.com).
 
+- Rareté de New Horizons : paramètres du jeu extraits par Ninji (version 1.4.0), via les tableurs
+  « ACNH Fish / Bug / Sea Creatures Spawns » d'asteriation ([acnh.isomorphicbox.com](https://acnh.isomorphicbox.com/)).
+
+- Navets de New Horizons : algorithme du jeu publié par Ninji (Treeki),
+  [TurnipPrices.cpp](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b).
+  Le prédicteur de Nook Dex est réécrit à partir de cet algorithme (aucun code repris d'un autre prédicteur).
+
 ## Publier une nouvelle version
 
 1. Changer `"version"` dans `package.json` (par ex. `1.0.0` → `1.1.0`).
