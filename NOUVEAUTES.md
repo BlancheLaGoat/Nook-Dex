@@ -3,6 +3,14 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.4.1
+
+### ✂️ Les Doigts de fée (Wild World) : leur stock de chaque jour
+L'écran **Magasin de Nook et Doigts de fée** montre aussi ce que vendent les Doigts de fée chaque jour : le parapluie, les trois vêtements, le chapeau et l'accessoire, calculés avec le même hasard que Nook (vérifié : 6 objets sur 6 pour une vraie sauvegarde).
+- Les vêtements, chapeaux, accessoires et parapluies sont aussi dans **Quand vendra…** et **Ce qui te manque**.
+- À la lecture de la sauvegarde, le stock des Doigts de fée aide à mieux cerner le feng shui de ta maison.
+- Racine et le magasin du jeu GameCube restent sans prévision : leur stock dépend d'un hasard que le jeu ne recalcule pas à partir de la date.
+
 ## 1.4.0
 
 ### 🏪 Magasin de Nook (Wild World) : le stock de chaque jour, à l'avance

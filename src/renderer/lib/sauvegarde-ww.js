@@ -143,7 +143,8 @@ export function navetsWW(octets) {
 // À 0x15DB4 (Leaflet ; NookStore d'acww-decomp) : dépensé (u32), 37 places (codes u16), date du stock (jour, mois,
 // année − 2000) à + 0x4E, niveau dans les bits 9-10 du mot à + 0x5A. À 0x15FBC : les 9 octets de l'ordre des
 // groupes de rareté de la ville (un par genre d'objets), qui entrent dans la graine du stock de chaque jour.
-const NOOK = 0x15DB4, ORDRES = 0x15FBC;
+// Doigts de fée à 0x15F84 : 6 codes (u16, « posés dans une pièce »), puis la date du stock (jour, mois, année − 2000).
+const NOOK = 0x15DB4, ORDRES = 0x15FBC, FEE = 0x15F84;
 export function nookWW(octets) {
   const { s } = villeValide(octets);
   return {
@@ -151,6 +152,10 @@ export function nookWW(octets) {
     niveau: (u16(s, NOOK + 0x5A) >> 9) & 3,
     stock: Array.from({ length: 37 }, (_, i) => u16(s, NOOK + 4 + i * 2)),
     date: { jour: s[NOOK + 0x4E], mois: s[NOOK + 0x4F], annee: 2000 + s[NOOK + 0x50] },
+    fee: {
+      stock: Array.from({ length: 6 }, (_, i) => u16(s, FEE + i * 2)),
+      date: { jour: s[FEE + 12], mois: s[FEE + 13], annee: 2000 + s[FEE + 14] },
+    },
   };
 }
 

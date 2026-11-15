@@ -8,6 +8,8 @@
 //    chaque enregistrement de 8 octets) et /item_info/FRN/always.bin (classe, groupe et saison des autres objets,
 //    octets 4, 6 et 8 des enregistrements de 12 octets). Les fichiers des autres langues sont identiques.
 //
+// Doigts de fée : les vêtements, accessoires, chapeaux et parapluies (mêmes fichiers item_info).
+//
 // Écrit data/ww/nook.json. Lancer avec : npm run donnees:nook-ww -- "chemin/vers/Animal Crossing - Wild World (Europe).nds"
 const fs = require('fs');
 const { ecrireJson } = require('./lib/outils');
@@ -98,6 +100,13 @@ ecrireJson('ww/nook.json', {
   papeterie: plage(0x1000, 64, 4, 3),
   moquettes: plage(0x1144, 0x44),
   papiers: plage(0x1100, 0x44),
+  // Doigts de fée (tailor_stock.c) : [groupe, saison] des vêtements (0x11a8 + n), accessoires (0x1431 + n), chapeaux
+  // (0x13c8 + n), parapluies (0x1380 + n) et casquettes (0x13a8 + n) ; genres 2, 5, 6, 7 et 8 de la table 0x020CBBF0.
+  vetements: plage(0x11a8, 0x100),
+  accessoires: plage(0x1431, 0x40),
+  chapeaux: plage(0x13c8, 0x40),
+  parapluies: plage(0x1380, 0x20),
+  casquettes: plage(0x13a8, 0x20),
   // Groupe des codes tirés « par plage » (pousses, bouteille, médicament) : 0x18 et 0x19 ne sont jamais tirés.
   speciaux: Object.fromEntries([0x151d, 0x151e, 0x151f, 0x155e].map(c => [c.toString(16), decrire(c)[0]])),
 });

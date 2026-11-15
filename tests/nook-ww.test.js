@@ -48,3 +48,19 @@ test('Nook (Wild World) : la calibration retrouve le feng shui, les prévisions 
   const p = stockPossible(d, VILLE, date, r);
   assert.ok(p.objets.filter(x => x.sur).length >= 30);
 });
+
+test('Doigts de fée (Wild World) : stock de la ville vérifiée et codes de la sauvegarde', async () => {
+  const { stockFee, codeObjet, codePiece, calibrerFee, prochainesVentes } = await charger();
+  const date = new Date(2026, 1, 17);
+  // Stock lu dans la vraie sauvegarde du 17/02/2026 (6 sur 6 retrouvés) : parapluie, trois vêtements, chapeau, accessoire.
+  const attendu = [0x1383, 0x11c2, 0x1203, 0x11ad, 0x13f9, 0x1442];
+  assert.deepEqual(stockFee(d, VILLE, date, { dixieme: 15 }).objets.map(x => x.code), attendu);
+  // La sauvegarde les garde en codes « posés » : aller-retour exact.
+  const lus = [0x3e30, 0x39ec, 0x3af0, 0x3998, 0x4068, 0x4168];
+  assert.deepEqual(lus.map(codeObjet), attendu);
+  assert.deepEqual(attendu.map(codePiece), lus);
+  assert.ok(calibrerFee(d, VILLE, date, lus).includes(15));
+  assert.equal(calibrerFee(d, VILLE, new Date(2026, 1, 18), lus).length, 0);
+  // Les vêtements entrent dans les prévisions.
+  assert.ok(prochainesVentes(d, VILLE, date, 1, [{ dixieme: 15, extras: false }]).has(0x11c2));
+});

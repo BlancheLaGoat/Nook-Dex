@@ -1,9 +1,9 @@
-// Magasin de Nook (Wild World) : le stock de chaque jour et la prochaine date de vente de chaque objet.
+// Magasin de Nook et Doigts de fée (Wild World) : le stock de chaque jour et la prochaine date de vente de chaque objet.
 // Le calcul est dans lib/nook-ww.js ; la ville (octets de rareté, niveau du magasin) et les réglages retrouvés par
 // calibration sont lus dans la sauvegarde et gardés dans le profil (profil.nookWW).
 import { h, vider, ajouterA, image, notifier } from '../lib/dom.js';
 import { etat, donneesCategorie, planifierSauvegarde, maintenant, etatDe } from '../lib/etat.js';
-import { stockPossible, prochainesVentes, calibrer } from '../lib/nook-ww.js';
+import { stockPossible, feePossible, prochainesVentes, calibrer, calibrerFee, codePiece } from '../lib/nook-ww.js';
 import { nookWW } from '../lib/sauvegarde-ww.js';
 
 const NIVEAUX = ['Nook Bazar', 'Nook Super', 'Nook Hyper', 'Nook Méga'];
@@ -17,6 +17,7 @@ const NOMS = {
 };
 const SECTIONS = [['outils', '🪓 Outils'], ['meubles', '🪑 Meubles'], ['papiers', '🧱 Papiers peints'], ['moquettes', '🟫 Moquettes'],
   ['papeterie', '✉️ Papeterie'], ['graines', '🌱 Graines'], ['pousses', '🌳 Pousses'], ['toit', '🏠 Toit'], ['bouteille', '🍾 Bouteille'], ['medicament', '💊 Médicament']];
+const SECTIONS_FEE = [['parapluies', '☂️ Parapluie'], ['vetements', '👕 Vêtements'], ['chapeaux', '🎩 Chapeau'], ['accessoires', '👓 Accessoire']];
 const INCERTAIN = { canne: "la canne à pêche remplace l'un des deux premiers outils", bonus: 'sauf si Nook fait sa journée des points bonus', couleur: 'la couleur dépend de tes jours de jeu' };
 
 // Bit du catalogue d'un code (comme scripts/sauvegarde-ww.js) ; la papeterie par sa pile.
@@ -33,22 +34,23 @@ const lisible = d => d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'nume
 function jourDuMagasin() { const m = maintenant(); const d = new Date(m.getFullYear(), m.getMonth(), m.getDate()); if (m.getHours() < 6) d.setDate(d.getDate() - 1); return d; }
 
 const choix = { date: null, recherche: '' };
+const CATS = ['meubles', 'papiers-peints', 'sols', 'papeterie', 'vetements'];
 
 export async function afficherNook(conteneur, jeu) {
   vider(conteneur);
   const [donnees, corr, ...cats] = await Promise.all([donneesCategorie('ww', 'nook'), donneesCategorie('ww', 'sauvegarde'),
-    ...['meubles', 'papiers-peints', 'sols', 'papeterie'].map(c => donneesCategorie('ww', c))]);
-  const fiches = new Map(['meubles', 'papiers-peints', 'sols', 'papeterie'].map((c, i) => [c, new Map((cats[i] || []).map(f => [f.id, f]))]));
+    ...CATS.map(c => donneesCategorie('ww', c))]);
+  const fiches = new Map(CATS.map((c, i) => [c, new Map((cats[i] || []).map(f => [f.id, f]))]));
   const parBit = new Map(((corr && corr.catalogue) || []).map(x => [x.bit, x]));
   // Fiche, nom et image d'un code.
   const objet = code => {
-    const lien = parBit.get(bitCatalogue(code));
+    const lien = parBit.get(bitCatalogue(codePiece(code)));
     const fiche = lien && fiches.get(lien.categorie) && fiches.get(lien.categorie).get(lien.id);
     return { code, categorie: lien && lien.categorie, id: lien && lien.id, fiche, nom: fiche ? fiche.nom.fr : NOMS[code] || `Objet 0x${code.toString(16)}` };
   };
   const obtenu = o => !!(o.categorie && etatDe(o.categorie, o.id).obtenu);
 
-  conteneur.append(h('div', { class: 'titre-page' }, h('h1', {}, '🏪 Magasin de Nook'), h('span', { class: 'sous-titre' }, 'Le stock de chaque jour, calculé comme le jeu')));
+  conteneur.append(h('div', { class: 'titre-page' }, h('h1', {}, '🏪 Magasin de Nook et Doigts de fée'), h('span', { class: 'sous-titre' }, 'Le stock de chaque jour, calculé comme le jeu')));
   if (!donnees || !donnees.meubles) { conteneur.append(h('p', { class: 'note' }, 'Données du magasin introuvables (data/ww/nook.json).')); return () => {}; }
 
   const profil = etat.profil;
@@ -63,7 +65,14 @@ export async function afficherNook(conteneur, jeu) {
       n = nookWW(fichier.octets);
     } catch (e) { notifier(`Lecture impossible : ${e.message}`, 'erreur'); return; }
     const date = new Date(n.date.annee, n.date.mois - 1, n.date.jour);
-    const reglages = calibrer(donnees, n, date, n.stock);
+    let reglages = calibrer(donnees, n, date, n.stock);
+    // Les Doigts de fée tirent leurs vêtements avec le même feng shui : leur stock du même jour resserre les valeurs.
+    const f = n.fee.date;
+    if (f.jour === n.date.jour && f.mois === n.date.mois && f.annee === n.date.annee) {
+      const fee = calibrerFee(donnees, n, date, n.fee.stock);
+      const ensemble = reglages.filter(r => fee.includes(r.dixieme));
+      if (ensemble.length) reglages = ensemble;
+    }
     if (!reglages.length) { notifier("Le stock de cette sauvegarde ne correspond à aucun calcul : la prévision n'est pas possible pour cette ville.", 'erreur'); return; }
     // Une nouvelle lecture d'un autre jour resserre les réglages gardés (s'il s'agit de la même ville).
     const ancien = profil.nookWW;
@@ -106,12 +115,18 @@ export async function afficherNook(conteneur, jeu) {
     for (const [id, titre] of SECTIONS) {
       const l = st.objets.filter(x => x.section === id);
       if (!l.length) continue;
-      section.append(h('h3', {}, titre), h('div', { class: 'liste-mini' }, l.map(x => {
+      section.append(h('h3', {}, titre), h('div', { class: 'liste-mini' }, puces(l)));
+    }
+    function puces(l) {
+      return l.map(x => {
         const o = objet(x.code);
         return h('span', { class: `puce-element${x.sur ? '' : ' possible'}`, title: [o.nom, x.sur ? '' : `possible${x.incertain ? ` : ${INCERTAIN[x.incertain] || ''}` : ' (selon le feng shui de ta maison)'}`, obtenu(o) ? 'déjà dans ton catalogue' : ''].filter(Boolean).join(' — ') },
           o.fiche && o.fiche.image ? image(o.fiche.image, '', 'vignette petite') : null, o.nom, x.sur ? null : h('span', { class: 'aide' }, ' ?'), obtenu(o) ? h('span', { class: 'aide' }, ' ✓') : null);
-      })));
+      });
     }
+    const fee = feePossible(donnees, v, date, reglages);
+    section.append(h('h2', { style: { marginTop: '18px' } }, '✂️ Les Doigts de fée'));
+    for (const [id, titre] of SECTIONS_FEE) section.append(h('h3', {}, titre), h('div', { class: 'liste-mini' }, puces(fee.objets.filter(x => x.section === id))));
     section.append(h('p', { class: 'aide' }, "« ? » : possible seulement (selon le feng shui de ta maison, que Nook Dex n'a pas pu fixer exactement, ou une règle du jeu). ✓ : déjà dans ton catalogue. Le jour du magasin commence à 6 h."));
     corps.append(section);
 
@@ -142,7 +157,7 @@ export async function afficherNook(conteneur, jeu) {
     };
     ajouterA(corps, h('div', { class: 'section' },
       h('h2', {}, '🔎 Quand Nook vendra…'),
-      h('input', { type: 'search', placeholder: 'Nom d’un meuble, papier peint, moquette ou papeterie…', value: choix.recherche, oninput: e => { choix.recherche = e.target.value; chercher(); } }),
+      h('input', { type: 'search', placeholder: 'Nom d’un meuble, vêtement, papier peint, moquette ou papeterie…', value: choix.recherche, oninput: e => { choix.recherche = e.target.value; chercher(); } }),
       zoneRecherche,
       h('h3', {}, `Ce qui te manque, dans l'ordre où Nook le vendra (${manquants.length} sur l'année)`),
       manquants.length ? h('ul', { class: 'liste-conditions' }, manquants.slice(0, 40).map(ligne)) : h('p', { class: 'aide' }, "Rien : tout ce que Nook vendra dans l'année est déjà dans ton catalogue."),

@@ -54,6 +54,12 @@ function genres(d) {
     1: { nb: 64, code: j => 0x1003 + j * 4, desc: j => d.papeterie[j] },
     3: { nb: 0x44, code: j => 0x1144 + j, desc: j => d.moquettes[j] },
     4: { nb: 0x44, code: j => 0x1100 + j, desc: j => d.papiers[j] },
+    // Doigts de fée : 2 vêtements, 5 accessoires, 6 chapeaux, 7 parapluies, 8 casquettes.
+    2: { nb: 0x100, code: j => 0x11a8 + j, desc: j => d.vetements[j] },
+    5: { nb: 0x40, code: j => 0x1431 + j, desc: j => d.accessoires[j] },
+    6: { nb: 0x40, code: j => 0x13c8 + j, desc: j => d.chapeaux[j] },
+    7: { nb: 0x20, code: j => 0x1380 + j, desc: j => d.parapluies[j] },
+    8: { nb: 0x20, code: j => 0x13a8 + j, desc: j => d.casquettes[j] },
   };
   for (const k of Object.values(g)) k.cache = new Map();
   Object.defineProperty(d, '_genres', { value: g, enumerable: false });
@@ -184,6 +190,49 @@ export function stock(d, ville, date, { dixieme = 0, extras = false } = {}) {
   return { objets: res, soldes };
 }
 
+// ---- les Doigts de fée (tailor_stock.c) ----
+// Six objets par jour, tirés avec le même hasard daté (même graine que Nook) : un parapluie, trois vêtements (groupe
+// de rareté selon le feng shui, comme les meubles), un chapeau ou une casquette (au prorata de leur nombre dans le
+// lot des Doigts de fée), un accessoire. Pas d'extras ni de niveau.
+const LOT_FEE = 0x1d;
+export function stockFee(d, ville, date, { dixieme = 0 } = {}) {
+  const [annee, mois, jour] = [date.getFullYear() - 2000, date.getMonth() + 1, date.getDate()];
+  const h = new Hasard(graine(ville.ordres, annee, mois, jour));
+  const s = saison(mois, jour);
+  const dans = l => l.filter(([g]) => g === LOT_FEE).length;
+  const objets = [];
+  const ajouter = (codes, section) => codes.forEach(code => objets.push({ code, section }));
+  ajouter(tirerLot(d, 1, 7, LOT_FEE, ville.ordres, s, h, dixieme), 'parapluies');
+  ajouter(tirerLot(d, 3, 2, 0, ville.ordres, s, h, dixieme), 'vetements');
+  const chapeaux = dans(d.chapeaux), casquettes = dans(d.casquettes);
+  const genre = h.sous(chapeaux + casquettes) < chapeaux ? 6 : 8;
+  ajouter(tirerLot(d, 1, genre, LOT_FEE, ville.ordres, s, h, dixieme), 'chapeaux');
+  ajouter(tirerLot(d, 1, 5, LOT_FEE, ville.ordres, s, h, dixieme), 'accessoires');
+  return { objets };
+}
+// Les codes du stock des Doigts de fée tels que la sauvegarde les garde (codes « posés dans une pièce »), ramenés aux
+// codes des objets (ItemForm_ToCarried).
+const FORMES_PIECE = [[0x3984, 0x3d83, 0x11a8], [0x3e24, 0x3ea3, 0x1380], [0x3fa4, 0x40a3, 0x13c8], [0x40a4, 0x4123, 0x13a8], [0x4124, 0x4223, 0x1431]];
+export function codeObjet(c) {
+  for (const [premier, dernier, objet] of FORMES_PIECE) if (c >= premier && c <= dernier) return objet + ((c - premier) >> 2);
+  return c;
+}
+// Et l'inverse : le code « posé » d'un objet (pour retrouver sa place dans le catalogue de la sauvegarde).
+export function codePiece(c) {
+  for (const [premier, dernier, objet] of FORMES_PIECE) if (c >= objet && c <= objet + ((dernier - premier) >> 2)) return premier + (c - objet) * 4;
+  return c;
+}
+// Les valeurs de feng shui qui redonnent le stock des Doigts de fée lu dans la sauvegarde.
+export function calibrerFee(d, ville, date, stockLu) {
+  const lu = stockLu.map(codeObjet);
+  const ok = [];
+  for (let dixieme = 0; dixieme <= 60; dixieme++) {
+    const calc = stockFee(d, ville, date, { dixieme }).objets;
+    if (calc.length === lu.length && calc.every((x, i) => x.code === lu[i])) ok.push(dixieme);
+  }
+  return ok;
+}
+
 // ---- calibration : les réglages (feng shui, extras) qui redonnent le stock lu dans la sauvegarde ----
 // stockLu : les codes des places du magasin (AUCUN pour les places vides). Renvoie [{ dixieme, extras }].
 export function calibrer(d, ville, date, stockLu) {
@@ -216,13 +265,22 @@ export function stockPossible(d, ville, date, reglages) {
   return { objets, soldes };
 }
 
-// ---- quand Nook vendra-t-il ces objets ? ----
+// Le stock des Doigts de fée pour tous les feng shui possibles (les extras ne les concernent pas).
+export function feePossible(d, ville, date, reglages) {
+  const dixiemes = [...new Set(reglages.map(r => r.dixieme))];
+  const stocks = dixiemes.map(dixieme => stockFee(d, ville, date, { dixieme }));
+  const parCode = new Map();
+  stocks.forEach(st => st.objets.forEach(x => { const e = parCode.get(x.code) || { ...x, fois: 0 }; e.fois++; parCode.set(x.code, e); }));
+  return { objets: [...parCode.values()].map(e => ({ ...e, sur: e.fois === stocks.length })) };
+}
+
+// ---- quand Nook (ou les Doigts de fée) vendra-t-il ces objets ? ----
 // Renvoie Map(code -> [{ date, sur }]) sur `jours` jours à partir de `depuis`.
 export function prochainesVentes(d, ville, depuis, jours, reglages) {
   const res = new Map();
   for (let k = 0; k < jours; k++) {
     const date = new Date(depuis.getFullYear(), depuis.getMonth(), depuis.getDate() + k);
-    for (const x of stockPossible(d, ville, date, reglages).objets) {
+    for (const x of [...stockPossible(d, ville, date, reglages).objets, ...feePossible(d, ville, date, reglages).objets]) {
       if (!res.has(x.code)) res.set(x.code, []);
       res.get(x.code).push({ date, sur: x.sur });
     }

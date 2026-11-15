@@ -116,7 +116,7 @@ function dessinerMenu() {
   );
   if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'ville', '🌳', 'Ville parfaite et arrosoir en or', null, () => afficherVue({ type: 'ville' })));
   if (JEUX_FLEURS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'fleurs', '🌷', 'Fleurs hybrides', null, () => afficherVue({ type: 'fleurs' })));
-  if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'nook', '🏪', 'Magasin de Nook (stock du jour)', null, () => afficherVue({ type: 'nook' })));
+  if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'nook', '🏪', 'Magasin de Nook et Doigts de fée', null, () => afficherVue({ type: 'nook' })));
   if (JEUX_NAVETS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'navets', '🥬', 'Navets (prix de la semaine)', null, () => afficherVue({ type: 'navets' })));
 }
 
