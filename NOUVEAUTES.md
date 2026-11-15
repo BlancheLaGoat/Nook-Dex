@@ -3,6 +3,13 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.3.0
+
+### 🏝️ L'île de Tortimer (New Leaf)
+- Les poissons et les créatures marines de l'île ont maintenant **leur taux d'apparition**, le même toute l'année.
+- Le **poisson-ruban**, la **carangue géante**, le **requin-baleine**, l'**anguille jardinière**, le **nautile** et le **bathynome géant** ne sont plus en « rareté inconnue ».
+- Pour les espèces présentes en ville et sur l'île, la fiche montre les deux taux côte à côte.
+
 ## 1.2.0
 
 ### ⭐ La rareté arrive dans New Horizons
