@@ -185,3 +185,55 @@ test('anciens jeux : règles connues, toutes à vérifier, aux couleurs existant
     }
   }
 });
+
+test('champ : prévisions des enfants sur les cases libres', async () => {
+  const { champVide, previsionsChamp, resultatCroisement } = await charger();
+  const r = espece('roses');
+  // Une rose rouge (0) et une rose blanche (1) côte à côte, une tulipe isolée loin (11), sur un champ 4 × 3.
+  const c = champVide(4, 3);
+  c.cases[0] = { espece: 'roses', g: r.graines.rouge };
+  c.cases[1] = { espece: 'roses', g: r.graines.blanc };
+  c.cases[11] = { espece: 'tulipes', g: espece('tulipes').graines.jaune };
+  const prev = previsionsChamp(c, donnees.especes);
+  // Case 4 (sous la rouge, à côté de la blanche) : uniquement les enfants du couple rouge × blanche.
+  const attendu = resultatCroisement(r, r.graines.rouge, r.graines.blanc).couleurs;
+  const ici = prev.get(4);
+  assert.equal(ici.length, 1);
+  assert.equal(ici[0].espece, 'roses');
+  for (const x of attendu) assert.ok(Math.abs(ici[0].couleurs.find(y => y.couleur === x.couleur).p - x.p) < 1e-9, x.couleur);
+  assert.deepEqual(ici[0].couples, [[0, 1]]);
+  // Case 10 (à côté de la tulipe seule) : un clone, donc 100 % jaune.
+  assert.deepEqual(prev.get(10)[0].couleurs, [{ couleur: 'jaune', p: 1 }]);
+  assert.deepEqual(prev.get(10)[0].clones, [11]);
+  // Les cases occupées n'ont pas de prévision ; la somme des chances d'une case vaut 1.
+  assert.equal(prev.has(0), false);
+  for (const l of prev.values()) for (const x of l) assert.ok(Math.abs(x.couleurs.reduce((s, y) => s + y.p, 0) - 1) < 1e-9);
+});
+
+test('anciens jeux : champ selon les règles connues (chances inconnues, parts égales)', async () => {
+  const { champVide, previsionsChampRegles, enfantsSelonRegles, couleursPlantables, normaliserChampRegles } = await charger();
+  const ww = require(path.join(__dirname, '..', 'data', 'ww', 'fleurs-regles.json'));
+  // Une règle marche dans les deux sens.
+  assert.deepEqual(enfantsSelonRegles(ww.regles, 'Roses', 'blanc', 'rouge'), enfantsSelonRegles(ww.regles, 'Roses', 'rouge', 'blanc'));
+  const c = champVide(4, 3);
+  c.cases[0] = { espece: 'Roses', couleur: 'rouge' };
+  c.cases[1] = { espece: 'Roses', couleur: 'blanc' };
+  const prev = previsionsChampRegles(c, ww.regles);
+  const attendu = enfantsSelonRegles(ww.regles, 'Roses', 'rouge', 'blanc');
+  const ici = prev.get(4)[0];
+  assert.deepEqual(ici.couleurs.map(x => x.couleur).sort(), [...attendu].sort());
+  for (const x of ici.couleurs) assert.ok(Math.abs(x.p - 1 / attendu.length) < 1e-9);
+  // Un couple sans règle connue n'invente rien : il est signalé.
+  const d = champVide(3, 3);
+  d.cases[0] = { espece: 'Roses', couleur: 'or' };
+  d.cases[1] = { espece: 'Roses', couleur: 'bleu' };
+  assert.equal(enfantsSelonRegles(ww.regles, 'Roses', 'or', 'bleu'), null);
+  const p2 = previsionsChampRegles(d, ww.regles).get(3)[0];
+  assert.deepEqual(p2.couleurs, []);
+  assert.deepEqual(p2.inconnus, [[0, 1]]);
+  // Couleurs plantables : pas l'arrosoir ; champ normalisé (espèce ou couleur inconnues écartées).
+  const roses = ww.especes.find(e => e.nom === 'Roses');
+  assert.ok(!couleursPlantables(roses, ww.regles).some(x => /arrosoir/.test(x)));
+  const n = normaliserChampRegles({ largeur: 3, hauteur: 3, cases: [{ espece: 'Roses', couleur: 'rouge' }, { espece: 'Roses', couleur: 'arc-en-ciel' }, { espece: 'X', couleur: 'rouge' }] }, ww.especes, ww.regles);
+  assert.deepEqual(n.cases.slice(0, 3), [{ espece: 'Roses', couleur: 'rouge' }, null, null]);
+});

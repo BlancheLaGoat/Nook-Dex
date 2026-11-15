@@ -17,10 +17,10 @@ Une nouvelle page, en haut du menu, qui liste les créatures **qui te manquent**
 Un nouvel outil dans le menu, d'après la génétique des fleurs extraite du jeu par Aeter :
 - **Croisement** : choisis deux fleurs (couleur et gènes) et vois les enfants possibles, en % par couleur et par gènes.
 - **Comment obtenir…** : choisis une couleur (la rose bleue, par exemple) et Nook Dex trouve les étapes de croisement depuis les graines (ou les îles), avec la chance de chaque étape.
-- **Champ** : dessine ton parterre (fleurs et cases bloquées) ; Nook Dex montre les couples possibles, leurs enfants, et les fleurs qui manquent de place. Le champ est gardé dans ton profil.
+- **Champ** : dessine ton parterre (fleurs et cases bloquées). Chaque **case libre se colore** des fleurs qui peuvent y pousser : une part de couleur par résultat possible, à la mesure de sa chance, avec la fleur la plus probable et son pourcentage (ex. une rose rouge à côté d'une blanche : les cases autour sont mi-rouges, mi-roses, « 50 % »). Passe la souris sur une case pour le détail. Nook Dex montre aussi les couples possibles et les fleurs qui manquent de place. Le champ est gardé dans ton profil.
 - **Identifier** : pour une fleur aux gènes inconnus, Nook Dex liste les gènes possibles, propose le croisement test qui les départage le mieux, puis affine le résultat avec la couleur des enfants obtenus.
 - **Glossaire** : pour chaque espèce, toutes les couleurs, leurs gènes et où les trouver (graines, îles, croisement).
-- Wild World, City Folk et New Leaf : les **règles de croisement connues** (sans gènes), toutes marquées « à vérifier », en attendant les règles extraites des jeux.
+- Wild World, City Folk et New Leaf : les mêmes outils **Croisement** et **Champ** (cases libres colorées), d'après les **règles de croisement connues** (sans gènes). Les chances n'étant pas connues pour ces jeux, chaque couleur possible a une part égale, et un couple sans règle connue affiche « ? ». Tout est marqué « à vérifier », en attendant les règles extraites des jeux.
 
 ### 🥬 Navets : le prédicteur de prix (New Horizons et GameCube)
 Un nouvel outil dans le menu : tu saisis le prix d'achat du dimanche et les cours que tu vois, et Nook Dex donne :

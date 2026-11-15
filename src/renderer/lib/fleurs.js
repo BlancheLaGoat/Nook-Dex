@@ -242,6 +242,117 @@ export function bilanChamp(champ, especes) {
   return { couples, fleurs };
 }
 
+// Prévisions du champ : pour chaque case libre, les enfants qui peuvent y pousser.
+// Modèle (estimation) : une fleur qui se reproduit choisit au hasard une de ses voisines de la même espèce
+// (sans voisine, elle se clone), et l'enfant pousse sur une de SES cases libres voisines, au hasard.
+// Une case reçoit donc les enfants de chaque fleur qui la touche ; on pèse chaque possibilité
+// par 1 / (nombre de partenaires de la fleur) × 1 / (nombre de cases libres autour d'elle).
+//   Map(indice de la case libre -> [{ espece, couleurs: [{ couleur, p }], genotypes: [{ g, p }], couples: [[a, b]], clones: [a] }])
+//   (une entrée par espèce qui peut pousser là ; p = probabilité de chaque couleur si un enfant de cette espèce pousse ici)
+export function previsionsChamp(champ, especes) {
+  const espece = id => especes.find(e => e.id === id);
+  return previsionsGeneriques(champ, {
+    enfants: (c, d) => croiserMemo(c.g, d.g),
+    cle: c => c.g,
+    couleur: (idEspece, g) => espece(idEspece).couleurs[g],
+  });
+}
+
+// Même calcul pour les anciens jeux (Wild World, City Folk, New Leaf), sans gènes : une case vaut { espece, couleur }
+// et les enfants viennent des règles connues. Leurs chances ne sont pas connues : chaque enfant possible
+// d'une règle reçoit la même part. Un couple sans règle connue ne compte pas (on ne sait pas ce qu'il donne).
+//   regles : [{ espece, parents: [c1, c2], enfants: [couleurs] }] (espece = id de l'espèce dans le champ)
+export function enfantsSelonRegles(regles, espece, c1, c2) {
+  const r = regles.find(x => x.espece === espece && ((x.parents[0] === c1 && x.parents[1] === c2) || (x.parents[0] === c2 && x.parents[1] === c1)));
+  return r ? r.enfants : null;
+}
+
+// Couleurs qu'on peut planter pour une espèce des anciens jeux : celles de la page, plus celles des règles
+// (ex. « rouge « spécial » » de New Leaf), sauf ce qui n'est pas une fleur (« arrosoir en or »).
+export function couleursPlantables(espece, regles) {
+  const res = espece.couleurs.map(c => c.couleur);
+  for (const r of regles.filter(x => x.espece === espece.nom)) {
+    for (const c of [...r.parents, ...r.enfants]) if (!/arrosoir/i.test(c) && !res.includes(c)) res.push(c);
+  }
+  return res;
+}
+
+// Champ d'un ancien jeu lu dans un profil : cases { espece: nom, couleur } vérifiées.
+export function normaliserChampRegles(c, especes, regles) {
+  const taille = (x, defaut) => Math.max(2, Math.min(CHAMP_MAX, Number.isInteger(x) ? x : defaut));
+  const largeur = taille(c && c.largeur, 8), hauteur = taille(c && c.hauteur, 6);
+  const res = champVide(largeur, hauteur);
+  if (!c || !Array.isArray(c.cases) || c.largeur !== largeur) return res;
+  c.cases.slice(0, largeur * hauteur).forEach((x, i) => {
+    if (!x || typeof x !== 'object') return;
+    if (x.bloque === true) res.cases[i] = { bloque: true };
+    const e = especes.find(s => s.nom === x.espece);
+    if (e && couleursPlantables(e, regles).includes(x.couleur)) res.cases[i] = { espece: e.nom, couleur: x.couleur };
+  });
+  return res;
+}
+
+export function previsionsChampRegles(champ, regles) {
+  return previsionsGeneriques(champ, {
+    enfants: (c, d) => {
+      const l = enfantsSelonRegles(regles, c.espece, c.couleur, d.couleur);
+      return l ? new Map(l.map(x => [x, 1 / l.length])) : null;
+    },
+    cle: c => c.couleur,
+    couleur: (_e, couleur) => couleur,
+  });
+}
+
+// Calcul commun : outils.enfants(fleur, partenaire) -> Map(clé de l'enfant -> probabilité) ou null (inconnu),
+// outils.cle(fleur) = clé d'un clone, outils.couleur(espèce, clé) = couleur affichée.
+function previsionsGeneriques(champ, outils) {
+  const cases = new Map();
+  champ.cases.forEach((c, i) => {
+    if (!c || c.bloque) return;
+    const v = voisins(champ, i);
+    const libres = v.filter(j => !champ.cases[j]);
+    if (!libres.length) return;
+    const partenaires = v.filter(j => champ.cases[j] && champ.cases[j].espece === c.espece);
+    const couple = j => [Math.min(i, j), Math.max(i, j)];
+    const issues = partenaires.length
+      ? partenaires.map(j => ({ poids: 1 / partenaires.length, enfants: outils.enfants(c, champ.cases[j]), couple: couple(j) }))
+      : [{ poids: 1, enfants: new Map([[outils.cle(c), 1]]), clone: i }];
+    for (const j of libres) {
+      if (!cases.has(j)) cases.set(j, new Map());
+      const parEspece = cases.get(j);
+      if (!parEspece.has(c.espece)) parEspece.set(c.espece, { poids: 0, genotypes: new Map(), couples: new Set(), clones: new Set(), inconnus: new Set() });
+      const x = parEspece.get(c.espece);
+      for (const issue of issues) {
+        if (!issue.enfants) { x.inconnus.add(issue.couple.join('-')); continue; } // couple sans règle connue
+        const w = issue.poids / libres.length;
+        x.poids += w;
+        for (const [g, p] of issue.enfants) x.genotypes.set(g, (x.genotypes.get(g) || 0) + w * p);
+        if (issue.couple) x.couples.add(issue.couple.join('-'));
+        if (issue.clone !== undefined) x.clones.add(issue.clone);
+      }
+    }
+  });
+  const res = new Map();
+  for (const [j, parEspece] of cases) {
+    const liste = [...parEspece].map(([id, x]) => {
+      const genotypes = x.poids ? [...x.genotypes].map(([g, p]) => ({ g, p: p / x.poids })).sort((a, b) => b.p - a.p) : [];
+      const parCouleur = new Map();
+      for (const { g, p } of genotypes) { const k = outils.couleur(id, g); parCouleur.set(k, (parCouleur.get(k) || 0) + p); }
+      return {
+        espece: id,
+        poids: x.poids,
+        couleurs: [...parCouleur].map(([couleur, p]) => ({ couleur, p })).sort((a, b) => b.p - a.p),
+        genotypes,
+        couples: [...x.couples].map(k => k.split('-').map(Number)),
+        clones: [...x.clones],
+        inconnus: [...x.inconnus].map(k => k.split('-').map(Number)),
+      };
+    }).filter(x => x.couleurs.length || x.inconnus.length).sort((a, b) => b.poids - a.poids);
+    if (liste.length) res.set(j, liste);
+  }
+  return res;
+}
+
 // ---------------------------------------------------------------------------
 // Identifier une fleur : quels gènes a-t-elle, et quel croisement test le dira ?
 // ---------------------------------------------------------------------------

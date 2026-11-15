@@ -2,7 +2,7 @@
 // Les calculs sont dans lib/fleurs.js ; les données dans data/nh/fleurs-genetique.json (recherches d'Aeter).
 import { h, vider, image, ajouterA, confirmer } from '../lib/dom.js';
 import { etat, donneesCategorie, planifierSauvegarde } from '../lib/etat.js';
-import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece, rechercherChemins, etapesChemin, champVide, normaliserChamp, bilanChamp, CHAMP_MAX, hypotheses, meilleursTests, miseAJour } from '../lib/fleurs.js';
+import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece, rechercherChemins, etapesChemin, champVide, normaliserChamp, bilanChamp, previsionsChamp, previsionsChampRegles, enfantsSelonRegles, couleursPlantables, normaliserChampRegles, CHAMP_MAX, hypotheses, meilleursTests, miseAJour } from '../lib/fleurs.js';
 
 const ONGLETS = [['croisement', '🧪 Croisement'], ['obtenir', '🔎 Comment obtenir…'], ['champ', '🌱 Champ'], ['identifier', '🧬 Identifier'], ['glossaire', '📖 Glossaire']];
 // Choix gardés le temps de la session.
@@ -12,26 +12,131 @@ const choix = { onglet: 'croisement', espece: 'roses', a: null, b: null, glossai
 const pc = p => `${(p * 100).toLocaleString('fr-FR', { maximumFractionDigits: p < 0.1 ? 2 : 1 })} %`;
 const TEXTE_ORIGINE = { graines: 'graines', iles: 'îles' };
 const majuscule = s => s.charAt(0).toUpperCase() + s.slice(1);
+// Teinte de chaque couleur de fleur, pour colorer les cases où un enfant peut pousser.
+const TEINTES = { rouge: '#e5484d', rose: '#f49ac1', blanc: '#ffffff', violet: '#9b6ad6', orange: '#f59a3b', jaune: '#f6d440', noir: '#3b3b3b', bleu: '#4f8fe0', vert: '#6cc35a' };
+// Fond en « camembert » : une part par couleur, à proportion de sa chance.
+function fondCouleurs(couleurs) {
+  let debut = 0;
+  const parts = couleurs.map(({ couleur, p }) => { const a = debut; debut += p * 100; return `${TEINTES[couleur] || TEINTES[String(couleur).split(' ')[0]] || (couleur === 'or' ? '#d4af37' : '#cccccc')} ${a}% ${debut}%`; });
+  return `conic-gradient(${parts.join(', ')})`;
+}
+
+// Teinte d'une couleur (« rouge « spécial » » prend celle du rouge ; « or » est doré).
+const teinte = c => TEINTES[c] || TEINTES[String(c).split(' ')[0]] || (c === 'or' ? '#d4af37' : '#cccccc');
+// Fleur des anciens jeux (pas d'image) : une pastille de sa couleur avec l'initiale de l'espèce.
+const jetonFleur = (espece, couleur, grand = false) => h('span', { class: `jeton-fleur${grand ? ' grand' : ''}`, title: `${espece} ${couleur}`, style: { background: teinte(couleur) } }, espece.charAt(0));
+const choixAnciens = { onglet: 'champ', espece: null, a: null, b: null, outil: 'fleur', couleur: null };
 
 // Wild World, City Folk, New Leaf : règles connues, sans gènes, toutes à vérifier (data/<jeu>/fleurs-regles.json).
 async function afficherReglesConnues(conteneur, jeu) {
   const d = await donneesCategorie(jeu.id, 'fleurs-regles');
   conteneur.append(h('div', { class: 'titre-page' }, h('h1', {}, '🌷 Fleurs hybrides'), h('span', { class: 'sous-titre' }, `${jeu.nom} · règles connues`)));
   if (!d || !d.especes) { conteneur.append(h('p', { class: 'note' }, 'Pas encore de règles pour ce jeu.')); return () => {}; }
-  conteneur.append(h('p', { class: 'note verifier' }, "⚠️ À vérifier : ces règles viennent de Nookipedia, sans les gènes du jeu. Elles seront remplacées par les règles extraites du jeu."));
+  conteneur.append(h('p', { class: 'note verifier' }, "⚠️ À vérifier : ces règles viennent de Nookipedia, sans les gènes du jeu ni les chances. Elles seront remplacées par les règles extraites du jeu."));
+  const corps = h('div', {});
+  conteneur.append(corps);
+  const o = choixAnciens;
+  if (!d.especes.some(e => e.nom === o.espece)) o.espece = d.especes[0].nom;
+  const esp = () => d.especes.find(e => e.nom === o.espece) || d.especes[0];
+  const dessiner = () => {
+    vider(corps);
+    ajouterA(corps, h('div', { class: 'onglets' }, [['croisement', '🧪 Croisement'], ['champ', '🌱 Champ'], ['regles', '📜 Règles']].map(([id, nom]) =>
+      h('button', { class: `onglet${o.onglet === id ? ' actif' : ''}`, onclick: () => { o.onglet = id; dessiner(); } }, nom))));
+    if (o.onglet === 'croisement') croisementAncien();
+    else if (o.onglet === 'champ') champAncien();
+    else listeRegles();
+  };
+  const choixEspece = () => h('select', { onchange: ev => { o.espece = ev.target.value; o.a = o.b = o.couleur = null; dessiner(); } },
+    d.especes.map(e => h('option', { value: e.nom, selected: e.nom === esp().nom }, e.nom)));
+  const choixCouleur = (val, surChange) => h('select', { onchange: ev => surChange(ev.target.value) },
+    couleursPlantables(esp(), d.regles).map(c => h('option', { value: c, selected: c === val }, majuscule(c))));
+
+  function croisementAncien() {
+    const couleurs = couleursPlantables(esp(), d.regles);
+    if (!couleurs.includes(o.a)) o.a = couleurs[0];
+    if (!couleurs.includes(o.b)) o.b = couleurs[1] || couleurs[0];
+    const enfants = enfantsSelonRegles(d.regles, esp().nom, o.a, o.b);
+    ajouterA(corps,
+      h('div', { class: 'filtres statique' }, choixEspece(), choixCouleur(o.a, v => { o.a = v; dessiner(); }), h('span', {}, '×'), choixCouleur(o.b, v => { o.b = v; dessiner(); })),
+      h('div', { class: 'section' },
+        h('h2', {}, jetonFleur(esp().nom, o.a), ' × ', jetonFleur(esp().nom, o.b), ' → enfants possibles'),
+        enfants ? h('div', { class: 'liste-mini' }, enfants.map(c => h('span', { class: 'puce-element' }, jetonFleur(esp().nom, c), majuscule(c))))
+          : h('p', { class: 'aide' }, "Aucune règle connue pour ce couple : on ne sait pas ce qu'il donne (peut-être une copie d'un des parents)."),
+        enfants ? h('p', { class: 'aide' }, 'Les chances de chaque couleur ne sont pas connues pour ce jeu.') : null));
+  }
+
+  function champAncien() {
+    const profil = etat.profil;
+    const champ = normaliserChampRegles(profil.champFleurs, d.especes, d.regles);
+    const couleurs = couleursPlantables(esp(), d.regles);
+    if (!couleurs.includes(o.couleur)) o.couleur = couleurs[0];
+    const nomCase = i => `${String.fromCharCode(65 + (i % champ.largeur))}${Math.floor(i / champ.largeur) + 1}`;
+    const taille = (val, surChange) => h('select', { onchange: ev => surChange(Number(ev.target.value)) },
+      Array.from({ length: CHAMP_MAX - 2 }, (_, k) => k + 3).map(n => h('option', { value: String(n), selected: n === val }, String(n))));
+    const redimensionner = (l, ht) => {
+      const nouveau = champVide(l, ht);
+      champ.cases.forEach((c, i) => { const x = i % champ.largeur, y = Math.floor(i / champ.largeur); if (x < l && y < ht) nouveau.cases[y * l + x] = c; });
+      profil.champFleurs = nouveau; planifierSauvegarde(); dessiner();
+    };
+    ajouterA(corps, h('div', { class: 'filtres statique' },
+      h('select', { onchange: ev => { o.outil = ev.target.value; dessiner(); } },
+        [['fleur', '🌸 Planter'], ['bloque', '⬛ Case bloquée'], ['gomme', '🧽 Effacer']].map(([v, t]) => h('option', { value: v, selected: o.outil === v }, t))),
+      o.outil === 'fleur' ? [choixEspece(), choixCouleur(o.couleur, v => { o.couleur = v; dessiner(); })] : null,
+      h('label', {}, 'Largeur ', taille(champ.largeur, v => redimensionner(v, champ.hauteur))),
+      h('label', {}, 'Hauteur ', taille(champ.hauteur, v => redimensionner(champ.largeur, v))),
+      h('button', { class: 'bouton petit', onclick: async () => {
+        if (!(await confirmer('Vider le champ', 'Retirer toutes les fleurs et les cases bloquées ?', 'Vider'))) return;
+        profil.champFleurs = champVide(champ.largeur, champ.hauteur); planifierSauvegarde(); dessiner();
+      } }, 'Vider')));
+    const previsions = previsionsChampRegles(champ, d.regles);
+    const grille = h('div', { class: 'champ-grille', style: { gridTemplateColumns: `repeat(${champ.largeur}, 48px)` } },
+      champ.cases.map((c, i) => {
+        const prev = !c && previsions.get(i);
+        let style, titre, contenu = '';
+        if (c && c.bloque) titre = `${nomCase(i)} : bloquée`;
+        else if (c) { titre = `${nomCase(i)} : ${c.espece.toLowerCase()} ${c.couleur}`; contenu = jetonFleur(c.espece, c.couleur, true); }
+        else if (prev) {
+          const p = prev[0];
+          const lignes = prev.map(x => `${x.espece} : ${x.couleurs.length ? x.couleurs.map(y => y.couleur).join(', ') : '?'}${x.inconnus.length ? ` — sans règle connue : ${x.inconnus.map(([a, b]) => `${nomCase(a)} × ${nomCase(b)}`).join(', ')}` : ''}`);
+          const origine = [...p.couples.map(([a, b]) => `${nomCase(a)} × ${nomCase(b)}`), ...p.clones.map(a => `copie de ${nomCase(a)}`)].join(', ');
+          titre = [`${nomCase(i)} : libre — peut pousser ici (chances inconnues) :`, ...lignes, origine ? `(${origine})` : ''].filter(Boolean).join('\n');
+          if (p.couleurs.length) {
+            style = { background: fondCouleurs(p.couleurs) };
+            contenu = h('span', { class: 'champ-prevision' }, h('small', {}, p.couleurs.length > 1 ? `${p.couleurs.length} choix` : majuscule(p.couleurs[0].couleur)));
+          } else contenu = h('span', { class: 'champ-prevision' }, h('small', {}, '?'));
+        } else titre = `${nomCase(i)} : libre`;
+        return h('button', { class: `champ-case${c && c.bloque ? ' bloque' : ''}${prev ? ' prevue' : ''}`, style, title: titre, onclick: () => {
+          champ.cases[i] = o.outil === 'gomme' ? null : o.outil === 'bloque' ? { bloque: true } : { espece: esp().nom, couleur: o.couleur };
+          profil.champFleurs = champ; planifierSauvegarde(); dessiner();
+        } }, contenu);
+      }));
+    const couleursVues = [...new Set([...previsions.values()].flatMap(l => l.flatMap(x => x.couleurs.map(c => c.couleur))))];
+    ajouterA(corps, h('div', { class: 'champ-zone' }, grille,
+      h('div', { class: 'champ-bilan' },
+        h('h3', {}, 'Ce qui peut pousser'),
+        h('p', { class: 'aide' }, "Les cases libres colorées montrent les couleurs qui peuvent y pousser, d'après les règles connues. Les chances ne sont pas connues pour ce jeu : chaque couleur possible a une part égale. Une case « ? » touche un couple dont on ne connaît pas le résultat. Passe la souris sur une case pour le détail."),
+        couleursVues.length ? h('div', { class: 'liste-mini' }, couleursVues.map(c => h('span', { class: 'puce-element' }, h('span', { class: 'pastille-couleur', style: { background: teinte(c) } }), c)))
+          : h('p', { class: 'aide' }, 'Place deux fleurs de la même espèce côte à côte (y compris en diagonale).'))),
+      h('p', { class: 'aide' }, `Clique sur une case pour planter, bloquer ou effacer. Deux fleurs de la même espèce côte à côte (8 cases autour) peuvent donner une fleur sur une case libre voisine. ${d.mecanique[2] || ''} Le champ est enregistré dans ton profil.`));
+  }
+
+  function listeRegles() {
   for (const e of d.especes) {
     const regles = d.regles.filter(r => r.espece === e.nom);
-    ajouterA(conteneur, h('div', { class: 'section' },
+    ajouterA(corps, h('div', { class: 'section' },
       h('h2', {}, e.nom),
-      h('div', { class: 'liste-mini' }, e.couleurs.map(c => h('span', { class: 'puce-element' }, majuscule(c.couleur), c.hybride ? h('span', { class: 'aide' }, ' · hybride') : null))),
+      h('div', { class: 'liste-mini' }, e.couleurs.map(c => h('span', { class: 'puce-element' }, jetonFleur(e.nom, c.couleur), majuscule(c.couleur), c.hybride ? h('span', { class: 'aide' }, ' · hybride') : null))),
       regles.length ? h('ul', { class: 'liste-conditions' }, regles.map(r => h('li', {},
         `${majuscule(r.parents[0])} × ${r.parents[1]} → ${r.enfants.join(', ')}`,
         h('span', { class: 'aide' }, r.fiabilite === 'texte' ? ' · écrit sur Nookipedia' : " · lu dans les tableaux d'images (non vérifié)"),
         r.note ? h('span', { class: 'aide' }, ` — ${r.note}`) : null)))
         : h('p', { class: 'aide' }, "Aucune règle connue pour cette espèce pour l'instant.")));
   }
-  ajouterA(conteneur, h('div', { class: 'section' }, h('h2', {}, 'Comment ça marche'), h('ul', { class: 'liste-conditions' }, d.mecanique.map(m => h('li', { class: 'aide' }, `• ${m}`)))),
+  ajouterA(corps, h('div', { class: 'section' }, h('h2', {}, 'Comment ça marche'), h('ul', { class: 'liste-conditions' }, d.mecanique.map(m => h('li', { class: 'aide' }, `• ${m}`)))),
     h('p', { class: 'aide credits' }, `Source : Nookipedia (${d.source}).`));
+  }
+
+  dessiner();
   return () => {};
 }
 
@@ -175,21 +280,45 @@ export async function afficherFleurs(conteneur, jeu) {
 
     const bilan = bilanChamp(champ, especes);
     const infoFleur = new Map(bilan.fleurs.map(f => [f.i, f]));
+    const previsions = previsionsChamp(champ, especes);
+    // Case libre où un enfant peut pousser : fond aux couleurs possibles, fleur la plus probable en transparence.
+    const caseLibre = (i, prev) => {
+      const p = prev[0];
+      const e = espece(p.espece);
+      const haut = p.couleurs[0];
+      const origine = [
+        ...p.couples.map(([a, b]) => `${nomCase(a)} × ${nomCase(b)}`),
+        ...p.clones.map(a => `clone de ${nomCase(a)}`),
+      ].join(', ');
+      const lignes = prev.map(x => `${espece(x.espece).nom} : ${x.couleurs.map(c => `${c.couleur} ${pc(c.p)}`).join(', ')}`);
+      return {
+        style: { background: fondCouleurs(p.couleurs) },
+        titre: [`${nomCase(i)} : libre — si une fleur pousse ici :`, ...lignes, `(${origine})`].join('\n'),
+        contenu: h('span', { class: 'champ-prevision' }, vignette(e, haut.couleur), h('small', {}, pc(haut.p).replace(' ', ''))),
+      };
+    };
     const grille = h('div', { class: 'champ-grille', style: { gridTemplateColumns: `repeat(${champ.largeur}, 48px)` } },
       champ.cases.map((c, i) => {
         const f = infoFleur.get(i);
         const classes = ['champ-case', c && c.bloque ? 'bloque' : '', f && f.libres === 0 ? 'sans-place' : '', f && f.clone ? 'clone' : ''].filter(Boolean).join(' ');
-        const titre = !c ? `${nomCase(i)} : libre` : c.bloque ? `${nomCase(i)} : bloquée`
+        const prev = !c && previsions.get(i);
+        const libre = prev ? caseLibre(i, prev) : null;
+        const titre = libre ? libre.titre : !c ? `${nomCase(i)} : libre` : c.bloque ? `${nomCase(i)} : bloquée`
           : `${nomCase(i)} : ${nomFleur(c)}${f.clone ? ' — pas de voisine de son espèce (clone)' : ''}${f.libres === 0 ? " — aucune case libre autour : pas d'enfant possible" : ''}`;
-        return h('button', { class: classes, title: titre, onclick: () => {
+        return h('button', { class: classes + (libre ? ' prevue' : ''), style: libre ? libre.style : undefined, title: titre, onclick: () => {
           champ.cases[i] = o.outil === 'gomme' ? null : o.outil === 'bloque' ? { bloque: true } : { espece: esp.id, g: o.g };
           enregistrer(); dessiner();
-        } }, c && !c.bloque ? vignette(espece(c.espece), espece(c.espece).couleurs[c.g]) : '');
+        } }, c && !c.bloque ? vignette(espece(c.espece), espece(c.espece).couleurs[c.g]) : libre ? libre.contenu : '');
       }));
     const sansPlace = bilan.fleurs.filter(f => f.libres === 0).map(f => nomCase(f.i));
     const clones = bilan.fleurs.filter(f => f.clone).map(f => nomCase(f.i));
     ajouterA(corps, h('div', { class: 'champ-zone' }, grille,
       h('div', { class: 'champ-bilan' },
+        previsions.size ? h('div', { class: 'champ-legende' },
+          h('h3', {}, 'Ce qui peut pousser'),
+          h('p', { class: 'aide' }, "Les cases libres colorées montrent les enfants possibles : chaque part de couleur est à la mesure de sa chance, et la fleur au centre est la plus probable (avec son pourcentage). Passe la souris sur une case pour le détail."),
+          h('div', { class: 'liste-mini' }, [...new Set([...previsions.values()].flatMap(l => l.flatMap(x => x.couleurs.map(c => c.couleur))))]
+            .map(c => h('span', { class: 'puce-element' }, h('span', { class: 'pastille-couleur', style: { background: TEINTES[c] || '#ccc' } }), c)))) : null,
         h('h3', {}, `Couples possibles (${bilan.couples.length})`),
         bilan.couples.length ? h('ul', { class: 'liste-conditions' }, bilan.couples.map(cp => h('li', {},
           `${nomCase(cp.a)} × ${nomCase(cp.b)} (${espece(cp.espece).nom.toLowerCase()}) → `,
