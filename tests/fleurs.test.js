@@ -171,10 +171,10 @@ test('identifier : hypothèses, meilleur test, mise à jour', async () => {
   assert.ok(Math.abs(apres.reduce((s, x) => s + x.p, 0) - 1) < 1e-12);
 });
 
-test('anciens jeux : règles connues, toutes à vérifier, aux couleurs existantes', () => {
+test('anciens jeux : règles connues (Nookipedia), aux couleurs existantes', () => {
   for (const jeu of ['ww', 'cf', 'nl']) {
     const d = JSON.parse(fs.readFileSync(path.join(RACINE, 'data', jeu, 'fleurs-regles.json'), 'utf8'));
-    assert.equal(d.a_verifier, true, jeu);
+    assert.match(d.source, /nookipedia\.com/, jeu);
     assert.ok(d.source.startsWith('https://nookipedia.com/'), jeu);
     for (const r of d.regles) {
       const e = d.especes.find(x => x.nom === r.espece);

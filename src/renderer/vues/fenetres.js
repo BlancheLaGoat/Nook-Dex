@@ -224,7 +224,7 @@ export async function fenetreReglages(etatMaj) {
 export async function fenetreNouveautes(version) {
   const partie = partieVersion(await window.nook.nouveautes(), version);
   if (!partie) return false;
-  const enLigne = t => morceaux(t).map(m => (m.gras ? h('strong', {}, m.texte) : m.texte));
+  const enLigne = t => morceaux(t).map(m => (m.gras ? h('strong', {}, m.texte) : m.code ? h('code', {}, m.texte) : m.texte));
   const contenu = blocs(partie).map(b => (b.type === 'titre' ? h('h3', {}, b.texte)
     : b.type === 'liste' ? h('ul', { class: 'nouveautes-liste' }, b.elements.map(e => h('li', {}, enLigne(e))))
       : h('p', {}, enLigne(b.texte))));

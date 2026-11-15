@@ -16,9 +16,9 @@ import { afficherAFaire } from './vues/a-faire.js';
 import { afficherNavets } from './vues/navets.js';
 import { afficherFleurs } from './vues/fleurs.js';
 
-// Jeux qui ont l'écran des navets (New Horizons et GameCube : prédicteur ; New Leaf, City Folk, Wild World : « bientôt »).
+// Jeux qui ont l'écran des navets (tous ont un prédicteur ; voir vues/navets.js).
 const JEUX_NAVETS = ['nh', 'gc', 'nl', 'cf', 'ww'];
-// Jeux qui ont l'outil des fleurs hybrides (New Horizons : génétique ; WW, CF, NL : règles connues à vérifier).
+// Jeux qui ont l'outil des fleurs hybrides (New Horizons et New Leaf : génétique ; WW, CF : règles connues).
 const JEUX_FLEURS = ['nh', 'nl', 'cf', 'ww'];
 import { fenetreProfils, fenetreNouveauProfil, fenetreReglages, fenetreNouveautes } from './vues/fenetres.js';
 
@@ -111,8 +111,8 @@ function dessinerMenu() {
     lien(etat.vue.type === 'especes', '🔎', 'Par espèce (tous les jeux)', null, () => afficherVue({ type: 'especes' })),
   );
   if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'ville', '🌳', 'Ville parfaite et arrosoir en or', null, () => afficherVue({ type: 'ville' })));
-  if (JEUX_FLEURS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'fleurs', '🌷', jeu.id === 'nh' ? 'Fleurs hybrides' : 'Fleurs hybrides (à vérifier)', null, () => afficherVue({ type: 'fleurs' })));
-  if (JEUX_NAVETS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'navets', '🥬', ['nh', 'gc'].includes(jeu.id) ? 'Navets (prix de la semaine)' : 'Navets (bientôt)', null, () => afficherVue({ type: 'navets' })));
+  if (JEUX_FLEURS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'fleurs', '🌷', 'Fleurs hybrides', null, () => afficherVue({ type: 'fleurs' })));
+  if (JEUX_NAVETS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'navets', '🥬', 'Navets (prix de la semaine)', null, () => afficherVue({ type: 'navets' })));
 }
 
 // Seule la ligne de la catégorie cochée change : on la redessine sans tout reconstruire.

@@ -65,6 +65,28 @@ export function extraireFichier(octets) {
 
 export const REGIONS = { GAFE: 'américaine', GAFP: 'européenne', GAFU: 'australienne' };
 
+// Navets : la semaine est tirée d'avance et rangée dans la sauvegarde (Kabu_price_c, m_kabu_manager.h, à 0x20480) :
+// 7 prix gros-boutistes du dimanche (prix d'achat de Porcella) au samedi, le motif (0 pic, 1 aléatoire, 2 baisse) à
+// + 0x0E, puis la date du tirage (OSRTCTime : seconde, minute, heure, jour, jour de la semaine, mois, année sur 16 bits).
+// Vérifié sur trois sauvegardes : deux pics à 8 × le prix d'achat (736 = 8 × 92, 568 = 8 × 71) et une semaine aléatoire.
+export function navetsGC(octets) {
+  const { donnees, code } = extraireFichier(octets);
+  if (code === 'GAFJ') throw new Error("C'est une sauvegarde de la version japonaise (Dōbutsu no Mori+) : son format est différent, elle n'est pas prise en charge.");
+  const base = COPIES.find(c => c + TAILLE_SAVE <= donnees.length && somme16(donnees, c, TAILLE_SAVE) === 0);
+  if (base == null) throw new Error('La sauvegarde est abîmée (somme de contrôle fausse sur les deux copies).');
+  const s = donnees.subarray(base, base + TAILLE_SAVE);
+  const p = 0x20480;
+  const be16 = i => (s[i] << 8) | s[i + 1];
+  const prix = Array.from({ length: 7 }, (_, i) => be16(p + i * 2));
+  const motif = be16(p + 0x0E);
+  return {
+    semaine: { jour: s[p + 0x13], mois: s[p + 0x15], annee: be16(p + 0x16) },
+    achat: prix[0] || null,
+    cours: prix.slice(1).map(x => x || null),
+    motif: motif <= 2 ? motif : null,
+  };
+}
+
 export function lireSauvegardeGC(octets) {
   const { donnees, code, format } = extraireFichier(octets);
   if (code === 'GAFJ') throw new Error("C'est une sauvegarde de la version japonaise (Dōbutsu no Mori+) : son format est différent, elle n'est pas prise en charge.");

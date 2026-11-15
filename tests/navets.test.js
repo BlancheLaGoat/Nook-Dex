@@ -193,3 +193,81 @@ test('GameCube : un prix à 8 fois le dimanche ne peut venir que du pic', async 
   // Prix qui baissent de 10 % par jour : seulement le motif « baisse ».
   assert.equal(predireGC({ achat: 100, cours: [90, 81, 72] }).motifs[2].chance, 1);
 });
+
+// ---- Wild World (lib/navets-ww.js, d'après acww-decomp) ----
+const chargerWW = () => import(pathToFileURL(path.join(__dirname, '..', 'src', 'renderer', 'lib', 'navets-ww.js')).href);
+
+test('Wild World : transitions du jeu (sur 101) et vraie semaine décroissante', async () => {
+  const { TRANSITIONS_WW, predireWW } = await chargerWW();
+  for (const l of TRANSITIONS_WW) assert.ok(Math.abs(l.reduce((s, x) => s + x, 0) - 1) < 1e-12);
+  // Semaine lue dans une vraie sauvegarde européenne (motif 2 dans le jeu).
+  const p = predireWW({ achat: 103, cours: [82, 79, 76, 73, 71, 68, 66, 63, 61, 58, 56, 53] });
+  assert.ok(p.possible);
+  assert.strictEqual(p.motifs[2].chance, 1);
+});
+
+test('Wild World : 1 000 semaines tirées comme le jeu, le vrai motif reste possible et chaque prix est dans la fourchette', async () => {
+  const { variantesWW, predireWW } = await chargerWW();
+  const g = generateur(2026);
+  const n = k => g.randint(0, k - 1);
+  for (let k = 0; k < 1000; k++) {
+    const motif = n(4), vs = variantesWW(motif), va = vs[n(vs.length)], S = 90 + n(21);
+    const cours = va.tirages.map(([part, ecart]) => Math.floor((S * (part + n(ecart))) / 4096));
+    const vus = cours.map((c, i) => (i < k % 12 ? c : null));
+    const p = predireWW({ achat: S, cours: vus });
+    assert.ok(p.motifs[motif].chance > 0, `semaine ${k}`);
+    cours.forEach((c, i) => assert.ok(c >= p.mins[i] && c <= p.maxs[i], `semaine ${k}, cours ${i}`));
+  }
+});
+
+// ---- City Folk (lib/navets-cf.js, d'après TurnipPricesCityFolk.cs) ----
+// Simulateur recopié pas à pas du fichier C# (calculs en simple précision), écrit à part de lib/navets-cf.js.
+const chargerCF = () => import(pathToFileURL(path.join(__dirname, '..', 'src', 'renderer', 'lib', 'navets-cf.js')).href);
+function semaineCF(g, motif) {
+  const f = Math.fround;
+  const rand = () => f(g.randfloat(0, 1));
+  const randInt = n => Math.trunc(n * rand());
+  const randF = x => f(f(x) * rand());
+  const ceil = v => Math.trunc(f(f(v) + f(0.99999)));
+  const b = 90 + randInt(21);
+  const entre = (hi, lo) => ceil(f(b) * f(f(lo) + randF(f(f(hi) - f(lo)))));
+  const p = new Array(14).fill(0);
+  let s = 2, r;
+  const baisse = fin => { r = f(f(0.8) - randF(0.05)); for (; s < fin; s++) { p[s] = ceil(f(r * b)); r = f(f(r - f(0.03)) - randF(0.02)); } };
+  if (motif === 0) {
+    const [d1, d2] = randInt(2) === 0 ? [2, 3] : [3, 2];
+    const h1 = randInt(3), h3 = randInt(3), h2 = 7 - h1 - h3;
+    const bas = n => { r = f(f(0.8) - randF(0.2)); for (let i = 0; i < n; i++) { p[s++] = ceil(f(r * b)); r = f(f(r - f(0.04)) - randF(0.06)); } };
+    for (let i = 0; i < h1; i++) p[s++] = entre(1.4, 0.8);
+    bas(d1);
+    for (let i = 0; i < h2; i++) p[s++] = entre(1.4, 0.8);
+    bas(d2);
+    for (let i = 0; i < h3; i++) p[s++] = entre(1.4, 0.8);
+  } else if (motif === 1 || motif === 3) {
+    const pic = randInt(5) + 5;
+    baisse(pic);
+    if (motif === 1) {
+      p[pic] = entre(1.4, 0.8); p[pic + 1] = entre(2.0, 1.4); p[pic + 2] = entre(6.0, 2.0); p[pic + 3] = entre(2.0, 1.4); p[pic + 4] = entre(1.4, 0.8);
+    } else {
+      p[pic] = entre(1.4, 0.8); p[pic + 1] = entre(1.4, 0.8);
+      const top = f(f(1.4) + randF(0.6));
+      p[pic + 3] = ceil(f(top * b)); p[pic + 2] = entre(top, 1.4); p[pic + 4] = entre(top, 1.4);
+    }
+    s = pic + 5; baisse(14);
+  } else baisse(14);
+  return { b, cours: p.slice(2) };
+}
+
+test('City Folk : 1 000 semaines simulées, le vrai motif reste possible et chaque prix est dans la fourchette', async () => {
+  const { predireCF, variantesCF } = await chargerCF();
+  for (let m = 0; m < 4; m++) assert.ok(Math.abs(variantesCF(m).reduce((s, v) => s + v.poids, 0) - 1) < 1e-12);
+  const g = generateur(1708);
+  for (let k = 0; k < 1000; k++) {
+    const motif = k % 4;
+    const { b, cours } = semaineCF(g, motif);
+    const vus = cours.map((c, i) => (i < k % 12 ? c : null));
+    const p = predireCF({ achat: b, cours: vus });
+    assert.ok(p.motifs[motif].chance > 0, `semaine ${k} (motif ${motif}) : ${cours.join(',')}`);
+    cours.forEach((c, i) => assert.ok(c >= p.mins[i] && c <= p.maxs[i], `semaine ${k}, cours ${i} : ${c} hors de ${p.mins[i]}-${p.maxs[i]}`));
+  }
+});

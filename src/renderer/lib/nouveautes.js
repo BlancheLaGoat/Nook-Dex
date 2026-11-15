@@ -37,7 +37,11 @@ export function blocs(partie) {
 }
 
 // « un **mot** en gras » -> [{ texte: 'un ' }, { texte: 'mot', gras: true }, { texte: ' en gras' }]
+// « le fichier `main.dat` » -> [{ texte: 'le fichier ' }, { texte: 'main.dat', code: true }]
 export function morceaux(texte) {
-  return String(texte).split(/(\*\*[^*]+\*\*)/).filter(Boolean)
-    .map(m => (m.startsWith('**') && m.endsWith('**') ? { texte: m.slice(2, -2), gras: true } : { texte: m }));
+  return String(texte).split(/(\*\*[^*]+\*\*|`[^`]+`)/).filter(Boolean).map(m => {
+    if (m.startsWith('**') && m.endsWith('**')) return { texte: m.slice(2, -2), gras: true };
+    if (m.length > 1 && m.startsWith('`') && m.endsWith('`')) return { texte: m.slice(1, -1), code: true };
+    return { texte: m };
+  });
 }

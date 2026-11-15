@@ -143,6 +143,23 @@ export async function lireSauvegardeNH(fichiers) {
   return { version: versionEnTete(fichiers.mainHeader), joueurs, musee };
 }
 
+// Navets : la semaine est tirée d'avance et rangée dans main.dat (TurnipStonk de NHSE, « GSaveShopKabu », à
+// 0x110 + 0x48D920 + 0x2D40) : prix d'achat, 14 prix (dimanche matin … samedi après-midi), motif (0 fluctuant,
+// 1 gros pic, 2 décroissant, 3 petit pic), tous en entiers de 32 bits. La zone est dans celle que la somme Murmur3 vérifie.
+// À VÉRIFIER sur une vraie sauvegarde, comme le reste de la lecture de New Horizons.
+const NAVETS = 0x110 + 0x48D920 + 0x2D40;
+export async function navetsNH(fichiers) {
+  if (!fichiers || !fichiers.main || !fichiers.mainHeader) throw new Error("Ce dossier n'est pas une sauvegarde de New Horizons : il doit contenir main.dat et mainHeader.dat.");
+  const main = await ouvrir(fichiers.mainHeader, fichiers.main, 'main', 'main.dat');
+  const prix = v => (v > 0 && v < 10000 ? v : null);
+  const motif = u32(main, NAVETS + 0x3C);
+  return {
+    achat: prix(u32(main, NAVETS)),
+    cours: Array.from({ length: 12 }, (_, i) => prix(u32(main, NAVETS + 4 + (i + 2) * 4))),
+    motif: motif <= 3 ? motif : null,
+  };
+}
+
 // Ce que l'import cocherait (seulement des ajouts) : [{ categorie, id, obtenu: true, musee?: true }].
 export function cochesImportNH(save, correspondance, numeroJoueur) {
   const parNumero = new Map(correspondance.objets.map(([n, categorie, id]) => [n, { categorie, id }]));

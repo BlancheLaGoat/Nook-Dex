@@ -5,7 +5,7 @@
 // Le calcul est réécrit ici pour Nook Dex.
 //
 // Comment le jeu fait :
-//  - Dimanche : prix d'achat de Jeanne = 100 × (1 + (hasard − 0,5) × 0,6), soit 70 à 129 clochettes.
+//  - Dimanche : prix d'achat de Porcella = 100 × (1 + (hasard − 0,5) × 0,6), soit 70 à 129 clochettes.
 //  - Un seul prix par jour, du lundi au samedi (pas de matin / après-midi).
 //  - Trois motifs, choisis selon celui de la semaine d'avant (TRANSITIONS_GC) :
 //      A (pic)       : comme B, puis un jour du lundi au vendredi vaut 8 × le prix du dimanche ;

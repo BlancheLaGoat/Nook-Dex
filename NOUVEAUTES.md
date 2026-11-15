@@ -3,6 +3,20 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.3.2
+
+### 🥬 Navets : Wild World et New Leaf, et les prix lus dans ta sauvegarde
+- **Wild World** a son prédicteur, tiré du **code du jeu** (décompilé par le projet acww-decomp) : 4 motifs (fluctuant, gros pic jusqu'à 6 fois le prix d'achat, petit pic, décroissant), 12 cours par semaine. Ici, **même les pourcentages des motifs sont exacts**.
+- **New Leaf** a aussi le prédicteur : il calcule ses prix comme New Horizons (trois vraies semaines lues dans des sauvegardes suivent exactement ses motifs, dont un gros pic à 193 clochettes). Marqué « à vérifier » en attendant d'autres semaines.
+- **Prix de ma sauvegarde** (GameCube, Wild World, New Leaf, New Horizons) : ces jeux choisissent les prix de **toute la semaine** dès le dimanche et les rangent dans la sauvegarde. Le bouton les lit : remplis seulement les cours déjà passés, ou **vois toute la semaine** d'un coup. Nook Dex montre aussi **le motif de la semaine, lu dans le jeu** (et sa date pour la GameCube et Wild World). Ta sauvegarde n'est jamais modifiée. Pour New Horizons (version 3.0), choisis le dossier de la sauvegarde, comme pour l'import ; à vérifier sur une vraie île.
+- **City Folk** a aussi son prédicteur, tiré du **code du jeu** : les mêmes motifs que New Horizons, avec d'autres taux (baisse depuis 75 à 80 % du prix d'achat, pic qui commence entre le mardi après-midi et le jeudi après-midi). Pas de lecture de sauvegarde pour City Folk pour l'instant.
+- Tous les jeux ont maintenant leur prédicteur de navets.
+
+### 🛠️ Corrections
+- Dans la fenêtre « Quoi de neuf ? », les noms de fichiers (comme `garden_plus.dat`) s'affichent proprement, sans les accents graves autour.
+- Navets : la vendeuse des anciens jeux (GameCube, Wild World, City Folk, New Leaf) s'appelle bien **Porcella** ; Porcelette reste celle de New Horizons.
+- Fleurs hybrides : la mention « à vérifier » est retirée (menu, bandeaux et liste des règles). Une petite note indique d'où viennent les règles de Wild World et City Folk (Nookipedia) et rappelle que leurs chances ne sont pas connues.
+
 ## 1.3.1
 
 ### 🌷 Fleurs hybrides : plus de croisements pour Wild World et City Folk

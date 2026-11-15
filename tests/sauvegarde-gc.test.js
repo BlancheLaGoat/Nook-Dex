@@ -131,3 +131,14 @@ test('champCatalogue suit m_shop.c (mSP_CollectCheck)', () => {
   assert.deepStrictEqual(champCatalogue(0x2A05), { champ: 'kk', index: 5 });
   assert.strictEqual(champCatalogue(0x2400), null);
 });
+
+test('navetsGC : prix d\'achat, 6 prix, motif et date de la semaine', async () => {
+  const { navetsGC } = await charger();
+  const p = 0x20480;
+  const o = gci(ville(s => {
+    [92, 96, 736, 71, 76, 82, 90].forEach((v, i) => { s[p + i * 2] = v >> 8; s[p + i * 2 + 1] = v & 0xFF; });
+    s[p + 0x0F] = 0;                                   // motif 0 : pic
+    s[p + 0x13] = 8; s[p + 0x15] = 7; s[p + 0x16] = 0x07; s[p + 0x17] = 0xE2; // 8/7/2018
+  }));
+  assert.deepStrictEqual(navetsGC(o), { semaine: { jour: 8, mois: 7, annee: 2018 }, achat: 92, cours: [96, 736, 71, 76, 82, 90], motif: 0 });
+});

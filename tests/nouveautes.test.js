@@ -16,6 +16,7 @@ test('découpage : partie d\'une version, titres, listes, gras', async () => {
   assert.equal(partieVersion(md, '9.9.9'), null);
   assert.deepEqual(blocs(partieVersion(md, '1.2.0')), [{ type: 'titre', texte: 'A' }, { type: 'liste', elements: ['un', '**deux**'] }]);
   assert.deepEqual(morceaux('un **mot** ici'), [{ texte: 'un ' }, { texte: 'mot', gras: true }, { texte: ' ici' }]);
+  assert.deepEqual(morceaux('lit `main.dat` et **tout**'), [{ texte: 'lit ' }, { texte: 'main.dat', code: true }, { texte: ' et ' }, { texte: 'tout', gras: true }]);
 });
 
 test('NOUVEAUTES.md a une partie pour la version de package.json', async () => {

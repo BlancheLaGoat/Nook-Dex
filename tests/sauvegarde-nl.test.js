@@ -112,3 +112,23 @@ test('fleursVilleNL : fleurs placées sur la carte, avec leurs gènes', async ()
   assert.strictEqual(v.cases.filter(c => c && c.espece).length, 4);
   assert.throws(() => fleursVilleNL(new Uint8Array(1000)), /garden_plus/);
 });
+
+// Valeur chiffrée comme le jeu (rotation et décalage choisis ici), pour les tests.
+function chiffrer(v, ajust = 0x1234, rot = 7) {
+  let enc = (v + ajust + 0x8F187432) >>> 0;
+  enc = ((enc >>> (0x1C - rot)) + (enc << (rot + 4))) >>> 0;
+  const somme = ((enc & 0xFF) + ((enc >>> 8) & 0xFF) + ((enc >>> 16) & 0xFF) + (enc >>> 24) + 0xBA) & 0xFF;
+  return [enc & 0xFF, (enc >>> 8) & 0xFF, (enc >>> 16) & 0xFF, enc >>> 24, ajust & 0xFF, ajust >> 8, rot, somme];
+}
+
+test('navetsNL : prix d\'achat et 12 cours de la semaine, chiffrés', async () => {
+  const { navetsNL, valeurChiffree } = await charger();
+  const o = ville();
+  const cours = [81, 78, 74, 71, 67, 62, 59, 113, 138, 193, 145, 122];
+  o.set(chiffrer(94), 0x6ADE0 - 8);
+  cours.forEach((c, i) => o.set(chiffrer(c, 0x4000 + i, i % 20), 0x6ADE0 + i * 8));
+  assert.deepStrictEqual(navetsNL(o), { achat: 94, cours });
+  o[0x6ADE0 + 7] ^= 0xFF; // somme de contrôle fausse
+  assert.strictEqual(valeurChiffree(o, 0x6ADE0), null);
+  assert.strictEqual(navetsNL(o).cours[0], null);
+});

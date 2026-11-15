@@ -116,6 +116,27 @@ export function fleursVilleWW(octets) {
   return { largeur, hauteur, cases };
 }
 
+// ---------------------------------------------------------------------------
+// Navets : les prix de toute la semaine sont dans la sauvegarde.
+// ---------------------------------------------------------------------------
+// À 0x15F4C (Leaflet ; structure TurnipPrices d'acww-decomp, 0x1A octets) : date du tirage (jour, mois, année − 2000),
+// date d'achat, pic du gros pic (u16, à la place du prix 0), 14 prix d'un octet (dimanche matin … samedi après-midi),
+// motif (0 fluctuant, 1 gros pic, 2 décroissant, 3 petit pic ; 0xFF = pas encore tiré).
+// Vérifié sur une vraie ville européenne : achat 103, puis une baisse de 82 à 53, motif 2 (décroissant).
+const NAVETS = 0x15F4C;
+export function navetsWW(octets) {
+  const { s } = villeValide(octets);
+  const prix = Array.from(s.subarray(NAVETS + 0x0A, NAVETS + 0x18));
+  const pic = u16(s, NAVETS + 0x08);
+  const motif = s[NAVETS + 0x18];
+  return {
+    semaine: { jour: s[NAVETS], mois: s[NAVETS + 1], annee: 2000 + s[NAVETS + 2] },
+    achat: prix[0] || null,
+    cours: prix.slice(2).map(p => (p === 0 ? (pic || null) : p)),
+    motif: motif <= 3 ? motif : null,
+  };
+}
+
 export function lireSauvegardeWW(octets) {
   const { s, format, base } = villeValide(octets);
   const bit = (debut, n) => (s[debut + (n >> 3)] >> (n & 7)) & 1;

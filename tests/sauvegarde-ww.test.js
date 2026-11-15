@@ -157,3 +157,16 @@ test('fleursVilleWW : fleurs de la carte (acre par acre), assoiffées, arrosées
   assert.strictEqual(a(5, 5), null);
   assert.strictEqual(v.cases.filter(c => c && c.espece).length, 4);
 });
+
+test('navetsWW : prix d\'achat, 12 cours (le pic à part), motif et date', async () => {
+  const { navetsWW } = await charger();
+  const p = 0x15F4C;
+  const v = navetsWW(sav(ville(s => {
+    s.set(lettres('Blanche'), P1 + 0x2282); s[P1 + 0x2280] = 0x77;
+    s[p] = 17; s[p + 1] = 2; s[p + 2] = 26;            // 17/02/2026
+    s[p + 8] = 0x58; s[p + 9] = 0x02;                  // pic : 600
+    s.set([100, 100, 79, 76, 74, 71, 99, 150, 0, 160, 110, 78, 76, 73], p + 0x0A);
+    s[p + 0x18] = 1;                                   // gros pic
+  })));
+  assert.deepStrictEqual(v, { semaine: { jour: 17, mois: 2, annee: 2026 }, achat: 100, cours: [79, 76, 74, 71, 99, 150, 600, 160, 110, 78, 76, 73], motif: 1 });
+});

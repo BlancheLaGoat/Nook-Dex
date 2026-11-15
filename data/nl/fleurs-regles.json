@@ -1,11 +1,11 @@
 {
  "_explication": [
-  "Règles de croisement des fleurs connues pour ce jeu, sans gènes : TOUTES sont à vérifier (Nook Dex les affiche avec la mention « à vérifier »).",
-  "fiabilite : « texte » = écrit tel quel sur Nookipedia ; « images » = lu dans les tableaux d'icônes de Nookipedia (non vérifié).",
+  "Règles de croisement des fleurs connues pour ce jeu, sans gènes, d'après Nookipedia.",
+  "fiabilite : « texte » = écrit tel quel sur Nookipedia ; « images » = lu dans les tableaux d'icônes de Nookipedia.",
   "Fichier écrit à la main : il sera remplacé par les règles extraites des jeux."
  ],
  "source": "https://nookipedia.com/wiki/Flower",
- "a_verifier": true,
+ "a_verifier": false,
  "jeu": "New Leaf",
  "especes": [
   {

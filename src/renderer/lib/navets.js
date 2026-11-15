@@ -133,7 +133,7 @@ export function evaluer(etapes, base, cours) {
     }
     for (const i of [sommet - 1, sommet + 1]) {
       if (cours[i] == null) continue;
-      const x = inter([1.4, R[1]], tauxPourPrix(cours[i], base, 1));
+      const x = inter([1.4, R[1]], tauxPourPrix(cours[i], base, etapes[i].moins ?? 1));
       if (largeur(x) <= 0) return null;
       // Le flanc est tiré entre 1,4 et R : R est au moins aussi haut que lui.
       R = [Math.max(R[0], x[0]), R[1]];
@@ -145,8 +145,10 @@ export function evaluer(etapes, base, cours) {
     const e = etapes[i];
     if (e.t === 'sommet' || e.t === 'flanc') {
       if (cours[i] != null) { mins[i] = maxs[i] = cours[i]; continue; }
-      mins[i] = e.t === 'sommet' ? intceil(R[0] * base) : intceil(1.4 * base) - 1;
-      maxs[i] = e.t === 'sommet' ? intceil(R[1] * base) : intceil(R[1] * base) - 1;
+      // Flanc : moins 1 dans New Horizons (moins = 1 par défaut), rien de retiré dans City Folk (moins = 0).
+      const moins = e.moins ?? 1;
+      mins[i] = e.t === 'sommet' ? intceil(R[0] * base) : intceil(1.4 * base) - moins;
+      maxs[i] = e.t === 'sommet' ? intceil(R[1] * base) : intceil(R[1] * base) - moins;
       continue;
     }
     let possible = e.t === 'u' ? [e.lo, e.hi] : (e.debut ? [...e.debut] : [taux[0], taux[1]]);
@@ -172,7 +174,8 @@ export function evaluer(etapes, base, cours) {
 //   precedent : motif de la semaine dernière (0 à 3) ou null ; premierAchat : première fois sur l'île
 // Renvoie { possible, motifs: [{ id, nom, aide, chance, mins, maxs }], mins, maxs, meilleur }.
 //   meilleur = { indice, max } : la demi-journée encore à venir où le prix le plus haut est possible.
-export function predire({ achat = null, cours = [], precedent = null, premierAchat = false } = {}) {
+// modele : fonction qui donne les variantes de chaque motif (par défaut celles de New Horizons ; City Folk a les siennes).
+export function predire({ achat = null, cours = [], precedent = null, premierAchat = false, modele = variantes } = {}) {
   const obs = Array.from({ length: 12 }, (_, i) => (Number.isFinite(cours[i]) && cours[i] > 0 ? cours[i] : null));
   const bases = achat != null ? [achat] : Array.from({ length: BASE_MAX - BASE_MIN + 1 }, (_, i) => BASE_MIN + i);
   const depart = chancesDepart(precedent, premierAchat);
@@ -180,7 +183,7 @@ export function predire({ achat = null, cours = [], precedent = null, premierAch
     let poids = 0;
     const mins = new Array(12).fill(Infinity), maxs = new Array(12).fill(-Infinity);
     if (depart[m.id] > 0) {
-      for (const va of variantes(m.id)) {
+      for (const va of modele(m.id)) {
         for (const b of bases) {
           const r = evaluer(va.etapes, b, obs);
           if (!r) continue;

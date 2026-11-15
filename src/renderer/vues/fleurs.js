@@ -82,7 +82,7 @@ function fenetreVille({ titre, fichier, ville, acresX, acresY, contenu, bloquees
   ], { large: true });
 }
 
-// Wild World, City Folk, New Leaf : règles connues, sans gènes, toutes à vérifier (data/<jeu>/fleurs-regles.json).
+// Wild World, City Folk (et violettes, œillets de New Leaf) : règles connues, sans gènes (data/<jeu>/fleurs-regles.json).
 // Options : especes = noms des espèces à montrer (toutes sinon) ; titre = afficher le titre de la page ;
 // onglets = onglets proposés (le champ demande toutes les espèces : il est réservé à la page entière).
 async function afficherReglesConnues(conteneur, jeu, { especes = null, titre = true, onglets = ['croisement', 'champ', 'regles'] } = {}) {
@@ -90,7 +90,7 @@ async function afficherReglesConnues(conteneur, jeu, { especes = null, titre = t
   if (titre) conteneur.append(h('div', { class: 'titre-page' }, h('h1', {}, '🌷 Fleurs hybrides'), h('span', { class: 'sous-titre' }, `${jeu.nom} · règles connues`)));
   if (!brut || !brut.especes) { conteneur.append(h('p', { class: 'note' }, 'Pas encore de règles pour ce jeu.')); return () => {}; }
   const d = especes ? { ...brut, especes: brut.especes.filter(e => especes.includes(e.nom)), regles: brut.regles.filter(r => especes.includes(r.espece)) } : brut;
-  conteneur.append(h('p', { class: 'note verifier' }, "⚠️ À vérifier : ces règles viennent de Nookipedia, sans les gènes du jeu ni les chances. Elles seront remplacées par les règles extraites du jeu."));
+  conteneur.append(h('p', { class: 'note' }, "ℹ️ Règles de croisement d'après Nookipedia. Ces fleurs n'ont pas de gènes : l'enfant ne dépend que de la couleur des parents, et les chances de chaque couleur ne sont pas connues."));
   const corps = h('div', {});
   conteneur.append(corps);
   const o = choixAnciens;
@@ -224,7 +224,7 @@ async function afficherReglesConnues(conteneur, jeu, { especes = null, titre = t
       h('div', { class: 'liste-mini' }, e.couleurs.map(c => h('span', { class: 'puce-element' }, jetonFleur(e.nom, c.couleur), majuscule(c.couleur), c.hybride ? h('span', { class: 'aide' }, ' · hybride') : null))),
       regles.length ? h('ul', { class: 'liste-conditions' }, regles.map(r => h('li', {},
         `${majuscule(r.parents[0])} × ${r.parents[1]} → ${r.enfants.join(', ')}`,
-        h('span', { class: 'aide' }, r.fiabilite === 'texte' ? ' · écrit sur Nookipedia' : " · lu dans les tableaux d'images (non vérifié)"),
+        h('span', { class: 'aide' }, r.fiabilite === 'texte' ? ' · écrit sur Nookipedia' : " · tableau de Nookipedia"),
         r.note ? h('span', { class: 'aide' }, ` — ${r.note}`) : null)))
         : h('p', { class: 'aide' }, "Aucune règle connue pour cette espèce pour l'instant.")));
   }
@@ -572,7 +572,7 @@ export async function afficherFleurs(conteneur, jeu) {
   }
 
   conteneur.append(h('div', { class: 'titre-page' }, h('h1', {}, '🌷 Fleurs hybrides'), h('span', { class: 'sous-titre' }, jeu.nom)));
-  if (nl) conteneur.append(h('p', { class: 'note verifier' }, "⚠️ À vérifier : la couleur de chaque code et les chances sont celles de New Horizons. New Leaf utilise le même système (guide de Paleh) : dans de vraies sauvegardes, les fleurs de graines ont exactement les mêmes codes et chaque code donne bien la couleur de la fleur, et les croisements de graines donnent les couleurs du tableau de Nookipedia. Une fleur « spéciale » (comme la rouge qui mène à la rose bleue) est une fleur de même couleur avec d'autres gènes : c'est son code qui compte."));
+  if (nl) conteneur.append(h('p', { class: 'note' }, "ℹ️ New Leaf utilise le même système de gènes que New Horizons : les fleurs de graines ont les mêmes codes, et dans de vraies sauvegardes chaque code donne bien la couleur de la fleur. Une fleur « spéciale » (comme la rouge qui mène à la rose bleue) est une fleur de même couleur avec d'autres gènes : c'est son code qui compte."));
   conteneur.append(corps);
   dessiner();
   return () => {};

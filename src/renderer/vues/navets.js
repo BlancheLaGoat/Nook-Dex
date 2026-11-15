@@ -1,12 +1,21 @@
 // Navets : prédicteur de prix de la semaine.
 //   New Horizons : algorithme publié par Ninji (lib/navets.js), 12 demi-journées.
 //   GameCube : code du jeu décompilé par ac-decomp (lib/navets-gc.js), un prix par jour.
-//   New Leaf, City Folk, Wild World : même écran, désactivé (« bientôt »), en attendant un algorithme sûr.
+//   Wild World : code du jeu décompilé par acww-decomp (lib/navets-ww.js), 12 demi-journées, calcul exact.
+//   New Leaf : le même calcul que New Horizons (vérifié sur trois vraies semaines).
+//   City Folk : code du jeu (main.dol, lib/navets-cf.js), même moteur que New Horizons avec d'autres taux.
+// GameCube, Wild World et New Leaf : la sauvegarde contient déjà les prix de la semaine (bouton « Prix de ma sauvegarde »).
 // La semaine en cours est enregistrée dans le profil (profil.navets).
-import { h, vider, ajouterA, confirmer } from '../lib/dom.js';
-import { etat, planifierSauvegarde } from '../lib/etat.js';
+import { h, vider, ajouterA, confirmer, notifier, ouvrirFenetre } from '../lib/dom.js';
+import { etat, planifierSauvegarde, maintenant } from '../lib/etat.js';
+import { navetsNL } from '../lib/sauvegarde-nl.js';
+import { navetsWW } from '../lib/sauvegarde-ww.js';
+import { navetsGC } from '../lib/sauvegarde-gc.js';
+import { navetsNH } from '../lib/sauvegarde-nh.js';
 import { predire, normaliserNavets, MOTIFS, DEMI_JOURNEES, BASE_MIN, BASE_MAX } from '../lib/navets.js';
 import { predireGC, MOTIFS_GC, JOURS_GC, ACHAT_MIN_GC, ACHAT_MAX_GC } from '../lib/navets-gc.js';
+import { predireWW, ACHAT_MIN_WW, ACHAT_MAX_WW } from '../lib/navets-ww.js';
+import { predireCF } from '../lib/navets-cf.js';
 
 const JOURS = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
 const pc = x => `${(x * 100).toLocaleString('fr-FR', { maximumFractionDigits: x < 0.1 && x > 0 ? 1 : 0 })} %`;
@@ -15,12 +24,19 @@ const pc = x => `${(x * 100).toLocaleString('fr-FR', { maximumFractionDigits: x 
 const DEMI = { cours: 12, colonnes: DEMI_JOURNEES, lignes: ['Matin', 'Après-midi'], min: BASE_MIN, max: BASE_MAX, motifs: MOTIFS, vendeur: 'Porcelette' };
 export const JEUX = {
   nh: { ...DEMI, actif: true, predire, premierAchat: true,
+    lecture: { titre: 'Choisir le dossier de ma sauvegarde New Horizons', dossier: true, lire: navetsNH },
     credit: "Calcul d'après l'algorithme du jeu publié par Ninji (Treeki), « TurnipPrices.cpp ». Les fourchettes de prix sont sûres ; les pourcentages des motifs sont une estimation (le jeu tire ses taux au hasard dans des intervalles)." },
-  gc: { actif: true, cours: 6, colonnes: JOURS_GC, lignes: ['Prix du jour'], min: ACHAT_MIN_GC, max: ACHAT_MAX_GC, motifs: MOTIFS_GC, vendeur: 'Jeanne', predire: predireGC, premierAchat: false,
+  gc: { actif: true, cours: 6, colonnes: JOURS_GC, lignes: ['Prix du jour'], min: ACHAT_MIN_GC, max: ACHAT_MAX_GC, motifs: MOTIFS_GC, vendeur: 'Porcella', predire: predireGC, premierAchat: false,
+    lecture: { titre: 'Ouvrir ma sauvegarde Animal Crossing (GameCube)', jeu: 'gc', lire: navetsGC },
     credit: "Calcul d'après le code du jeu décompilé par le projet ac-decomp (m_kabu_manager.c, licence CC0). Les motifs « pic » et « aléatoire » sont calculés exactement ; le motif « baisse » par fourchettes." },
-  nl: { ...DEMI, actif: false, vendeur: 'Porcelette' },
-  cf: { ...DEMI, actif: false, vendeur: 'Jeanne' },
-  ww: { ...DEMI, actif: false, vendeur: 'Jeanne' },
+  nl: { ...DEMI, actif: true, predire, premierAchat: false, vendeur: 'Porcella',
+    lecture: { titre: 'Ouvrir ma sauvegarde New Leaf (garden_plus.dat)', jeu: 'nl', lire: navetsNL },
+    credit: "New Leaf utilise le même calcul que New Horizons (algorithme publié par Ninji) : trois vraies semaines lues dans des sauvegardes suivent exactement ses motifs (gros pic, fluctuant, décroissant). À vérifier sur d'autres semaines ; les pourcentages des motifs sont une estimation." },
+  cf: { ...DEMI, actif: true, predire: predireCF, premierAchat: false, vendeur: 'Porcella',
+    credit: "Calcul d'après le code du jeu (main.dol) : les mêmes motifs que New Horizons, avec d'autres taux (baisse depuis 75-80 % du prix d'achat, pic entre le mardi après-midi et le jeudi après-midi). Les fourchettes de prix sont sûres ; les pourcentages des motifs sont une estimation." },
+  ww: { ...DEMI, actif: true, min: ACHAT_MIN_WW, max: ACHAT_MAX_WW, predire: predireWW, premierAchat: false, vendeur: 'Porcella',
+    lecture: { titre: 'Ouvrir ma sauvegarde Wild World (.sav ou .dsv)', jeu: 'ww', lire: navetsWW },
+    credit: "Calcul d'après le code du jeu décompilé par le projet acww-decomp (turnip_prices.c, licence CC0) : les fourchettes ET les pourcentages des motifs sont exacts (chaque prix est tiré séparément)." },
 };
 
 export function afficherNavets(conteneur, jeu) {
@@ -65,7 +81,8 @@ export function afficherNavets(conteneur, jeu) {
         h('label', {}, "Prix d'achat (dimanche) ", achat),
         h('label', {}, 'Motif de la semaine dernière ', precedent),
         premier ? h('label', { class: 'ligne' }, premier, ' Premier achat de navets sur mon île') : null,
-        actif ? h('button', { class: 'bouton petit', style: { marginLeft: 'auto' }, onclick: async () => {
+        cfg.lecture ? h('button', { class: 'bouton petit', style: { marginLeft: 'auto' }, onclick: () => prixSauvegarde() }, '📥 Prix de ma sauvegarde…') : null,
+        actif ? h('button', { class: 'bouton petit', style: cfg.lecture ? {} : { marginLeft: 'auto' }, onclick: async () => {
           if (!(await confirmer('Nouvelle semaine', "Effacer le prix d'achat et les cours de cette semaine ?", 'Effacer'))) return;
           // Le motif de la semaine qui se termine devient « la semaine dernière » s'il est sûr à 100 %.
           const p = cfg.predire(n);
@@ -79,6 +96,43 @@ export function afficherNavets(conteneur, jeu) {
         h('tbody', {}, cfg.lignes.map((ligne, l) => h('tr', {}, h('th', {}, ligne), JOURS.map((_, j) => h('td', {}, cases[j * parLigne + l]))))))),
     resultats,
     cfg.credit ? h('p', { class: 'aide credits' }, cfg.credit) : null);
+
+  // GameCube, Wild World, New Leaf : la sauvegarde contient déjà le prix d'achat et les cours de la semaine
+  // (et, selon le jeu, la date du tirage et le motif de la semaine).
+  async function prixSauvegarde() {
+    let fichier, s;
+    try {
+      fichier = cfg.lecture.dossier ? await window.nook.lireDossierNH(cfg.lecture.titre) : await window.nook.lireSauvegarde(cfg.lecture.titre, cfg.lecture.jeu);
+      if (!fichier) return;
+      s = await cfg.lecture.lire(fichier.octets);
+    } catch (e) { notifier(`Lecture impossible : ${e.message}`, 'erreur'); return; }
+    if (s.achat == null || s.cours.length !== cfg.cours || s.cours.some(c => c == null)) {
+      notifier("Les prix des navets de cette sauvegarde sont illisibles (ou pas encore tirés : ouvre le jeu un dimanche, puis sauvegarde).", 'erreur');
+      return;
+    }
+    // Cours déjà passés selon la date de Nook Dex (le dimanche, aucun) : un par jour au GameCube,
+    // sinon un par demi-journée (le prix change à midi).
+    const d = maintenant();
+    const passes = d.getDay() === 0 ? 0 : cfg.cours === 6 ? d.getDay() : (d.getDay() - 1) * 2 + (d.getHours() >= 12 ? 2 : 1);
+    const motif = Number.isInteger(s.motif) ? cfg.motifs.find(m => m.id === s.motif) : null;
+    const date = s.semaine ? `${String(s.semaine.jour).padStart(2, '0')}/${String(s.semaine.mois).padStart(2, '0')}/${s.semaine.annee}` : null;
+    let fermer;
+    const remplir = nb => {
+      n = normaliser({ ...n, achat: s.achat, cours: s.cours.map((c, i) => (i < nb ? c : null)) });
+      enregistrer(); fermer();
+      notifier(nb ? `Prix de la sauvegarde ajoutés (${nb} cours).` : "Prix d'achat de la sauvegarde ajouté.");
+      afficherNavets(conteneur, jeu);
+    };
+    fermer = ouvrirFenetre('Prix de ma sauvegarde', [
+      h('p', {}, `Fichier « ${fichier.nom} » : prix d'achat ${s.achat} clochettes. Ta sauvegarde contient déjà les prix de toute la semaine, du lundi au samedi : le jeu les choisit dès le dimanche.`),
+      date || motif ? h('p', {}, [date ? `Semaine tirée le ${date}.` : '', motif ? [' Motif de cette semaine (lu dans le jeu) : ', h('strong', {}, motif.nom), '.'] : '']) : null,
+      h('p', { class: 'aide' }, "Ce sont les prix de la semaine où la sauvegarde a été faite. Si elle date d'une autre semaine, ils ne valent pas pour ta semaine actuelle. Nook Dex ne modifie pas ta sauvegarde."),
+      h('div', { class: 'actions' },
+        h('button', { class: 'bouton', onclick: () => fermer() }, 'Annuler'),
+        h('button', { class: 'bouton', onclick: () => remplir(passes) }, passes ? `Remplir jusqu'à maintenant (${passes} cours)` : "Seulement le prix d'achat"),
+        h('button', { class: 'bouton principal', onclick: () => remplir(cfg.cours) }, 'Voir toute la semaine')),
+    ]);
+  }
 
   function dessinerResultats() {
     vider(resultats);

@@ -117,6 +117,36 @@ export function fleursVilleNL(octets) {
   return { largeur, hauteur, cases };
 }
 
+// ---------------------------------------------------------------------------
+// Navets : les prix de toute la semaine sont déjà dans la sauvegarde.
+// ---------------------------------------------------------------------------
+// À 0x6ADE0 (NLTK ; données de la ville + 0x179BC) : 12 valeurs chiffrées, du lundi matin au samedi après-midi, dans
+// l'ordre de la semaine (lundi matin, lundi après-midi, mardi matin…). Juste avant, le prix d'achat du dimanche, répété
+// trois fois. Vérifié sur trois vraies villes : leurs semaines suivent exactement les motifs de New Horizons
+// (gros pic, fluctuant, décroissant).
+// Valeur chiffrée (8 octets, d'après le gabarit garden_plus.bt) : u32 chiffré, u16 décalage, u8 rotation, u8 somme de contrôle.
+const NAVETS = 0x6ADE0;
+export function valeurChiffree(o, p) {
+  const enc = (o[p] | (o[p + 1] << 8) | (o[p + 2] << 16) | (o[p + 3] << 24)) >>> 0;
+  const ajust = u16(o, p + 4), rot = o[p + 6], somme = o[p + 7];
+  if ((((enc & 0xFF) + ((enc >>> 8) & 0xFF) + ((enc >>> 16) & 0xFF) + (enc >>> 24) + 0xBA) & 0xFF) !== somme) return null;
+  const gauche = (0x1C - rot) & 0xFF;
+  if (gauche >= 0x20) return null;
+  const droite = 0x20 - gauche;
+  const v = (((enc << gauche) >>> 0) + (droite >= 0x20 ? 0 : enc >>> droite) - (ajust + 0x8F187432)) >>> 0;
+  return v | 0;
+}
+
+// { achat, cours: [12 prix ou null] } (null si la valeur est illisible).
+export function navetsNL(octets) {
+  const o = octets instanceof Uint8Array ? octets : new Uint8Array(octets);
+  if (o.length !== TAILLE_WA) throw new Error("Ce fichier n'est pas une sauvegarde de New Leaf - Welcome amiibo (« garden_plus.dat »).");
+  const prix = v => (v != null && v > 0 && v < 10000 ? v : null);
+  const achat = prix(valeurChiffree(o, NAVETS - 8));
+  const cours = Array.from({ length: 12 }, (_, i) => prix(valeurChiffree(o, NAVETS + i * 8)));
+  return { achat, cours };
+}
+
 // Ce que l'import cocherait (seulement des ajouts) : [{ categorie, id, obtenu: true, musee?: true }].
 export function cochesImportNL(save, correspondance, numeroJoueur) {
   const res = new Map();

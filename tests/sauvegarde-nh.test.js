@@ -56,6 +56,10 @@ async function sauvegarde(lib, { revision = 31 } = {}) {
   for (let i = 0; i < 1024; i++) ecrire16(main, MUSEE + i * 8, 0xFFFE);
   ecrire16(main, MUSEE, parFiche('poissons', 'coelacanth'));
   ecrire16(main, MUSEE + 8, parFiche('fossiles', 'amber'));
+  // Navets : achat 98, dimanche à 0, puis 12 cours, motif 1 (gros pic).
+  const NAVETS = 0x110 + 0x48D920 + 0x2D40;
+  [98, 0, 0, 85, 81, 77, 73, 110, 140, 520, 180, 120, 80, 60, 50].forEach((v, i) => ecrire32(main, NAVETS + i * 4, v));
+  ecrire32(main, NAVETS + 0x3C, 1);
   signer(lib, main, [[0x1E34B0, 0x3D089C]]);
   const personal = new Uint8Array(lib.TAILLES.personal);
   const nom = 'Blanche';
@@ -116,4 +120,10 @@ test('correspondance : chaque fiche du musée et chaque recette a son numéro, s
   }
   assert.strictEqual(corr.recettes.length, require(path.join(RACINE, 'data', 'nh', 'recettes.json')).length);
   assert.ok(corr.recettes.every(([n]) => n >= 0 && n < 0x800));
+});
+
+test('navetsNH : prix d\'achat, 12 cours et motif lus dans main.dat', async () => {
+  const lib = await charger();
+  const n = await lib.navetsNH(await sauvegarde(lib));
+  assert.deepStrictEqual(n, { achat: 98, cours: [85, 81, 77, 73, 110, 140, 520, 180, 120, 80, 60, 50], motif: 1 });
 });
