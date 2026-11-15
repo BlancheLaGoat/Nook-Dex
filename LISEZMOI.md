@@ -33,6 +33,7 @@ src/renderer/          l'interface
   lib/dispo.js         « disponible maintenant », mois, heures, part bientôt
   lib/filtres.js       recherche, filtres, tri, progression
   lib/sauvegarde-gc.js lecture des sauvegardes du GameCube (.gci, carte .raw) — jamais d'écriture
+  lib/sauvegarde-ww.js lecture des sauvegardes de Wild World (.sav, .dsv) — jamais d'écriture
 data/jeux.json         liste des jeux, catégories, extensions
 data/<jeu>/<cat>.json  les éléments d'une catégorie d'un jeu
 scripts/               scripts qui fabriquent data/ à partir des sources
@@ -111,6 +112,11 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
   `data/gc/sauvegarde.json` (numéros de la sauvegarde -> fiches du dex). Lecture vérifiée sur les villes
   neuves de [ac-exploit-gc](https://github.com/FIX94/ac-exploit-gc) (versions US, EU, AUS ; non incluses
   dans le dépôt). La version japonaise n'est pas prise en charge.
+
+- Import des sauvegardes de Wild World : organisation de la sauvegarde d'après [ACSE](https://github.com/Cuyler36/ACSE)
+  (Cuyler36, licence MIT) et la documentation de [Leaflet](https://github.com/oddnebula/leaflet-wild-world)
+  (oddnebula, licence MIT) ; liste des objets : `WW_Items_en.txt` d'ACSE, téléchargée dans `sources/ww/` par
+  `npm run donnees:sauvegarde-ww`, qui fabrique `data/ww/sauvegarde.json`. Code écrit pour Nook Dex.
 
 ## Publier une nouvelle version
 

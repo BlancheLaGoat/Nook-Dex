@@ -32,13 +32,19 @@ Un nouvel outil dans le menu : tu saisis le prix d'achat du dimanche et les cour
 - New Leaf, City Folk et Wild World : l'écran est prêt, mais il arrive **bientôt**.
 - D'après l'algorithme du jeu publié par Ninji.
 
-### 💾 Importer ta sauvegarde (GameCube)
+### 💾 Importer ta sauvegarde (GameCube et Wild World)
 Sur le tableau de bord d'un profil GameCube, le bouton **« Importer ma sauvegarde du jeu… »** lit ta partie et coche le dex pour toi :
 - le **musée** (poissons, insectes, fossiles, tableaux), commun à toute la ville ;
 - le **catalogue** du joueur de ton choix : meubles, gyroïdes, papiers peints, sols, papeterie et morceaux de K.K. ;
 - accepte le fichier `.gci` (exporté depuis Dolphin ou la carte mémoire) ou la carte mémoire complète `.raw` de Dolphin ;
 - avant d'importer, Nook Dex montre **ce qui va être ajouté** ; il n'enlève jamais une coche et ne modifie jamais ta sauvegarde ;
 - versions européenne, américaine et australienne (la version japonaise n'est pas prise en charge). La partie musée est encore **à vérifier** sur une ville avancée.
+
+**Wild World** aussi, avec le même bouton :
+- le **musée** complet (fossiles, poissons, insectes, tableaux) ;
+- l'**encyclopédie** du joueur choisi : chaque poisson et insecte qu'il a **attrapé** est coché, même s'il n'est pas au musée ;
+- son **catalogue** : meubles, vêtements, gyroïdes, papiers peints, sols, papeterie, morceaux de K.K., photos…
+- accepte le `.sav` du jeu ou le `.dsv` de DeSmuME / RetroArch. Versions occidentales seulement (pas la japonaise ni la coréenne).
 
 ### 🏝️ L'île de Tortimer (New Leaf)
 - Les poissons et les créatures marines de l'île ont maintenant **leur taux d'apparition**, le même toute l'année.

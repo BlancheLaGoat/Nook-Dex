@@ -12,7 +12,7 @@ contextBridge.exposeInMainWorld('nook', {
   arrosoir: () => ipcRenderer.invoke('donnees:arrosoir'),
   exporterJson: (titre, nom, donnees) => ipcRenderer.invoke('fichier:exporterJson', titre, nom, donnees),
   importerJson: titre => ipcRenderer.invoke('fichier:importerJson', titre),
-  lireSauvegarde: titre => ipcRenderer.invoke('fichier:lireSauvegarde', titre),
+  lireSauvegarde: (titre, jeu) => ipcRenderer.invoke('fichier:lireSauvegarde', titre, jeu),
 
   listerProfils: () => ipcRenderer.invoke('profils:liste'),
   lireProfil: id => ipcRenderer.invoke('profils:lire', id),

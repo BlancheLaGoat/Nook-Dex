@@ -201,14 +201,20 @@ function brancherIpc() {
   });
 
   // Ouvrir une sauvegarde de jeu (lecture seule) : renvoie ses octets, l'interface fait le décodage.
-  ipcMain.handle('fichier:lireSauvegarde', async (_e, titre) => {
+  const FILTRES_SAUVEGARDE = {
+    gc: { name: 'Sauvegarde GameCube', extensions: ['gci', 'raw'] },
+    ww: { name: 'Sauvegarde Nintendo DS', extensions: ['sav', 'dsv'] },
+  };
+  ipcMain.handle('fichier:lireSauvegarde', async (_e, titre, jeu) => {
+    const filtre = FILTRES_SAUVEGARDE[jeu];
+    if (!filtre) throw new Error("l'import de sauvegarde n'existe pas pour ce jeu");
     const { canceled, filePaths } = await dialog.showOpenDialog(fenetre, {
       title: String(titre || 'Ouvrir une sauvegarde'), properties: ['openFile'],
-      filters: [{ name: 'Sauvegarde GameCube', extensions: ['gci', 'raw'] }, { name: 'Tous les fichiers', extensions: ['*'] }],
+      filters: [filtre, { name: 'Tous les fichiers', extensions: ['*'] }],
     });
     if (canceled || !filePaths.length) return null;
     const taille = fs.statSync(filePaths[0]).size;
-    if (taille > 17 * 1024 * 1024) throw new Error('fichier trop gros pour une sauvegarde de GameCube');
+    if (taille > 17 * 1024 * 1024) throw new Error('fichier trop gros pour une sauvegarde');
     return { nom: path.basename(filePaths[0]), octets: new Uint8Array(fs.readFileSync(filePaths[0])) };
   });
 
