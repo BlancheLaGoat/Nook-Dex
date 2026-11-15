@@ -22,13 +22,14 @@ Un nouvel outil dans le menu, d'après la génétique des fleurs extraite du jeu
 - **Glossaire** : pour chaque espèce, toutes les couleurs, leurs gènes et où les trouver (graines, îles, croisement).
 - Wild World, City Folk et New Leaf : les **règles de croisement connues** (sans gènes), toutes marquées « à vérifier », en attendant les règles extraites des jeux.
 
-### 🥬 Navets : le prédicteur de prix (New Horizons)
+### 🥬 Navets : le prédicteur de prix (New Horizons et GameCube)
 Un nouvel outil dans le menu : tu saisis le prix d'achat du dimanche et les cours que tu vois, et Nook Dex donne :
 - les **motifs possibles** (fluctuant, gros pic, petit pic, décroissant) avec leur probabilité ;
 - la **fourchette de prix** de chaque demi-journée restante, et le prix le plus haut encore possible ;
 - la prise en compte du motif de la semaine dernière et du **premier achat** sur ton île.
 - La semaine est gardée dans ton profil ; le bouton « Nouvelle semaine » repart de zéro.
-- New Leaf : l'écran est prêt, mais il arrive **bientôt**.
+- **GameCube** aussi : prédicteur tiré du code du jeu (un prix par jour ; motifs « pic » à 8 fois le prix d'achat, « aléatoire » et « baisse »).
+- New Leaf, City Folk et Wild World : l'écran est prêt, mais il arrive **bientôt**.
 - D'après l'algorithme du jeu publié par Ninji.
 
 ### 🏝️ L'île de Tortimer (New Leaf)

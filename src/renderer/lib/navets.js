@@ -208,14 +208,15 @@ export function predire({ achat = null, cours = [], precedent = null, premierAch
 }
 
 // Semaine de navets enregistrée dans le profil, ramenée à une forme sûre.
-export function normaliserNavets(n) {
+// Options (par défaut, New Horizons) : nombre de cours, bornes du prix d'achat, nombre de motifs.
+export function normaliserNavets(n, { cours: nb = 12, min = BASE_MIN, max = BASE_MAX, motifs = 4 } = {}) {
   const x = n && typeof n === 'object' ? n : {};
-  const prix = v => (v !== '' && v !== null && v !== undefined && Number.isFinite(Number(v)) && Number(v) > 0 && Number(v) < 1000 ? Math.round(Number(v)) : null);
+  const prix = v => (v !== '' && v !== null && v !== undefined && Number.isFinite(Number(v)) && Number(v) > 0 && Number(v) < 10000 ? Math.round(Number(v)) : null);
   const achat = prix(x.achat);
   return {
-    achat: achat != null && achat >= BASE_MIN && achat <= BASE_MAX ? achat : null,
-    cours: Array.from({ length: 12 }, (_, i) => prix(Array.isArray(x.cours) ? x.cours[i] : null)),
-    precedent: [0, 1, 2, 3].includes(x.precedent) ? x.precedent : null,
+    achat: achat != null && achat >= min && achat <= max ? achat : null,
+    cours: Array.from({ length: nb }, (_, i) => prix(Array.isArray(x.cours) ? x.cours[i] : null)),
+    precedent: Number.isInteger(x.precedent) && x.precedent >= 0 && x.precedent < motifs ? x.precedent : null,
     premierAchat: x.premierAchat === true,
   };
 }

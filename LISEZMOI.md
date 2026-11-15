@@ -102,6 +102,9 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
   [TurnipPrices.cpp](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b).
   Le prédicteur de Nook Dex est réécrit à partir de cet algorithme (aucun code repris d'un autre prédicteur).
 
+- Navets du GameCube : code du jeu décompilé par le projet [ac-decomp](https://github.com/ACreTeam/ac-decomp)
+  (m_kabu_manager.c, licence CC0) ; calcul réécrit pour Nook Dex.
+
 ## Publier une nouvelle version
 
 1. Changer `"version"` dans `package.json` (par ex. `1.0.0` → `1.1.0`).
