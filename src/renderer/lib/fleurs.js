@@ -241,3 +241,59 @@ export function bilanChamp(champ, especes) {
   });
   return { couples, fleurs };
 }
+
+// ---------------------------------------------------------------------------
+// Identifier une fleur : quels gènes a-t-elle, et quel croisement test le dira ?
+// ---------------------------------------------------------------------------
+// Hypothèses : [{ g, p }] (génotypes possibles et leur probabilité), triées de la plus probable à la moins probable.
+//   parents : [g1, g2] si la fleur vient d'un croisement connu ; sinon tous les génotypes de sa couleur, à égalité.
+export function hypotheses(espece, couleur, { parents = null } = {}) {
+  let liste;
+  if (parents) {
+    liste = [...croiser(parents[0], parents[1])].filter(([g]) => espece.couleurs[g] === couleur).map(([g, p]) => ({ g, p }));
+  } else {
+    liste = Object.keys(espece.couleurs).filter(g => espece.couleurs[g] === couleur).map(g => ({ g, p: 1 }));
+  }
+  const total = liste.reduce((s, x) => s + x.p, 0);
+  return total > 0 ? liste.map(x => ({ g: x.g, p: x.p / total })).sort((a, b) => b.p - a.p) : [];
+}
+
+// Couleurs des enfants d'un croisement : Map(couleur -> p).
+function couleursEnfants(espece, g1, g2) {
+  const res = new Map();
+  for (const [g, p] of croiserMemo(g1, g2)) res.set(espece.couleurs[g], (res.get(espece.couleurs[g]) || 0) + p);
+  return res;
+}
+
+const entropie = ps => ps.reduce((s, p) => (p > 0 ? s - p * Math.log2(p) : s), 0);
+
+// Meilleurs croisements tests avec une fleur aux gènes connus (graines, et îles si demandé).
+// gain = ce qu'un enfant apprend en moyenne sur les gènes (en bits) : plus c'est haut, mieux le test départage.
+// Renvoie [{ testeur: { couleur, g, depart }, gain, table: [{ g, p, couleurs: Map }], decisives: [couleurs qui écartent au moins une hypothèse] }].
+export function meilleursTests(espece, hyps, { iles = true, nombre = 3 } = {}) {
+  if (hyps.length < 2) return [];
+  const testeurs = Object.entries(espece.graines).map(([couleur, g]) => ({ couleur, g, depart: 'graines' }));
+  if (iles) testeurs.push(...Object.entries(espece.iles).map(([couleur, g]) => ({ couleur, g, depart: 'iles' })));
+  const avant = entropie(hyps.map(h => h.p));
+  return testeurs.map(t => {
+    const table = hyps.map(h => ({ g: h.g, p: h.p, couleurs: couleursEnfants(espece, h.g, t.g) }));
+    const couleurs = new Set(table.flatMap(r => [...r.couleurs.keys()]));
+    let apres = 0;
+    for (const c of couleurs) {
+      const pc = table.reduce((s, r) => s + r.p * (r.couleurs.get(c) || 0), 0);
+      if (pc > 0) apres += pc * entropie(table.map(r => (r.p * (r.couleurs.get(c) || 0)) / pc));
+    }
+    const decisives = [...couleurs].filter(c => table.some(r => !r.couleurs.get(c)));
+    return { testeur: t, gain: avant - apres, table, decisives };
+  }).filter(x => x.gain > 1e-9).sort((a, b) => b.gain - a.gain).slice(0, nombre);
+}
+
+// Mise à jour après un croisement test : couleurs des enfants obtenus avec ce testeur.
+export function miseAJour(espece, hyps, testeurG, couleursObtenues) {
+  const liste = hyps.map(h => {
+    const d = couleursEnfants(espece, h.g, testeurG);
+    return { g: h.g, p: couleursObtenues.reduce((p, c) => p * (d.get(c) || 0), h.p) };
+  }).filter(h => h.p > 0);
+  const total = liste.reduce((s, x) => s + x.p, 0);
+  return liste.map(x => ({ g: x.g, p: x.p / total })).sort((a, b) => b.p - a.p);
+}

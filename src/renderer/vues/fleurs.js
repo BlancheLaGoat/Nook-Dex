@@ -2,11 +2,12 @@
 // Les calculs sont dans lib/fleurs.js ; les données dans data/nh/fleurs-genetique.json (recherches d'Aeter).
 import { h, vider, image, ajouterA, confirmer } from '../lib/dom.js';
 import { etat, donneesCategorie, planifierSauvegarde } from '../lib/etat.js';
-import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece, rechercherChemins, etapesChemin, champVide, normaliserChamp, bilanChamp, CHAMP_MAX } from '../lib/fleurs.js';
+import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece, rechercherChemins, etapesChemin, champVide, normaliserChamp, bilanChamp, CHAMP_MAX, hypotheses, meilleursTests, miseAJour } from '../lib/fleurs.js';
 
-const ONGLETS = [['croisement', '🧪 Croisement'], ['obtenir', '🔎 Comment obtenir…'], ['champ', '🌱 Champ'], ['glossaire', '📖 Glossaire']];
+const ONGLETS = [['croisement', '🧪 Croisement'], ['obtenir', '🔎 Comment obtenir…'], ['champ', '🌱 Champ'], ['identifier', '🧬 Identifier'], ['glossaire', '📖 Glossaire']];
 // Choix gardés le temps de la session.
-const choix = { onglet: 'croisement', espece: 'roses', a: null, b: null, glossaire: 'roses', obtenir: { espece: 'roses', couleur: 'bleu', iles: false }, champ: { outil: 'fleur', espece: 'roses', g: null } };
+const choix = { onglet: 'croisement', espece: 'roses', a: null, b: null, glossaire: 'roses', obtenir: { espece: 'roses', couleur: 'bleu', iles: false }, champ: { outil: 'fleur', espece: 'roses', g: null },
+  identifier: { espece: 'roses', couleur: 'rouge', origine: 'inconnue', parents: null, iles: true, test: null } };
 
 const pc = p => `${(p * 100).toLocaleString('fr-FR', { maximumFractionDigits: p < 0.1 ? 2 : 1 })} %`;
 const TEXTE_ORIGINE = { graines: 'graines', iles: 'îles' };
@@ -32,6 +33,7 @@ export async function afficherFleurs(conteneur, jeu) {
     if (choix.onglet === 'croisement') dessinerCroisement();
     else if (choix.onglet === 'obtenir') dessinerObtenir();
     else if (choix.onglet === 'champ') dessinerChamp();
+    else if (choix.onglet === 'identifier') dessinerIdentifier();
     else dessinerGlossaire();
     corps.append(h('p', { class: 'aide credits' },
       "Génétique des fleurs d'après les recherches d'Aeter (données extraites du jeu). ",
@@ -173,6 +175,58 @@ export async function afficherFleurs(conteneur, jeu) {
         sansPlace.length ? h('p', { class: 'note' }, `⚠️ Sans case libre autour, pas d'enfant : ${sansPlace.join(', ')}.`) : null,
         clones.length ? h('p', { class: 'aide' }, `Sans voisine de leur espèce (elles ne peuvent que se cloner) : ${clones.join(', ')}.`) : null)),
       h('p', { class: 'aide' }, "Clique sur une case pour planter, bloquer ou effacer. Une fleur peut se croiser avec une voisine de son espèce sur les 8 cases autour ; l'enfant a besoin d'une case libre à côté. Le champ est enregistré dans ton profil."));
+  }
+
+  // ---- Identifier ----
+  function dessinerIdentifier() {
+    const o = choix.identifier;
+    const esp = espece(o.espece);
+    const couleurs = couleursEspece(esp).map(c => c.couleur);
+    if (!couleurs.includes(o.couleur)) o.couleur = couleurs[0];
+    if (!o.parents || !esp.couleurs[o.parents[0]] || !esp.couleurs[o.parents[1]]) o.parents = [Object.values(esp.graines)[2], Object.values(esp.graines)[2]];
+    const choixGenes = k => h('select', { onchange: e => { o.parents[k] = e.target.value; o.test = null; dessiner(); } },
+      couleursEspece(esp).flatMap(c => c.genotypes.map(g => { const x = origine(esp, g); return h('option', { value: g, selected: g === o.parents[k] }, `${majuscule(c.couleur)} · ${g}${x ? ` · ${TEXTE_ORIGINE[x]}` : ''}`); })));
+    ajouterA(corps,
+      h('div', { class: 'filtres statique' },
+        h('select', { onchange: e => { o.espece = e.target.value; o.parents = null; o.test = null; dessiner(); } }, especes.map(e => h('option', { value: e.id, selected: e.id === esp.id }, e.nom))),
+        h('select', { onchange: e => { o.couleur = e.target.value; o.test = null; dessiner(); } }, couleurs.map(c => h('option', { value: c, selected: c === o.couleur }, `Ma fleur : ${c}`))),
+        h('select', { onchange: e => { o.origine = e.target.value; o.test = null; dessiner(); } },
+          [['inconnue', 'Origine inconnue'], ['croisement', "Née d'un croisement connu"]].map(([v, t]) => h('option', { value: v, selected: o.origine === v }, t))),
+        o.origine === 'croisement' ? [h('span', {}, 'Parents :'), choixGenes(0), h('span', {}, '×'), choixGenes(1)] : null,
+        h('label', { class: 'ligne' }, h('input', { type: 'checkbox', checked: o.iles, onchange: e => { o.iles = e.target.checked; dessiner(); } }), ' Témoins des îles aussi')));
+
+    let hyps = hypotheses(esp, o.couleur, { parents: o.origine === 'croisement' ? o.parents : null });
+    if (!hyps.length) { corps.append(h('p', { class: 'note' }, "Ce croisement ne peut pas donner cette couleur : vérifie les parents.")); return; }
+    if (o.test && o.test.obtenus.length) hyps = miseAJour(esp, hyps, o.test.g, o.test.obtenus);
+    const listeHyps = hs => h('ul', { class: 'liste-conditions' }, hs.map(x => h('li', {}, h('span', { class: 'genotype connu' }, x.g), ` ${enLettres(x.g)} — ${pc(x.p)}`, origine(esp, x.g) ? h('span', { class: 'aide' }, ` (comme les ${TEXTE_ORIGINE[origine(esp, x.g)]})`) : null)));
+    ajouterA(corps, h('div', { class: 'section' },
+      h('h2', {}, hyps.length === 1 ? '✅ Gènes trouvés' : `Gènes possibles (${hyps.length})`), listeHyps(hyps)));
+    if (!hyps.length) return;
+
+    // Croisement test en cours : couleurs des enfants obtenus.
+    if (o.test) {
+      const t = o.test;
+      ajouterA(corps, h('div', { class: 'carte' },
+        h('h3', {}, `Test en cours : × ${t.couleur} (${TEXTE_ORIGINE[t.depart]}, ${t.g})`),
+        h('p', {}, 'Enfants obtenus : ', t.obtenus.length ? t.obtenus.map(c => majuscule(c)).join(', ') : 'aucun pour l\'instant'),
+        h('div', { class: 'fleur-ligne' }, 'Ajouter un enfant :', couleurs.map(c => h('button', { class: 'bouton petit', onclick: () => { t.obtenus.push(c); dessiner(); } }, vignette(esp, c), majuscule(c)))),
+        h('button', { class: 'bouton petit', onclick: () => { o.test = null; dessiner(); } }, 'Arrêter ce test')));
+      if (hyps.length === 0) corps.append(h('p', { class: 'note' }, 'Aucune hypothèse ne colle : vérifie les couleurs saisies.'));
+      if (hyps.length <= 1) return;
+    }
+    const tests = meilleursTests(esp, hyps, { iles: o.iles });
+    if (!tests.length) return;
+    ajouterA(corps, h('div', { class: 'section' }, h('h2', {}, o.test ? 'Pour aller plus loin' : 'Meilleurs croisements tests'),
+      tests.map(t => {
+        const cols = [...new Set(t.table.flatMap(r => [...r.couleurs.keys()]))];
+        return h('div', { class: 'carte chemin' },
+          h('h3', {}, vignette(esp, t.testeur.couleur), `Croise-la avec une ${esp.nom.toLowerCase().replace(/s$/, '')} ${t.testeur.couleur} (${TEXTE_ORIGINE[t.testeur.depart]}, ${t.testeur.g})`,
+            h('button', { class: 'bouton petit', style: { marginLeft: 'auto' }, onclick: () => { o.test = { ...t.testeur, obtenus: [] }; dessiner(); } }, 'Faire ce test')),
+          h('p', { class: 'aide' }, t.decisives.length ? `Couleurs qui tranchent : ${t.decisives.join(', ')}.` : 'Aucune couleur ne tranche à coup sûr : il faudra plusieurs enfants.'),
+          h('div', { class: 'navets-cadre' }, h('table', { class: 'navets-fourchettes' },
+            h('thead', {}, h('tr', {}, h('th', {}, 'Si ses gènes sont…'), cols.map(c => h('th', { class: t.decisives.includes(c) ? 'meilleur' : '' }, c)))),
+            h('tbody', {}, t.table.map(r => h('tr', {}, h('th', {}, `${r.g} (${pc(r.p)})`), cols.map(c => h('td', {}, r.couleurs.get(c) ? pc(r.couleurs.get(c)) : '—'))))))));
+      })));
   }
 
   // ---- Glossaire ----

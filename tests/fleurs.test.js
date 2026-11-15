@@ -140,3 +140,33 @@ test('champ : voisines, couples, cases libres, clones', async () => {
   assert.deepEqual(n.cases.slice(0, 3), [null, null, { bloque: true }]);
   assert.equal(normaliserChamp(null, donnees.especes).cases.length, 48);
 });
+
+test('identifier : hypothèses, meilleur test, mise à jour', async () => {
+  const { hypotheses, meilleursTests, miseAJour, croiser } = await charger();
+  const r = espece('roses');
+  // Rose rouge d'origine inconnue : tous les génotypes rouges, à égalité.
+  const rouges = Object.keys(r.couleurs).filter(g => r.couleurs[g] === 'rouge');
+  const h0 = hypotheses(r, 'rouge');
+  assert.equal(h0.length, rouges.length);
+  assert.ok(Math.abs(h0.reduce((s, x) => s + x.p, 0) - 1) < 1e-12);
+  // Rose noire née de rouge × rouge (graines) : un seul génotype possible.
+  assert.deepEqual(hypotheses(r, 'noir', { parents: [r.graines.rouge, r.graines.rouge] }), [{ g: '2000', p: 1 }]);
+  // Rose orange née de blanc(0110) × orange(1100) : 3 génotypes, aux chances du croisement.
+  const ho = hypotheses(r, 'orange', { parents: ['0110', '1100'] });
+  const attendu = [...croiser('0110', '1100')].filter(([g]) => r.couleurs[g] === 'orange');
+  assert.equal(ho.length, attendu.length);
+  // Meilleurs tests : triés par gain, chaque table couvre toutes les hypothèses.
+  const tests = meilleursTests(r, h0);
+  assert.ok(tests.length >= 1);
+  for (let i = 1; i < tests.length; i++) assert.ok(tests[i - 1].gain >= tests[i].gain);
+  assert.equal(tests[0].table.length, h0.length);
+  // Une seule hypothèse : rien à tester.
+  assert.deepEqual(meilleursTests(r, [{ g: '2001', p: 1 }]), []);
+  // Mise à jour : une couleur impossible pour une hypothèse l'écarte ; les chances refont 100 %.
+  const t = tests[0];
+  const c = t.decisives[0];
+  const apres = miseAJour(r, h0, t.testeur.g, [c]);
+  assert.ok(apres.length < h0.length);
+  assert.ok(apres.every(x => t.table.find(row => row.g === x.g).couleurs.get(c) > 0));
+  assert.ok(Math.abs(apres.reduce((s, x) => s + x.p, 0) - 1) < 1e-12);
+});
