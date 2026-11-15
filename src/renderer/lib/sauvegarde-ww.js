@@ -61,7 +61,8 @@ export function extraireSauvegarde(octets) {
   return { donnees: o, format: 'sav' };
 }
 
-export function lireSauvegardeWW(octets) {
+// Copie valide de la ville (la principale si elle est bonne, sinon celle de secours).
+function villeValide(octets) {
   const { donnees, format } = extraireSauvegarde(octets);
   if (donnees.length < 2 * TAILLE_VILLE) {
     throw new Error("Ce fichier n'est pas une sauvegarde d'Animal Crossing: Wild World : choisis le .sav (ou le .dsv de DeSmuME / RetroArch) du jeu.");
@@ -69,7 +70,54 @@ export function lireSauvegardeWW(octets) {
   const valides = COPIES.filter(c => somme16(donnees, c, TAILLE_VILLE) === 0);
   if (!valides.length) throw new Error("La sauvegarde est abîmée, ou ce n'est pas une sauvegarde de Wild World (somme de contrôle fausse sur les deux copies) : rien ne peut être importé.");
   const base = valides[0];
-  const s = donnees.subarray(base, base + TAILLE_VILLE);
+  return { s: donnees.subarray(base, base + TAILLE_VILLE), format, base };
+}
+
+// ---------------------------------------------------------------------------
+// Fleurs de la ville.
+// ---------------------------------------------------------------------------
+// Objets de la carte à 0xC354 (ACSE) : 4 × 4 acres de 16 × 16 cases, rangés acre par acre (acre 0 = en haut à gauche,
+// puis vers la droite ; vérifié sur une vraie ville : les maisons y forment des rectangles). Chaque objet fait 2 octets :
+// son identifiant, rien d'autre. Il n'y a donc pas de gènes : un enfant ne dépend que de la couleur de ses parents.
+// Case vide : 0xFFF1. Fleurs : 0x00 à 0x19 (puis échelle de Jacob et rafflesia), assoiffées à + 0x6E, arrosées à + 0x8A ;
+// rose dorée : 0x1C.
+export const ACRES_WW = 4;
+const OBJETS_VILLE = 0xC354;
+const VIDE = 0xFFF1;
+const FLEURS = [
+  ['Tulipes', ['rouge', 'blanc', 'jaune', 'rose', 'violet', 'noir']],
+  ['Pensées', ['blanc', 'jaune', 'rouge', 'violet', 'orange', 'bleu']],
+  ['Cosmos', ['blanc', 'rouge', 'jaune', 'rose', 'orange', 'noir']],
+  ['Roses', ['rouge', 'blanc', 'jaune', 'rose', 'orange', 'violet', 'noir', 'bleu']],
+].flatMap(([espece, couleurs]) => couleurs.map(couleur => ({ espece, couleur })));
+
+function fleurWW(id) {
+  if (id === 0x1C) return { espece: 'Roses', couleur: 'or', etat: 'normale' };
+  for (const [decalage, etat] of [[0, 'normale'], [0x6E, 'assoiffee'], [0x8A, 'arrosee']]) {
+    const f = FLEURS[id - decalage];
+    if (id >= decalage && f) return { ...f, etat };
+  }
+  return null;
+}
+
+// Objets de la ville : { largeur: 64, hauteur: 64, cases: [null | { objet: id } | { espece, couleur, etat }] }
+// (espece et couleur comme dans data/ww/fleurs-regles.json ; cases rangées ligne par ligne sur toute la carte).
+export function fleursVilleWW(octets) {
+  const { s } = villeValide(octets);
+  const largeur = ACRES_WW * 16, hauteur = ACRES_WW * 16;
+  const cases = Array.from({ length: largeur * hauteur }, () => null);
+  for (let i = 0; i < largeur * hauteur; i++) {
+    const id = u16(s, OBJETS_VILLE + i * 2);
+    if (id === VIDE) continue;
+    const acre = i >> 8, dans = i & 0xFF;
+    const x = (acre % ACRES_WW) * 16 + (dans & 15), y = Math.floor(acre / ACRES_WW) * 16 + (dans >> 4);
+    cases[y * largeur + x] = fleurWW(id) || { objet: id };
+  }
+  return { largeur, hauteur, cases };
+}
+
+export function lireSauvegardeWW(octets) {
+  const { s, format, base } = villeValide(octets);
   const bit = (debut, n) => (s[debut + (n >> 3)] >> (n & 7)) & 1;
   const joueurs = [0, 1, 2, 3].map(n => {
     const p = DEBUT_JOUEURS + n * TAILLE_JOUEUR;

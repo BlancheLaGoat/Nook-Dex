@@ -133,3 +133,27 @@ test('bitCatalogue : meubles, papiers peints, sols, morceaux de K.K. et papeteri
   assert.strictEqual(bitCatalogue(0x1005), null);
   assert.strictEqual(bitCatalogue(0x12B0), null);
 });
+
+test('fleursVilleWW : fleurs de la carte (acre par acre), assoiffées, arrosées, rose dorée', async () => {
+  const { fleursVilleWW } = await charger();
+  // Objet (acre 0 à 15, 4 par ligne ; case x, y dans l'acre).
+  const poser = (s, acre, x, y, id) => { const p = 0xC354 + (acre * 256 + y * 16 + x) * 2; s[p] = id & 0xFF; s[p + 1] = id >> 8; };
+  const v = fleursVilleWW(sav(ville(s => {
+    for (let i = 0; i < 4096; i++) poser(s, i >> 8, i & 15, (i >> 4) & 15, 0xFFF1); // carte vide
+    s.set(lettres('Blanche'), P1 + 0x2282); s[P1 + 0x2280] = 0x77;
+    poser(s, 0, 0, 0, 0x12);            // A1 : rose rouge
+    poser(s, 0, 1, 0, 0x19 + 0x6E);     // A1 : rose bleue assoiffée
+    poser(s, 5, 2, 3, 0x0B + 0x8A);     // B2 : pensée bleue arrosée
+    poser(s, 15, 15, 15, 0x1C);         // D4 : rose dorée
+    poser(s, 5, 3, 3, 0x1A);            // B2 : échelle de Jacob (pas une fleur à croiser)
+  })));
+  const a = (x, y) => v.cases[y * 64 + x];
+  assert.deepStrictEqual([v.largeur, v.hauteur], [64, 64]);
+  assert.deepStrictEqual(a(0, 0), { espece: 'Roses', couleur: 'rouge', etat: 'normale' });
+  assert.deepStrictEqual(a(1, 0), { espece: 'Roses', couleur: 'bleu', etat: 'assoiffee' });
+  assert.deepStrictEqual(a(16 + 2, 16 + 3), { espece: 'Pensées', couleur: 'bleu', etat: 'arrosee' });
+  assert.deepStrictEqual(a(63, 63), { espece: 'Roses', couleur: 'or', etat: 'normale' });
+  assert.deepStrictEqual(a(16 + 3, 16 + 3), { objet: 0x1A });
+  assert.strictEqual(a(5, 5), null);
+  assert.strictEqual(v.cases.filter(c => c && c.espece).length, 4);
+});

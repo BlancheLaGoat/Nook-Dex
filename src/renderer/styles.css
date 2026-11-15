@@ -545,3 +545,14 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
 .jeton-fleur.grand { width: 34px; height: 34px; font-size: 15px; margin: 0; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
 .pastille-couleur { display: inline-block; width: 12px; height: 12px; border-radius: 50%; border: 1px solid rgba(0, 0, 0, 0.3); margin-right: 4px; vertical-align: -1px; }
 .champ-bilan { flex: 1; min-width: 280px; }
+/* Code génétique de la fleur plantée, en bas de sa case. */
+.champ-fleur { position: relative; display: grid; place-items: center; width: 100%; height: 100%; }
+.champ-code { position: absolute; bottom: 0; left: 0; right: 0; font-size: 9px; font-weight: 700; line-height: 1.2; background: rgba(255, 255, 255, 0.85); border-radius: 0 0 5px 5px; color: #333; }
+/* Choix d'une acre de la ville New Leaf (5 × 4). */
+.acres-grille { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 6px; }
+.acres-grille .bouton.vide { opacity: 0.55; }
+.genotype.hybride { font-weight: 700; outline: 1px dashed var(--bord); }
+/* Choix de l'enfant qui a poussé sur une case du champ. */
+.choix-enfants { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.choix-enfant { display: inline-flex; align-items: center; gap: 6px; }
+.choix-enfant .vignette { width: 28px; height: 28px; }
