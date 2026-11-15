@@ -259,13 +259,27 @@ export function previsionsChamp(champ, especes) {
 }
 
 // Même calcul pour les anciens jeux (Wild World, City Folk, New Leaf), sans gènes : une case vaut { espece, couleur }
-// et les enfants viennent des règles connues. Leurs chances ne sont pas connues : chaque enfant possible
+// et les enfants viennent des règles connues. Une règle tirée du jeu a ses chances ; sinon chaque enfant possible
 // d'une règle reçoit la même part. Un couple sans règle connue ne compte pas (on ne sait pas ce qu'il donne).
-//   regles : [{ espece, parents: [c1, c2], enfants: [couleurs] }] (espece = id de l'espèce dans le champ)
+//   regles : [{ espece, parents: [c1, c2], enfants: [couleurs], chances?: [sur 100] }] (espece = nom de l'espèce)
+const regleDe = (regles, espece, c1, c2) =>
+  regles.find(x => x.espece === espece && ((x.parents[0] === c1 && x.parents[1] === c2) || (x.parents[0] === c2 && x.parents[1] === c1)));
 export function enfantsSelonRegles(regles, espece, c1, c2) {
-  const r = regles.find(x => x.espece === espece && ((x.parents[0] === c1 && x.parents[1] === c2) || (x.parents[0] === c2 && x.parents[1] === c1)));
+  const r = regleDe(regles, espece, c1, c2);
   return r ? r.enfants : null;
 }
+
+// Enfants avec leur chance : [{ couleur, p }] (p de 0 à 1), ou null sans règle. Une règle tirée du jeu a ses
+// chances (« chances », sur 100, dans l'ordre des enfants) ; sinon chaque enfant reçoit la même part.
+export function chancesSelonRegles(regles, espece, c1, c2) {
+  const r = regleDe(regles, espece, c1, c2);
+  if (!r) return null;
+  const total = Array.isArray(r.chances) ? r.chances.reduce((s, x) => s + x, 0) : 0;
+  return r.enfants.map((couleur, i) => ({ couleur, p: total > 0 ? r.chances[i] / total : 1 / r.enfants.length }));
+}
+
+// Les règles d'un jeu ont-elles toutes leurs chances (tirées du jeu) ? L'arrosoir en or n'est pas un croisement.
+export const reglesAvecChances = regles => regles.filter(r => !r.parents.some(p => /arrosoir/i.test(p))).every(r => Array.isArray(r.chances));
 
 // Couleurs qu'on peut planter pour une espèce des anciens jeux : celles de la page, plus celles des règles
 // (ex. « rouge « spécial » » de New Leaf), sauf ce qui n'est pas une fleur (« arrosoir en or »).
@@ -295,8 +309,8 @@ export function normaliserChampRegles(c, especes, regles) {
 export function previsionsChampRegles(champ, regles) {
   return previsionsGeneriques(champ, {
     enfants: (c, d) => {
-      const l = enfantsSelonRegles(regles, c.espece, c.couleur, d.couleur);
-      return l ? new Map(l.map(x => [x, 1 / l.length])) : null;
+      const l = chancesSelonRegles(regles, c.espece, c.couleur, d.couleur);
+      return l ? new Map(l.map(x => [x.couleur, x.p])) : null;
     },
     cle: c => c.couleur,
     couleur: (_e, couleur) => couleur,

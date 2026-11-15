@@ -3,6 +3,16 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.3.3
+
+### 🌷 Fleurs hybrides : lues dans le code des jeux
+- Les croisements de **Wild World** viennent maintenant de la **table du jeu** : les 99 couples possibles, avec la **chance de chaque enfant**. Par exemple, rose rouge × rouge : 80 % rouge, 20 % noire ; rose violette × noire : 40 % violette, 40 % noire, **20 % bleue**.
+- **Croisement** affiche les pourcentages ; dans le **Champ**, chaque case se colore à la mesure des chances, avec la fleur la plus probable ; le choix « Qu'est-ce qui a poussé ? » montre la chance de chaque couleur.
+- Les roses dorées ne se croisent pas dans Wild World (la règle « dorée × dorée » de Nookipedia ne vaut pas pour ce jeu).
+- **New Leaf : violettes et œillets ont leurs gènes**, lus dans le code du jeu. Ils rejoignent les autres fleurs à codes : Croisement, Comment obtenir… (la **violette bleue** : une blanche × une violette, une chance sur deux), Champ, Identifier, Glossaire, et « Mes fleurs » les reconnaît dans ta sauvegarde. Les œillets de départ arrivent par courrier (rose 11, rouge 21).
+- Le code de New Leaf confirme aussi que roses, tulipes, pensées, cosmos et lys ont exactement les tables de gènes de New Horizons.
+- City Folk garde les règles de Nookipedia, sans chances, pour l'instant.
+
 ## 1.3.2
 
 ### 🥬 Navets : Wild World et New Leaf, et les prix lus dans ta sauvegarde

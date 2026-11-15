@@ -1,0 +1,71 @@
+{
+ "_explication": [
+  "Gènes des fleurs propres à New Leaf (violettes et œillets), lus dans le code du jeu (code.bin, tables génotype → fleur à 0x808714 et 0x80875C, indexées en base 3).",
+  "Même notation que data/nh/fleurs-genetique.json : un chiffre par gène (0, 1 ou 2 copies). Les cinq autres espèces de New Leaf ont exactement les tables de New Horizons (vérifié dans le même code, à partir de 0x8085D0).",
+  "Fleurs de départ : violettes blanche, violette et jaune ; œillets rose et rouge reçus par courrier (codes de la feuille « ACNH/ACNL Flower Genes », conformes à ces tables)."
+ ],
+ "especes": [
+  {
+   "id": "violettes",
+   "nom": "Violettes",
+   "couleurs": {
+    "100": "jaune",
+    "101": "blanc",
+    "102": "blanc",
+    "110": "violet",
+    "111": "bleu",
+    "112": "bleu",
+    "120": "violet",
+    "121": "violet",
+    "122": "bleu",
+    "200": "jaune",
+    "201": "jaune",
+    "202": "blanc",
+    "210": "violet",
+    "211": "bleu",
+    "212": "bleu",
+    "220": "violet",
+    "221": "violet",
+    "222": "bleu",
+    "000": "blanc",
+    "001": "blanc",
+    "002": "blanc",
+    "010": "violet",
+    "011": "bleu",
+    "012": "blanc",
+    "020": "violet",
+    "021": "violet",
+    "022": "bleu"
+   },
+   "graines": {
+    "blanc": "001",
+    "violet": "020",
+    "jaune": "100"
+   },
+   "iles": {},
+   "fiches": {}
+  },
+  {
+   "id": "oeillets",
+   "nom": "Œillets",
+   "couleurs": {
+    "10": "rose",
+    "11": "rose",
+    "12": "rose",
+    "20": "rouge",
+    "21": "rouge",
+    "22": "rouge",
+    "00": "blanc",
+    "01": "blanc",
+    "02": "blanc"
+   },
+   "graines": {
+    "rose": "11",
+    "rouge": "21"
+   },
+   "iles": {},
+   "fiches": {},
+   "depart": "courrier"
+  }
+ ]
+}

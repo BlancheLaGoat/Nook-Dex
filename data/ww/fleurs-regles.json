@@ -1,10 +1,10 @@
 {
  "_explication": [
-  "Règles de croisement des fleurs connues pour ce jeu, sans gènes, d'après Nookipedia.",
-  "fiabilite : « texte » = écrit tel quel sur Nookipedia ; « images » = lu dans les tableaux d'icônes de Nookipedia.",
-  "Fichier écrit à la main : il sera remplacé par les règles extraites des jeux."
+  "Règles de croisement des fleurs de Wild World, avec leurs chances : la table du jeu (ARM9 de la ROM européenne, table de pointeurs à 0x020DA9B0 ; data_020db7c4 dans la décompilation acww-decomp).",
+  "Pour chaque espèce et chaque paire de couleurs : les enfants possibles et leur chance sur 100 (« chances », dans l'ordre de « enfants »). Les roses dorées ne se croisent pas (aucune entrée dans la table).",
+  "fiabilite : « jeu » = lu dans la table du jeu ; « texte » = écrit sur Nookipedia."
  ],
- "source": "https://nookipedia.com/wiki/Flower",
+ "source": "Code du jeu (Animal Crossing: Wild World, table des croisements de fleurs) ; Nookipedia pour l'arrosoir en or",
  "a_verifier": false,
  "jeu": "Wild World",
  "especes": [
@@ -151,7 +151,7 @@
    "note": "Arroser une rose noire fanée avec l'arrosoir en or."
   },
   {
-   "espece": "Roses",
+   "espece": "Tulipes",
    "parents": [
     "rouge",
     "rouge"
@@ -160,10 +160,14 @@
     "rouge",
     "noir"
    ],
-   "fiabilite": "images"
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
   },
   {
-   "espece": "Roses",
+   "espece": "Tulipes",
    "parents": [
     "rouge",
     "blanc"
@@ -173,202 +177,310 @@
     "blanc",
     "rose"
    ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Roses",
-   "parents": [
-    "rouge",
-    "jaune"
+   "chances": [
+    35,
+    35,
+    30
    ],
-   "enfants": [
-    "rouge",
-    "jaune",
-    "orange"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Roses",
-   "parents": [
-    "blanc",
-    "blanc"
-   ],
-   "enfants": [
-    "blanc",
-    "violet"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Roses",
-   "parents": [
-    "blanc",
-    "jaune"
-   ],
-   "enfants": [
-    "blanc",
-    "jaune"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Roses",
-   "parents": [
-    "noir",
-    "violet"
-   ],
-   "enfants": [
-    "noir",
-    "violet",
-    "bleu"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Roses",
-   "parents": [
-    "jaune",
-    "jaune"
-   ],
-   "enfants": [
-    "jaune"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Roses",
-   "parents": [
-    "or",
-    "or"
-   ],
-   "enfants": [
-    "jaune"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Roses",
-   "parents": [
-    "rouge",
-    "violet"
-   ],
-   "enfants": [
-    "rouge",
-    "violet"
-   ],
-   "fiabilite": "images"
+   "fiabilite": "jeu"
   },
   {
    "espece": "Tulipes",
    "parents": [
     "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "violet"
+   ],
+   "chances": [
+    40,
+    40,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "violet"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
     "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "jaune"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "blanc",
+    "rose"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "noir"
+   ],
+   "enfants": [
+    "blanc",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune",
+    "noir"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "rose"
+   ],
+   "enfants": [
+    "jaune",
+    "rose"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "violet"
+   ],
+   "enfants": [
+    "jaune",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "noir"
+   ],
+   "enfants": [
+    "jaune",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rose",
+    "violet"
    ],
    "enfants": [
     "rose",
-    "rouge",
-    "blanc"
-   ],
-   "fiabilite": "texte",
-   "note": "Écrit sur Nookipedia ; les autres enfants viennent du tableau d'icônes."
-  },
-  {
-   "espece": "Tulipes",
-   "parents": [
-    "rouge",
-    "rouge"
-   ],
-   "enfants": [
-    "rouge",
-    "noir"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Tulipes",
-   "parents": [
-    "rouge",
-    "jaune"
-   ],
-   "enfants": [
-    "rouge",
-    "jaune",
     "violet"
    ],
-   "fiabilite": "images"
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Tulipes",
    "parents": [
-    "blanc",
-    "blanc"
-   ],
-   "enfants": [
-    "blanc"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Tulipes",
-   "parents": [
-    "blanc",
-    "jaune"
-   ],
-   "enfants": [
-    "blanc",
-    "jaune"
-   ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Tulipes",
-   "parents": [
-    "jaune",
-    "jaune"
-   ],
-   "enfants": [
-    "jaune",
+    "rose",
     "noir"
    ],
-   "fiabilite": "images"
+   "enfants": [
+    "rose",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
   },
   {
-   "espece": "Pensées",
+   "espece": "Tulipes",
    "parents": [
-    "rouge",
-    "rouge"
-   ],
-   "enfants": [
-    "rouge",
+    "violet",
     "violet"
    ],
-   "fiabilite": "images"
+   "enfants": [
+    "violet"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
   },
   {
-   "espece": "Pensées",
+   "espece": "Tulipes",
    "parents": [
-    "rouge",
-    "blanc"
+    "violet",
+    "noir"
    ],
    "enfants": [
-    "rouge",
-    "blanc"
+    "violet",
+    "noir"
    ],
-   "fiabilite": "images"
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
   },
   {
-   "espece": "Pensées",
+   "espece": "Tulipes",
    "parents": [
-    "rouge",
-    "jaune"
+    "noir",
+    "noir"
    ],
    "enfants": [
-    "rouge",
-    "jaune",
-    "orange"
+    "noir"
    ],
-   "fiabilite": "images"
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Pensées",
@@ -380,7 +492,11 @@
     "blanc",
     "bleu"
    ],
-   "fiabilite": "images"
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Pensées",
@@ -392,7 +508,75 @@
     "blanc",
     "jaune"
    ],
-   "fiabilite": "images"
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "rouge"
+   ],
+   "enfants": [
+    "blanc",
+    "rouge"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "blanc",
+    "bleu"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Pensées",
@@ -403,7 +587,326 @@
    "enfants": [
     "jaune"
    ],
-   "fiabilite": "images"
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "rouge"
+   ],
+   "enfants": [
+    "jaune",
+    "rouge",
+    "orange"
+   ],
+   "chances": [
+    30,
+    30,
+    40
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "violet"
+   ],
+   "enfants": [
+    "jaune",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "jaune",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "bleu"
+   ],
+   "enfants": [
+    "jaune",
+    "bleu"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "chances": [
+    70,
+    30
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "violet"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "rouge",
+    "bleu"
+   ],
+   "enfants": [
+    "rouge",
+    "bleu"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "violet",
+    "violet"
+   ],
+   "enfants": [
+    "violet"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "violet",
+    "orange"
+   ],
+   "enfants": [
+    "violet",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "violet",
+    "bleu"
+   ],
+   "enfants": [
+    "violet",
+    "bleu"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "orange"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "orange",
+    "bleu"
+   ],
+   "enfants": [
+    "orange",
+    "bleu"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Pensées",
+   "parents": [
+    "bleu",
+    "bleu"
+   ],
+   "enfants": [
+    "bleu"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "rouge"
+   ],
+   "enfants": [
+    "blanc",
+    "rouge",
+    "rose"
+   ],
+   "chances": [
+    35,
+    35,
+    30
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "jaune"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "blanc",
+    "rose"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "noir"
+   ],
+   "enfants": [
+    "blanc",
+    "noir"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Cosmos",
@@ -415,20 +918,11 @@
     "rouge",
     "noir"
    ],
-   "fiabilite": "images"
-  },
-  {
-   "espece": "Cosmos",
-   "parents": [
-    "rouge",
-    "blanc"
+   "chances": [
+    80,
+    20
    ],
-   "enfants": [
-    "rouge",
-    "blanc",
-    "rose"
-   ],
-   "fiabilite": "images"
+   "fiabilite": "jeu"
   },
   {
    "espece": "Cosmos",
@@ -441,30 +935,60 @@
     "jaune",
     "orange"
    ],
-   "fiabilite": "images"
+   "chances": [
+    35,
+    35,
+    30
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Cosmos",
    "parents": [
-    "blanc",
-    "blanc"
+    "rouge",
+    "rose"
    ],
    "enfants": [
-    "blanc"
+    "rouge",
+    "rose"
    ],
-   "fiabilite": "images"
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Cosmos",
    "parents": [
-    "blanc",
-    "jaune"
+    "rouge",
+    "orange"
    ],
    "enfants": [
-    "blanc",
-    "jaune"
+    "rouge",
+    "orange"
    ],
-   "fiabilite": "images"
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rouge",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
   },
   {
    "espece": "Cosmos",
@@ -475,12 +999,731 @@
    "enfants": [
     "jaune"
    ],
-   "fiabilite": "images"
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "rose"
+   ],
+   "enfants": [
+    "jaune",
+    "rose"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "jaune",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "noir"
+   ],
+   "enfants": [
+    "jaune",
+    "noir"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rose",
+    "orange"
+   ],
+   "enfants": [
+    "rose",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "rose",
+    "noir"
+   ],
+   "enfants": [
+    "rose",
+    "noir"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "orange"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "orange",
+    "noir"
+   ],
+   "enfants": [
+    "orange",
+    "noir"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "noir",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc",
+    "rose"
+   ],
+   "chances": [
+    35,
+    35,
+    30
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "jaune"
+   ],
+   "enfants": [
+    "rouge",
+    "jaune",
+    "orange"
+   ],
+   "chances": [
+    35,
+    35,
+    30
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "rose"
+   ],
+   "enfants": [
+    "rouge",
+    "rose"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "orange"
+   ],
+   "enfants": [
+    "rouge",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "violet"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "noir"
+   ],
+   "enfants": [
+    "rouge",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "bleu"
+   ],
+   "enfants": [
+    "rouge"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "violet"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "jaune"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "rose"
+   ],
+   "enfants": [
+    "blanc",
+    "rouge",
+    "rose"
+   ],
+   "chances": [
+    35,
+    35,
+    30
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "orange"
+   ],
+   "enfants": [
+    "blanc",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "violet"
+   ],
+   "enfants": [
+    "blanc",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "noir"
+   ],
+   "enfants": [
+    "blanc",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "blanc",
+    "bleu"
+   ],
+   "enfants": [
+    "blanc",
+    "bleu"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "rose"
+   ],
+   "enfants": [
+    "jaune",
+    "rose"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "orange"
+   ],
+   "enfants": [
+    "jaune",
+    "rouge",
+    "orange"
+   ],
+   "chances": [
+    35,
+    35,
+    30
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "violet"
+   ],
+   "enfants": [
+    "jaune",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "noir"
+   ],
+   "enfants": [
+    "jaune",
+    "noir"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "bleu"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "orange"
+   ],
+   "enfants": [
+    "rose",
+    "orange"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "violet"
+   ],
+   "enfants": [
+    "rose",
+    "violet"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "noir"
+   ],
+   "enfants": [
+    "rose",
+    "noir"
+   ],
+   "chances": [
+    70,
+    30
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rose",
+    "bleu"
+   ],
+   "enfants": [
+    "rose",
+    "bleu"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "orange"
+   ],
+   "enfants": [
+    "orange"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "violet"
+   ],
+   "enfants": [
+    "orange",
+    "violet"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "noir"
+   ],
+   "enfants": [
+    "orange",
+    "noir"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "orange",
+    "bleu"
+   ],
+   "enfants": [
+    "orange",
+    "bleu"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "violet",
+    "violet"
+   ],
+   "enfants": [
+    "violet"
+   ],
+   "chances": [
+    100
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "violet",
+    "noir"
+   ],
+   "enfants": [
+    "violet",
+    "noir",
+    "bleu"
+   ],
+   "chances": [
+    40,
+    40,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "violet",
+    "bleu"
+   ],
+   "enfants": [
+    "violet",
+    "bleu"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "noir",
+    "noir"
+   ],
+   "enfants": [
+    "noir",
+    "rouge"
+   ],
+   "chances": [
+    50,
+    50
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "noir",
+    "bleu"
+   ],
+   "enfants": [
+    "noir",
+    "bleu"
+   ],
+   "chances": [
+    80,
+    20
+   ],
+   "fiabilite": "jeu"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "bleu",
+    "bleu"
+   ],
+   "enfants": [
+    "bleu",
+    "noir",
+    "violet"
+   ],
+   "chances": [
+    20,
+    40,
+    40
+   ],
+   "fiabilite": "jeu"
   }
  ],
  "mecanique": [
-  "Deux fleurs de la même espèce plantées côte à côte peuvent donner une nouvelle fleur, le lendemain matin, sur une case libre à côté d'un des parents.",
-  "Aucune probabilité n'est connue : la page dit seulement « il y a une chance ».",
+  "Deux fleurs de la même espèce côte à côte (8 cases autour) peuvent se croiser : l'enfant est tiré dans la table du jeu selon les couleurs des deux parents, et pousse sur une case libre autour de l'un ou de l'autre.",
+  "Les chances affichées sont celles du jeu, une fois qu'un croisement a lieu.",
   "Dans Wild World, les fleurs n'ont pas besoin d'être arrosées pour se croiser."
  ]
 }

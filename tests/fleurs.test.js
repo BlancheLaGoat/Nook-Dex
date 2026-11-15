@@ -171,15 +171,19 @@ test('identifier : hypothèses, meilleur test, mise à jour', async () => {
   assert.ok(Math.abs(apres.reduce((s, x) => s + x.p, 0) - 1) < 1e-12);
 });
 
-test('anciens jeux : règles connues (Nookipedia), aux couleurs existantes', () => {
+test('anciens jeux : règles connues (jeu ou Nookipedia), aux couleurs existantes', () => {
   for (const jeu of ['ww', 'cf', 'nl']) {
     const d = JSON.parse(fs.readFileSync(path.join(RACINE, 'data', jeu, 'fleurs-regles.json'), 'utf8'));
-    assert.match(d.source, /nookipedia\.com/, jeu);
-    assert.ok(d.source.startsWith('https://nookipedia.com/'), jeu);
+    assert.ok(typeof d.source === 'string' && d.source, jeu);
     for (const r of d.regles) {
       const e = d.especes.find(x => x.nom === r.espece);
       assert.ok(e, `${jeu} : espèce ${r.espece}`);
-      assert.ok(['texte', 'images'].includes(r.fiabilite), `${jeu} : fiabilité`);
+      assert.ok(['texte', 'images', 'jeu'].includes(r.fiabilite), `${jeu} : fiabilité`);
+      // Une règle tirée du jeu a une chance par enfant, et elles font 100.
+      if (r.fiabilite === 'jeu') {
+        assert.equal(r.chances.length, r.enfants.length, `${jeu} ${r.espece} ${r.parents}`);
+        assert.equal(r.chances.reduce((s, x) => s + x, 0), 100, `${jeu} ${r.espece} ${r.parents}`);
+      }
       const couleurs = new Set(e.couleurs.map(c => c.couleur));
       for (const x of [...r.enfants]) assert.ok(couleurs.has(x.replace(' « spécial »', '')), `${jeu} ${r.espece} : couleur ${x}`);
     }
@@ -210,19 +214,25 @@ test('champ : prévisions des enfants sur les cases libres', async () => {
   for (const l of prev.values()) for (const x of l) assert.ok(Math.abs(x.couleurs.reduce((s, y) => s + y.p, 0) - 1) < 1e-9);
 });
 
-test('anciens jeux : champ selon les règles connues (chances inconnues, parts égales)', async () => {
-  const { champVide, previsionsChampRegles, enfantsSelonRegles, couleursPlantables, normaliserChampRegles } = await charger();
+test('anciens jeux : champ selon les règles (chances du jeu pour Wild World, parts égales sinon)', async () => {
+  const { champVide, previsionsChampRegles, enfantsSelonRegles, chancesSelonRegles, reglesAvecChances, couleursPlantables, normaliserChampRegles } = await charger();
   const ww = require(path.join(__dirname, '..', 'data', 'ww', 'fleurs-regles.json'));
+  const cf = require(path.join(__dirname, '..', 'data', 'cf', 'fleurs-regles.json'));
+  assert.equal(reglesAvecChances(ww.regles), true);
   // Une règle marche dans les deux sens.
   assert.deepEqual(enfantsSelonRegles(ww.regles, 'Roses', 'blanc', 'rouge'), enfantsSelonRegles(ww.regles, 'Roses', 'rouge', 'blanc'));
+  // Table du jeu : rose rouge × rouge = 80 % rouge, 20 % noire ; violette × noire = 40 / 40 / 20 % bleue.
+  assert.deepEqual(chancesSelonRegles(ww.regles, 'Roses', 'rouge', 'rouge'), [{ couleur: 'rouge', p: 0.8 }, { couleur: 'noir', p: 0.2 }]);
+  assert.deepEqual(chancesSelonRegles(ww.regles, 'Roses', 'noir', 'violet').find(x => x.couleur === 'bleu'), { couleur: 'bleu', p: 0.2 });
   const c = champVide(4, 3);
   c.cases[0] = { espece: 'Roses', couleur: 'rouge' };
   c.cases[1] = { espece: 'Roses', couleur: 'blanc' };
-  const prev = previsionsChampRegles(c, ww.regles);
-  const attendu = enfantsSelonRegles(ww.regles, 'Roses', 'rouge', 'blanc');
-  const ici = prev.get(4)[0];
-  assert.deepEqual(ici.couleurs.map(x => x.couleur).sort(), [...attendu].sort());
-  for (const x of ici.couleurs) assert.ok(Math.abs(x.p - 1 / attendu.length) < 1e-9);
+  const ici = previsionsChampRegles(c, ww.regles).get(4)[0];
+  for (const x of chancesSelonRegles(ww.regles, 'Roses', 'rouge', 'blanc')) assert.ok(Math.abs(ici.couleurs.find(y => y.couleur === x.couleur).p - x.p) < 1e-9, x.couleur);
+  // Sans chances (City Folk, d'après Nookipedia) : parts égales.
+  const enf = enfantsSelonRegles(cf.regles, 'Roses', 'rouge', 'blanc');
+  const iciCF = previsionsChampRegles(c, cf.regles).get(4)[0];
+  for (const x of iciCF.couleurs) assert.ok(Math.abs(x.p - 1 / enf.length) < 1e-9);
   // Un couple sans règle connue n'invente rien : il est signalé.
   const d = champVide(3, 3);
   d.cases[0] = { espece: 'Roses', couleur: 'or' };
@@ -236,4 +246,19 @@ test('anciens jeux : champ selon les règles connues (chances inconnues, parts �
   assert.ok(!couleursPlantables(roses, ww.regles).some(x => /arrosoir/.test(x)));
   const n = normaliserChampRegles({ largeur: 3, hauteur: 3, cases: [{ espece: 'Roses', couleur: 'rouge' }, { espece: 'Roses', couleur: 'arc-en-ciel' }, { espece: 'X', couleur: 'rouge' }] }, ww.especes, ww.regles);
   assert.deepEqual(n.cases.slice(0, 3), [{ espece: 'Roses', couleur: 'rouge' }, null, null]);
+});
+
+test('New Leaf : violettes et œillets (tables du code du jeu), fleurs de départ et violette bleue', async () => {
+  const { rechercherChemins, couleursEspece } = await charger();
+  const nl = JSON.parse(fs.readFileSync(path.join(RACINE, 'data', 'nl', 'fleurs-genetique.json'), 'utf8'));
+  const vio = nl.especes.find(e => e.id === 'violettes'), oei = nl.especes.find(e => e.id === 'oeillets');
+  assert.equal(Object.keys(vio.couleurs).length, 27);
+  assert.equal(Object.keys(oei.couleurs).length, 9);
+  assert.deepEqual(couleursEspece(vio).map(c => c.couleur).sort(), ['blanc', 'bleu', 'jaune', 'violet']);
+  assert.deepEqual(couleursEspece(oei).map(c => c.couleur).sort(), ['blanc', 'rose', 'rouge']);
+  for (const e of [vio, oei]) for (const [c, g] of Object.entries(e.graines)) assert.equal(e.couleurs[g], c, `${e.id} ${c}`);
+  // Codes lus dans de vraies sauvegardes : violettes 001 blanche, 020 violette, 100 jaune ; œillets du courrier 11 rose, 21 rouge.
+  assert.equal(oei.depart, 'courrier');
+  const bleue = rechercherChemins(vio, 'bleu');
+  assert.ok(bleue.length && bleue[0].generation === 1);
 });
