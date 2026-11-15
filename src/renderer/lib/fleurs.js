@@ -184,3 +184,60 @@ export function etapesChemin(lot) {
   visiter(lot);
   return etapes;
 }
+
+// ---------------------------------------------------------------------------
+// Champ : grille où l'on place des fleurs et des cases bloquées.
+// ---------------------------------------------------------------------------
+// Une case : null (libre), { bloque: true }, ou { espece: 'roses', g: '2001' }.
+// Dans le jeu, une fleur arrosée peut se reproduire avec une fleur de la même espèce sur une des 8 cases
+// autour d'elle ; l'enfant pousse sur une case libre voisine. Sans voisine de son espèce, elle peut se cloner.
+export const CHAMP_MAX = 16;
+
+export function champVide(largeur = 8, hauteur = 6) {
+  return { largeur, hauteur, cases: Array.from({ length: largeur * hauteur }, () => null) };
+}
+
+// Champ lu dans un profil, ramené à une forme sûre (espèces et gènes vérifiés).
+export function normaliserChamp(c, especes) {
+  const taille = (x, defaut) => Math.max(2, Math.min(CHAMP_MAX, Number.isInteger(x) ? x : defaut));
+  const largeur = taille(c && c.largeur, 8), hauteur = taille(c && c.hauteur, 6);
+  const res = champVide(largeur, hauteur);
+  if (!c || !Array.isArray(c.cases) || c.largeur !== largeur) return res;
+  c.cases.slice(0, largeur * hauteur).forEach((x, i) => {
+    if (!x || typeof x !== 'object') return;
+    if (x.bloque === true) res.cases[i] = { bloque: true };
+    const e = especes.find(s => s.id === x.espece);
+    if (e && typeof x.g === 'string' && e.couleurs[x.g]) res.cases[i] = { espece: e.id, g: x.g };
+  });
+  return res;
+}
+
+const VOISINS = [[-1, -1], [0, -1], [1, -1], [-1, 0], [1, 0], [-1, 1], [0, 1], [1, 1]];
+export function voisins(champ, i) {
+  const x = i % champ.largeur, y = Math.floor(i / champ.largeur);
+  return VOISINS.map(([dx, dy]) => [x + dx, y + dy])
+    .filter(([a, b]) => a >= 0 && b >= 0 && a < champ.largeur && b < champ.hauteur)
+    .map(([a, b]) => b * champ.largeur + a);
+}
+
+// Bilan du champ :
+//   couples : [{ a, b, espece, resultat }] (chaque paire de voisines de la même espèce, une seule fois)
+//   fleurs : [{ i, partenaires: [indices], libres: nombre de cases libres autour, clone: true si pas de partenaire }]
+export function bilanChamp(champ, especes) {
+  const espece = id => especes.find(e => e.id === id);
+  const couples = [];
+  const fleurs = [];
+  champ.cases.forEach((c, i) => {
+    if (!c || c.bloque) return;
+    const v = voisins(champ, i);
+    const partenaires = v.filter(j => champ.cases[j] && champ.cases[j].espece === c.espece);
+    const libres = v.filter(j => !champ.cases[j]).length;
+    fleurs.push({ i, partenaires, libres, clone: partenaires.length === 0 });
+    for (const j of partenaires) {
+      if (j <= i) continue;
+      const e = espece(c.espece);
+      couples.push({ a: i, b: j, espece: c.espece, resultat: resultatCroisement(e, c.g, champ.cases[j].g) });
+    }
+  });
+  return { couples, fleurs };
+}

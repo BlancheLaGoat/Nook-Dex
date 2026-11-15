@@ -69,6 +69,8 @@ function normaliserProfil(p) {
     ...(p.ville && typeof p.ville === 'object' && !Array.isArray(p.ville) ? { ville: p.ville } : {}),
     // Semaine de navets (prédicteur de prix) : vérifiée en détail par l'appli (lib/navets.js).
     ...(p.navets && typeof p.navets === 'object' && !Array.isArray(p.navets) ? { navets: p.navets } : {}),
+    // Champ de fleurs hybrides (planificateur) : vérifié en détail par l'appli (lib/fleurs.js).
+    ...(p.champFleurs && typeof p.champFleurs === 'object' && !Array.isArray(p.champFleurs) ? { champFleurs: p.champFleurs } : {}),
     cree_le: p.cree_le || new Date().toISOString(),
     modifie_le: new Date().toISOString(),
     elements: p.elements && typeof p.elements === 'object' ? p.elements : {},

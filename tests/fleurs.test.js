@@ -113,3 +113,30 @@ test('recherche inverse : partir aussi des fleurs des îles', async () => {
   assert.equal(rechercherChemins(t, 'noir', { iles: true })[0].generation, 0);
   assert.ok(rechercherChemins(t, 'noir')[0].generation >= 1);
 });
+
+test('champ : voisines, couples, cases libres, clones', async () => {
+  const { champVide, voisins, bilanChamp, normaliserChamp } = await charger();
+  const c = champVide(4, 3);
+  assert.equal(c.cases.length, 12);
+  assert.deepEqual(voisins(c, 0).sort((a, b) => a - b), [1, 4, 5]); // coin : 3 voisines
+  assert.equal(voisins(c, 5).length, 8);                            // milieu : 8 voisines
+  const r = espece('roses');
+  // Deux roses rouges côte à côte (0 et 1), une tulipe en 5, une case bloquée en 4, une rose isolée en 11.
+  c.cases[0] = { espece: 'roses', g: r.graines.rouge };
+  c.cases[1] = { espece: 'roses', g: r.graines.rouge };
+  c.cases[5] = { espece: 'tulipes', g: espece('tulipes').graines.rouge };
+  c.cases[4] = { bloque: true };
+  c.cases[11] = { espece: 'roses', g: r.graines.blanc };
+  const b = bilanChamp(c, donnees.especes);
+  assert.equal(b.couples.length, 1);
+  assert.deepEqual([b.couples[0].a, b.couples[0].b], [0, 1]);
+  assert.equal(b.couples[0].resultat.couleurs.find(x => x.couleur === 'noir').p, 0.25);
+  const fleur = i => b.fleurs.find(f => f.i === i);
+  assert.equal(fleur(0).libres, 0);       // voisines de 0 : 1 (rose), 4 (bloquée), 5 (tulipe)
+  assert.equal(fleur(5).clone, true);     // la tulipe n'a pas de voisine de son espèce
+  assert.equal(fleur(11).clone, true);
+  // Normalisation : espèce inconnue ou gènes faux ignorés, cases bloquées gardées.
+  const n = normaliserChamp({ largeur: 4, hauteur: 3, cases: [{ espece: 'roses', g: '9999' }, { espece: 'x', g: '000' }, { bloque: true }] }, donnees.especes);
+  assert.deepEqual(n.cases.slice(0, 3), [null, null, { bloque: true }]);
+  assert.equal(normaliserChamp(null, donnees.especes).cases.length, 48);
+});

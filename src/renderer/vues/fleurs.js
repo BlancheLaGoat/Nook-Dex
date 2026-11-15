@@ -1,12 +1,12 @@
 // Fleurs hybrides (New Horizons) : onglets Croisement et Glossaire.
 // Les calculs sont dans lib/fleurs.js ; les données dans data/nh/fleurs-genetique.json (recherches d'Aeter).
-import { h, vider, image, ajouterA } from '../lib/dom.js';
-import { donneesCategorie } from '../lib/etat.js';
-import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece, rechercherChemins, etapesChemin } from '../lib/fleurs.js';
+import { h, vider, image, ajouterA, confirmer } from '../lib/dom.js';
+import { etat, donneesCategorie, planifierSauvegarde } from '../lib/etat.js';
+import { enLettres, resultatCroisement, genotypesDeCouleur, origine, couleursEspece, rechercherChemins, etapesChemin, champVide, normaliserChamp, bilanChamp, CHAMP_MAX } from '../lib/fleurs.js';
 
-const ONGLETS = [['croisement', '🧪 Croisement'], ['obtenir', '🔎 Comment obtenir…'], ['glossaire', '📖 Glossaire']];
+const ONGLETS = [['croisement', '🧪 Croisement'], ['obtenir', '🔎 Comment obtenir…'], ['champ', '🌱 Champ'], ['glossaire', '📖 Glossaire']];
 // Choix gardés le temps de la session.
-const choix = { onglet: 'croisement', espece: 'roses', a: null, b: null, glossaire: 'roses', obtenir: { espece: 'roses', couleur: 'bleu', iles: false } };
+const choix = { onglet: 'croisement', espece: 'roses', a: null, b: null, glossaire: 'roses', obtenir: { espece: 'roses', couleur: 'bleu', iles: false }, champ: { outil: 'fleur', espece: 'roses', g: null } };
 
 const pc = p => `${(p * 100).toLocaleString('fr-FR', { maximumFractionDigits: p < 0.1 ? 2 : 1 })} %`;
 const TEXTE_ORIGINE = { graines: 'graines', iles: 'îles' };
@@ -31,6 +31,7 @@ export async function afficherFleurs(conteneur, jeu) {
       h('button', { class: `onglet${choix.onglet === id ? ' actif' : ''}`, onclick: () => { choix.onglet = id; dessiner(); } }, nom))));
     if (choix.onglet === 'croisement') dessinerCroisement();
     else if (choix.onglet === 'obtenir') dessinerObtenir();
+    else if (choix.onglet === 'champ') dessinerChamp();
     else dessinerGlossaire();
     corps.append(h('p', { class: 'aide credits' },
       "Génétique des fleurs d'après les recherches d'Aeter (données extraites du jeu). ",
@@ -109,6 +110,69 @@ export async function afficherFleurs(conteneur, jeu) {
       zone.append(h('p', { class: 'aide' }, "Les chances supposent qu'on ne connaît pas les gènes exacts des fleurs obtenues (seulement leur couleur). ",
         "En identifiant les bonnes fleurs par des croisements tests, on peut faire mieux. « Environ N croisements » = 1 / chance du dernier croisement, plus le plus long chemin de ses parents."));
     }, 30);
+  }
+
+  // ---- Champ ----
+  function dessinerChamp() {
+    const profil = etat.profil;
+    const champ = normaliserChamp(profil.champFleurs, especes);
+    const enregistrer = () => { profil.champFleurs = champ; planifierSauvegarde(); };
+    const o = choix.champ;
+    const esp = espece(o.espece);
+    if (!o.g || !esp.couleurs[o.g]) o.g = Object.values(esp.graines)[2];
+    const couleurOutil = esp.couleurs[o.g];
+    const nomCase = i => `${String.fromCharCode(65 + (i % champ.largeur))}${Math.floor(i / champ.largeur) + 1}`;
+    const nomFleur = c => `${espece(c.espece).nom.toLowerCase()} ${espece(c.espece).couleurs[c.g]} (${c.g})`;
+    const taille = (val, surChange) => h('select', { onchange: e => surChange(Number(e.target.value)) },
+      Array.from({ length: CHAMP_MAX - 2 }, (_, k) => k + 3).map(n => h('option', { value: String(n), selected: n === val }, String(n))));
+    const redimensionner = (l, ht) => {
+      const nouveau = champVide(l, ht);
+      champ.cases.forEach((c, i) => { const x = i % champ.largeur, y = Math.floor(i / champ.largeur); if (x < l && y < ht) nouveau.cases[y * l + x] = c; });
+      profil.champFleurs = nouveau; planifierSauvegarde(); dessiner();
+    };
+    ajouterA(corps,
+      h('div', { class: 'filtres statique' },
+        h('select', { onchange: e => { o.outil = e.target.value; dessiner(); } },
+          [['fleur', '🌸 Planter'], ['bloque', '⬛ Case bloquée'], ['gomme', '🧽 Effacer']].map(([v, t]) => h('option', { value: v, selected: o.outil === v }, t))),
+        o.outil === 'fleur' ? [
+          h('select', { onchange: e => { o.espece = e.target.value; o.g = null; dessiner(); } }, especes.map(e => h('option', { value: e.id, selected: e.id === esp.id }, e.nom))),
+          h('select', { onchange: e => { o.g = genotypesDeCouleur(esp, e.target.value)[0]; dessiner(); } },
+            couleursEspece(esp).map(c => h('option', { value: c.couleur, selected: c.couleur === couleurOutil }, majuscule(c.couleur)))),
+          h('select', { onchange: e => { o.g = e.target.value; dessiner(); } },
+            genotypesDeCouleur(esp, couleurOutil).map(g => { const x = origine(esp, g); return h('option', { value: g, selected: g === o.g }, `${g}${x ? ` · ${TEXTE_ORIGINE[x]}` : ''}`); })),
+        ] : null,
+        h('label', {}, 'Largeur ', taille(champ.largeur, v => redimensionner(v, champ.hauteur))),
+        h('label', {}, 'Hauteur ', taille(champ.hauteur, v => redimensionner(champ.largeur, v))),
+        h('button', { class: 'bouton petit', onclick: async () => {
+          if (!(await confirmer('Vider le champ', 'Retirer toutes les fleurs et les cases bloquées ?', 'Vider'))) return;
+          profil.champFleurs = champVide(champ.largeur, champ.hauteur); planifierSauvegarde(); dessiner();
+        } }, 'Vider')));
+
+    const bilan = bilanChamp(champ, especes);
+    const infoFleur = new Map(bilan.fleurs.map(f => [f.i, f]));
+    const grille = h('div', { class: 'champ-grille', style: { gridTemplateColumns: `repeat(${champ.largeur}, 48px)` } },
+      champ.cases.map((c, i) => {
+        const f = infoFleur.get(i);
+        const classes = ['champ-case', c && c.bloque ? 'bloque' : '', f && f.libres === 0 ? 'sans-place' : '', f && f.clone ? 'clone' : ''].filter(Boolean).join(' ');
+        const titre = !c ? `${nomCase(i)} : libre` : c.bloque ? `${nomCase(i)} : bloquée`
+          : `${nomCase(i)} : ${nomFleur(c)}${f.clone ? ' — pas de voisine de son espèce (clone)' : ''}${f.libres === 0 ? " — aucune case libre autour : pas d'enfant possible" : ''}`;
+        return h('button', { class: classes, title: titre, onclick: () => {
+          champ.cases[i] = o.outil === 'gomme' ? null : o.outil === 'bloque' ? { bloque: true } : { espece: esp.id, g: o.g };
+          enregistrer(); dessiner();
+        } }, c && !c.bloque ? vignette(espece(c.espece), espece(c.espece).couleurs[c.g]) : '');
+      }));
+    const sansPlace = bilan.fleurs.filter(f => f.libres === 0).map(f => nomCase(f.i));
+    const clones = bilan.fleurs.filter(f => f.clone).map(f => nomCase(f.i));
+    ajouterA(corps, h('div', { class: 'champ-zone' }, grille,
+      h('div', { class: 'champ-bilan' },
+        h('h3', {}, `Couples possibles (${bilan.couples.length})`),
+        bilan.couples.length ? h('ul', { class: 'liste-conditions' }, bilan.couples.map(cp => h('li', {},
+          `${nomCase(cp.a)} × ${nomCase(cp.b)} (${espece(cp.espece).nom.toLowerCase()}) → `,
+          h('span', { class: 'aide' }, cp.resultat.couleurs.map(x => `${x.couleur} ${pc(x.p)}`).join(' · ')))))
+          : h('p', { class: 'aide' }, 'Place deux fleurs de la même espèce côte à côte (y compris en diagonale).'),
+        sansPlace.length ? h('p', { class: 'note' }, `⚠️ Sans case libre autour, pas d'enfant : ${sansPlace.join(', ')}.`) : null,
+        clones.length ? h('p', { class: 'aide' }, `Sans voisine de leur espèce (elles ne peuvent que se cloner) : ${clones.join(', ')}.`) : null)),
+      h('p', { class: 'aide' }, "Clique sur une case pour planter, bloquer ou effacer. Une fleur peut se croiser avec une voisine de son espèce sur les 8 cases autour ; l'enfant a besoin d'une case libre à côté. Le champ est enregistré dans ton profil."));
   }
 
   // ---- Glossaire ----
