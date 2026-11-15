@@ -18,6 +18,8 @@ import { afficherFleurs } from './vues/fleurs.js';
 
 // Jeux qui ont l'écran des navets (New Leaf : désactivé pour l'instant, « bientôt »).
 const JEUX_NAVETS = ['nh', 'nl'];
+// Jeux qui ont l'outil des fleurs hybrides (New Horizons : génétique ; WW, CF, NL : règles connues à vérifier).
+const JEUX_FLEURS = ['nh', 'nl', 'cf', 'ww'];
 import { fenetreProfils, fenetreNouveauProfil, fenetreReglages, fenetreNouveautes } from './vues/fenetres.js';
 
 const $ = id => document.getElementById(id);
@@ -41,7 +43,7 @@ async function afficherVue(vue) {
   } else if (vue.type === 'a-faire') {
     nettoyerVue = afficherAFaire(contenu, jeu);
   } else if (vue.type === 'fleurs') {
-    if (jeu.id !== 'nh') return afficherVue({ type: 'accueil' });
+    if (!JEUX_FLEURS.includes(jeu.id)) return afficherVue({ type: 'accueil' });
     nettoyerVue = await afficherFleurs(contenu, jeu);
   } else if (vue.type === 'navets') {
     if (!JEUX_NAVETS.includes(jeu.id)) return afficherVue({ type: 'accueil' });
@@ -109,7 +111,7 @@ function dessinerMenu() {
     lien(etat.vue.type === 'especes', '🔎', 'Par espèce (tous les jeux)', null, () => afficherVue({ type: 'especes' })),
   );
   if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'ville', '🌳', 'Ville parfaite et arrosoir en or', null, () => afficherVue({ type: 'ville' })));
-  if (jeu.id === 'nh') menu.append(lien(etat.vue.type === 'fleurs', '🌷', 'Fleurs hybrides', null, () => afficherVue({ type: 'fleurs' })));
+  if (JEUX_FLEURS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'fleurs', '🌷', jeu.id === 'nh' ? 'Fleurs hybrides' : 'Fleurs hybrides (à vérifier)', null, () => afficherVue({ type: 'fleurs' })));
   if (JEUX_NAVETS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'navets', '🥬', jeu.id === 'nh' ? 'Navets (prix de la semaine)' : 'Navets (bientôt)', null, () => afficherVue({ type: 'navets' })));
 }
 

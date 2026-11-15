@@ -1,0 +1,241 @@
+{
+ "_explication": [
+  "Règles de croisement des fleurs connues pour ce jeu, sans gènes : TOUTES sont à vérifier (Nook Dex les affiche avec la mention « à vérifier »).",
+  "fiabilite : « texte » = écrit tel quel sur Nookipedia ; « images » = lu dans les tableaux d'icônes de Nookipedia (non vérifié).",
+  "Fichier écrit à la main : il sera remplacé par les règles extraites des jeux."
+ ],
+ "source": "https://nookipedia.com/wiki/Flower",
+ "a_verifier": true,
+ "jeu": "New Leaf",
+ "especes": [
+  {
+   "nom": "Roses",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    },
+    {
+     "couleur": "or",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Tulipes",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Pensées",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "violet",
+     "hybride": true
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Cosmos",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Lys",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": true
+    },
+    {
+     "couleur": "orange",
+     "hybride": true
+    },
+    {
+     "couleur": "noir",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Violettes",
+   "couleurs": [
+    {
+     "couleur": "jaune",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": false
+    },
+    {
+     "couleur": "violet",
+     "hybride": false
+    },
+    {
+     "couleur": "bleu",
+     "hybride": true
+    }
+   ]
+  },
+  {
+   "nom": "Œillets",
+   "couleurs": [
+    {
+     "couleur": "rouge",
+     "hybride": false
+    },
+    {
+     "couleur": "rose",
+     "hybride": false
+    },
+    {
+     "couleur": "blanc",
+     "hybride": true
+    }
+   ]
+  }
+ ],
+ "regles": [
+  {
+   "espece": "Roses",
+   "parents": [
+    "violet",
+    "orange"
+   ],
+   "enfants": [
+    "rouge « spécial »"
+   ],
+   "fiabilite": "texte",
+   "note": "Le rouge spécial a le même aspect qu'un rouge ordinaire : impossible de les distinguer."
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge « spécial »",
+    "rouge « spécial »"
+   ],
+   "enfants": [
+    "bleu"
+   ],
+   "fiabilite": "texte"
+  }
+ ],
+ "mecanique": [
+  "New Leaf croise les fleurs autrement que les jeux d'avant : certaines couleurs ne s'obtiennent qu'avec des parents « spéciaux », nés d'un croisement précis.",
+  "Une fleur spéciale a le même nom et le même aspect qu'une fleur ordinaire.",
+  "Les autres règles (orange, noir, violet…) ne sont pas écrites sur la page : elles manquent pour l'instant."
+ ]
+}

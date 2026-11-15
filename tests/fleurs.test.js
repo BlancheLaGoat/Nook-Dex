@@ -170,3 +170,18 @@ test('identifier : hypothèses, meilleur test, mise à jour', async () => {
   assert.ok(apres.every(x => t.table.find(row => row.g === x.g).couleurs.get(c) > 0));
   assert.ok(Math.abs(apres.reduce((s, x) => s + x.p, 0) - 1) < 1e-12);
 });
+
+test('anciens jeux : règles connues, toutes à vérifier, aux couleurs existantes', () => {
+  for (const jeu of ['ww', 'cf', 'nl']) {
+    const d = JSON.parse(fs.readFileSync(path.join(RACINE, 'data', jeu, 'fleurs-regles.json'), 'utf8'));
+    assert.equal(d.a_verifier, true, jeu);
+    assert.ok(d.source.startsWith('https://nookipedia.com/'), jeu);
+    for (const r of d.regles) {
+      const e = d.especes.find(x => x.nom === r.espece);
+      assert.ok(e, `${jeu} : espèce ${r.espece}`);
+      assert.ok(['texte', 'images'].includes(r.fiabilite), `${jeu} : fiabilité`);
+      const couleurs = new Set(e.couleurs.map(c => c.couleur));
+      for (const x of [...r.enfants]) assert.ok(couleurs.has(x.replace(' « spécial »', '')), `${jeu} ${r.espece} : couleur ${x}`);
+    }
+  }
+});

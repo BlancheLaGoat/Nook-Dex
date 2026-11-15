@@ -20,6 +20,7 @@ Un nouvel outil dans le menu, d'après la génétique des fleurs extraite du jeu
 - **Champ** : dessine ton parterre (fleurs et cases bloquées) ; Nook Dex montre les couples possibles, leurs enfants, et les fleurs qui manquent de place. Le champ est gardé dans ton profil.
 - **Identifier** : pour une fleur aux gènes inconnus, Nook Dex liste les gènes possibles, propose le croisement test qui les départage le mieux, puis affine le résultat avec la couleur des enfants obtenus.
 - **Glossaire** : pour chaque espèce, toutes les couleurs, leurs gènes et où les trouver (graines, îles, croisement).
+- Wild World, City Folk et New Leaf : les **règles de croisement connues** (sans gènes), toutes marquées « à vérifier », en attendant les règles extraites des jeux.
 
 ### 🥬 Navets : le prédicteur de prix (New Horizons)
 Un nouvel outil dans le menu : tu saisis le prix d'achat du dimanche et les cours que tu vois, et Nook Dex donne :

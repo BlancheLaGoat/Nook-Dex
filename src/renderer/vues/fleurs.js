@@ -13,8 +13,31 @@ const pc = p => `${(p * 100).toLocaleString('fr-FR', { maximumFractionDigits: p 
 const TEXTE_ORIGINE = { graines: 'graines', iles: 'îles' };
 const majuscule = s => s.charAt(0).toUpperCase() + s.slice(1);
 
+// Wild World, City Folk, New Leaf : règles connues, sans gènes, toutes à vérifier (data/<jeu>/fleurs-regles.json).
+async function afficherReglesConnues(conteneur, jeu) {
+  const d = await donneesCategorie(jeu.id, 'fleurs-regles');
+  conteneur.append(h('div', { class: 'titre-page' }, h('h1', {}, '🌷 Fleurs hybrides'), h('span', { class: 'sous-titre' }, `${jeu.nom} · règles connues`)));
+  if (!d || !d.especes) { conteneur.append(h('p', { class: 'note' }, 'Pas encore de règles pour ce jeu.')); return () => {}; }
+  conteneur.append(h('p', { class: 'note verifier' }, "⚠️ À vérifier : ces règles viennent de Nookipedia, sans les gènes du jeu. Elles seront remplacées par les règles extraites du jeu."));
+  for (const e of d.especes) {
+    const regles = d.regles.filter(r => r.espece === e.nom);
+    ajouterA(conteneur, h('div', { class: 'section' },
+      h('h2', {}, e.nom),
+      h('div', { class: 'liste-mini' }, e.couleurs.map(c => h('span', { class: 'puce-element' }, majuscule(c.couleur), c.hybride ? h('span', { class: 'aide' }, ' · hybride') : null))),
+      regles.length ? h('ul', { class: 'liste-conditions' }, regles.map(r => h('li', {},
+        `${majuscule(r.parents[0])} × ${r.parents[1]} → ${r.enfants.join(', ')}`,
+        h('span', { class: 'aide' }, r.fiabilite === 'texte' ? ' · écrit sur Nookipedia' : " · lu dans les tableaux d'images (non vérifié)"),
+        r.note ? h('span', { class: 'aide' }, ` — ${r.note}`) : null)))
+        : h('p', { class: 'aide' }, "Aucune règle connue pour cette espèce pour l'instant.")));
+  }
+  ajouterA(conteneur, h('div', { class: 'section' }, h('h2', {}, 'Comment ça marche'), h('ul', { class: 'liste-conditions' }, d.mecanique.map(m => h('li', { class: 'aide' }, `• ${m}`)))),
+    h('p', { class: 'aide credits' }, `Source : Nookipedia (${d.source}).`));
+  return () => {};
+}
+
 export async function afficherFleurs(conteneur, jeu) {
   vider(conteneur);
+  if (jeu.id !== 'nh') return afficherReglesConnues(conteneur, jeu);
   const [genetique, fiches] = await Promise.all([donneesCategorie(jeu.id, 'fleurs-genetique'), donneesCategorie(jeu.id, 'fleurs')]);
   if (!genetique || !genetique.especes) {
     conteneur.append(h('p', { class: 'note' }, 'Données des fleurs introuvables : lance « npm run donnees:fleurs ».'));
