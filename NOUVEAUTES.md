@@ -3,6 +3,15 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.4.0
+
+### 🏪 Magasin de Nook (Wild World) : le stock de chaque jour, à l'avance
+Chaque matin, Nook tire son stock avec un hasard qui dépend **de la date et de ta ville** : une même date donne toujours les mêmes objets. Nook Dex refait maintenant ce calcul, tiré du **code du jeu** (décompilé par le projet acww-decomp).
+- **Lis ta sauvegarde** (.sav ou .dsv) : Nook Dex retrouve **à l'identique** le stock qu'elle contient (vérifié : 37 objets sur 37), et en déduit les réglages de ta ville.
+- **Le stock de n'importe quel jour** : outils, meubles, papiers peints, moquettes, papeterie, graines, pousses… avec leurs images, et ✓ pour ce que tu as déjà.
+- **Quand Nook vendra…** : cherche un objet par son nom pour voir ses prochaines dates de vente, et la liste de **tout ce qui te manque, dans l'ordre où Nook le vendra** sur l'année.
+- Certains objets sont marqués « ? » : ils dépendent du feng shui de ta maison, que Nook Dex ne peut pas fixer exactement à partir d'un seul jour. Relis ta sauvegarde un autre jour pour affiner. Si tu agrandis le magasin ou redécores ta maison, relis-la aussi.
+
 ## 1.3.3
 
 ### 🌷 Fleurs hybrides : lues dans le code des jeux

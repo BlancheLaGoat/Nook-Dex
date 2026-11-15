@@ -137,6 +137,23 @@ export function navetsWW(octets) {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Magasin de Nook : de quoi recalculer son stock (lib/nook-ww.js).
+// ---------------------------------------------------------------------------
+// À 0x15DB4 (Leaflet ; NookStore d'acww-decomp) : dépensé (u32), 37 places (codes u16), date du stock (jour, mois,
+// année − 2000) à + 0x4E, niveau dans les bits 9-10 du mot à + 0x5A. À 0x15FBC : les 9 octets de l'ordre des
+// groupes de rareté de la ville (un par genre d'objets), qui entrent dans la graine du stock de chaque jour.
+const NOOK = 0x15DB4, ORDRES = 0x15FBC;
+export function nookWW(octets) {
+  const { s } = villeValide(octets);
+  return {
+    ordres: Array.from(s.subarray(ORDRES, ORDRES + 9)),
+    niveau: (u16(s, NOOK + 0x5A) >> 9) & 3,
+    stock: Array.from({ length: 37 }, (_, i) => u16(s, NOOK + 4 + i * 2)),
+    date: { jour: s[NOOK + 0x4E], mois: s[NOOK + 0x4F], annee: 2000 + s[NOOK + 0x50] },
+  };
+}
+
 export function lireSauvegardeWW(octets) {
   const { s, format, base } = villeValide(octets);
   const bit = (debut, n) => (s[debut + (n >> 3)] >> (n & 7)) & 1;

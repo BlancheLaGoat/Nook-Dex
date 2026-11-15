@@ -1,7 +1,7 @@
 {
   "name": "nook-dex",
   "productName": "Nook Dex",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "description": "Nook Dex : suivi de collection pour les jeux Animal Crossing",
   "author": "BlancheLaGoat",
   "license": "MIT",
@@ -30,7 +30,8 @@
     "donnees:sauvegarde-gc": "node scripts/sauvegarde-gc.js",
     "donnees:sauvegarde-ww": "node scripts/sauvegarde-ww.js",
     "donnees:sauvegarde-nl": "node scripts/sauvegarde-nl.js",
-    "donnees:sauvegarde-nh": "node scripts/sauvegarde-nh.js"
+    "donnees:sauvegarde-nh": "node scripts/sauvegarde-nh.js",
+    "donnees:nook-ww": "node scripts/nook-ww.js"
   },
   "dependencies": {
     "electron-updater": "^6.8.9"
