@@ -156,17 +156,6 @@
  ],
  "regles": [
   {
-   "espece": "Tulipes",
-   "parents": [
-    "rouge",
-    "blanc"
-   ],
-   "enfants": [
-    "rose"
-   ],
-   "fiabilite": "texte"
-  },
-  {
    "espece": "Roses",
    "parents": [
     "noir",
@@ -254,6 +243,54 @@
    "fiabilite": "images"
   },
   {
+   "espece": "Roses",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "or",
+    "or"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Roses",
+   "parents": [
+    "rouge",
+    "violet"
+   ],
+   "enfants": [
+    "rouge",
+    "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rose",
+    "rouge",
+    "blanc"
+   ],
+   "fiabilite": "texte",
+   "note": "Écrit sur Nookipedia ; les autres enfants viennent du tableau d'icônes."
+  },
+  {
    "espece": "Tulipes",
    "parents": [
     "rouge",
@@ -275,6 +312,41 @@
     "rouge",
     "jaune",
     "violet"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "blanc",
+    "jaune"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Tulipes",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune",
+    "noir"
    ],
    "fiabilite": "images"
   },
@@ -340,6 +412,17 @@
    "fiabilite": "images"
   },
   {
+   "espece": "Pensées",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
    "espece": "Cosmos",
    "parents": [
     "rouge",
@@ -374,6 +457,111 @@
     "rouge",
     "jaune",
     "orange"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "blanc",
+    "jaune"
+   ],
+   "enfants": [
+    "blanc",
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Cosmos",
+   "parents": [
+    "jaune",
+    "jaune"
+   ],
+   "enfants": [
+    "jaune"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rose",
+    "rose"
+   ],
+   "enfants": [
+    "rose"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rose",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rose",
+    "blanc"
+   ],
+   "enfants": [
+    "rose",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rouge",
+    "rouge"
+   ],
+   "enfants": [
+    "rouge"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "rouge",
+    "blanc"
+   ],
+   "enfants": [
+    "rouge",
+    "blanc"
+   ],
+   "fiabilite": "images"
+  },
+  {
+   "espece": "Œillets",
+   "parents": [
+    "blanc",
+    "blanc"
+   ],
+   "enfants": [
+    "blanc",
+    "rose",
+    "rouge"
    ],
    "fiabilite": "images"
   }

@@ -3,6 +3,14 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.3.1
+
+### 🌷 Fleurs hybrides : plus de croisements pour Wild World et City Folk
+- **Wild World** passe de 18 à **28 croisements connus**, **City Folk** de 18 à **34**, d'après le tableau complet de Nookipedia.
+- Nouveaux : rose jaune × jaune, **rose dorée × dorée** (→ jaune), rose rouge × violette, les couples blanc × blanc, blanc × jaune et jaune × jaune des tulipes, pensées et cosmos, et les **6 croisements d'œillets** de City Folk.
+- Dans le **Champ**, beaucoup de cases qui affichaient « ? » montrent maintenant les fleurs qui peuvent y pousser.
+- Toujours marqué « à vérifier » : ces règles viennent des tableaux d'images de Nookipedia, pas du jeu.
+
 ## 1.3.0
 
 ### 🎯 Que faire maintenant ?
