@@ -32,7 +32,7 @@ const LECTEURS = {
     coches: cochesImportCF,
     version: save => (save.ville ? `ville de ${save.ville}` : 'RVFOREST.DAT'),
     explication: "Le musée est commun à toute la ville ; les créatures attrapées, le catalogue (meubles, vêtements, papiers peints, sols, papeterie, gyroïdes, fossiles, outils) et les morceaux de K.K. sont propres à chaque joueur.",
-    note: "Exporte « RVFOREST.DAT » avec SaveGame Manager GX (Wii) ou copie-le depuis la NAND de Dolphin (dossier title/00010000/52555545/data pour la version américaine, 52555550 pour l'européenne). Le « data.bin » copié sur la carte SD par le menu de la Wii est chiffré : il ne marche pas. Lecture vérifiée sur trois vraies sauvegardes ; l'ordre des morceaux de K.K. et du musée reste à vérifier sur une ville jouée normalement.",
+    note: "Exporte « RVFOREST.DAT » avec SaveGame Manager GX (Wii) ou copie-le depuis la NAND de Dolphin (dossier title/00010000/52555545/data pour la version américaine, 52555550 pour l'européenne). Le « data.bin » copié sur la carte SD par le menu de la Wii est chiffré : il ne marche pas. Lecture vérifiée sur trois vraies sauvegardes, et le rangement du musée et des morceaux de K.K. dans le code du jeu.",
   },
   nl: {
     titre: 'Ouvrir ma sauvegarde New Leaf (garden_plus.dat)',

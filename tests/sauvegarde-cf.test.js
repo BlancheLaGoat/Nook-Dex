@@ -32,10 +32,12 @@ function sauvegardeTest() {
   mettreBit(o, CATALOGUE, bit(0x9644));            // papier avion (les 4 quantités ont le même bit)
   mettreBit(o, CATALOGUE, 4096);                   // premier morceau de K.K.
   mettreBit(o, JOUEUR + CATALOGUE, bit(0xCE80));   // joueur 2 : la hache
-  o[MUSEE] = 0x12;            // fossile 0 : joueur 1, fossile 1 : joueur 2
-  o[MUSEE + 30] = 0x30;       // poisson 0 : joueur 3
-  o[MUSEE + 62 + 31] = 0x04;  // insecte 63 : joueur 4
-  o[MUSEE + 94 + 11] = 0x20;  // tableau 22 : joueur 2
+  // Musée (comme le jeu) : case paire = quartet bas ; fossiles +0x00, poissons +0x1E, insectes +0x3F, tableaux +0x60.
+  o[MUSEE] = 0x21;              // fossile 0 : joueur 1, fossile 1 : joueur 2
+  o[MUSEE + 0x1E] = 0x03;       // poisson 0 : joueur 3
+  o[MUSEE + 0x3F + 31] = 0x40;  // insecte 63 : joueur 4
+  o[MUSEE + 0x60 + 11] = 0x02;  // tableau 22 : joueur 2
+  o[MUSEE + 0x3E] = 0x55;       // dernier octet des poissons (cases 64-65, vides) : ne doit pas compter pour les insectes
   for (let n = 0; n < 4; n++) signer(o, n);
   return o;
 }
@@ -55,6 +57,7 @@ test('lit une sauvegarde : joueurs, ville, catalogue, musée', async () => {
   assert.deepStrictEqual(s.musee.fossiles.slice(0, 3), [1, 2, 0]);
   assert.strictEqual(s.musee.poissons[0], 3);
   assert.strictEqual(s.musee.insectes[63], 4);
+  assert.deepStrictEqual(s.musee.insectes.slice(0, 2), [0, 0]);
   assert.strictEqual(s.musee.art[22], 2);
 });
 

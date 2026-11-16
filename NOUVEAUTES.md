@@ -3,6 +3,13 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.8.1
+
+### 🏛️ City Folk : le musée bien lu dans ta sauvegarde
+Le rangement du musée et des morceaux de K.K. dans la sauvegarde de City Folk, les deux points qui restaient « à confirmer », est maintenant lu dans le **code du jeu**.
+- **Musée : corrigé.** L'import se trompait sur les insectes et les tableaux, et inversait les cases deux par deux (un poisson donné pouvait cocher son voisin). Si tu as importé une sauvegarde City Folk, refais l'import : il ne fait qu'ajouter des coches, donc décoche à la main ce qui avait été coché à tort au musée.
+- **Morceaux de K.K. : confirmés.** Ils étaient déjà lus correctement.
+
 ## 1.8.0
 
 ### ⚡ Synchro en ligne en direct

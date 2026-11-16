@@ -7,7 +7,11 @@
 //  - joueur : CRC32 à +0x1140 des 0x759C octets qui suivent ; nom à +0x7EFA (8 caractères UTF-16) ;
 //    ville à +0x7EE4 ; catalogue à +0x841A : bit n = objet 0x9000 + 4n (octet n / 8, bit n % 8), créatures
 //    attrapées comprises ; les morceaux de K.K. suivent (bits 4096 et plus) ;
-//  - musée à 0x7352A : un quartet par objet (le haut d'abord) = qui l'a donné (1 à 4).
+//  - musée à 0x7352A (0x74 octets) : un quartet par objet = qui l'a donné (1 à 4) ; la case paire est le quartet
+//    BAS de l'octet. Fossiles à +0x00, poissons à +0x1E, insectes à +0x3F, tableaux à +0x60 ; dans chaque partie,
+//    les objets de la catégorie dans l'ordre de leurs numéros. Lu dans le code du jeu (main.dol US Rev 1 :
+//    0x801199D8 choisit la partie, 0x80119AF4 lit la case, 0x800C2F9C donne le rang dans la catégorie) ;
+//    les morceaux de K.K. ont leur propre champ de 10 octets (0x8013A40C : bit n = n-ième morceau, bit 0 en bas).
 //
 // Ce fichier ne fait que des calculs (pas d'affichage).
 export { cochesImportWW as cochesImportCF } from './sauvegarde-ww.js';
@@ -17,7 +21,7 @@ const TAILLE_JOUEUR = 0x86C0;
 const CATALOGUE = 0x841A;
 const BITS_CATALOGUE = 4096 + 80;
 const MUSEE = 0x7352A;
-const MUSEE_PARTIES = { fossiles: [0, 58], poissons: [30, 64], insectes: [62, 64], art: [94, 23] };
+const MUSEE_PARTIES = { fossiles: [0x00, 58], poissons: [0x1E, 64], insectes: [0x3F, 64], art: [0x60, 23] };
 
 let TABLE_CRC = null;
 export function crc32(o, debut, longueur) {
@@ -66,7 +70,7 @@ export function lireSauvegardeCF(octets) {
   }
   const musee = {};
   for (const [partie, [ofs, nb]] of Object.entries(MUSEE_PARTIES)) {
-    musee[partie] = Array.from({ length: nb }, (_, i) => (s[MUSEE + ofs + (i >> 1)] >> (i & 1 ? 0 : 4)) & 0x0F);
+    musee[partie] = Array.from({ length: nb }, (_, i) => (s[MUSEE + ofs + (i >> 1)] >> (i & 1 ? 4 : 0)) & 0x0F);
   }
   const ville = (joueurs.find(j => j.existe) || {}).ville || '';
   return { format: 'rvforest', ville, joueurs, musee };

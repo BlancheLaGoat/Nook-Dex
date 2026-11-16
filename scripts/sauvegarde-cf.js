@@ -9,8 +9,9 @@
 //  - catalogue (joueur +0x841A) : un bit par objet, bit n = (numéro - 0x9000) / 4 (octet n / 8, bit n % 8) ;
 //    les créatures attrapées (encyclopédie) sont les bits des insectes (0x9960…) et des poissons (0x9AF0…) ;
 //    les morceaux de K.K. suivent le catalogue : bit 4096 + k pour le k-ième morceau (0x94B0 + 4k) ;
-//  - musée (0x7352A) : un quartet par objet (le haut d'abord) = qui l'a donné ; fossiles (+0, 60 cases),
-//    poissons (+30, 64), insectes (+62, 64), tableaux (+94, 28), chacun dans l'ordre des numéros d'objets.
+//  - musée (0x7352A) : un quartet par objet (case paire = quartet bas) = qui l'a donné ; fossiles (+0x00),
+//    poissons (+0x1E), insectes (+0x3F), tableaux (+0x60), chacun dans l'ordre des numéros d'objets.
+//  Musée et morceaux de K.K. vérifiés dans le code du jeu (voir src/renderer/lib/sauvegarde-cf.js).
 //
 // Écrit data/cf/sauvegarde.json. Lancer avec : npm run donnees:sauvegarde-cf   (--maj pour retélécharger la liste)
 const fs = require('fs');
