@@ -3,7 +3,7 @@
 // calibration sont lus dans la sauvegarde et gardés dans le profil (profil.nookWW).
 import { h, vider, ajouterA, image, notifier } from '../lib/dom.js';
 import { etat, donneesCategorie, planifierSauvegarde, maintenant, etatDe } from '../lib/etat.js';
-import { stockPossible, feePossible, prochainesVentes, calibrer, calibrerFee, codePiece, fengShui } from '../lib/nook-ww.js';
+import { stockPossible, feePossible, prochainesVentes, calibrer, calibrerFee, codePiece, fengShui, COULEURS_TOIT } from '../lib/nook-ww.js';
 import { nookWW } from '../lib/sauvegarde-ww.js';
 
 const NIVEAUX = ['Nook Bazar', 'Nook Super', 'Nook Hyper', 'Nook Méga'];
@@ -13,8 +13,11 @@ const NOMS = {
   0x14fe: 'Sac de tulipes rouges', 0x14ff: 'Sac de tulipes blanches', 0x1500: 'Sac de tulipes jaunes', 0x1504: 'Sac de pensées blanches',
   0x1505: 'Sac de pensées jaunes', 0x1506: 'Sac de pensées rouges', 0x150a: 'Sac de cosmos blancs', 0x150b: 'Sac de cosmos rouges',
   0x150c: 'Sac de cosmos jaunes', 0x1510: 'Sac de roses rouges', 0x1511: 'Sac de roses blanches', 0x1512: 'Sac de roses jaunes',
-  0x151d: "Pousse d'arbre", 0x151e: 'Pousse de cèdre', 0x151f: 'Bouteille à la mer', 0x155e: 'Médicament', 0x1521: 'Peinture de toit',
+  0x151d: "Pousse d'arbre", 0x151e: 'Pousse de cèdre', 0x151f: 'Bouteille à la mer', 0x155e: 'Médicament',
 };
+// Les 16 peintures de toit (0x1521 à 0x1530) ; dans un stock prévu dont la couleur n'est pas connue, la première sert de
+// « peinture de toit » sans couleur.
+COULEURS_TOIT.forEach((c, i) => { NOMS[0x1521 + i] = `Peinture ${c}`; });
 const SECTIONS = [['outils', '🪓 Outils'], ['meubles', '🪑 Meubles'], ['papiers', '🧱 Papiers peints'], ['moquettes', '🟫 Moquettes'],
   ['papeterie', '✉️ Papeterie'], ['graines', '🌱 Graines'], ['pousses', '🌳 Pousses'], ['toit', '🏠 Toit'], ['bouteille', '🍾 Bouteille'], ['medicament', '💊 Médicament']];
 const SECTIONS_FEE = [['parapluies', '☂️ Parapluie'], ['vetements', '👕 Vêtements'], ['chapeaux', '🎩 Chapeau'], ['accessoires', '👓 Accessoire']];
@@ -89,7 +92,11 @@ export async function afficherNook(conteneur, jeu) {
     const ancien = profil.nookWW;
     const memeVille = ancien && ancien.ordres.join() === n.ordres.join() && ancien.niveau === n.niveau;
     const garde = memeVille ? reglages.filter(r => ancien.reglages.some(a => a.dixieme === r.dixieme && a.extras === r.extras)) : reglages;
-    profil.nookWW = { ordres: n.ordres, niveau: n.niveau, reglages: garde.length ? garde : reglages, date: iso(date),
+    // Le jour des points bonus prévu : seulement s'il tombe dans la semaine qui suit la sauvegarde (sinon il est passé).
+    const b = new Date(n.bonus.annee, n.bonus.mois - 1, n.bonus.jour);
+    const ecart = Math.round((b - date) / 86400000);
+    const bonus = n.bonus.mois >= 1 && n.bonus.mois <= 12 && ecart >= 0 && ecart <= 6 ? iso(b) : null;
+    profil.nookWW = { ordres: n.ordres, niveau: n.niveau, reglages: garde.length ? garde : reglages, date: iso(date), peinture: n.peinture, bonus,
       fengShui: fengShuiExact ? { ...fs, taille: n.tailleMaison } : null };
     planifierSauvegarde();
     notifier(`Stock du ${date.toLocaleDateString('fr-FR')} retrouvé à l'identique : prévisions prêtes.`);
@@ -128,18 +135,23 @@ export async function afficherNook(conteneur, jeu) {
       const l = st.objets.filter(x => x.section === id);
       if (!l.length) continue;
       section.append(h('h3', {}, titre), h('div', { class: 'liste-mini' }, puces(l)));
+      if (id === 'toit' && l.some(x => x.incertain) && v.peinture != null) {
+        const suite = [0, 1, 2, 3].map(k => COULEURS_TOIT[(v.peinture + k) % 16]).join(', ');
+        section.append(h('p', { class: 'aide' }, `La couleur avance d'une case à chaque jour où tu joues. Après ta sauvegarde : ${suite}…`));
+      }
     }
     function puces(l) {
       return l.map(x => {
         const o = objet(x.code);
-        return h('span', { class: `puce-element${x.sur ? '' : ' possible'}`, title: [o.nom, x.sur ? '' : `possible${x.incertain ? ` : ${INCERTAIN[x.incertain] || ''}` : ' (selon le feng shui ou les extras du jour)'}`, obtenu(o) ? 'déjà dans ton catalogue' : ''].filter(Boolean).join(' — ') },
-          o.fiche && o.fiche.image ? image(o.fiche.image, '', 'vignette petite') : null, o.nom, x.sur ? null : h('span', { class: 'aide' }, ' ?'), obtenu(o) ? h('span', { class: 'aide' }, ' ✓') : null);
+        if (x.section === 'toit' && x.incertain) o.nom = 'Peinture de toit';
+        return h('span', { class: `puce-element${x.sur ? '' : ' possible'}`, title: [o.nom, x.sur ? '' : `possible${x.incertain ? ` : ${INCERTAIN[x.incertain] || ''}` : ' (selon le jour des points bonus de Nook, ou le feng shui)'}`, obtenu(o) ? 'déjà dans ton catalogue' : ''].filter(Boolean).join(' — ') },
+          o.fiche && o.fiche.image ? image(o.fiche.image, '', 'vignette petite') : null, o.nom, x.nombre > 1 ? ` ×${x.nombre}` : null, x.sur ? null : h('span', { class: 'aide' }, ' ?'), obtenu(o) ? h('span', { class: 'aide' }, ' ✓') : null);
       });
     }
     const fee = feePossible(donnees, v, date, reglages);
     section.append(h('h2', { style: { marginTop: '18px' } }, '✂️ Les Doigts de fée'));
     for (const [id, titre] of SECTIONS_FEE) section.append(h('h3', {}, titre), h('div', { class: 'liste-mini' }, puces(fee.objets.filter(x => x.section === id))));
-    section.append(h('p', { class: 'aide' }, "« ? » : possible seulement (un meuble échangé certains jours, le feng shui quand Nook Dex n'a pas pu le calculer, ou une règle du jeu). ✓ : déjà dans ton catalogue. Le jour du magasin commence à 6 h."));
+    section.append(h('p', { class: 'aide' }, "« ? » : possible seulement (un samedi ou un dimanche, le jour des points bonus n'est pas encore choisi par le jeu ; ou le feng shui quand Nook Dex n'a pas pu le calculer). ✓ : déjà dans ton catalogue. Le jour du magasin commence à 6 h."));
     corps.append(section);
 
     // ---- quand Nook vendra-t-il… ----

@@ -3,6 +3,15 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.4.3
+
+### 🏪 Magasin de Nook (Wild World) : presque plus de « ? »
+- **Peinture de toit** : le jour de ta sauvegarde, sa vraie couleur est affichée. Pour les jours suivants, Nook Dex donne les prochaines couleurs dans l'ordre : elle change d'une case à chaque jour où tu joues.
+- **Jour des points bonus** : le samedi ou le dimanche où Nook ne change pas de meuble. S'il est déjà prévu dans ta sauvegarde, Nook Dex en tient compte. Sinon, il calcule les deux cas, et seuls les objets qui changent restent marqués « ? ».
+- **Correction** : un objet vendu en double le même jour (deux pousses de cèdre, par exemple) était marqué « ? » à tort. Il est maintenant sûr, avec « ×2 ».
+- **Correction** : en décembre, l'objet de Noël d'un jour de points bonus était parfois faux.
+- Résultat : plus aucun « ? » en semaine, et moins d'un par week-end en moyenne.
+
 ## 1.4.2
 
 ### 🏮 Magasin de Nook (Wild World) : le feng shui de ta maison, calculé

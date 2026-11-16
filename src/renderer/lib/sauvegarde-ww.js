@@ -155,6 +155,10 @@ export function nookWW(octets) {
   return {
     ordres: Array.from(s.subarray(ORDRES, ORDRES + 9)),
     niveau: (u16(s, NOOK + 0x5A) >> 9) & 3,
+    // Le compteur de la peinture de toit (bits 5-8) : la couleur du prochain stock (0x1521 + compteur).
+    peinture: (u16(s, NOOK + 0x5A) >> 5) & 15,
+    // Le jour des points bonus prévu (jour, mois, année − 2000), s'il y en a un.
+    bonus: { jour: s[NOOK + 0x52], mois: s[NOOK + 0x53], annee: 2000 + s[NOOK + 0x54] },
     stock: Array.from({ length: 37 }, (_, i) => u16(s, NOOK + 4 + i * 2)),
     date: { jour: s[NOOK + 0x4E], mois: s[NOOK + 0x4F], annee: 2000 + s[NOOK + 0x50] },
     pieces: Array.from({ length: 5 }, (_, p) => Array.from({ length: 512 }, (_, i) => u16(s, MAISON + p * 0x450 + i * 2))),

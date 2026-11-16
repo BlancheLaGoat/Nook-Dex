@@ -100,3 +100,31 @@ test('Feng shui (Wild World) : rouges à l\'est, verts au sud, arrondi du jeu', 
   assert.deepEqual(fengShui(d, pieces, 5), avant);
   assert.equal(fengShui(d, pieces, 6).vert, avant.vert + 1);
 });
+
+test('Nook (Wild World) : objets en double, jour des points bonus et peinture de toit', async () => {
+  const { stock, stockPossible } = await charger();
+  const r = [{ dixieme: 15, extras: true }];
+  // Le 17/02/2026, la ville vérifiée a deux pousses de cèdre : « sûres », vendues deux fois.
+  const ville = { ...VILLE, peinture: 1, date: '2026-02-17', bonus: null };
+  const jour = stockPossible(d, ville, new Date(2026, 1, 17), r);
+  const pousse = jour.objets.find(x => x.code === 0x151e);
+  assert.equal(pousse.nombre, 2);
+  assert.ok(jour.objets.every(x => x.sur));
+  // La peinture du jour de la sauvegarde : celle d'avant le compteur (1 → grise, 0x1521) ; un autre jour, inconnue.
+  assert.equal(jour.objets.find(x => x.section === 'toit').code, 0x1521);
+  assert.ok(stockPossible(d, ville, new Date(2026, 1, 18), r).objets.find(x => x.section === 'toit').incertain);
+  // Un samedi : les deux cas (jour bonus ou non) sont réunis ; si le jour bonus est connu, un seul.
+  let samedi = null;
+  for (let k = 0; k < 400 && !samedi; k++) {
+    const dt = new Date(2026, 0, 3 + k * 7);
+    const a = stock(d, ville, dt, { ...r[0], bonus: false }).objets.map(x => x.code).join();
+    const b = stock(d, ville, dt, { ...r[0], bonus: true }).objets.map(x => x.code).join();
+    if (a !== b) samedi = dt;
+  }
+  assert.ok(samedi, 'un samedi où le jour bonus change le stock');
+  assert.ok(stockPossible(d, ville, samedi, r).objets.some(x => !x.sur));
+  const iso = `${samedi.getFullYear()}-${String(samedi.getMonth() + 1).padStart(2, '0')}-${String(samedi.getDate()).padStart(2, '0')}`;
+  assert.ok(stockPossible(d, { ...ville, bonus: iso }, samedi, r).objets.filter(x => x.section !== 'toit').every(x => x.sur));
+  const dimanche = new Date(samedi.getFullYear(), samedi.getMonth(), samedi.getDate() + 1);
+  assert.ok(stockPossible(d, { ...ville, bonus: iso }, dimanche, r).objets.filter(x => x.section !== 'toit').every(x => x.sur));
+});

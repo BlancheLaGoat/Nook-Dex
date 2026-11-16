@@ -21,6 +21,8 @@ export const AUCUN = 0xfff1;
 export const CANNE = 0x1374;
 export const PEINTURE_TOIT = 0x1521; // la première des 16 peintures de toit (la couleur suit un compteur du jeu)
 
+const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
 // ---- générateur (fx_math.c) et graine (date_random.c) ----
 class Hasard {
   constructor(graine) { this.s = graine >>> 0; }
@@ -136,7 +138,9 @@ function tirerLot(d, n, genre, groupe, ordres, s, h, dixieme) {
 // Renvoie { objets: [{ code, section, incertain?, ajout? }], soldes } (soldes : l'heure des soldes, 0 sans).
 // incertain : le jeu y met parfois autre chose (place de la canne au niveau 0, jour des points bonus, couleur de la
 // peinture de toit) ; ajout : un objet en vente qui n'occupe pas une place à lui (la canne du niveau 0).
-export function stock(d, ville, date, { dixieme = 0, extras = false } = {}) {
+// bonus : ce jour est le jour des points bonus de Nook (un samedi ou un dimanche) : pas de meuble échangé, et le
+// tirage du meuble échangé n'est pas fait (ce qui décale l'objet de décembre).
+export function stock(d, ville, date, { dixieme = 0, extras = false, bonus = false } = {}) {
   const [annee, mois, jour] = [date.getFullYear() - 2000, date.getMonth() + 1, date.getDate()];
   const niv = Math.max(0, Math.min(3, ville.niveau | 0));
   const t = k => d.tailles[k][niv];
@@ -164,18 +168,16 @@ export function stock(d, ville, date, { dixieme = 0, extras = false } = {}) {
   ajouter(tirerPlages(d, 1, 0x155e, 1, h), 'medicament');
 
   // Extras du jour (seulement si un joueur n'a pas fini de travailler pour Nook) : les soldes d'une heure un jour sur
-  // 14, sinon un meuble échangé contre un du lot (0, 4) un jour sur 5, sauf le jour des points bonus (un samedi ou
-  // un dimanche, choisi par le jeu au fil des jours : incertain).
+  // 14, sinon (et pas le jour des points bonus) un meuble échangé contre un du lot (0, 4) un jour sur 5.
   let soldes = 0;
   if (extras) {
-    h.sous(2); // le jour des points bonus (samedi ou dimanche)
+    h.sous(2); // pour choisir le prochain jour des points bonus (samedi ou dimanche)
     if (h.sous(14) === 0) soldes = h.sous(4) + 17;
-    if (!soldes && h.sous(5) === 0) {
+    if (!soldes && !bonus && h.sous(5) === 0) {
       const i = res.findIndex(x => estMeuble(x.code));
       if (i >= 0) {
         const [nouveau] = tirerLot(d, 1, 0, 4, ville.ordres, s, h, dixieme);
-        const weekend = date.getDay() === 0 || date.getDay() === 6;
-        res[i] = { code: nouveau, section: 'meubles', echange: true, ...(weekend ? { incertain: 'bonus' } : {}) };
+        res[i] = { code: nouveau, section: 'meubles', echange: true };
       }
     }
   }
@@ -298,16 +300,49 @@ export function calibrer(d, ville, date, stockLu) {
 // reglages : la sortie de calibrer (ou [{ dixieme: 0, extras: false }] sans sauvegarde).
 // Renvoie { objets: [{ code, section, sur, ... }], soldes } : un objet est « sûr » s'il est en vente quel que soit
 // le réglage (et sans incertitude du jeu).
-export function stockPossible(d, ville, date, reglages) {
-  const stocks = reglages.map(r => stock(d, ville, date, r));
+// Les objets de plusieurs stocks possibles d'un même jour, chacun une fois : « sûr » s'il est dans tous (sans incertitude
+// du jeu) ; nombre : combien de fois il est en vente ce jour-là (deux pousses, par exemple), au plus.
+function reunir(stocks) {
   const parCode = new Map();
-  stocks.forEach(st => st.objets.forEach(x => {
-    const e = parCode.get(x.code) || { ...x, fois: 0 };
-    e.fois++;
-    if (x.incertain) e.incertain = x.incertain;
-    parCode.set(x.code, e);
-  }));
-  const objets = [...parCode.values()].map(e => ({ ...e, sur: e.fois === stocks.length && !e.incertain }));
+  for (const st of stocks) {
+    const ici = new Map();
+    for (const x of st.objets) ici.set(x.code, [...(ici.get(x.code) || []), x]);
+    for (const [code, l] of ici) {
+      const e = parCode.get(code) || { ...l[0], fois: 0, nombre: 0 };
+      e.fois++;
+      e.nombre = Math.max(e.nombre, l.length);
+      if (l.some(x => x.incertain)) e.incertain = l.find(x => x.incertain).incertain;
+      parCode.set(code, e);
+    }
+  }
+  return [...parCode.values()].map(e => ({ ...e, sur: e.fois === stocks.length && !e.incertain }));
+}
+
+// Le jour des points bonus : le jeu le choisit au fil des jours joués (le samedi ou le dimanche qui suit), on ne le
+// connaît que s'il est déjà prévu dans la sauvegarde (ville.bonus, 'AAAA-MM-JJ', dans la semaine qui suit la sauvegarde) ; les autres
+// samedis et dimanches, les deux cas sont calculés.
+function casBonus(ville, date) {
+  const j = date.getDay();
+  if (j !== 0 && j !== 6) return [false];
+  if (ville.bonus) {
+    const [a, m, jj] = ville.bonus.split('-').map(Number);
+    const b = new Date(a, m - 1, jj);
+    const ecart = Math.round((date - b) / 86400000);
+    if (Math.abs(ecart) <= 1) return [ecart === 0];
+  }
+  return [false, true];
+}
+// La peinture de toit : la couleur suit un compteur qui avance à chaque nouveau stock (un par jour joué). Le compteur
+// lu dans la sauvegarde donne la couleur du jour de la sauvegarde (ville.date) et celle du prochain stock.
+export const COULEURS_TOIT = ['grise', 'marron', 'rouge', 'rose', 'orange', 'jaune', 'vert clair', 'verte', 'vert foncé', 'turquoise',
+  'bleu ciel', 'bleue', 'bleu marine', 'violette', 'lilas', 'rose vif'];
+export function stockPossible(d, ville, date, reglages) {
+  const stocks = reglages.flatMap(r => casBonus(ville, date).map(bonus => stock(d, ville, date, { ...r, bonus })));
+  if (ville.peinture != null && ville.date && iso(date) === ville.date) {
+    const code = PEINTURE_TOIT + ((ville.peinture + 15) % 16);
+    stocks.forEach(st => st.objets.forEach(x => { if (x.section === 'toit') { x.code = code; delete x.incertain; } }));
+  }
+  const objets = reunir(stocks);
   const soldes = stocks.every(st => st.soldes === stocks[0].soldes) ? stocks[0].soldes : null;
   return { objets, soldes };
 }
@@ -315,10 +350,7 @@ export function stockPossible(d, ville, date, reglages) {
 // Le stock des Doigts de fée pour tous les feng shui possibles (les extras ne les concernent pas).
 export function feePossible(d, ville, date, reglages) {
   const dixiemes = [...new Set(reglages.map(r => r.dixieme))];
-  const stocks = dixiemes.map(dixieme => stockFee(d, ville, date, { dixieme }));
-  const parCode = new Map();
-  stocks.forEach(st => st.objets.forEach(x => { const e = parCode.get(x.code) || { ...x, fois: 0 }; e.fois++; parCode.set(x.code, e); }));
-  return { objets: [...parCode.values()].map(e => ({ ...e, sur: e.fois === stocks.length })) };
+  return { objets: reunir(dixiemes.map(dixieme => stockFee(d, ville, date, { dixieme }))) };
 }
 
 // ---- quand Nook (ou les Doigts de fée) vendra-t-il ces objets ? ----
