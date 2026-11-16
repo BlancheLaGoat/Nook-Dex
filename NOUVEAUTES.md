@@ -3,6 +3,17 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.7.0
+
+### ☁️ Synchro en ligne entre le PC et le téléphone
+Tes profils se synchronisent maintenant **par internet** entre tes appareils : coche un poisson sur le téléphone, il est coché sur le PC.
+- **Pas de compte** : dans **Réglages → Synchro en ligne**, touche **Activer sur cet appareil**, puis **Afficher le code**. Sur l'autre appareil, entre ce code et touche **Relier**. Le bouton **Copier le code** évite de le recopier à la main.
+- **Tout se synchronise** : les coches (obtenu, musée), les profils créés ou supprimés, leurs réglages, la semaine de navets, le champ de fleurs et la carte de la ville.
+- **Rien ne se perd** : chaque coche est fusionnée à part. Tu peux cocher des meubles sur le PC et des insectes sur le téléphone sans synchro entre les deux. Les décochages se propagent aussi, et un profil supprimé ailleurs part dans la corbeille.
+- **C'est automatique** : au démarrage, quelques secondes après une modif, toutes les 5 minutes, et quand tu reviens sur l'appli. Il y a aussi **Synchroniser maintenant**.
+- **Privé** : tes profils sont **chiffrés sur l'appareil** avant l'envoi, avec une clé tirée de ton code. Le serveur ne voit qu'un bloc illisible. Garde ton code pour toi.
+- Le serveur est le même que celui de Coffre. Les deux applis ne se mélangent pas, même si tu utilises le même code.
+
 ## 1.6.0
 
 ### 📱 Nook Dex sur Android

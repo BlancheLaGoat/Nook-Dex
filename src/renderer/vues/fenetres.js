@@ -3,6 +3,8 @@ import { h, vider, ouvrirFenetre, confirmer, notifier } from '../lib/dom.js';
 import { etat, enregistrerReglages, sauvegarderMaintenant, signaler } from '../lib/etat.js';
 import { erreurNom } from '../lib/motdepasse-gc.js';
 import { partieVersion, blocs, morceaux } from '../lib/nouveautes.js';
+import { sectionSynchro } from './synchro.js';
+
 
 // Jeux dont les codes d'objets dépendent du nom du joueur et de la ville.
 const JEUX_AVEC_CODES = ['gc'];
@@ -215,6 +217,7 @@ export async function fenetreReglages(etatMaj) {
         ? "Profils et copies de secours sont rangés dans l'appli, sur ton téléphone. Pour les garder ailleurs, exporte ta progression (fenêtre des profils)."
         : `Profils, copies de secours et images sont rangés dans : ${infos.dossier}`),
       android ? null : h('div', {}, h('button', { class: 'bouton petit', onclick: () => window.nook.ouvrirDossier() }, 'Ouvrir le dossier'))),
+    h('div', { class: 'champ-formulaire' }, h('strong', {}, 'Synchro en ligne'), sectionSynchro()),
     h('label', {}, 'Version',
       h('span', {}, `Nook Dex ${infos.version}`),
       h('div', {}, h('button', { class: 'bouton petit', onclick: () => fenetreNouveautes(infos.version) }, '✨ Quoi de neuf ?')),

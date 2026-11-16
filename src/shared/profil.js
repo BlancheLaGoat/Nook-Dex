@@ -58,8 +58,20 @@
     };
   }
 
+  // État de la synchro en ligne d'un appareil (src/renderer/lib/synchro.js) : code, dernière version synchronisée,
+  // date et message de la dernière synchro.
+  function normaliserSynchro(s) {
+    if (!s || typeof s !== 'object' || typeof s.code !== 'string' || !/^[0-9A-Z]{32}$/.test(s.code)) throw new Error('État de synchro invalide');
+    return {
+      code: s.code,
+      base: s.base && typeof s.base === 'object' && !Array.isArray(s.base) ? s.base : {},
+      derniere: Number.isFinite(s.derniere) ? s.derniere : null,
+      erreur: typeof s.erreur === 'string' ? s.erreur.slice(0, 300) : '',
+    };
+  }
+
   // Nom de fichier proposé pour exporter un profil.
   const nomExportProfil = p => `nook-dex-${p.jeu}-${p.nom.replace(/[^\p{L}\p{N} _-]/gu, '').trim() || 'profil'}.json`;
 
-  return { VERSION_SCHEMA, ID_VALIDE, nouvelId, normaliserProfil, resumeProfil, normaliserReglages, nomExportProfil };
+  return { VERSION_SCHEMA, ID_VALIDE, nouvelId, normaliserProfil, resumeProfil, normaliserReglages, normaliserSynchro, nomExportProfil };
 }));

@@ -28,6 +28,9 @@ contextBridge.exposeInMainWorld('nook', {
   importerProfil: () => ipcRenderer.invoke('profils:importer'),
 
   lireReglages: () => ipcRenderer.invoke('reglages:lire'),
+  // Synchro en ligne : code et dernière version synchronisée, propres à cet appareil (jamais exportés).
+  lireSynchro: () => ipcRenderer.invoke('synchro:lire'),
+  ecrireSynchro: s => ipcRenderer.invoke('synchro:ecrire', s),
   ecrireReglages: r => ipcRenderer.invoke('reglages:ecrire', r),
 
   infosApp: () => ipcRenderer.invoke('app:infos'),

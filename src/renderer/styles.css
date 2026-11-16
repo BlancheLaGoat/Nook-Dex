@@ -561,3 +561,12 @@ body.fiche-ouverte #app { margin-right: min(440px, 92vw); }
 /* Magasin de Nook : objet seulement possible (selon le feng shui ou une règle du jeu), champ de recherche. */
 .puce-element.possible { opacity: 0.75; border-style: dashed; }
 input[type="search"] { width: 100%; max-width: 520px; }
+/* Synchro en ligne (réglages). */
+.champ-formulaire { display: grid; gap: 6px; }
+.synchro { display: grid; gap: 8px; }
+.synchro-boutons, .synchro-relier { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.synchro-relier input { flex: 1 1 240px; min-width: 0; border: 1px solid var(--bord); background: var(--surface-2); border-radius: var(--rayon-petit); padding: 6px 10px; font-family: ui-monospace, Consolas, monospace; }
+.synchro-code { display: grid; gap: 6px; background: var(--surface-2); border-radius: var(--rayon-petit); padding: 10px 12px; }
+.synchro-code code { font-family: ui-monospace, Consolas, monospace; font-size: 15px; font-weight: 700; letter-spacing: 0.04em; overflow-wrap: anywhere; }
+.aide.erreur { color: var(--rouge); }
+

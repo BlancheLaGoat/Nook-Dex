@@ -180,3 +180,21 @@ mobile/scripts/patch-android.js version, Obtainium, icône et écran de démarra
   `https://github.com/BlancheLaGoat/Nook-Dex`. L'appli vérifie aussi elle-même s'il existe une version plus récente.
 - **Tester l'interface « téléphone » sur le PC** : `node mobile/scripts/prepare-www.js`, puis ouvrir `mobile/www`
   avec un petit serveur local dans un navigateur en taille téléphone (sans Capacitor, les profils vont dans localStorage).
+
+## Synchro en ligne
+
+Le PC et le téléphone synchronisent leurs profils par internet (Réglages → Synchro en ligne), sans compte :
+un **code de synchro** relie les appareils, et les profils sont compressés puis **chiffrés sur l'appareil** (AES-GCM)
+avec une clé tirée du code.
+
+- **Serveur** : celui de Coffre, réutilisé tel quel (`https://coffre-sync.ixaglax.workers.dev`, dépôt Coffre,
+  `cloud/worker.js` + base D1). Il garde un bloc chiffré par identifiant et ne peut pas le lire. Nook Dex tire son
+  identifiant et sa clé du code avec le préfixe `nookdex-` (Coffre : `coffre-`) : les deux applis ne se mélangent jamais.
+  L'adresse est dans `src/renderer/lib/synchro.js` (`URL_SERVEUR`) et dans la politique de sécurité (CSP) de
+  `src/renderer/index.html` et `mobile/scripts/prepare-www.js`.
+- **Fusion à trois** (`src/renderer/lib/synchro.js`) : chaque appareil garde la dernière version synchronisée (« base »,
+  dans `synchro.json`, jamais exporté). Pour chaque coche et chaque réglage d'un profil, ce que l'appareil a changé
+  depuis la base gagne ; sinon on prend la version en ligne. Décochages et suppressions se propagent ainsi.
+- **Côté appli** (`src/renderer/vues/synchro.js`) : quand synchroniser, mise à jour du profil ouvert (une coche faite
+  pendant la synchro est gardée), et la section des réglages.
+

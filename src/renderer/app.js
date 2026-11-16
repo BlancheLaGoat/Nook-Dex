@@ -16,6 +16,7 @@ import { afficherAFaire } from './vues/a-faire.js';
 import { afficherNavets } from './vues/navets.js';
 import { afficherFleurs } from './vues/fleurs.js';
 import { afficherNook } from './vues/nook.js';
+import { demarrerSynchro } from './vues/synchro.js';
 
 // Jeux qui ont l'écran des navets (tous ont un prédicteur ; voir vues/navets.js).
 const JEUX_NAVETS = ['nh', 'gc', 'nl', 'cf', 'ww'];
@@ -211,6 +212,8 @@ async function demarrer() {
     if (raison === 'reglages') { dessinerEntete(); tic(); }
     if (raison === 'erreur') notifier(detail, 'erreur');
     if (raison === 'profil-supprime') { dessinerEntete(); afficherBienvenue(); }
+    // Synchro en ligne : des profils ont changé (sur cet appareil, l'écran se redessine si c'est le profil ouvert).
+    if (raison === 'synchro') { dessinerEntete(); if (etat.profil && etat.vue) afficherVue(etat.vue); }
   });
 
   window.nook.surEtatMaj(m => {
@@ -238,6 +241,7 @@ async function demarrer() {
   if (choix) await choisirProfil(choix.id);
   else afficherBienvenue();
   await montrerNouveautesSiBesoin();
+  demarrerSynchro();
 }
 
 // Après une mise à jour, la fenêtre « Quoi de neuf ? » s'ouvre une fois. Pas pour une toute

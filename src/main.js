@@ -16,6 +16,7 @@ const DOSSIER_SAUVEGARDES = path.join(DOSSIER_UTILISATEUR, 'sauvegardes');
 const DOSSIER_CORBEILLE = path.join(DOSSIER_UTILISATEUR, 'corbeille');
 const DOSSIER_IMAGES = path.join(DOSSIER_UTILISATEUR, 'images');
 const FICHIER_REGLAGES = path.join(DOSSIER_UTILISATEUR, 'reglages.json');
+const FICHIER_SYNCHRO = path.join(DOSSIER_UTILISATEUR, 'synchro.json');
 const SAUVEGARDES_GARDEES = 10;
 
 // Seules ces adresses peuvent fournir des images (sécurité).
@@ -300,6 +301,14 @@ function brancherIpc() {
   });
 
   ipcMain.handle('reglages:lire', () => lireJson(FICHIER_REGLAGES, {}));
+  // Synchro en ligne (lib/synchro.js) : null = pas de synchro sur cet appareil.
+  ipcMain.handle('synchro:lire', () => lireJson(FICHIER_SYNCHRO, null));
+  ipcMain.handle('synchro:ecrire', (_e, s) => {
+    if (s === null) { fs.rmSync(FICHIER_SYNCHRO, { force: true }); return true; }
+    const propre = NookProfil.normaliserSynchro(s);
+    ecrireSur(FICHIER_SYNCHRO, JSON.stringify(propre));
+    return true;
+  });
   ipcMain.handle('reglages:ecrire', (_e, r) => {
     const propre = NookProfil.normaliserReglages(r);
     ecrireSur(FICHIER_REGLAGES, JSON.stringify(propre, null, 1));

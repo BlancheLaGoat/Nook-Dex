@@ -302,6 +302,13 @@
     },
 
     lireReglages: () => lireJson('reglages.json', {}),
+    // Synchro en ligne : code et dernière version synchronisée, propres à cet appareil (jamais exportés).
+    lireSynchro: () => lireJson('synchro.json', null),
+    async ecrireSynchro(s) {
+      if (s === null) { await stockage.supprimer('synchro.json'); return true; }
+      await ecrireSur('synchro.json', JSON.stringify(Profil.normaliserSynchro(s)));
+      return true;
+    },
     async ecrireReglages(r) {
       const propre = Profil.normaliserReglages(r);
       await ecrireSur('reglages.json', JSON.stringify(propre, null, 1));
