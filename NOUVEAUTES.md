@@ -3,6 +3,14 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.7.1
+
+### ☁️ Synchro en ligne : les changements arrivent beaucoup plus vite
+- Quand Nook Dex est affiché, il regarde **toutes les 20 secondes** s'il y a du neuf en ligne (avant : toutes les 5 minutes).
+- Sur PC, la synchro se fait aussi **dès que tu reviens sur la fenêtre** de Nook Dex (avant : seulement si elle était réduite).
+- Une coche part en ligne **2 secondes** après (avant : 6).
+- Résultat : une coche faite sur le téléphone apparaît sur le PC en quelques secondes, et inversement.
+
 ## 1.7.0
 
 ### ☁️ Synchro en ligne entre le PC et le téléphone

@@ -197,4 +197,6 @@ avec une clé tirée du code.
   depuis la base gagne ; sinon on prend la version en ligne. Décochages et suppressions se propagent ainsi.
 - **Côté appli** (`src/renderer/vues/synchro.js`) : quand synchroniser, mise à jour du profil ouvert (une coche faite
   pendant la synchro est gardée), et la section des réglages.
+  Quand synchroniser : au démarrage, 2 s après un enregistrement, toutes les 20 s tant que l'appli est affichée, et
+  dès que la fenêtre reprend la main (PC) ou que l'appli revient au premier plan (téléphone).
 

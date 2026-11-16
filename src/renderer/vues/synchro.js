@@ -72,18 +72,21 @@ async function lancer({ manuel = false, doitExister = false } = {}) {
   }
 }
 // Après une modif, on attend un peu : plusieurs coches d'affilée = un seul envoi.
-function bientot(ms = 6000) {
+function bientot(ms = 2000) {
   clearTimeout(minuterie);
   if (etatSynchro) minuterie = setTimeout(() => lancer(), ms);
 }
+// Quand l'appli est affichée, on regarde régulièrement s'il y a du neuf en ligne (une lecture coûte très peu).
+export const INTERVALLE_SYNCHRO = 20 * 1000;
 
-// Au démarrage de l'appli : synchro tout de suite, puis après chaque enregistrement, toutes les 5 minutes,
-// et quand on revient sur l'appli.
+// Au démarrage de l'appli : synchro tout de suite, puis après chaque enregistrement, toutes les 20 secondes
+// tant que l'appli est affichée, et dès qu'on revient dessus (fenêtre du PC qui reprend la main, téléphone rallumé).
 export async function demarrerSynchro() {
   try { etatSynchro = await window.nook.lireSynchro(); } catch (e) { etatSynchro = null; }
   surChangement(raison => { if (raison === 'sauvegarde') bientot(); });
-  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') bientot(800); });
-  setInterval(() => { if (document.visibilityState !== 'hidden') lancer(); }, 5 * 60 * 1000);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') bientot(300); });
+  window.addEventListener('focus', () => bientot(300));
+  setInterval(() => { if (document.visibilityState !== 'hidden') lancer(); }, INTERVALLE_SYNCHRO);
   bientot(1500);
 }
 
