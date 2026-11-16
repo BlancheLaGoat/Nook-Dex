@@ -204,6 +204,7 @@ function brancherIpc() {
   const FILTRES_SAUVEGARDE = {
     gc: { name: 'Sauvegarde GameCube', extensions: ['gci', 'raw'] },
     ww: { name: 'Sauvegarde Nintendo DS', extensions: ['sav', 'dsv'] },
+    cf: { name: 'Sauvegarde City Folk (RVFOREST.DAT)', extensions: ['dat'] },
     nl: { name: 'Sauvegarde New Leaf (garden_plus.dat)', extensions: ['dat'] },
   };
   ipcMain.handle('fichier:lireSauvegarde', async (_e, titre, jeu) => {

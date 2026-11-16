@@ -3,6 +3,30 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.5.0
+
+### 💾 City Folk : import de ta sauvegarde
+Le bouton **Importer ma sauvegarde du jeu…** marche maintenant aussi pour **City Folk**. Choisis le fichier `RVFOREST.DAT` de ta partie : Nook Dex coche ce que tu as déjà.
+- **Le musée** (fossiles, poissons, insectes, tableaux), commun à toute la ville.
+- **Pour chaque joueur** : les poissons et insectes attrapés, le catalogue (meubles, vêtements, papiers peints, sols, papeterie, gyroïdes, fossiles, outils) et les morceaux de K.K.
+- Pour récupérer `RVFOREST.DAT` : exporte-le avec **SaveGame Manager GX** sur une Wii, ou copie-le depuis le dossier de la console dans **Dolphin**. Le `data.bin` que le menu de la Wii copie sur la carte SD est chiffré : il ne marche pas.
+- Comme pour les autres jeux, l'import ne fait qu'ajouter des coches et ta sauvegarde n'est jamais modifiée.
+- La lecture est vérifiée sur trois vraies sauvegardes. L'ordre des morceaux de K.K. et des cases du musée reste à confirmer sur une ville jouée normalement.
+
+### 🥬 Navets de City Folk : les prix lus dans ta sauvegarde
+Comme pour la GameCube, Wild World et New Leaf, l'écran **Navets** de City Folk a maintenant le bouton **Prix de ma sauvegarde** : le jeu choisit les prix de toute la semaine dès le dimanche et les range dans `RVFOREST.DAT`.
+- Remplis seulement les cours déjà passés, ou **vois toute la semaine** d'un coup.
+- Nook Dex affiche aussi **le motif de la semaine, lu dans le jeu**.
+- Vérifié sur deux vraies semaines (un gros pic à 223 clochettes pour un achat à 97, et une semaine fluctuante) : le prédicteur de City Folk retrouve à chaque fois le motif enregistré par le jeu, ce qui confirme aussi ses calculs.
+
+### 🌷 Fleurs hybrides de City Folk : la vraie table du jeu
+Les croisements de **City Folk** ne viennent plus de Nookipedia : ils sont lus dans le **code du jeu**, avec la **chance de chaque enfant**, comme pour Wild World.
+- **Croisement**, **Champ** et **Règles** affichent maintenant les pourcentages (par exemple, rose violette × noire : 40 % violette, 40 % noire, **20 % bleue**).
+- City Folk reprend presque toute la table de Wild World. Une seule différence : cosmos rouge × noir donne **80 % rouge et 20 % noir** (50/50 dans Wild World).
+- **Les œillets** ont leurs chances : rouge × rose = 40 % rouge, 40 % rose, **20 % blanc**. Les autres couples ne donnent que les couleurs des parents (blanc × blanc = blanc).
+- **Les roses dorées se croisent**, et leur résultat est curieux : le jeu lit une case qui n'est pas prévue pour elles. Deux roses dorées donnent toujours une **rose jaune**. Avec une autre rose, le résultat dépend de la fleur d'où part le jeu (le détail est dans l'onglet Règles). Ça explique les résultats étranges notés par les joueurs.
+- **Comment ça marche** est aussi tiré du code : chaque jour, le jeu fait **5 essais** de croisement dans la ville. La partenaire est la première voisine qui convient, en commençant en haut à gauche.
+
 ## 1.4.3
 
 ### 🏪 Magasin de Nook (Wild World) : presque plus de « ? »

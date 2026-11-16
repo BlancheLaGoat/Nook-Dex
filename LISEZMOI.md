@@ -34,6 +34,7 @@ src/renderer/          l'interface
   lib/filtres.js       recherche, filtres, tri, progression
   lib/sauvegarde-gc.js lecture des sauvegardes du GameCube (.gci, carte .raw) — jamais d'écriture
   lib/sauvegarde-ww.js lecture des sauvegardes de Wild World (.sav, .dsv) — jamais d'écriture
+  lib/sauvegarde-cf.js lecture des sauvegardes de City Folk (RVFOREST.DAT, navets compris) — jamais d'écriture
   lib/sauvegarde-nl.js lecture des sauvegardes de New Leaf (garden_plus.dat) — jamais d'écriture
   lib/sauvegarde-nh.js déchiffrement et lecture des sauvegardes de New Horizons 3.0 — jamais d'écriture
 data/jeux.json         liste des jeux, catégories, extensions
@@ -102,6 +103,10 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
 - Fleurs hybrides de New Horizons : génétique extraite du jeu par Aeter
   ([guide des fleurs](https://aiterusawato.github.io/satogu/acnh/flowers/genotypes.html)) ; seuls les faits du jeu sont repris.
 
+- Fleurs hybrides de City Folk : table des croisements lue dans le programme du jeu (`main.dol` de la version
+  américaine Rev 1) par `npm run donnees:fleurs-cf -- chemin/vers/main.dol`, qui fabrique `data/cf/fleurs-regles.json`.
+  Le programme n'est pas inclus dans le dépôt : il se sort de son propre disque avec Dolphin.
+
 - Navets de New Horizons : algorithme du jeu publié par Ninji (Treeki),
   [TurnipPrices.cpp](https://gist.github.com/Treeki/85be14d297c80c8b3c0a76375743325b).
   Le prédicteur de Nook Dex est réécrit à partir de cet algorithme (aucun code repris d'un autre prédicteur).
@@ -119,6 +124,12 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
   (Cuyler36, licence MIT) et la documentation de [Leaflet](https://github.com/oddnebula/leaflet-wild-world)
   (oddnebula, licence MIT) ; liste des objets : `WW_Items_en.txt` d'ACSE, téléchargée dans `sources/ww/` par
   `npm run donnees:sauvegarde-ww`, qui fabrique `data/ww/sauvegarde.json`. Code écrit pour Nook Dex.
+
+- Import des sauvegardes de City Folk : organisation de `RVFOREST.DAT` d'après [ACSE](https://github.com/Cuyler36/ACSE)
+  (Cuyler36, licence MIT) et les positions d'[actoolkit-linux](https://github.com/imcynic/actoolkit-linux) (faits seulement) ;
+  liste des objets : `CF_Items_en.txt` d'ACSE, téléchargée dans `sources/cf/` par `npm run donnees:sauvegarde-cf`,
+  qui fabrique `data/cf/sauvegarde.json`. Lecture vérifiée sur trois sauvegardes de l'archive WiiSave.com (MarioCube),
+  non incluses dans le dépôt. Code écrit pour Nook Dex.
 
 - Import des sauvegardes de New Leaf - Welcome amiibo : organisation de `garden_plus.dat` d'après
   [ACNL_Research](https://github.com/Slattz/ACNL_Research) (Slattz), [acnl-research](https://github.com/Le0X8/acnl-research)

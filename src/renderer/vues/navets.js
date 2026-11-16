@@ -4,13 +4,14 @@
 //   Wild World : code du jeu décompilé par acww-decomp (lib/navets-ww.js), 12 demi-journées, calcul exact.
 //   New Leaf : le même calcul que New Horizons (vérifié sur trois vraies semaines).
 //   City Folk : code du jeu (main.dol, lib/navets-cf.js), même moteur que New Horizons avec d'autres taux.
-// GameCube, Wild World et New Leaf : la sauvegarde contient déjà les prix de la semaine (bouton « Prix de ma sauvegarde »).
+// GameCube, Wild World, City Folk et New Leaf : la sauvegarde contient déjà les prix de la semaine (bouton « Prix de ma sauvegarde »).
 // La semaine en cours est enregistrée dans le profil (profil.navets).
 import { h, vider, ajouterA, confirmer, notifier, ouvrirFenetre } from '../lib/dom.js';
 import { etat, planifierSauvegarde, maintenant } from '../lib/etat.js';
 import { navetsNL } from '../lib/sauvegarde-nl.js';
 import { navetsWW } from '../lib/sauvegarde-ww.js';
 import { navetsGC } from '../lib/sauvegarde-gc.js';
+import { navetsCF } from '../lib/sauvegarde-cf.js';
 import { navetsNH } from '../lib/sauvegarde-nh.js';
 import { predire, normaliserNavets, MOTIFS, DEMI_JOURNEES, BASE_MIN, BASE_MAX } from '../lib/navets.js';
 import { predireGC, MOTIFS_GC, JOURS_GC, ACHAT_MIN_GC, ACHAT_MAX_GC } from '../lib/navets-gc.js';
@@ -33,6 +34,7 @@ export const JEUX = {
     lecture: { titre: 'Ouvrir ma sauvegarde New Leaf (garden_plus.dat)', jeu: 'nl', lire: navetsNL },
     credit: "New Leaf utilise le même calcul que New Horizons (algorithme publié par Ninji) : trois vraies semaines lues dans des sauvegardes suivent exactement ses motifs (gros pic, fluctuant, décroissant). À vérifier sur d'autres semaines ; les pourcentages des motifs sont une estimation." },
   cf: { ...DEMI, actif: true, predire: predireCF, premierAchat: false, vendeur: 'Porcella',
+    lecture: { titre: 'Ouvrir ma sauvegarde City Folk (RVFOREST.DAT)', jeu: 'cf', lire: navetsCF },
     credit: "Calcul d'après le code du jeu (main.dol) : les mêmes motifs que New Horizons, avec d'autres taux (baisse depuis 75-80 % du prix d'achat, pic entre le mardi après-midi et le jeudi après-midi). Les fourchettes de prix sont sûres ; les pourcentages des motifs sont une estimation." },
   ww: { ...DEMI, actif: true, min: ACHAT_MIN_WW, max: ACHAT_MAX_WW, predire: predireWW, premierAchat: false, vendeur: 'Porcella',
     lecture: { titre: 'Ouvrir ma sauvegarde Wild World (.sav ou .dsv)', jeu: 'ww', lire: navetsWW },
@@ -97,7 +99,7 @@ export function afficherNavets(conteneur, jeu) {
     resultats,
     cfg.credit ? h('p', { class: 'aide credits' }, cfg.credit) : null);
 
-  // GameCube, Wild World, New Leaf : la sauvegarde contient déjà le prix d'achat et les cours de la semaine
+  // GameCube, Wild World, City Folk, New Leaf : la sauvegarde contient déjà le prix d'achat et les cours de la semaine
   // (et, selon le jeu, la date du tirage et le motif de la semaine).
   async function prixSauvegarde() {
     let fichier, s;

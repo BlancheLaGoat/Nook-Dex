@@ -1,9 +1,10 @@
-// Fenêtre « Importer ma sauvegarde » (GameCube, Wild World, New Leaf, New Horizons) : coche dans le profil ce que la sauvegarde du jeu contient.
+// Fenêtre « Importer ma sauvegarde » (GameCube, Wild World, City Folk, New Leaf, New Horizons) : coche dans le profil ce que la sauvegarde du jeu contient.
 // Le fichier du jeu n'est jamais modifié, et l'import ne fait qu'ajouter des coches (il n'en enlève aucune).
 import { h, vider, notifier, ouvrirFenetre } from '../lib/dom.js';
 import { etat, etatDe, donneesCategorie, definirPlusieurs } from '../lib/etat.js';
 import { lireSauvegardeGC, cochesImport } from '../lib/sauvegarde-gc.js';
 import { lireSauvegardeWW, cochesImportWW } from '../lib/sauvegarde-ww.js';
+import { lireSauvegardeCF, cochesImportCF } from '../lib/sauvegarde-cf.js';
 import { lireSauvegardeNL, cochesImportNL } from '../lib/sauvegarde-nl.js';
 import { lireSauvegardeNH, cochesImportNH } from '../lib/sauvegarde-nh.js';
 
@@ -24,6 +25,14 @@ const LECTEURS = {
     version: save => (save.format === 'dsv' ? 'fichier DeSmuME / RetroArch' : 'fichier .sav'),
     explication: "Le musée est commun à toute la ville ; l'encyclopédie (créatures attrapées) et le catalogue (meubles, vêtements, papiers peints, sols, papeterie, morceaux de K.K., photos…) sont propres à chaque joueur.",
     note: 'Lecture vérifiée sur une vraie ville européenne. Les versions japonaise et coréenne ne sont pas prises en charge.',
+  },
+  cf: {
+    titre: 'Ouvrir ma sauvegarde City Folk (RVFOREST.DAT)',
+    lire: lireSauvegardeCF,
+    coches: cochesImportCF,
+    version: save => (save.ville ? `ville de ${save.ville}` : 'RVFOREST.DAT'),
+    explication: "Le musée est commun à toute la ville ; les créatures attrapées, le catalogue (meubles, vêtements, papiers peints, sols, papeterie, gyroïdes, fossiles, outils) et les morceaux de K.K. sont propres à chaque joueur.",
+    note: "Exporte « RVFOREST.DAT » avec SaveGame Manager GX (Wii) ou copie-le depuis la NAND de Dolphin (dossier title/00010000/52555545/data pour la version américaine, 52555550 pour l'européenne). Le « data.bin » copié sur la carte SD par le menu de la Wii est chiffré : il ne marche pas. Lecture vérifiée sur trois vraies sauvegardes ; l'ordre des morceaux de K.K. et du musée reste à vérifier sur une ville jouée normalement.",
   },
   nl: {
     titre: 'Ouvrir ma sauvegarde New Leaf (garden_plus.dat)',

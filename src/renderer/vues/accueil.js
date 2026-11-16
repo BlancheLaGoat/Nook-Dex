@@ -14,6 +14,7 @@ import { fenetreImportSauvegarde, JEUX_AVEC_SAUVEGARDE } from './sauvegarde.js';
 const AIDE_SAUVEGARDE = {
   gc: 'Coche ce que contient ta sauvegarde (.gci ou carte mémoire .raw de Dolphin)',
   ww: 'Coche ce que contient ta sauvegarde (.sav, ou .dsv de DeSmuME / RetroArch)',
+  cf: 'Coche ce que contient ta sauvegarde (RVFOREST.DAT, exporté avec SaveGame Manager GX ou copié depuis Dolphin)',
   nl: 'Coche ce que contient ta sauvegarde (garden_plus.dat, exporté avec Checkpoint, JKSM ou Citra)',
   nh: 'Coche ce que contient ta sauvegarde (dossier exporté avec JKSV ou Checkpoint, version 3.0)',
 };

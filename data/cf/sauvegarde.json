@@ -1,0 +1,9340 @@
+{
+ "_genere": "Fichier fabriqué par scripts/sauvegarde-cf.js : ne pas modifier à la main.",
+ "source": "ACSE (Cuyler36, MIT) : CF_Items_en.txt, Encyclopedia.cs, SaveDataManager.cs ; positions vérifiées sur de vraies sauvegardes",
+ "musee": {
+  "fossiles": [
+   "amber",
+   "ammonite",
+   "coprolite",
+   "dinosaur-egg",
+   "fern-fossil",
+   "dinosaur-track",
+   "archaeopteryx",
+   "peking-man",
+   "shark-tooth",
+   "trilobite",
+   "t-rex-skull",
+   "t-rex-torso",
+   "t-rex-tail",
+   "tricera-skull",
+   "tricera-torso",
+   "tricera-tail",
+   "mammoth-skull",
+   "mammoth-torso",
+   "ankylo-skull",
+   "ankylo-torso",
+   "ankylo-tail",
+   "apato-skull",
+   "apato-torso",
+   "apato-tail",
+   "dimetrodon-skull",
+   "dimetrodon-torso",
+   "dimetrodon-tail",
+   "iguanodon-skull",
+   "iguanodon-torso",
+   "iguanodon-tail",
+   "sabertooth-skull",
+   "sabertooth-torso",
+   "pachy-skull",
+   "pachy-torso",
+   "pachy-tail",
+   "parasaur-skull",
+   "parasaur-torso",
+   "parasaur-tail",
+   "seismo-skull",
+   "seismo-chest",
+   "seismo-hip",
+   "seismo-tail",
+   "plesio-skull",
+   "plesio-neck",
+   "plesio-torso",
+   "stego-skull",
+   "stego-torso",
+   "stego-tail",
+   "ptera-skull",
+   "ptera-left-wing",
+   "ptera-right-wing",
+   "icthyo-skull",
+   "icthyo-torso",
+   "raptor-skull",
+   "raptor-torso",
+   "styraco-skull",
+   "styraco-torso",
+   "styraco-tail"
+  ],
+  "poissons": [
+   "bitterling",
+   "pale-chub",
+   "crucian-carp",
+   "dace",
+   "barbel-steed",
+   "carp",
+   "koi",
+   "goldfish",
+   "popeyed-goldfish",
+   "killifish",
+   "crawfish",
+   "frog",
+   "freshwater-goby",
+   "loach",
+   "catfish",
+   "eel",
+   "giant-snakehead",
+   "bluegill",
+   "yellow-perch",
+   "black-bass",
+   "pike",
+   "pond-smelt",
+   "sweetfish",
+   "cherry-salmon",
+   "char",
+   "rainbow-trout",
+   "stringfish",
+   "salmon",
+   "king-salmon",
+   "guppy",
+   "angelfish",
+   "neon-tetra",
+   "piranha",
+   "arowana",
+   "dorado",
+   "gar",
+   "arapaima",
+   "sea-butterfly",
+   "jellyfish",
+   "sea-horse",
+   "clownfish",
+   "surgeonfish",
+   "butterflyfish",
+   "napoleonfish",
+   "zebra-turkeyfish",
+   "puffer-fish",
+   "horse-mackerel",
+   "barred-knifejaw",
+   "sea-bass",
+   "red-snapper",
+   "dab",
+   "olive-flounder",
+   "squid",
+   "octopus",
+   "lobster",
+   "moray-eel",
+   "football-fish",
+   "tuna",
+   "blue-marlin",
+   "ray",
+   "ocean-sunfish",
+   "hammerhead-shark",
+   "shark",
+   "coelacanth"
+  ],
+  "insectes": [
+   "common-butterfly",
+   "yellow-butterfly",
+   "tiger-butterfly",
+   "peacock",
+   "monarch",
+   "emperor",
+   "agrias-butterfly",
+   "raja-brooke",
+   "birdwing",
+   "moth",
+   "oak-silk-moth",
+   "honeybee",
+   "bee",
+   "long-locust",
+   "migratory-locust",
+   "mantis",
+   "orchid-mantis",
+   "brown-cicada",
+   "robust-cicada",
+   "walker-cicada",
+   "evening-cicada",
+   "lantern-fly",
+   "red-dragonfly",
+   "darner-dragonfly",
+   "banded-dragonfly",
+   "giant-petaltail",
+   "ant",
+   "pondskater",
+   "diving-beetle",
+   "snail",
+   "cricket",
+   "bell-cricket",
+   "grasshopper",
+   "mole-cricket",
+   "walking-leaf",
+   "walkingstick",
+   "bagworm",
+   "ladybug",
+   "violin-beetle",
+   "longhorn-beetle",
+   "dung-beetle",
+   "firefly",
+   "fruit-beetle",
+   "scarab-beetle",
+   "jewel-beetle",
+   "miyama-stag-beetle",
+   "saw-stag-beetle",
+   "giant-beetle",
+   "rainbow-stag",
+   "cyclommatus",
+   "golden-stag",
+   "dynastid-beetle",
+   "atlas-beetle",
+   "elephant-beetle",
+   "hercules-beetle",
+   "goliath-beetle",
+   "flea",
+   "pill-bug",
+   "mosquito",
+   "fly",
+   "centipede",
+   "spider",
+   "tarantula",
+   "scorpion"
+  ],
+  "art": [
+   "dynamic-painting",
+   "solemn-painting",
+   "quaint-painting",
+   "basic-painting",
+   "famous-painting",
+   "perfect-painting",
+   "amazing-painting",
+   "nice-painting",
+   "moving-painting",
+   "common-painting",
+   "flowery-painting",
+   "warm-painting",
+   "jolly-painting",
+   "fine-painting",
+   "scary-painting",
+   "proper-painting",
+   "strange-painting",
+   "worthy-painting",
+   "calm-painting",
+   "moody-painting",
+   "wistful-painting",
+   "serene-painting",
+   "scenic-painting"
+  ]
+ },
+ "encyclopedie": {
+  "insectes": {
+   "premier": 600,
+   "ids": [
+    "common-butterfly",
+    "yellow-butterfly",
+    "tiger-butterfly",
+    "peacock",
+    "monarch",
+    "emperor",
+    "agrias-butterfly",
+    "raja-brooke",
+    "birdwing",
+    "moth",
+    "oak-silk-moth",
+    "honeybee",
+    "bee",
+    "long-locust",
+    "migratory-locust",
+    "mantis",
+    "orchid-mantis",
+    "brown-cicada",
+    "robust-cicada",
+    "walker-cicada",
+    "evening-cicada",
+    "lantern-fly",
+    "red-dragonfly",
+    "darner-dragonfly",
+    "banded-dragonfly",
+    "giant-petaltail",
+    "ant",
+    "pondskater",
+    "diving-beetle",
+    "snail",
+    "cricket",
+    "bell-cricket",
+    "grasshopper",
+    "mole-cricket",
+    "walking-leaf",
+    "walkingstick",
+    "bagworm",
+    "ladybug",
+    "violin-beetle",
+    "longhorn-beetle",
+    "dung-beetle",
+    "firefly",
+    "fruit-beetle",
+    "scarab-beetle",
+    "jewel-beetle",
+    "miyama-stag-beetle",
+    "saw-stag-beetle",
+    "giant-beetle",
+    "rainbow-stag",
+    "cyclommatus",
+    "golden-stag",
+    "dynastid-beetle",
+    "atlas-beetle",
+    "elephant-beetle",
+    "hercules-beetle",
+    "goliath-beetle",
+    "flea",
+    "pill-bug",
+    "mosquito",
+    "fly",
+    "centipede",
+    "spider",
+    "tarantula",
+    "scorpion"
+   ]
+  },
+  "poissons": {
+   "premier": 700,
+   "ids": [
+    "bitterling",
+    "pale-chub",
+    "crucian-carp",
+    "dace",
+    "barbel-steed",
+    "carp",
+    "koi",
+    "goldfish",
+    "popeyed-goldfish",
+    "killifish",
+    "crawfish",
+    "frog",
+    "freshwater-goby",
+    "loach",
+    "catfish",
+    "eel",
+    "giant-snakehead",
+    "bluegill",
+    "yellow-perch",
+    "black-bass",
+    "pike",
+    "pond-smelt",
+    "sweetfish",
+    "cherry-salmon",
+    "char",
+    "rainbow-trout",
+    "stringfish",
+    "salmon",
+    "king-salmon",
+    "guppy",
+    "angelfish",
+    "neon-tetra",
+    "piranha",
+    "arowana",
+    "dorado",
+    "gar",
+    "arapaima",
+    "sea-butterfly",
+    "jellyfish",
+    "sea-horse",
+    "clownfish",
+    "surgeonfish",
+    "butterflyfish",
+    "napoleonfish",
+    "zebra-turkeyfish",
+    "puffer-fish",
+    "horse-mackerel",
+    "barred-knifejaw",
+    "sea-bass",
+    "red-snapper",
+    "dab",
+    "olive-flounder",
+    "squid",
+    "octopus",
+    "lobster",
+    "moray-eel",
+    "football-fish",
+    "tuna",
+    "blue-marlin",
+    "ray",
+    "ocean-sunfish",
+    "hammerhead-shark",
+    "shark",
+    "coelacanth"
+   ]
+  }
+ },
+ "catalogue": [
+  {
+   "bit": 250,
+   "categorie": "papiers-peints",
+   "id": "forest-wall"
+  },
+  {
+   "bit": 251,
+   "categorie": "sols",
+   "id": "forest-floor"
+  },
+  {
+   "bit": 252,
+   "categorie": "meubles",
+   "id": "mush-bed"
+  },
+  {
+   "bit": 253,
+   "categorie": "meubles",
+   "id": "mush-dresser"
+  },
+  {
+   "bit": 254,
+   "categorie": "meubles",
+   "id": "mush-closet"
+  },
+  {
+   "bit": 255,
+   "categorie": "meubles",
+   "id": "mush-chair"
+  },
+  {
+   "bit": 256,
+   "categorie": "meubles",
+   "id": "mush-stool"
+  },
+  {
+   "bit": 257,
+   "categorie": "meubles",
+   "id": "mush-table"
+  },
+  {
+   "bit": 258,
+   "categorie": "meubles",
+   "id": "mush-end-table"
+  },
+  {
+   "bit": 259,
+   "categorie": "meubles",
+   "id": "mush-lamp"
+  },
+  {
+   "bit": 260,
+   "categorie": "meubles",
+   "id": "mush-stand"
+  },
+  {
+   "bit": 261,
+   "categorie": "meubles",
+   "id": "mush-tv"
+  },
+  {
+   "bit": 400,
+   "categorie": "papeterie",
+   "id": "butterfly-paper"
+  },
+  {
+   "bit": 401,
+   "categorie": "papeterie",
+   "id": "airmail-paper"
+  },
+  {
+   "bit": 402,
+   "categorie": "papeterie",
+   "id": "new-years-cards"
+  },
+  {
+   "bit": 403,
+   "categorie": "papeterie",
+   "id": "lacy-paper"
+  },
+  {
+   "bit": 404,
+   "categorie": "papeterie",
+   "id": "cloudy-paper"
+  },
+  {
+   "bit": 405,
+   "categorie": "papeterie",
+   "id": "petal-paper"
+  },
+  {
+   "bit": 406,
+   "categorie": "papeterie",
+   "id": "snowy-paper"
+  },
+  {
+   "bit": 407,
+   "categorie": "papeterie",
+   "id": "maple-leaf-paper"
+  },
+  {
+   "bit": 408,
+   "categorie": "papeterie",
+   "id": "lined-paper"
+  },
+  {
+   "bit": 409,
+   "categorie": "papeterie",
+   "id": "notebook-paper"
+  },
+  {
+   "bit": 410,
+   "categorie": "papeterie",
+   "id": "flowery-paper"
+  },
+  {
+   "bit": 411,
+   "categorie": "papeterie",
+   "id": "polka-dot-paper"
+  },
+  {
+   "bit": 413,
+   "categorie": "papeterie",
+   "id": "ribbon-paper"
+  },
+  {
+   "bit": 414,
+   "categorie": "papeterie",
+   "id": "sparkly-paper"
+  },
+  {
+   "bit": 415,
+   "categorie": "papeterie",
+   "id": "vine-paper"
+  },
+  {
+   "bit": 416,
+   "categorie": "papeterie",
+   "id": "formal-paper"
+  },
+  {
+   "bit": 417,
+   "categorie": "papeterie",
+   "id": "snowman-paper"
+  },
+  {
+   "bit": 418,
+   "categorie": "papeterie",
+   "id": "card-paper"
+  },
+  {
+   "bit": 419,
+   "categorie": "papeterie",
+   "id": "leopard-paper"
+  },
+  {
+   "bit": 420,
+   "categorie": "papeterie",
+   "id": "cow-paper"
+  },
+  {
+   "bit": 421,
+   "categorie": "papeterie",
+   "id": "camouflage-paper"
+  },
+  {
+   "bit": 422,
+   "categorie": "papeterie",
+   "id": "hamburger-paper"
+  },
+  {
+   "bit": 423,
+   "categorie": "papeterie",
+   "id": "piano-paper"
+  },
+  {
+   "bit": 424,
+   "categorie": "papeterie",
+   "id": "nook-paper"
+  },
+  {
+   "bit": 425,
+   "categorie": "papeterie",
+   "id": "invite-card"
+  },
+  {
+   "bit": 426,
+   "categorie": "papeterie",
+   "id": "birthday-card"
+  },
+  {
+   "bit": 427,
+   "categorie": "papeterie",
+   "id": "four-leaf-paper"
+  },
+  {
+   "bit": 429,
+   "categorie": "papeterie",
+   "id": "tortimer-paper"
+  },
+  {
+   "bit": 431,
+   "categorie": "papeterie",
+   "id": "academy-paper"
+  },
+  {
+   "bit": 432,
+   "categorie": "papeterie",
+   "id": "lovely-paper"
+  },
+  {
+   "bit": 433,
+   "categorie": "papeterie",
+   "id": "rainbow-paper"
+  },
+  {
+   "bit": 434,
+   "categorie": "papeterie",
+   "id": "egyptian-paper"
+  },
+  {
+   "bit": 435,
+   "categorie": "papeterie",
+   "id": "lotus-paper"
+  },
+  {
+   "bit": 436,
+   "categorie": "papeterie",
+   "id": "tile-paper"
+  },
+  {
+   "bit": 437,
+   "categorie": "papeterie",
+   "id": "mosaic-paper"
+  },
+  {
+   "bit": 438,
+   "categorie": "papeterie",
+   "id": "elegant-paper"
+  },
+  {
+   "bit": 439,
+   "categorie": "papeterie",
+   "id": "town-view-paper"
+  },
+  {
+   "bit": 440,
+   "categorie": "papeterie",
+   "id": "chinese-paper"
+  },
+  {
+   "bit": 441,
+   "categorie": "papeterie",
+   "id": "ocean-paper"
+  },
+  {
+   "bit": 442,
+   "categorie": "papeterie",
+   "id": "industrial-paper"
+  },
+  {
+   "bit": 443,
+   "categorie": "papeterie",
+   "id": "fireworks-paper"
+  },
+  {
+   "bit": 444,
+   "categorie": "papeterie",
+   "id": "floral-paper"
+  },
+  {
+   "bit": 445,
+   "categorie": "papeterie",
+   "id": "mushroom-paper"
+  },
+  {
+   "bit": 446,
+   "categorie": "papeterie",
+   "id": "star-paper"
+  },
+  {
+   "bit": 447,
+   "categorie": "papeterie",
+   "id": "composer-paper"
+  },
+  {
+   "bit": 448,
+   "categorie": "papeterie",
+   "id": "bathtub-paper"
+  },
+  {
+   "bit": 449,
+   "categorie": "papeterie",
+   "id": "smb3-paper"
+  },
+  {
+   "bit": 450,
+   "categorie": "papeterie",
+   "id": "cool-paper"
+  },
+  {
+   "bit": 451,
+   "categorie": "papeterie",
+   "id": "forest-paper"
+  },
+  {
+   "bit": 452,
+   "categorie": "papeterie",
+   "id": "bubble-paper"
+  },
+  {
+   "bit": 453,
+   "categorie": "papeterie",
+   "id": "buttercup-paper"
+  },
+  {
+   "bit": 454,
+   "categorie": "papeterie",
+   "id": "tartan-paper"
+  },
+  {
+   "bit": 455,
+   "categorie": "papeterie",
+   "id": "plaid-paper"
+  },
+  {
+   "bit": 456,
+   "categorie": "papeterie",
+   "id": "lemon-lime-paper"
+  },
+  {
+   "bit": 457,
+   "categorie": "papeterie",
+   "id": "crater-paper"
+  },
+  {
+   "bit": 458,
+   "categorie": "papeterie",
+   "id": "bejeweled-paper"
+  },
+  {
+   "bit": 459,
+   "categorie": "papeterie",
+   "id": "geometric-paper"
+  },
+  {
+   "bit": 460,
+   "categorie": "papeterie",
+   "id": "southwest-paper"
+  },
+  {
+   "bit": 461,
+   "categorie": "papeterie",
+   "id": "night-sky-paper"
+  },
+  {
+   "bit": 462,
+   "categorie": "papeterie",
+   "id": "chic-paper"
+  },
+  {
+   "bit": 463,
+   "categorie": "papeterie",
+   "id": "goldfish-paper"
+  },
+  {
+   "bit": 464,
+   "categorie": "papeterie",
+   "id": "halloween-paper"
+  },
+  {
+   "bit": 465,
+   "categorie": "papeterie",
+   "id": "lantern-paper"
+  },
+  {
+   "bit": 466,
+   "categorie": "papeterie",
+   "id": "auction-paper"
+  },
+  {
+   "bit": 1000,
+   "categorie": "papiers-peints",
+   "id": "exotic-wall"
+  },
+  {
+   "bit": 1001,
+   "categorie": "papiers-peints",
+   "id": "lovely-wall"
+  },
+  {
+   "bit": 1002,
+   "categorie": "papiers-peints",
+   "id": "classic-wall"
+  },
+  {
+   "bit": 1003,
+   "categorie": "papiers-peints",
+   "id": "ranch-wall"
+  },
+  {
+   "bit": 1004,
+   "categorie": "papiers-peints",
+   "id": "cabana-wall"
+  },
+  {
+   "bit": 1005,
+   "categorie": "papiers-peints",
+   "id": "blue-wall"
+  },
+  {
+   "bit": 1006,
+   "categorie": "papiers-peints",
+   "id": "modern-wall"
+  },
+  {
+   "bit": 1007,
+   "categorie": "papiers-peints",
+   "id": "regal-wall"
+  },
+  {
+   "bit": 1008,
+   "categorie": "papiers-peints",
+   "id": "green-wall"
+  },
+  {
+   "bit": 1009,
+   "categorie": "papiers-peints",
+   "id": "cabin-wall"
+  },
+  {
+   "bit": 1010,
+   "categorie": "papiers-peints",
+   "id": "kiddie-wall"
+  },
+  {
+   "bit": 1011,
+   "categorie": "papiers-peints",
+   "id": "robo-wall"
+  },
+  {
+   "bit": 1012,
+   "categorie": "papiers-peints",
+   "id": "snowman-wall"
+  },
+  {
+   "bit": 1013,
+   "categorie": "papiers-peints",
+   "id": "forest-wall"
+  },
+  {
+   "bit": 1014,
+   "categorie": "papiers-peints",
+   "id": "egg-wall"
+  },
+  {
+   "bit": 1015,
+   "categorie": "papiers-peints",
+   "id": "pave-wall"
+  },
+  {
+   "bit": 1016,
+   "categorie": "papiers-peints",
+   "id": "spooky-wall"
+  },
+  {
+   "bit": 1017,
+   "categorie": "papiers-peints",
+   "id": "harvest-wall"
+  },
+  {
+   "bit": 1018,
+   "categorie": "papiers-peints",
+   "id": "jingle-wall"
+  },
+  {
+   "bit": 1019,
+   "categorie": "papiers-peints",
+   "id": "princess-wall"
+  },
+  {
+   "bit": 1020,
+   "categorie": "papiers-peints",
+   "id": "gracie-wallpaper"
+  },
+  {
+   "bit": 1021,
+   "categorie": "papiers-peints",
+   "id": "sweets-wall"
+  },
+  {
+   "bit": 1022,
+   "categorie": "papiers-peints",
+   "id": "gorgeous-wall"
+  },
+  {
+   "bit": 1023,
+   "categorie": "papiers-peints",
+   "id": "western-vista"
+  },
+  {
+   "bit": 1024,
+   "categorie": "papiers-peints",
+   "id": "lunar-horizon"
+  },
+  {
+   "bit": 1025,
+   "categorie": "papiers-peints",
+   "id": "blue-tarp"
+  },
+  {
+   "bit": 1026,
+   "categorie": "papiers-peints",
+   "id": "ringside-seating"
+  },
+  {
+   "bit": 1027,
+   "categorie": "papiers-peints",
+   "id": "backyard-fence"
+  },
+  {
+   "bit": 1028,
+   "categorie": "papiers-peints",
+   "id": "playroom-wall"
+  },
+  {
+   "bit": 1029,
+   "categorie": "papiers-peints",
+   "id": "sea-view"
+  },
+  {
+   "bit": 1030,
+   "categorie": "papiers-peints",
+   "id": "lab-wall"
+  },
+  {
+   "bit": 1031,
+   "categorie": "papiers-peints",
+   "id": "classroom-wall"
+  },
+  {
+   "bit": 1032,
+   "categorie": "papiers-peints",
+   "id": "bathhouse-wall"
+  },
+  {
+   "bit": 1033,
+   "categorie": "papiers-peints",
+   "id": "pastel-dot-wall"
+  },
+  {
+   "bit": 1034,
+   "categorie": "papiers-peints",
+   "id": "parlor-wall"
+  },
+  {
+   "bit": 1035,
+   "categorie": "papiers-peints",
+   "id": "mod-wall"
+  },
+  {
+   "bit": 1036,
+   "categorie": "papiers-peints",
+   "id": "kitschy-wall"
+  },
+  {
+   "bit": 1037,
+   "categorie": "papiers-peints",
+   "id": "groovy-wall"
+  },
+  {
+   "bit": 1038,
+   "categorie": "papiers-peints",
+   "id": "backgammon-wall"
+  },
+  {
+   "bit": 1039,
+   "categorie": "papiers-peints",
+   "id": "mosaic-wall"
+  },
+  {
+   "bit": 1040,
+   "categorie": "papiers-peints",
+   "id": "blue-trim-wall"
+  },
+  {
+   "bit": 1041,
+   "categorie": "papiers-peints",
+   "id": "plaster-wall"
+  },
+  {
+   "bit": 1042,
+   "categorie": "papiers-peints",
+   "id": "chic-wall"
+  },
+  {
+   "bit": 1043,
+   "categorie": "papiers-peints",
+   "id": "ornate-wall"
+  },
+  {
+   "bit": 1044,
+   "categorie": "papiers-peints",
+   "id": "citrus-wall"
+  },
+  {
+   "bit": 1045,
+   "categorie": "papiers-peints",
+   "id": "rose-wall"
+  },
+  {
+   "bit": 1046,
+   "categorie": "papiers-peints",
+   "id": "old-brick-wall"
+  },
+  {
+   "bit": 1047,
+   "categorie": "papiers-peints",
+   "id": "shoji-screen"
+  },
+  {
+   "bit": 1048,
+   "categorie": "papiers-peints",
+   "id": "gold-screen-wall"
+  },
+  {
+   "bit": 1049,
+   "categorie": "papiers-peints",
+   "id": "tea-room-wall"
+  },
+  {
+   "bit": 1050,
+   "categorie": "papiers-peints",
+   "id": "modern-screen"
+  },
+  {
+   "bit": 1051,
+   "categorie": "papiers-peints",
+   "id": "garden-wall"
+  },
+  {
+   "bit": 1052,
+   "categorie": "papiers-peints",
+   "id": "mortar-wall"
+  },
+  {
+   "bit": 1053,
+   "categorie": "papiers-peints",
+   "id": "stone-wall"
+  },
+  {
+   "bit": 1054,
+   "categorie": "papiers-peints",
+   "id": "concrete-wall"
+  },
+  {
+   "bit": 1055,
+   "categorie": "papiers-peints",
+   "id": "basement-wall"
+  },
+  {
+   "bit": 1056,
+   "categorie": "papiers-peints",
+   "id": "shanty-wall"
+  },
+  {
+   "bit": 1057,
+   "categorie": "papiers-peints",
+   "id": "wood-paneling"
+  },
+  {
+   "bit": 1058,
+   "categorie": "papiers-peints",
+   "id": "floral-wall"
+  },
+  {
+   "bit": 1059,
+   "categorie": "papiers-peints",
+   "id": "kitchen-wall"
+  },
+  {
+   "bit": 1060,
+   "categorie": "papiers-peints",
+   "id": "music-room-wall"
+  },
+  {
+   "bit": 1061,
+   "categorie": "papiers-peints",
+   "id": "manor-wall"
+  },
+  {
+   "bit": 1062,
+   "categorie": "papiers-peints",
+   "id": "office-wall"
+  },
+  {
+   "bit": 1063,
+   "categorie": "papiers-peints",
+   "id": "plaza-wall"
+  },
+  {
+   "bit": 1064,
+   "categorie": "papiers-peints",
+   "id": "lattice-wall"
+  },
+  {
+   "bit": 1065,
+   "categorie": "papiers-peints",
+   "id": "stately-wall"
+  },
+  {
+   "bit": 1066,
+   "categorie": "papiers-peints",
+   "id": "imperial-wall"
+  },
+  {
+   "bit": 1067,
+   "categorie": "papiers-peints",
+   "id": "arched-window"
+  },
+  {
+   "bit": 1068,
+   "categorie": "papiers-peints",
+   "id": "bamboo-wall"
+  },
+  {
+   "bit": 1069,
+   "categorie": "papiers-peints",
+   "id": "ivy-wall"
+  },
+  {
+   "bit": 1070,
+   "categorie": "papiers-peints",
+   "id": "ancient-wall"
+  },
+  {
+   "bit": 1071,
+   "categorie": "papiers-peints",
+   "id": "exquisite-wall"
+  },
+  {
+   "bit": 1072,
+   "categorie": "papiers-peints",
+   "id": "persian-wall"
+  },
+  {
+   "bit": 1073,
+   "categorie": "papiers-peints",
+   "id": "industrial-wall"
+  },
+  {
+   "bit": 1074,
+   "categorie": "papiers-peints",
+   "id": "library-wall"
+  },
+  {
+   "bit": 1075,
+   "categorie": "papiers-peints",
+   "id": "illusion-wall"
+  },
+  {
+   "bit": 1076,
+   "categorie": "papiers-peints",
+   "id": "meadow-vista"
+  },
+  {
+   "bit": 1077,
+   "categorie": "papiers-peints",
+   "id": "tropical-vista"
+  },
+  {
+   "bit": 1078,
+   "categorie": "papiers-peints",
+   "id": "desert-vista"
+  },
+  {
+   "bit": 1079,
+   "categorie": "papiers-peints",
+   "id": "chainlink-fence"
+  },
+  {
+   "bit": 1080,
+   "categorie": "papiers-peints",
+   "id": "tree-lined-wall"
+  },
+  {
+   "bit": 1081,
+   "categorie": "papiers-peints",
+   "id": "sky-wall"
+  },
+  {
+   "bit": 1082,
+   "categorie": "papiers-peints",
+   "id": "cityscape-wall"
+  },
+  {
+   "bit": 1083,
+   "categorie": "papiers-peints",
+   "id": "dirt-clod-wall"
+  },
+  {
+   "bit": 1084,
+   "categorie": "papiers-peints",
+   "id": "common-wall"
+  },
+  {
+   "bit": 1085,
+   "categorie": "papiers-peints",
+   "id": "old-wallpaper"
+  },
+  {
+   "bit": 1086,
+   "categorie": "papiers-peints",
+   "id": "mushroom-mural"
+  },
+  {
+   "bit": 1200,
+   "categorie": "sols",
+   "id": "exotic-rug"
+  },
+  {
+   "bit": 1201,
+   "categorie": "sols",
+   "id": "lovely-carpet"
+  },
+  {
+   "bit": 1202,
+   "categorie": "sols",
+   "id": "classic-carpet"
+  },
+  {
+   "bit": 1203,
+   "categorie": "sols",
+   "id": "ranch-flooring"
+  },
+  {
+   "bit": 1204,
+   "categorie": "sols",
+   "id": "cabana-flooring"
+  },
+  {
+   "bit": 1205,
+   "categorie": "sols",
+   "id": "blue-flooring"
+  },
+  {
+   "bit": 1206,
+   "categorie": "sols",
+   "id": "modern-tile"
+  },
+  {
+   "bit": 1207,
+   "categorie": "sols",
+   "id": "regal-carpet"
+  },
+  {
+   "bit": 1208,
+   "categorie": "sols",
+   "id": "green-rug"
+  },
+  {
+   "bit": 1209,
+   "categorie": "sols",
+   "id": "cabin-rug"
+  },
+  {
+   "bit": 1210,
+   "categorie": "sols",
+   "id": "kiddie-carpet"
+  },
+  {
+   "bit": 1211,
+   "categorie": "sols",
+   "id": "robo-floor"
+  },
+  {
+   "bit": 1212,
+   "categorie": "sols",
+   "id": "snowman-carpet"
+  },
+  {
+   "bit": 1213,
+   "categorie": "sols",
+   "id": "forest-floor"
+  },
+  {
+   "bit": 1214,
+   "categorie": "sols",
+   "id": "pave-floor"
+  },
+  {
+   "bit": 1215,
+   "categorie": "sols",
+   "id": "egg-floor"
+  },
+  {
+   "bit": 1216,
+   "categorie": "sols",
+   "id": "spooky-carpet"
+  },
+  {
+   "bit": 1217,
+   "categorie": "sols",
+   "id": "harvest-rug"
+  },
+  {
+   "bit": 1218,
+   "categorie": "sols",
+   "id": "jingle-carpet"
+  },
+  {
+   "bit": 1219,
+   "categorie": "sols",
+   "id": "princess-carpet"
+  },
+  {
+   "bit": 1220,
+   "categorie": "sols",
+   "id": "gracie-carpet"
+  },
+  {
+   "bit": 1221,
+   "categorie": "sols",
+   "id": "sweets-floor"
+  },
+  {
+   "bit": 1222,
+   "categorie": "sols",
+   "id": "gorgeous-floor"
+  },
+  {
+   "bit": 1223,
+   "categorie": "sols",
+   "id": "western-desert"
+  },
+  {
+   "bit": 1224,
+   "categorie": "sols",
+   "id": "lunar-surface"
+  },
+  {
+   "bit": 1225,
+   "categorie": "sols",
+   "id": "closed-road"
+  },
+  {
+   "bit": 1226,
+   "categorie": "sols",
+   "id": "boxing-ring-mat"
+  },
+  {
+   "bit": 1227,
+   "categorie": "sols",
+   "id": "backyard-lawn"
+  },
+  {
+   "bit": 1228,
+   "categorie": "sols",
+   "id": "playroom-rug"
+  },
+  {
+   "bit": 1229,
+   "categorie": "sols",
+   "id": "ship-deck"
+  },
+  {
+   "bit": 1230,
+   "categorie": "sols",
+   "id": "lab-floor"
+  },
+  {
+   "bit": 1231,
+   "categorie": "sols",
+   "id": "classroom-floor"
+  },
+  {
+   "bit": 1232,
+   "categorie": "sols",
+   "id": "bath-tile"
+  },
+  {
+   "bit": 1233,
+   "categorie": "sols",
+   "id": "pastel-dot-rug"
+  },
+  {
+   "bit": 1234,
+   "categorie": "sols",
+   "id": "checkered-tile"
+  },
+  {
+   "bit": 1235,
+   "categorie": "sols",
+   "id": "ceramic-tile"
+  },
+  {
+   "bit": 1236,
+   "categorie": "sols",
+   "id": "diner-tile"
+  },
+  {
+   "bit": 1237,
+   "categorie": "sols",
+   "id": "kitschy-tile"
+  },
+  {
+   "bit": 1238,
+   "categorie": "sols",
+   "id": "red-tile"
+  },
+  {
+   "bit": 1239,
+   "categorie": "sols",
+   "id": "mosaic-tile"
+  },
+  {
+   "bit": 1240,
+   "categorie": "sols",
+   "id": "chessboard-rug"
+  },
+  {
+   "bit": 1241,
+   "categorie": "sols",
+   "id": "plaza-tile"
+  },
+  {
+   "bit": 1242,
+   "categorie": "sols",
+   "id": "palace-tile"
+  },
+  {
+   "bit": 1243,
+   "categorie": "sols",
+   "id": "imperial-tile"
+  },
+  {
+   "bit": 1244,
+   "categorie": "sols",
+   "id": "kitchen-tile"
+  },
+  {
+   "bit": 1245,
+   "categorie": "sols",
+   "id": "stone-tile"
+  },
+  {
+   "bit": 1246,
+   "categorie": "sols",
+   "id": "charcoal-tile"
+  },
+  {
+   "bit": 1247,
+   "categorie": "sols",
+   "id": "tatami"
+  },
+  {
+   "bit": 1248,
+   "categorie": "sols",
+   "id": "planked-tatami"
+  },
+  {
+   "bit": 1249,
+   "categorie": "sols",
+   "id": "mossy-carpet"
+  },
+  {
+   "bit": 1250,
+   "categorie": "sols",
+   "id": "sand-garden"
+  },
+  {
+   "bit": 1251,
+   "categorie": "sols",
+   "id": "slate-flooring"
+  },
+  {
+   "bit": 1252,
+   "categorie": "sols",
+   "id": "concrete-floor"
+  },
+  {
+   "bit": 1253,
+   "categorie": "sols",
+   "id": "basement-floor"
+  },
+  {
+   "bit": 1254,
+   "categorie": "sols",
+   "id": "parquet-floor"
+  },
+  {
+   "bit": 1255,
+   "categorie": "sols",
+   "id": "old-board-floor"
+  },
+  {
+   "bit": 1256,
+   "categorie": "sols",
+   "id": "kitchen-flooring"
+  },
+  {
+   "bit": 1257,
+   "categorie": "sols",
+   "id": "music-room-floor"
+  },
+  {
+   "bit": 1258,
+   "categorie": "sols",
+   "id": "office-flooring"
+  },
+  {
+   "bit": 1259,
+   "categorie": "sols",
+   "id": "opulent-rug"
+  },
+  {
+   "bit": 1260,
+   "categorie": "sols",
+   "id": "plush-carpet"
+  },
+  {
+   "bit": 1261,
+   "categorie": "sols",
+   "id": "ornate-rug"
+  },
+  {
+   "bit": 1262,
+   "categorie": "sols",
+   "id": "fancy-carpet"
+  },
+  {
+   "bit": 1263,
+   "categorie": "sols",
+   "id": "exquisite-rug"
+  },
+  {
+   "bit": 1264,
+   "categorie": "sols",
+   "id": "persian-rug"
+  },
+  {
+   "bit": 1265,
+   "categorie": "sols",
+   "id": "tartan-rug"
+  },
+  {
+   "bit": 1266,
+   "categorie": "sols",
+   "id": "round-carpet"
+  },
+  {
+   "bit": 1267,
+   "categorie": "sols",
+   "id": "citrus-carpet"
+  },
+  {
+   "bit": 1268,
+   "categorie": "sols",
+   "id": "cowhide-rug"
+  },
+  {
+   "bit": 1269,
+   "categorie": "sols",
+   "id": "birch-flooring"
+  },
+  {
+   "bit": 1270,
+   "categorie": "sols",
+   "id": "plank-flooring"
+  },
+  {
+   "bit": 1271,
+   "categorie": "sols",
+   "id": "bamboo-flooring"
+  },
+  {
+   "bit": 1272,
+   "categorie": "sols",
+   "id": "steel-flooring"
+  },
+  {
+   "bit": 1273,
+   "categorie": "sols",
+   "id": "shanty-mat"
+  },
+  {
+   "bit": 1274,
+   "categorie": "sols",
+   "id": "ancient-tile"
+  },
+  {
+   "bit": 1275,
+   "categorie": "sols",
+   "id": "illusion-floor"
+  },
+  {
+   "bit": 1276,
+   "categorie": "sols",
+   "id": "daisy-meadow"
+  },
+  {
+   "bit": 1277,
+   "categorie": "sols",
+   "id": "tropical-floor"
+  },
+  {
+   "bit": 1278,
+   "categorie": "sols",
+   "id": "saharahs-desert"
+  },
+  {
+   "bit": 1279,
+   "categorie": "sols",
+   "id": "sandlot"
+  },
+  {
+   "bit": 1280,
+   "categorie": "sols",
+   "id": "sidewalk"
+  },
+  {
+   "bit": 1281,
+   "categorie": "sols",
+   "id": "cloud-flooring"
+  },
+  {
+   "bit": 1282,
+   "categorie": "sols",
+   "id": "common-floor"
+  },
+  {
+   "bit": 1283,
+   "categorie": "sols",
+   "id": "old-flooring"
+  },
+  {
+   "bit": 1284,
+   "categorie": "sols",
+   "id": "block-floor"
+  },
+  {
+   "bit": 1350,
+   "categorie": "vetements",
+   "id": "work-uniform"
+  },
+  {
+   "bit": 1351,
+   "categorie": "vetements",
+   "id": "one-ball-shirt"
+  },
+  {
+   "bit": 1352,
+   "categorie": "vetements",
+   "id": "two-ball-shirt"
+  },
+  {
+   "bit": 1353,
+   "categorie": "vetements",
+   "id": "three-ball-shirt"
+  },
+  {
+   "bit": 1354,
+   "categorie": "vetements",
+   "id": "four-ball-shirt"
+  },
+  {
+   "bit": 1355,
+   "categorie": "vetements",
+   "id": "five-ball-shirt"
+  },
+  {
+   "bit": 1356,
+   "categorie": "vetements",
+   "id": "six-ball-shirt"
+  },
+  {
+   "bit": 1357,
+   "categorie": "vetements",
+   "id": "seven-ball-shirt"
+  },
+  {
+   "bit": 1358,
+   "categorie": "vetements",
+   "id": "eight-ball-shirt"
+  },
+  {
+   "bit": 1359,
+   "categorie": "vetements",
+   "id": "nine-ball-shirt"
+  },
+  {
+   "bit": 1360,
+   "categorie": "vetements",
+   "id": "paw-shirt"
+  },
+  {
+   "bit": 1361,
+   "categorie": "vetements",
+   "id": "daisy-shirt"
+  },
+  {
+   "bit": 1362,
+   "categorie": "vetements",
+   "id": "tulip-shirt"
+  },
+  {
+   "bit": 1363,
+   "categorie": "vetements",
+   "id": "cherry-shirt"
+  },
+  {
+   "bit": 1364,
+   "categorie": "vetements",
+   "id": "skull-shirt"
+  },
+  {
+   "bit": 1365,
+   "categorie": "vetements",
+   "id": "u-r-here-shirt"
+  },
+  {
+   "bit": 1366,
+   "categorie": "vetements",
+   "id": "lightning-shirt"
+  },
+  {
+   "bit": 1367,
+   "categorie": "vetements",
+   "id": "mvp-shirt"
+  },
+  {
+   "bit": 1368,
+   "categorie": "vetements",
+   "id": "bb-shirt"
+  },
+  {
+   "bit": 1369,
+   "categorie": "vetements",
+   "id": "fish-bone-shirt"
+  },
+  {
+   "bit": 1370,
+   "categorie": "vetements",
+   "id": "frog-shirt"
+  },
+  {
+   "bit": 1371,
+   "categorie": "vetements",
+   "id": "bear-shirt"
+  },
+  {
+   "bit": 1372,
+   "categorie": "vetements",
+   "id": "bunny-shirt"
+  },
+  {
+   "bit": 1373,
+   "categorie": "vetements",
+   "id": "elephant-shirt"
+  },
+  {
+   "bit": 1374,
+   "categorie": "vetements",
+   "id": "spade-shirt"
+  },
+  {
+   "bit": 1375,
+   "categorie": "vetements",
+   "id": "diamond-shirt"
+  },
+  {
+   "bit": 1376,
+   "categorie": "vetements",
+   "id": "club-shirt"
+  },
+  {
+   "bit": 1377,
+   "categorie": "vetements",
+   "id": "heart-shirt"
+  },
+  {
+   "bit": 1378,
+   "categorie": "vetements",
+   "id": "big-star-shirt"
+  },
+  {
+   "bit": 1379,
+   "categorie": "vetements",
+   "id": "bright-shirt"
+  },
+  {
+   "bit": 1380,
+   "categorie": "vetements",
+   "id": "a-shirt"
+  },
+  {
+   "bit": 1381,
+   "categorie": "vetements",
+   "id": "no-1-shirt"
+  },
+  {
+   "bit": 1382,
+   "categorie": "vetements",
+   "id": "no-2-shirt"
+  },
+  {
+   "bit": 1383,
+   "categorie": "vetements",
+   "id": "no-3-shirt"
+  },
+  {
+   "bit": 1384,
+   "categorie": "vetements",
+   "id": "no-4-shirt"
+  },
+  {
+   "bit": 1385,
+   "categorie": "vetements",
+   "id": "no-5-shirt"
+  },
+  {
+   "bit": 1386,
+   "categorie": "vetements",
+   "id": "no-23-shirt"
+  },
+  {
+   "bit": 1387,
+   "categorie": "vetements",
+   "id": "no-67-shirt"
+  },
+  {
+   "bit": 1388,
+   "categorie": "vetements",
+   "id": "big-bros-shirt"
+  },
+  {
+   "bit": 1389,
+   "categorie": "vetements",
+   "id": "lil-bros-shirt"
+  },
+  {
+   "bit": 1390,
+   "categorie": "vetements",
+   "id": "cloudy-shirt"
+  },
+  {
+   "bit": 1391,
+   "categorie": "vetements",
+   "id": "fresh-shirt"
+  },
+  {
+   "bit": 1392,
+   "categorie": "vetements",
+   "id": "dawn-shirt"
+  },
+  {
+   "bit": 1393,
+   "categorie": "vetements",
+   "id": "misty-shirt"
+  },
+  {
+   "bit": 1394,
+   "categorie": "vetements",
+   "id": "sunset-top"
+  },
+  {
+   "bit": 1395,
+   "categorie": "vetements",
+   "id": "deep-blue-tee"
+  },
+  {
+   "bit": 1396,
+   "categorie": "vetements",
+   "id": "peachy-shirt"
+  },
+  {
+   "bit": 1397,
+   "categorie": "vetements",
+   "id": "rainbow-shirt"
+  },
+  {
+   "bit": 1398,
+   "categorie": "vetements",
+   "id": "snowcone-shirt"
+  },
+  {
+   "bit": 1399,
+   "categorie": "vetements",
+   "id": "orange-tie-dye"
+  },
+  {
+   "bit": 1400,
+   "categorie": "vetements",
+   "id": "purple-tie-dye"
+  },
+  {
+   "bit": 1401,
+   "categorie": "vetements",
+   "id": "green-tie-dye"
+  },
+  {
+   "bit": 1402,
+   "categorie": "vetements",
+   "id": "blue-tie-dye"
+  },
+  {
+   "bit": 1403,
+   "categorie": "vetements",
+   "id": "red-tie-dye"
+  },
+  {
+   "bit": 1404,
+   "categorie": "vetements",
+   "id": "bold-check-shirt"
+  },
+  {
+   "bit": 1405,
+   "categorie": "vetements",
+   "id": "cafe-shirt"
+  },
+  {
+   "bit": 1406,
+   "categorie": "vetements",
+   "id": "checkered-shirt"
+  },
+  {
+   "bit": 1407,
+   "categorie": "vetements",
+   "id": "blue-check-shirt"
+  },
+  {
+   "bit": 1408,
+   "categorie": "vetements",
+   "id": "red-check-shirt"
+  },
+  {
+   "bit": 1409,
+   "categorie": "vetements",
+   "id": "houndstooth-knit"
+  },
+  {
+   "bit": 1410,
+   "categorie": "vetements",
+   "id": "houndstooth-tee"
+  },
+  {
+   "bit": 1411,
+   "categorie": "vetements",
+   "id": "rugby-shirt"
+  },
+  {
+   "bit": 1412,
+   "categorie": "vetements",
+   "id": "green-bar-shirt"
+  },
+  {
+   "bit": 1413,
+   "categorie": "vetements",
+   "id": "yellow-bar-shirt"
+  },
+  {
+   "bit": 1414,
+   "categorie": "vetements",
+   "id": "grape-stripe-tee"
+  },
+  {
+   "bit": 1415,
+   "categorie": "vetements",
+   "id": "beatnik-shirt"
+  },
+  {
+   "bit": 1416,
+   "categorie": "vetements",
+   "id": "red-bar-shirt"
+  },
+  {
+   "bit": 1417,
+   "categorie": "vetements",
+   "id": "blue-stripe-knit"
+  },
+  {
+   "bit": 1418,
+   "categorie": "vetements",
+   "id": "gelato-shirt"
+  },
+  {
+   "bit": 1419,
+   "categorie": "vetements",
+   "id": "chain-gang-shirt"
+  },
+  {
+   "bit": 1420,
+   "categorie": "vetements",
+   "id": "speedway-shirt"
+  },
+  {
+   "bit": 1421,
+   "categorie": "vetements",
+   "id": "yellow-tartan"
+  },
+  {
+   "bit": 1422,
+   "categorie": "vetements",
+   "id": "fall-plaid-shirt"
+  },
+  {
+   "bit": 1423,
+   "categorie": "vetements",
+   "id": "blue-tartan"
+  },
+  {
+   "bit": 1424,
+   "categorie": "vetements",
+   "id": "dapper-shirt"
+  },
+  {
+   "bit": 1425,
+   "categorie": "vetements",
+   "id": "natty-shirt"
+  },
+  {
+   "bit": 1426,
+   "categorie": "vetements",
+   "id": "blue-grid-shirt"
+  },
+  {
+   "bit": 1427,
+   "categorie": "vetements",
+   "id": "red-grid-shirt"
+  },
+  {
+   "bit": 1428,
+   "categorie": "vetements",
+   "id": "dazed-shirt"
+  },
+  {
+   "bit": 1429,
+   "categorie": "vetements",
+   "id": "checkerboard-tee"
+  },
+  {
+   "bit": 1430,
+   "categorie": "vetements",
+   "id": "toad-shirt"
+  },
+  {
+   "bit": 1431,
+   "categorie": "vetements",
+   "id": "dark-polka-shirt"
+  },
+  {
+   "bit": 1432,
+   "categorie": "vetements",
+   "id": "lite-polka-shirt"
+  },
+  {
+   "bit": 1433,
+   "categorie": "vetements",
+   "id": "bubble-gum-shirt"
+  },
+  {
+   "bit": 1434,
+   "categorie": "vetements",
+   "id": "funky-dot-shirt"
+  },
+  {
+   "bit": 1435,
+   "categorie": "vetements",
+   "id": "gumdrop-shirt"
+  },
+  {
+   "bit": 1436,
+   "categorie": "vetements",
+   "id": "big-dot-shirt"
+  },
+  {
+   "bit": 1437,
+   "categorie": "vetements",
+   "id": "aqua-polka-shirt"
+  },
+  {
+   "bit": 1438,
+   "categorie": "vetements",
+   "id": "blue-pinstripe"
+  },
+  {
+   "bit": 1439,
+   "categorie": "vetements",
+   "id": "yellow-pinstripe"
+  },
+  {
+   "bit": 1440,
+   "categorie": "vetements",
+   "id": "orange-pinstripe"
+  },
+  {
+   "bit": 1441,
+   "categorie": "vetements",
+   "id": "vegetarian-shirt"
+  },
+  {
+   "bit": 1442,
+   "categorie": "vetements",
+   "id": "racer-shirt"
+  },
+  {
+   "bit": 1443,
+   "categorie": "vetements",
+   "id": "american-shirt"
+  },
+  {
+   "bit": 1444,
+   "categorie": "vetements",
+   "id": "rally-shirt"
+  },
+  {
+   "bit": 1445,
+   "categorie": "vetements",
+   "id": "racer-6-shirt"
+  },
+  {
+   "bit": 1446,
+   "categorie": "vetements",
+   "id": "vertigo-shirt"
+  },
+  {
+   "bit": 1447,
+   "categorie": "vetements",
+   "id": "barber-shirt"
+  },
+  {
+   "bit": 1448,
+   "categorie": "vetements",
+   "id": "jade-check-print"
+  },
+  {
+   "bit": 1449,
+   "categorie": "vetements",
+   "id": "blue-check-print"
+  },
+  {
+   "bit": 1450,
+   "categorie": "vetements",
+   "id": "mint-gingham-top"
+  },
+  {
+   "bit": 1451,
+   "categorie": "vetements",
+   "id": "picnic-shirt"
+  },
+  {
+   "bit": 1452,
+   "categorie": "vetements",
+   "id": "candy-gingham"
+  },
+  {
+   "bit": 1453,
+   "categorie": "vetements",
+   "id": "lemon-gingham"
+  },
+  {
+   "bit": 1454,
+   "categorie": "vetements",
+   "id": "melon-gingham"
+  },
+  {
+   "bit": 1455,
+   "categorie": "vetements",
+   "id": "bad-plaid-shirt"
+  },
+  {
+   "bit": 1456,
+   "categorie": "vetements",
+   "id": "pink-tartan"
+  },
+  {
+   "bit": 1457,
+   "categorie": "vetements",
+   "id": "waffle-shirt"
+  },
+  {
+   "bit": 1458,
+   "categorie": "vetements",
+   "id": "gray-tartan"
+  },
+  {
+   "bit": 1459,
+   "categorie": "vetements",
+   "id": "red-argyle-top"
+  },
+  {
+   "bit": 1460,
+   "categorie": "vetements",
+   "id": "blue-argyle-top"
+  },
+  {
+   "bit": 1461,
+   "categorie": "vetements",
+   "id": "pink-argyle-top"
+  },
+  {
+   "bit": 1462,
+   "categorie": "vetements",
+   "id": "cyan-argyle-top"
+  },
+  {
+   "bit": 1463,
+   "categorie": "vetements",
+   "id": "chevron-shirt"
+  },
+  {
+   "bit": 1464,
+   "categorie": "vetements",
+   "id": "icy-shirt"
+  },
+  {
+   "bit": 1465,
+   "categorie": "vetements",
+   "id": "aurora-knit"
+  },
+  {
+   "bit": 1466,
+   "categorie": "vetements",
+   "id": "winter-sweater"
+  },
+  {
+   "bit": 1467,
+   "categorie": "vetements",
+   "id": "folk-shirt"
+  },
+  {
+   "bit": 1468,
+   "categorie": "vetements",
+   "id": "argyle-knit"
+  },
+  {
+   "bit": 1469,
+   "categorie": "vetements",
+   "id": "uncommon-shirt"
+  },
+  {
+   "bit": 1470,
+   "categorie": "vetements",
+   "id": "comfy-sweater"
+  },
+  {
+   "bit": 1471,
+   "categorie": "vetements",
+   "id": "beige-knit"
+  },
+  {
+   "bit": 1472,
+   "categorie": "vetements",
+   "id": "earthy-knit"
+  },
+  {
+   "bit": 1473,
+   "categorie": "vetements",
+   "id": "spring-shirt"
+  },
+  {
+   "bit": 1474,
+   "categorie": "vetements",
+   "id": "spunky-knit"
+  },
+  {
+   "bit": 1475,
+   "categorie": "vetements",
+   "id": "deer-shirt"
+  },
+  {
+   "bit": 1476,
+   "categorie": "vetements",
+   "id": "monkey-shirt"
+  },
+  {
+   "bit": 1477,
+   "categorie": "vetements",
+   "id": "vogue-top"
+  },
+  {
+   "bit": 1478,
+   "categorie": "vetements",
+   "id": "citrus-gingham"
+  },
+  {
+   "bit": 1479,
+   "categorie": "vetements",
+   "id": "floral-knit"
+  },
+  {
+   "bit": 1480,
+   "categorie": "vetements",
+   "id": "dreamy-shirt"
+  },
+  {
+   "bit": 1481,
+   "categorie": "vetements",
+   "id": "flowery-shirt"
+  },
+  {
+   "bit": 1482,
+   "categorie": "vetements",
+   "id": "silk-bloom-shirt"
+  },
+  {
+   "bit": 1483,
+   "categorie": "vetements",
+   "id": "pop-bloom-shirt"
+  },
+  {
+   "bit": 1484,
+   "categorie": "vetements",
+   "id": "blossom-shirt"
+  },
+  {
+   "bit": 1485,
+   "categorie": "vetements",
+   "id": "loud-bloom-shirt"
+  },
+  {
+   "bit": 1486,
+   "categorie": "vetements",
+   "id": "rose-shirt"
+  },
+  {
+   "bit": 1487,
+   "categorie": "vetements",
+   "id": "rose-sky-shirt"
+  },
+  {
+   "bit": 1488,
+   "categorie": "vetements",
+   "id": "lotus-shirt"
+  },
+  {
+   "bit": 1489,
+   "categorie": "vetements",
+   "id": "chocomint-shirt"
+  },
+  {
+   "bit": 1490,
+   "categorie": "vetements",
+   "id": "fern-shirt"
+  },
+  {
+   "bit": 1491,
+   "categorie": "vetements",
+   "id": "blue-retro-shirt"
+  },
+  {
+   "bit": 1492,
+   "categorie": "vetements",
+   "id": "orange-check-tee"
+  },
+  {
+   "bit": 1493,
+   "categorie": "vetements",
+   "id": "leaf-shirt"
+  },
+  {
+   "bit": 1494,
+   "categorie": "vetements",
+   "id": "fall-leaf-shirt"
+  },
+  {
+   "bit": 1495,
+   "categorie": "vetements",
+   "id": "straw-shirt"
+  },
+  {
+   "bit": 1496,
+   "categorie": "vetements",
+   "id": "grass-shirt"
+  },
+  {
+   "bit": 1497,
+   "categorie": "vetements",
+   "id": "snow-shirt"
+  },
+  {
+   "bit": 1498,
+   "categorie": "vetements",
+   "id": "lovely-shirt"
+  },
+  {
+   "bit": 1499,
+   "categorie": "vetements",
+   "id": "bubble-shirt"
+  },
+  {
+   "bit": 1500,
+   "categorie": "vetements",
+   "id": "chichi-print"
+  },
+  {
+   "bit": 1501,
+   "categorie": "vetements",
+   "id": "coral-shirt"
+  },
+  {
+   "bit": 1502,
+   "categorie": "vetements",
+   "id": "groovy-shirt"
+  },
+  {
+   "bit": 1503,
+   "categorie": "vetements",
+   "id": "cool-shirt"
+  },
+  {
+   "bit": 1504,
+   "categorie": "vetements",
+   "id": "swell-shirt"
+  },
+  {
+   "bit": 1505,
+   "categorie": "vetements",
+   "id": "blue-diamond-top"
+  },
+  {
+   "bit": 1506,
+   "categorie": "vetements",
+   "id": "prism-shirt"
+  },
+  {
+   "bit": 1507,
+   "categorie": "vetements",
+   "id": "go-go-shirt"
+  },
+  {
+   "bit": 1508,
+   "categorie": "vetements",
+   "id": "flame-shirt"
+  },
+  {
+   "bit": 1509,
+   "categorie": "vetements",
+   "id": "danger-shirt"
+  },
+  {
+   "bit": 1510,
+   "categorie": "vetements",
+   "id": "gracies-top"
+  },
+  {
+   "bit": 1511,
+   "categorie": "vetements",
+   "id": "future-shirt"
+  },
+  {
+   "bit": 1512,
+   "categorie": "vetements",
+   "id": "optical-shirt"
+  },
+  {
+   "bit": 1513,
+   "categorie": "vetements",
+   "id": "twinkle-shirt"
+  },
+  {
+   "bit": 1514,
+   "categorie": "vetements",
+   "id": "star-shirt"
+  },
+  {
+   "bit": 1515,
+   "categorie": "vetements",
+   "id": "night-sky-tee"
+  },
+  {
+   "bit": 1516,
+   "categorie": "vetements",
+   "id": "amethyst-shirt"
+  },
+  {
+   "bit": 1517,
+   "categorie": "vetements",
+   "id": "nebula-shirt"
+  },
+  {
+   "bit": 1518,
+   "categorie": "vetements",
+   "id": "dice-shirt"
+  },
+  {
+   "bit": 1519,
+   "categorie": "vetements",
+   "id": "kiddie-shirt"
+  },
+  {
+   "bit": 1520,
+   "categorie": "vetements",
+   "id": "airy-shirt"
+  },
+  {
+   "bit": 1521,
+   "categorie": "vetements",
+   "id": "polar-fleece"
+  },
+  {
+   "bit": 1522,
+   "categorie": "vetements",
+   "id": "crossing-shirt"
+  },
+  {
+   "bit": 1523,
+   "categorie": "vetements",
+   "id": "splendid-shirt"
+  },
+  {
+   "bit": 1524,
+   "categorie": "vetements",
+   "id": "jagged-shirt"
+  },
+  {
+   "bit": 1525,
+   "categorie": "vetements",
+   "id": "subdued-print"
+  },
+  {
+   "bit": 1526,
+   "categorie": "vetements",
+   "id": "sharp-outfit"
+  },
+  {
+   "bit": 1527,
+   "categorie": "vetements",
+   "id": "painters-smock"
+  },
+  {
+   "bit": 1528,
+   "categorie": "vetements",
+   "id": "blossoming-shirt"
+  },
+  {
+   "bit": 1529,
+   "categorie": "vetements",
+   "id": "jungle-camo"
+  },
+  {
+   "bit": 1530,
+   "categorie": "vetements",
+   "id": "arctic-camo"
+  },
+  {
+   "bit": 1531,
+   "categorie": "vetements",
+   "id": "desert-camo"
+  },
+  {
+   "bit": 1532,
+   "categorie": "vetements",
+   "id": "shirt-circuit"
+  },
+  {
+   "bit": 1533,
+   "categorie": "vetements",
+   "id": "pulse-shirt"
+  },
+  {
+   "bit": 1534,
+   "categorie": "vetements",
+   "id": "zebra-shirt"
+  },
+  {
+   "bit": 1535,
+   "categorie": "vetements",
+   "id": "tiger-shirt"
+  },
+  {
+   "bit": 1536,
+   "categorie": "vetements",
+   "id": "cow-shirt"
+  },
+  {
+   "bit": 1537,
+   "categorie": "vetements",
+   "id": "leopard-shirt"
+  },
+  {
+   "bit": 1538,
+   "categorie": "vetements",
+   "id": "giraffe-shirt"
+  },
+  {
+   "bit": 1539,
+   "categorie": "vetements",
+   "id": "ladybug-shirt"
+  },
+  {
+   "bit": 1540,
+   "categorie": "vetements",
+   "id": "butterfly-shirt"
+  },
+  {
+   "bit": 1541,
+   "categorie": "vetements",
+   "id": "spiderweb-shirt"
+  },
+  {
+   "bit": 1542,
+   "categorie": "vetements",
+   "id": "caterpillar-tee"
+  },
+  {
+   "bit": 1543,
+   "categorie": "vetements",
+   "id": "fiendish-shirt"
+  },
+  {
+   "bit": 1544,
+   "categorie": "vetements",
+   "id": "citrus-shirt"
+  },
+  {
+   "bit": 1545,
+   "categorie": "vetements",
+   "id": "kiwi-shirt"
+  },
+  {
+   "bit": 1546,
+   "categorie": "vetements",
+   "id": "watermelon-shirt"
+  },
+  {
+   "bit": 1547,
+   "categorie": "vetements",
+   "id": "strawberry-shirt"
+  },
+  {
+   "bit": 1548,
+   "categorie": "vetements",
+   "id": "grape-shirt"
+  },
+  {
+   "bit": 1549,
+   "categorie": "vetements",
+   "id": "melon-shirt"
+  },
+  {
+   "bit": 1550,
+   "categorie": "vetements",
+   "id": "pink-wave-shirt"
+  },
+  {
+   "bit": 1551,
+   "categorie": "vetements",
+   "id": "flan-shirt"
+  },
+  {
+   "bit": 1552,
+   "categorie": "vetements",
+   "id": "hot-dog-shirt"
+  },
+  {
+   "bit": 1553,
+   "categorie": "vetements",
+   "id": "sandwich-shirt"
+  },
+  {
+   "bit": 1554,
+   "categorie": "vetements",
+   "id": "noodle-shirt"
+  },
+  {
+   "bit": 1555,
+   "categorie": "vetements",
+   "id": "ugly-shirt"
+  },
+  {
+   "bit": 1556,
+   "categorie": "vetements",
+   "id": "dragon-suit"
+  },
+  {
+   "bit": 1557,
+   "categorie": "vetements",
+   "id": "asian-shirt"
+  },
+  {
+   "bit": 1558,
+   "categorie": "vetements",
+   "id": "hot-spring-shirt"
+  },
+  {
+   "bit": 1559,
+   "categorie": "vetements",
+   "id": "new-spring-shirt"
+  },
+  {
+   "bit": 1560,
+   "categorie": "vetements",
+   "id": "crewel-shirt"
+  },
+  {
+   "bit": 1561,
+   "categorie": "vetements",
+   "id": "tropical-shirt"
+  },
+  {
+   "bit": 1562,
+   "categorie": "vetements",
+   "id": "ribbon-shirt"
+  },
+  {
+   "bit": 1563,
+   "categorie": "vetements",
+   "id": "bodice"
+  },
+  {
+   "bit": 1564,
+   "categorie": "vetements",
+   "id": "laced-shirt"
+  },
+  {
+   "bit": 1565,
+   "categorie": "vetements",
+   "id": "circus-shirt"
+  },
+  {
+   "bit": 1566,
+   "categorie": "vetements",
+   "id": "green-vest"
+  },
+  {
+   "bit": 1567,
+   "categorie": "vetements",
+   "id": "yellow-bolero"
+  },
+  {
+   "bit": 1568,
+   "categorie": "vetements",
+   "id": "noble-shirt"
+  },
+  {
+   "bit": 1569,
+   "categorie": "vetements",
+   "id": "turnip-top"
+  },
+  {
+   "bit": 1570,
+   "categorie": "vetements",
+   "id": "yodel-shirt"
+  },
+  {
+   "bit": 1571,
+   "categorie": "vetements",
+   "id": "classic-top"
+  },
+  {
+   "bit": 1572,
+   "categorie": "vetements",
+   "id": "gaudy-sweater"
+  },
+  {
+   "bit": 1573,
+   "categorie": "vetements",
+   "id": "red-aloha-shirt"
+  },
+  {
+   "bit": 1574,
+   "categorie": "vetements",
+   "id": "blue-aloha-shirt"
+  },
+  {
+   "bit": 1575,
+   "categorie": "vetements",
+   "id": "western-shirt"
+  },
+  {
+   "bit": 1576,
+   "categorie": "vetements",
+   "id": "red-riding-hoody"
+  },
+  {
+   "bit": 1577,
+   "categorie": "vetements",
+   "id": "royal-shirt"
+  },
+  {
+   "bit": 1578,
+   "categorie": "vetements",
+   "id": "witch-shirt"
+  },
+  {
+   "bit": 1579,
+   "categorie": "vetements",
+   "id": "firefighter-tee"
+  },
+  {
+   "bit": 1580,
+   "categorie": "vetements",
+   "id": "graduation-gown"
+  },
+  {
+   "bit": 1581,
+   "categorie": "vetements",
+   "id": "sky-shirt"
+  },
+  {
+   "bit": 1582,
+   "categorie": "vetements",
+   "id": "captains-shirt"
+  },
+  {
+   "bit": 1583,
+   "categorie": "vetements",
+   "id": "burglars-shirt"
+  },
+  {
+   "bit": 1584,
+   "categorie": "vetements",
+   "id": "jester-shirt"
+  },
+  {
+   "bit": 1585,
+   "categorie": "vetements",
+   "id": "doctors-coat"
+  },
+  {
+   "bit": 1586,
+   "categorie": "vetements",
+   "id": "bone-shirt"
+  },
+  {
+   "bit": 1587,
+   "categorie": "vetements",
+   "id": "zipper-shirt"
+  },
+  {
+   "bit": 1588,
+   "categorie": "vetements",
+   "id": "mummy-shirt"
+  },
+  {
+   "bit": 1589,
+   "categorie": "vetements",
+   "id": "military-uniform"
+  },
+  {
+   "bit": 1590,
+   "categorie": "vetements",
+   "id": "sailors-uniform"
+  },
+  {
+   "bit": 1591,
+   "categorie": "vetements",
+   "id": "reggae-shirt"
+  },
+  {
+   "bit": 1592,
+   "categorie": "vetements",
+   "id": "camel-shirt"
+  },
+  {
+   "bit": 1593,
+   "categorie": "vetements",
+   "id": "molecule-tee"
+  },
+  {
+   "bit": 1594,
+   "categorie": "vetements",
+   "id": "concierge-shirt"
+  },
+  {
+   "bit": 1595,
+   "categorie": "vetements",
+   "id": "kimono"
+  },
+  {
+   "bit": 1596,
+   "categorie": "vetements",
+   "id": "tuxedo"
+  },
+  {
+   "bit": 1597,
+   "categorie": "vetements",
+   "id": "explorer-shirt"
+  },
+  {
+   "bit": 1598,
+   "categorie": "vetements",
+   "id": "dutch-shirt"
+  },
+  {
+   "bit": 1599,
+   "categorie": "vetements",
+   "id": "toga"
+  },
+  {
+   "bit": 1600,
+   "categorie": "vetements",
+   "id": "cake-shirt"
+  },
+  {
+   "bit": 1601,
+   "categorie": "vetements",
+   "id": "waitress-shirt"
+  },
+  {
+   "bit": 1602,
+   "categorie": "vetements",
+   "id": "princess-shirt"
+  },
+  {
+   "bit": 1603,
+   "categorie": "vetements",
+   "id": "fairy-tale-shirt"
+  },
+  {
+   "bit": 1604,
+   "categorie": "vetements",
+   "id": "spanish-shirt"
+  },
+  {
+   "bit": 1605,
+   "categorie": "vetements",
+   "id": "latin-uniform"
+  },
+  {
+   "bit": 1606,
+   "categorie": "vetements",
+   "id": "red-down-vest"
+  },
+  {
+   "bit": 1607,
+   "categorie": "vetements",
+   "id": "blue-puffy-vest"
+  },
+  {
+   "bit": 1608,
+   "categorie": "vetements",
+   "id": "one-way-tee"
+  },
+  {
+   "bit": 1609,
+   "categorie": "vetements",
+   "id": "beaded-shirt"
+  },
+  {
+   "bit": 1610,
+   "categorie": "vetements",
+   "id": "nile-shirt"
+  },
+  {
+   "bit": 1611,
+   "categorie": "vetements",
+   "id": "wrap-shirt"
+  },
+  {
+   "bit": 1612,
+   "categorie": "vetements",
+   "id": "wrestler-shirt"
+  },
+  {
+   "bit": 1613,
+   "categorie": "vetements",
+   "id": "security-shirt"
+  },
+  {
+   "bit": 1614,
+   "categorie": "vetements",
+   "id": "poncho"
+  },
+  {
+   "bit": 1615,
+   "categorie": "vetements",
+   "id": "fluffy-shirt"
+  },
+  {
+   "bit": 1616,
+   "categorie": "vetements",
+   "id": "cat-top"
+  },
+  {
+   "bit": 1617,
+   "categorie": "vetements",
+   "id": "bear-top"
+  },
+  {
+   "bit": 1618,
+   "categorie": "vetements",
+   "id": "frog-top"
+  },
+  {
+   "bit": 1619,
+   "categorie": "vetements",
+   "id": "kappa-suit"
+  },
+  {
+   "bit": 1620,
+   "categorie": "vetements",
+   "id": "chinese-shirt"
+  },
+  {
+   "bit": 1621,
+   "categorie": "vetements",
+   "id": "pep-squad-shirt"
+  },
+  {
+   "bit": 1622,
+   "categorie": "vetements",
+   "id": "racing-shirt"
+  },
+  {
+   "bit": 1623,
+   "categorie": "vetements",
+   "id": "orange-jumpsuit"
+  },
+  {
+   "bit": 1624,
+   "categorie": "vetements",
+   "id": "tin-shirt"
+  },
+  {
+   "bit": 1625,
+   "categorie": "vetements",
+   "id": "scale-armor-suit"
+  },
+  {
+   "bit": 1626,
+   "categorie": "vetements",
+   "id": "armor-suit"
+  },
+  {
+   "bit": 1627,
+   "categorie": "vetements",
+   "id": "gold-armor-suit"
+  },
+  {
+   "bit": 1628,
+   "categorie": "vetements",
+   "id": "striking-outfit"
+  },
+  {
+   "bit": 1629,
+   "categorie": "vetements",
+   "id": "red-warmup-suit"
+  },
+  {
+   "bit": 1630,
+   "categorie": "vetements",
+   "id": "baseball-shirt"
+  },
+  {
+   "bit": 1631,
+   "categorie": "vetements",
+   "id": "red-sweatsuit"
+  },
+  {
+   "bit": 1632,
+   "categorie": "vetements",
+   "id": "blue-sweatsuit"
+  },
+  {
+   "bit": 1633,
+   "categorie": "vetements",
+   "id": "leather-jerkin"
+  },
+  {
+   "bit": 1634,
+   "categorie": "vetements",
+   "id": "frock-coat"
+  },
+  {
+   "bit": 1635,
+   "categorie": "vetements",
+   "id": "jingle-shirt"
+  },
+  {
+   "bit": 1636,
+   "categorie": "vetements",
+   "id": "space-suit"
+  },
+  {
+   "bit": 1637,
+   "categorie": "vetements",
+   "id": "caveman-tunic"
+  },
+  {
+   "bit": 1638,
+   "categorie": "vetements",
+   "id": "casual-outfit"
+  },
+  {
+   "bit": 1639,
+   "categorie": "vetements",
+   "id": "kung-fu-gi"
+  },
+  {
+   "bit": 1640,
+   "categorie": "vetements",
+   "id": "pleather-vest"
+  },
+  {
+   "bit": 1641,
+   "categorie": "vetements",
+   "id": "maid-dress"
+  },
+  {
+   "bit": 1642,
+   "categorie": "vetements",
+   "id": "trenchcoat"
+  },
+  {
+   "bit": 1643,
+   "categorie": "vetements",
+   "id": "detective-outfit"
+  },
+  {
+   "bit": 1644,
+   "categorie": "vetements",
+   "id": "cycling-outfit"
+  },
+  {
+   "bit": 1645,
+   "categorie": "vetements",
+   "id": "chefs-outfit"
+  },
+  {
+   "bit": 1646,
+   "categorie": "vetements",
+   "id": "pirates-coat"
+  },
+  {
+   "bit": 1647,
+   "categorie": "vetements",
+   "id": "persian-coat"
+  },
+  {
+   "bit": 1648,
+   "categorie": "vetements",
+   "id": "folk-tunic"
+  },
+  {
+   "bit": 1649,
+   "categorie": "vetements",
+   "id": "egyptian-outfit"
+  },
+  {
+   "bit": 1650,
+   "categorie": "vetements",
+   "id": "red-zap-suit"
+  },
+  {
+   "bit": 1651,
+   "categorie": "vetements",
+   "id": "blue-zap-suit"
+  },
+  {
+   "bit": 1652,
+   "categorie": "vetements",
+   "id": "green-zap-suit"
+  },
+  {
+   "bit": 1653,
+   "categorie": "vetements",
+   "id": "pink-zap-suit"
+  },
+  {
+   "bit": 1654,
+   "categorie": "vetements",
+   "id": "samurai-suit"
+  },
+  {
+   "bit": 1655,
+   "categorie": "vetements",
+   "id": "bathrobe"
+  },
+  {
+   "bit": 1656,
+   "categorie": "vetements",
+   "id": "moldy-shirt"
+  },
+  {
+   "bit": 1657,
+   "categorie": "vetements",
+   "id": "patched-shirt"
+  },
+  {
+   "bit": 1658,
+   "categorie": "vetements",
+   "id": "heros-clothes"
+  },
+  {
+   "bit": 1659,
+   "categorie": "vetements",
+   "id": "varia-suit"
+  },
+  {
+   "bit": 1660,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1661,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1662,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1663,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1664,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1665,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1666,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1667,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1668,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1669,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1670,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1671,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1672,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1673,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1674,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1675,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1676,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1677,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1678,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1679,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1680,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1681,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1682,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1683,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1684,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1685,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1686,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1687,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1688,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1689,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1690,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1691,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1692,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1693,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1694,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1695,
+   "categorie": "vetements",
+   "id": "new-years-shirt"
+  },
+  {
+   "bit": 1800,
+   "categorie": "vetements",
+   "id": "white-cap"
+  },
+  {
+   "bit": 1801,
+   "categorie": "vetements",
+   "id": "red-cap"
+  },
+  {
+   "bit": 1802,
+   "categorie": "vetements",
+   "id": "yellow-cap"
+  },
+  {
+   "bit": 1803,
+   "categorie": "vetements",
+   "id": "light-blue-cap"
+  },
+  {
+   "bit": 1804,
+   "categorie": "vetements",
+   "id": "green-cap"
+  },
+  {
+   "bit": 1805,
+   "categorie": "vetements",
+   "id": "star-cap"
+  },
+  {
+   "bit": 1806,
+   "categorie": "vetements",
+   "id": "1-up-cap"
+  },
+  {
+   "bit": 1807,
+   "categorie": "vetements",
+   "id": "purple-cap"
+  },
+  {
+   "bit": 1808,
+   "categorie": "vetements",
+   "id": "blue-cap"
+  },
+  {
+   "bit": 1809,
+   "categorie": "vetements",
+   "id": "blue-pom-pom-hat"
+  },
+  {
+   "bit": 1810,
+   "categorie": "vetements",
+   "id": "green-knit-hat"
+  },
+  {
+   "bit": 1811,
+   "categorie": "vetements",
+   "id": "orange-knit-hat"
+  },
+  {
+   "bit": 1812,
+   "categorie": "vetements",
+   "id": "pink-knit-hat"
+  },
+  {
+   "bit": 1813,
+   "categorie": "vetements",
+   "id": "purple-knit-hat"
+  },
+  {
+   "bit": 1814,
+   "categorie": "vetements",
+   "id": "red-pom-pom-hat"
+  },
+  {
+   "bit": 1815,
+   "categorie": "vetements",
+   "id": "badge-hat"
+  },
+  {
+   "bit": 1816,
+   "categorie": "vetements",
+   "id": "straw-hat"
+  },
+  {
+   "bit": 1817,
+   "categorie": "vetements",
+   "id": "grandpa-hat"
+  },
+  {
+   "bit": 1818,
+   "categorie": "vetements",
+   "id": "paperboy-cap"
+  },
+  {
+   "bit": 1819,
+   "categorie": "vetements",
+   "id": "beret"
+  },
+  {
+   "bit": 1820,
+   "categorie": "vetements",
+   "id": "dandy-hat"
+  },
+  {
+   "bit": 1821,
+   "categorie": "vetements",
+   "id": "hunters-cap"
+  },
+  {
+   "bit": 1822,
+   "categorie": "vetements",
+   "id": "detective-hat"
+  },
+  {
+   "bit": 1823,
+   "categorie": "vetements",
+   "id": "top-hat"
+  },
+  {
+   "bit": 1824,
+   "categorie": "vetements",
+   "id": "puffy-hat"
+  },
+  {
+   "bit": 1825,
+   "categorie": "vetements",
+   "id": "gracie-hat"
+  },
+  {
+   "bit": 1826,
+   "categorie": "vetements",
+   "id": "elegant-hat"
+  },
+  {
+   "bit": 1827,
+   "categorie": "vetements",
+   "id": "bandana"
+  },
+  {
+   "bit": 1828,
+   "categorie": "vetements",
+   "id": "tulip-hat"
+  },
+  {
+   "bit": 1829,
+   "categorie": "vetements",
+   "id": "do-rag"
+  },
+  {
+   "bit": 1830,
+   "categorie": "vetements",
+   "id": "swimming-cap"
+  },
+  {
+   "bit": 1831,
+   "categorie": "vetements",
+   "id": "wizards-cap"
+  },
+  {
+   "bit": 1832,
+   "categorie": "vetements",
+   "id": "newsprint-helmet"
+  },
+  {
+   "bit": 1833,
+   "categorie": "vetements",
+   "id": "festive-hat"
+  },
+  {
+   "bit": 1834,
+   "categorie": "vetements",
+   "id": "big-bros-hat"
+  },
+  {
+   "bit": 1835,
+   "categorie": "vetements",
+   "id": "lil-bros-hat"
+  },
+  {
+   "bit": 1836,
+   "categorie": "vetements",
+   "id": "wario-hat"
+  },
+  {
+   "bit": 1837,
+   "categorie": "vetements",
+   "id": "bicycle-helmet"
+  },
+  {
+   "bit": 1838,
+   "categorie": "vetements",
+   "id": "chefs-hat"
+  },
+  {
+   "bit": 1839,
+   "categorie": "vetements",
+   "id": "combat-helmet"
+  },
+  {
+   "bit": 1840,
+   "categorie": "vetements",
+   "id": "scholars-hat"
+  },
+  {
+   "bit": 1841,
+   "categorie": "vetements",
+   "id": "safety-helmet"
+  },
+  {
+   "bit": 1842,
+   "categorie": "vetements",
+   "id": "police-cap"
+  },
+  {
+   "bit": 1843,
+   "categorie": "vetements",
+   "id": "explorers-hat"
+  },
+  {
+   "bit": 1844,
+   "categorie": "vetements",
+   "id": "captains-hat"
+  },
+  {
+   "bit": 1845,
+   "categorie": "vetements",
+   "id": "sailors-hat"
+  },
+  {
+   "bit": 1846,
+   "categorie": "vetements",
+   "id": "silk-hat"
+  },
+  {
+   "bit": 1847,
+   "categorie": "vetements",
+   "id": "outback-hat"
+  },
+  {
+   "bit": 1848,
+   "categorie": "vetements",
+   "id": "dutch-hat"
+  },
+  {
+   "bit": 1849,
+   "categorie": "vetements",
+   "id": "sombrero"
+  },
+  {
+   "bit": 1850,
+   "categorie": "vetements",
+   "id": "tyrolean-hat"
+  },
+  {
+   "bit": 1851,
+   "categorie": "vetements",
+   "id": "viking-helmet"
+  },
+  {
+   "bit": 1852,
+   "categorie": "vetements",
+   "id": "cavalier-hat"
+  },
+  {
+   "bit": 1853,
+   "categorie": "vetements",
+   "id": "pirates-hat"
+  },
+  {
+   "bit": 1854,
+   "categorie": "vetements",
+   "id": "jesters-cap"
+  },
+  {
+   "bit": 1855,
+   "categorie": "vetements",
+   "id": "witchs-hat"
+  },
+  {
+   "bit": 1856,
+   "categorie": "vetements",
+   "id": "melon-hat"
+  },
+  {
+   "bit": 1857,
+   "categorie": "vetements",
+   "id": "strawberry-hat"
+  },
+  {
+   "bit": 1858,
+   "categorie": "vetements",
+   "id": "kiwi-hat"
+  },
+  {
+   "bit": 1859,
+   "categorie": "vetements",
+   "id": "mandarin-hat"
+  },
+  {
+   "bit": 1860,
+   "categorie": "vetements",
+   "id": "watermelon-hat"
+  },
+  {
+   "bit": 1861,
+   "categorie": "vetements",
+   "id": "grape-hat"
+  },
+  {
+   "bit": 1862,
+   "categorie": "vetements",
+   "id": "grape-hat"
+  },
+  {
+   "bit": 1863,
+   "categorie": "vetements",
+   "id": "red-ribbon"
+  },
+  {
+   "bit": 1864,
+   "categorie": "vetements",
+   "id": "blue-ribbon"
+  },
+  {
+   "bit": 1865,
+   "categorie": "vetements",
+   "id": "yellow-ribbon"
+  },
+  {
+   "bit": 1866,
+   "categorie": "vetements",
+   "id": "heart-hairpin"
+  },
+  {
+   "bit": 1867,
+   "categorie": "vetements",
+   "id": "star-hairpin"
+  },
+  {
+   "bit": 1868,
+   "categorie": "vetements",
+   "id": "moon-hairpin"
+  },
+  {
+   "bit": 1869,
+   "categorie": "vetements",
+   "id": "green-feather"
+  },
+  {
+   "bit": 1870,
+   "categorie": "vetements",
+   "id": "blue-feather"
+  },
+  {
+   "bit": 1871,
+   "categorie": "vetements",
+   "id": "yellow-feather"
+  },
+  {
+   "bit": 1872,
+   "categorie": "vetements",
+   "id": "red-feather"
+  },
+  {
+   "bit": 1873,
+   "categorie": "vetements",
+   "id": "purple-feather"
+  },
+  {
+   "bit": 1874,
+   "categorie": "vetements",
+   "id": "white-feather"
+  },
+  {
+   "bit": 1875,
+   "categorie": "vetements",
+   "id": "rainbow-feather"
+  },
+  {
+   "bit": 1876,
+   "categorie": "vetements",
+   "id": "halo"
+  },
+  {
+   "bit": 1877,
+   "categorie": "vetements",
+   "id": "royal-crown"
+  },
+  {
+   "bit": 1878,
+   "categorie": "vetements",
+   "id": "crown"
+  },
+  {
+   "bit": 1900,
+   "categorie": "vetements",
+   "id": "black-knit-cap"
+  },
+  {
+   "bit": 1901,
+   "categorie": "vetements",
+   "id": "pilots-cap"
+  },
+  {
+   "bit": 1902,
+   "categorie": "vetements",
+   "id": "firemans-hat"
+  },
+  {
+   "bit": 1903,
+   "categorie": "vetements",
+   "id": "babys-hat"
+  },
+  {
+   "bit": 1904,
+   "categorie": "vetements",
+   "id": "turban"
+  },
+  {
+   "bit": 1905,
+   "categorie": "vetements",
+   "id": "warbonnet"
+  },
+  {
+   "bit": 1906,
+   "categorie": "vetements",
+   "id": "kaffiyeh"
+  },
+  {
+   "bit": 1907,
+   "categorie": "vetements",
+   "id": "cow-bone"
+  },
+  {
+   "bit": 1908,
+   "categorie": "vetements",
+   "id": "samurai-wig"
+  },
+  {
+   "bit": 1909,
+   "categorie": "vetements",
+   "id": "geisha-wig"
+  },
+  {
+   "bit": 1910,
+   "categorie": "vetements",
+   "id": "ninja-hood"
+  },
+  {
+   "bit": 1911,
+   "categorie": "vetements",
+   "id": "powdered-wig"
+  },
+  {
+   "bit": 1912,
+   "categorie": "vetements",
+   "id": "afro-wig"
+  },
+  {
+   "bit": 1913,
+   "categorie": "vetements",
+   "id": "regent-wig"
+  },
+  {
+   "bit": 1914,
+   "categorie": "vetements",
+   "id": "mohawk-wig"
+  },
+  {
+   "bit": 1915,
+   "categorie": "vetements",
+   "id": "pigtail"
+  },
+  {
+   "bit": 1916,
+   "categorie": "vetements",
+   "id": "bun-wig"
+  },
+  {
+   "bit": 1917,
+   "categorie": "vetements",
+   "id": "tiara-hair"
+  },
+  {
+   "bit": 1918,
+   "categorie": "vetements",
+   "id": "bridal-veil"
+  },
+  {
+   "bit": 1919,
+   "categorie": "vetements",
+   "id": "headband"
+  },
+  {
+   "bit": 1920,
+   "categorie": "vetements",
+   "id": "bunny-hood"
+  },
+  {
+   "bit": 1921,
+   "categorie": "vetements",
+   "id": "cat-cap"
+  },
+  {
+   "bit": 1922,
+   "categorie": "vetements",
+   "id": "bear-cap"
+  },
+  {
+   "bit": 1923,
+   "categorie": "vetements",
+   "id": "frog-cap"
+  },
+  {
+   "bit": 1924,
+   "categorie": "vetements",
+   "id": "kappa-cap"
+  },
+  {
+   "bit": 1925,
+   "categorie": "vetements",
+   "id": "helmet"
+  },
+  {
+   "bit": 1926,
+   "categorie": "vetements",
+   "id": "heros-cap"
+  },
+  {
+   "bit": 1928,
+   "categorie": "vetements",
+   "id": "racing-helmet"
+  },
+  {
+   "bit": 1929,
+   "categorie": "vetements",
+   "id": "motocross-helmet"
+  },
+  {
+   "bit": 1930,
+   "categorie": "vetements",
+   "id": "football-helmet"
+  },
+  {
+   "bit": 1931,
+   "categorie": "vetements",
+   "id": "knights-helmet"
+  },
+  {
+   "bit": 1932,
+   "categorie": "vetements",
+   "id": "roman-helmet"
+  },
+  {
+   "bit": 1933,
+   "categorie": "vetements",
+   "id": "diving-mask"
+  },
+  {
+   "bit": 1934,
+   "categorie": "vetements",
+   "id": "space-helmet"
+  },
+  {
+   "bit": 1935,
+   "categorie": "vetements",
+   "id": "ski-mask"
+  },
+  {
+   "bit": 1936,
+   "categorie": "vetements",
+   "id": "wrestling-mask"
+  },
+  {
+   "bit": 1937,
+   "categorie": "vetements",
+   "id": "dressing"
+  },
+  {
+   "bit": 1938,
+   "categorie": "vetements",
+   "id": "retro-helmet"
+  },
+  {
+   "bit": 1939,
+   "categorie": "vetements",
+   "id": "red-zap-helmet"
+  },
+  {
+   "bit": 1940,
+   "categorie": "vetements",
+   "id": "blue-zap-helmet"
+  },
+  {
+   "bit": 1941,
+   "categorie": "vetements",
+   "id": "green-zap-helmet"
+  },
+  {
+   "bit": 1942,
+   "categorie": "vetements",
+   "id": "pink-zap-helmet"
+  },
+  {
+   "bit": 1943,
+   "categorie": "vetements",
+   "id": "red-ogre-mask"
+  },
+  {
+   "bit": 1944,
+   "categorie": "vetements",
+   "id": "blue-ogre-mask"
+  },
+  {
+   "bit": 1945,
+   "categorie": "vetements",
+   "id": "majoras-mask"
+  },
+  {
+   "bit": 1946,
+   "categorie": "vetements",
+   "id": "samus-mask"
+  },
+  {
+   "bit": 1947,
+   "categorie": "vetements",
+   "id": "midnas-mask"
+  },
+  {
+   "bit": 1948,
+   "categorie": "vetements",
+   "id": "toad-hat"
+  },
+  {
+   "bit": 1949,
+   "categorie": "vetements",
+   "id": "pumpkin-head"
+  },
+  {
+   "bit": 1950,
+   "categorie": "vetements",
+   "id": "king-tut-mask"
+  },
+  {
+   "bit": 2000,
+   "categorie": "vetements",
+   "id": "blue-frames"
+  },
+  {
+   "bit": 2001,
+   "categorie": "vetements",
+   "id": "red-glasses"
+  },
+  {
+   "bit": 2002,
+   "categorie": "vetements",
+   "id": "yellow-glasses"
+  },
+  {
+   "bit": 2003,
+   "categorie": "vetements",
+   "id": "mint-glasses"
+  },
+  {
+   "bit": 2004,
+   "categorie": "vetements",
+   "id": "purple-glasses"
+  },
+  {
+   "bit": 2005,
+   "categorie": "vetements",
+   "id": "green-glasses"
+  },
+  {
+   "bit": 2006,
+   "categorie": "vetements",
+   "id": "brown-glasses"
+  },
+  {
+   "bit": 2007,
+   "categorie": "vetements",
+   "id": "pink-glasses"
+  },
+  {
+   "bit": 2008,
+   "categorie": "vetements",
+   "id": "thick-glasses"
+  },
+  {
+   "bit": 2009,
+   "categorie": "vetements",
+   "id": "silver-frames"
+  },
+  {
+   "bit": 2010,
+   "categorie": "vetements",
+   "id": "rimmed-glasses"
+  },
+  {
+   "bit": 2011,
+   "categorie": "vetements",
+   "id": "funky-glasses"
+  },
+  {
+   "bit": 2012,
+   "categorie": "vetements",
+   "id": "tortoise-specs"
+  },
+  {
+   "bit": 2013,
+   "categorie": "vetements",
+   "id": "gracie-glasses"
+  },
+  {
+   "bit": 2014,
+   "categorie": "vetements",
+   "id": "pilot-shades"
+  },
+  {
+   "bit": 2015,
+   "categorie": "vetements",
+   "id": "sporty-shades"
+  },
+  {
+   "bit": 2016,
+   "categorie": "vetements",
+   "id": "huge-shades"
+  },
+  {
+   "bit": 2017,
+   "categorie": "vetements",
+   "id": "triangle-shades"
+  },
+  {
+   "bit": 2018,
+   "categorie": "vetements",
+   "id": "tiny-shades"
+  },
+  {
+   "bit": 2019,
+   "categorie": "vetements",
+   "id": "heart-shades"
+  },
+  {
+   "bit": 2020,
+   "categorie": "vetements",
+   "id": "star-shades"
+  },
+  {
+   "bit": 2021,
+   "categorie": "vetements",
+   "id": "3-d-glasses"
+  },
+  {
+   "bit": 2022,
+   "categorie": "vetements",
+   "id": "masquerade-mask"
+  },
+  {
+   "bit": 2023,
+   "categorie": "vetements",
+   "id": "superhero-mask"
+  },
+  {
+   "bit": 2024,
+   "categorie": "vetements",
+   "id": "goggles"
+  },
+  {
+   "bit": 2025,
+   "categorie": "vetements",
+   "id": "snorkel-mask"
+  },
+  {
+   "bit": 2026,
+   "categorie": "vetements",
+   "id": "eye-mask"
+  },
+  {
+   "bit": 2027,
+   "categorie": "vetements",
+   "id": "hmd"
+  },
+  {
+   "bit": 2028,
+   "categorie": "vetements",
+   "id": "monocle"
+  },
+  {
+   "bit": 2029,
+   "categorie": "vetements",
+   "id": "doctors-mirror"
+  },
+  {
+   "bit": 2030,
+   "categorie": "vetements",
+   "id": "eye-patch"
+  },
+  {
+   "bit": 2031,
+   "categorie": "vetements",
+   "id": "post-op-patch"
+  },
+  {
+   "bit": 2032,
+   "categorie": "vetements",
+   "id": "gas-mask"
+  },
+  {
+   "bit": 2033,
+   "categorie": "vetements",
+   "id": "hockey-mask"
+  },
+  {
+   "bit": 2034,
+   "categorie": "vetements",
+   "id": "clown-mask"
+  },
+  {
+   "bit": 2035,
+   "categorie": "vetements",
+   "id": "red-nose"
+  },
+  {
+   "bit": 2036,
+   "categorie": "vetements",
+   "id": "stache-and-glasses"
+  },
+  {
+   "bit": 2037,
+   "categorie": "vetements",
+   "id": "big-bro-mustache"
+  },
+  {
+   "bit": 2038,
+   "categorie": "vetements",
+   "id": "bad-bro-stache"
+  },
+  {
+   "bit": 2039,
+   "categorie": "vetements",
+   "id": "curly-mustache"
+  },
+  {
+   "bit": 2040,
+   "categorie": "vetements",
+   "id": "kings-beard"
+  },
+  {
+   "bit": 2041,
+   "categorie": "vetements",
+   "id": "doctors-mask"
+  },
+  {
+   "bit": 2042,
+   "categorie": "vetements",
+   "id": "pacifier"
+  },
+  {
+   "bit": 2043,
+   "categorie": "vetements",
+   "id": "beak"
+  },
+  {
+   "bit": 2044,
+   "categorie": "vetements",
+   "id": "lemon-pack"
+  },
+  {
+   "bit": 2045,
+   "categorie": "vetements",
+   "id": "cucumber-pack"
+  },
+  {
+   "bit": 2046,
+   "categorie": "vetements",
+   "id": "bandage"
+  },
+  {
+   "bit": 2300,
+   "categorie": "gyroides",
+   "id": "mega-clankoid"
+  },
+  {
+   "bit": 2301,
+   "categorie": "gyroides",
+   "id": "clankoid"
+  },
+  {
+   "bit": 2302,
+   "categorie": "gyroides",
+   "id": "mini-clankoid"
+  },
+  {
+   "bit": 2303,
+   "categorie": "gyroides",
+   "id": "tall-clankoid"
+  },
+  {
+   "bit": 2304,
+   "categorie": "gyroides",
+   "id": "squat-dingloid"
+  },
+  {
+   "bit": 2305,
+   "categorie": "gyroides",
+   "id": "mega-dingloid"
+  },
+  {
+   "bit": 2306,
+   "categorie": "gyroides",
+   "id": "dingloid"
+  },
+  {
+   "bit": 2307,
+   "categorie": "gyroides",
+   "id": "mini-dingloid"
+  },
+  {
+   "bit": 2308,
+   "categorie": "gyroides",
+   "id": "wee-dingloid"
+  },
+  {
+   "bit": 2309,
+   "categorie": "gyroides",
+   "id": "tall-dingloid"
+  },
+  {
+   "bit": 2310,
+   "categorie": "gyroides",
+   "id": "mega-percoloid"
+  },
+  {
+   "bit": 2311,
+   "categorie": "gyroides",
+   "id": "tall-percoloid"
+  },
+  {
+   "bit": 2312,
+   "categorie": "gyroides",
+   "id": "mega-oombloid"
+  },
+  {
+   "bit": 2313,
+   "categorie": "gyroides",
+   "id": "oombloid"
+  },
+  {
+   "bit": 2314,
+   "categorie": "gyroides",
+   "id": "mini-oombloid"
+  },
+  {
+   "bit": 2315,
+   "categorie": "gyroides",
+   "id": "tall-oombloid"
+  },
+  {
+   "bit": 2316,
+   "categorie": "gyroides",
+   "id": "rhythmoid"
+  },
+  {
+   "bit": 2317,
+   "categorie": "gyroides",
+   "id": "mini-rhythmoid"
+  },
+  {
+   "bit": 2318,
+   "categorie": "gyroides",
+   "id": "mega-puffoid"
+  },
+  {
+   "bit": 2319,
+   "categorie": "gyroides",
+   "id": "mini-puffoid"
+  },
+  {
+   "bit": 2320,
+   "categorie": "gyroides",
+   "id": "tall-puffoid"
+  },
+  {
+   "bit": 2321,
+   "categorie": "gyroides",
+   "id": "mega-lullaboid"
+  },
+  {
+   "bit": 2322,
+   "categorie": "gyroides",
+   "id": "lullaboid"
+  },
+  {
+   "bit": 2323,
+   "categorie": "gyroides",
+   "id": "mini-lullaboid"
+  },
+  {
+   "bit": 2324,
+   "categorie": "gyroides",
+   "id": "tall-lullaboid"
+  },
+  {
+   "bit": 2325,
+   "categorie": "gyroides",
+   "id": "mega-sproid"
+  },
+  {
+   "bit": 2326,
+   "categorie": "gyroides",
+   "id": "sproid"
+  },
+  {
+   "bit": 2327,
+   "categorie": "gyroides",
+   "id": "mini-sproid"
+  },
+  {
+   "bit": 2328,
+   "categorie": "gyroides",
+   "id": "tall-sproid"
+  },
+  {
+   "bit": 2329,
+   "categorie": "gyroides",
+   "id": "mega-bowtoid"
+  },
+  {
+   "bit": 2330,
+   "categorie": "gyroides",
+   "id": "bowtoid"
+  },
+  {
+   "bit": 2331,
+   "categorie": "gyroides",
+   "id": "mini-bowtoid"
+  },
+  {
+   "bit": 2332,
+   "categorie": "gyroides",
+   "id": "tall-bowtoid"
+  },
+  {
+   "bit": 2333,
+   "categorie": "gyroides",
+   "id": "mega-tootoid"
+  },
+  {
+   "bit": 2334,
+   "categorie": "gyroides",
+   "id": "tootoid"
+  },
+  {
+   "bit": 2335,
+   "categorie": "gyroides",
+   "id": "mini-tootoid"
+  },
+  {
+   "bit": 2336,
+   "categorie": "gyroides",
+   "id": "mega-plinkoid"
+  },
+  {
+   "bit": 2337,
+   "categorie": "gyroides",
+   "id": "plinkoid"
+  },
+  {
+   "bit": 2338,
+   "categorie": "gyroides",
+   "id": "mini-plinkoid"
+  },
+  {
+   "bit": 2339,
+   "categorie": "gyroides",
+   "id": "mega-dekkoid"
+  },
+  {
+   "bit": 2340,
+   "categorie": "gyroides",
+   "id": "dekkoid"
+  },
+  {
+   "bit": 2341,
+   "categorie": "gyroides",
+   "id": "mini-dekkoid"
+  },
+  {
+   "bit": 2342,
+   "categorie": "gyroides",
+   "id": "mega-buzzoid"
+  },
+  {
+   "bit": 2343,
+   "categorie": "gyroides",
+   "id": "buzzoid"
+  },
+  {
+   "bit": 2344,
+   "categorie": "gyroides",
+   "id": "mini-buzzoid"
+  },
+  {
+   "bit": 2345,
+   "categorie": "gyroides",
+   "id": "tall-buzzoid"
+  },
+  {
+   "bit": 2346,
+   "categorie": "gyroides",
+   "id": "mega-drilloid"
+  },
+  {
+   "bit": 2347,
+   "categorie": "gyroides",
+   "id": "drilloid"
+  },
+  {
+   "bit": 2348,
+   "categorie": "gyroides",
+   "id": "mini-drilloid"
+  },
+  {
+   "bit": 2349,
+   "categorie": "gyroides",
+   "id": "mega-echoid"
+  },
+  {
+   "bit": 2350,
+   "categorie": "gyroides",
+   "id": "mini-echoid"
+  },
+  {
+   "bit": 2351,
+   "categorie": "gyroides",
+   "id": "tall-echoid"
+  },
+  {
+   "bit": 2352,
+   "categorie": "gyroides",
+   "id": "mega-lamentoid"
+  },
+  {
+   "bit": 2353,
+   "categorie": "gyroides",
+   "id": "lamentoid"
+  },
+  {
+   "bit": 2354,
+   "categorie": "gyroides",
+   "id": "mini-lamentoid"
+  },
+  {
+   "bit": 2355,
+   "categorie": "gyroides",
+   "id": "tall-lamentoid"
+  },
+  {
+   "bit": 2356,
+   "categorie": "gyroides",
+   "id": "mega-strumboid"
+  },
+  {
+   "bit": 2357,
+   "categorie": "gyroides",
+   "id": "strumboid"
+  },
+  {
+   "bit": 2358,
+   "categorie": "gyroides",
+   "id": "mini-strumboid"
+  },
+  {
+   "bit": 2359,
+   "categorie": "gyroides",
+   "id": "tall-strumboid"
+  },
+  {
+   "bit": 2360,
+   "categorie": "gyroides",
+   "id": "mega-croakoid"
+  },
+  {
+   "bit": 2361,
+   "categorie": "gyroides",
+   "id": "croakoid"
+  },
+  {
+   "bit": 2362,
+   "categorie": "gyroides",
+   "id": "mini-croakoid"
+  },
+  {
+   "bit": 2363,
+   "categorie": "gyroides",
+   "id": "tall-croakoid"
+  },
+  {
+   "bit": 2364,
+   "categorie": "gyroides",
+   "id": "mega-fizzoid"
+  },
+  {
+   "bit": 2365,
+   "categorie": "gyroides",
+   "id": "mini-fizzoid"
+  },
+  {
+   "bit": 2366,
+   "categorie": "gyroides",
+   "id": "mega-squelchoid"
+  },
+  {
+   "bit": 2367,
+   "categorie": "gyroides",
+   "id": "squelchoid"
+  },
+  {
+   "bit": 2368,
+   "categorie": "gyroides",
+   "id": "mini-squelchoid"
+  },
+  {
+   "bit": 2369,
+   "categorie": "gyroides",
+   "id": "mega-howloid"
+  },
+  {
+   "bit": 2370,
+   "categorie": "gyroides",
+   "id": "howloid"
+  },
+  {
+   "bit": 2371,
+   "categorie": "gyroides",
+   "id": "mini-howloid"
+  },
+  {
+   "bit": 2372,
+   "categorie": "gyroides",
+   "id": "mega-nebuloid"
+  },
+  {
+   "bit": 2373,
+   "categorie": "gyroides",
+   "id": "squat-nebuloid"
+  },
+  {
+   "bit": 2374,
+   "categorie": "gyroides",
+   "id": "nebuloid"
+  },
+  {
+   "bit": 2375,
+   "categorie": "gyroides",
+   "id": "mini-nebuloid"
+  },
+  {
+   "bit": 2376,
+   "categorie": "gyroides",
+   "id": "tall-nebuloid"
+  },
+  {
+   "bit": 2377,
+   "categorie": "gyroides",
+   "id": "slim-nebuloid"
+  },
+  {
+   "bit": 2378,
+   "categorie": "gyroides",
+   "id": "mega-gongoid"
+  },
+  {
+   "bit": 2379,
+   "categorie": "gyroides",
+   "id": "gongoid"
+  },
+  {
+   "bit": 2380,
+   "categorie": "gyroides",
+   "id": "mini-gongoid"
+  },
+  {
+   "bit": 2381,
+   "categorie": "gyroides",
+   "id": "tall-gongoid"
+  },
+  {
+   "bit": 2382,
+   "categorie": "gyroides",
+   "id": "mega-poltergoid"
+  },
+  {
+   "bit": 2383,
+   "categorie": "gyroides",
+   "id": "poltergoid"
+  },
+  {
+   "bit": 2384,
+   "categorie": "gyroides",
+   "id": "mini-poltergoid"
+  },
+  {
+   "bit": 2385,
+   "categorie": "gyroides",
+   "id": "tall-poltergoid"
+  },
+  {
+   "bit": 2386,
+   "categorie": "gyroides",
+   "id": "metatoid"
+  },
+  {
+   "bit": 2387,
+   "categorie": "gyroides",
+   "id": "mini-metatoid"
+  },
+  {
+   "bit": 2388,
+   "categorie": "gyroides",
+   "id": "mega-bovoid"
+  },
+  {
+   "bit": 2389,
+   "categorie": "gyroides",
+   "id": "tall-bovoid"
+  },
+  {
+   "bit": 2390,
+   "categorie": "gyroides",
+   "id": "mega-oboid"
+  },
+  {
+   "bit": 2391,
+   "categorie": "gyroides",
+   "id": "oboid"
+  },
+  {
+   "bit": 2392,
+   "categorie": "gyroides",
+   "id": "tall-oboid"
+  },
+  {
+   "bit": 2393,
+   "categorie": "gyroides",
+   "id": "mega-dinkoid"
+  },
+  {
+   "bit": 2394,
+   "categorie": "gyroides",
+   "id": "mini-dinkoid"
+  },
+  {
+   "bit": 2395,
+   "categorie": "gyroides",
+   "id": "mega-harmonoid"
+  },
+  {
+   "bit": 2396,
+   "categorie": "gyroides",
+   "id": "harmonoid"
+  },
+  {
+   "bit": 2397,
+   "categorie": "gyroides",
+   "id": "mini-harmonoid"
+  },
+  {
+   "bit": 2398,
+   "categorie": "gyroides",
+   "id": "tall-harmonoid"
+  },
+  {
+   "bit": 2399,
+   "categorie": "gyroides",
+   "id": "tall-droploid"
+  },
+  {
+   "bit": 2400,
+   "categorie": "gyroides",
+   "id": "mega-sputnoid"
+  },
+  {
+   "bit": 2401,
+   "categorie": "gyroides",
+   "id": "sputnoid"
+  },
+  {
+   "bit": 2402,
+   "categorie": "gyroides",
+   "id": "mini-sputnoid"
+  },
+  {
+   "bit": 2403,
+   "categorie": "gyroides",
+   "id": "tall-sputnoid"
+  },
+  {
+   "bit": 2404,
+   "categorie": "gyroides",
+   "id": "mega-alloid"
+  },
+  {
+   "bit": 2405,
+   "categorie": "gyroides",
+   "id": "mini-alloid"
+  },
+  {
+   "bit": 2406,
+   "categorie": "gyroides",
+   "id": "tall-alloid"
+  },
+  {
+   "bit": 2407,
+   "categorie": "gyroides",
+   "id": "mega-timpanoid"
+  },
+  {
+   "bit": 2408,
+   "categorie": "gyroides",
+   "id": "timpanoid"
+  },
+  {
+   "bit": 2409,
+   "categorie": "gyroides",
+   "id": "mini-timpanoid"
+  },
+  {
+   "bit": 2410,
+   "categorie": "gyroides",
+   "id": "tall-timpanoid"
+  },
+  {
+   "bit": 2411,
+   "categorie": "gyroides",
+   "id": "gargloid"
+  },
+  {
+   "bit": 2412,
+   "categorie": "gyroides",
+   "id": "mini-gargloid"
+  },
+  {
+   "bit": 2413,
+   "categorie": "gyroides",
+   "id": "tall-gargloid"
+  },
+  {
+   "bit": 2414,
+   "categorie": "gyroides",
+   "id": "warbloid"
+  },
+  {
+   "bit": 2415,
+   "categorie": "gyroides",
+   "id": "mini-warbloid"
+  },
+  {
+   "bit": 2416,
+   "categorie": "gyroides",
+   "id": "tall-warbloid"
+  },
+  {
+   "bit": 2417,
+   "categorie": "gyroides",
+   "id": "mega-freakoid"
+  },
+  {
+   "bit": 2418,
+   "categorie": "gyroides",
+   "id": "mini-freakoid"
+  },
+  {
+   "bit": 2419,
+   "categorie": "gyroides",
+   "id": "mega-quazoid"
+  },
+  {
+   "bit": 2420,
+   "categorie": "gyroides",
+   "id": "quazoid"
+  },
+  {
+   "bit": 2421,
+   "categorie": "gyroides",
+   "id": "mini-quazoid"
+  },
+  {
+   "bit": 2422,
+   "categorie": "gyroides",
+   "id": "tall-quazoid"
+  },
+  {
+   "bit": 2423,
+   "categorie": "gyroides",
+   "id": "slim-quazoid"
+  },
+  {
+   "bit": 2424,
+   "categorie": "gyroides",
+   "id": "mega-rustoid"
+  },
+  {
+   "bit": 2425,
+   "categorie": "gyroides",
+   "id": "rustoid"
+  },
+  {
+   "bit": 2426,
+   "categorie": "gyroides",
+   "id": "mini-rustoid"
+  },
+  {
+   "bit": 2500,
+   "categorie": "meubles",
+   "id": "exotic-bed"
+  },
+  {
+   "bit": 2501,
+   "categorie": "meubles",
+   "id": "exotic-bureau"
+  },
+  {
+   "bit": 2502,
+   "categorie": "meubles",
+   "id": "exotic-wardrobe"
+  },
+  {
+   "bit": 2503,
+   "categorie": "meubles",
+   "id": "exotic-bench"
+  },
+  {
+   "bit": 2504,
+   "categorie": "meubles",
+   "id": "exotic-chair"
+  },
+  {
+   "bit": 2505,
+   "categorie": "meubles",
+   "id": "exotic-table"
+  },
+  {
+   "bit": 2506,
+   "categorie": "meubles",
+   "id": "exotic-end-table"
+  },
+  {
+   "bit": 2507,
+   "categorie": "meubles",
+   "id": "exotic-lamp"
+  },
+  {
+   "bit": 2508,
+   "categorie": "meubles",
+   "id": "exotic-screen"
+  },
+  {
+   "bit": 2509,
+   "categorie": "meubles",
+   "id": "exotic-chest"
+  },
+  {
+   "bit": 2510,
+   "categorie": "meubles",
+   "id": "ranch-bed"
+  },
+  {
+   "bit": 2511,
+   "categorie": "meubles",
+   "id": "ranch-dresser"
+  },
+  {
+   "bit": 2512,
+   "categorie": "meubles",
+   "id": "ranch-wardrobe"
+  },
+  {
+   "bit": 2513,
+   "categorie": "meubles",
+   "id": "ranch-couch"
+  },
+  {
+   "bit": 2514,
+   "categorie": "meubles",
+   "id": "ranch-armchair"
+  },
+  {
+   "bit": 2515,
+   "categorie": "meubles",
+   "id": "ranch-chair"
+  },
+  {
+   "bit": 2516,
+   "categorie": "meubles",
+   "id": "ranch-table"
+  },
+  {
+   "bit": 2517,
+   "categorie": "meubles",
+   "id": "ranch-tea-table"
+  },
+  {
+   "bit": 2518,
+   "categorie": "meubles",
+   "id": "ranch-bookcase"
+  },
+  {
+   "bit": 2519,
+   "categorie": "meubles",
+   "id": "ranch-hutch"
+  },
+  {
+   "bit": 2520,
+   "categorie": "meubles",
+   "id": "classic-bed"
+  },
+  {
+   "bit": 2521,
+   "categorie": "meubles",
+   "id": "classic-vanity"
+  },
+  {
+   "bit": 2522,
+   "categorie": "meubles",
+   "id": "classic-wardrobe"
+  },
+  {
+   "bit": 2523,
+   "categorie": "meubles",
+   "id": "classic-chair"
+  },
+  {
+   "bit": 2524,
+   "categorie": "meubles",
+   "id": "classic-sofa"
+  },
+  {
+   "bit": 2525,
+   "categorie": "meubles",
+   "id": "classic-table"
+  },
+  {
+   "bit": 2526,
+   "categorie": "meubles",
+   "id": "classic-bookcase"
+  },
+  {
+   "bit": 2527,
+   "categorie": "meubles",
+   "id": "classic-buffet"
+  },
+  {
+   "bit": 2528,
+   "categorie": "meubles",
+   "id": "classic-desk"
+  },
+  {
+   "bit": 2529,
+   "categorie": "meubles",
+   "id": "classic-clock"
+  },
+  {
+   "bit": 2530,
+   "categorie": "meubles",
+   "id": "regal-bed"
+  },
+  {
+   "bit": 2531,
+   "categorie": "meubles",
+   "id": "regal-dresser"
+  },
+  {
+   "bit": 2532,
+   "categorie": "meubles",
+   "id": "regal-armoire"
+  },
+  {
+   "bit": 2533,
+   "categorie": "meubles",
+   "id": "regal-chair"
+  },
+  {
+   "bit": 2534,
+   "categorie": "meubles",
+   "id": "regal-sofa"
+  },
+  {
+   "bit": 2535,
+   "categorie": "meubles",
+   "id": "regal-table"
+  },
+  {
+   "bit": 2536,
+   "categorie": "meubles",
+   "id": "regal-lamp"
+  },
+  {
+   "bit": 2537,
+   "categorie": "meubles",
+   "id": "regal-clock"
+  },
+  {
+   "bit": 2538,
+   "categorie": "meubles",
+   "id": "regal-bookcase"
+  },
+  {
+   "bit": 2539,
+   "categorie": "meubles",
+   "id": "regal-vanity"
+  },
+  {
+   "bit": 2540,
+   "categorie": "meubles",
+   "id": "blue-bed"
+  },
+  {
+   "bit": 2541,
+   "categorie": "meubles",
+   "id": "blue-bureau"
+  },
+  {
+   "bit": 2542,
+   "categorie": "meubles",
+   "id": "blue-wardrobe"
+  },
+  {
+   "bit": 2543,
+   "categorie": "meubles",
+   "id": "blue-chair"
+  },
+  {
+   "bit": 2544,
+   "categorie": "meubles",
+   "id": "blue-bench"
+  },
+  {
+   "bit": 2545,
+   "categorie": "meubles",
+   "id": "blue-table"
+  },
+  {
+   "bit": 2546,
+   "categorie": "meubles",
+   "id": "blue-bookcase"
+  },
+  {
+   "bit": 2547,
+   "categorie": "meubles",
+   "id": "blue-cabinet"
+  },
+  {
+   "bit": 2548,
+   "categorie": "meubles",
+   "id": "blue-clock"
+  },
+  {
+   "bit": 2549,
+   "categorie": "meubles",
+   "id": "blue-dresser"
+  },
+  {
+   "bit": 2550,
+   "categorie": "meubles",
+   "id": "cabana-bed"
+  },
+  {
+   "bit": 2551,
+   "categorie": "meubles",
+   "id": "cabana-dresser"
+  },
+  {
+   "bit": 2552,
+   "categorie": "meubles",
+   "id": "cabana-wardrobe"
+  },
+  {
+   "bit": 2553,
+   "categorie": "meubles",
+   "id": "cabana-chair"
+  },
+  {
+   "bit": 2554,
+   "categorie": "meubles",
+   "id": "cabana-armchair"
+  },
+  {
+   "bit": 2555,
+   "categorie": "meubles",
+   "id": "cabana-table"
+  },
+  {
+   "bit": 2556,
+   "categorie": "meubles",
+   "id": "cabana-lamp"
+  },
+  {
+   "bit": 2557,
+   "categorie": "meubles",
+   "id": "cabana-bookcase"
+  },
+  {
+   "bit": 2558,
+   "categorie": "meubles",
+   "id": "cabana-vanity"
+  },
+  {
+   "bit": 2559,
+   "categorie": "meubles",
+   "id": "cabana-screen"
+  },
+  {
+   "bit": 2560,
+   "categorie": "meubles",
+   "id": "green-bed"
+  },
+  {
+   "bit": 2561,
+   "categorie": "meubles",
+   "id": "green-dresser"
+  },
+  {
+   "bit": 2562,
+   "categorie": "meubles",
+   "id": "green-wardrobe"
+  },
+  {
+   "bit": 2563,
+   "categorie": "meubles",
+   "id": "green-chair"
+  },
+  {
+   "bit": 2564,
+   "categorie": "meubles",
+   "id": "green-bench"
+  },
+  {
+   "bit": 2565,
+   "categorie": "meubles",
+   "id": "green-table"
+  },
+  {
+   "bit": 2566,
+   "categorie": "meubles",
+   "id": "green-desk"
+  },
+  {
+   "bit": 2567,
+   "categorie": "meubles",
+   "id": "green-lamp"
+  },
+  {
+   "bit": 2568,
+   "categorie": "meubles",
+   "id": "green-counter"
+  },
+  {
+   "bit": 2569,
+   "categorie": "meubles",
+   "id": "green-pantry"
+  },
+  {
+   "bit": 2570,
+   "categorie": "meubles",
+   "id": "cabin-bed"
+  },
+  {
+   "bit": 2571,
+   "categorie": "meubles",
+   "id": "cabin-dresser"
+  },
+  {
+   "bit": 2572,
+   "categorie": "meubles",
+   "id": "cabin-wardrobe"
+  },
+  {
+   "bit": 2573,
+   "categorie": "meubles",
+   "id": "cabin-chair"
+  },
+  {
+   "bit": 2574,
+   "categorie": "meubles",
+   "id": "cabin-armchair"
+  },
+  {
+   "bit": 2575,
+   "categorie": "meubles",
+   "id": "cabin-couch"
+  },
+  {
+   "bit": 2576,
+   "categorie": "meubles",
+   "id": "cabin-table"
+  },
+  {
+   "bit": 2577,
+   "categorie": "meubles",
+   "id": "cabin-low-table"
+  },
+  {
+   "bit": 2578,
+   "categorie": "meubles",
+   "id": "cabin-bookcase"
+  },
+  {
+   "bit": 2579,
+   "categorie": "meubles",
+   "id": "cabin-clock"
+  },
+  {
+   "bit": 2580,
+   "categorie": "meubles",
+   "id": "modern-bed"
+  },
+  {
+   "bit": 2581,
+   "categorie": "meubles",
+   "id": "modern-dresser"
+  },
+  {
+   "bit": 2582,
+   "categorie": "meubles",
+   "id": "modern-wardrobe"
+  },
+  {
+   "bit": 2583,
+   "categorie": "meubles",
+   "id": "modern-chair"
+  },
+  {
+   "bit": 2584,
+   "categorie": "meubles",
+   "id": "modern-sofa"
+  },
+  {
+   "bit": 2585,
+   "categorie": "meubles",
+   "id": "modern-end-table"
+  },
+  {
+   "bit": 2586,
+   "categorie": "meubles",
+   "id": "modern-desk"
+  },
+  {
+   "bit": 2587,
+   "categorie": "meubles",
+   "id": "modern-table"
+  },
+  {
+   "bit": 2588,
+   "categorie": "meubles",
+   "id": "modern-cabinet"
+  },
+  {
+   "bit": 2589,
+   "categorie": "meubles",
+   "id": "modern-lamp"
+  },
+  {
+   "bit": 2590,
+   "categorie": "meubles",
+   "id": "kiddie-bed"
+  },
+  {
+   "bit": 2591,
+   "categorie": "meubles",
+   "id": "kiddie-dresser"
+  },
+  {
+   "bit": 2592,
+   "categorie": "meubles",
+   "id": "kiddie-wardrobe"
+  },
+  {
+   "bit": 2593,
+   "categorie": "meubles",
+   "id": "kiddie-couch"
+  },
+  {
+   "bit": 2594,
+   "categorie": "meubles",
+   "id": "kiddie-chair"
+  },
+  {
+   "bit": 2595,
+   "categorie": "meubles",
+   "id": "kiddie-table"
+  },
+  {
+   "bit": 2596,
+   "categorie": "meubles",
+   "id": "kiddie-bureau"
+  },
+  {
+   "bit": 2597,
+   "categorie": "meubles",
+   "id": "kiddie-bookcase"
+  },
+  {
+   "bit": 2598,
+   "categorie": "meubles",
+   "id": "kiddie-clock"
+  },
+  {
+   "bit": 2599,
+   "categorie": "meubles",
+   "id": "kiddie-stereo"
+  },
+  {
+   "bit": 2600,
+   "categorie": "meubles",
+   "id": "lovely-bed"
+  },
+  {
+   "bit": 2601,
+   "categorie": "meubles",
+   "id": "lovely-dresser"
+  },
+  {
+   "bit": 2602,
+   "categorie": "meubles",
+   "id": "lovely-armoire"
+  },
+  {
+   "bit": 2603,
+   "categorie": "meubles",
+   "id": "lovely-chair"
+  },
+  {
+   "bit": 2604,
+   "categorie": "meubles",
+   "id": "lovely-loveseat"
+  },
+  {
+   "bit": 2605,
+   "categorie": "meubles",
+   "id": "lovely-end-table"
+  },
+  {
+   "bit": 2606,
+   "categorie": "meubles",
+   "id": "lovely-table"
+  },
+  {
+   "bit": 2607,
+   "categorie": "meubles",
+   "id": "lovely-vanity"
+  },
+  {
+   "bit": 2608,
+   "categorie": "meubles",
+   "id": "lovely-kitchen"
+  },
+  {
+   "bit": 2609,
+   "categorie": "meubles",
+   "id": "lovely-lamp"
+  },
+  {
+   "bit": 2610,
+   "categorie": "meubles",
+   "id": "robo-bed"
+  },
+  {
+   "bit": 2611,
+   "categorie": "meubles",
+   "id": "robo-dresser"
+  },
+  {
+   "bit": 2612,
+   "categorie": "meubles",
+   "id": "robo-closet"
+  },
+  {
+   "bit": 2613,
+   "categorie": "meubles",
+   "id": "robo-sofa"
+  },
+  {
+   "bit": 2614,
+   "categorie": "meubles",
+   "id": "robo-chair"
+  },
+  {
+   "bit": 2615,
+   "categorie": "meubles",
+   "id": "robo-table"
+  },
+  {
+   "bit": 2616,
+   "categorie": "meubles",
+   "id": "robo-stereo"
+  },
+  {
+   "bit": 2617,
+   "categorie": "meubles",
+   "id": "robo-tv"
+  },
+  {
+   "bit": 2618,
+   "categorie": "meubles",
+   "id": "robo-clock"
+  },
+  {
+   "bit": 2619,
+   "categorie": "meubles",
+   "id": "robo-lamp"
+  },
+  {
+   "bit": 2620,
+   "categorie": "meubles",
+   "id": "snowman-bed"
+  },
+  {
+   "bit": 2621,
+   "categorie": "meubles",
+   "id": "snowman-dresser"
+  },
+  {
+   "bit": 2622,
+   "categorie": "meubles",
+   "id": "snowman-wardrobe"
+  },
+  {
+   "bit": 2623,
+   "categorie": "meubles",
+   "id": "snowman-chair"
+  },
+  {
+   "bit": 2624,
+   "categorie": "meubles",
+   "id": "snowman-sofa"
+  },
+  {
+   "bit": 2625,
+   "categorie": "meubles",
+   "id": "snowman-table"
+  },
+  {
+   "bit": 2626,
+   "categorie": "meubles",
+   "id": "snowman-fridge"
+  },
+  {
+   "bit": 2627,
+   "categorie": "meubles",
+   "id": "snowman-tv"
+  },
+  {
+   "bit": 2628,
+   "categorie": "meubles",
+   "id": "snowman-clock"
+  },
+  {
+   "bit": 2629,
+   "categorie": "meubles",
+   "id": "snowman-lamp"
+  },
+  {
+   "bit": 2630,
+   "categorie": "meubles",
+   "id": "mush-bed"
+  },
+  {
+   "bit": 2631,
+   "categorie": "meubles",
+   "id": "mush-dresser"
+  },
+  {
+   "bit": 2632,
+   "categorie": "meubles",
+   "id": "mush-closet"
+  },
+  {
+   "bit": 2633,
+   "categorie": "meubles",
+   "id": "mush-chair"
+  },
+  {
+   "bit": 2634,
+   "categorie": "meubles",
+   "id": "mush-stool"
+  },
+  {
+   "bit": 2635,
+   "categorie": "meubles",
+   "id": "mush-table"
+  },
+  {
+   "bit": 2636,
+   "categorie": "meubles",
+   "id": "mush-end-table"
+  },
+  {
+   "bit": 2637,
+   "categorie": "meubles",
+   "id": "mush-lamp"
+  },
+  {
+   "bit": 2638,
+   "categorie": "meubles",
+   "id": "mush-stand"
+  },
+  {
+   "bit": 2639,
+   "categorie": "meubles",
+   "id": "mush-tv"
+  },
+  {
+   "bit": 2640,
+   "categorie": "meubles",
+   "id": "pave-bed"
+  },
+  {
+   "bit": 2641,
+   "categorie": "meubles",
+   "id": "pave-chest"
+  },
+  {
+   "bit": 2642,
+   "categorie": "meubles",
+   "id": "pave-closet"
+  },
+  {
+   "bit": 2643,
+   "categorie": "meubles",
+   "id": "pave-sofa"
+  },
+  {
+   "bit": 2644,
+   "categorie": "meubles",
+   "id": "pave-chair"
+  },
+  {
+   "bit": 2645,
+   "categorie": "meubles",
+   "id": "pave-table"
+  },
+  {
+   "bit": 2646,
+   "categorie": "meubles",
+   "id": "pave-end-table"
+  },
+  {
+   "bit": 2647,
+   "categorie": "meubles",
+   "id": "pave-bookshelf"
+  },
+  {
+   "bit": 2648,
+   "categorie": "meubles",
+   "id": "pave-bureau"
+  },
+  {
+   "bit": 2649,
+   "categorie": "meubles",
+   "id": "pave-lamp"
+  },
+  {
+   "bit": 2650,
+   "categorie": "meubles",
+   "id": "egg-bed"
+  },
+  {
+   "bit": 2651,
+   "categorie": "meubles",
+   "id": "egg-dresser"
+  },
+  {
+   "bit": 2652,
+   "categorie": "meubles",
+   "id": "egg-wardrobe"
+  },
+  {
+   "bit": 2653,
+   "categorie": "meubles",
+   "id": "egg-chair"
+  },
+  {
+   "bit": 2654,
+   "categorie": "meubles",
+   "id": "egg-bench"
+  },
+  {
+   "bit": 2655,
+   "categorie": "meubles",
+   "id": "egg-table"
+  },
+  {
+   "bit": 2656,
+   "categorie": "meubles",
+   "id": "egg-stereo"
+  },
+  {
+   "bit": 2657,
+   "categorie": "meubles",
+   "id": "egg-toy-set"
+  },
+  {
+   "bit": 2658,
+   "categorie": "meubles",
+   "id": "egg-clock"
+  },
+  {
+   "bit": 2659,
+   "categorie": "meubles",
+   "id": "egg-lamp"
+  },
+  {
+   "bit": 2660,
+   "categorie": "meubles",
+   "id": "spooky-bed"
+  },
+  {
+   "bit": 2661,
+   "categorie": "meubles",
+   "id": "spooky-dresser"
+  },
+  {
+   "bit": 2662,
+   "categorie": "meubles",
+   "id": "spooky-wardrobe"
+  },
+  {
+   "bit": 2663,
+   "categorie": "meubles",
+   "id": "spooky-sofa"
+  },
+  {
+   "bit": 2664,
+   "categorie": "meubles",
+   "id": "spooky-chair"
+  },
+  {
+   "bit": 2665,
+   "categorie": "meubles",
+   "id": "spooky-table"
+  },
+  {
+   "bit": 2666,
+   "categorie": "meubles",
+   "id": "spooky-vanity"
+  },
+  {
+   "bit": 2667,
+   "categorie": "meubles",
+   "id": "spooky-bookcase"
+  },
+  {
+   "bit": 2668,
+   "categorie": "meubles",
+   "id": "spooky-clock"
+  },
+  {
+   "bit": 2669,
+   "categorie": "meubles",
+   "id": "spooky-lamp"
+  },
+  {
+   "bit": 2670,
+   "categorie": "meubles",
+   "id": "harvest-bed"
+  },
+  {
+   "bit": 2671,
+   "categorie": "meubles",
+   "id": "harvest-dresser"
+  },
+  {
+   "bit": 2672,
+   "categorie": "meubles",
+   "id": "harvest-bureau"
+  },
+  {
+   "bit": 2673,
+   "categorie": "meubles",
+   "id": "harvest-sofa"
+  },
+  {
+   "bit": 2674,
+   "categorie": "meubles",
+   "id": "harvest-chair"
+  },
+  {
+   "bit": 2675,
+   "categorie": "meubles",
+   "id": "harvest-table"
+  },
+  {
+   "bit": 2676,
+   "categorie": "meubles",
+   "id": "harvest-mirror"
+  },
+  {
+   "bit": 2677,
+   "categorie": "meubles",
+   "id": "harvest-tv"
+  },
+  {
+   "bit": 2678,
+   "categorie": "meubles",
+   "id": "harvest-clock"
+  },
+  {
+   "bit": 2679,
+   "categorie": "meubles",
+   "id": "harvest-lamp"
+  },
+  {
+   "bit": 2680,
+   "categorie": "meubles",
+   "id": "jingle-bed"
+  },
+  {
+   "bit": 2681,
+   "categorie": "meubles",
+   "id": "jingle-dresser"
+  },
+  {
+   "bit": 2682,
+   "categorie": "meubles",
+   "id": "jingle-wardrobe"
+  },
+  {
+   "bit": 2683,
+   "categorie": "meubles",
+   "id": "jingle-sofa"
+  },
+  {
+   "bit": 2684,
+   "categorie": "meubles",
+   "id": "jingle-chair"
+  },
+  {
+   "bit": 2685,
+   "categorie": "meubles",
+   "id": "jingle-table"
+  },
+  {
+   "bit": 2686,
+   "categorie": "meubles",
+   "id": "jingle-shelves"
+  },
+  {
+   "bit": 2687,
+   "categorie": "meubles",
+   "id": "jingle-piano"
+  },
+  {
+   "bit": 2688,
+   "categorie": "meubles",
+   "id": "jingle-clock"
+  },
+  {
+   "bit": 2689,
+   "categorie": "meubles",
+   "id": "jingle-lamp"
+  },
+  {
+   "bit": 2690,
+   "categorie": "meubles",
+   "id": "princess-bed"
+  },
+  {
+   "bit": 2691,
+   "categorie": "meubles",
+   "id": "princess-chest"
+  },
+  {
+   "bit": 2692,
+   "categorie": "meubles",
+   "id": "princess-closet"
+  },
+  {
+   "bit": 2693,
+   "categorie": "meubles",
+   "id": "princess-sofa"
+  },
+  {
+   "bit": 2694,
+   "categorie": "meubles",
+   "id": "princess-chair"
+  },
+  {
+   "bit": 2695,
+   "categorie": "meubles",
+   "id": "princess-table"
+  },
+  {
+   "bit": 2696,
+   "categorie": "meubles",
+   "id": "princess-curio"
+  },
+  {
+   "bit": 2697,
+   "categorie": "meubles",
+   "id": "princess-dresser"
+  },
+  {
+   "bit": 2698,
+   "categorie": "meubles",
+   "id": "princess-cage"
+  },
+  {
+   "bit": 2699,
+   "categorie": "meubles",
+   "id": "princess-lamp"
+  },
+  {
+   "bit": 2700,
+   "categorie": "meubles",
+   "id": "gracie-bed"
+  },
+  {
+   "bit": 2701,
+   "categorie": "meubles",
+   "id": "gracie-chest"
+  },
+  {
+   "bit": 2702,
+   "categorie": "meubles",
+   "id": "gracie-wardrobe"
+  },
+  {
+   "bit": 2703,
+   "categorie": "meubles",
+   "id": "gracie-bench"
+  },
+  {
+   "bit": 2704,
+   "categorie": "meubles",
+   "id": "gracie-chair"
+  },
+  {
+   "bit": 2705,
+   "categorie": "meubles",
+   "id": "gracie-low-table"
+  },
+  {
+   "bit": 2706,
+   "categorie": "meubles",
+   "id": "gracie-desk"
+  },
+  {
+   "bit": 2707,
+   "categorie": "meubles",
+   "id": "gracie-wagon"
+  },
+  {
+   "bit": 2708,
+   "categorie": "meubles",
+   "id": "gracie-shelf"
+  },
+  {
+   "bit": 2709,
+   "categorie": "meubles",
+   "id": "gracie-lamp"
+  },
+  {
+   "bit": 2710,
+   "categorie": "meubles",
+   "id": "sweets-bed"
+  },
+  {
+   "bit": 2711,
+   "categorie": "meubles",
+   "id": "sweets-dresser"
+  },
+  {
+   "bit": 2712,
+   "categorie": "meubles",
+   "id": "sweets-closet"
+  },
+  {
+   "bit": 2713,
+   "categorie": "meubles",
+   "id": "sweets-sofa"
+  },
+  {
+   "bit": 2714,
+   "categorie": "meubles",
+   "id": "sweets-chair"
+  },
+  {
+   "bit": 2715,
+   "categorie": "meubles",
+   "id": "sweets-table"
+  },
+  {
+   "bit": 2716,
+   "categorie": "meubles",
+   "id": "sweets-minitable"
+  },
+  {
+   "bit": 2717,
+   "categorie": "meubles",
+   "id": "sweets-bookcase"
+  },
+  {
+   "bit": 2718,
+   "categorie": "meubles",
+   "id": "sweets-lamp"
+  },
+  {
+   "bit": 2719,
+   "categorie": "meubles",
+   "id": "sweets-minilamp"
+  },
+  {
+   "bit": 2720,
+   "categorie": "meubles",
+   "id": "gorgeous-bed"
+  },
+  {
+   "bit": 2721,
+   "categorie": "meubles",
+   "id": "gorgeous-chest"
+  },
+  {
+   "bit": 2722,
+   "categorie": "meubles",
+   "id": "gorgeous-closet"
+  },
+  {
+   "bit": 2723,
+   "categorie": "meubles",
+   "id": "gorgeous-sofa"
+  },
+  {
+   "bit": 2724,
+   "categorie": "meubles",
+   "id": "gorgeous-seat"
+  },
+  {
+   "bit": 2725,
+   "categorie": "meubles",
+   "id": "gorgeous-stool"
+  },
+  {
+   "bit": 2726,
+   "categorie": "meubles",
+   "id": "gorgeous-table"
+  },
+  {
+   "bit": 2727,
+   "categorie": "meubles",
+   "id": "gorgeous-desk"
+  },
+  {
+   "bit": 2728,
+   "categorie": "meubles",
+   "id": "gorgeous-counter"
+  },
+  {
+   "bit": 2729,
+   "categorie": "meubles",
+   "id": "gorgeous-lamp"
+  },
+  {
+   "bit": 2730,
+   "categorie": "meubles",
+   "id": "cow-skull"
+  },
+  {
+   "bit": 2731,
+   "categorie": "meubles",
+   "id": "desert-cactus"
+  },
+  {
+   "bit": 2732,
+   "categorie": "meubles",
+   "id": "western-fence"
+  },
+  {
+   "bit": 2733,
+   "categorie": "meubles",
+   "id": "saddle-fence"
+  },
+  {
+   "bit": 2734,
+   "categorie": "meubles",
+   "id": "storefront"
+  },
+  {
+   "bit": 2735,
+   "categorie": "meubles",
+   "id": "covered-wagon"
+  },
+  {
+   "bit": 2736,
+   "categorie": "meubles",
+   "id": "watering-trough"
+  },
+  {
+   "bit": 2737,
+   "categorie": "meubles",
+   "id": "tumbleweed"
+  },
+  {
+   "bit": 2738,
+   "categorie": "meubles",
+   "id": "well"
+  },
+  {
+   "bit": 2739,
+   "categorie": "meubles",
+   "id": "wagon-wheel"
+  },
+  {
+   "bit": 2740,
+   "categorie": "meubles",
+   "id": "asteroid"
+  },
+  {
+   "bit": 2741,
+   "categorie": "meubles",
+   "id": "moon"
+  },
+  {
+   "bit": 2742,
+   "categorie": "meubles",
+   "id": "lunar-lander"
+  },
+  {
+   "bit": 2743,
+   "categorie": "meubles",
+   "id": "rocket"
+  },
+  {
+   "bit": 2744,
+   "categorie": "meubles",
+   "id": "lunar-rover"
+  },
+  {
+   "bit": 2745,
+   "categorie": "meubles",
+   "id": "satellite"
+  },
+  {
+   "bit": 2746,
+   "categorie": "meubles",
+   "id": "space-shuttle"
+  },
+  {
+   "bit": 2747,
+   "categorie": "meubles",
+   "id": "spaceman-sam"
+  },
+  {
+   "bit": 2748,
+   "categorie": "meubles",
+   "id": "space-station"
+  },
+  {
+   "bit": 2749,
+   "categorie": "meubles",
+   "id": "flying-saucer"
+  },
+  {
+   "bit": 2750,
+   "categorie": "meubles",
+   "id": "detour-arrow"
+  },
+  {
+   "bit": 2751,
+   "categorie": "meubles",
+   "id": "handcart"
+  },
+  {
+   "bit": 2752,
+   "categorie": "meubles",
+   "id": "iron-frame"
+  },
+  {
+   "bit": 2753,
+   "categorie": "meubles",
+   "id": "manhole-cover"
+  },
+  {
+   "bit": 2754,
+   "categorie": "meubles",
+   "id": "orange-cone"
+  },
+  {
+   "bit": 2755,
+   "categorie": "meubles",
+   "id": "traffic-cone"
+  },
+  {
+   "bit": 2756,
+   "categorie": "meubles",
+   "id": "saw-horse"
+  },
+  {
+   "bit": 2757,
+   "categorie": "meubles",
+   "id": "wet-roadway-sign"
+  },
+  {
+   "bit": 2758,
+   "categorie": "meubles",
+   "id": "steam-roller"
+  },
+  {
+   "bit": 2759,
+   "categorie": "meubles",
+   "id": "jackhammer"
+  },
+  {
+   "bit": 2760,
+   "categorie": "meubles",
+   "id": "striped-cone"
+  },
+  {
+   "bit": 2761,
+   "categorie": "meubles",
+   "id": "cement-mixer"
+  },
+  {
+   "bit": 2762,
+   "categorie": "meubles",
+   "id": "brown-drum"
+  },
+  {
+   "bit": 2763,
+   "categorie": "meubles",
+   "id": "green-drum"
+  },
+  {
+   "bit": 2764,
+   "categorie": "meubles",
+   "id": "red-drum"
+  },
+  {
+   "bit": 2765,
+   "categorie": "meubles",
+   "id": "haz-mat-barrel"
+  },
+  {
+   "bit": 2766,
+   "categorie": "meubles",
+   "id": "oil-drum"
+  },
+  {
+   "bit": 2767,
+   "categorie": "meubles",
+   "id": "boxing-barricade"
+  },
+  {
+   "bit": 2768,
+   "categorie": "meubles",
+   "id": "red-corner"
+  },
+  {
+   "bit": 2769,
+   "categorie": "meubles",
+   "id": "blue-corner"
+  },
+  {
+   "bit": 2770,
+   "categorie": "meubles",
+   "id": "neutral-corner"
+  },
+  {
+   "bit": 2771,
+   "categorie": "meubles",
+   "id": "judges-bell"
+  },
+  {
+   "bit": 2772,
+   "categorie": "meubles",
+   "id": "boxing-mat"
+  },
+  {
+   "bit": 2773,
+   "categorie": "meubles",
+   "id": "ringside-table"
+  },
+  {
+   "bit": 2774,
+   "categorie": "meubles",
+   "id": "weight-bench"
+  },
+  {
+   "bit": 2775,
+   "categorie": "meubles",
+   "id": "sandbag"
+  },
+  {
+   "bit": 2776,
+   "categorie": "meubles",
+   "id": "speed-bag"
+  },
+  {
+   "bit": 2777,
+   "categorie": "meubles",
+   "id": "birdhouse"
+  },
+  {
+   "bit": 2778,
+   "categorie": "meubles",
+   "id": "mr-flamingo"
+  },
+  {
+   "bit": 2779,
+   "categorie": "meubles",
+   "id": "mrs-flamingo"
+  },
+  {
+   "bit": 2780,
+   "categorie": "meubles",
+   "id": "garden-gnome"
+  },
+  {
+   "bit": 2781,
+   "categorie": "meubles",
+   "id": "bug-zapper"
+  },
+  {
+   "bit": 2782,
+   "categorie": "meubles",
+   "id": "hammock"
+  },
+  {
+   "bit": 2783,
+   "categorie": "meubles",
+   "id": "bird-bath"
+  },
+  {
+   "bit": 2784,
+   "categorie": "meubles",
+   "id": "picnic-table"
+  },
+  {
+   "bit": 2785,
+   "categorie": "meubles",
+   "id": "bird-feeder"
+  },
+  {
+   "bit": 2786,
+   "categorie": "meubles",
+   "id": "lawn-chair"
+  },
+  {
+   "bit": 2787,
+   "categorie": "meubles",
+   "id": "lawn-mower"
+  },
+  {
+   "bit": 2788,
+   "categorie": "meubles",
+   "id": "barbecue"
+  },
+  {
+   "bit": 2789,
+   "categorie": "meubles",
+   "id": "backyard-pool"
+  },
+  {
+   "bit": 2790,
+   "categorie": "meubles",
+   "id": "sprinkler"
+  },
+  {
+   "bit": 2791,
+   "categorie": "meubles",
+   "id": "tiki-torch"
+  },
+  {
+   "bit": 2792,
+   "categorie": "meubles",
+   "id": "elephant-slide"
+  },
+  {
+   "bit": 2793,
+   "categorie": "meubles",
+   "id": "stroller"
+  },
+  {
+   "bit": 2794,
+   "categorie": "meubles",
+   "id": "cradle"
+  },
+  {
+   "bit": 2795,
+   "categorie": "meubles",
+   "id": "baby-bed"
+  },
+  {
+   "bit": 2796,
+   "categorie": "meubles",
+   "id": "clackercart"
+  },
+  {
+   "bit": 2797,
+   "categorie": "meubles",
+   "id": "merry-go-round"
+  },
+  {
+   "bit": 2798,
+   "categorie": "meubles",
+   "id": "rocking-horse"
+  },
+  {
+   "bit": 2799,
+   "categorie": "meubles",
+   "id": "train-set"
+  },
+  {
+   "bit": 2800,
+   "categorie": "meubles",
+   "id": "wobbelina"
+  },
+  {
+   "bit": 2801,
+   "categorie": "meubles",
+   "id": "dolly"
+  },
+  {
+   "bit": 2802,
+   "categorie": "meubles",
+   "id": "lab-bench"
+  },
+  {
+   "bit": 2803,
+   "categorie": "meubles",
+   "id": "lab-chair"
+  },
+  {
+   "bit": 2804,
+   "categorie": "meubles",
+   "id": "medicine-chest"
+  },
+  {
+   "bit": 2805,
+   "categorie": "meubles",
+   "id": "florence-flask"
+  },
+  {
+   "bit": 2806,
+   "categorie": "meubles",
+   "id": "amazing-machine"
+  },
+  {
+   "bit": 2807,
+   "categorie": "meubles",
+   "id": "unknown-machine"
+  },
+  {
+   "bit": 2808,
+   "categorie": "meubles",
+   "id": "complex-machine"
+  },
+  {
+   "bit": 2809,
+   "categorie": "meubles",
+   "id": "helm"
+  },
+  {
+   "bit": 2810,
+   "categorie": "meubles",
+   "id": "barrel"
+  },
+  {
+   "bit": 2811,
+   "categorie": "meubles",
+   "id": "keg"
+  },
+  {
+   "bit": 2812,
+   "categorie": "meubles",
+   "id": "ship-cannon"
+  },
+  {
+   "bit": 2813,
+   "categorie": "meubles",
+   "id": "anchor"
+  },
+  {
+   "bit": 2814,
+   "categorie": "meubles",
+   "id": "ship-compass"
+  },
+  {
+   "bit": 2815,
+   "categorie": "meubles",
+   "id": "black-pawn"
+  },
+  {
+   "bit": 2816,
+   "categorie": "meubles",
+   "id": "black-bishop"
+  },
+  {
+   "bit": 2817,
+   "categorie": "meubles",
+   "id": "black-king"
+  },
+  {
+   "bit": 2818,
+   "categorie": "meubles",
+   "id": "black-knight"
+  },
+  {
+   "bit": 2819,
+   "categorie": "meubles",
+   "id": "black-queen"
+  },
+  {
+   "bit": 2820,
+   "categorie": "meubles",
+   "id": "black-rook"
+  },
+  {
+   "bit": 2821,
+   "categorie": "meubles",
+   "id": "white-pawn"
+  },
+  {
+   "bit": 2822,
+   "categorie": "meubles",
+   "id": "white-bishop"
+  },
+  {
+   "bit": 2823,
+   "categorie": "meubles",
+   "id": "white-king"
+  },
+  {
+   "bit": 2824,
+   "categorie": "meubles",
+   "id": "white-knight"
+  },
+  {
+   "bit": 2825,
+   "categorie": "meubles",
+   "id": "white-queen"
+  },
+  {
+   "bit": 2826,
+   "categorie": "meubles",
+   "id": "white-rook"
+  },
+  {
+   "bit": 2827,
+   "categorie": "meubles",
+   "id": "right-platform"
+  },
+  {
+   "bit": 2828,
+   "categorie": "meubles",
+   "id": "left-platform"
+  },
+  {
+   "bit": 2829,
+   "categorie": "meubles",
+   "id": "podium"
+  },
+  {
+   "bit": 2830,
+   "categorie": "meubles",
+   "id": "teachers-desk"
+  },
+  {
+   "bit": 2831,
+   "categorie": "meubles",
+   "id": "teachers-chair"
+  },
+  {
+   "bit": 2832,
+   "categorie": "meubles",
+   "id": "school-desk"
+  },
+  {
+   "bit": 2833,
+   "categorie": "meubles",
+   "id": "school-chair"
+  },
+  {
+   "bit": 2834,
+   "categorie": "meubles",
+   "id": "cubby-hole"
+  },
+  {
+   "bit": 2835,
+   "categorie": "meubles",
+   "id": "chalk-board"
+  },
+  {
+   "bit": 2836,
+   "categorie": "meubles",
+   "id": "mop"
+  },
+  {
+   "bit": 2837,
+   "categorie": "meubles",
+   "id": "skeleton"
+  },
+  {
+   "bit": 2838,
+   "categorie": "meubles",
+   "id": "anatomical-model"
+  },
+  {
+   "bit": 2839,
+   "categorie": "meubles",
+   "id": "clear-model"
+  },
+  {
+   "bit": 2840,
+   "categorie": "meubles",
+   "id": "hamster-cage"
+  },
+  {
+   "bit": 2841,
+   "categorie": "meubles",
+   "id": "science-table"
+  },
+  {
+   "bit": 2842,
+   "categorie": "meubles",
+   "id": "vaulting-horse"
+  },
+  {
+   "bit": 2843,
+   "categorie": "meubles",
+   "id": "ball-catcher"
+  },
+  {
+   "bit": 2844,
+   "categorie": "meubles",
+   "id": "high-jump-mat"
+  },
+  {
+   "bit": 2845,
+   "categorie": "meubles",
+   "id": "hurdle"
+  },
+  {
+   "bit": 2846,
+   "categorie": "meubles",
+   "id": "scoreboard"
+  },
+  {
+   "bit": 2847,
+   "categorie": "meubles",
+   "id": "folding-chair"
+  },
+  {
+   "bit": 2848,
+   "categorie": "meubles",
+   "id": "vision-tester"
+  },
+  {
+   "bit": 2849,
+   "categorie": "meubles",
+   "id": "trunk-measure"
+  },
+  {
+   "bit": 2850,
+   "categorie": "meubles",
+   "id": "stadiometer"
+  },
+  {
+   "bit": 2851,
+   "categorie": "meubles",
+   "id": "scale"
+  },
+  {
+   "bit": 2852,
+   "categorie": "meubles",
+   "id": "hospital-bed"
+  },
+  {
+   "bit": 2853,
+   "categorie": "meubles",
+   "id": "hospital-screen"
+  },
+  {
+   "bit": 2854,
+   "categorie": "meubles",
+   "id": "iv-drip"
+  },
+  {
+   "bit": 2855,
+   "categorie": "meubles",
+   "id": "sink"
+  },
+  {
+   "bit": 2856,
+   "categorie": "meubles",
+   "id": "writing-desk"
+  },
+  {
+   "bit": 2857,
+   "categorie": "meubles",
+   "id": "writing-chair"
+  },
+  {
+   "bit": 2858,
+   "categorie": "meubles",
+   "id": "globe"
+  },
+  {
+   "bit": 2859,
+   "categorie": "meubles",
+   "id": "office-desk"
+  },
+  {
+   "bit": 2860,
+   "categorie": "meubles",
+   "id": "office-chair"
+  },
+  {
+   "bit": 2861,
+   "categorie": "meubles",
+   "id": "office-locker"
+  },
+  {
+   "bit": 2862,
+   "categorie": "meubles",
+   "id": "coffee-maker"
+  },
+  {
+   "bit": 2863,
+   "categorie": "meubles",
+   "id": "checkout-counter"
+  },
+  {
+   "bit": 2864,
+   "categorie": "meubles",
+   "id": "cash-register"
+  },
+  {
+   "bit": 2865,
+   "categorie": "meubles",
+   "id": "jukebox"
+  },
+  {
+   "bit": 2866,
+   "categorie": "meubles",
+   "id": "siphon"
+  },
+  {
+   "bit": 2867,
+   "categorie": "meubles",
+   "id": "giant-dharma"
+  },
+  {
+   "bit": 2868,
+   "categorie": "meubles",
+   "id": "dharma"
+  },
+  {
+   "bit": 2869,
+   "categorie": "meubles",
+   "id": "mini-dharma"
+  },
+  {
+   "bit": 2870,
+   "categorie": "meubles",
+   "id": "papa-bear"
+  },
+  {
+   "bit": 2871,
+   "categorie": "meubles",
+   "id": "mama-bear"
+  },
+  {
+   "bit": 2872,
+   "categorie": "meubles",
+   "id": "baby-bear"
+  },
+  {
+   "bit": 2873,
+   "categorie": "meubles",
+   "id": "papa-panda"
+  },
+  {
+   "bit": 2874,
+   "categorie": "meubles",
+   "id": "mama-panda"
+  },
+  {
+   "bit": 2875,
+   "categorie": "meubles",
+   "id": "baby-panda"
+  },
+  {
+   "bit": 2876,
+   "categorie": "meubles",
+   "id": "tall-cactus"
+  },
+  {
+   "bit": 2877,
+   "categorie": "meubles",
+   "id": "cactus"
+  },
+  {
+   "bit": 2878,
+   "categorie": "meubles",
+   "id": "round-cactus"
+  },
+  {
+   "bit": 2879,
+   "categorie": "meubles",
+   "id": "blue-golf-bag"
+  },
+  {
+   "bit": 2880,
+   "categorie": "meubles",
+   "id": "white-golf-bag"
+  },
+  {
+   "bit": 2881,
+   "categorie": "meubles",
+   "id": "green-golf-bag"
+  },
+  {
+   "bit": 2882,
+   "categorie": "meubles",
+   "id": "red-armchair"
+  },
+  {
+   "bit": 2883,
+   "categorie": "meubles",
+   "id": "red-sofa"
+  },
+  {
+   "bit": 2884,
+   "categorie": "meubles",
+   "id": "bear-pole"
+  },
+  {
+   "bit": 2885,
+   "categorie": "meubles",
+   "id": "eagle-pole"
+  },
+  {
+   "bit": 2886,
+   "categorie": "meubles",
+   "id": "frog-woman-pole"
+  },
+  {
+   "bit": 2887,
+   "categorie": "meubles",
+   "id": "raven-pole"
+  },
+  {
+   "bit": 2888,
+   "categorie": "meubles",
+   "id": "blue-lava-lamp"
+  },
+  {
+   "bit": 2889,
+   "categorie": "meubles",
+   "id": "purple-lava-lamp"
+  },
+  {
+   "bit": 2890,
+   "categorie": "meubles",
+   "id": "green-lava-lamp"
+  },
+  {
+   "bit": 2891,
+   "categorie": "meubles",
+   "id": "tea-table"
+  },
+  {
+   "bit": 2892,
+   "categorie": "meubles",
+   "id": "hearth"
+  },
+  {
+   "bit": 2893,
+   "categorie": "meubles",
+   "id": "screen"
+  },
+  {
+   "bit": 2894,
+   "categorie": "meubles",
+   "id": "hibachi"
+  },
+  {
+   "bit": 2895,
+   "categorie": "meubles",
+   "id": "tea-tansu"
+  },
+  {
+   "bit": 2896,
+   "categorie": "meubles",
+   "id": "paper-lantern"
+  },
+  {
+   "bit": 2897,
+   "categorie": "meubles",
+   "id": "paulownia-closet"
+  },
+  {
+   "bit": 2898,
+   "categorie": "meubles",
+   "id": "stair-dresser"
+  },
+  {
+   "bit": 2899,
+   "categorie": "meubles",
+   "id": "low-screen"
+  },
+  {
+   "bit": 2900,
+   "categorie": "meubles",
+   "id": "paper-tiger"
+  },
+  {
+   "bit": 2901,
+   "categorie": "meubles",
+   "id": "lucky-frog"
+  },
+  {
+   "bit": 2902,
+   "categorie": "meubles",
+   "id": "sword"
+  },
+  {
+   "bit": 2903,
+   "categorie": "meubles",
+   "id": "bow"
+  },
+  {
+   "bit": 2904,
+   "categorie": "meubles",
+   "id": "samurai-suit"
+  },
+  {
+   "bit": 2905,
+   "categorie": "meubles",
+   "id": "black-katana"
+  },
+  {
+   "bit": 2906,
+   "categorie": "meubles",
+   "id": "white-katana"
+  },
+  {
+   "bit": 2907,
+   "categorie": "meubles",
+   "id": "ninja-sword"
+  },
+  {
+   "bit": 2908,
+   "categorie": "meubles",
+   "id": "deer-scare"
+  },
+  {
+   "bit": 2909,
+   "categorie": "meubles",
+   "id": "tall-lantern"
+  },
+  {
+   "bit": 2910,
+   "categorie": "meubles",
+   "id": "spa-chair"
+  },
+  {
+   "bit": 2911,
+   "categorie": "meubles",
+   "id": "bath-mat"
+  },
+  {
+   "bit": 2912,
+   "categorie": "meubles",
+   "id": "bucket"
+  },
+  {
+   "bit": 2913,
+   "categorie": "meubles",
+   "id": "bathtub"
+  },
+  {
+   "bit": 2914,
+   "categorie": "meubles",
+   "id": "milk-case"
+  },
+  {
+   "bit": 2915,
+   "categorie": "meubles",
+   "id": "ice-cream-case"
+  },
+  {
+   "bit": 2916,
+   "categorie": "meubles",
+   "id": "washbasin"
+  },
+  {
+   "bit": 2917,
+   "categorie": "meubles",
+   "id": "tea-vase"
+  },
+  {
+   "bit": 2918,
+   "categorie": "meubles",
+   "id": "red-vase"
+  },
+  {
+   "bit": 2919,
+   "categorie": "meubles",
+   "id": "blue-vase"
+  },
+  {
+   "bit": 2920,
+   "categorie": "meubles",
+   "id": "lucky-cat"
+  },
+  {
+   "bit": 2921,
+   "categorie": "meubles",
+   "id": "lefty-lucky-cat"
+  },
+  {
+   "bit": 2922,
+   "categorie": "meubles",
+   "id": "lucky-black-cat"
+  },
+  {
+   "bit": 2923,
+   "categorie": "meubles",
+   "id": "lucky-gold-cat"
+  },
+  {
+   "bit": 2924,
+   "categorie": "meubles",
+   "id": "grapefruit-table"
+  },
+  {
+   "bit": 2925,
+   "categorie": "meubles",
+   "id": "lemon-table"
+  },
+  {
+   "bit": 2926,
+   "categorie": "meubles",
+   "id": "orange-chair"
+  },
+  {
+   "bit": 2927,
+   "categorie": "meubles",
+   "id": "lime-chair"
+  },
+  {
+   "bit": 2928,
+   "categorie": "meubles",
+   "id": "pear-wardrobe"
+  },
+  {
+   "bit": 2929,
+   "categorie": "meubles",
+   "id": "pear-dresser"
+  },
+  {
+   "bit": 2930,
+   "categorie": "meubles",
+   "id": "watermelon-chair"
+  },
+  {
+   "bit": 2931,
+   "categorie": "meubles",
+   "id": "melon-chair"
+  },
+  {
+   "bit": 2932,
+   "categorie": "meubles",
+   "id": "watermelon-table"
+  },
+  {
+   "bit": 2933,
+   "categorie": "meubles",
+   "id": "apple-tv"
+  },
+  {
+   "bit": 2934,
+   "categorie": "meubles",
+   "id": "apple-clock"
+  },
+  {
+   "bit": 2935,
+   "categorie": "meubles",
+   "id": "lily-pad-table"
+  },
+  {
+   "bit": 2936,
+   "categorie": "meubles",
+   "id": "froggy-chair"
+  },
+  {
+   "bit": 2937,
+   "categorie": "meubles",
+   "id": "pine-chair"
+  },
+  {
+   "bit": 2938,
+   "categorie": "meubles",
+   "id": "pine-table"
+  },
+  {
+   "bit": 2939,
+   "categorie": "meubles",
+   "id": "tulip-chair"
+  },
+  {
+   "bit": 2940,
+   "categorie": "meubles",
+   "id": "tulip-table"
+  },
+  {
+   "bit": 2941,
+   "categorie": "meubles",
+   "id": "iris-chair"
+  },
+  {
+   "bit": 2942,
+   "categorie": "meubles",
+   "id": "iris-table"
+  },
+  {
+   "bit": 2943,
+   "categorie": "meubles",
+   "id": "daffodil-chair"
+  },
+  {
+   "bit": 2944,
+   "categorie": "meubles",
+   "id": "daffodil-table"
+  },
+  {
+   "bit": 2945,
+   "categorie": "meubles",
+   "id": "ponderosa-bonsai"
+  },
+  {
+   "bit": 2946,
+   "categorie": "meubles",
+   "id": "pine-bonsai"
+  },
+  {
+   "bit": 2947,
+   "categorie": "meubles",
+   "id": "mugho-bonsai"
+  },
+  {
+   "bit": 2948,
+   "categorie": "meubles",
+   "id": "plum-bonsai"
+  },
+  {
+   "bit": 2949,
+   "categorie": "meubles",
+   "id": "holly-bonsai"
+  },
+  {
+   "bit": 2950,
+   "categorie": "meubles",
+   "id": "azalea-bonsai"
+  },
+  {
+   "bit": 2951,
+   "categorie": "meubles",
+   "id": "maple-bonsai"
+  },
+  {
+   "bit": 2952,
+   "categorie": "meubles",
+   "id": "hawthorn-bonsai"
+  },
+  {
+   "bit": 2953,
+   "categorie": "meubles",
+   "id": "quince-bonsai"
+  },
+  {
+   "bit": 2954,
+   "categorie": "meubles",
+   "id": "jasmine-bonsai"
+  },
+  {
+   "bit": 2955,
+   "categorie": "meubles",
+   "id": "pothos"
+  },
+  {
+   "bit": 2956,
+   "categorie": "meubles",
+   "id": "coconut-palm"
+  },
+  {
+   "bit": 2957,
+   "categorie": "meubles",
+   "id": "pachira"
+  },
+  {
+   "bit": 2958,
+   "categorie": "meubles",
+   "id": "caladium"
+  },
+  {
+   "bit": 2959,
+   "categorie": "meubles",
+   "id": "croton"
+  },
+  {
+   "bit": 2960,
+   "categorie": "meubles",
+   "id": "dracaena"
+  },
+  {
+   "bit": 2961,
+   "categorie": "meubles",
+   "id": "lady-palm"
+  },
+  {
+   "bit": 2962,
+   "categorie": "meubles",
+   "id": "aloe"
+  },
+  {
+   "bit": 2963,
+   "categorie": "meubles",
+   "id": "rubber-tree"
+  },
+  {
+   "bit": 2964,
+   "categorie": "meubles",
+   "id": "snake-plant"
+  },
+  {
+   "bit": 2965,
+   "categorie": "meubles",
+   "id": "fan-palm"
+  },
+  {
+   "bit": 2966,
+   "categorie": "meubles",
+   "id": "corn-plant"
+  },
+  {
+   "bit": 2967,
+   "categorie": "meubles",
+   "id": "bromeliaceae"
+  },
+  {
+   "bit": 2968,
+   "categorie": "meubles",
+   "id": "weeping-fig"
+  },
+  {
+   "bit": 2969,
+   "categorie": "meubles",
+   "id": "conga-drum"
+  },
+  {
+   "bit": 2970,
+   "categorie": "meubles",
+   "id": "djimbe-drum"
+  },
+  {
+   "bit": 2971,
+   "categorie": "meubles",
+   "id": "timpano-drum"
+  },
+  {
+   "bit": 2972,
+   "categorie": "meubles",
+   "id": "violin"
+  },
+  {
+   "bit": 2973,
+   "categorie": "meubles",
+   "id": "cello"
+  },
+  {
+   "bit": 2974,
+   "categorie": "meubles",
+   "id": "bass"
+  },
+  {
+   "bit": 2975,
+   "categorie": "meubles",
+   "id": "folk-guitar"
+  },
+  {
+   "bit": 2976,
+   "categorie": "meubles",
+   "id": "country-guitar"
+  },
+  {
+   "bit": 2977,
+   "categorie": "meubles",
+   "id": "rock-guitar"
+  },
+  {
+   "bit": 2978,
+   "categorie": "meubles",
+   "id": "metal-guitar"
+  },
+  {
+   "bit": 2979,
+   "categorie": "meubles",
+   "id": "ukulele"
+  },
+  {
+   "bit": 2980,
+   "categorie": "meubles",
+   "id": "ebony-piano"
+  },
+  {
+   "bit": 2981,
+   "categorie": "meubles",
+   "id": "ivory-piano"
+  },
+  {
+   "bit": 2982,
+   "categorie": "meubles",
+   "id": "upright-piano"
+  },
+  {
+   "bit": 2983,
+   "categorie": "meubles",
+   "id": "japanese-drum"
+  },
+  {
+   "bit": 2984,
+   "categorie": "meubles",
+   "id": "vibraphone"
+  },
+  {
+   "bit": 2985,
+   "categorie": "meubles",
+   "id": "biwa-lute"
+  },
+  {
+   "bit": 2986,
+   "categorie": "meubles",
+   "id": "harp"
+  },
+  {
+   "bit": 2987,
+   "categorie": "meubles",
+   "id": "metronome"
+  },
+  {
+   "bit": 2988,
+   "categorie": "meubles",
+   "id": "trash-can"
+  },
+  {
+   "bit": 2989,
+   "categorie": "meubles",
+   "id": "garbage-pail"
+  },
+  {
+   "bit": 2990,
+   "categorie": "meubles",
+   "id": "garbage-can"
+  },
+  {
+   "bit": 2991,
+   "categorie": "meubles",
+   "id": "trash-bin"
+  },
+  {
+   "bit": 2992,
+   "categorie": "meubles",
+   "id": "pantheon-post"
+  },
+  {
+   "bit": 2993,
+   "categorie": "meubles",
+   "id": "ionian-post"
+  },
+  {
+   "bit": 2994,
+   "categorie": "meubles",
+   "id": "corinthian-post"
+  },
+  {
+   "bit": 2995,
+   "categorie": "meubles",
+   "id": "broken-post"
+  },
+  {
+   "bit": 2996,
+   "categorie": "meubles",
+   "id": "pyramid"
+  },
+  {
+   "bit": 2997,
+   "categorie": "meubles",
+   "id": "sphinx"
+  },
+  {
+   "bit": 2998,
+   "categorie": "meubles",
+   "id": "mummys-casket"
+  },
+  {
+   "bit": 2999,
+   "categorie": "meubles",
+   "id": "spaceman"
+  },
+  {
+   "bit": 3000,
+   "categorie": "meubles",
+   "id": "jomon-pottery"
+  },
+  {
+   "bit": 3001,
+   "categorie": "meubles",
+   "id": "tennis-table"
+  },
+  {
+   "bit": 3002,
+   "categorie": "meubles",
+   "id": "bowling-pins"
+  },
+  {
+   "bit": 3003,
+   "categorie": "meubles",
+   "id": "ball-return"
+  },
+  {
+   "bit": 3004,
+   "categorie": "meubles",
+   "id": "basketball-hoop"
+  },
+  {
+   "bit": 3005,
+   "categorie": "meubles",
+   "id": "billiard-table"
+  },
+  {
+   "bit": 3006,
+   "categorie": "meubles",
+   "id": "mahjong-table"
+  },
+  {
+   "bit": 3007,
+   "categorie": "meubles",
+   "id": "dart-board"
+  },
+  {
+   "bit": 3008,
+   "categorie": "meubles",
+   "id": "pinball-machine"
+  },
+  {
+   "bit": 3009,
+   "categorie": "meubles",
+   "id": "arcade-machine"
+  },
+  {
+   "bit": 3010,
+   "categorie": "meubles",
+   "id": "tabletop-game"
+  },
+  {
+   "bit": 3011,
+   "categorie": "meubles",
+   "id": "stool"
+  },
+  {
+   "bit": 3012,
+   "categorie": "meubles",
+   "id": "shogi-board"
+  },
+  {
+   "bit": 3013,
+   "categorie": "meubles",
+   "id": "go-board"
+  },
+  {
+   "bit": 3014,
+   "categorie": "meubles",
+   "id": "moai-statue"
+  },
+  {
+   "bit": 3015,
+   "categorie": "meubles",
+   "id": "tribal-mask"
+  },
+  {
+   "bit": 3016,
+   "categorie": "meubles",
+   "id": "arc-de-triomphe"
+  },
+  {
+   "bit": 3017,
+   "categorie": "meubles",
+   "id": "merlion"
+  },
+  {
+   "bit": 3018,
+   "categorie": "meubles",
+   "id": "pagoda"
+  },
+  {
+   "bit": 3019,
+   "categorie": "meubles",
+   "id": "plate-armor"
+  },
+  {
+   "bit": 3020,
+   "categorie": "meubles",
+   "id": "mermaid-statue"
+  },
+  {
+   "bit": 3021,
+   "categorie": "meubles",
+   "id": "mouth-of-truth"
+  },
+  {
+   "bit": 3022,
+   "categorie": "meubles",
+   "id": "manneken-pis"
+  },
+  {
+   "bit": 3023,
+   "categorie": "meubles",
+   "id": "tower-of-pisa"
+  },
+  {
+   "bit": 3024,
+   "categorie": "meubles",
+   "id": "compass"
+  },
+  {
+   "bit": 3025,
+   "categorie": "meubles",
+   "id": "matryoshka"
+  },
+  {
+   "bit": 3026,
+   "categorie": "meubles",
+   "id": "chocolates"
+  },
+  {
+   "bit": 3027,
+   "categorie": "meubles",
+   "id": "backpack"
+  },
+  {
+   "bit": 3028,
+   "categorie": "meubles",
+   "id": "mountain-bike"
+  },
+  {
+   "bit": 3029,
+   "categorie": "meubles",
+   "id": "propane-stove"
+  },
+  {
+   "bit": 3030,
+   "categorie": "meubles",
+   "id": "cooler"
+  },
+  {
+   "bit": 3031,
+   "categorie": "meubles",
+   "id": "kayak"
+  },
+  {
+   "bit": 3032,
+   "categorie": "meubles",
+   "id": "lantern"
+  },
+  {
+   "bit": 3033,
+   "categorie": "meubles",
+   "id": "sleeping-bag"
+  },
+  {
+   "bit": 3034,
+   "categorie": "meubles",
+   "id": "campfire"
+  },
+  {
+   "bit": 3035,
+   "categorie": "meubles",
+   "id": "bonfire"
+  },
+  {
+   "bit": 3036,
+   "categorie": "meubles",
+   "id": "tv-with-a-vcr"
+  },
+  {
+   "bit": 3037,
+   "categorie": "meubles",
+   "id": "wide-screen-tv"
+  },
+  {
+   "bit": 3038,
+   "categorie": "meubles",
+   "id": "retro-tv"
+  },
+  {
+   "bit": 3039,
+   "categorie": "meubles",
+   "id": "kitchen-sink"
+  },
+  {
+   "bit": 3040,
+   "categorie": "meubles",
+   "id": "kitchen-corner"
+  },
+  {
+   "bit": 3041,
+   "categorie": "meubles",
+   "id": "deluxe-range"
+  },
+  {
+   "bit": 3042,
+   "categorie": "meubles",
+   "id": "range"
+  },
+  {
+   "bit": 3043,
+   "categorie": "meubles",
+   "id": "stove"
+  },
+  {
+   "bit": 3044,
+   "categorie": "meubles",
+   "id": "sink"
+  },
+  {
+   "bit": 3045,
+   "categorie": "meubles",
+   "id": "tea-set"
+  },
+  {
+   "bit": 3046,
+   "categorie": "meubles",
+   "id": "shave-ice-maker"
+  },
+  {
+   "bit": 3047,
+   "categorie": "meubles",
+   "id": "refrigerator"
+  },
+  {
+   "bit": 3048,
+   "categorie": "meubles",
+   "id": "retro-fridge"
+  },
+  {
+   "bit": 3049,
+   "categorie": "meubles",
+   "id": "microwave"
+  },
+  {
+   "bit": 3050,
+   "categorie": "meubles",
+   "id": "toaster"
+  },
+  {
+   "bit": 3051,
+   "categorie": "meubles",
+   "id": "mixer"
+  },
+  {
+   "bit": 3052,
+   "categorie": "meubles",
+   "id": "clothesline-pole"
+  },
+  {
+   "bit": 3053,
+   "categorie": "meubles",
+   "id": "doghouse"
+  },
+  {
+   "bit": 3054,
+   "categorie": "meubles",
+   "id": "beach-chair"
+  },
+  {
+   "bit": 3055,
+   "categorie": "meubles",
+   "id": "wave-breaker"
+  },
+  {
+   "bit": 3056,
+   "categorie": "meubles",
+   "id": "surfboard"
+  },
+  {
+   "bit": 3057,
+   "categorie": "meubles",
+   "id": "diver-dan"
+  },
+  {
+   "bit": 3058,
+   "categorie": "meubles",
+   "id": "beach-table"
+  },
+  {
+   "bit": 3059,
+   "categorie": "meubles",
+   "id": "treasure-chest"
+  },
+  {
+   "bit": 3060,
+   "categorie": "meubles",
+   "id": "life-ring"
+  },
+  {
+   "bit": 3061,
+   "categorie": "meubles",
+   "id": "snowboard"
+  },
+  {
+   "bit": 3062,
+   "categorie": "meubles",
+   "id": "sleigh"
+  },
+  {
+   "bit": 3063,
+   "categorie": "meubles",
+   "id": "snowman"
+  },
+  {
+   "bit": 3064,
+   "categorie": "meubles",
+   "id": "sunflower"
+  },
+  {
+   "bit": 3065,
+   "categorie": "meubles",
+   "id": "daffodil"
+  },
+  {
+   "bit": 3066,
+   "categorie": "meubles",
+   "id": "gerbera"
+  },
+  {
+   "bit": 3067,
+   "categorie": "meubles",
+   "id": "toilet"
+  },
+  {
+   "bit": 3068,
+   "categorie": "meubles",
+   "id": "super-toilet"
+  },
+  {
+   "bit": 3069,
+   "categorie": "meubles",
+   "id": "mens-toilet"
+  },
+  {
+   "bit": 3070,
+   "categorie": "meubles",
+   "id": "pink-box"
+  },
+  {
+   "bit": 3071,
+   "categorie": "meubles",
+   "id": "blue-box"
+  },
+  {
+   "bit": 3072,
+   "categorie": "meubles",
+   "id": "beige-box"
+  },
+  {
+   "bit": 3073,
+   "categorie": "meubles",
+   "id": "safe"
+  },
+  {
+   "bit": 3074,
+   "categorie": "meubles",
+   "id": "deluxe-washer"
+  },
+  {
+   "bit": 3075,
+   "categorie": "meubles",
+   "id": "automatic-washer"
+  },
+  {
+   "bit": 3076,
+   "categorie": "meubles",
+   "id": "washer-dryer"
+  },
+  {
+   "bit": 3077,
+   "categorie": "meubles",
+   "id": "potbelly-stove"
+  },
+  {
+   "bit": 3078,
+   "categorie": "meubles",
+   "id": "space-heater"
+  },
+  {
+   "bit": 3079,
+   "categorie": "meubles",
+   "id": "fireplace"
+  },
+  {
+   "bit": 3080,
+   "categorie": "meubles",
+   "id": "radiator"
+  },
+  {
+   "bit": 3081,
+   "categorie": "meubles",
+   "id": "phonograph"
+  },
+  {
+   "bit": 3082,
+   "categorie": "meubles",
+   "id": "turntable"
+  },
+  {
+   "bit": 3083,
+   "categorie": "meubles",
+   "id": "reel-to-reel"
+  },
+  {
+   "bit": 3084,
+   "categorie": "meubles",
+   "id": "retro-stereo"
+  },
+  {
+   "bit": 3085,
+   "categorie": "meubles",
+   "id": "gold-stereo"
+  },
+  {
+   "bit": 3086,
+   "categorie": "meubles",
+   "id": "hi-fi-stereo"
+  },
+  {
+   "bit": 3087,
+   "categorie": "meubles",
+   "id": "high-end-stereo"
+  },
+  {
+   "bit": 3088,
+   "categorie": "meubles",
+   "id": "dice-stereo"
+  },
+  {
+   "bit": 3089,
+   "categorie": "meubles",
+   "id": "tape-deck"
+  },
+  {
+   "bit": 3090,
+   "categorie": "meubles",
+   "id": "cd-player"
+  },
+  {
+   "bit": 3091,
+   "categorie": "meubles",
+   "id": "white-boom-box"
+  },
+  {
+   "bit": 3092,
+   "categorie": "meubles",
+   "id": "red-boom-box"
+  },
+  {
+   "bit": 3093,
+   "categorie": "meubles",
+   "id": "red-clock"
+  },
+  {
+   "bit": 3094,
+   "categorie": "meubles",
+   "id": "kitschy-clock"
+  },
+  {
+   "bit": 3095,
+   "categorie": "meubles",
+   "id": "antique-clock"
+  },
+  {
+   "bit": 3096,
+   "categorie": "meubles",
+   "id": "cube-clock"
+  },
+  {
+   "bit": 3097,
+   "categorie": "meubles",
+   "id": "odd-clock"
+  },
+  {
+   "bit": 3098,
+   "categorie": "meubles",
+   "id": "glow-clock"
+  },
+  {
+   "bit": 3099,
+   "categorie": "meubles",
+   "id": "owl-clock"
+  },
+  {
+   "bit": 3100,
+   "categorie": "meubles",
+   "id": "alarm-clock"
+  },
+  {
+   "bit": 3101,
+   "categorie": "meubles",
+   "id": "jade-econo-chair"
+  },
+  {
+   "bit": 3102,
+   "categorie": "meubles",
+   "id": "ruby-econo-chair"
+  },
+  {
+   "bit": 3103,
+   "categorie": "meubles",
+   "id": "gold-econo-chair"
+  },
+  {
+   "bit": 3104,
+   "categorie": "meubles",
+   "id": "rocking-chair"
+  },
+  {
+   "bit": 3105,
+   "categorie": "meubles",
+   "id": "lefty-desk"
+  },
+  {
+   "bit": 3106,
+   "categorie": "meubles",
+   "id": "righty-desk"
+  },
+  {
+   "bit": 3107,
+   "categorie": "meubles",
+   "id": "gas-pump"
+  },
+  {
+   "bit": 3108,
+   "categorie": "meubles",
+   "id": "extinguisher"
+  },
+  {
+   "bit": 3109,
+   "categorie": "meubles",
+   "id": "fire-hydrant"
+  },
+  {
+   "bit": 3110,
+   "categorie": "meubles",
+   "id": "racoon-figurine"
+  },
+  {
+   "bit": 3111,
+   "categorie": "meubles",
+   "id": "barbers-pole"
+  },
+  {
+   "bit": 3112,
+   "categorie": "meubles",
+   "id": "candy-machine"
+  },
+  {
+   "bit": 3113,
+   "categorie": "meubles",
+   "id": "scarecrow"
+  },
+  {
+   "bit": 3114,
+   "categorie": "meubles",
+   "id": "birdcage"
+  },
+  {
+   "bit": 3116,
+   "categorie": "meubles",
+   "id": "phone-box"
+  },
+  {
+   "bit": 3117,
+   "categorie": "meubles",
+   "id": "outdoor-bath"
+  },
+  {
+   "bit": 3118,
+   "categorie": "meubles",
+   "id": "wheat-field"
+  },
+  {
+   "bit": 3119,
+   "categorie": "meubles",
+   "id": "computer"
+  },
+  {
+   "bit": 3120,
+   "categorie": "meubles",
+   "id": "pineapple-bed"
+  },
+  {
+   "bit": 3121,
+   "categorie": "meubles",
+   "id": "glass-top-table"
+  },
+  {
+   "bit": 3122,
+   "categorie": "meubles",
+   "id": "blue-kotatsu"
+  },
+  {
+   "bit": 3123,
+   "categorie": "meubles",
+   "id": "pink-kotatsu"
+  },
+  {
+   "bit": 3124,
+   "categorie": "meubles",
+   "id": "cream-sofa"
+  },
+  {
+   "bit": 3125,
+   "categorie": "meubles",
+   "id": "storage-case"
+  },
+  {
+   "bit": 3126,
+   "categorie": "meubles",
+   "id": "clothes-closet"
+  },
+  {
+   "bit": 3127,
+   "categorie": "meubles",
+   "id": "claw-foot-tub"
+  },
+  {
+   "bit": 3128,
+   "categorie": "meubles",
+   "id": "shower"
+  },
+  {
+   "bit": 3129,
+   "categorie": "meubles",
+   "id": "massage-chair"
+  },
+  {
+   "bit": 3130,
+   "categorie": "meubles",
+   "id": "vacuum-cleaner"
+  },
+  {
+   "bit": 3131,
+   "categorie": "meubles",
+   "id": "bottled-ship"
+  },
+  {
+   "bit": 3132,
+   "categorie": "meubles",
+   "id": "water-bird"
+  },
+  {
+   "bit": 3133,
+   "categorie": "meubles",
+   "id": "executive-toy"
+  },
+  {
+   "bit": 3134,
+   "categorie": "meubles",
+   "id": "telescope"
+  },
+  {
+   "bit": 3135,
+   "categorie": "meubles",
+   "id": "miniature-car"
+  },
+  {
+   "bit": 3136,
+   "categorie": "meubles",
+   "id": "mochi-pestle"
+  },
+  {
+   "bit": 3137,
+   "categorie": "meubles",
+   "id": "sewing-machine"
+  },
+  {
+   "bit": 3138,
+   "categorie": "meubles",
+   "id": "cardboard-box"
+  },
+  {
+   "bit": 3139,
+   "categorie": "meubles",
+   "id": "wooden-box"
+  },
+  {
+   "bit": 3140,
+   "categorie": "meubles",
+   "id": "fan"
+  },
+  {
+   "bit": 3141,
+   "categorie": "meubles",
+   "id": "candle"
+  },
+  {
+   "bit": 3142,
+   "categorie": "meubles",
+   "id": "mini-lamp"
+  },
+  {
+   "bit": 3143,
+   "categorie": "meubles",
+   "id": "desk-light"
+  },
+  {
+   "bit": 3144,
+   "categorie": "meubles",
+   "id": "table-lamp"
+  },
+  {
+   "bit": 3145,
+   "categorie": "meubles",
+   "id": "throne"
+  },
+  {
+   "bit": 3146,
+   "categorie": "meubles",
+   "id": "basic-red-bed"
+  },
+  {
+   "bit": 3147,
+   "categorie": "meubles",
+   "id": "basic-blue-bed"
+  },
+  {
+   "bit": 3148,
+   "categorie": "meubles",
+   "id": "basic-yellow-bed"
+  },
+  {
+   "bit": 3149,
+   "categorie": "meubles",
+   "id": "basic-green-bed"
+  },
+  {
+   "bit": 3150,
+   "categorie": "meubles",
+   "id": "brick-block"
+  },
+  {
+   "bit": 3151,
+   "categorie": "meubles",
+   "id": "coin"
+  },
+  {
+   "bit": 3152,
+   "categorie": "meubles",
+   "id": "flagpole"
+  },
+  {
+   "bit": 3153,
+   "categorie": "meubles",
+   "id": "fire-flower"
+  },
+  {
+   "bit": 3154,
+   "categorie": "meubles",
+   "id": "super-mushroom"
+  },
+  {
+   "bit": 3155,
+   "categorie": "meubles",
+   "id": "koopa-shell"
+  },
+  {
+   "bit": 3156,
+   "categorie": "meubles",
+   "id": "starman"
+  },
+  {
+   "bit": 3157,
+   "categorie": "meubles",
+   "id": "1-up-mushroom"
+  },
+  {
+   "bit": 3158,
+   "categorie": "meubles",
+   "id": "block"
+  },
+  {
+   "bit": 3159,
+   "categorie": "meubles",
+   "id": "green-pipe"
+  },
+  {
+   "bit": 3160,
+   "categorie": "meubles",
+   "id": "fire-bar"
+  },
+  {
+   "bit": 3161,
+   "categorie": "meubles",
+   "id": "cannon"
+  },
+  {
+   "bit": 3162,
+   "categorie": "meubles",
+   "id": "yoshis-egg"
+  },
+  {
+   "bit": 3163,
+   "categorie": "meubles",
+   "id": "banana"
+  },
+  {
+   "bit": 3164,
+   "categorie": "meubles",
+   "id": "triple-shells"
+  },
+  {
+   "bit": 3165,
+   "categorie": "meubles",
+   "id": "kart"
+  },
+  {
+   "bit": 3168,
+   "categorie": "meubles",
+   "id": "master-sword"
+  },
+  {
+   "bit": 3169,
+   "categorie": "meubles",
+   "id": "arwing"
+  },
+  {
+   "bit": 3170,
+   "categorie": "meubles",
+   "id": "triforce"
+  },
+  {
+   "bit": 3171,
+   "categorie": "meubles",
+   "id": "metroid"
+  },
+  {
+   "bit": 3172,
+   "categorie": "meubles",
+   "id": "birthday-cake"
+  },
+  {
+   "bit": 3173,
+   "categorie": "meubles",
+   "id": "jack-in-the-box"
+  },
+  {
+   "bit": 3174,
+   "categorie": "meubles",
+   "id": "kadomatsu"
+  },
+  {
+   "bit": 3175,
+   "categorie": "meubles",
+   "id": "kagamimochi"
+  },
+  {
+   "bit": 3176,
+   "categorie": "meubles",
+   "id": "hinaningyo"
+  },
+  {
+   "bit": 3177,
+   "categorie": "meubles",
+   "id": "big-festive-tree"
+  },
+  {
+   "bit": 3178,
+   "categorie": "meubles",
+   "id": "festive-tree"
+  },
+  {
+   "bit": 3179,
+   "categorie": "meubles",
+   "id": "festive-flag"
+  },
+  {
+   "bit": 3180,
+   "categorie": "meubles",
+   "id": "festive-candle"
+  },
+  {
+   "bit": 3181,
+   "categorie": "meubles",
+   "id": "lovely-phone"
+  },
+  {
+   "bit": 3182,
+   "categorie": "meubles",
+   "id": "music-box"
+  },
+  {
+   "bit": 3183,
+   "categorie": "meubles",
+   "id": "portrait"
+  },
+  {
+   "bit": 3184,
+   "categorie": "meubles",
+   "id": "box-of-tissues"
+  },
+  {
+   "bit": 3185,
+   "categorie": "meubles",
+   "id": "piggy-bank"
+  },
+  {
+   "bit": 3186,
+   "categorie": "meubles",
+   "id": "abd"
+  },
+  {
+   "bit": 3187,
+   "categorie": "meubles",
+   "id": "leaf"
+  },
+  {
+   "bit": 3188,
+   "categorie": "meubles",
+   "id": "gold-trophy"
+  },
+  {
+   "bit": 3189,
+   "categorie": "meubles",
+   "id": "silver-trophy"
+  },
+  {
+   "bit": 3190,
+   "categorie": "meubles",
+   "id": "bug-trophy"
+  },
+  {
+   "bit": 3191,
+   "categorie": "meubles",
+   "id": "rice-cake"
+  },
+  {
+   "bit": 3192,
+   "categorie": "meubles",
+   "id": "dango"
+  },
+  {
+   "bit": 3193,
+   "categorie": "meubles",
+   "id": "bamboo-grass"
+  },
+  {
+   "bit": 3194,
+   "categorie": "meubles",
+   "id": "resetti-model"
+  },
+  {
+   "bit": 3195,
+   "categorie": "meubles",
+   "id": "cool-globe"
+  },
+  {
+   "bit": 3196,
+   "categorie": "meubles",
+   "id": "picnic-basket"
+  },
+  {
+   "bit": 3197,
+   "categorie": "meubles",
+   "id": "sailboat-model"
+  },
+  {
+   "bit": 3198,
+   "categorie": "meubles",
+   "id": "wheat-bundle"
+  },
+  {
+   "bit": 3199,
+   "categorie": "meubles",
+   "id": "espresso-maker"
+  },
+  {
+   "bit": 3200,
+   "categorie": "meubles",
+   "id": "stuffed-stocking"
+  },
+  {
+   "bit": 3201,
+   "categorie": "meubles",
+   "id": "snow-globe"
+  },
+  {
+   "bit": 3202,
+   "categorie": "meubles",
+   "id": "veggie-basket"
+  },
+  {
+   "bit": 3203,
+   "categorie": "meubles",
+   "id": "yut"
+  },
+  {
+   "bit": 3204,
+   "categorie": "meubles",
+   "id": "hibiscus"
+  },
+  {
+   "bit": 3205,
+   "categorie": "meubles",
+   "id": "bureom"
+  },
+  {
+   "bit": 3206,
+   "categorie": "meubles",
+   "id": "house-model"
+  },
+  {
+   "bit": 3207,
+   "categorie": "meubles",
+   "id": "wide-house-model"
+  },
+  {
+   "bit": 3208,
+   "categorie": "meubles",
+   "id": "two-story-model"
+  },
+  {
+   "bit": 3209,
+   "categorie": "meubles",
+   "id": "town-hall-model"
+  },
+  {
+   "bit": 3210,
+   "categorie": "meubles",
+   "id": "nooks-cranny"
+  },
+  {
+   "bit": 3211,
+   "categorie": "meubles",
+   "id": "nook-n-go"
+  },
+  {
+   "bit": 3212,
+   "categorie": "meubles",
+   "id": "nookway"
+  },
+  {
+   "bit": 3213,
+   "categorie": "meubles",
+   "id": "nookingtons"
+  },
+  {
+   "bit": 3214,
+   "categorie": "meubles",
+   "id": "museum-model"
+  },
+  {
+   "bit": 3850,
+   "categorie": "fossiles",
+   "id": "amber"
+  },
+  {
+   "bit": 3851,
+   "categorie": "fossiles",
+   "id": "ammonite"
+  },
+  {
+   "bit": 3852,
+   "categorie": "fossiles",
+   "id": "coprolite"
+  },
+  {
+   "bit": 3853,
+   "categorie": "fossiles",
+   "id": "dinosaur-egg"
+  },
+  {
+   "bit": 3854,
+   "categorie": "fossiles",
+   "id": "fern-fossil"
+  },
+  {
+   "bit": 3855,
+   "categorie": "fossiles",
+   "id": "dinosaur-track"
+  },
+  {
+   "bit": 3856,
+   "categorie": "fossiles",
+   "id": "archaeopteryx"
+  },
+  {
+   "bit": 3857,
+   "categorie": "fossiles",
+   "id": "peking-man"
+  },
+  {
+   "bit": 3858,
+   "categorie": "fossiles",
+   "id": "shark-tooth"
+  },
+  {
+   "bit": 3859,
+   "categorie": "fossiles",
+   "id": "trilobite"
+  },
+  {
+   "bit": 3860,
+   "categorie": "fossiles",
+   "id": "t-rex-skull"
+  },
+  {
+   "bit": 3861,
+   "categorie": "fossiles",
+   "id": "t-rex-torso"
+  },
+  {
+   "bit": 3862,
+   "categorie": "fossiles",
+   "id": "t-rex-tail"
+  },
+  {
+   "bit": 3863,
+   "categorie": "fossiles",
+   "id": "tricera-skull"
+  },
+  {
+   "bit": 3864,
+   "categorie": "fossiles",
+   "id": "tricera-torso"
+  },
+  {
+   "bit": 3865,
+   "categorie": "fossiles",
+   "id": "tricera-tail"
+  },
+  {
+   "bit": 3866,
+   "categorie": "fossiles",
+   "id": "mammoth-skull"
+  },
+  {
+   "bit": 3867,
+   "categorie": "fossiles",
+   "id": "mammoth-torso"
+  },
+  {
+   "bit": 3868,
+   "categorie": "fossiles",
+   "id": "ankylo-skull"
+  },
+  {
+   "bit": 3869,
+   "categorie": "fossiles",
+   "id": "ankylo-torso"
+  },
+  {
+   "bit": 3870,
+   "categorie": "fossiles",
+   "id": "ankylo-tail"
+  },
+  {
+   "bit": 3871,
+   "categorie": "fossiles",
+   "id": "apato-skull"
+  },
+  {
+   "bit": 3872,
+   "categorie": "fossiles",
+   "id": "apato-torso"
+  },
+  {
+   "bit": 3873,
+   "categorie": "fossiles",
+   "id": "apato-tail"
+  },
+  {
+   "bit": 3874,
+   "categorie": "fossiles",
+   "id": "dimetrodon-skull"
+  },
+  {
+   "bit": 3875,
+   "categorie": "fossiles",
+   "id": "dimetrodon-torso"
+  },
+  {
+   "bit": 3876,
+   "categorie": "fossiles",
+   "id": "dimetrodon-tail"
+  },
+  {
+   "bit": 3877,
+   "categorie": "fossiles",
+   "id": "iguanodon-skull"
+  },
+  {
+   "bit": 3878,
+   "categorie": "fossiles",
+   "id": "iguanodon-torso"
+  },
+  {
+   "bit": 3879,
+   "categorie": "fossiles",
+   "id": "iguanodon-tail"
+  },
+  {
+   "bit": 3880,
+   "categorie": "fossiles",
+   "id": "sabertooth-skull"
+  },
+  {
+   "bit": 3881,
+   "categorie": "fossiles",
+   "id": "sabertooth-torso"
+  },
+  {
+   "bit": 3882,
+   "categorie": "fossiles",
+   "id": "pachy-skull"
+  },
+  {
+   "bit": 3883,
+   "categorie": "fossiles",
+   "id": "pachy-torso"
+  },
+  {
+   "bit": 3884,
+   "categorie": "fossiles",
+   "id": "pachy-tail"
+  },
+  {
+   "bit": 3885,
+   "categorie": "fossiles",
+   "id": "parasaur-skull"
+  },
+  {
+   "bit": 3886,
+   "categorie": "fossiles",
+   "id": "parasaur-torso"
+  },
+  {
+   "bit": 3887,
+   "categorie": "fossiles",
+   "id": "parasaur-tail"
+  },
+  {
+   "bit": 3888,
+   "categorie": "fossiles",
+   "id": "seismo-skull"
+  },
+  {
+   "bit": 3889,
+   "categorie": "fossiles",
+   "id": "seismo-chest"
+  },
+  {
+   "bit": 3890,
+   "categorie": "fossiles",
+   "id": "seismo-hip"
+  },
+  {
+   "bit": 3891,
+   "categorie": "fossiles",
+   "id": "seismo-tail"
+  },
+  {
+   "bit": 3892,
+   "categorie": "fossiles",
+   "id": "plesio-skull"
+  },
+  {
+   "bit": 3893,
+   "categorie": "fossiles",
+   "id": "plesio-neck"
+  },
+  {
+   "bit": 3894,
+   "categorie": "fossiles",
+   "id": "plesio-torso"
+  },
+  {
+   "bit": 3895,
+   "categorie": "fossiles",
+   "id": "stego-skull"
+  },
+  {
+   "bit": 3896,
+   "categorie": "fossiles",
+   "id": "stego-torso"
+  },
+  {
+   "bit": 3897,
+   "categorie": "fossiles",
+   "id": "stego-tail"
+  },
+  {
+   "bit": 3898,
+   "categorie": "fossiles",
+   "id": "ptera-skull"
+  },
+  {
+   "bit": 3899,
+   "categorie": "fossiles",
+   "id": "ptera-left-wing"
+  },
+  {
+   "bit": 3900,
+   "categorie": "fossiles",
+   "id": "ptera-right-wing"
+  },
+  {
+   "bit": 3901,
+   "categorie": "fossiles",
+   "id": "icthyo-skull"
+  },
+  {
+   "bit": 3902,
+   "categorie": "fossiles",
+   "id": "icthyo-torso"
+  },
+  {
+   "bit": 3903,
+   "categorie": "fossiles",
+   "id": "raptor-skull"
+  },
+  {
+   "bit": 3904,
+   "categorie": "fossiles",
+   "id": "raptor-torso"
+  },
+  {
+   "bit": 3905,
+   "categorie": "fossiles",
+   "id": "styraco-skull"
+  },
+  {
+   "bit": 3906,
+   "categorie": "fossiles",
+   "id": "styraco-torso"
+  },
+  {
+   "bit": 3907,
+   "categorie": "fossiles",
+   "id": "styraco-tail"
+  },
+  {
+   "bit": 4000,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4001,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4002,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4003,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4004,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4005,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4006,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4007,
+   "categorie": "outils",
+   "id": "axe"
+  },
+  {
+   "bit": 4008,
+   "categorie": "outils",
+   "id": "net"
+  },
+  {
+   "bit": 4009,
+   "categorie": "outils",
+   "id": "fishing-rod"
+  },
+  {
+   "bit": 4010,
+   "categorie": "outils",
+   "id": "timer"
+  },
+  {
+   "bit": 4011,
+   "categorie": "outils",
+   "id": "watering-can"
+  },
+  {
+   "bit": 4012,
+   "categorie": "outils",
+   "id": "shovel"
+  },
+  {
+   "bit": 4013,
+   "categorie": "outils",
+   "id": "sparkler"
+  },
+  {
+   "bit": 4014,
+   "categorie": "outils",
+   "id": "roman-candle"
+  },
+  {
+   "bit": 4015,
+   "categorie": "outils",
+   "id": "party-popper"
+  },
+  {
+   "bit": 4016,
+   "categorie": "outils",
+   "id": "golden-axe"
+  },
+  {
+   "bit": 4017,
+   "categorie": "outils",
+   "id": "golden-net"
+  },
+  {
+   "bit": 4018,
+   "categorie": "outils",
+   "id": "golden-rod"
+  },
+  {
+   "bit": 4019,
+   "categorie": "outils",
+   "id": "golden-can"
+  },
+  {
+   "bit": 4020,
+   "categorie": "outils",
+   "id": "golden-shovel"
+  },
+  {
+   "bit": 4021,
+   "categorie": "outils",
+   "id": "silver-axe"
+  },
+  {
+   "bit": 4022,
+   "categorie": "outils",
+   "id": "silver-net"
+  },
+  {
+   "bit": 4023,
+   "categorie": "outils",
+   "id": "silver-rod"
+  },
+  {
+   "bit": 4024,
+   "categorie": "outils",
+   "id": "silver-can"
+  },
+  {
+   "bit": 4025,
+   "categorie": "outils",
+   "id": "silver-shovel"
+  },
+  {
+   "bit": 4026,
+   "categorie": "outils",
+   "id": "bubble-wand"
+  },
+  {
+   "bit": 4027,
+   "categorie": "outils",
+   "id": "slingshot"
+  },
+  {
+   "bit": 4028,
+   "categorie": "outils",
+   "id": "silver-slingshot"
+  },
+  {
+   "bit": 4029,
+   "categorie": "outils",
+   "id": "golden-slingshot"
+  },
+  {
+   "bit": 4030,
+   "categorie": "outils",
+   "id": "bunny-r-balloon"
+  },
+  {
+   "bit": 4031,
+   "categorie": "outils",
+   "id": "bunny-o-balloon"
+  },
+  {
+   "bit": 4032,
+   "categorie": "outils",
+   "id": "bunny-y-balloon"
+  },
+  {
+   "bit": 4033,
+   "categorie": "outils",
+   "id": "bunny-g-balloon"
+  },
+  {
+   "bit": 4034,
+   "categorie": "outils",
+   "id": "bunny-c-balloon"
+  },
+  {
+   "bit": 4035,
+   "categorie": "outils",
+   "id": "bunny-b-balloon"
+  },
+  {
+   "bit": 4036,
+   "categorie": "outils",
+   "id": "bunny-i-balloon"
+  },
+  {
+   "bit": 4037,
+   "categorie": "outils",
+   "id": "bunny-p-balloon"
+  },
+  {
+   "bit": 4038,
+   "categorie": "outils",
+   "id": "red-balloon"
+  },
+  {
+   "bit": 4039,
+   "categorie": "outils",
+   "id": "orange-balloon"
+  },
+  {
+   "bit": 4040,
+   "categorie": "outils",
+   "id": "yellow-balloon"
+  },
+  {
+   "bit": 4041,
+   "categorie": "outils",
+   "id": "green-balloon"
+  },
+  {
+   "bit": 4042,
+   "categorie": "outils",
+   "id": "cyan-balloon"
+  },
+  {
+   "bit": 4043,
+   "categorie": "outils",
+   "id": "blue-balloon"
+  },
+  {
+   "bit": 4044,
+   "categorie": "outils",
+   "id": "indigo-balloon"
+  },
+  {
+   "bit": 4045,
+   "categorie": "outils",
+   "id": "pink-balloon"
+  },
+  {
+   "bit": 4046,
+   "categorie": "outils",
+   "id": "red-pinwheel"
+  },
+  {
+   "bit": 4047,
+   "categorie": "outils",
+   "id": "orange-pinwheel"
+  },
+  {
+   "bit": 4048,
+   "categorie": "outils",
+   "id": "yellow-pinwheel"
+  },
+  {
+   "bit": 4049,
+   "categorie": "outils",
+   "id": "green-pinwheel"
+  },
+  {
+   "bit": 4050,
+   "categorie": "outils",
+   "id": "cyan-pinwheel"
+  },
+  {
+   "bit": 4051,
+   "categorie": "outils",
+   "id": "blue-pinwheel"
+  },
+  {
+   "bit": 4052,
+   "categorie": "outils",
+   "id": "indigo-pinwheel"
+  },
+  {
+   "bit": 4053,
+   "categorie": "outils",
+   "id": "pink-pinwheel"
+  },
+  {
+   "bit": 4096,
+   "categorie": "kk",
+   "id": "kk-chorale"
+  },
+  {
+   "bit": 4097,
+   "categorie": "kk",
+   "id": "kk-march"
+  },
+  {
+   "bit": 4098,
+   "categorie": "kk",
+   "id": "kk-waltz"
+  },
+  {
+   "bit": 4099,
+   "categorie": "kk",
+   "id": "kk-swing"
+  },
+  {
+   "bit": 4100,
+   "categorie": "kk",
+   "id": "kk-jazz"
+  },
+  {
+   "bit": 4101,
+   "categorie": "kk",
+   "id": "kk-fusion"
+  },
+  {
+   "bit": 4102,
+   "categorie": "kk",
+   "id": "kk-etude"
+  },
+  {
+   "bit": 4103,
+   "categorie": "kk",
+   "id": "kk-lullaby"
+  },
+  {
+   "bit": 4104,
+   "categorie": "kk",
+   "id": "kk-aria"
+  },
+  {
+   "bit": 4105,
+   "categorie": "kk",
+   "id": "kk-samba"
+  },
+  {
+   "bit": 4106,
+   "categorie": "kk",
+   "id": "kk-bossa"
+  },
+  {
+   "bit": 4107,
+   "categorie": "kk",
+   "id": "kk-calypso"
+  },
+  {
+   "bit": 4108,
+   "categorie": "kk",
+   "id": "kk-salsa"
+  },
+  {
+   "bit": 4109,
+   "categorie": "kk",
+   "id": "kk-mambo"
+  },
+  {
+   "bit": 4110,
+   "categorie": "kk",
+   "id": "kk-reggae"
+  },
+  {
+   "bit": 4111,
+   "categorie": "kk",
+   "id": "kk-ska"
+  },
+  {
+   "bit": 4112,
+   "categorie": "kk",
+   "id": "kk-tango"
+  },
+  {
+   "bit": 4113,
+   "categorie": "kk",
+   "id": "kk-faire"
+  },
+  {
+   "bit": 4114,
+   "categorie": "kk",
+   "id": "aloha-kk"
+  },
+  {
+   "bit": 4115,
+   "categorie": "kk",
+   "id": "lucky-kk"
+  },
+  {
+   "bit": 4116,
+   "categorie": "kk",
+   "id": "kk-condor"
+  },
+  {
+   "bit": 4117,
+   "categorie": "kk",
+   "id": "kk-steppe"
+  },
+  {
+   "bit": 4118,
+   "categorie": "kk",
+   "id": "imperial-kk"
+  },
+  {
+   "bit": 4119,
+   "categorie": "kk",
+   "id": "kk-casbah"
+  },
+  {
+   "bit": 4120,
+   "categorie": "kk",
+   "id": "kk-safari"
+  },
+  {
+   "bit": 4121,
+   "categorie": "kk",
+   "id": "kk-folk"
+  },
+  {
+   "bit": 4122,
+   "categorie": "kk",
+   "id": "kk-rock"
+  },
+  {
+   "bit": 4123,
+   "categorie": "kk",
+   "id": "rockin-kk"
+  },
+  {
+   "bit": 4124,
+   "categorie": "kk",
+   "id": "kk-ragtime"
+  },
+  {
+   "bit": 4125,
+   "categorie": "kk",
+   "id": "kk-gumbo"
+  },
+  {
+   "bit": 4126,
+   "categorie": "kk",
+   "id": "the-k-funk"
+  },
+  {
+   "bit": 4127,
+   "categorie": "kk",
+   "id": "kk-blues"
+  },
+  {
+   "bit": 4128,
+   "categorie": "kk",
+   "id": "soulful-kk"
+  },
+  {
+   "bit": 4129,
+   "categorie": "kk",
+   "id": "kk-soul"
+  },
+  {
+   "bit": 4130,
+   "categorie": "kk",
+   "id": "kk-cruisin"
+  },
+  {
+   "bit": 4131,
+   "categorie": "kk",
+   "id": "kk-love-song"
+  },
+  {
+   "bit": 4132,
+   "categorie": "kk",
+   "id": "kk-d-and-b"
+  },
+  {
+   "bit": 4133,
+   "categorie": "kk",
+   "id": "kk-technopop"
+  },
+  {
+   "bit": 4134,
+   "categorie": "kk",
+   "id": "dj-kk"
+  },
+  {
+   "bit": 4135,
+   "categorie": "kk",
+   "id": "only-me"
+  },
+  {
+   "bit": 4136,
+   "categorie": "kk",
+   "id": "kk-country"
+  },
+  {
+   "bit": 4137,
+   "categorie": "kk",
+   "id": "surfin-kk"
+  },
+  {
+   "bit": 4138,
+   "categorie": "kk",
+   "id": "kk-ballad"
+  },
+  {
+   "bit": 4139,
+   "categorie": "kk",
+   "id": "comrade-kk"
+  },
+  {
+   "bit": 4140,
+   "categorie": "kk",
+   "id": "kk-lament"
+  },
+  {
+   "bit": 4141,
+   "categorie": "kk",
+   "id": "go-kk-rider"
+  },
+  {
+   "bit": 4142,
+   "categorie": "kk",
+   "id": "kk-dirge"
+  },
+  {
+   "bit": 4143,
+   "categorie": "kk",
+   "id": "kk-western"
+  },
+  {
+   "bit": 4144,
+   "categorie": "kk",
+   "id": "mr-kk"
+  },
+  {
+   "bit": 4145,
+   "categorie": "kk",
+   "id": "cafe-kk"
+  },
+  {
+   "bit": 4146,
+   "categorie": "kk",
+   "id": "kk-parade"
+  },
+  {
+   "bit": 4148,
+   "categorie": "kk",
+   "id": "kk-song"
+  },
+  {
+   "bit": 4149,
+   "categorie": "kk",
+   "id": "i-love-you"
+  },
+  {
+   "bit": 4150,
+   "categorie": "kk",
+   "id": "two-days-ago"
+  },
+  {
+   "bit": 4151,
+   "categorie": "kk",
+   "id": "my-place"
+  },
+  {
+   "bit": 4152,
+   "categorie": "kk",
+   "id": "forest-life"
+  },
+  {
+   "bit": 4153,
+   "categorie": "kk",
+   "id": "to-the-edge"
+  },
+  {
+   "bit": 4154,
+   "categorie": "kk",
+   "id": "pondering"
+  },
+  {
+   "bit": 4155,
+   "categorie": "kk",
+   "id": "kk-dixie"
+  },
+  {
+   "bit": 4156,
+   "categorie": "kk",
+   "id": "kk-marathon"
+  },
+  {
+   "bit": 4157,
+   "categorie": "kk",
+   "id": "king-kk"
+  },
+  {
+   "bit": 4158,
+   "categorie": "kk",
+   "id": "mountain-song"
+  },
+  {
+   "bit": 4159,
+   "categorie": "kk",
+   "id": "marine-song-2001"
+  },
+  {
+   "bit": 4160,
+   "categorie": "kk",
+   "id": "neapolitan"
+  },
+  {
+   "bit": 4161,
+   "categorie": "kk",
+   "id": "steep-hill"
+  },
+  {
+   "bit": 4162,
+   "categorie": "kk",
+   "id": "kk-rockabilly"
+  },
+  {
+   "bit": 4163,
+   "categorie": "kk",
+   "id": "agent-kk"
+  },
+  {
+   "bit": 4164,
+   "categorie": "kk",
+   "id": "kk-rally"
+  },
+  {
+   "bit": 4165,
+   "categorie": "kk",
+   "id": "kk-metal"
+  },
+  {
+   "bit": 4166,
+   "categorie": "kk",
+   "id": "stale-cupcakes"
+  },
+  {
+   "bit": 4167,
+   "categorie": "kk",
+   "id": "spring-blossoms"
+  },
+  {
+   "bit": 4168,
+   "categorie": "kk",
+   "id": "wandering"
+  },
+  {
+   "bit": 4169,
+   "categorie": "kk",
+   "id": "kk-house"
+  },
+  {
+   "bit": 4170,
+   "categorie": "kk",
+   "id": "kk-sonata"
+  }
+ ]
+}

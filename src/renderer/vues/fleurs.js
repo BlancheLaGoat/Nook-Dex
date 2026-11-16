@@ -92,7 +92,7 @@ async function afficherReglesConnues(conteneur, jeu, { especes = null, titre = t
   if (titre) conteneur.append(h('div', { class: 'titre-page' }, h('h1', {}, '🌷 Fleurs hybrides'), h('span', { class: 'sous-titre' }, `${jeu.nom} · règles connues`)));
   if (!brut || !brut.especes) { conteneur.append(h('p', { class: 'note' }, 'Pas encore de règles pour ce jeu.')); return () => {}; }
   const d = especes ? { ...brut, especes: brut.especes.filter(e => especes.includes(e.nom)), regles: brut.regles.filter(r => especes.includes(r.espece)) } : brut;
-  // Wild World : la table du jeu donne les chances de chaque enfant ; ailleurs (Nookipedia), elles ne sont pas connues.
+  // Wild World et City Folk : la table du jeu donne les chances de chaque enfant ; sans elle (Nookipedia), elles ne sont pas connues.
   const chancesConnues = reglesAvecChances(d.regles);
   conteneur.append(h('p', { class: 'note' }, chancesConnues
     ? "ℹ️ Règles et chances tirées du code du jeu. Ces fleurs n'ont pas de gènes : l'enfant ne dépend que de la couleur des parents."

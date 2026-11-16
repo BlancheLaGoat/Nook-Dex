@@ -229,10 +229,17 @@ test('anciens jeux : champ selon les règles (chances du jeu pour Wild World, pa
   c.cases[1] = { espece: 'Roses', couleur: 'blanc' };
   const ici = previsionsChampRegles(c, ww.regles).get(4)[0];
   for (const x of chancesSelonRegles(ww.regles, 'Roses', 'rouge', 'blanc')) assert.ok(Math.abs(ici.couleurs.find(y => y.couleur === x.couleur).p - x.p) < 1e-9, x.couleur);
-  // Sans chances (City Folk, d'après Nookipedia) : parts égales.
-  const enf = enfantsSelonRegles(cf.regles, 'Roses', 'rouge', 'blanc');
-  const iciCF = previsionsChampRegles(c, cf.regles).get(4)[0];
-  for (const x of iciCF.couleurs) assert.ok(Math.abs(x.p - 1 / enf.length) < 1e-9);
+  // City Folk : table du jeu aussi (main.dol), presque la même que Wild World, avec les œillets en plus.
+  assert.equal(reglesAvecChances(cf.regles), true);
+  assert.deepEqual(chancesSelonRegles(cf.regles, 'Roses', 'rouge', 'blanc'), chancesSelonRegles(ww.regles, 'Roses', 'rouge', 'blanc'));
+  assert.deepEqual(chancesSelonRegles(cf.regles, 'Cosmos', 'noir', 'rouge'), [{ couleur: 'rouge', p: 0.8 }, { couleur: 'noir', p: 0.2 }]);
+  assert.deepEqual(chancesSelonRegles(cf.regles, 'Œillets', 'rose', 'rouge'), [{ couleur: 'rouge', p: 0.4 }, { couleur: 'rose', p: 0.4 }, { couleur: 'blanc', p: 0.2 }]);
+  assert.deepEqual(chancesSelonRegles(cf.regles, 'Roses', 'or', 'or'), [{ couleur: 'jaune', p: 1 }]);
+  // Sans chances (règles de Nookipedia) : parts égales.
+  const sansChances = ww.regles.map(r => ({ espece: r.espece, parents: r.parents, enfants: r.enfants }));
+  const enf = enfantsSelonRegles(sansChances, 'Roses', 'rouge', 'blanc');
+  const iciSans = previsionsChampRegles(c, sansChances).get(4)[0];
+  for (const x of iciSans.couleurs) assert.ok(Math.abs(x.p - 1 / enf.length) < 1e-9);
   // Un couple sans règle connue n'invente rien : il est signalé.
   const d = champVide(3, 3);
   d.cases[0] = { espece: 'Roses', couleur: 'or' };
