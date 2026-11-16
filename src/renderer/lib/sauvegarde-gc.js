@@ -9,7 +9,9 @@
 //  - musée (m_museum_display.h) à 0x213A8 : 4 bits par objet (fossiles, tableaux, poissons, insectes) = qui l'a donné.
 // Une carte complète (.raw) est aussi acceptée : on y retrouve le fichier par le répertoire et la table d'allocation.
 // Vérifié sur des sauvegardes neuves des versions américaine (GAFE), européenne (GAFP) et australienne (GAFU) :
-// sommes de contrôle, joueurs et catalogue. Le musée, vide dans ces sauvegardes, reste À VÉRIFIER.
+// sommes de contrôle, joueurs et catalogue. Le musée (vide dans ces sauvegardes) est vérifié dans ac-decomp :
+// m_museum_display.h (position, parties, quartet bas = case paire), m_museum_display.c (case = objet − premier objet),
+// ac_gyo_test.c et ac_museum_insect.c (poisson / insecte de type n = ITM_FISH_START / ITM_INSECT_START + n).
 // La version japonaise (Dōbutsu no Mori+, GAFJ) a un autre format : elle est refusée.
 //
 // Ce fichier ne fait que des calculs (pas d'affichage).

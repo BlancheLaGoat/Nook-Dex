@@ -120,7 +120,8 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
   m_museum_display.h, m_shop.c, licence CC0). `npm run donnees:sauvegarde-gc` fabrique la table
   `data/gc/sauvegarde.json` (numéros de la sauvegarde -> fiches du dex). Lecture vérifiée sur les villes
   neuves de [ac-exploit-gc](https://github.com/FIX94/ac-exploit-gc) (versions US, EU, AUS ; non incluses
-  dans le dépôt). La version japonaise n'est pas prise en charge.
+  dans le dépôt). Musée vérifié dans ac-decomp (m_museum_display.c, ac_gyo_test.c, ac_museum_insect.c).
+  La version japonaise n'est pas prise en charge.
 
 - Import des sauvegardes de Wild World : organisation de la sauvegarde d'après [ACSE](https://github.com/Cuyler36/ACSE)
   (Cuyler36, licence MIT) et la documentation de [Leaflet](https://github.com/oddnebula/leaflet-wild-world)

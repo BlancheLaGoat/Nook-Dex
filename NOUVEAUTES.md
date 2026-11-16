@@ -3,6 +3,14 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.8.3
+
+### 🏛️ GameCube : le musée de la sauvegarde vérifié
+Le musée était la dernière partie d'un import de sauvegarde encore « à vérifier » : les sauvegardes qui ont servi aux tests avaient un musée vide.
+- Il est maintenant vérifié dans le **code du jeu décompilé** (projet ac-decomp) : son emplacement, ses quatre parties (fossiles, tableaux, poissons, insectes) et l'ordre de chaque objet.
+- Il était déjà lu correctement : rien ne change dans l'import, la mention « à vérifier » disparaît.
+- Désormais, l'import de sauvegarde de **tous les jeux** est vérifié.
+
 ## 1.8.2
 
 ### 🏝️ New Horizons : import et navets vérifiés sur une vraie sauvegarde

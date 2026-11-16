@@ -16,7 +16,7 @@ const LECTEURS = {
     coches: cochesImport,
     version: save => `version ${save.region || save.code}`,
     explication: "Le musée est commun à toute la ville ; le catalogue (meubles, papiers peints, sols, papeterie, morceaux de K.K.) est propre à chaque joueur.",
-    note: 'Lecture vérifiée sur des sauvegardes neuves (versions américaine, européenne et australienne) ; la partie musée reste à vérifier sur une ville plus avancée.',
+    note: 'Lecture vérifiée sur des sauvegardes neuves (versions américaine, européenne et australienne), et le rangement du musée dans le code du jeu décompilé (ac-decomp).',
   },
   ww: {
     titre: 'Ouvrir ma sauvegarde Wild World (.sav ou .dsv)',
