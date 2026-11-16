@@ -1,5 +1,5 @@
 // Tests automatiques de la synchro en ligne (src/renderer/lib/synchro.js) : code, chiffrement, fusion à trois,
-// et deux appareils (PC, téléphone) qui se synchronisent par un faux serveur qui se comporte comme le Worker de Coffre.
+// et deux appareils (PC, téléphone) qui se synchronisent par un faux serveur qui se comporte comme cloud/worker.js.
 // Lancer avec : npm test
 const test = require('node:test');
 const assert = require('node:assert');
@@ -65,14 +65,14 @@ test('fusion des profils : création et suppression se propagent, sans perdre de
   assert.deepStrictEqual(Object.keys(fusionnerProfils({ a: P('a') }, { a: P('a') }, {})), []);
 });
 
-// Faux serveur : même comportement que cloud/worker.js de Coffre (version, conflit 409, 404 si vide).
+// Faux serveur : même comportement que cloud/worker.js (version, conflit 409, 404 si vide).
 function serveur() {
   const lignes = new Map();
   let ecritures = 0;
   const fetchFn = async (url, { method, headers, body }) => {
     const id = url.split('/').pop();
     const rep = (status, objet) => ({ status, ok: status >= 200 && status < 300, json: async () => objet });
-    if (headers['X-Coffre'] !== '1') return rep(400, { error: 'client inconnu' });
+    if (headers['X-NookDex'] !== '1') return rep(400, { error: 'client inconnu' });
     const l = lignes.get(id);
     if (method === 'GET') return l ? rep(200, { ...l }) : rep(404, { error: 'vide' });
     if (method === 'DELETE') { lignes.delete(id); return rep(200, { ok: true }); }
@@ -159,4 +159,23 @@ test("conflit : un autre appareil écrit entre la lecture et l'envoi, la synchro
   const r = await synchroniser(pc.acces, pc.etat, { fetchFn: fetchAvecIntrus });
   assert.deepStrictEqual(Object.keys(r.base['p-1'].elements).sort(), ['x', 'y', 'z']);
   assert.deepStrictEqual(Object.keys(pc.profils['p-1'].elements).sort(), ['x', 'y', 'z']);
+});
+
+test('nouveau serveur (ou données en ligne supprimées) : rien ne part à la corbeille, tout est renvoyé', async () => {
+  const { synchroniser, nouveauCode } = await charger();
+  const srv = serveur();
+  const pc = appareil({ 'p-1': { id: 'p-1', nom: 'A', jeu: 'cf', elements: { x: { obtenu: true } } } });
+  // L'appareil avait déjà synchronisé ce profil (base), mais le serveur est vide.
+  pc.etat = { code: nouveauCode(), base: { 'p-1': { id: 'p-1', nom: 'A', jeu: 'cf', elements: { x: { obtenu: true } } } } };
+  const r = await synchroniser(pc.acces, pc.etat, { fetchFn: srv.fetchFn });
+  assert.deepStrictEqual(pc.corbeille, []);
+  assert.deepStrictEqual(Object.keys(r.base), ['p-1']);
+  assert.strictEqual(srv.ecritures(), 1);
+});
+
+test('connexion en direct : adresse WebSocket tirée du code', async () => {
+  const { urlDirect, identifiantDe, nouveauCode, URL_SERVEUR, ID_APPAREIL } = await charger();
+  const code = nouveauCode();
+  assert.strictEqual(await urlDirect(code), `${URL_SERVEUR.replace('https:', 'wss:')}/v1/ws/${await identifiantDe(code)}`);
+  assert.match(ID_APPAREIL, /^[0-9a-f]{16}$/);
 });

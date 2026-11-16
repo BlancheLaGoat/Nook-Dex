@@ -4,12 +4,53 @@ import { h, vider, notifier, confirmer } from '../lib/dom.js';
 import { etat, signaler, sauvegarderMaintenant, planifierSauvegarde, surChangement } from '../lib/etat.js';
 import {
   synchroniser, nouveauCode, normaliserCode, codeLisible, supprimerEnLigne, versSynchro, fusionnerProfil, empreinte, CHAMPS_PROFIL,
+  urlDirect, ID_APPAREIL,
 } from '../lib/synchro.js';
 
 let etatSynchro = null;      // { code, base, derniere, erreur } ou null (pas de synchro sur cet appareil)
 let enCours = false, encore = false, minuterie = null, statut = '';
 const abonnes = new Set();
-const prevenir = () => { for (const f of abonnes) f(); };
+const prevenir = () => { verifierConnexion(); for (const f of abonnes) f(); };
+
+// ---------- Connexion en direct : le serveur prévient dès qu'un autre appareil a envoyé quelque chose ----------
+let ws = null, codeConnecte = null, attente = 2000, reconnexion = null, battement = null, demarre = false;
+function fermerConnexion() {
+  clearTimeout(reconnexion); clearInterval(battement);
+  codeConnecte = null;
+  if (ws) { const w = ws; ws = null; w.onclose = null; try { w.close(); } catch (e) { /* déjà fermée */ } }
+}
+async function ouvrirConnexion(code) {
+  fermerConnexion();
+  codeConnecte = code;
+  let url;
+  try { url = await urlDirect(code); } catch (e) { return; }
+  if (codeConnecte !== code) return;
+  const w = new WebSocket(url);
+  ws = w;
+  w.onopen = () => {
+    attente = 2000;
+    lancer();                                                      // rattraper ce qui a pu arriver pendant la coupure
+    battement = setInterval(() => { try { w.send('ping'); } catch (e) { /* coupée */ } }, 30000);
+  };
+  w.onmessage = e => {
+    if (e.data === 'pong') return;
+    let m; try { m = JSON.parse(e.data); } catch (err) { return; }
+    if (m && m.t === 'maj' && m.source !== ID_APPAREIL) lancer();
+  };
+  w.onclose = () => {
+    if (ws !== w) return;
+    ws = null; clearInterval(battement);
+    // Coupée (réseau, téléphone en veille) : on se reconnecte, de plus en plus espacé (jusqu'à une minute).
+    reconnexion = setTimeout(() => { if (etatSynchro && etatSynchro.code === code) ouvrirConnexion(code); }, attente);
+    attente = Math.min(attente * 2, 60000);
+  };
+}
+// Ouvre, ferme ou change la connexion selon l'état de la synchro (appelée à chaque changement).
+function verifierConnexion() {
+  if (!demarre) return;
+  if (!etatSynchro) { if (codeConnecte) fermerConnexion(); return; }
+  if (codeConnecte !== etatSynchro.code) ouvrirConnexion(etatSynchro.code);
+}
 
 const enregistrerEtat = async s => { etatSynchro = s; await window.nook.ecrireSynchro(s); prevenir(); };
 
@@ -71,22 +112,28 @@ async function lancer({ manuel = false, doitExister = false } = {}) {
     if (encore) { encore = false; bientot(); }
   }
 }
-// Après une modif, on attend un peu : plusieurs coches d'affilée = un seul envoi.
-function bientot(ms = 2000) {
+// Après une modif, on attend un tout petit peu : plusieurs coches rapides d'affilée = un seul envoi.
+function bientot(ms = 300) {
   clearTimeout(minuterie);
   if (etatSynchro) minuterie = setTimeout(() => lancer(), ms);
 }
-// Quand l'appli est affichée, on regarde régulièrement s'il y a du neuf en ligne (une lecture coûte très peu).
-export const INTERVALLE_SYNCHRO = 20 * 1000;
+// Filet de sécurité si la connexion en direct est coupée sans qu'on le sache : une vérification de temps en temps.
+export const INTERVALLE_SYNCHRO = 2 * 60 * 1000;
 
-// Au démarrage de l'appli : synchro tout de suite, puis après chaque enregistrement, toutes les 20 secondes
-// tant que l'appli est affichée, et dès qu'on revient dessus (fenêtre du PC qui reprend la main, téléphone rallumé).
+// Au démarrage de l'appli : synchro tout de suite et connexion en direct (le serveur prévient dès qu'un autre
+// appareil envoie quelque chose) ; envoi juste après chaque enregistrement ; et dès qu'on revient sur l'appli.
 export async function demarrerSynchro() {
   try { etatSynchro = await window.nook.lireSynchro(); } catch (e) { etatSynchro = null; }
+  demarre = true;
   surChangement(raison => { if (raison === 'sauvegarde') bientot(); });
-  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') bientot(300); });
-  window.addEventListener('focus', () => bientot(300));
+  const auRetour = () => {
+    if (!etatSynchro) return;
+    if (!ws || ws.readyState > 1) { attente = 2000; ouvrirConnexion(etatSynchro.code); } else bientot(300);
+  };
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') auRetour(); });
+  window.addEventListener('focus', auRetour);
   setInterval(() => { if (document.visibilityState !== 'hidden') lancer(); }, INTERVALLE_SYNCHRO);
+  verifierConnexion();
   bientot(1500);
 }
 

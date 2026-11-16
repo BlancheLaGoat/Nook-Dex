@@ -187,16 +187,19 @@ Le PC et le téléphone synchronisent leurs profils par internet (Réglages → 
 un **code de synchro** relie les appareils, et les profils sont compressés puis **chiffrés sur l'appareil** (AES-GCM)
 avec une clé tirée du code.
 
-- **Serveur** : celui de Coffre, réutilisé tel quel (`https://coffre-sync.ixaglax.workers.dev`, dépôt Coffre,
-  `cloud/worker.js` + base D1). Il garde un bloc chiffré par identifiant et ne peut pas le lire. Nook Dex tire son
-  identifiant et sa clé du code avec le préfixe `nookdex-` (Coffre : `coffre-`) : les deux applis ne se mélangent jamais.
-  L'adresse est dans `src/renderer/lib/synchro.js` (`URL_SERVEUR`) et dans la politique de sécurité (CSP) de
-  `src/renderer/index.html` et `mobile/scripts/prepare-www.js`.
+- **Serveur** : celui de Nook Dex, dans `cloud/` (Cloudflare Worker + Durable Object `Synchro`, offre gratuite).
+  Une sauvegarde par code de synchro, chiffrée (le serveur ne peut pas la lire), et une **connexion en direct**
+  (WebSocket) : quand un appareil envoie une nouvelle version, le serveur prévient aussitôt les autres.
+  Déploiement : dans `cloud/`, `npx wrangler login` (une seule fois), puis `npx wrangler deploy`.
+  Pour tester sur le PC sans rien déployer : `npx wrangler dev --local`.
+  L'adresse (`https://nookdex-sync.ixaglax.workers.dev`) est dans `src/renderer/lib/synchro.js` (`URL_SERVEUR`) et dans
+  la politique de sécurité (CSP) de `src/renderer/index.html` et `mobile/scripts/prepare-www.js` (https et wss).
 - **Fusion à trois** (`src/renderer/lib/synchro.js`) : chaque appareil garde la dernière version synchronisée (« base »,
   dans `synchro.json`, jamais exporté). Pour chaque coche et chaque réglage d'un profil, ce que l'appareil a changé
   depuis la base gagne ; sinon on prend la version en ligne. Décochages et suppressions se propagent ainsi.
 - **Côté appli** (`src/renderer/vues/synchro.js`) : quand synchroniser, mise à jour du profil ouvert (une coche faite
   pendant la synchro est gardée), et la section des réglages.
-  Quand synchroniser : au démarrage, 2 s après un enregistrement, toutes les 20 s tant que l'appli est affichée, et
-  dès que la fenêtre reprend la main (PC) ou que l'appli revient au premier plan (téléphone).
+  Quand synchroniser : au démarrage, juste après un enregistrement, dès que le serveur annonce une nouvelle version
+  (connexion en direct, rétablie toute seule si elle se coupe), quand l'appli revient au premier plan, et toutes les
+  2 minutes en filet de sécurité.
 

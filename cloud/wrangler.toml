@@ -1,0 +1,15 @@
+# Serveur de synchro en ligne de Nook Dex (Cloudflare Worker + Durable Object).
+# Déploiement : dans ce dossier, « npx wrangler login » (une seule fois), puis « npx wrangler deploy ».
+# Adresse obtenue : https://nookdex-sync.<ton-sous-domaine>.workers.dev (à mettre dans src/renderer/lib/synchro.js).
+name = "nookdex-sync"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+[[durable_objects.bindings]]
+name = "SYNCHRO"
+class_name = "Synchro"
+
+# Durable Object stocké en SQLite : disponible dans l'offre gratuite de Cloudflare.
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Synchro"]

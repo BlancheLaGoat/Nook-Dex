@@ -3,6 +3,14 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.8.0
+
+### ⚡ Synchro en ligne en direct
+- Une coche faite sur un appareil apparaît sur l'autre **en moins d'une seconde**. Le serveur prévient tout de suite les appareils connectés, au lieu d'attendre qu'ils viennent vérifier.
+- Nook Dex a maintenant **son propre serveur de synchro**, séparé de celui de Coffre.
+- **Rien à refaire** : tes appareils gardent leur code. À la première synchro, ils remplissent le nouveau serveur avec tes profils, sans rien perdre.
+- Si la connexion se coupe (réseau, téléphone en veille), elle se rétablit toute seule, et l'appli rattrape ce qui a changé entre-temps.
+
 ## 1.7.1
 
 ### ☁️ Synchro en ligne : les changements arrivent beaucoup plus vite

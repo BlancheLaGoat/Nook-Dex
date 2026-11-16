@@ -1,9 +1,9 @@
 // Synchro en ligne entre le PC et le téléphone, sans compte : un « code de synchro » partagé entre tes appareils.
 //
-// Le serveur est celui de Coffre (Cloudflare Worker, dépôt BlancheLaGoat/Coffre, cloud/worker.js), réutilisé tel quel :
-// il garde un bloc par identifiant, sans pouvoir le lire. Nook Dex tire son identifiant et sa clé du code avec le
-// préfixe « nookdex- » (Coffre utilise « coffre- ») : les deux applis ne se mélangent jamais, même avec le même code.
-// Les profils sont compressés (gzip) puis chiffrés ici (AES-GCM) avant l'envoi.
+// Le serveur est celui de Nook Dex (cloud/worker.js : Cloudflare Worker + Durable Object) : il garde un bloc par
+// identifiant, sans pouvoir le lire, et prévient tout de suite les appareils connectés (WebSocket) quand il change.
+// L'identifiant et la clé sont tirés du code (préfixe « nookdex- »). Les profils sont compressés (gzip) puis chiffrés
+// ici (AES-GCM) avant l'envoi.
 //
 // Fusion « à trois » : chaque appareil garde la dernière version synchronisée (« base »). Pour chaque coche et chaque
 // réglage d'un profil, ce que CET appareil a changé depuis la base gagne ; sinon on prend la version en ligne.
@@ -12,7 +12,12 @@
 //
 // Ce fichier ne touche pas à l'affichage : la synchro reçoit de quoi lire et écrire les profils (testable seule).
 
-export const URL_SERVEUR = 'https://coffre-sync.ixaglax.workers.dev';
+export const URL_SERVEUR = 'https://nookdex-sync.ixaglax.workers.dev';
+// Cet appareil, le temps que l'appli est ouverte : le serveur l'indique dans ses notifications, pour qu'un appareil
+// ne se resynchronise pas après son propre envoi.
+export const ID_APPAREIL = Array.from(crypto.getRandomValues(new Uint8Array(8)), o => o.toString(16).padStart(2, '0')).join('');
+// Adresse de la connexion en direct (notifications) pour un code.
+export const urlDirect = async code => `${URL_SERVEUR.replace(/^http/, 'ws')}/v1/ws/${await identifiantDe(code)}`;
 
 // ---------- Code de synchro : 20 octets au hasard → 32 caractères (base 32 de Crockford, sans I, L, O, U) ----------
 const ALPHABET = '0123456789ABCDEFGHJKMNPQRSTVWXYZ';
@@ -119,7 +124,7 @@ async function appeler(code, methode, corps, fetchFn = fetch) {
   try {
     rep = await fetchFn(`${URL_SERVEUR}/v1/s/${id}`, {
       method: methode, cache: 'no-store',
-      headers: { 'X-Coffre': '1', ...(corps ? { 'Content-Type': 'application/json' } : {}) },
+      headers: { 'X-NookDex': '1', 'X-Appareil': ID_APPAREIL, ...(corps ? { 'Content-Type': 'application/json' } : {}) },
       body: corps ? JSON.stringify(corps) : undefined,
     });
   } catch (e) {
@@ -152,7 +157,9 @@ export async function synchroniser(acces, etatSynchro, { doitExister = false, fe
     const complets = await acces.lireTout();
     const local = Object.fromEntries(Object.values(complets).map(p => [p.id, versSynchro(p)]));
     // « Relier un appareil » : il n'a pas de base ; ses profils s'ajoutent à ceux en ligne.
-    const fusion = fusionnerProfils(etatSynchro.base || {}, local, distant);
+    // Rien en ligne (premier envoi, nouveau serveur, données en ligne supprimées) : la base ne compte pas, sinon les
+    // profils déjà synchronisés passeraient pour « supprimés ailleurs » ; on renvoie simplement ceux d'ici.
+    const fusion = fusionnerProfils(enLigne ? etatSynchro.base || {} : {}, local, distant);
     // Envoi d'abord : si un autre appareil a écrit entre-temps (conflit), on recommence sans avoir rien changé ici.
     if (!enLigne || empreinte(fusion) !== empreinte(distant)) {
       try {

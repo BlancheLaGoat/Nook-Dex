@@ -31,7 +31,7 @@ fs.writeFileSync(path.join(WWW, 'version.js'), `window.NOOK_VERSION = ${JSON.str
 let html = fs.readFileSync(path.join(R, 'index.html'), 'utf8');
 html = html
   .replace(/<meta http-equiv="Content-Security-Policy"[^>]*>/,
-    `<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://api.github.com https://coffre-sync.ixaglax.workers.dev">
+    `<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://api.github.com https://nookdex-sync.ixaglax.workers.dev wss://nookdex-sync.ixaglax.workers.dev">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#fbf8ef">`)
   .replace('<link rel="stylesheet" href="styles.css">', '<link rel="stylesheet" href="styles.css">\n  <link rel="stylesheet" href="mobile.css">')
