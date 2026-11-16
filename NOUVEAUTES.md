@@ -3,6 +3,14 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.8.2
+
+### 🏝️ New Horizons : import et navets vérifiés sur une vraie sauvegarde
+L'import de la sauvegarde New Horizons et les **Prix de ma sauvegarde** (navets) n'avaient été testés que sur des sauvegardes fabriquées. Ils sont maintenant vérifiés sur une **vraie sauvegarde 3.0.0**, une île de 8 habitants.
+- Tout est lu correctement : la version, les 8 habitants avec leurs noms, le musée, les objets obtenus et les navets.
+- Pour les navets, le prédicteur retrouve à 100 % le motif enregistré par le jeu (un petit pic à 197 clochettes pour un achat à 99).
+- La mention « à vérifier » disparaît de la fenêtre d'import.
+
 ## 1.8.1
 
 ### 🏛️ City Folk : le musée bien lu dans ta sauvegarde

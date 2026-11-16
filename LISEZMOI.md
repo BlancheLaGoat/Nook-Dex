@@ -142,7 +142,8 @@ Les fichiers téléchargés sont gardés dans `sources/` (non envoyé sur GitHub
 - Import des sauvegardes de New Horizons (3.0) : chiffrement, version, sommes Murmur3 et emplacements d'après
   [NHSE](https://github.com/kwsch/NHSE) (kwsch) ; numéros internes : colonnes « Internal ID » du tableur ACNH
   (`npm run donnees:sauvegarde-nh`, après `npm run donnees:nh`). Seuls les faits sont repris : le code est écrit pour
-  Nook Dex. À vérifier sur une vraie sauvegarde.
+  Nook Dex. Vérifié sur une vraie sauvegarde 3.0.0 : le modèle d'île `enctemplate.zip` de
+  [Luna](https://github.com/Ixaruz/Luna-App) (Ixaruz), non inclus dans le dépôt (navets compris : petit pic retrouvé à 100 %).
 
 ## Publier une nouvelle version
 

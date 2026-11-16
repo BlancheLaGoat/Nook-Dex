@@ -49,8 +49,8 @@ const LECTEURS = {
     coches: cochesImportNH,
     version: save => `version ${save.version}`,
     explication: "Le musée est commun à toute l'île ; les objets déjà obtenus (créatures attrapées, meubles, vêtements…) et les recettes connues sont propres à chaque habitant.",
-    noteAndroid: "Sur le téléphone : compresse en .zip le dossier exporté avec JKSV ou Checkpoint (celui qui contient main.dat et les dossiers Villager0, Villager1…), puis choisis ce fichier .zip. Seule la version 3.0 du jeu est prise en charge. À VÉRIFIER : testé seulement sur des sauvegardes fabriquées.",
-    note: "Choisis le dossier exporté avec JKSV ou Checkpoint (celui qui contient main.dat et les dossiers Villager0, Villager1…). Seule la version 3.0 du jeu est prise en charge. À VÉRIFIER : testé seulement sur des sauvegardes fabriquées.",
+    noteAndroid: "Sur le téléphone : compresse en .zip le dossier exporté avec JKSV ou Checkpoint (celui qui contient main.dat et les dossiers Villager0, Villager1…), puis choisis ce fichier .zip. Seule la version 3.0 du jeu est prise en charge. Lecture vérifiée sur une vraie sauvegarde 3.0.0.",
+    note: "Choisis le dossier exporté avec JKSV ou Checkpoint (celui qui contient main.dat et les dossiers Villager0, Villager1…). Seule la version 3.0 du jeu est prise en charge. Lecture vérifiée sur une vraie sauvegarde 3.0.0.",
   },
 };
 export const JEUX_AVEC_SAUVEGARDE = Object.keys(LECTEURS);

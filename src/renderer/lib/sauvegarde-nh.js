@@ -11,7 +11,7 @@
 //  - main.dat : musée à 0x491220 (1024 objets de 8 octets à +0x1004, numéro sur 16 bits, 0xFFFE = vide) ;
 //  - personal.dat : nom du joueur à 0xC268 (UTF-16, 10 caractères), objets déjà obtenus à 0x49938 (un bit par
 //    numéro d'objet, 0x754 octets), recettes connues à 0x6528C (un bit par numéro de recette, 0x100 octets).
-// À VÉRIFIER sur une vraie sauvegarde : testé seulement sur des sauvegardes fabriquées.
+// Vérifié sur une vraie sauvegarde 3.0.0 (le modèle d'île « enctemplate » de Luna, Ixaruz, 8 habitants) : version, sommes Murmur3, noms des 8 habitants, musée et objets obtenus.
 //
 // Ce fichier ne fait que des calculs (pas d'affichage). Le déchiffrement utilise WebCrypto (asynchrone).
 
@@ -146,7 +146,7 @@ export async function lireSauvegardeNH(fichiers) {
 // Navets : la semaine est tirée d'avance et rangée dans main.dat (TurnipStonk de NHSE, « GSaveShopKabu », à
 // 0x110 + 0x48D920 + 0x2D40) : prix d'achat, 14 prix (dimanche matin … samedi après-midi), motif (0 fluctuant,
 // 1 gros pic, 2 décroissant, 3 petit pic), tous en entiers de 32 bits. La zone est dans celle que la somme Murmur3 vérifie.
-// À VÉRIFIER sur une vraie sauvegarde, comme le reste de la lecture de New Horizons.
+// Vérifié sur une vraie sauvegarde 3.0.0 : achat 99 et 12 cours dont le prédicteur (lib/navets.js) retrouve le motif enregistré (petit pic) à 100 %.
 const NAVETS = 0x110 + 0x48D920 + 0x2D40;
 export async function navetsNH(fichiers) {
   if (!fichiers || !fichiers.main || !fichiers.mainHeader) throw new Error("Ce dossier n'est pas une sauvegarde de New Horizons : il doit contenir main.dat et mainHeader.dat.");
