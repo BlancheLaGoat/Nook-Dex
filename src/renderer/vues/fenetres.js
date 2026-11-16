@@ -134,7 +134,7 @@ export function fenetreProfils(choisirProfil) {
         h('button', { class: 'bouton petit', title: 'Exporter en JSON', onclick: async () => {
           await sauvegarderMaintenant();
           const f = await window.nook.exporterProfil(p.id);
-          if (f) notifier('Progression exportée.');
+          if (f) notifier(`Progression exportée${typeof f === 'string' ? ` : ${f}` : ''}.`);
         } }, 'Exporter'),
         h('button', { class: 'bouton petit', title: 'Supprimer', onclick: async () => {
           const ok = await confirmer('Supprimer le profil', `Supprimer « ${p.nom} » ? Il sera déplacé dans le dossier « corbeille » de Nook Dex (récupérable à la main).`, 'Supprimer', true);
@@ -172,6 +172,8 @@ function versChampDate(d) {
 
 export async function fenetreReglages(etatMaj) {
   const infos = await window.nook.infosApp();
+  const android = window.nook.plateforme === 'android';
+  const appareil = android ? 'du téléphone' : 'du PC';
   const simulee = etat.reglages.dateSimulee;
   const champDate = h('input', { type: 'datetime-local', value: versChampDate(simulee ? new Date(simulee) : new Date()) });
   const actif = h('input', { type: 'checkbox', checked: !!simulee });
@@ -184,9 +186,14 @@ export async function fenetreReglages(etatMaj) {
 
   const theme = v => h('label', { class: 'ligne' },
     h('input', { type: 'radio', name: 'theme', checked: etat.reglages.theme === v, onchange: () => enregistrerReglages({ theme: v }) }),
-    v === 'clair' ? 'Clair' : v === 'sombre' ? 'Sombre' : 'Comme Windows');
+    v === 'clair' ? 'Clair' : v === 'sombre' ? 'Sombre' : android ? 'Comme le téléphone' : 'Comme Windows');
 
-  const texteMaj = {
+  const texteMaj = android ? {
+    verification: 'Recherche de mise à jour…',
+    'a-jour': 'Nook Dex est à jour.',
+    prete: `La version ${(etatMaj && etatMaj.version) || ''} est disponible.`,
+    erreur: 'Impossible de vérifier les mises à jour pour le moment.',
+  } : {
     dev: "Mode développement : les mises à jour ne sont vérifiées que dans l'appli installée.",
     verification: 'Recherche de mise à jour…',
     'a-jour': 'Nook Dex est à jour.',
@@ -199,18 +206,20 @@ export async function fenetreReglages(etatMaj) {
   const fermer = ouvrirFenetre('Réglages', h('div', { class: 'formulaire' },
     h('label', {}, 'Thème', h('div', { class: 'choix-groupe' }, theme('clair'), theme('sombre'), theme('systeme'))),
     h('label', {}, 'Simuler une date et une heure',
-      h('label', { class: 'ligne' }, actif, 'Utiliser cette date au lieu de celle du PC'),
+      h('label', { class: 'ligne' }, actif, `Utiliser cette date au lieu de celle ${appareil}`),
       champDate,
       h('span', { class: 'aide' }, "Pratique pour préparer une saison ou si l'horloge de ta console n'est pas à l'heure. « Disponible maintenant » et « Part bientôt » utiliseront cette date."),
-      h('div', {}, h('button', { class: 'bouton petit', onclick: () => { actif.checked = false; champDate.value = versChampDate(new Date()); appliquerDate(); } }, "Revenir à l'heure du PC"))),
+      h('div', {}, h('button', { class: 'bouton petit', onclick: () => { actif.checked = false; champDate.value = versChampDate(new Date()); appliquerDate(); } }, `Revenir à l'heure ${appareil}`))),
     h('label', {}, 'Mes données',
-      h('span', { class: 'aide' }, `Profils, copies de secours et images sont rangés dans : ${infos.dossier}`),
-      h('div', {}, h('button', { class: 'bouton petit', onclick: () => window.nook.ouvrirDossier() }, 'Ouvrir le dossier'))),
+      h('span', { class: 'aide' }, android
+        ? "Profils et copies de secours sont rangés dans l'appli, sur ton téléphone. Pour les garder ailleurs, exporte ta progression (fenêtre des profils)."
+        : `Profils, copies de secours et images sont rangés dans : ${infos.dossier}`),
+      android ? null : h('div', {}, h('button', { class: 'bouton petit', onclick: () => window.nook.ouvrirDossier() }, 'Ouvrir le dossier'))),
     h('label', {}, 'Version',
       h('span', {}, `Nook Dex ${infos.version}`),
       h('div', {}, h('button', { class: 'bouton petit', onclick: () => fenetreNouveautes(infos.version) }, '✨ Quoi de neuf ?')),
       h('span', { class: 'aide' }, texteMaj[(etatMaj && etatMaj.etat) || (infos.packagee ? 'verification' : 'dev')] || ''),
-      etatMaj && etatMaj.etat === 'prete' ? h('div', {}, h('button', { class: 'bouton principal petit', onclick: () => window.nook.installerMaj() }, 'Redémarrer et installer')) : null),
+      etatMaj && etatMaj.etat === 'prete' ? h('div', {}, h('button', { class: 'bouton principal petit', onclick: () => window.nook.installerMaj() }, android ? 'Mettre à jour' : 'Redémarrer et installer')) : null),
     h('label', {}, 'Sources des données',
       h('span', { class: 'aide' }, 'Nookipedia (nookipedia.com) et les tableurs communautaires ACNH, ACNL, ACCF, ACWW et ACGC Spreadsheet (avec leurs feuilles de traductions). Les images restent la propriété de Nintendo. Nook Dex est un projet de fan non officiel.')),
     h('div', { class: 'actions' }, h('button', { class: 'bouton principal', onclick: () => fermer() }, 'Fermer')),

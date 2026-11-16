@@ -34,10 +34,12 @@ export function imageOrigine(url) {
   return m ? m[1] + m[2] : null;
 }
 
-// Image distante passée par le cache local de l'appli.
+// Image distante passée par le cache local de l'appli (sur PC) ou chargée directement (Android).
+const adresseImage = url => (window.nook && window.nook.urlImage ? window.nook.urlImage(url) : `nookimg://img/${encodeURIComponent(url)}`);
+
 export function image(url, alt = '', classe = 'vignette') {
   if (!url) return h('div', { class: `${classe} sans-image`, 'aria-hidden': 'true' }, '?');
-  const img = h('img', { class: classe, alt, loading: 'lazy', decoding: 'async', src: `nookimg://img/${encodeURIComponent(url)}` });
+  const img = h('img', { class: classe, alt, loading: 'lazy', decoding: 'async', src: adresseImage(url) });
   // Nookipedia ne fabrique pas de miniature plus grande que l'image d'origine (« …/thumb/9/99/X.png/128px-X.png »
   // répond 404) : on réessaie alors avec l'image d'origine, avant d'afficher « ? ».
   const origine = imageOrigine(url);
@@ -45,7 +47,7 @@ export function image(url, alt = '', classe = 'vignette') {
   img.addEventListener('error', () => {
     if (!origine) return echec();
     img.addEventListener('error', echec, { once: true });
-    img.src = `nookimg://img/${encodeURIComponent(origine)}`;
+    img.src = adresseImage(origine);
   }, { once: true });
   return img;
 }

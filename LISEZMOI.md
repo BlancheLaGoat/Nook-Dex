@@ -1,6 +1,6 @@
 # Nook Dex
 
-Suivi de collection pour les jeux **Animal Crossing** (application Windows, en français).
+Suivi de collection pour les jeux **Animal Crossing** (application Windows et Android, en français).
 
 > Projet de fan, non officiel. Animal Crossing et toutes les images du jeu appartiennent à Nintendo.
 
@@ -27,6 +27,8 @@ corriger un nom français ne fait rien perdre.
 ```
 src/main.js            fenêtre, sauvegarde des profils, cache des images, mises à jour
 src/preload.js         pont sécurisé entre l'interface et main.js
+src/shared/profil.js   vérification des profils et des réglages (commune au PC et à Android)
+mobile/                version Android (voir plus bas)
 src/renderer/          l'interface
   app.js               en-tête, menu, navigation
   vues/                tableau de bord, collection, fiche, profils et réglages
@@ -153,3 +155,28 @@ Les personnes qui ont Nook Dex installé reçoivent la mise à jour automatiquem
 installée à la fermeture de l'appli). Leur progression n'est jamais touchée.
 
 Pour tester l'installateur sans publier : `npm run dist` (il est créé dans `dist/`).
+
+## Version Android
+
+L'appli Android est la **même interface** (`src/renderer`), emballée avec [Capacitor](https://capacitorjs.com/).
+Seul le « pont » change : `mobile/src/mobile.js` remplace `src/preload.js` + `src/main.js`.
+
+```
+mobile/src/mobile.js           pont Android : données livrées dans l'appli, profils dans le stockage de l'appli,
+                               sélecteur de fichiers, exports dans Documents/Nook Dex, mises à jour par GitHub / Obtainium
+mobile/src/mobile.css          adaptations à l'écran d'un téléphone (menu en tiroir, fenêtres en plein écran…)
+mobile/src/zip.js              lecture des .zip (sauvegarde New Horizons : le téléphone ne sait pas choisir un dossier)
+mobile/scripts/prepare-www.js  copie l'interface, les données et le pont dans mobile/www
+mobile/scripts/patch-android.js version, Obtainium, icône et écran de démarrage du projet Android
+```
+
+- **Construire l'APK** : c'est GitHub Actions qui le fait, à chaque nouvelle version (`.github/workflows/release.yml`) ;
+  il est joint à la release sous le nom `Nook-Dex-Android.apk`. Pour préparer le projet à la main :
+  `cd mobile`, `npm install`, `npm run android` (il faut ensuite Android Studio pour compiler).
+- **Signature** : l'APK est signé avec la clé rangée dans les secrets du dépôt `ANDROID_KEYSTORE` (le fichier `.jks`
+  encodé en base64) et `ANDROID_KEYSTORE_PASSWORD`. Toujours la même clé, sinon le téléphone refuse la mise à jour.
+  Sans ces secrets, la version Windows est quand même publiée ; seul l'APK manque.
+- **Installer et mettre à jour** : dans [Obtainium](https://github.com/ImranR98/Obtainium), ajouter
+  `https://github.com/BlancheLaGoat/Nook-Dex`. L'appli vérifie aussi elle-même s'il existe une version plus récente.
+- **Tester l'interface « téléphone » sur le PC** : `node mobile/scripts/prepare-www.js`, puis ouvrir `mobile/www`
+  avec un petit serveur local dans un navigateur en taille téléphone (sans Capacitor, les profils vont dans localStorage).

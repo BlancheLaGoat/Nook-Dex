@@ -4,6 +4,7 @@ const { app, BrowserWindow, ipcMain, dialog, protocol, net, shell, nativeTheme, 
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const NookProfil = require('./shared/profil.js');
 
 let autoUpdater = null;
 try { autoUpdater = require('electron-updater').autoUpdater; } catch { autoUpdater = null; }
@@ -16,7 +17,6 @@ const DOSSIER_CORBEILLE = path.join(DOSSIER_UTILISATEUR, 'corbeille');
 const DOSSIER_IMAGES = path.join(DOSSIER_UTILISATEUR, 'images');
 const FICHIER_REGLAGES = path.join(DOSSIER_UTILISATEUR, 'reglages.json');
 const SAUVEGARDES_GARDEES = 10;
-const VERSION_SCHEMA = 1;
 
 // Seules ces adresses peuvent fournir des images (sécurité).
 const HOTES_IMAGES = new Set(['nh-cdn.catalogue.ac', 'acnhcdn.com', 'dodo.ac', 'www.animalcrossing-online.com']);
@@ -38,7 +38,7 @@ function lireJson(fichier, defaut = null) {
   try { return JSON.parse(fs.readFileSync(fichier, 'utf8')); } catch { return defaut; }
 }
 
-const ID_VALIDE = /^[a-z0-9-]+$/;
+const { ID_VALIDE } = NookProfil;
 
 // ---------------------------------------------------------------------------
 // Profils
@@ -48,37 +48,11 @@ function fichierProfil(id) {
   return path.join(DOSSIER_PROFILS, `${id}.json`);
 }
 
-function normaliserProfil(p) {
-  if (!p || typeof p !== 'object') throw new Error("Ce fichier n'est pas un profil Nook Dex.");
-  if (typeof p.jeu !== 'string' || typeof p.nom !== 'string') throw new Error("Ce fichier n'est pas un profil Nook Dex (jeu ou nom manquant).");
-  if ((p.schema || 1) > VERSION_SCHEMA) throw new Error('Ce profil vient d\'une version plus récente de Nook Dex. Mets l\'appli à jour d\'abord.');
-  return {
-    schema: VERSION_SCHEMA,
-    id: ID_VALIDE.test(p.id || '') ? p.id : nouvelId(),
-    nom: p.nom.slice(0, 60),
-    jeu: p.jeu,
-    hemisphere: p.hemisphere === 'sud' ? 'sud' : 'nord',
-    extensions: Array.isArray(p.extensions) ? p.extensions.filter(e => typeof e === 'string') : [],
-    // Nom du joueur et de la ville dans le jeu (codes d'objets du GameCube), et version du jeu.
-    joueur: {
-      nom: typeof (p.joueur && p.joueur.nom) === 'string' ? [...p.joueur.nom].slice(0, 8).join('') : '',
-      ville: typeof (p.joueur && p.joueur.ville) === 'string' ? [...p.joueur.ville].slice(0, 8).join('') : '',
-    },
-    region: p.region === 'us' ? 'us' : 'eu',
-    // Carte de la ville (outil « Ville parfaite » de Wild World) : vérifiée en détail par l'appli (lib/ville.js).
-    ...(p.ville && typeof p.ville === 'object' && !Array.isArray(p.ville) ? { ville: p.ville } : {}),
-    // Semaine de navets (prédicteur de prix) : vérifiée en détail par l'appli (lib/navets.js).
-    ...(p.navets && typeof p.navets === 'object' && !Array.isArray(p.navets) ? { navets: p.navets } : {}),
-    // Champ de fleurs hybrides (planificateur) : vérifié en détail par l'appli (lib/fleurs.js).
-    ...(p.champFleurs && typeof p.champFleurs === 'object' && !Array.isArray(p.champFleurs) ? { champFleurs: p.champFleurs } : {}),
-    cree_le: p.cree_le || new Date().toISOString(),
-    modifie_le: new Date().toISOString(),
-    elements: p.elements && typeof p.elements === 'object' ? p.elements : {},
-  };
-}
+// Vérification des profils et des réglages : commune au PC et à Android (src/shared/profil.js).
+const normaliserProfil = p => NookProfil.normaliserProfil(p, nouvelId);
 
 function nouvelId() {
-  return `p-${crypto.randomBytes(4).toString('hex')}`;
+  return NookProfil.nouvelId(n => crypto.randomBytes(n));
 }
 
 function listerProfils() {
@@ -87,7 +61,7 @@ function listerProfils() {
     .filter(f => f.endsWith('.json'))
     .map(f => lireJson(path.join(DOSSIER_PROFILS, f)))
     .filter(p => p && p.id && p.jeu)
-    .map(p => ({ id: p.id, nom: p.nom, jeu: p.jeu, hemisphere: p.hemisphere, extensions: p.extensions, nb: Object.keys(p.elements || {}).length }));
+    .map(NookProfil.resumeProfil);
 }
 
 // Copie de secours de tous les profils à chaque démarrage (on garde les 10 dernières).
@@ -299,7 +273,7 @@ function brancherIpc() {
   ipcMain.handle('profils:exporter', async (_e, id) => {
     const p = lireJson(fichierProfil(id));
     if (!p) throw new Error('Profil introuvable');
-    const nomFichier = `nook-dex-${p.jeu}-${p.nom.replace(/[^\p{L}\p{N} _-]/gu, '').trim() || 'profil'}.json`;
+    const nomFichier = NookProfil.nomExportProfil(p);
     const { canceled, filePath } = await dialog.showSaveDialog(fenetre, {
       title: 'Exporter la progression',
       defaultPath: path.join(app.getPath('documents'), nomFichier),
@@ -327,13 +301,7 @@ function brancherIpc() {
 
   ipcMain.handle('reglages:lire', () => lireJson(FICHIER_REGLAGES, {}));
   ipcMain.handle('reglages:ecrire', (_e, r) => {
-    const propre = {
-      theme: ['clair', 'sombre', 'systeme'].includes(r.theme) ? r.theme : 'systeme',
-      profilActif: typeof r.profilActif === 'string' ? r.profilActif : null,
-      dateSimulee: typeof r.dateSimulee === 'string' ? r.dateSimulee : null,
-      // Dernière version dont la fenêtre « Quoi de neuf ? » a été montrée.
-      derniereVersionVue: typeof r.derniereVersionVue === 'string' ? r.derniereVersionVue.slice(0, 20) : null,
-    };
+    const propre = NookProfil.normaliserReglages(r);
     ecrireSur(FICHIER_REGLAGES, JSON.stringify(propre, null, 1));
     nativeTheme.themeSource = propre.theme === 'clair' ? 'light' : propre.theme === 'sombre' ? 'dark' : 'system';
     return propre;

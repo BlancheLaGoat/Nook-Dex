@@ -144,7 +144,7 @@ export async function afficherVille(conteneur) {
   async function exporter() {
     try {
       const f = await window.nook.exporterJson('Exporter la carte de la ville', `ville-${profil.nom}.json`, { nook_dex: 'ville-ww', ...ville });
-      if (f) notifier('Carte exportée.');
+      if (f) notifier(`Carte exportée${typeof f === 'string' ? ` : ${f}` : ''}.`);
     } catch (e) { notifier(`Export impossible : ${e.message}`, 'erreur'); }
   }
   async function importer() {

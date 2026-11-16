@@ -1,4 +1,4 @@
-# Publie Nook Dex pour Windows dans les Releases GitHub.
+# Publie Nook Dex pour Windows et Android dans les Releases GitHub.
 #
 # Se lance tout seul à chaque push sur main :
 #  - il lit la version dans package.json (ex. 0.2.0) ;
@@ -86,6 +86,8 @@ jobs:
           echo "" >> notes.md
           echo "---" >> notes.md
           echo "Télécharge **Nook-Dex-Setup-${{ needs.verifier.outputs.version }}.exe** pour installer Nook Dex ; s'il est déjà installé, la mise à jour se fait toute seule." >> notes.md
+          echo "" >> notes.md
+          echo "Sur Android : télécharge **Nook-Dex-Android.apk**, ou ajoute https://github.com/${{ github.repository }} dans **Obtainium** pour recevoir les mises à jour." >> notes.md
           gh release view "$V" >/dev/null 2>&1 || gh release create "$V" --draft --target "${{ github.sha }}" --title "Nook Dex ${{ needs.verifier.outputs.version }}" --notes-file notes.md
 
       - name: Compiler et envoyer les fichiers
@@ -93,8 +95,82 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx electron-builder --win --publish always
 
-      - name: Publier la release
-        shell: bash
+  # Android : l'APK est construit avec Capacitor (dossier mobile/), signé avec la clé rangée dans les secrets
+  # ANDROID_KEYSTORE (fichier .jks en base64) et ANDROID_KEYSTORE_PASSWORD, puis joint à la même release.
+  publier-android:
+    needs: [verifier, publier-windows]
+    if: needs.verifier.outputs.publier == 'oui'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Vérifier la clé de signature
+        env:
+          KS: ${{ secrets.ANDROID_KEYSTORE }}
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          if [ -z "$KS" ] || [ -z "$KS_PASS" ]; then
+            echo "::error::Il manque les secrets ANDROID_KEYSTORE et/ou ANDROID_KEYSTORE_PASSWORD (voir LISEZMOI.md, partie Android)."
+            exit 1
+          fi
+
+      - name: Récupérer le code
+        uses: actions/checkout@v7
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Installer Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Préparer le projet Android
+        working-directory: mobile
+        run: |
+          npm install
+          npm run android
+
+      - name: Compiler l'APK
+        working-directory: mobile/android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon
+
+      - name: Signer l'APK
+        env:
+          KS: ${{ secrets.ANDROID_KEYSTORE }}
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: |
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          echo "$KS" | base64 -d > "$RUNNER_TEMP/nookdex.jks"
+          # Le nom (alias) de la clé est lu dans le fichier : pas besoin de le connaître.
+          ALIAS=$(keytool -list -keystore "$RUNNER_TEMP/nookdex.jks" -storepass "$KS_PASS" | grep -i -E "PrivateKeyEntry|privatekeyentry" | head -1 | cut -d, -f1)
+          [ -n "$ALIAS" ] || { echo "::error::Aucune clé privée dans ANDROID_KEYSTORE"; exit 1; }
+          "$BT/zipalign" -p -f 4 mobile/android/app/build/outputs/apk/release/app-release-unsigned.apk "$RUNNER_TEMP/aligned.apk"
+          "$BT/apksigner" sign --ks "$RUNNER_TEMP/nookdex.jks" --ks-key-alias "$ALIAS" --ks-pass env:KS_PASS --key-pass env:KS_PASS --out Nook-Dex-Android.apk "$RUNNER_TEMP/aligned.apk"
+          "$BT/apksigner" verify Nook-Dex-Android.apk
+          rm "$RUNNER_TEMP/nookdex.jks"
+
+      - name: Garder une copie dans Actions
+        uses: actions/upload-artifact@v4
+        with:
+          name: Nook-Dex-Android
+          path: Nook-Dex-Android.apk
+
+      - name: Ajouter l'APK à la release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release edit "v${{ needs.verifier.outputs.version }}" --draft=false --latest
+        run: gh release upload "v${{ needs.verifier.outputs.version }}" Nook-Dex-Android.apk --clobber --repo "${{ github.repository }}"
+
+  # La release devient publique quand Windows est prêt, même si Android a échoué (l'APK pourra être ajouté ensuite).
+  rendre-publique:
+    needs: [verifier, publier-windows, publier-android]
+    if: always() && needs.publier-windows.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publier la release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release edit "v${{ needs.verifier.outputs.version }}" --draft=false --latest --repo "${{ github.repository }}"

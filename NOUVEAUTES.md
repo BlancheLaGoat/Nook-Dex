@@ -3,6 +3,20 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.6.0
+
+### 📱 Nook Dex sur Android
+Nook Dex existe maintenant **sur téléphone Android**, avec exactement les mêmes écrans et les mêmes calculs que sur PC : collection, « Que faire maintenant ? », navets, fleurs hybrides, magasin de Nook…
+- **Installer** : télécharge **Nook-Dex-Android.apk** sur la page de la version. Ou, plus simple pour les mises à jour, ajoute `https://github.com/BlancheLaGoat/Nook-Dex` dans **Obtainium**.
+- **Mises à jour** : Nook Dex vérifie tout seul s'il existe une version plus récente. Le bouton **Mettre à jour** des réglages passe par Obtainium s'il est installé, sinon il télécharge le nouvel APK.
+- **Pensé pour le doigt** : le menu des écrans s'ouvre avec ☰, les fiches et les fenêtres prennent tout l'écran, les filtres sont plus compacts, et le bouton « retour » du téléphone ferme ce qui est ouvert.
+- **Tes données restent sur le téléphone** (profils et copies de secours automatiques). Pour passer du PC au téléphone, **exporte ta progression** d'un côté et **importe-la** de l'autre (fenêtre des profils). Sur le téléphone, les exports sont rangés dans **Documents/Nook Dex**.
+- **Import des sauvegardes de jeu** : il marche aussi sur le téléphone. Pour New Horizons, choisis le dossier de la sauvegarde **compressé en .zip**, car le téléphone ne sait pas choisir un dossier.
+- Les images sont chargées depuis internet, comme sur PC, puis gardées en cache par le téléphone.
+
+### 🛠️ Sur PC
+- Les exports (progression, carte de la ville) indiquent maintenant où le fichier a été enregistré.
+
 ## 1.5.0
 
 ### 💾 City Folk : import de ta sauvegarde

@@ -49,6 +49,7 @@ const LECTEURS = {
     coches: cochesImportNH,
     version: save => `version ${save.version}`,
     explication: "Le musée est commun à toute l'île ; les objets déjà obtenus (créatures attrapées, meubles, vêtements…) et les recettes connues sont propres à chaque habitant.",
+    noteAndroid: "Sur le téléphone : compresse en .zip le dossier exporté avec JKSV ou Checkpoint (celui qui contient main.dat et les dossiers Villager0, Villager1…), puis choisis ce fichier .zip. Seule la version 3.0 du jeu est prise en charge. À VÉRIFIER : testé seulement sur des sauvegardes fabriquées.",
     note: "Choisis le dossier exporté avec JKSV ou Checkpoint (celui qui contient main.dat et les dossiers Villager0, Villager1…). Seule la version 3.0 du jeu est prise en charge. À VÉRIFIER : testé seulement sur des sauvegardes fabriquées.",
   },
 };
@@ -131,7 +132,7 @@ export async function fenetreImportSauvegarde(jeu) {
         joueurs.map(j => h('option', { value: String(j.numero), selected: j.numero === numero }, `${j.numero}. ${j.nom || '(sans nom)'}`)))) : null,
     joueurs.length === 1 ? h('p', {}, `Joueur : ${joueurs[0].nom || 'joueur 1'}.`) : null,
     resume,
-    h('p', { class: 'note' }, 'ℹ️ ', lecteur.note),
+    h('p', { class: 'note' }, 'ℹ️ ', (window.nook.plateforme === 'android' && lecteur.noteAndroid) || lecteur.note),
     h('div', { class: 'actions' },
       h('button', { class: 'bouton', onclick: () => fermer() }, 'Annuler'),
       h('button', { class: 'bouton principal', onclick: () => { if (aAppliquer.size) appliquer(); else fermer(); } }, 'Importer')),

@@ -1,0 +1,7 @@
+{
+  "appId": "com.blanchelagoat.nookdex",
+  "appName": "Nook Dex",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "plugins": { "CapacitorHttp": { "enabled": false } }
+}

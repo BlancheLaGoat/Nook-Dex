@@ -1,0 +1,20 @@
+{
+  "name": "nook-dex-mobile",
+  "private": true,
+  "description": "Nook Dex pour Android : la même interface que sur PC, emballée avec Capacitor",
+  "scripts": {
+    "www": "node scripts/prepare-www.js",
+    "android": "node scripts/prepare-www.js && npx cap add android && node scripts/patch-android.js && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/app": "^8.0.0",
+    "@capacitor/app-launcher": "^8.0.0",
+    "@capacitor/browser": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/filesystem": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}

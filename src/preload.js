@@ -3,6 +3,9 @@
 const { contextBridge, ipcRenderer } = require('electron');
 
 contextBridge.exposeInMainWorld('nook', {
+  plateforme: 'pc',
+  // Image distante : passée par le cache local de l'appli (protocole nookimg, voir main.js).
+  urlImage: url => `nookimg://img/${encodeURIComponent(url)}`,
   jeux: () => ipcRenderer.invoke('donnees:jeux'),
   especes: () => ipcRenderer.invoke('donnees:especes'),
   categorie: (jeu, categorie) => ipcRenderer.invoke('donnees:categorie', jeu, categorie),

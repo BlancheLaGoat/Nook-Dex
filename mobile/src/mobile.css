@@ -1,0 +1,71 @@
+/* Nook Dex pour Android : adaptations à l'écran d'un téléphone (chargé après styles.css, classe body.mobile). */
+body.mobile { font-size: 15px; -webkit-tap-highlight-color: transparent; overscroll-behavior: none; }
+body.mobile #app { height: 100dvh; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); box-sizing: border-box; }
+
+/* Barre du haut : ☰, profil, puis les boutons ; l'horloge passe en petit. */
+body.mobile .barre-haut { gap: 4px; padding: 6px 8px; flex-wrap: nowrap; }
+body.mobile .logo { display: none; }
+body.mobile .espace { display: none; }
+body.mobile .bouton-menu { display: inline-grid; font-size: 20px; flex-shrink: 0; }
+body.mobile .bouton-profil { padding: 6px 10px; min-width: 0; flex: 1 1 auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+body.mobile .horloge { padding: 5px 8px; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 34vw; flex-shrink: 1; min-width: 0; }
+body.mobile .bouton-icone { width: 40px; height: 40px; flex-shrink: 0; }
+.bouton-menu { display: none; }
+
+/* Menu des écrans : tiroir qui glisse depuis la gauche. */
+body.mobile .menu {
+  position: fixed; top: 0; bottom: 0; left: 0; z-index: 25; width: min(300px, 86vw);
+  padding: calc(14px + env(safe-area-inset-top, 0px)) 10px calc(30px + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-105%); transition: transform 0.2s ease; box-shadow: var(--ombre-forte);
+}
+body.mobile.menu-ouvert .menu { transform: translateX(0); }
+.voile-menu { display: none; }
+body.mobile.menu-ouvert .voile-menu { display: block; position: fixed; inset: 0; z-index: 24; background: rgba(40, 35, 20, 0.35); }
+body.mobile .menu-lien { padding-top: 10px; padding-bottom: 10px; }
+
+/* Contenu : moins de marges, et ce qui est trop large défile sur le côté. */
+body.mobile .contenu { padding: 14px 12px 80px; }
+body.mobile .titre-page h1 { font-size: 21px; }
+body.mobile .grille { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+body.mobile .grille-cartes { grid-template-columns: 1fr; }
+body.mobile .navets-motifs, body.mobile .fleur-resultats { grid-template-columns: 1fr; }
+body.mobile .navets-saisie table, body.mobile .tableau-glossaire, body.mobile .champ-grille, body.mobile .ville-carte {
+  display: block; overflow-x: auto; max-width: 100%;
+}
+body.mobile .champ-grille, body.mobile .ville-carte { display: grid; }
+body.mobile .champ-zone, body.mobile .ville-zone { display: block; }
+body.mobile .champ-zone > *, body.mobile .ville-zone > * { max-width: 100%; overflow-x: auto; }
+body.mobile .champ-bilan, body.mobile .ville-panneau { min-width: 0; max-width: none; margin-top: 14px; }
+body.mobile .onglets-mois { grid-template-columns: repeat(6, 1fr); }
+body.mobile .fleur-parents { grid-template-columns: 1fr; }
+body.mobile .fleur-fois { text-align: center; }
+body.mobile .ligne-a-faire { grid-template-columns: 44px 1fr; }
+body.mobile .a-faire-chance, body.mobile .a-faire-depart { grid-column: 2; }
+
+/* Boutons et champs assez grands pour le doigt. */
+body.mobile .bouton { padding: 9px 16px; }
+body.mobile .bouton.petit { padding: 7px 12px; font-size: 14px; }
+body.mobile select, body.mobile input[type='number'], body.mobile input[type='text'], body.mobile input[type='search'] { min-height: 40px; font-size: 16px; }
+body.mobile .onglet { padding: 9px 14px; }
+
+/* Fiche d'un élément et fenêtres : en plein écran. */
+body.mobile .fiche { width: 100vw; max-width: none; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body.mobile.fiche-ouverte #app { margin-right: 0; }
+body.mobile .fiche-fermer { top: calc(12px + env(safe-area-inset-top, 0px)); width: 44px; height: 44px; }
+body.mobile .fond-fenetre { place-items: stretch; }
+body.mobile .fenetre, body.mobile .fenetre.large {
+  width: 100vw; max-width: none; height: 100dvh; max-height: none; border-radius: 0;
+  padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); box-sizing: border-box;
+}
+body.mobile .fenetre-corps { overflow-y: auto; }
+body.mobile .notifications { bottom: calc(16px + env(safe-area-inset-bottom, 0px)); left: 12px; right: 12px; }
+
+/* Filtres des listes : ne restent pas collés en haut (ils prendraient la moitié de l'écran), deux par ligne. */
+body.mobile .filtres { position: static; display: flex; flex-wrap: wrap; gap: 8px; }
+body.mobile .filtres select { flex: 1 1 calc(50% - 8px); min-width: 0; max-width: none; }
+body.mobile .filtres input[type='search'], body.mobile .filtres .champ-recherche { flex: 1 1 100%; max-width: none; }
+
+/* Champ de fleurs : cases un peu plus petites, pour qu'un champ de 8 cases tienne dans la largeur. */
+body.mobile .champ-case { width: 40px; height: 40px; }
+body.mobile .champ-case .vignette { width: 32px; height: 32px; }
+body.mobile .champ-prevision .vignette { width: 26px; height: 26px; }

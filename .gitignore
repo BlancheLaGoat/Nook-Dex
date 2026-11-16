@@ -2,3 +2,5 @@ node_modules/
 dist/
 sources/
 *.log
+mobile/www/
+mobile/android/

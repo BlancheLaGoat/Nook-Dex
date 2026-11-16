@@ -148,7 +148,7 @@ function dessinerHorloge() {
   el.classList.toggle('simulee', simulee);
   el.append(simulee ? '🕰️ ' : '🕒 ', d.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'long' }), ' · ',
     d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }), simulee ? ' (simulée)' : '');
-  el.title = simulee ? 'Date simulée — clique pour la changer' : "Date et heure du PC — clique pour simuler une autre date";
+  el.title = simulee ? 'Date simulée — clique pour la changer' : `Date et heure ${window.nook.plateforme === 'android' ? 'du téléphone' : 'du PC'} — clique pour simuler une autre date`;
 }
 
 // Toutes les 20 secondes : on met l'horloge à jour, et on prévient les vues quand l'heure change.
@@ -215,12 +215,20 @@ async function demarrer() {
 
   window.nook.surEtatMaj(m => {
     etatMaj = m;
-    if (m.etat === 'prete') notifier(`La version ${m.version} est prête : elle s'installera à la fermeture de Nook Dex.`);
+    if (m.etat === 'prete') {
+      notifier(window.nook.plateforme === 'android'
+        ? `La version ${m.version} de Nook Dex est disponible : va dans les réglages (⚙️) pour la mettre à jour.`
+        : `La version ${m.version} est prête : elle s'installera à la fermeture de Nook Dex.`);
+    }
   });
 
   // À la fermeture : si une coche n'est pas encore enregistrée, on l'écrit tout de suite.
   window.addEventListener('beforeunload', () => {
     if (sauvegardeEnAttente() && etat.profil) window.nook.ecrireProfilSync(etat.profil);
+  });
+  // Sur téléphone, l'appli est souvent fermée sans « beforeunload » : on enregistre dès qu'elle passe en arrière-plan.
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden' && sauvegardeEnAttente()) sauvegarderMaintenant();
   });
 
   setInterval(tic, 20000);
