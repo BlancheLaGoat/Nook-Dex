@@ -1,11 +1,12 @@
 // Fenêtre « Importer ma sauvegarde » (GameCube, Wild World, City Folk, New Leaf, New Horizons) : coche dans le profil ce que la sauvegarde du jeu contient.
 // Le fichier du jeu n'est jamais modifié, et l'import ne fait qu'ajouter des coches (il n'en enlève aucune).
 import { h, vider, notifier, ouvrirFenetre } from '../lib/dom.js';
-import { etat, etatDe, donneesCategorie, definirPlusieurs } from '../lib/etat.js';
+import { etat, etatDe, donneesCategorie, definirPlusieurs, planifierSauvegarde, signaler } from '../lib/etat.js';
 import { lireSauvegardeGC, cochesImport } from '../lib/sauvegarde-gc.js';
 import { lireSauvegardeWW, cochesImportWW } from '../lib/sauvegarde-ww.js';
 import { lireSauvegardeCF, cochesImportCF } from '../lib/sauvegarde-cf.js';
-import { lireSauvegardeNL, cochesImportNL } from '../lib/sauvegarde-nl.js';
+import { lireSauvegardeNL, cochesImportNL, badgesNL } from '../lib/sauvegarde-nl.js';
+import { lectureBadges, changementsBadges, texteChangementsBadges } from '../lib/badges.js';
 import { lireSauvegardeNH, cochesImportNH } from '../lib/sauvegarde-nh.js';
 
 // Par jeu : lecture du fichier, coches à faire, et textes de la fenêtre.
@@ -38,9 +39,10 @@ const LECTEURS = {
     titre: 'Ouvrir ma sauvegarde New Leaf (garden_plus.dat)',
     lire: lireSauvegardeNL,
     coches: cochesImportNL,
+    badges: true,
     version: () => 'Welcome amiibo',
-    explication: "Le musée est commun à toute la ville ; les objets débloqués (créatures attrapées, catalogue : meubles, vêtements, papiers peints, sols, morceaux de K.K., photos…) sont propres à chaque joueur.",
-    note: "Exporte « garden_plus.dat » avec Checkpoint ou JKSM (3DS), ou copie-le depuis Citra. Lecture vérifiée sur deux vraies villes ; l'ancien « garden.dat » (jeu jamais mis à jour en 1.5) n'est pas pris en charge.",
+    explication: "Le musée est commun à toute la ville ; les objets débloqués (créatures attrapées, catalogue : meubles, vêtements, papiers peints, sols, morceaux de K.K., photos…) et les badges d'Hélium sont propres à chaque joueur.",
+    note: "Exporte « garden_plus.dat » avec Checkpoint ou JKSM (3DS), ou copie-le depuis Citra. Lecture vérifiée sur deux vraies villes ; l'ancien « garden.dat » (jeu jamais mis à jour en 1.5) n'est pas pris en charge. Badges : niveaux vérifiés, progression vérifiée pour 9 badges sur 24 (les autres sont à vérifier).",
   },
   nh: {
     titre: 'Choisir le dossier de ma sauvegarde New Horizons',
@@ -85,11 +87,16 @@ export async function fenetreImportSauvegarde(jeu) {
     fichier = lecteur.dossier ? await window.nook.lireDossierNH(lecteur.titre) : await window.nook.lireSauvegarde(lecteur.titre, jeu.id);
   } catch (e) { notifier(`Lecture impossible : ${e.message}`, 'erreur'); return; }
   if (!fichier) return;
-  let save, correspondance;
+  let save, correspondance, defsBadges = null, badgesJoueurs = null;
   try {
     save = await lecteur.lire(fichier.octets);
     correspondance = await donneesCategorie(jeu.id, 'sauvegarde');
     if (!correspondance || !correspondance.musee) throw new Error('les données de correspondance du jeu manquent');
+    if (lecteur.badges) {
+      defsBadges = ((await donneesCategorie(jeu.id, 'badges')) || {}).badges;
+      if (!defsBadges) throw new Error('les données des badges manquent');
+      badgesJoueurs = badgesNL(fichier.octets);
+    }
   } catch (e) { notifier(`Import impossible : ${e.message}`, 'erreur'); return; }
 
   const joueurs = save.joueurs.filter(j => j.existe);
@@ -98,18 +105,25 @@ export async function fenetreImportSauvegarde(jeu) {
   const resume = h('div');
   let fermer;
   let aAppliquer = new Map();
+  // Badges (New Leaf) : lecture du joueur choisi, et ce qu'elle change par rapport à celle gardée dans le profil.
+  let badges = null, texteBadges = null;
 
   const dessiner = () => {
     vider(resume);
     aAppliquer = nouveautesImport(lecteur.coches(save, correspondance, numero), etatDe);
-    if (!aAppliquer.size) { resume.append(h('p', { class: 'aide' }, 'Rien de nouveau : tout ce que contient la sauvegarde est déjà coché dans ce profil.')); return; }
+    if (defsBadges) {
+      badges = lectureBadges(defsBadges, save, badgesJoueurs, correspondance, numero);
+      texteBadges = texteChangementsBadges(changementsBadges(defsBadges, etat.profil.badges, badges), badges);
+    }
+    if (!aAppliquer.size && !texteBadges) { resume.append(h('p', { class: 'aide' }, 'Rien de nouveau : tout ce que contient la sauvegarde est déjà dans ce profil.')); return; }
     const lignes = [...aAppliquer].map(([cat, x]) => {
       const morceaux = [];
       if (x.obtenu.length) morceaux.push(`${x.obtenu.length} à cocher`);
       if (x.musee.length) morceaux.push(`${x.musee.length} au musée`);
       return h('li', {}, h('strong', {}, NOMS_CATEGORIES[cat] || cat), ' : ', morceaux.join(', '));
     });
-    resume.append(h('p', {}, "L'import va ajouter :"), h('ul', {}, lignes));
+    if (texteBadges) lignes.push(h('li', {}, h('strong', {}, "badges d'Hélium"), ' : ', texteBadges));
+    resume.append(h('p', {}, "L'import va changer :"), h('ul', {}, lignes));
   };
 
   const appliquer = () => {
@@ -119,8 +133,9 @@ export async function fenetreImportSauvegarde(jeu) {
       if (x.musee.length) definirPlusieurs(cat, x.musee, 'musee', true);
       n += x.obtenu.length + x.musee.length;
     }
+    if (texteBadges) { etat.profil.badges = badges; planifierSauvegarde(); signaler('badges'); }
     fermer();
-    notifier(`Sauvegarde importée : ${n} élément${n > 1 ? 's' : ''} ajouté${n > 1 ? 's' : ''}.`);
+    notifier(`Sauvegarde importée : ${n} élément${n > 1 ? 's' : ''} ajouté${n > 1 ? 's' : ''}${texteBadges ? ', badges mis à jour' : ''}.`);
   };
 
   dessiner();
@@ -135,6 +150,6 @@ export async function fenetreImportSauvegarde(jeu) {
     h('p', { class: 'note' }, 'ℹ️ ', (window.nook.plateforme === 'android' && lecteur.noteAndroid) || lecteur.note),
     h('div', { class: 'actions' },
       h('button', { class: 'bouton', onclick: () => fermer() }, 'Annuler'),
-      h('button', { class: 'bouton principal', onclick: () => { if (aAppliquer.size) appliquer(); else fermer(); } }, 'Importer')),
+      h('button', { class: 'bouton principal', onclick: () => { if (aAppliquer.size || texteBadges) appliquer(); else fermer(); } }, 'Importer')),
   ], { large: true });
 }

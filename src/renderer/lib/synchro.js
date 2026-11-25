@@ -74,7 +74,10 @@ export async function ouvrir(code, texte) {
 
 // ---------- Fusion ----------
 // Ce qui se synchronise dans un profil (pas « modifie_le » ni « schema », propres à chaque appareil).
-export const CHAMPS_PROFIL = ['nom', 'jeu', 'hemisphere', 'extensions', 'joueur', 'region', 'navets', 'ville', 'champFleurs', 'cree_le'];
+export const CHAMPS_PROFIL = ['nom', 'jeu', 'hemisphere', 'extensions', 'joueur', 'region', 'navets', 'ville', 'champFleurs', 'badges', 'cree_le'];
+// Champs remplis seulement par un import de sauvegarde, jamais effacés exprès : si la version en ligne ne les a pas
+// (envoyée par un appareil d'une version plus ancienne, qui ne les connaît pas), cet appareil garde les siens.
+const CHAMPS_IMPORT = ['badges'];
 // JSON aux clés triées : deux objets égaux donnent toujours le même texte, quel que soit l'ordre des clés.
 export function empreinte(x) {
   if (x === undefined) return 'undefined';
@@ -93,7 +96,8 @@ const choisir = (base, local, distant) => (empreinte(local) !== empreinte(base) 
 export function fusionnerProfil(base = {}, local, distant) {
   const r = { id: local.id };
   for (const c of CHAMPS_PROFIL) {
-    const v = choisir(base[c], local[c], distant[c]);
+    let v = choisir(base[c], local[c], distant[c]);
+    if (v === undefined && CHAMPS_IMPORT.includes(c)) v = local[c];
     if (v !== undefined) r[c] = v;
   }
   const b = base.elements || {}, l = local.elements || {}, d = distant.elements || {};

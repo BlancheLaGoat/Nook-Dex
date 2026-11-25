@@ -16,6 +16,7 @@ import { afficherAFaire } from './vues/a-faire.js';
 import { afficherNavets } from './vues/navets.js';
 import { afficherFleurs } from './vues/fleurs.js';
 import { afficherNook } from './vues/nook.js';
+import { afficherBadges } from './vues/badges.js';
 import { demarrerSynchro } from './vues/synchro.js';
 
 // Jeux qui ont l'écran des navets (tous ont un prédicteur ; voir vues/navets.js).
@@ -43,13 +44,16 @@ async function afficherVue(vue) {
   if (vue.type === 'accueil') {
     nettoyerVue = afficherAccueil(contenu, jeu, id => afficherVue(['evenements', 'a-faire'].includes(id) ? { type: id } : { type: 'categorie', id }));
   } else if (vue.type === 'a-faire') {
-    nettoyerVue = afficherAFaire(contenu, jeu);
+    nettoyerVue = afficherAFaire(contenu, jeu, () => afficherVue({ type: 'badges' }));
   } else if (vue.type === 'fleurs') {
     if (!JEUX_FLEURS.includes(jeu.id)) return afficherVue({ type: 'accueil' });
     nettoyerVue = await afficherFleurs(contenu, jeu);
   } else if (vue.type === 'nook') {
     if (jeu.id !== 'ww') return afficherVue({ type: 'accueil' });
     nettoyerVue = await afficherNook(contenu, jeu);
+  } else if (vue.type === 'badges') {
+    if (jeu.id !== 'nl') return afficherVue({ type: 'accueil' });
+    nettoyerVue = await afficherBadges(contenu, jeu);
   } else if (vue.type === 'navets') {
     if (!JEUX_NAVETS.includes(jeu.id)) return afficherVue({ type: 'accueil' });
     nettoyerVue = afficherNavets(contenu, jeu);
@@ -119,6 +123,7 @@ function dessinerMenu() {
   if (JEUX_FLEURS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'fleurs', '🌷', 'Fleurs hybrides', null, () => afficherVue({ type: 'fleurs' })));
   if (jeu.id === 'ww') menu.append(lien(etat.vue.type === 'nook', '🏪', 'Magasin de Nook et Doigts de fée', null, () => afficherVue({ type: 'nook' })));
   if (JEUX_NAVETS.includes(jeu.id)) menu.append(lien(etat.vue.type === 'navets', '🥬', 'Navets (prix de la semaine)', null, () => afficherVue({ type: 'navets' })));
+  if (jeu.id === 'nl') menu.append(lien(etat.vue.type === 'badges', '🎖️', "Badges d'Hélium", null, () => afficherVue({ type: 'badges' })));
 }
 
 // Seule la ligne de la catégorie cochée change : on la redessine sans tout reconstruire.

@@ -147,6 +147,40 @@ export function navetsNL(octets) {
   return { achat, cours };
 }
 
+// ---------------------------------------------------------------------------
+// Badges (remis par Hélium) : niveau de chaque badge et compteurs de progression, pour chaque joueur.
+// ---------------------------------------------------------------------------
+// Dans chaque joueur (NLSE de kwsch, notes de Le0X8) :
+//  - + 0x55DC : 24 valeurs chiffrées (une par badge, dans l'ordre de data/nl/badges.json), puis + 0xD8 une valeur
+//    inconnue et + 0xE0 le bénéfice total des navets ;
+//  - + 0x569C : 24 octets, niveau de chaque badge (0 = aucun, 1 = bronze, 2 = argent, 3 = or) ;
+//  - + 0x56C4 : points HHA de la maison (i32) ; + 0x6B8C : banque (valeur chiffrée) ; + 0x6BB0 : temps de jeu (secondes, u64).
+// Vérifié sur 61 sauvegardes successives d'une vraie ville (Le0X8) et sur des garden.dat partagés (archive.org) : le compteur
+// d'insectes suit l'encyclopédie, celui des mauvaises herbes celles qui disparaissent de la carte, celui des achats le
+// porte-monnaie, et les compteurs collent aux badges obtenus (seuils de Nookipedia). Une valeur illisible donne null.
+const BADGES = 0x55DC, NIVEAUX_BADGES = 0x569C, NB_BADGES = 24;
+export function badgesNL(octets) {
+  const o = octets instanceof Uint8Array ? octets : new Uint8Array(octets);
+  if (o.length !== TAILLE_WA) throw new Error("Ce fichier n'est pas une sauvegarde de New Leaf - Welcome amiibo (« garden_plus.dat »).");
+  const vue = new DataView(o.buffer, o.byteOffset, o.byteLength);
+  return [0, 1, 2, 3].map(n => {
+    const p = DEBUT_JOUEURS + n * TAILLE_JOUEUR;
+    const id = u16(o, p + 0x55A6);
+    const temps = vue.getBigUint64(p + 0x6BB0, true);
+    return {
+      numero: n + 1,
+      nom: texteUtf16(o, p + 0x55A8, 8),
+      existe: id !== 0 && id !== 0xFFFF,
+      niveaux: Array.from(o.subarray(p + NIVEAUX_BADGES, p + NIVEAUX_BADGES + NB_BADGES), x => (x <= 3 ? x : null)),
+      compteurs: Array.from({ length: NB_BADGES }, (_, i) => valeurChiffree(o, p + BADGES + i * 8)),
+      navets: valeurChiffree(o, p + BADGES + 0xE0),
+      banque: valeurChiffree(o, p + 0x6B8C),
+      temps: temps < 0x7FFFFFFFn ? Number(temps) : null,
+      hha: vue.getInt32(p + 0x56C4, true),
+    };
+  });
+}
+
 // Ce que l'import cocherait (seulement des ajouts) : [{ categorie, id, obtenu: true, musee?: true }].
 export function cochesImportNL(save, correspondance, numeroJoueur) {
   const res = new Map();

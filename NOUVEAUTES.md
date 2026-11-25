@@ -3,6 +3,27 @@
 Chaque version a sa partie, qui commence par « ## » suivi du numéro de version.
 Ce texte s'affiche dans l'appli (fenêtre « Quoi de neuf ? ») et sur la page de la version sur GitHub.
 
+## 1.9.0
+
+### 🎖️ New Leaf : les badges d'Hélium (à vérifier)
+Un nouvel écran **Badges d'Hélium** dans les profils New Leaf : les 24 badges, ton niveau pour chacun (bronze, argent, or) et ce qu'il te manque pour le suivant, par exemple « encore 312 poissons pour l'or ».
+- Les badges sont lus dans ta sauvegarde (`garden_plus.dat`), avec le bouton **Lire ma sauvegarde…** ou le même import que pour le musée. Avant d'appliquer, Nook Dex montre ce qui change. Ta sauvegarde n'est jamais modifiée.
+- Si ta ville a plusieurs habitants, choisis le joueur dans la fenêtre d'import.
+- **Tu joues sur console sans pouvoir copier ta sauvegarde ?** Le bouton **Saisir à la main** te laisse choisir le niveau de chaque badge (comme sur ta carte de résident) et, si tu le connais, ton compteur. Laisse le compteur vide si tu ne le connais pas : Nook Dex n'invente rien. Tout est enregistré tout de suite et passe dans la synchro.
+- Tu peux aussi corriger à la main après un import. Si tu importes ensuite ta sauvegarde, la fenêtre te prévient qu'elle remplace ce que tu as saisi.
+- Le filtre **Pas encore en or** cache les badges déjà terminés.
+- Quand le seuil est atteint mais qu'Hélium ne t'a pas encore donné le badge, la carte le dit : « bronze à récupérer auprès d'Hélium ».
+- **Que faire maintenant ?** montre aussi les 3 badges à aller chercher en premier : ceux à récupérer, puis les plus proches de leur palier suivant.
+- Pas de lecture en direct : pour mettre à jour, relis ta sauvegarde, comme pour les navets.
+- Les badges passent dans la synchro entre le PC et le téléphone. Un appareil qui n'est pas encore à jour ne les efface pas.
+
+**Ce qui est vérifié, et ce qui ne l'est pas encore :**
+- **Le niveau des 24 badges : vérifié** sur de vraies sauvegardes, au même endroit que l'éditeur NLSE (comparé avec son code, pas avec ce qu'il affiche).
+- **La progression de 9 badges : vérifiée** (poissons pêchés, insectes attrapés, plongée, épargne, navets, médailles de l'île, mauvaises herbes, achats, services aux habitants). Sur 61 sauvegardes successives d'une vraie ville, les compteurs suivent le jeu : un insecte de plus dans l'encyclopédie, une mauvaise herbe de moins sur la carte, 1 000 clochettes de moins dans le porte-monnaie… Et sur d'autres villes, ils collent aux badges déjà obtenus.
+- **La progression des 15 autres : à vérifier**, et marquée ainsi sur leur carte. Elle est lue, mais aucune vraie sauvegarde n'a permis de la contrôler. Pour le catalogue, le total exact du jeu n'est pas connu : le pourcentage est approché.
+- **Les noms français des badges sont à vérifier** : aucune source officielle n'a été trouvée. Ils viennent d'un site de fans.
+- Les seuils viennent de Nookipedia. Les badges des rêves ne peuvent plus être gagnés depuis la fermeture du Nintendo Network (avril 2024).
+
 ## 1.8.3
 
 ### 🏛️ GameCube : le musée de la sauvegarde vérifié

@@ -37,6 +37,9 @@
       ...(p.navets && typeof p.navets === 'object' && !Array.isArray(p.navets) ? { navets: p.navets } : {}),
       // Champ de fleurs hybrides (planificateur) : vérifié en détail par l'appli (lib/fleurs.js).
       ...(p.champFleurs && typeof p.champFleurs === 'object' && !Array.isArray(p.champFleurs) ? { champFleurs: p.champFleurs } : {}),
+      // Badges de New Leaf lus dans la sauvegarde (24 niveaux et 24 valeurs) : vérifiés en détail par l'appli (lib/badges.js).
+      ...(p.badges && typeof p.badges === 'object' && Array.isArray(p.badges.niveaux) && p.badges.niveaux.length === 24
+        && Array.isArray(p.badges.valeurs) && p.badges.valeurs.length === 24 ? { badges: p.badges } : {}),
       cree_le: p.cree_le || new Date().toISOString(),
       modifie_le: new Date().toISOString(),
       elements: p.elements && typeof p.elements === 'object' ? p.elements : {},

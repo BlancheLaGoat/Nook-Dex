@@ -2,10 +2,12 @@
 // les plus faciles d'abord (ou les plus rares), avec le lieu, la chance par tirage et quand elles partent.
 // Les calculs sont dans lib/a-faire.js ; sans taux pour le jeu, on n'affiche que la disponibilité.
 import { h, vider, image, ajouterA } from '../lib/dom.js';
-import { etat, donneesChargees, etatDe, maintenant, surChangement, rareteDe } from '../lib/etat.js';
+import { etat, donneesChargees, donneesCategorie, etatDe, maintenant, surChangement, rareteDe } from '../lib/etat.js';
 import { listeAFaire, texteDepart, UNITE_TIRAGE } from '../lib/a-faire.js';
+import { etatBadges, badgesAFaire, texteProgression, normaliserBadges, MEDAILLES } from '../lib/badges.js';
 import { formaterPourcent } from '../lib/rarete.js';
 import { ouvrirFiche } from './fiche.js';
+import { origineBadges } from './badges.js';
 
 // Réglages de la page, gardés le temps de la session.
 const choixPage = { manque: 'obtenu', ordre: 'faciles', categorie: '' };
@@ -37,7 +39,29 @@ function texteSansChance(l) {
 }
 export const texteTirages = l => (l.tirages ? `environ ${l.tirages.toLocaleString('fr-FR')} ${UNITE_TIRAGE[l.cat.id] || 'tirages'}` : null);
 
-export function afficherAFaire(conteneur, jeu) {
+// Badges d'Hélium (New Leaf) à aller chercher : les mêmes calculs que l'écran Badges (lib/badges.js).
+function sectionBadges(defs, allerVersBadges) {
+  const lecture = normaliserBadges(etat.profil.badges);
+  const bouton = allerVersBadges ? h('button', { class: 'bouton petit', style: { marginLeft: 'auto' }, onclick: allerVersBadges }, 'Voir tous les badges') : null;
+  if (!lecture) {
+    return h('div', { class: 'section' }, h('h2', {}, "🎖️ Badges d'Hélium", bouton),
+      h('p', { class: 'aide' }, 'Lis ta sauvegarde, ou saisis tes badges à la main, depuis l\'écran des badges pour voir ceux qui sont presque gagnés.'));
+  }
+  const pistes = badgesAFaire(etatBadges(defs, lecture), 3);
+  return h('div', { class: 'section' }, h('h2', {}, "🎖️ Badges à aller chercher", bouton),
+    pistes.length
+      ? h('div', { class: 'liste-mini' }, pistes.map(e => h('span', { class: 'puce-element' },
+        `${MEDAILLES[e.aRecuperer || e.cible || 0]} ${e.def.groupe}`, h('span', { class: 'aide' }, ` ${texteProgression(e)}`),
+        !e.aRecuperer && !e.def.verifie ? h('span', { class: 'a-verifier', style: { marginLeft: '6px' } }, 'à vérifier') : null)))
+      : h('p', { class: 'aide' }, 'Aucun badge proche dont la progression est connue.'),
+    h('p', { class: 'aide' }, `${origineBadges(lecture, iso => iso.split('-').reverse().join('/'))}. Mets-les à jour depuis l'écran des badges.`));
+}
+
+export function afficherAFaire(conteneur, jeu, allerVersBadges = null) {
+  let defsBadges = null;
+  let ouvert = true;
+  if (jeu.id === 'nl') donneesCategorie(jeu.id, 'badges').then(d => { defsBadges = (d && d.badges) || null; if (defsBadges && ouvert) dessiner(); })
+    .catch(() => {}); // sans les données des badges, la page montre seulement les créatures
   const dessiner = () => {
     const defilement = conteneur.scrollTop;
     requestAnimationFrame(() => { conteneur.scrollTop = defilement; });
@@ -67,6 +91,7 @@ export function afficherAFaire(conteneur, jeu) {
         ? 'Chance par tirage = la chance que le jeu choisisse cette espèce quand il fait apparaître une ombre ou un insecte, au meilleur endroit. « Environ N » = le nombre moyen de tirages pour tomber dessus (1 / chance).'
         : "Pas de taux d'apparition pour ce jeu : la liste montre seulement ce qui est disponible maintenant."),
     );
+    if (defsBadges) conteneur.append(sectionBadges(defsBadges, allerVersBadges));
 
     if (!lignes.length) {
       conteneur.append(h('p', { class: 'note' }, choixPage.manque === 'musee'
@@ -96,7 +121,8 @@ export function afficherAFaire(conteneur, jeu) {
   };
 
   dessiner();
-  return surChangement(raison => {
-    if (['coche', 'coches', 'heure', 'reglages', 'profil'].includes(raison)) dessiner();
+  const arreter = surChangement(raison => {
+    if (['coche', 'coches', 'heure', 'reglages', 'profil', 'badges'].includes(raison)) dessiner();
   });
+  return () => { ouvert = false; arreter(); };
 }
